@@ -176,19 +176,21 @@
   .sentence-marker { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1px solid var(--syntax-purple); border-radius: 50%; color: var(--syntax-purple); font-size: 8px; font-weight: bold; cursor: pointer; margin: 0 2px; vertical-align: middle; opacity: 0.5; transition: opacity 0.15s; }
   .sentence:hover .sentence-marker { opacity: 1; }
 
-  /* ============ TOKEN TIERS (4-tier) ============ */
-  .tk { cursor: pointer; transition: background 0.15s; }
-  .tk-basic { border-bottom: 1px dotted rgba(168,168,168,0.3); padding: 0 1px; }
-  .tk-normal { border-bottom: 1px dotted var(--ed-amber-faded); padding: 0 1px; }
+  /* ============ TOKEN TIERS (4-tier) ============
+     全 tier に最低限可視な下線/マーカーを保証して「下線あり = タップ可能」を一貫させる。
+     basic も塗りつぶしの下線で識別可能にしつつ、視覚的ノイズは抑える。 */
+  .tk { cursor: pointer; transition: background 0.15s, box-shadow 0.15s; border-radius: 2px; }
+  .tk-basic { border-bottom: 1px dotted rgba(120,120,120,0.55); padding: 0 1px; }
+  .tk-normal { border-bottom: 1px dotted rgba(196,135,10,0.65); padding: 0 1px; }
   .tk-key { border-bottom: 1.5px dotted var(--ed-amber); padding: 0 1px; }
   .tk-frequent { background: linear-gradient(180deg, transparent 50%, var(--highlight-yellow) 50%); padding: 0 3px; font-weight: 600; }
-  .tk:hover { background: rgba(196,135,10,0.18); }
+  .tk:hover { background: rgba(196,135,10,0.22); box-shadow: 0 0 0 2px rgba(196,135,10,0.22); }
 
   /* ============ EXPRESSIONS (2-tier) ============ */
-  .expr { cursor: pointer; transition: filter 0.15s; }
+  .expr { cursor: pointer; transition: filter 0.15s, box-shadow 0.15s; }
   .expr-normal { background: var(--highlight-blue); padding: 1px 4px; border-radius: 4px; border-bottom: 1.5px solid #6a9ddc; }
   .expr-frequent { background: var(--highlight-blue-strong); padding: 1px 6px; border-radius: 4px; border: 1.5px solid #4f7eb8; font-weight: 600; }
-  .expr:hover { filter: brightness(0.95); }
+  .expr:hover { filter: brightness(0.94); box-shadow: 0 0 0 2px rgba(79,126,184,0.3); }
 
   /* ============ MODAL (slide-up) ============ */
   .modal-backdrop { position: fixed; inset: 0; background: rgba(44,38,24,0.4); z-index: 200; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
@@ -212,6 +214,23 @@
   .modal-context { font-size: 14px; color: var(--ink-soft); line-height: 1.75; }
   .modal-collocations { display: flex; flex-wrap: wrap; gap: 6px; }
   .modal-collocation { background: var(--tag-bg); border: 1px solid var(--line); padding: 4px 10px; border-radius: 4px; font-size: 12px; font-family: 'Fraunces', serif; color: var(--ink-soft); }
+  /* 元の Talk へジャンプするリンク(モーダル下部) */
+  .modal-talk-link {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-top: 12px; padding: 12px 16px;
+    background: rgba(196,135,10,0.08);
+    border: 1px solid rgba(196,135,10,0.3);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px; color: var(--ed-amber);
+    transition: background 0.15s, transform 0.1s;
+    text-align: left;
+  }
+  .modal-talk-link:hover { background: rgba(196,135,10,0.15); }
+  .modal-talk-link:active { transform: scale(0.98); }
+  .modal-talk-link-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-amber); margin-bottom: 4px; }
+  .modal-talk-link-title { font-family: 'Fraunces', serif; font-size: 14px; color: var(--ink-soft); font-weight: 500; line-height: 1.4; }
+  .modal-talk-link-arrow { font-size: 18px; color: var(--ed-amber); margin-left: 12px; flex-shrink: 0; }
 
   /* ============ SEARCH RESULTS ============ */
   .search-results { display: flex; flex-direction: column; gap: 12px; }
@@ -1188,15 +1207,23 @@ function renderFavorites() {
       <div class="fav-talk-group">
         <div class="fav-talk-title">${t ? t.title : talkId}</div>
         ${items.map(item => `
-          <div class="fav-item">
+          <div class="fav-item" onclick="openFavItem('${item.type}','${item.ref}','${item.talk_id}')" style="cursor: pointer;">
             <div class="fav-item-surface">${item.surface}</div>
             <div class="fav-item-meaning">${item.meaning || ''}</div>
-            <span class="fav-item-remove" onclick="removeFav('${item.type}','${item.ref}','${item.talk_id}')">✕</span>
+            <span class="fav-item-remove" onclick="event.stopPropagation();removeFav('${item.type}','${item.ref}','${item.talk_id}')">✕</span>
           </div>
         `).join('')}
       </div>
     `;
   }).join('');
+}
+// お気に入り項目クリック → 完全モーダル(words 辞書/expressions 辞書/sentence から正規データを引いて表示)
+function openFavItem(type, ref, talkId) {
+  if (type === 'word' || type === 'expression') {
+    openTokenModal(talkId, ref, type, '');
+  } else if (type === 'sentence') {
+    openSentenceModal(talkId, ref);
+  }
 }
 function removeFav(type, ref, talk_id) {
   toggleFavorite({ type, ref, talk_id });
@@ -1343,6 +1370,7 @@ function openTokenModal(talkId, ref, type, surface) {
       </div>` : ''}
     `;
   }
+  const talkTitleEsc = (t.title || '').replace(/"/g, '&quot;');
   document.getElementById('modalContent').innerHTML = `
     <div class="modal-tier">${e.tier === 'frequent' ? '★ ' : ''}${type} · ${e.tier}</div>
     <div class="modal-surface-row">
@@ -1351,6 +1379,13 @@ function openTokenModal(talkId, ref, type, surface) {
     </div>
     <div class="modal-pos-pron">${e.pos} · ${e.pron}</div>
     ${sectionsHTML}
+    <div class="modal-talk-link" onclick="event.stopPropagation();gotoTalk('${t.date}')">
+      <div>
+        <div class="modal-talk-link-label">📖 元の Talk</div>
+        <div class="modal-talk-link-title">${talkTitleEsc}</div>
+      </div>
+      <div class="modal-talk-link-arrow">→</div>
+    </div>
   `;
   document.getElementById('modal').classList.add('open');
   document.getElementById('modalBackdrop').classList.add('open');
@@ -1385,9 +1420,21 @@ function openSentenceModal(talkId, sentId) {
         </div>
       `).join('')}
     </div>
+    <div class="modal-talk-link" onclick="event.stopPropagation();gotoTalk('${t.date}')">
+      <div>
+        <div class="modal-talk-link-label">📖 元の Talk</div>
+        <div class="modal-talk-link-title">${(t.title || '').replace(/"/g, '&quot;')}</div>
+      </div>
+      <div class="modal-talk-link-arrow">→</div>
+    </div>
   `;
   document.getElementById('modal').classList.add('open');
   document.getElementById('modalBackdrop').classList.add('open');
+}
+// モーダルを閉じてから talk 詳細を開く(検索結果やお気に入りからの遷移用)
+function gotoTalk(date) {
+  closeModal();
+  setTimeout(() => openTalkDetail(date), 280); // モーダルのスライドダウン完了を少し待つ
 }
 function modalToggleFav(type, ref, surface, meaning) {
   toggleFavorite({ type, ref, talk_id: currentModalTalkId, surface, meaning });
