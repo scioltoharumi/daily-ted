@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Daily TED — Interactive Mockup v5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --ink-soft: #2a2a2a;
+    --ink-muted: #6b6b6b;
+    --ink-faded: #a8a8a8;
+    --paper: #fafaf7;
+    --paper-warm: #f4f1ea;
+    --paper-card: #ffffff;
+    --line: #e8e4d8;
+    --line-soft: #f0ecdf;
+    --ted-red: #e62b1e;
+    --ed-amber: #c4870a;
+    --ed-amber-soft: #fdf6e3;
+    --highlight-yellow: #fff09c;
+    --highlight-yellow-soft: #fff8d4;
+    --highlight-blue: #e7f0ff;
+    --highlight-blue-strong: #c8dcff;
+    --highlight-purple: #f3ebf7;
+    --sent-bar: #b88dd1;
+    --shadow-card: 0 1px 2px rgba(0,0,0,0.04), 0 8px 24px rgba(0,0,0,0.04);
+    --shadow-modal: 0 -8px 32px rgba(0,0,0,0.18);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { background: var(--paper); color: var(--ink); font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+  body { padding: 32px 16px 80px; max-width: 720px; margin: 0 auto; }
+
+  .showcase-header { text-align: center; margin: 0 auto 24px; }
+  .showcase-header h1 { font-family: 'Fraunces', serif; font-weight: 800; font-size: clamp(28px, 5vw, 40px); letter-spacing: -0.03em; line-height: 1.05; }
+  .showcase-header h1 em { font-style: italic; font-weight: 500; color: var(--ted-red); }
+  .showcase-header p { font-size: 13px; color: var(--ink-muted); margin-top: 8px; }
+  .showcase-header .meta { display: inline-flex; gap: 12px; margin-top: 12px; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faded); }
+  .showcase-header .meta span:before { content: '· '; }
+  .showcase-header .meta span:first-child:before { content: ''; }
+
+  /* Legend with 4 tiers */
+  .legend { background: var(--paper-card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 0 auto 24px; max-width: 480px; }
+  .legend-title { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px dashed var(--line); }
+  .legend-row { display: flex; align-items: center; gap: 10px; font-size: 12px; line-height: 1.5; color: var(--ink-soft); margin-bottom: 6px; }
+  .legend-row:last-child { margin-bottom: 0; }
+  .legend-sample { font-family: 'Fraunces', serif; font-size: 14px; flex-shrink: 0; min-width: 100px; text-align: center; }
+  .legend-text { color: var(--ink-muted); font-size: 11px; }
+  .legend-text b { color: var(--ink-soft); font-weight: 500; }
+  .legend-divider { border-top: 1px dashed var(--line); margin: 8px 0; }
+
+  .app-frame {
+    max-width: 480px;
+    margin: 0 auto;
+    background: var(--paper);
+    border-radius: 32px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.12), 0 8px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    position: relative;
+    min-height: 720px;
+  }
+
+  .app-bar { display: flex; align-items: center; justify-content: space-between; padding: 20px 20px 12px; background: var(--paper); position: sticky; top: 0; z-index: 50; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+  .app-bar.scrolled { border-bottom-color: var(--line); background: rgba(250, 250, 247, 0.92); backdrop-filter: blur(8px); }
+  .app-bar .brand { font-family: 'Fraunces', serif; font-weight: 800; font-size: 22px; letter-spacing: -0.02em; }
+  .app-bar .brand em { font-style: italic; font-weight: 500; color: var(--ted-red); }
+  .app-bar .right { display: flex; gap: 8px; }
+  .app-bar .icon-btn { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); background: var(--paper-card); cursor: pointer; transition: transform 0.1s; }
+  .app-bar .icon-btn:active { transform: scale(0.95); }
+  .app-bar .icon-btn svg { width: 16px; height: 16px; }
+
+  .video-wrap { background: #000; position: relative; }
+  .video-aspect { aspect-ratio: 16/9; width: 100%; }
+  .video-aspect iframe { width: 100%; height: 100%; border: 0; display: block; }
+  .video-meta-strip { background: var(--ink); color: white; padding: 8px 16px; display: flex; justify-content: space-between; align-items: center; font-size: 11px; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em; }
+  .video-meta-strip .src-tag { padding: 3px 8px; border-radius: 4px; }
+  .video-meta-strip .src-tag.ed { background: var(--ed-amber); color: white; }
+  .video-meta-strip .right { display: flex; gap: 12px; opacity: 0.7; }
+
+  .reader-body { padding: 24px 20px 40px; }
+  .reader-meta-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .reader-meta-left { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ed-amber); letter-spacing: 0.05em; font-weight: 600; }
+  .reader-actions { display: flex; gap: 8px; }
+  .reader-actions .icon-btn-sm { width: 32px; height: 32px; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); background: var(--paper-card); cursor: pointer; transition: transform 0.1s; }
+  .reader-actions .icon-btn-sm:active { transform: scale(0.92); }
+  .reader-actions .icon-btn-sm svg { width: 14px; height: 14px; color: var(--ink-soft); }
+
+  .reader-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 28px; line-height: 1.1; letter-spacing: -0.025em; margin-bottom: 8px; }
+  .reader-byline { font-size: 13px; color: var(--ink-muted); margin-bottom: 20px; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
+
+  .context-card { background: var(--paper-warm); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; margin-bottom: 24px; }
+  .context-card .label { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-amber); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+  .context-card .label:before { content: ''; width: 12px; height: 1px; background: var(--ed-amber); }
+  .context-card h4 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 15px; margin-bottom: 8px; letter-spacing: -0.01em; }
+  .context-card p { font-size: 13px; line-height: 1.6; color: var(--ink-soft); }
+  .context-card p + p { margin-top: 8px; }
+  .context-card .toggle-detail { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ed-amber); cursor: pointer; margin-top: 10px; display: inline-flex; align-items: center; gap: 4px; user-select: none; }
+  .context-card .extra { display: none; margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--line); }
+  .context-card.expanded .extra { display: block; }
+
+  /* Transcript */
+  .transcript { font-family: 'Fraunces', serif; font-size: 17px; line-height: 1.85; color: var(--ink); letter-spacing: -0.005em; margin-top: 8px; }
+  .transcript .para { margin-bottom: 24px; position: relative; padding-left: 16px; }
+  .transcript .timestamp { 
+    font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-faded); 
+    display: block; margin-bottom: 6px; letter-spacing: 0.05em; margin-left: -16px;
+  }
+
+  /* Sentence container */
+  .sent {
+    display: inline;
+    position: relative;
+    cursor: text;
+    transition: background 0.2s;
+    border-radius: 3px;
+    padding: 0 1px;
+  }
+  .sent[data-sent]:hover { background: rgba(184, 141, 209, 0.10); }
+  .sent[data-sent].active { background: var(--highlight-purple); }
+  
+  .sent-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px; height: 16px;
+    border: 1px solid var(--sent-bar);
+    border-radius: 50%;
+    color: var(--sent-bar);
+    font-size: 8px;
+    margin-left: 3px;
+    cursor: pointer;
+    transition: all 0.15s;
+    vertical-align: 1px;
+    background: var(--paper-card);
+    font-weight: bold;
+    user-select: none;
+  }
+  .sent-icon:hover { background: var(--sent-bar); color: white; transform: scale(1.15); }
+  .sent[data-sent].active .sent-icon { background: var(--sent-bar); color: white; }
+  
+  .sent[data-sent]:hover::before,
+  .sent[data-sent].active::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0; bottom: 0;
+    width: 3px;
+    background: var(--sent-bar);
+    border-radius: 2px;
+    opacity: 0.7;
+  }
+
+  /* ============ 4-TIER WORD STYLING ============ */
+  
+  /* Tier 1: BASIC - 固有名詞・冠詞・基本語(装飾なし、薄いタップ可能インジケータ) */
+  .w {
+    cursor: pointer;
+    position: relative;
+    transition: background 0.15s;
+    padding: 0 1px;
+    border-radius: 2px;
+  }
+  .w.basic { 
+    border-bottom: 1px dotted rgba(168, 168, 168, 0.3);
+  }
+  .w.basic:hover { background: rgba(168, 168, 168, 0.1); border-bottom-color: var(--ink-faded); }
+  .w.basic.active { background: rgba(168, 168, 168, 0.15); border-bottom-color: var(--ink-soft); }
+
+  /* Tier 2: NORMAL - 一般的に学習価値のある語(薄い琥珀ドット下線) */
+  .w.normal { border-bottom: 1px dotted rgba(196, 135, 10, 0.5); }
+  .w.normal:hover { background: var(--ed-amber-soft); border-bottom-color: var(--ed-amber); }
+  .w.normal.active { background: var(--ed-amber-soft); border-bottom-color: var(--ed-amber); }
+
+  /* Tier 3: KEY - 学習価値が特に高い(濃い琥珀ドット下線) */
+  .w.key { 
+    border-bottom: 1.5px dotted var(--ed-amber); 
+    color: var(--ink);
+  }
+  .w.key:hover { background: var(--ed-amber-soft); }
+  .w.key.active { background: var(--ed-amber-soft); }
+
+  /* Tier 4: FREQUENT - 必修頻出語(黄色マーカー＋太字) */
+  .w.frequent {
+    background: linear-gradient(180deg, transparent 50%, var(--highlight-yellow) 50%);
+    font-weight: 600;
+    padding: 0 3px;
+    border-radius: 2px;
+  }
+  .w.frequent:hover { background: linear-gradient(180deg, transparent 30%, var(--highlight-yellow) 30%); }
+  .w.frequent.active { background: var(--highlight-yellow); }
+
+  /* ============ EXPRESSION STYLING (2-tier) ============ */
+  
+  /* Normal expression: 青背景 */
+  .expr {
+    cursor: pointer;
+    background: var(--highlight-blue);
+    padding: 1px 4px;
+    border-radius: 4px;
+    border-bottom: 1.5px solid #6a9ddc;
+    transition: filter 0.15s;
+  }
+  .expr:hover { filter: brightness(0.94); }
+  .expr.active { filter: brightness(0.88); }
+
+  /* Frequent expression: 強い青背景＋太字＋枠線 */
+  .expr.frequent {
+    background: var(--highlight-blue-strong);
+    font-weight: 600;
+    border: 1.5px solid #4f7eb8;
+    padding: 1px 6px;
+  }
+
+  /* Italic foreign words */
+  .transcript em.foreign { font-style: italic; color: var(--ink-soft); border-bottom: 1px dotted var(--ink-faded); cursor: pointer; padding: 0 1px; }
+  .transcript em.foreign:hover { background: rgba(168, 168, 168, 0.15); }
+
+  /* ============ Modal ============ */
+  .modal-backdrop {
+    position: fixed; inset: 0; background: rgba(20, 18, 14, 0.5);
+    z-index: 100; opacity: 0; pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+  .modal-backdrop.show { opacity: 1; pointer-events: auto; }
+
+  .modal {
+    position: fixed; bottom: 0; left: 50%; transform: translateX(-50%) translateY(100%);
+    width: 100%; max-width: 480px;
+    background: var(--paper-card);
+    border-radius: 24px 24px 0 0;
+    box-shadow: var(--shadow-modal);
+    z-index: 101;
+    padding: 16px 20px 28px;
+    max-height: 85vh;
+    overflow-y: auto;
+    transition: transform 0.3s cubic-bezier(0.32, 0.72, 0.18, 1);
+  }
+  .modal.show { transform: translateX(-50%) translateY(0); }
+
+  .modal-handle { width: 40px; height: 4px; background: var(--ink-faded); opacity: 0.4; border-radius: 2px; margin: 0 auto 16px; cursor: pointer; }
+
+  .modal-head-row { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; }
+  .modal-surface { font-family: 'Fraunces', serif; font-weight: 600; font-size: 28px; letter-spacing: -0.02em; line-height: 1.15; word-break: break-word; }
+  .modal-surface.expr { font-size: 22px; }
+  .modal-surface.sent { font-size: 16px; line-height: 1.35; font-weight: 500; }
+  .modal-tag { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 9px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
+  .modal-tag.basic { background: #f0eee5; color: var(--ink-muted); }
+  .modal-tag.normal { background: var(--ed-amber-soft); color: var(--ed-amber); }
+  .modal-tag.key { background: var(--ed-amber-soft); color: var(--ed-amber); font-weight: 600; }
+  .modal-tag.frequent { background: var(--highlight-yellow); color: #8a6d00; font-weight: 700; }
+  .modal-tag.expr { background: var(--highlight-blue); color: #4f7eb8; }
+  .modal-tag.expr-frequent { background: var(--highlight-blue-strong); color: #4f7eb8; font-weight: 700; }
+  .modal-tag.sent { background: var(--highlight-purple); color: #7a4f9a; }
+  
+  .modal-pron { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--ink-muted); margin-bottom: 18px; display: flex; align-items: center; gap: 8px; }
+  .modal-pron .speaker { cursor: pointer; opacity: 0.6; padding: 2px 6px; border-radius: 4px; }
+  .modal-pron .speaker:hover { opacity: 1; background: var(--paper-warm); }
+
+  .modal-section { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px dashed var(--line); }
+  .modal-section:last-of-type { border-bottom: none; }
+  .modal-section-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+  .modal-section-label:before { content: ''; width: 12px; height: 1px; background: var(--ink-faded); }
+
+  .modal-translation { font-family: 'Fraunces', serif; font-weight: 500; font-size: 17px; line-height: 1.4; color: var(--ink); }
+  .modal-example { font-family: 'Fraunces', serif; font-size: 14px; line-height: 1.5; color: var(--ink-soft); font-style: italic; }
+  .modal-example b { font-style: normal; background: var(--highlight-yellow); padding: 0 2px; font-weight: 600; }
+  .modal-example-ja { font-size: 12px; color: var(--ink-muted); margin-top: 4px; }
+  .modal-context { font-size: 13px; line-height: 1.6; color: var(--ink-soft); }
+
+  .colloc-list { display: flex; flex-wrap: wrap; gap: 6px; }
+  .colloc-chip { font-size: 12px; padding: 5px 10px; border-radius: 999px; background: var(--paper-warm); border: 1px solid var(--line); color: var(--ink-soft); }
+
+  .syntax-tree { background: var(--paper-warm); border-radius: 10px; padding: 14px 16px; }
+  .syntax-element { display: flex; gap: 10px; margin-bottom: 8px; align-items: flex-start; }
+  .syntax-element:last-child { margin-bottom: 0; }
+  .syntax-label { font-family: 'JetBrains Mono', monospace; font-size: 10px; padding: 3px 7px; background: white; border: 1px solid var(--line); border-radius: 4px; flex-shrink: 0; min-width: 70px; text-align: center; color: var(--ink-soft); letter-spacing: 0.04em; }
+  .syntax-content { font-family: 'Fraunces', serif; font-size: 14px; line-height: 1.4; color: var(--ink); padding-top: 2px; }
+  .syntax-content em { color: var(--ink-muted); font-style: italic; font-size: 12px; display: block; margin-top: 2px; font-family: 'Inter', sans-serif; }
+
+  .modal-actions { display: flex; gap: 8px; margin-top: 8px; }
+  .modal-btn { flex: 1; padding: 12px 16px; border-radius: 12px; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; border: none; font-family: 'Inter', sans-serif; transition: transform 0.1s; }
+  .modal-btn:active { transform: scale(0.98); }
+  .modal-btn.primary { background: var(--ink); color: white; }
+  .modal-btn.primary.saved { background: var(--ed-amber); }
+  .modal-btn.secondary { background: var(--paper-warm); color: var(--ink-soft); border: 1px solid var(--line); }
+
+  .toast {
+    position: fixed; top: 24px; left: 50%; transform: translateX(-50%) translateY(-80px);
+    background: var(--ink); color: white; padding: 10px 18px; border-radius: 999px;
+    font-size: 13px; font-weight: 500; z-index: 200;
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  }
+  .toast.show { transform: translateX(-50%) translateY(0); }
+
+  .footer-note { 
+    text-align: center; padding: 24px 20px; 
+    color: var(--ink-faded); font-size: 11px; 
+    font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em; 
+    border-top: 1px solid var(--line); margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+<div class="showcase-header">
+  <h1>Daily TED <em>·</em> Interactive v5</h1>
+  <p>強調レベル4階層 · 固有名詞はbasic</p>
+  <div class="meta">
+    <span>v5 mockup</span>
+    <span>4-tier emphasis</span>
+  </div>
+</div>
+
+<div class="legend">
+  <div class="legend-title">単語の強調レベル</div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="border-bottom: 1px dotted rgba(168,168,168,0.3); padding: 0 1px;">Italy</span></span>
+    <span class="legend-text"><b>basic</b>:固有名詞・冠詞・基本語</span>
+  </div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="border-bottom: 1px dotted rgba(196,135,10,0.5); padding: 0 1px;">babies</span></span>
+    <span class="legend-text"><b>normal</b>:一般的な学習対象語</span>
+  </div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="border-bottom: 1.5px dotted #c4870a; padding: 0 1px;">goofy</span></span>
+    <span class="legend-text"><b>key</b>:学習価値が特に高い語</span>
+  </div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="background: linear-gradient(180deg, transparent 50%, #fff09c 50%); padding: 0 3px; font-weight: 600;">involves</span></span>
+    <span class="legend-text"><b>★ frequent</b>:必修頻出・応用が効く語</span>
+  </div>
+  <div class="legend-divider"></div>
+  <div class="legend-title">表現・文</div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="background:#e7f0ff; padding:1px 4px; border-radius:4px; border-bottom:1.5px solid #6a9ddc;">expression</span></span>
+    <span class="legend-text"><b>expression</b>:イディオム・コロケーション</span>
+  </div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="background:#c8dcff; padding:1px 6px; border-radius:4px; border:1.5px solid #4f7eb8; font-weight:600;">★ might as well</span></span>
+    <span class="legend-text"><b>★ frequent expr</b>:必修・実用度高い表現</span>
+  </div>
+  <div class="legend-row">
+    <span class="legend-sample"><span style="display:inline-flex; align-items:center; gap:4px;">sentence<span style="display:inline-flex; align-items:center; justify-content:center; width:14px; height:14px; border:1px solid #b88dd1; border-radius:50%; color:#b88dd1; font-size:7px; font-weight:bold;">⌘</span></span></span>
+    <span class="legend-text">⌘ <b>構文解析</b> · ホバーで対象範囲表示</span>
+  </div>
+</div>
+
+<div class="app-frame">
+  <div class="app-bar" id="appBar">
+    <div class="brand">Daily<em>TED</em></div>
+    <div class="right">
+      <div class="icon-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </div>
+      <div class="icon-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-wrap">
+    <div class="video-aspect">
+      <iframe 
+        src="https://embed.ted.com/talks/ted_ed_the_fascinating_reason_you_loved_peek_a_boo" 
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="The fascinating reason you loved peek-a-boo"></iframe>
+    </div>
+    <div class="video-meta-strip">
+      <div style="display:flex; gap:10px; align-items:center;">
+        <span class="src-tag ed">TED-Ed</span>
+        <span>5:08</span>
+      </div>
+      <div class="right">
+        <span>Apr 2026</span>
+        <span>183K plays</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="reader-body">
+    <div class="reader-meta-row">
+      <div class="reader-meta-left">PSYCHOLOGY · CHILD DEVELOPMENT</div>
+      <div class="reader-actions">
+        <div class="icon-btn-sm">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        </div>
+        <div class="icon-btn-sm">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.6" y1="13.5" x2="15.4" y2="17.5"/><line x1="15.4" y1="6.5" x2="8.6" y2="10.5"/></svg>
+        </div>
+      </div>
+    </div>
+    
+    <h2 class="reader-title">The fascinating reason you loved peek-a-boo</h2>
+    <p class="reader-byline">TED-Ed · narrated by Alexandra Panzer</p>
+
+    <div class="context-card" id="contextCard">
+      <div class="label">Background</div>
+      <h4>このTalkで知っておきたい背景</h4>
+      <p>「いないいないばあ」(peek-a-boo)は、ほぼ全文化に存在する乳児向けの遊び。本Talkは、なぜ赤ちゃんがこの単純な遊びを楽しむのかを、発達心理学のキー概念<b>「対象の永続性(object permanence)」</b>から解説する。</p>
+      <div class="toggle-detail" onclick="document.getElementById('contextCard').classList.toggle('expanded'); this.querySelector('.arrow').textContent = document.getElementById('contextCard').classList.contains('expanded') ? '▲' : '▼'">
+        <span>もっと詳しく</span><span class="arrow">▼</span>
+      </div>
+      <div class="extra">
+        <p><b>対象の永続性</b>:発達心理学者ジャン・ピアジェが提唱した概念。生後8〜12ヶ月頃に獲得される認知能力で、「物が見えなくなっても存在し続けている」と理解できるようになる発達上のマイルストーン。</p>
+        <p><b>ナレーター</b>:Alexandra Panzer(TED-Edの常連ナレーター。教育コンテンツ向けの聞き取りやすい標準英語)。アニメーションは Homework Studio。</p>
+        <p><b>関連分野</b>:発達心理学 / 認知発達 / Serve-and-return理論</p>
+      </div>
+    </div>
+
+    <div class="transcript">
+      <div class="para">
+        <span class="timestamp">0:00</span>
+        <span class="sent" data-sent="s1">In <span class="w basic" data-word="italy">Italy</span>, <span class="w basic" data-word="it">it's</span> <span class="w normal" data-word="called">called</span> <em class="foreign" data-word="il_gioco">il gioco del cucù</em>. <span class="w basic" data-word="palestinians">Palestinians</span> <span class="w basic" data-word="say">say</span> <em class="foreign" data-word="ba_eno">ba' 'éno</em>. And in <span class="w basic" data-word="japan">Japan</span>, it's <em class="foreign" data-word="inainaiba">inaīnaibā</em>.<span class="sent-icon" data-sent="s1">⌘</span></span>
+        <span class="sent" data-sent="s2"> <span class="w basic" data-word="peekaboo">Peek-a-boo</span> is a <span class="w key" data-word="universal">near universal</span> <span class="w normal" data-word="source">source</span> of <span class="w normal" data-word="laughter">laughter</span> and <span class="w frequent" data-word="connection">connection</span> for <span class="w key" data-word="infants">infants</span> and <span class="w basic" data-word="adults">adults</span> — it's the <span class="w basic" data-word="first">first</span> <span class="w basic" data-word="game">game</span> that <span class="w basic" data-word="almost">almost</span> <span class="w basic" data-word="everyone">everyone</span> <span class="w basic" data-word="plays">plays</span>.<span class="sent-icon" data-sent="s2">⌘</span></span>
+      </div>
+
+      <div class="para">
+        <span class="timestamp">0:32</span>
+        <span class="sent" data-sent="s3">So what is it about this <span class="w key" data-word="goofy">goofy</span> <span class="w basic" data-word="game">game</span> that <span class="w basic" data-word="babies">babies</span> <span class="w basic" data-word="love">love</span> so <span class="w basic" data-word="much">much</span>?<span class="sent-icon" data-sent="s3">⌘</span></span>
+        <span class="sent" data-sent="s4"> The <span class="w normal" data-word="answer">answer</span> <span class="w frequent" data-word="involves">involves</span> a <span class="w frequent" data-word="fascinating">fascinating</span> <span class="expr" data-expr="developmental_milestone">developmental milestone</span> <span class="w normal" data-word="known_as">known as</span> <span class="w key" data-word="object_permanence">object permanence</span> — and it <span class="w frequent" data-word="explains">explains</span> a lot about how <span class="w key" data-word="cognition">human cognition</span> first <span class="expr frequent" data-expr="takes_shape">takes shape</span>.<span class="sent-icon" data-sent="s4">⌘</span></span>
+      </div>
+
+      <div class="para">
+        <span class="timestamp">1:12</span>
+        <span class="sent" data-sent="s5">For the first <span class="w basic" data-word="few">few</span> <span class="w normal" data-word="months">months</span> of life, <span class="w basic" data-word="babies">babies</span> <span class="w frequent" data-word="seem">seem</span> to <span class="w frequent" data-word="operate">operate</span> <span class="w basic" data-word="under">under</span> a <span class="expr frequent" data-expr="oosoom">"out of sight, out of mind"</span> <span class="w frequent" data-word="principle">principle</span>.<span class="sent-icon" data-sent="s5">⌘</span></span>
+        <span class="sent" data-sent="s6"> If a <span class="w basic" data-word="toy">toy</span> <span class="w normal" data-word="disappears">disappears</span> <span class="w basic" data-word="behind">behind</span> a <span class="w normal" data-word="blanket">blanket</span>, it <span class="expr frequent" data-expr="might_as_well">might as well</span> have <span class="w key" data-word="ceased">ceased</span> to <span class="w normal" data-word="exist">exist</span>.<span class="sent-icon" data-sent="s6">⌘</span></span>
+        <span class="sent" data-sent="s7"> But <span class="w basic" data-word="somewhere">somewhere</span> <span class="w basic" data-word="around">around</span> eight <span class="w normal" data-word="months">months</span>, that <span class="w basic" data-word="begins">begins</span> to <span class="w basic" data-word="change">change</span>.<span class="sent-icon" data-sent="s7">⌘</span></span>
+      </div>
+
+      <div class="para">
+        <span class="timestamp">1:48</span>
+        <span class="sent" data-sent="s8">This <span class="w frequent" data-word="shift">shift</span>, which the <span class="w key" data-word="psychologist">psychologist</span> <span class="w basic" data-word="piaget">Jean Piaget</span> <span class="w key" data-word="famously">famously</span> <span class="w normal" data-word="called">called</span> <em class="foreign" data-word="object_permanence_em">object permanence</em>, <span class="w frequent" data-word="marks">marks</span> one of the most <span class="w key" data-word="consequential">consequential</span> <span class="w frequent" data-word="cognitive">cognitive</span> <span class="expr" data-expr="cognitive_leap">leaps</span> a <span class="w basic" data-word="human">human</span> <span class="w basic" data-word="ever">ever</span> <span class="w basic" data-word="makes">makes</span>.<span class="sent-icon" data-sent="s8">⌘</span></span>
+        <span class="sent" data-sent="s9"> <span class="w frequent" data-word="suddenly">Suddenly</span>, the <span class="w basic" data-word="world">world</span> isn't just what's in front of you — it <span class="w key" data-word="persists">persists</span>, even when <span class="w normal" data-word="hidden">hidden</span>.<span class="sent-icon" data-sent="s9">⌘</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer-note">Mockup v5 · 4階層強調 · 固有名詞はbasic扱い</div>
+
+<div class="modal-backdrop" id="modalBg" onclick="closeModal()"></div>
+<div class="modal" id="modal">
+  <div class="modal-handle" onclick="closeModal()"></div>
+  <div id="modalContent"></div>
+</div>
+
+<div class="toast" id="toast">★ Saved</div>
+
+<script>
+  // 単語レベルのメタ情報も含める
+  const wordData = {
+    universal: { tier: "key", surface: "universal", pos: "adj · B2", pron: "/ˌjuː.nɪˈvɝː.səl/", meaning: "普遍的な、世界共通の", example: { en: "Music is a <b>universal</b> language.", ja: "音楽は世界共通の言葉だ。" }, context: "ラテン語のuniversalis(全体に関する)が語源。near universal で「ほぼ普遍的」。", collocations: ["universal truth", "universal experience", "universally accepted", "near universal"] },
+    goofy: { tier: "key", surface: "goofy", pos: "adj · B2", pron: "/ˈɡuː.fi/", meaning: "ばかげた、まぬけな(愛嬌のあるニュアンス)", example: { en: "She made a <b>goofy</b> face to make the baby laugh.", ja: "赤ちゃんを笑わせようと、彼女は変な顔をした。" }, context: "\"silly\"より親しみがあり、軽蔑的でない。子ども・動物・コミカルな大人の言動を温かく形容。Disney映画のキャラクターGoofy(犬)が語のイメージを定着させた。", collocations: ["goofy smile", "goofy face", "act goofy", "goofy grin"] },
+    infants: { tier: "key", surface: "infants", pos: "noun · B1", pron: "/ˈɪn.fənts/", meaning: "乳児、幼児(通常0〜1歳)", example: { en: "<b>Infants</b> learn languages remarkably quickly.", ja: "乳児は驚くほど早く言葉を覚える。" }, context: "babyより形式的・専門的で、医学・心理学・教育の文脈でよく使われる。toddler(よちよち歩きの子・1〜3歳)とは区別される。", collocations: ["newborn infants", "infant mortality", "infant care"] },
+    
+    // FREQUENT(必修頻出語)
+    connection: { tier: "frequent", surface: "connection", pos: "noun · A2", pron: "/kəˈnek.ʃən/", meaning: "つながり、接続、関連", example: { en: "There's a strong <b>connection</b> between exercise and health.", ja: "運動と健康の間には強いつながりがある。" }, context: "物理的な接続(電気・通信)から人間関係の繋がりまで幅広い。in connection with(~に関連して)はビジネス文書で頻出。日常会話・ビジネス・学術すべてで頻用される必修語。", collocations: ["strong connection", "internet connection", "in connection with", "make connections"] },
+    involves: { tier: "frequent", surface: "involves", pos: "verb · B1", pron: "/ɪnˈvɒlvz/", meaning: "~を含む、~を伴う、~に関わる", example: { en: "The job <b>involves</b> a lot of travel.", ja: "その仕事は出張が多い。" }, context: "「必然的にそれを含む」の意。学術論文・ビジネス文書で極めて頻出。be involved in(関与する)、involvement(関与・関わり)も派生語として必修。", collocations: ["involve risk", "involve effort", "be involved in", "get involved"] },
+    fascinating: { tier: "frequent", surface: "fascinating", pos: "adj · B1", pron: "/ˈfæs.ɪ.neɪ.tɪŋ/", meaning: "魅力的な、興味をそそる、心を奪うような", example: { en: "It was a <b>fascinating</b> book.", ja: "それは興味深い本だった。" }, context: "interestingより強い感情を伴う。fascinate(魅了する)の現在分詞形。語源はラテン語のfascinare(魔法をかける)。会話・記事・プレゼンなどで日常的に使われる。", collocations: ["fascinating story", "absolutely fascinating", "fascinating to watch"] },
+    explains: { tier: "frequent", surface: "explains", pos: "verb · A2", pron: "/ɪkˈspleɪnz/", meaning: "~を説明する、~の理由を述べる", example: { en: "She <b>explained</b> the rules clearly.", ja: "彼女はルールを明確に説明した。" }, context: "「explain to + 人」または「explain that + 文」が基本構造。tellとの違い:tellは情報を伝える、explainは理解させる。あらゆる文脈で必須の動詞。", collocations: ["explain why", "explain to someone", "explain that", "let me explain"] },
+    seem: { tier: "frequent", surface: "seem", pos: "verb · A2", pron: "/siːm/", meaning: "~のように見える、~のように思える", example: { en: "She <b>seems</b> happy.", ja: "彼女は幸せそうに見える。" }, context: "seem to V / seem + 形容詞 / seem like + 名詞 / seem that ... の4パターン。appearよりも個人的印象、look よりも知的判断を含む。会話で極めて頻出の必修語。", collocations: ["seem to be", "seem like", "it seems that", "as it seems"] },
+    operate: { tier: "frequent", surface: "operate", pos: "verb · B1", pron: "/ˈɒp.ə.reɪt/", meaning: "(機械を)操作する、(原則・ルールに)基づいて動く、手術する", example: { en: "Babies <b>operate</b> under different rules than adults.", ja: "赤ちゃんは大人とは違うルールで動いている。" }, context: "本文では「~の原則に基づいて行動する/機能する」の意味。複数の意味:①機械を操作 ②(企業が)事業を行う ③手術する ④(原則として)機能する。ビジネス・科学・医療すべてで頻出。", collocations: ["operate a machine", "operate under", "operate on a patient", "operating system"] },
+    principle: { tier: "frequent", surface: "principle", pos: "noun · B1", pron: "/ˈprɪn.sə.pəl/", meaning: "原則、原理、(行動の)主義", example: { en: "She lives by strong moral <b>principles</b>.", ja: "彼女は強固な道徳的信念に従って生きている。" }, context: "principal(主要な、校長)と発音は同じだがスペル違い、混同注意。物理学のような「法則」、または個人の「信条」のどちらにも使える。in principle(原則として)は頻出フレーズ。", collocations: ["basic principle", "moral principle", "in principle", "matter of principle"] },
+    shift: { tier: "frequent", surface: "shift", pos: "noun · B1", pron: "/ʃɪft/", meaning: "変化、転換、(勤務の)シフト", example: { en: "There has been a major <b>shift</b> in public opinion.", ja: "世論には大きな変化があった。" }, context: "changeより「方向転換」のニュアンス。動詞・名詞両方使える。a paradigm shift(パラダイムシフト)は思考枠組みの根本的変化を表す重要熟語。日常・ビジネス両方で必須。", collocations: ["paradigm shift", "shift in opinion", "night shift", "shift gears"] },
+    marks: { tier: "frequent", surface: "marks", pos: "verb · B1", pron: "/mɑːks/", meaning: "~を示す、~の節目となる、印をつける", example: { en: "Today <b>marks</b> the beginning of a new era.", ja: "今日は新時代の始まりを示す。" }, context: "本文では「~を示す/~の指標となる」の意で抽象的に使用。物理的な「印をつける」だけでなく、出来事が「歴史の節目」を示す表現で頻出。記事・論文で多用。", collocations: ["mark the beginning", "mark a turning point", "mark an occasion"] },
+    cognitive: { tier: "frequent", surface: "cognitive", pos: "adj · B2", pron: "/ˈkɒɡ.nə.tɪv/", meaning: "認知の、認識に関する", example: { en: "<b>Cognitive</b> abilities decline with age.", ja: "認知能力は加齢とともに低下する。" }, context: "心理学・脳科学の頻出用語。cognitive bias(認知バイアス)、cognitive dissonance(認知的不協和)、CBT(認知行動療法)など重要熟語多数。学術・教養記事で必修。", collocations: ["cognitive ability", "cognitive bias", "cognitive function", "cognitive decline"] },
+    suddenly: { tier: "frequent", surface: "Suddenly", pos: "adv · A2", pron: "/ˈsʌd.ən.li/", meaning: "突然、急に", example: { en: "<b>Suddenly</b>, the lights went out.", ja: "突然、明かりが消えた。" }, context: "文頭で使うことで読者の注意を引く修辞的技法。物語や説明文で「予想外の展開」を示すマーカー。all of a sudden もほぼ同義。", collocations: ["suddenly realized", "suddenly appeared", "all of a sudden"] },
+    
+    // KEY(学習価値が特に高い語)
+    object_permanence: { tier: "key", surface: "object permanence", pos: "noun · academic", pron: "/ˈɒbdʒɪkt ˈpɝː.mə.nəns/", meaning: "対象の永続性(発達心理学の専門用語)", example: { en: "Babies develop <b>object permanence</b> around 8 months of age.", ja: "赤ちゃんは生後8ヶ月頃に対象の永続性を獲得する。" }, context: "ジャン・ピアジェが提唱した認知発達理論のキー概念。「物体は見えなくなっても存在し続ける」と理解する能力。発達心理学の最重要概念のひとつ。", collocations: ["develop object permanence", "lack object permanence", "Piaget's concept of object permanence"] },
+    cognition: { tier: "key", surface: "human cognition", pos: "noun phrase · academic", pron: "/ˈhjuː.mən kɒɡˈnɪʃ.ən/", meaning: "人間の認知機能", example: { en: "<b>Human cognition</b> is shaped by both genes and experience.", ja: "人間の認知は遺伝と経験の両方に形作られる。" }, context: "心理学・脳科学の専門用語。記憶・推論・問題解決・言語処理など、思考に関わる脳機能の総称。", collocations: ["develop cognition", "cognitive ability", "cognitive science"] },
+    ceased: { tier: "key", surface: "ceased", pos: "verb · B2", pron: "/siːst/", meaning: "(活動・存在を)終えた、止んだ", example: { en: "The rain finally <b>ceased</b>.", ja: "雨がようやく止んだ。" }, context: "stopよりやや形式的・文語的。「might as well have ceased to exist」は「存在しないも同然だ」の慣用表現。", collocations: ["cease to exist", "cease fire", "cease and desist"] },
+    psychologist: { tier: "key", surface: "psychologist", pos: "noun · B1", pron: "/saɪˈkɒl.ə.dʒɪst/", meaning: "心理学者", example: { en: "The <b>psychologist</b> studied children's behavior.", ja: "その心理学者は子どもの行動を研究した。" }, context: "psychiatrist(精神科医)とは別。psychologistは博士号(PhD)を持つ研究者・カウンセラー、psychiatristは医師(MD)で薬の処方ができる。", collocations: ["clinical psychologist", "child psychologist", "developmental psychologist"] },
+    famously: { tier: "key", surface: "famously", pos: "adv · B2", pron: "/ˈfeɪ.məs.li/", meaning: "有名なことに、よく知られているように", example: { en: "Einstein <b>famously</b> said, \"God does not play dice.\"", ja: "アインシュタインは有名なことに「神はサイコロを振らない」と言った。" }, context: "「みんなが知っているように」というニュアンスを文に挿入する副詞。get along famously(とてもうまくやっていく)という別の意味の慣用句もある。", collocations: ["famously said", "famously known for", "get along famously"] },
+    consequential: { tier: "key", surface: "consequential", pos: "adj · C1", pron: "/ˌkɒn.sɪˈkwen.ʃəl/", meaning: "重大な、結果として重要な", example: { en: "It was the most <b>consequential</b> decision of his life.", ja: "それは彼の人生で最も重大な決断だった。" }, context: "「結果(consequence)を伴う重要さ」というニュアンス。importantよりも「後の展開に大きな影響を及ぼす」という時間的含意が強い。", collocations: ["consequential decision", "highly consequential", "consequential election"] },
+    persists: { tier: "key", surface: "persists", pos: "verb · B2", pron: "/pəˈsɪsts/", meaning: "持続する、固執する、しつこく続く", example: { en: "The problem <b>persists</b> despite our efforts.", ja: "我々の努力にもかかわらず問題は続いている。" }, context: "continueよりも「困難・反対があっても続く」という意志的・抵抗的なニュアンス。persistent(粘り強い)、persistence(粘り強さ)が派生語。", collocations: ["persist in", "problem persists", "persist with effort"] },
+    
+    // NORMAL(一般的な学習対象語)
+    called: { tier: "normal", surface: "called", pos: "verb · A1", pron: "/kɔːld/", meaning: "呼ばれる、~と呼ぶ(callの過去分詞・過去形)", example: { en: "It is <b>called</b> a smartphone.", ja: "それはスマホと呼ばれている。" }, context: "受動態 \"is called X\"(Xと呼ばれる)で頻出。能動態は call X Y(XをYと呼ぶ)。", collocations: ["is called", "so-called", "what is it called"] },
+    source: { tier: "normal", surface: "source", pos: "noun · A2", pron: "/sɔːrs/", meaning: "源、出所、原因、(情報の)ソース", example: { en: "The sun is the main <b>source</b> of energy on Earth.", ja: "太陽は地球の主なエネルギー源だ。" }, context: "情報源(news source)、エネルギー源(energy source)、起源(source of inspiration)など幅広い文脈。", collocations: ["main source", "source of energy", "reliable source"] },
+    laughter: { tier: "normal", surface: "laughter", pos: "noun · A2", pron: "/ˈlæf.tər/", meaning: "笑い、笑い声", example: { en: "Her joke caused <b>laughter</b> in the room.", ja: "彼女のジョークは部屋に笑いをもたらした。" }, context: "不可算名詞。laugh(笑う/笑い・可算)とは異なる。burst into laughter(笑い出す)、suppress laughter(笑いをこらえる)などの動詞コロケーション豊富。", collocations: ["burst into laughter", "fits of laughter"] },
+    months: { tier: "normal", surface: "months", pos: "noun · A1", pron: "/mʌnθs/", meaning: "月(monthの複数形・期間を表す)", example: { en: "She lived there for several <b>months</b>.", ja: "彼女はそこに数か月住んだ。" }, context: "monthの発音 /mʌnθ/ は日本人にとって難所。in two months(2ヶ月後)、for two months(2ヶ月間)の前置詞使い分けに注意。", collocations: ["six months ago", "for months", "in months"] },
+    answer: { tier: "normal", surface: "answer", pos: "noun/verb · A1", pron: "/ˈæn.sər/", meaning: "答え、応答、~に答える", example: { en: "The <b>answer</b> is simple.", ja: "答えはシンプルだ。" }, context: "名詞・動詞の両方で使う。answer to(~への答え)、answer for(~の責任を取る)など。", collocations: ["correct answer", "have an answer", "answer the phone"] },
+    known_as: { tier: "normal", surface: "known as", pos: "phrase · B1", pron: "/noʊn æz/", meaning: "~として知られる、~と呼ばれる", example: { en: "He is <b>known as</b> a great musician.", ja: "彼は優れた音楽家として知られている。" }, context: "形式的な紹介・定義の場面で使う。also known as(別名)はAKAと略される。be known for(~で有名)とは別表現。", collocations: ["also known as", "best known as", "commonly known as"] },
+    disappears: { tier: "normal", surface: "disappears", pos: "verb · A2", pron: "/ˌdɪs.əˈpɪəz/", meaning: "消える、見えなくなる", example: { en: "The cat <b>disappears</b> behind the curtain.", ja: "猫はカーテンの後ろに姿を消す。" }, context: "appear(現れる)の反意語、dis-(否定)+ appear。", collocations: ["disappear from view", "disappear without a trace"] },
+    blanket: { tier: "normal", surface: "blanket", pos: "noun · A2", pron: "/ˈblæŋ.kɪt/", meaning: "毛布、ブランケット、(比喩的に)~の覆い", example: { en: "She covered the baby with a soft <b>blanket</b>.", ja: "彼女は赤ちゃんを柔らかい毛布で包んだ。" }, context: "比喩的に「~を覆うもの」の意でも使う:a blanket of snow。形容詞用法もあり:blanket ban(全面禁止)。", collocations: ["wool blanket", "blanket of snow", "blanket statement"] },
+    exist: { tier: "normal", surface: "exist", pos: "verb · B1", pron: "/ɪɡˈzɪst/", meaning: "存在する、生存する", example: { en: "Do aliens really <b>exist</b>?", ja: "宇宙人は本当に存在するのだろうか?" }, context: "「ある」だけでなく「生き延びる」のニュアンスも。existence(存在)、existential(実存的)。", collocations: ["cease to exist", "come into existence"] },
+    hidden: { tier: "normal", surface: "hidden", pos: "adj/verb · A2", pron: "/ˈhɪd.ən/", meaning: "隠れた、隠された(hideの過去分詞)", example: { en: "There's a <b>hidden</b> meaning in this poem.", ja: "この詩には隠された意味がある。" }, context: "形容詞としても過去分詞としても使える。物理的だけでなく、抽象的な「隠された意味/真実/価値」にも頻出。", collocations: ["hidden meaning", "hidden agenda", "hidden talent"] },
+    
+    // BASIC(固有名詞・基本語・冠詞等)
+    italy: { tier: "basic", surface: "Italy", pos: "proper noun", pron: "/ˈɪt.ə.li/", meaning: "イタリア(ヨーロッパの国)", example: { en: "She studied art in <b>Italy</b>.", ja: "彼女はイタリアで美術を学んだ。" }, context: "正式国名 Italian Republic、首都 Rome。形容詞形 Italian。", collocations: ["go to Italy", "made in Italy"] },
+    it: { tier: "basic", surface: "it's", pos: "contraction", pron: "/ɪts/", meaning: "= it is(短縮形)", example: { en: "<b>It's</b> a beautiful day.", ja: "今日はいい天気だ。" }, context: "it's (= it is / it has) と its (代名詞の所有格)は混同しやすい。", collocations: ["it's important", "it's clear that"] },
+    palestinians: { tier: "basic", surface: "Palestinians", pos: "proper noun", pron: "/ˌpæl.əˈstɪn.i.ənz/", meaning: "パレスチナ人(複数形)", example: { en: "The <b>Palestinians</b> have a rich cultural heritage.", ja: "パレスチナの人々は豊かな文化的遺産を持っている。" }, context: "Palestinian(形容詞・単数の人)、Palestine(地域名)。", collocations: ["Palestinian people", "Palestinian culture"] },
+    say: { tier: "basic", surface: "say", pos: "verb · A1", pron: "/seɪ/", meaning: "言う、述べる", example: { en: "What did you <b>say</b>?", ja: "何て言ったの?" }, context: "say + that節 / say + 直接話法 が基本構造。tellとは違い目的語に「人」を取らない。", collocations: ["say something", "say hello"] },
+    japan: { tier: "basic", surface: "Japan", pos: "proper noun", pron: "/dʒəˈpæn/", meaning: "日本(東アジアの国)", example: { en: "I want to visit <b>Japan</b> someday.", ja: "いつか日本に行きたい。" }, context: "正式国名 日本国、首都 Tokyo。形容詞形 Japanese。", collocations: ["go to Japan", "made in Japan"] },
+    peekaboo: { tier: "basic", surface: "Peek-a-boo", pos: "noun · A2", pron: "/ˌpiːk.əˈbuː/", meaning: "いないいないばあ(乳児向けの遊び)", example: { en: "Babies love playing <b>peek-a-boo</b>.", ja: "赤ちゃんはいないいないばあが大好きだ。" }, context: "16世紀から記録のある古い表現。peek(ちらっと見る)+ a boo(驚かせる声)。", collocations: ["play peek-a-boo"] },
+    adults: { tier: "basic", surface: "adults", pos: "noun · A1", pron: "/ˈæd.ʌlts/", meaning: "大人、成人(adultの複数形)", example: { en: "<b>Adults</b> need about 7-8 hours of sleep.", ja: "大人は7〜8時間の睡眠が必要だ。" }, context: "通常18歳以上。adulthood(成人期)、adultlike(大人びた)の派生語。", collocations: ["young adults", "adults only"] },
+    first: { tier: "basic", surface: "first", pos: "adj/adv/noun · A1", pron: "/fɝːst/", meaning: "最初の、第一の、まず最初に", example: { en: "She was the <b>first</b> to arrive.", ja: "彼女は一番に到着した。" }, context: "first of all(まず最初に)、at first(最初は)、for the first time(初めて)など重要熟語多数。", collocations: ["first time", "at first", "first of all"] },
+    game: { tier: "basic", surface: "game", pos: "noun · A1", pron: "/ɡeɪm/", meaning: "遊び、ゲーム、試合", example: { en: "Let's play a <b>game</b>.", ja: "ゲームをしよう。" }, context: "幼児の遊びからスポーツの試合、ビデオゲームまで広範囲。", collocations: ["play a game", "video game", "board game"] },
+    almost: { tier: "basic", surface: "almost", pos: "adv · A1", pron: "/ˈɔːl.moʊst/", meaning: "ほとんど、ほぼ、もう少しで", example: { en: "I <b>almost</b> missed the train.", ja: "電車に乗り遅れるところだった。" }, context: "nearlyとほぼ同義だが、almostの方が口語的。", collocations: ["almost always", "almost never", "almost everyone"] },
+    everyone: { tier: "basic", surface: "everyone", pos: "pronoun · A1", pron: "/ˈev.ri.wʌn/", meaning: "皆、全員、誰もが", example: { en: "<b>Everyone</b> is welcome.", ja: "誰でも歓迎します。" }, context: "everybodyとほぼ同義。単数扱い。", collocations: ["everyone else", "everyone knows"] },
+    plays: { tier: "basic", surface: "plays", pos: "verb · A1", pron: "/pleɪz/", meaning: "遊ぶ、(ゲーム・楽器を)する", example: { en: "She <b>plays</b> the piano beautifully.", ja: "彼女はピアノを美しく演奏する。" }, context: "play a game, play the piano(楽器・the必須), play soccer(スポーツ・theなし)。", collocations: ["play a game", "play music", "play a role"] },
+    babies: { tier: "basic", surface: "babies", pos: "noun · A1", pron: "/ˈbeɪ.biz/", meaning: "赤ちゃん、乳児", example: { en: "<b>Babies</b> sleep most of the day.", ja: "赤ちゃんは一日の大半を寝て過ごす。" }, context: "infantより日常的・親しみやすい語。", collocations: ["newborn babies", "have a baby"] },
+    love: { tier: "basic", surface: "love", pos: "verb/noun · A1", pron: "/lʌv/", meaning: "愛する、大好き、愛", example: { en: "I <b>love</b> chocolate.", ja: "チョコレートが大好き。" }, context: "likeより強い感情。fall in love(恋に落ちる)、love at first sight(一目惚れ)。", collocations: ["fall in love", "love story"] },
+    much: { tier: "basic", surface: "much", pos: "adv/adj · A1", pron: "/mʌtʃ/", meaning: "多く、非常に", example: { en: "Thanks so <b>much</b>!", ja: "本当にありがとう!" }, context: "不可算名詞用。可算名詞にはmany。", collocations: ["so much", "too much", "how much"] },
+    few: { tier: "basic", surface: "few", pos: "adj · A2", pron: "/fjuː/", meaning: "少しの、わずかな(可算名詞)", example: { en: "I have a <b>few</b> friends in Tokyo.", ja: "東京には数人の友人がいる。" }, context: "a fewは肯定的「いくつか」、fewは否定的「ほとんどない」。", collocations: ["a few", "quite a few"] },
+    under: { tier: "basic", surface: "under", pos: "preposition · A1", pron: "/ˈʌn.dər/", meaning: "~の下に、~に従って、~未満", example: { en: "The cat is <b>under</b> the table.", ja: "猫はテーブルの下にいる。" }, context: "物理的な「下」だけでなく、抽象的な「~の影響下に」「~の規則のもとで」も表す。", collocations: ["under control", "under pressure", "under the law"] },
+    toy: { tier: "basic", surface: "toy", pos: "noun · A1", pron: "/tɔɪ/", meaning: "おもちゃ", example: { en: "The child played with a <b>toy</b>.", ja: "子どもはおもちゃで遊んだ。" }, context: "可算名詞。動詞用法もあり「もてあそぶ、考える(toy with an idea)」。", collocations: ["toy car", "toy with an idea"] },
+    behind: { tier: "basic", surface: "behind", pos: "preposition · A1", pron: "/bɪˈhaɪnd/", meaning: "~の後ろに、~の背後に", example: { en: "He hid <b>behind</b> the door.", ja: "彼はドアの後ろに隠れた。" }, context: "物理的位置から抽象的な「~の背景に」まで幅広い。behind the scenes, fall behind。", collocations: ["behind the scenes", "fall behind", "leave behind"] },
+    somewhere: { tier: "basic", surface: "somewhere", pos: "adv · A2", pron: "/ˈsʌm.wer/", meaning: "どこかで、ある場所で、(時間的に)おおよそ", example: { en: "Let's go <b>somewhere</b> nice for dinner.", ja: "夕食はどこかいい店に行こう。" }, context: "場所だけでなく時間にも使える(somewhere around 8 months = 8ヶ月頃に)。", collocations: ["somewhere else", "somewhere around"] },
+    around: { tier: "basic", surface: "around", pos: "preposition/adv · A1", pron: "/əˈraʊnd/", meaning: "~の周りに、約~、おおよそ", example: { en: "There were <b>around</b> 50 people.", ja: "約50人がいた。" }, context: "「およそ」の意ではaboutとほぼ同義。go around, come around など句動詞多数。", collocations: ["around the world", "around the corner"] },
+    begins: { tier: "basic", surface: "begins", pos: "verb · A1", pron: "/bɪˈɡɪnz/", meaning: "始まる、始める", example: { en: "The class <b>begins</b> at 9 AM.", ja: "授業は午前9時に始まる。" }, context: "startよりやや形式的。", collocations: ["begin to", "begin with", "to begin with"] },
+    change: { tier: "basic", surface: "change", pos: "verb/noun · A1", pron: "/tʃeɪndʒ/", meaning: "変わる、変える、変化", example: { en: "Things <b>change</b> over time.", ja: "物事は時間とともに変わる。" }, context: "動詞・名詞両用。a change of heart(心変わり)。", collocations: ["change of mind", "make a change"] },
+    piaget: { tier: "basic", surface: "Jean Piaget", pos: "proper noun", pron: "/ʒɑːn pi.aˈʒeɪ/", meaning: "ジャン・ピアジェ(1896-1980): スイスの発達心理学者", example: { en: "<b>Jean Piaget</b> developed the theory of cognitive development.", ja: "ピアジェは認知発達理論を構築した。" }, context: "20世紀の最重要心理学者の一人。子どもの認知発達を4段階に分類。object permanenceの概念も彼の理論の中核。", collocations: ["Piaget's theory", "Piagetian"] },
+    human: { tier: "basic", surface: "human", pos: "noun/adj · A1", pron: "/ˈhjuː.mən/", meaning: "人間、人類、人間の", example: { en: "We are all <b>humans</b>.", ja: "我々は皆人間だ。" }, context: "human being, humanity, humane, humanitarian など派生語多数。", collocations: ["human being", "human nature", "human rights"] },
+    ever: { tier: "basic", surface: "ever", pos: "adv · A1", pron: "/ˈev.ər/", meaning: "(疑問・否定で)これまでに、(条件節で)いつかは", example: { en: "Have you <b>ever</b> been to Paris?", ja: "パリに行ったことある?" }, context: "現在完了形と相性◎。否定文ではnever(=not ever)が一般的。", collocations: ["have you ever", "for ever", "ever since"] },
+    makes: { tier: "basic", surface: "makes", pos: "verb · A1", pron: "/meɪks/", meaning: "作る、行う、~させる", example: { en: "She <b>makes</b> great pasta.", ja: "彼女は素晴らしいパスタを作る。" }, context: "make + O + 原形V(SがOにVさせる)が頻出。", collocations: ["make sense", "make a decision", "make a difference"] },
+    world: { tier: "basic", surface: "world", pos: "noun · A1", pron: "/wɝːld/", meaning: "世界、世の中、世間", example: { en: "It's a small <b>world</b>.", ja: "世間は狭い。" }, context: "the world(地球・世間全体)、out of this world(素晴らしい)など熟語豊富。", collocations: ["around the world", "the whole world"] },
+    
+    // 外国語
+    il_gioco: { tier: "basic", surface: "il gioco del cucù", pos: "Italian phrase", pron: "/il ˈdʒɔ.ko del kuˈku/", meaning: "(イタリア語)「いないいないばあ」 = the game of cuckoo", example: { en: "In Italy, peek-a-boo is called <b>il gioco del cucù</b>.", ja: "イタリアでは「いないいないばあ」を il gioco del cucù と呼ぶ。" }, context: "il = 男性定冠詞 the。gioco = game。del = of the。cucù = cuckoo(カッコウ鳥、または「ばあ!」の擬音)。", collocations: [] },
+    ba_eno: { tier: "basic", surface: "ba' 'éno", pos: "Arabic (Palestinian)", pron: "/baː ʕeːno/", meaning: "(パレスチナ・アラビア語方言)「いないいないばあ」", example: { en: "Palestinian children play <b>ba' 'éno</b>.", ja: "パレスチナの子どもはba' 'énoで遊ぶ。" }, context: "ba'(=ばあ!の音)+ 'éno(=his eye, 彼の目)。直訳すると「ばあ! 彼の目」。", collocations: [] },
+    inainaiba: { tier: "basic", surface: "inaīnaibā", pos: "Japanese (romanized)", pron: "/i.naɪ.naɪ.baː/", meaning: "(日本語)「いないいないばあ」のローマ字表記", example: { en: "Japanese parents play <b>inaīnaibā</b> with their babies.", ja: "日本の親は赤ちゃんと「いないいないばあ」をする。" }, context: "「いない いない」+ 「ばあ」。マクロン記号(ā)は長音を示す。", collocations: [] },
+    object_permanence_em: { tier: "key", surface: "object permanence", pos: "noun · academic", pron: "/ˈɒbdʒɪkt ˈpɝː.mə.nəns/", meaning: "対象の永続性", example: { en: "Babies develop <b>object permanence</b> around 8 months of age.", ja: "赤ちゃんは生後8ヶ月頃に対象の永続性を獲得する。" }, context: "ピアジェの認知発達理論のキー概念。", collocations: ["develop object permanence"] }
+  };
+
+  const exprData = {
+    developmental_milestone: { tier: "normal", surface: "developmental milestone", pos: "noun phrase", pron: "/dɪˌveləpˈmentəl ˈmaɪl.stoʊn/", literal: "発達的な節目", meaning: "発達上のマイルストーン、発達指標", context: "発達心理学・小児科の専門用語。子どもの成長過程で「この時期にこれができるようになる」という重要な達成点。米CDCが年齢別milestoneチェックリストを発行。", collocations: ["reach a milestone", "developmental delay", "key milestone"] },
+    takes_shape: { tier: "frequent", surface: "takes shape", pos: "phrasal verb", pron: "/teɪks ʃeɪp/", literal: "形を取る", meaning: "形になる、具体化する、姿を現す", context: "「take + 名詞」型の慣用句。抽象的なもの(計画・思考・才能)が徐々に具体化していく過程を描写。日常会話・ビジネス・記事すべてで頻用される必修表現。", collocations: ["plan takes shape", "ideas take shape", "begin to take shape"] },
+    oosoom: { tier: "frequent", surface: '"out of sight, out of mind"', pos: "idiom", pron: "/aʊt əv saɪt aʊt əv maɪnd/", literal: "視界の外は、心の外", meaning: "見えなければ忘れる / 去る者は日々に疎し", context: "英語の代表的なことわざ。15世紀から使われている古い表現。日常英語で実用度が極めて高い。日本語の「去る者は日々に疎し」と類似。", collocations: ['"out of sight, out of mind" principle'] },
+    might_as_well: { tier: "frequent", surface: "might as well", pos: "idiom", pron: "/maɪt æz wel/", literal: "~するのも同様に良い", meaning: "~したのも同じだ / ~してもよい(消極的提案)", context: "本文「it might as well have ceased to exist」=「存在しなくなったのと同じだ」。仮定法と組み合わせて「事実上~である」を表す。日常会話で「(他に選択肢ないし)~するか」の意でも極めて頻用。必修。", collocations: ["might as well give up", "might as well try", "you might as well"] },
+    cognitive_leap: { tier: "normal", surface: "cognitive leaps", pos: "noun phrase", pron: "/ˈkɒɡ.nə.tɪv liːps/", literal: "認知の跳躍", meaning: "認知能力の飛躍的進歩、思考の質的転換", context: "leap(跳躍)を比喩的に使い、段階的でない大きな進歩を表す。発達心理学・教育学で「徐々にではなく一気に獲得される認知能力」を指す。", collocations: ["make a cognitive leap", "intellectual leap", "leap forward"] }
+  };
+
+  const sentData = {
+    s1: { surface: "In Italy, it's called il gioco del cucù. Palestinians say ba' 'éno. And in Japan, it's inaīnaibā.", translation: "イタリアではil gioco del cucùと呼ばれる。パレスチナの人々はba' 'énoと言う。そして日本ではinaīnaibāだ。", structure: [{ label: "並列構造", content: "3つの独立節を並列(In X, ... と Y say ... の繰り返し)", note: "強調のため同じ構造を反復するレトリック技法(parallelism)" }, { label: "前置詞句", content: "In Italy / in Japan", note: "場所を示す副詞句が文頭" }, { label: "受動態", content: "it's called X / it's X", note: "前2つは受動態、3つ目は省略形でリズム変化" }] },
+    s2: { surface: "Peek-a-boo is a near universal source of laughter and connection for infants and adults — it's the first game that almost everyone plays.", translation: "「いないいないばあ」は乳児にも大人にもほぼ普遍的な笑いとつながりの源だ。ほぼすべての人が最初に遊ぶゲームでもある。", structure: [{ label: "S", content: "Peek-a-boo", note: "主語(複合名詞)" }, { label: "V", content: "is", note: "be動詞" }, { label: "C", content: "a near universal source of laughter and connection for infants and adults", note: "補語。of句で内容を、for句で対象を限定" }, { label: "—", content: "it's the first game that almost everyone plays", note: "ダッシュで追加情報。関係代名詞that節がgameを修飾(目的格関係詞)" }] },
+    s3: { surface: "So what is it about this goofy game that babies love so much?", translation: "では、赤ちゃんがそんなにも夢中になるこのまぬけなゲームの一体何が魅力なのだろう?", structure: [{ label: "強調構文", content: "It is X that Y", note: "本文は\"What is it about X that Y?\"形式で「Yを引き起こすXの何が」と問う疑問強調構文" }, { label: "間接的問いかけ", content: "what is it about this goofy game", note: "聞き手の関心を引く修辞疑問" }, { label: "関係代名詞節", content: "that babies love so much", note: "thatはこの場合、関係代名詞ではなく強調構文の指標" }] },
+    s4: { surface: "The answer involves a fascinating developmental milestone known as object permanence — and it explains a lot about how human cognition first takes shape.", translation: "その答えは「対象の永続性」と呼ばれる興味深い発達上のマイルストーンに関わっている。そしてそれは、人間の認知がどのように最初に形成されるかを大いに説明してくれる。", structure: [{ label: "S", content: "The answer", note: "主語" }, { label: "V", content: "involves", note: "他動詞「~を含む/~に関わる」" }, { label: "O", content: "a fascinating developmental milestone known as object permanence", note: "目的語、known as~ は分詞句でmilestoneを後置修飾" }, { label: "—", content: "and it explains a lot about [how human cognition first takes shape]", note: "等位接続and、how節は前置詞aboutの目的語(間接疑問)" }] },
+    s5: { surface: "For the first few months of life, babies seem to operate under a \"out of sight, out of mind\" principle.", translation: "生後数ヶ月の間、赤ちゃんは「見えなければ忘れる」という原則に従って動いているように見える。", structure: [{ label: "副詞句", content: "For the first few months of life", note: "期間を示す前置詞句が文頭" }, { label: "S", content: "babies", note: "主語" }, { label: "V", content: "seem to operate", note: "seem to V「Vするように見える」+ 自動詞operate" }, { label: "副詞句", content: "under a \"out of sight, out of mind\" principle", note: "「~の原則のもとで」、underは抽象的な支配・基準を表す前置詞" }] },
+    s6: { surface: "If a toy disappears behind a blanket, it might as well have ceased to exist.", translation: "毛布の後ろにおもちゃが消えたら、それはもう存在しなくなったのと同じことなのだ。", structure: [{ label: "副詞節(条件)", content: "If a toy disappears behind a blanket", note: "If節、現在形で一般的・反復的条件を表す" }, { label: "S", content: "it", note: "主語(=the toy)" }, { label: "V", content: "might as well have ceased to exist", note: "might as well + 完了形で「~してしまったのと同じだ」の意。事実上~の状態という強調" }] },
+    s7: { surface: "But somewhere around eight months, that begins to change.", translation: "しかし生後8ヶ月頃から、それは変わり始める。", structure: [{ label: "接続詞", content: "But", note: "前文との対比" }, { label: "副詞句", content: "somewhere around eight months", note: "「およそ~の時期」、somewhereは時間にも使える曖昧表現" }, { label: "S", content: "that", note: "主語(=直前の現象を指す代名詞)" }, { label: "V", content: "begins to change", note: "begin to V「Vし始める」" }] },
+    s8: { surface: "This shift, which the psychologist Jean Piaget famously called object permanence, marks one of the most consequential cognitive leaps a human ever makes.", translation: "この変化を、心理学者ジャン・ピアジェは「対象の永続性」と有名な命名をしたが、それは人間が経験する最も重要な認知的飛躍の一つを示している。", structure: [{ label: "S", content: "This shift", note: "主語" }, { label: "関係節(挿入)", content: "which the psychologist Jean Piaget famously called object permanence", note: "非制限用法の関係詞節(コンマで挟む)。SVOC構造で、whichがO、object permanenceがC" }, { label: "V", content: "marks", note: "他動詞「~を示す」" }, { label: "O", content: "one of the most consequential cognitive leaps a human ever makes", note: "目的語。最後はa human ever makesがleapsを修飾する関係詞節(thatが省略)" }] },
+    s9: { surface: "Suddenly, the world isn't just what's in front of you — it persists, even when hidden.", translation: "突然、世界は目の前にあるものだけではなくなる。隠されていても、世界は存在し続けるのだ。", structure: [{ label: "副詞", content: "Suddenly", note: "文頭の副詞、転換のマーカー" }, { label: "S+V+C", content: "the world isn't just what's in front of you", note: "what節が補語(関係代名詞what「~するもの/こと」)" }, { label: "—", content: "it persists, even when hidden", note: "ダッシュで補足。even when (it is) hidden は分詞構文の省略形" }] }
+  };
+
+  function openModal(html) {
+    document.getElementById('modalContent').innerHTML = html;
+    document.getElementById('modal').classList.add('show');
+    document.getElementById('modalBg').classList.add('show');
+  }
+  function closeModal() {
+    document.getElementById('modal').classList.remove('show');
+    document.getElementById('modalBg').classList.remove('show');
+    document.querySelectorAll('.w.active, .expr.active, .sent.active').forEach(el => el.classList.remove('active'));
+  }
+  function showToast(text) {
+    const t = document.getElementById('toast');
+    t.textContent = text;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2000);
+  }
+  function saveItem(key, surface) {
+    showToast('★ Saved: ' + surface);
+    const btn = document.querySelector('#modal .modal-btn.primary');
+    if (btn) {
+      btn.classList.add('saved');
+      btn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Saved';
+    }
+  }
+  function speakWord(text) {
+    if ('speechSynthesis' in window) {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      u.rate = 0.9;
+      window.speechSynthesis.speak(u);
+    }
+  }
+
+  function tagLabel(tier) {
+    if (tier === 'frequent') return '★ FREQUENT';
+    if (tier === 'key') return 'KEY';
+    if (tier === 'normal') return 'NORMAL';
+    return 'BASIC';
+  }
+
+  function renderWord(key) {
+    const d = wordData[key];
+    if (!d) return '';
+    const tierClass = d.tier || 'normal';
+    return `
+      <div class="modal-head-row">
+        <div class="modal-surface">${d.surface}</div>
+        <span class="modal-tag ${tierClass}">${tagLabel(tierClass)} · ${d.pos.split(' · ').slice(-1)[0]}</span>
+      </div>
+      <div class="modal-pron">
+        ${d.pron} · ${d.pos.split(' · ')[0]}
+        <span class="speaker" onclick="speakWord('${d.surface.replace(/'/g, "\\'")}')">🔊</span>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">意味</div>
+        <div class="modal-translation">${d.meaning}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">例文</div>
+        <div class="modal-example">${d.example.en}</div>
+        <div class="modal-example-ja">${d.example.ja}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">背景・ニュアンス</div>
+        <div class="modal-context">${d.context}</div>
+      </div>
+      ${d.collocations && d.collocations.length > 0 ? `
+      <div class="modal-section">
+        <div class="modal-section-label">よく使う組み合わせ</div>
+        <div class="colloc-list">${d.collocations.map(c => `<span class="colloc-chip">${c}</span>`).join('')}</div>
+      </div>
+      ` : ''}
+      <div class="modal-actions">
+        <button class="modal-btn primary" onclick="saveItem('w_${key}', '${d.surface.replace(/'/g, "\\'")}')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Save
+        </button>
+        <button class="modal-btn secondary" onclick="closeModal()">Close</button>
+      </div>
+    `;
+  }
+
+  function renderExpr(key) {
+    const d = exprData[key];
+    if (!d) return '';
+    const tierClass = d.tier === 'frequent' ? 'expr-frequent' : 'expr';
+    const tierLabel = d.tier === 'frequent' ? '★ FREQUENT EXPR' : 'EXPRESSION';
+    return `
+      <div class="modal-head-row">
+        <div class="modal-surface expr">${d.surface}</div>
+        <span class="modal-tag ${tierClass}">${tierLabel}</span>
+      </div>
+      <div class="modal-pron">
+        ${d.pron} · ${d.pos}
+        <span class="speaker" onclick="speakWord('${d.surface.replace(/['""]/g, '').replace(/'/g, '')}')">🔊</span>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">直訳</div>
+        <div class="modal-translation" style="font-size: 14px; color: var(--ink-muted); font-weight: 400;">${d.literal}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">意訳・実際の意味</div>
+        <div class="modal-translation">${d.meaning}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">背景・文化</div>
+        <div class="modal-context">${d.context}</div>
+      </div>
+      ${d.collocations && d.collocations.length > 0 ? `
+      <div class="modal-section">
+        <div class="modal-section-label">関連表現</div>
+        <div class="colloc-list">${d.collocations.map(c => `<span class="colloc-chip">${c}</span>`).join('')}</div>
+      </div>
+      ` : ''}
+      <div class="modal-actions">
+        <button class="modal-btn primary" onclick="saveItem('e_${key}', '${d.surface.replace(/'/g, "\\'").replace(/"/g, '\\"')}')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Save
+        </button>
+        <button class="modal-btn secondary" onclick="closeModal()">Close</button>
+      </div>
+    `;
+  }
+
+  function renderSentence(key) {
+    const d = sentData[key];
+    if (!d) return '';
+    return `
+      <div class="modal-head-row">
+        <div class="modal-surface sent">${d.surface}</div>
+        <span class="modal-tag sent">SENTENCE</span>
+      </div>
+      <div class="modal-section" style="margin-top: 14px;">
+        <div class="modal-section-label">和訳</div>
+        <div class="modal-translation">${d.translation}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">構文解析</div>
+        <div class="syntax-tree">
+          ${d.structure.map(s => `
+            <div class="syntax-element">
+              <span class="syntax-label">${s.label}</span>
+              <div class="syntax-content">${s.content}${s.note ? `<em>${s.note}</em>` : ''}</div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+      <div class="modal-actions">
+        <button class="modal-btn primary" onclick="saveItem('s_${key}', 'sentence')">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>Save sentence
+        </button>
+        <button class="modal-btn secondary" onclick="closeModal()">Close</button>
+      </div>
+    `;
+  }
+
+  document.addEventListener('click', (e) => {
+    const sentIcon = e.target.closest('.sent-icon');
+    if (sentIcon) {
+      e.stopPropagation();
+      const key = sentIcon.dataset.sent;
+      const sentEl = document.querySelector(`.sent[data-sent="${key}"]`);
+      document.querySelectorAll('.w.active, .expr.active, .sent.active').forEach(el => el.classList.remove('active'));
+      if (sentEl) sentEl.classList.add('active');
+      const html = renderSentence(key);
+      if (html) openModal(html);
+      return;
+    }
+    const wordEl = e.target.closest('.w, em.foreign');
+    if (wordEl && wordEl.dataset.word) {
+      e.stopPropagation();
+      const key = wordEl.dataset.word;
+      document.querySelectorAll('.w.active, .expr.active, .sent.active').forEach(el => el.classList.remove('active'));
+      wordEl.classList.add('active');
+      const html = renderWord(key);
+      if (html) openModal(html);
+      return;
+    }
+    const exprEl = e.target.closest('.expr');
+    if (exprEl && exprEl.dataset.expr) {
+      e.stopPropagation();
+      const key = exprEl.dataset.expr;
+      document.querySelectorAll('.w.active, .expr.active, .sent.active').forEach(el => el.classList.remove('active'));
+      exprEl.classList.add('active');
+      const html = renderExpr(key);
+      if (html) openModal(html);
+      return;
+    }
+  });
+
+  const appBar = document.getElementById('appBar');
+  document.addEventListener('scroll', () => {
+    if (window.scrollY > 20) appBar.classList.add('scrolled');
+    else appBar.classList.remove('scrolled');
+  });
+</script>
+
+</body>
+</html>

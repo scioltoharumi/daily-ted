@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs / temp
+*.log
+*.tmp
+tmp/
+.tmp/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Node (Phase 2 PWA 着手時)
+node_modules/
+dist/
+.svelte-kit/
+
+# Local Claude Code overrides (skills/agents は tracked のまま)
+.claude/settings.local.json
