@@ -106,12 +106,39 @@ JST(Asia/Tokyo)で当日日付 YYYY-MM-DD を決定。
 - `date`: 当日日付
 - `source`: `"ted-ed"`(常に固定。v3.1 で TED Talks は廃止)
 - `slug`: 動画タイトルから snake_case で生成(参照用、識別子として)
+- `video_id`: YouTube の動画 ID(11文字)
 - `title`: YouTube 動画タイトル
 - `speaker`: タイトル末尾(" - 著者名" の形式)から抽出、なければ "TED-Ed"
 - `duration_sec`: snippets の最後の start_sec + duration_sec
-- `video_url`: `https://www.youtube.com/watch?v=<videoId>`
-- `embed_url`: `https://www.youtube.com/embed/<videoId>`
+- `video_url`: `https://www.youtube.com/watch?v=<video_id>`
+- `embed_url`: `https://www.youtube.com/embed/<video_id>`
 - ※ 旧フィールド(ted.com URL)は使わない
+
+### Step 7.5: 分類メタ情報(v3.2 / D-203)
+
+PWA のビュー D(トピック別)/ビュー E(単語駆動)/検索のために以下を生成。
+判定は Claude が動画タイトル・description・transcript の内容から文脈的に行う。
+
+- `primary_topic`: string
+  - 主トピックを1つ。例: `"Psychology"`, `"Science"`, `"Geology"`, `"Philosophy"`,
+    `"Linguistics"`, `"Mathematics"`, `"History"`, `"Biology"`, `"Technology"`,
+    `"Art"`, `"Economics"`, `"Health"`, `"Astronomy"` 等。
+  - PascalCase 単語または短いフレーズ。粒度は中規模(細分しすぎない)。
+
+- `tags`: string[]
+  - 3〜6 個の細かい分類タグ。kebab-case。
+  - 例(Iceland's lava の場合): `["volcano", "iceland", "lava-flow", "geology", "natural-disaster"]`
+  - 例(peek-a-boo の場合): `["developmental-psychology", "infant-cognition", "object-permanence", "play"]`
+  - 単数形を基本(`volcanoes` ではなく `volcano`)。
+
+- `difficulty`: "easy" | "medium" | "hard"
+  - 学習者(英語中級〜上級)目線での難易度判定。
+  - **easy**: 構文がシンプル、専門用語が少ない、frequent 語が多い。CEFR B1 程度で読める。
+  - **medium**: 一般的な TED-Ed の標準難度。frequent と key が混在、専門用語が中程度含まれる。
+  - **hard**: 専門用語密度が高い、長文構造が複雑、key/key 以上の語彙が多い。CEFR B2〜C1 推奨。
+  - 迷ったら `medium` を選ぶ。
+
+これらは `index.json` の TalkSummary 側にも同じ値を入れること。
 
 ## Step 8: JSON 出力
 

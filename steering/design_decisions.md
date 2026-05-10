@@ -310,3 +310,46 @@
 - YouTube の channel videos ページ UI が変わると `lockupViewModel` 抽出ロジックが壊れる(R-01改)
 - youtube-transcript-api の実装変更や YouTube 側の字幕配信仕様変更(R-03改)
 - いずれも対応:エラー時は通知、リトライ実装、構造変更時は手動修正
+
+---
+
+## D-017: Phase 概念撤廃、初回 PWA で全機能網羅
+
+**日付**: 2026-05-10
+**判断**: 要件定義書 v3.1 の「9. 開発フェーズ」(Phase 1〜4 段階開発)を撤廃し、初回 PWA リリースで全 5 ビュー(タイムライン/月次/カレンダー/トピック/単語駆動)+ 補助機能(検索/既読/お気に入り集約/ストリーク/エクスポート)を全部入れる。
+
+**理由**:
+
+- 段階リリースで整合維持コストが累積する
+- 機能間連携(検索が全ビューで効く、お気に入りがビュー横断で表示される等)を最初から織り込む方が設計が一貫
+- 1 名運用のためリリース回数を抑える効率の方が高い
+
+**範囲外(次期議論)**:
+
+- SRS(間隔反復学習)・学習履歴ダッシュボード・既習フラグ・忘却度推定
+  → 数ヶ月分のデータ蓄積後に設計する方が合理的
+
+**関連スキーマ拡張(v3.2)**:
+
+- TalkJson / TalkSummary に `primary_topic` / `tags` / `difficulty` を追加(D ビュー・E ビューのために必須)
+- 詳細は `docs/data_schema.md` v3.2 を参照
+
+**詳細ノート**: `00_admin/steering/20260510-pwa-ui-direction/`(親プロジェクト側)に requirements / design / tasklist / decisions を保存済み。Phase 2 着手時はそこから走り出す。
+
+**期間目安**: 6〜10 週間
+
+---
+
+## D-018: PWA は hash-based routing + Svelte + Vite
+
+**日付**: 2026-05-10
+**判断**: PWA は Svelte + Vite(SvelteKit ではなく)+ 自前 hash router で実装。
+
+**理由**:
+
+- GitHub Pages は SPA の history API を扱えずリロード時に 404 になるため、hash routing(`#/calendar` 等)が安全
+- Cloudflare Pages 等に切り替えても hash routing は移植性が高い
+- 自前 router は数十行で書けるため SvelteKit のオーバーヘッドを避けられる
+- PWA がシンプル(SSR 不要、データは静的 JSON)
+
+**ホスティング判断**: PWA 完成時に GitHub Pro($4/月)/ Cloudflare Pages(無料)/ Vercel / ローカル のいずれかを選ぶ(D-103 の保留事項を引き継ぐ)。

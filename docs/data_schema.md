@@ -27,8 +27,14 @@ interface IndexJson {
 interface TalkSummary {
   id: string;                // "talk_YYYY-MM-DD"
   date: string;              // YYYY-MM-DD
-  source: "ted-ed" | "ted-talks";
-  category?: string;         // 興味分野(休日Talkのみ): "Science", "Philosophy" 等
+  source: "ted-ed";          // v3.1 で TED Talks 廃止 (D-016)、現在は "ted-ed" 固定
+  category?: string;         // 旧フィールド(D-015 で TED Talks 用、現在は使用しない)
+
+  // v3.2 (D-203) 追加:PWA のビュー D / E のため必須
+  primary_topic: string;     // 主トピック (例: "Psychology", "Science", "Geology")
+  tags: string[];            // 細かい分類 (例: ["volcano", "iceland", "lava-flow"])
+  difficulty: "easy" | "medium" | "hard";  // 学習難易度の Claude 判定
+
   title: string;
   speaker: string;
   duration_sec: number;
@@ -74,14 +80,21 @@ interface TalkJson {
   // メタ情報
   id: string;
   date: string;
-  source: "ted-ed" | "ted-talks";
-  category?: string;
-  slug: string;                       // ted.com URLのslug部分
+  source: "ted-ed";                   // v3.1 で TED Talks 廃止、"ted-ed" 固定
+  category?: string;                  // 旧フィールド(使用しない)
+
+  // v3.2 (D-203) 追加
+  primary_topic: string;              // 主トピック
+  tags: string[];                     // 細かい分類
+  difficulty: "easy" | "medium" | "hard";
+
+  slug: string;                       // 識別子(タイトルから snake_case で生成。v3.1 以降は ted.com URL ではない)
+  video_id: string;                   // v3.1 追加:YouTube videoId
   title: string;
   speaker: string;
   duration_sec: number;
-  video_url: string;                  // ted.com URL
-  embed_url: string;                  // embed.ted.com URL
+  video_url: string;                  // v3.1: https://www.youtube.com/watch?v={video_id}
+  embed_url: string;                  // v3.1: https://www.youtube.com/embed/{video_id}
   
   // 背景情報(Talk冒頭に表示)
   background: {
@@ -289,4 +302,10 @@ interface ExpressionEntry {
 2. 既存JSONとの互換性を保つか、移行スクリプトを書くか判断
 3. PWA側のパース処理も合わせて更新
 
-現在のスキーマバージョン:**v3.0** (2026-05-07)
+現在のスキーマバージョン:**v3.2** (2026-05-10)
+
+## 改訂履歴(スキーマ)
+
+- **v3.0** (2026-05-07) 初版
+- **v3.1** (2026-05-10) D-016 採用に伴い、`source` を "ted-ed" 固定に。`video_id` 追加(YouTube videoId)。`video_url` / `embed_url` を YouTube ベースに変更。`slug` は識別子に降格(ted.com URL の一部ではなくなる)。
+- **v3.2** (2026-05-10) D-017 / D-203 採用に伴い、`primary_topic` / `tags` / `difficulty` を TalkJson と TalkSummary に追加。PWA のビュー D(トピック)/ ビュー E(単語駆動)/ 検索フィルタの基盤。

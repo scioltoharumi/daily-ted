@@ -378,31 +378,39 @@ YouTube動画タイトルから ted.com/talks の slug を機械的に推定：
 
 ---
 
-## 9. 開発フェーズ
+## 9. 開発工程(v3.2 改訂、Stage 制)
 
-### Phase 1:技術検証(3〜7日)
-- TED-Ed YouTube RSS実構造確認
-- ted.com/talks スクレイピング動作確認
-- slug推定の的中率実測(直近20本)
-- Cloud Task手動実行で1日分試走
-- プロンプトチューニング1〜2回
+> v3.1 まで Phase 1〜4 段階開発を想定していたが、D-017(2026-05-10)で「初回 PWA に全機能網羅」方針に変更したため、Stage 1〜3 に再編。
+> 詳細は `00_admin/steering/20260510-pwa-ui-direction/`(親プロジェクト側)。
 
-### Phase 2:MVP実装(2〜4週間)
-- Cloud Taskプロンプト本実装＋スケジュール登録
-- PWA基本UI(Svelte + Tailwind)
-- 4階層強調・モーダル・ソースバッジ実装
-- お気に入り(localStorage)＋エクスポート
+### Stage 1: バックエンド運用開始(2026-05-10〜)
 
-### Phase 3:運用安定化(継続)
-- Cloud Task失敗通知
-- プロンプト精度のチューニング
-- 興味分野フィルター調整
+- リポジトリ確立、Cloud Task / Scheduled Agent 登録、cron 起動(`0 21 * * *` UTC = JST 06:00)
+- 日次で TED-Ed JSON が `data/talks/YYYY-MM-DD.json` に積まれる状態
+- 2026-05-10 時点で完了:GitHub アップロード、Phase 1 PoC、case H 採用、scripts 動作確認、prompts 改訂
+- 残作業:Scheduled Agent UI での routine 登録(マスター操作)、手動 1 回試走、cron 有効化、初週運用観察
 
-### Phase 4以降:拡張
-- SRS復習機能
-- 既習フラグ
+### Stage 2: PWA 一括リリース(着手予定、目安 6〜10 週間)
+
+D-017 に従い、初回 PWA リリースで以下を全部入れる:
+
+- 5 ビュー: タイムライン(A) / 月次(B) / カレンダー(C) / トピック(D) / 単語駆動(E)
+- 補助機能: 検索(Fuse.js)/ 既読バッジ / お気に入り集約 / ストリーク / Anki/Markdown/CSV エクスポート
+- 4 階層強調・表現 2 階層・⌘ アイコン+紫縦線(モックアップ準拠)
+- PWA 化(manifest, Service Worker, ホーム画面追加対応)
+
+技術スタック: Svelte + Vite + Tailwind CSS + Fuse.js + sql.js(D-018)。
+ホスティングは完成時に判断(D-018, D-103)。
+
+### Stage 3: 拡張(データ蓄積後)
+
+数ヶ月分の talk JSON が積み上がった段階で着手:
+
+- SRS(間隔反復学習)アルゴリズム
 - 学習履歴ダッシュボード
+- 既習フラグ・忘却度推定
 - 単語音声読み上げの拡充
+- 通知・リマインダー
 
 ---
 
@@ -437,3 +445,4 @@ YouTube動画タイトルから ted.com/talks の slug を機械的に推定：
 - v2.1 (2026-05-07) ソース2系統化(TED-Ed + TED Talks)、平日/休日切替
 - v3.0 (2026-05-07) 全単語事前生成、4階層強調、固有名詞basic化、UI/UX確定
 - v3.1 (2026-05-10) D-016採用、TED-Ed YouTube直結フローに変更、TED Talks廃止、ted.com 経路廃止、`youtube-transcript-api` 依存追加。Phase 1 PoC で v3.0 の前提崩壊を確認。
+- v3.2 (2026-05-10) D-017採用、Phase 概念撤廃→Stage 1〜3 再編。初回 PWA リリースに5ビュー(A〜E)+補助機能を全部入れ。データスキーマに `primary_topic` / `tags` / `difficulty` 追加。D-018 で hash-based routing + Svelte+Vite を確定。詳細は `00_admin/steering/20260510-pwa-ui-direction/`。
