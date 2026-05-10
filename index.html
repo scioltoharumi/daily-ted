@@ -1271,11 +1271,17 @@ function sentenceHTML(s, talk) {
     if (tok.type === 'skip') {
       html += tok.surface;
     } else if (tok.type === 'word') {
-      html += `<span class="tk tk-${tok.tier}" data-tok data-tok-type="word" data-tok-ref="${tok.ref}" data-tok-surface="${tok.surface.replace(/"/g, '&quot;')}">${tok.surface}</span>`;
+      // tier は token 直書き > words 辞書 > 'basic' の順でフォールバック
+      const tier = tok.tier || (talk.words && talk.words[tok.ref] || {}).tier || 'basic';
+      const sf = tok.surface.replace(/"/g, '&quot;');
+      html += `<span class="tk tk-${tier}" data-tok data-tok-type="word" data-tok-ref="${tok.ref}" data-tok-surface="${sf}">${tok.surface}</span>`;
     } else if (tok.type === 'expression') {
-      html += `<span class="expr expr-${(talk.expressions[tok.ref]||{}).tier || 'normal'}" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${tok.surface.replace(/"/g, '&quot;')}">${tok.surface}</span>`;
+      const tier = (talk.expressions && talk.expressions[tok.ref] || {}).tier || 'normal';
+      const sf = tok.surface.replace(/"/g, '&quot;');
+      html += `<span class="expr expr-${tier}" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${sf}">${tok.surface}</span>`;
     } else if (tok.type === 'foreign') {
-      html += `<span class="expr expr-normal" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${tok.surface.replace(/"/g, '&quot;')}">${tok.surface}</span>`;
+      const sf = tok.surface.replace(/"/g, '&quot;');
+      html += `<span class="expr expr-normal" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${sf}">${tok.surface}</span>`;
     }
   });
   html += `<span class="sentence-marker" data-sent="${s.id}" title="構文解析">⌘</span></span>`;
@@ -1457,36 +1463,68 @@ function calcStreak() {
   return streak;
 }
 
-// ============ DATA LOADING (fetch real JSON, fallback to SAMPLE_) ============
+// ============ DATA LOADING (hybrid: real + SAMPLE merged by date) ============
+// 実 data/index.json に talks があれば、その日付は実データを採用。
+// 実データに無い日付は SAMPLE_TALKS から穴埋めする(SAMPLE は「読みごたえデモ」枠として残す)。
+// skipped_dates は両者の union。
 async function tryLoadRealData() {
   try {
     const res = await fetch('./data/index.json', { cache: 'no-store' });
-    if (!res.ok) return false;
+    if (!res.ok) return { mode: 'sample', realCount: 0 };
     const realIndex = await res.json();
-    if (!realIndex || !Array.isArray(realIndex.talks) || realIndex.talks.length === 0) return false;
+    if (!realIndex || !Array.isArray(realIndex.talks)) return { mode: 'sample', realCount: 0 };
+
     const realTalks = {};
     await Promise.all(realIndex.talks.map(async (summary) => {
       try {
         const tres = await fetch(`./data/talks/${summary.date}.json`, { cache: 'no-store' });
         if (tres.ok) realTalks[summary.date] = await tres.json();
-      } catch (_) { /* ignore single talk failure */ }
+      } catch (_) { /* ignore */ }
     }));
-    if (Object.keys(realTalks).length === 0) return false;
-    INDEX = realIndex;
-    SKIPPED_DATES = Array.isArray(realIndex.skipped_dates) ? realIndex.skipped_dates : [];
-    TALKS = realTalks;
-    return true;
+
+    const realCount = Object.keys(realTalks).length;
+    const realSkips = Array.isArray(realIndex.skipped_dates) ? realIndex.skipped_dates : [];
+
+    if (realCount === 0) {
+      // 実 talk 0 件:SAMPLE 全件を維持しつつ skipped_dates だけマージ
+      SKIPPED_DATES = Array.from(new Set([...realSkips, ...SAMPLE_SKIPPED_DATES]));
+      return { mode: 'sample-with-real-skip', realCount: 0, realSkipCount: realSkips.length };
+    }
+
+    // ハイブリッド:実データを SAMPLE に上書きマージ
+    TALKS = { ...SAMPLE_TALKS, ...realTalks };
+    SKIPPED_DATES = Array.from(new Set([...realSkips, ...SAMPLE_SKIPPED_DATES]));
+    const combinedTalks = Object.values(TALKS)
+      .sort((a, b) => b.date.localeCompare(a.date))
+      .map(t => ({
+        id: t.id, date: t.date, source: t.source,
+        primary_topic: t.primary_topic, tags: t.tags, difficulty: t.difficulty,
+        title: t.title, speaker: t.speaker, duration_sec: t.duration_sec
+      }));
+    INDEX = {
+      updated_at: realIndex.updated_at || SAMPLE_INDEX.updated_at,
+      talks: combinedTalks,
+      skipped_dates: SKIPPED_DATES
+    };
+    return { mode: 'hybrid', realCount, realSkipCount: realSkips.length };
   } catch (_) {
-    return false;
+    return { mode: 'sample', realCount: 0 };
   }
 }
 
 // ============ INIT ============
 (async () => {
-  const usingReal = await tryLoadRealData();
-  if (!usingReal) {
-    const banner = document.getElementById('sampleBanner');
-    if (banner) banner.style.display = 'block';
+  const status = await tryLoadRealData();
+  const banner = document.getElementById('sampleBanner');
+  if (banner) {
+    if (status.mode === 'hybrid') {
+      banner.innerHTML = `📦 <b>実データ ${status.realCount} 件 + サンプル混在</b> — 残りの日付は省略版サンプルです。Cloud Task が新作を取り込むと順次置き換わります。`;
+      banner.style.display = 'block';
+    } else {
+      // sample / sample-with-real-skip
+      banner.innerHTML = '📦 <b>サンプルデータ表示中(各 talk は短縮版)</b> — Cloud Task が新作を取り込むと、実 talk のフル品質に置き換わります。';
+      banner.style.display = 'block';
+    }
   }
   document.getElementById('streakValue').textContent = calcStreak();
   renderHome();
