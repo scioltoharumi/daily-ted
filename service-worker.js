@@ -3,7 +3,7 @@
 // fetch: data/* は network-first(常に最新を取りに行く、失敗したらキャッシュ)
 //        その他は cache-first(高速起動、ネット無しでも動く)
 
-const CACHE_NAME = 'daily-ted-v1';
+const CACHE_NAME = 'daily-ted-v2';
 const APP_SHELL = [
   './',
   './index.html',
