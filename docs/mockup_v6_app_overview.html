@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily TED · Mockup v6 (App Overview)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<style>
+  :root {
+    --paper: #fafaf7;
+    --paper-card: #ffffff;
+    --line: #e8e4d8;
+    --line-soft: #f0ece0;
+    --ink: #2c2618;
+    --ink-soft: #4a4030;
+    --ink-muted: #7a6d57;
+    --ink-faded: #aa9b80;
+    --ed-amber: #c4870a;
+    --ed-amber-soft: rgba(196,135,10,0.5);
+    --ed-amber-faded: rgba(196,135,10,0.25);
+    --highlight-yellow: #fff09c;
+    --highlight-blue: #e7f0ff;
+    --highlight-blue-strong: #c8dcff;
+    --syntax-purple: #b88dd1;
+    --tag-bg: #f3efe2;
+    --diff-easy: #7ab46b;
+    --diff-medium: #d8a13a;
+    --diff-hard: #c25e3a;
+    --streak: #e85a3a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--paper); color: var(--ink); font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+  body { min-height: 100vh; padding-bottom: 60px; }
+
+  /* ============ APP HEADER ============ */
+  .app-header { position: sticky; top: 0; background: rgba(250,250,247,0.95); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); z-index: 50; }
+  .app-header-inner { max-width: 920px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; gap: 16px; }
+  .brand { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; color: var(--ink); letter-spacing: -0.01em; }
+  .brand em { color: var(--ed-amber); font-style: normal; font-weight: 700; }
+  .header-spacer { flex: 1; }
+  .streak-badge { display: inline-flex; align-items: center; gap: 4px; background: rgba(232,90,58,0.08); border: 1px solid rgba(232,90,58,0.25); border-radius: 999px; padding: 4px 12px; font-size: 12px; font-weight: 600; color: var(--streak); }
+  .search-bar { position: relative; }
+  .search-bar input { background: var(--paper-card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px 7px 32px; font-size: 13px; width: 200px; outline: none; transition: width 0.2s, border-color 0.2s; font-family: inherit; }
+  .search-bar input:focus { border-color: var(--ed-amber); width: 280px; }
+  .search-bar::before { content: "🔍"; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); font-size: 12px; opacity: 0.5; }
+
+  /* ============ NAV TABS ============ */
+  .nav-tabs { max-width: 920px; margin: 0 auto; padding: 8px 20px; display: flex; gap: 4px; overflow-x: auto; }
+  .nav-tab { flex-shrink: 0; padding: 8px 16px; background: transparent; border: 1px solid transparent; border-radius: 999px; font-size: 13px; font-weight: 500; color: var(--ink-muted); cursor: pointer; transition: all 0.15s; font-family: inherit; }
+  .nav-tab:hover { background: var(--line-soft); color: var(--ink-soft); }
+  .nav-tab.active { background: var(--ink); color: var(--paper); }
+
+  /* ============ MAIN CONTAINER ============ */
+  .main { max-width: 920px; margin: 0 auto; padding: 24px 20px; }
+  .view-title { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 600; margin-bottom: 4px; color: var(--ink); }
+  .view-subtitle { font-size: 13px; color: var(--ink-faded); margin-bottom: 24px; }
+
+  /* ============ HOME / TALK CARDS ============ */
+  .talks-stream { display: flex; flex-direction: column; gap: 14px; }
+  .talk-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; cursor: pointer; transition: border-color 0.15s, transform 0.15s; }
+  .talk-card:hover { border-color: var(--ed-amber-soft); transform: translateY(-1px); }
+  .talk-card.today { border: 1.5px solid var(--ed-amber); padding: 24px; box-shadow: 0 4px 12px rgba(196,135,10,0.08); }
+  .talk-card.today .talk-title { font-size: 22px; }
+  .talk-meta-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; font-size: 11px; color: var(--ink-faded); }
+  .talk-meta-row .source-badge { background: rgba(196,135,10,0.12); color: var(--ed-amber); border: 1px solid rgba(196,135,10,0.3); padding: 2px 8px; border-radius: 4px; font-weight: 600; font-size: 10px; letter-spacing: 0.04em; }
+  .talk-meta-row .topic-pill { background: var(--tag-bg); border: 1px solid var(--line); padding: 2px 8px; border-radius: 4px; font-weight: 500; color: var(--ink-soft); }
+  .talk-meta-row .difficulty { padding: 2px 8px; border-radius: 4px; font-weight: 600; font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase; }
+  .difficulty.easy { background: rgba(122,180,107,0.12); color: var(--diff-easy); }
+  .difficulty.medium { background: rgba(216,161,58,0.12); color: var(--diff-medium); }
+  .difficulty.hard { background: rgba(194,94,58,0.12); color: var(--diff-hard); }
+  .talk-meta-row .read-dot { color: var(--ed-amber); font-size: 14px; }
+  .talk-title { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 600; line-height: 1.35; color: var(--ink); margin-bottom: 6px; }
+  .talk-speaker { font-size: 12px; color: var(--ink-muted); margin-bottom: 12px; }
+  .talk-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+  .talk-tag { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-muted); background: var(--line-soft); padding: 2px 6px; border-radius: 3px; }
+
+  .skip-card { padding: 12px 20px; color: var(--ink-faded); font-size: 12px; font-style: italic; text-align: center; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.05em; }
+
+  /* ============ CALENDAR HEATMAP ============ */
+  .heatmap { background: var(--paper-card); border: 1px solid var(--line); border-radius: 14px; padding: 24px; margin-bottom: 20px; }
+  .heatmap-title { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 16px; }
+  .heatmap-grid { display: grid; grid-template-columns: repeat(15, 1fr); gap: 4px; max-width: 600px; }
+  .hm-cell { aspect-ratio: 1; border-radius: 3px; background: var(--line-soft); cursor: pointer; transition: transform 0.1s; position: relative; }
+  .hm-cell:hover { transform: scale(1.15); z-index: 2; }
+  .hm-cell.has-talk { background: var(--ed-amber); }
+  .hm-cell.skip { background: rgba(168,168,168,0.15); }
+  .hm-cell.future { background: transparent; border: 1px dashed var(--line); cursor: default; }
+  .hm-cell:hover::after { content: attr(data-date); position: absolute; bottom: calc(100% + 4px); left: 50%; transform: translateX(-50%); background: var(--ink); color: var(--paper); padding: 4px 8px; border-radius: 4px; font-size: 10px; white-space: nowrap; pointer-events: none; }
+  .hm-legend { display: flex; align-items: center; justify-content: flex-end; gap: 12px; margin-top: 16px; font-size: 11px; color: var(--ink-faded); }
+  .hm-legend-item { display: inline-flex; align-items: center; gap: 4px; }
+  .hm-legend-dot { width: 12px; height: 12px; border-radius: 3px; }
+
+  .stat-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .stat-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+  .stat-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 6px; }
+  .stat-value { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 600; color: var(--ink); }
+  .stat-suffix { font-size: 13px; font-weight: 400; color: var(--ink-muted); margin-left: 4px; }
+
+  /* ============ TOPIC VIEW ============ */
+  .topics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+  .topic-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: 12px; padding: 18px; cursor: pointer; transition: border-color 0.15s; }
+  .topic-card:hover { border-color: var(--ed-amber); }
+  .topic-emoji { font-size: 28px; margin-bottom: 8px; }
+  .topic-name { font-family: 'Fraunces', serif; font-size: 18px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+  .topic-count { font-size: 11px; color: var(--ink-faded); font-family: 'JetBrains Mono', monospace; }
+
+  /* ============ WORD-DRIVEN VIEW ============ */
+  .word-list { display: flex; flex-direction: column; gap: 10px; }
+  .word-list-item { background: var(--paper-card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; cursor: pointer; display: flex; align-items: center; gap: 14px; transition: border-color 0.15s; }
+  .word-list-item:hover { border-color: var(--ed-amber-soft); }
+  .word-list-surface { font-family: 'Fraunces', serif; font-size: 17px; font-weight: 500; min-width: 120px; }
+  .word-list-meaning { font-size: 13px; color: var(--ink-muted); flex: 1; }
+  .word-list-talks-count { font-size: 11px; color: var(--ink-faded); font-family: 'JetBrains Mono', monospace; }
+
+  /* ============ ARCHIVE ============ */
+  .month-section { margin-bottom: 32px; }
+  .month-header { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 600; color: var(--ink); padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 16px; }
+
+  /* ============ FAVORITES ============ */
+  .fav-tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid var(--line); }
+  .fav-tab { padding: 10px 20px; background: transparent; border: none; cursor: pointer; font-family: inherit; font-size: 13px; color: var(--ink-muted); position: relative; }
+  .fav-tab.active { color: var(--ink); font-weight: 600; }
+  .fav-tab.active::after { content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 2px; background: var(--ed-amber); }
+  .fav-talk-group { background: var(--paper-card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 14px; }
+  .fav-talk-title { font-family: 'Fraunces', serif; font-size: 15px; font-weight: 500; color: var(--ink-soft); margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px dashed var(--line); }
+  .fav-item { display: flex; align-items: center; gap: 10px; padding: 6px 0; font-size: 14px; }
+  .fav-item-surface { font-family: 'Fraunces', serif; font-weight: 500; color: var(--ink); min-width: 120px; }
+  .fav-item-meaning { color: var(--ink-muted); font-size: 13px; flex: 1; }
+  .fav-item-remove { color: var(--ink-faded); cursor: pointer; font-size: 12px; padding: 4px 8px; }
+  .fav-item-remove:hover { color: var(--diff-hard); }
+  .fav-empty { text-align: center; padding: 60px 20px; color: var(--ink-faded); font-size: 13px; }
+  .export-row { display: flex; gap: 8px; margin-top: 16px; padding: 12px; background: var(--paper-card); border: 1px dashed var(--line); border-radius: 10px; }
+  .export-btn { padding: 8px 14px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; cursor: pointer; font-size: 12px; font-family: 'JetBrains Mono', monospace; color: var(--ink-soft); }
+  .export-btn:hover { border-color: var(--ed-amber); color: var(--ed-amber); }
+
+  /* ============ TALK DETAIL OVERLAY ============ */
+  .talk-detail-overlay { position: fixed; inset: 0; background: var(--paper); z-index: 100; overflow-y: auto; display: none; }
+  .talk-detail-overlay.open { display: block; }
+  .detail-back { position: sticky; top: 0; background: rgba(250,250,247,0.95); backdrop-filter: blur(8px); padding: 14px 20px; border-bottom: 1px solid var(--line); }
+  .back-btn { background: none; border: none; cursor: pointer; font-size: 14px; color: var(--ink-soft); display: inline-flex; align-items: center; gap: 6px; font-family: inherit; }
+  .back-btn:hover { color: var(--ed-amber); }
+  .detail-content { max-width: 720px; margin: 0 auto; padding: 24px 20px; }
+  .video-embed { width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 14px; overflow: hidden; margin-bottom: 20px; border: 1px solid var(--line); }
+  .video-embed iframe { width: 100%; height: 100%; border: none; }
+  .detail-meta { font-size: 12px; color: var(--ink-faded); margin-bottom: 6px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .detail-title { font-family: 'Fraunces', serif; font-size: 30px; font-weight: 600; line-height: 1.2; color: var(--ink); margin-bottom: 8px; }
+  .detail-speaker { font-size: 14px; color: var(--ink-muted); margin-bottom: 24px; }
+  .background-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 24px; }
+  .background-card summary { cursor: pointer; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-amber); list-style: none; user-select: none; display: flex; align-items: center; justify-content: space-between; }
+  .background-card summary::-webkit-details-marker { display: none; }
+  .background-card summary::after { content: "▸"; transition: transform 0.2s; }
+  .background-card[open] summary { margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px dashed var(--line); }
+  .background-card[open] summary::after { transform: rotate(90deg); }
+  .background-summary { font-size: 14px; color: var(--ink-soft); line-height: 1.7; margin-bottom: 12px; }
+  .background-list { list-style: none; padding-left: 0; }
+  .background-list li { font-size: 13px; color: var(--ink-muted); line-height: 1.6; padding: 4px 0; padding-left: 16px; position: relative; }
+  .background-list li::before { content: "·"; position: absolute; left: 4px; color: var(--ed-amber); font-weight: 700; }
+
+  /* ============ TRANSCRIPT ============ */
+  .transcript { font-family: 'Fraunces', serif; font-size: 18px; line-height: 1.85; color: var(--ink); }
+  .paragraph { margin-bottom: 24px; }
+  .para-time { font-family: 'JetBrains Mono', monospace; font-size: 10px; color: var(--ink-faded); margin-bottom: 6px; letter-spacing: 0.05em; }
+  .sentence { display: inline; padding: 2px 0; transition: padding-left 0.15s, border-left 0.15s; }
+  .sentence:hover { border-left: 2px solid var(--syntax-purple); padding-left: 8px; margin-left: -10px; }
+  .sentence-marker { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1px solid var(--syntax-purple); border-radius: 50%; color: var(--syntax-purple); font-size: 8px; font-weight: bold; cursor: pointer; margin: 0 2px; vertical-align: middle; opacity: 0.5; transition: opacity 0.15s; }
+  .sentence:hover .sentence-marker { opacity: 1; }
+
+  /* ============ TOKEN TIERS (4-tier) ============ */
+  .tk { cursor: pointer; transition: background 0.15s; }
+  .tk-basic { border-bottom: 1px dotted rgba(168,168,168,0.3); padding: 0 1px; }
+  .tk-normal { border-bottom: 1px dotted var(--ed-amber-faded); padding: 0 1px; }
+  .tk-key { border-bottom: 1.5px dotted var(--ed-amber); padding: 0 1px; }
+  .tk-frequent { background: linear-gradient(180deg, transparent 50%, var(--highlight-yellow) 50%); padding: 0 3px; font-weight: 600; }
+  .tk:hover { background: rgba(196,135,10,0.18); }
+
+  /* ============ EXPRESSIONS (2-tier) ============ */
+  .expr { cursor: pointer; transition: filter 0.15s; }
+  .expr-normal { background: var(--highlight-blue); padding: 1px 4px; border-radius: 4px; border-bottom: 1.5px solid #6a9ddc; }
+  .expr-frequent { background: var(--highlight-blue-strong); padding: 1px 6px; border-radius: 4px; border: 1.5px solid #4f7eb8; font-weight: 600; }
+  .expr:hover { filter: brightness(0.95); }
+
+  /* ============ MODAL (slide-up) ============ */
+  .modal-backdrop { position: fixed; inset: 0; background: rgba(44,38,24,0.4); z-index: 200; opacity: 0; pointer-events: none; transition: opacity 0.25s; }
+  .modal-backdrop.open { opacity: 1; pointer-events: auto; }
+  .modal { position: fixed; left: 0; right: 0; bottom: 0; background: var(--paper-card); border-radius: 20px 20px 0 0; max-height: 85vh; overflow-y: auto; z-index: 201; transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.32, 0.72, 0, 1); padding: 0 24px 32px; }
+  .modal.open { transform: translateY(0); }
+  .modal-handle { display: block; width: 40px; height: 4px; background: var(--line); border-radius: 2px; margin: 12px auto 16px; }
+  .modal-tier { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-amber); margin-bottom: 4px; display: inline-flex; align-items: center; gap: 6px; }
+  .modal-surface-row { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px; }
+  .modal-surface { font-family: 'Fraunces', serif; font-size: 32px; font-weight: 600; color: var(--ink); }
+  .modal-fav-btn { background: none; border: none; font-size: 22px; cursor: pointer; padding: 4px 8px; color: var(--ink-faded); transition: color 0.15s, transform 0.15s; }
+  .modal-fav-btn.active { color: var(--ed-amber); }
+  .modal-fav-btn:hover { transform: scale(1.15); }
+  .modal-pos-pron { font-size: 12px; color: var(--ink-faded); margin-bottom: 18px; font-family: 'JetBrains Mono', monospace; }
+  .modal-section { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px dashed var(--line); }
+  .modal-section:last-child { border-bottom: none; }
+  .modal-section-label { font-family: 'JetBrains Mono', monospace; font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-faded); margin-bottom: 8px; }
+  .modal-meaning { font-size: 16px; color: var(--ink); line-height: 1.7; }
+  .modal-example { font-family: 'Fraunces', serif; font-size: 16px; color: var(--ink); line-height: 1.7; margin-bottom: 4px; }
+  .modal-example-ja { font-size: 13px; color: var(--ink-muted); line-height: 1.7; }
+  .modal-context { font-size: 14px; color: var(--ink-soft); line-height: 1.75; }
+  .modal-collocations { display: flex; flex-wrap: wrap; gap: 6px; }
+  .modal-collocation { background: var(--tag-bg); border: 1px solid var(--line); padding: 4px 10px; border-radius: 4px; font-size: 12px; font-family: 'Fraunces', serif; color: var(--ink-soft); }
+
+  /* ============ SEARCH RESULTS ============ */
+  .search-results { display: flex; flex-direction: column; gap: 12px; }
+  .search-result { background: var(--paper-card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; cursor: pointer; }
+  .search-result:hover { border-color: var(--ed-amber); }
+  .search-snippet { font-size: 13px; color: var(--ink-muted); line-height: 1.6; margin-top: 6px; }
+  .search-snippet mark { background: var(--highlight-yellow); padding: 1px 2px; }
+
+  /* ============ HIDDEN ============ */
+  [hidden] { display: none !important; }
+
+  /* ============ MOBILE ============ */
+  @media (max-width: 600px) {
+    .app-header-inner { padding: 12px 16px; flex-wrap: wrap; }
+    .search-bar input { width: 140px; }
+    .search-bar input:focus { width: 200px; }
+    .main { padding: 20px 16px; }
+    .talk-card.today .talk-title { font-size: 19px; }
+    .heatmap-grid { grid-template-columns: repeat(7, 1fr); }
+    .modal { padding: 0 18px 32px; }
+    .modal-surface { font-size: 26px; }
+    .detail-title { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="app-header-inner">
+    <div class="brand">Daily<em>TED</em></div>
+    <div class="streak-badge"><span>🔥</span><span id="streakValue">8</span></div>
+    <div class="header-spacer"></div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search talks, words, examples...">
+    </div>
+  </div>
+  <nav class="nav-tabs" id="navTabs">
+    <button class="nav-tab active" data-view="home">A タイムライン</button>
+    <button class="nav-tab" data-view="archive">B 月次アーカイブ</button>
+    <button class="nav-tab" data-view="calendar">C カレンダー</button>
+    <button class="nav-tab" data-view="topic">D トピック</button>
+    <button class="nav-tab" data-view="words">E 単語駆動</button>
+    <button class="nav-tab" data-view="favorites">★ お気に入り</button>
+  </nav>
+</header>
+
+<main class="main">
+
+  <!-- ============ VIEW A: HOME (timeline) ============ -->
+  <section id="view-home" class="view">
+    <h1 class="view-title">直近のタイムライン</h1>
+    <p class="view-subtitle">本日 2026-05-10 (土) · 過去14日分</p>
+    <div class="talks-stream" id="homeStream"></div>
+  </section>
+
+  <!-- ============ VIEW B: ARCHIVE ============ -->
+  <section id="view-archive" class="view" hidden>
+    <h1 class="view-title">月次アーカイブ</h1>
+    <p class="view-subtitle">月ごとに整理して振り返る</p>
+    <div id="archiveContainer"></div>
+  </section>
+
+  <!-- ============ VIEW C: CALENDAR ============ -->
+  <section id="view-calendar" class="view" hidden>
+    <h1 class="view-title">継続カレンダー</h1>
+    <p class="view-subtitle">あなたの学習の足跡</p>
+    <div class="stat-cards">
+      <div class="stat-card">
+        <div class="stat-label">Current streak</div>
+        <div class="stat-value">8<span class="stat-suffix">日連続</span></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">This month</div>
+        <div class="stat-value">8<span class="stat-suffix">/14日</span></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total talks</div>
+        <div class="stat-value">8<span class="stat-suffix">本</span></div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Total words saved</div>
+        <div class="stat-value" id="favCount">0<span class="stat-suffix">語</span></div>
+      </div>
+    </div>
+    <div class="heatmap">
+      <div class="heatmap-title">直近 90 日</div>
+      <div class="heatmap-grid" id="heatmapGrid"></div>
+      <div class="hm-legend">
+        <span class="hm-legend-item"><span class="hm-legend-dot" style="background:var(--ed-amber)"></span>Talk配信あり</span>
+        <span class="hm-legend-item"><span class="hm-legend-dot" style="background:rgba(168,168,168,0.15)"></span>スキップ日</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIEW D: TOPIC ============ -->
+  <section id="view-topic" class="view" hidden>
+    <h1 class="view-title">トピック別ブラウズ</h1>
+    <p class="view-subtitle">興味分野で再訪する</p>
+    <div class="topics-grid" id="topicsGrid"></div>
+    <div id="topicDetail" style="margin-top:32px;"></div>
+  </section>
+
+  <!-- ============ VIEW E: WORDS ============ -->
+  <section id="view-words" class="view" hidden>
+    <h1 class="view-title">単語駆動ナビ</h1>
+    <p class="view-subtitle">お気に入り単語から Talk を逆引き</p>
+    <div class="word-list" id="wordsList"></div>
+    <div id="wordDetail" style="margin-top:32px;"></div>
+  </section>
+
+  <!-- ============ VIEW Favorites ============ -->
+  <section id="view-favorites" class="view" hidden>
+    <h1 class="view-title">お気に入り集約</h1>
+    <p class="view-subtitle">Talk 別にグルーピング</p>
+    <div class="fav-tabs">
+      <button class="fav-tab active" data-fav="all">All</button>
+      <button class="fav-tab" data-fav="word">Words</button>
+      <button class="fav-tab" data-fav="expression">Expressions</button>
+      <button class="fav-tab" data-fav="sentence">Sentences</button>
+    </div>
+    <div id="favoritesContainer"></div>
+    <div class="export-row">
+      <button class="export-btn" onclick="alert('Markdown export\n(モックなのでダウンロードは省略)')">⬇ Markdown</button>
+      <button class="export-btn" onclick="alert('CSV export\n(モックなのでダウンロードは省略)')">⬇ CSV</button>
+      <button class="export-btn" onclick="alert('Anki .apkg export\n(モックなのでダウンロードは省略)')">⬇ Anki (.apkg)</button>
+    </div>
+  </section>
+
+  <!-- ============ VIEW Search ============ -->
+  <section id="view-search" class="view" hidden>
+    <h1 class="view-title">検索結果</h1>
+    <p class="view-subtitle" id="searchSubtitle">"" にヒット 0 件</p>
+    <div class="search-results" id="searchResults"></div>
+  </section>
+
+</main>
+
+<!-- ============ TALK DETAIL OVERLAY ============ -->
+<div class="talk-detail-overlay" id="talkDetail">
+  <div class="detail-back">
+    <button class="back-btn" onclick="closeTalkDetail()">← Back</button>
+  </div>
+  <div class="detail-content" id="talkDetailContent"></div>
+</div>
+
+<!-- ============ MODAL ============ -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="closeModal()"></div>
+<div class="modal" id="modal">
+  <span class="modal-handle"></span>
+  <div id="modalContent"></div>
+</div>
+
+<script>
+// ============ DUMMY DATA ============
+// 直近14日分のダミー talk データ。実 TED-Ed video_id 含む。
+// スキーマは docs/data_schema.md v3.2 準拠(抜粋・モック)。
+
+const TODAY = '2026-05-10';
+
+const TALKS = {
+  '2026-05-09': {
+    id: 'talk_2026-05-09', date: '2026-05-09', source: 'ted-ed',
+    primary_topic: 'Geology',
+    tags: ['volcano', 'iceland', 'lava-flow', 'geology', 'natural-disaster'],
+    difficulty: 'medium',
+    slug: 'why_iceland_lava_is_so_hard_to_control',
+    video_id: '8H--GLt3h8I',
+    title: "Why Iceland's lava is so hard to control",
+    speaker: 'Arianna Soldati',
+    duration_sec: 316,
+    video_url: 'https://www.youtube.com/watch?v=8H--GLt3h8I',
+    embed_url: 'https://www.youtube.com/embed/8H--GLt3h8I',
+    background: {
+      summary: 'アイスランドのグリンダヴィークで2023年12月18日に発生した火山噴火を題材に、溶岩流をどうやって人為的にコントロールするかを解説する。火山学者が現場で使う「冷却・障壁・誘導」の3戦略がコアトピック。',
+      details: [
+        '対象事例: 2023-12-18 グリンダヴィーク噴火(地震群発の末に火山割れ目が4km北東に開いた)',
+        '溶岩流対策: 海水冷却(1973 Heimaey)・人工障壁(1991 Etna)・人工溝による誘導',
+        'ナレーター: Arianna Soldati(アメリカ・ノースカロライナ州立大学・火山学)',
+        '関連分野: 火山学 / 地質工学 / 防災'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 7,
+        sentences: [
+          {
+            id: 's1',
+            text: "Late at night on December 18th, 2023, the Icelandic citizens of Grindavik experienced their worst nightmare.",
+            translation_ja: '2023年12月18日深夜、アイスランドのグリンダヴィークの市民たちは最悪の悪夢を経験した。',
+            structure: [
+              { label: '副詞句', content: 'Late at night on December 18th, 2023', note: '時を示す前置修飾' },
+              { label: 'S', content: 'the Icelandic citizens of Grindavik', note: '主語名詞句' },
+              { label: 'V', content: 'experienced', note: '他動詞・過去形' },
+              { label: 'O', content: 'their worst nightmare', note: '目的語名詞句' }
+            ],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'Late', tier: 'normal', ref: 'late' },
+              { id: 't2', type: 'skip', surface: ' ' },
+              { id: 't3', type: 'word', surface: 'at', tier: 'basic', ref: 'at' },
+              { id: 't4', type: 'skip', surface: ' ' },
+              { id: 't5', type: 'word', surface: 'night', tier: 'basic', ref: 'night' },
+              { id: 't6', type: 'skip', surface: ' ' },
+              { id: 't7', type: 'word', surface: 'on', tier: 'basic', ref: 'on' },
+              { id: 't8', type: 'skip', surface: ' ' },
+              { id: 't9', type: 'word', surface: 'December', tier: 'basic', ref: 'december' },
+              { id: 't10', type: 'skip', surface: ' ' },
+              { id: 't11', type: 'word', surface: '18th,', tier: 'basic', ref: 'eighteenth' },
+              { id: 't12', type: 'skip', surface: ' ' },
+              { id: 't13', type: 'word', surface: '2023,', tier: 'basic', ref: 'year_2023' },
+              { id: 't14', type: 'skip', surface: ' ' },
+              { id: 't15', type: 'word', surface: 'the', tier: 'basic', ref: 'the' },
+              { id: 't16', type: 'skip', surface: ' ' },
+              { id: 't17', type: 'word', surface: 'Icelandic', tier: 'key', ref: 'icelandic' },
+              { id: 't18', type: 'skip', surface: ' ' },
+              { id: 't19', type: 'word', surface: 'citizens', tier: 'normal', ref: 'citizens' },
+              { id: 't20', type: 'skip', surface: ' ' },
+              { id: 't21', type: 'word', surface: 'of', tier: 'basic', ref: 'of' },
+              { id: 't22', type: 'skip', surface: ' ' },
+              { id: 't23', type: 'word', surface: 'Grindavik', tier: 'basic', ref: 'grindavik' },
+              { id: 't24', type: 'skip', surface: ' ' },
+              { id: 't25', type: 'word', surface: 'experienced', tier: 'frequent', ref: 'experienced' },
+              { id: 't26', type: 'skip', surface: ' ' },
+              { id: 't27', type: 'word', surface: 'their', tier: 'basic', ref: 'their' },
+              { id: 't28', type: 'skip', surface: ' ' },
+              { id: 't29', type: 'word', surface: 'worst', tier: 'normal', ref: 'worst' },
+              { id: 't30', type: 'skip', surface: ' ' },
+              { id: 't31', type: 'word', surface: 'nightmare.', tier: 'key', ref: 'nightmare' }
+            ]
+          },
+          {
+            id: 's2',
+            text: "After weeks of earthquake-filled suspense, a volcanic fissure opened four kilometers northeast of town and began spewing lava fountains 100 meters tall.",
+            translation_ja: '何週間にも及ぶ地震群発の不安の末、町の北東4キロメートルの地点に火山の割れ目が開き、高さ100メートルの溶岩噴泉を噴き上げ始めた。',
+            structure: [
+              { label: '副詞句', content: 'After weeks of earthquake-filled suspense', note: '時を示す前置修飾' },
+              { label: 'S', content: 'a volcanic fissure', note: '主語' },
+              { label: 'V₁', content: 'opened', note: '自動詞' },
+              { label: 'V₂', content: 'began spewing lava fountains', note: '等位接続の動作' }
+            ],
+            tokens: [
+              { id: 't32', type: 'word', surface: 'After', tier: 'basic', ref: 'after' },
+              { id: 't33', type: 'skip', surface: ' ' },
+              { id: 't34', type: 'word', surface: 'weeks', tier: 'basic', ref: 'weeks' },
+              { id: 't35', type: 'skip', surface: ' of ' },
+              { id: 't36', type: 'expression', surface: 'earthquake-filled suspense', ref: 'earthquake_filled_suspense' },
+              { id: 't37', type: 'skip', surface: ', ' },
+              { id: 't38', type: 'word', surface: 'a', tier: 'basic', ref: 'a' },
+              { id: 't39', type: 'skip', surface: ' ' },
+              { id: 't40', type: 'word', surface: 'volcanic', tier: 'key', ref: 'volcanic' },
+              { id: 't41', type: 'skip', surface: ' ' },
+              { id: 't42', type: 'word', surface: 'fissure', tier: 'key', ref: 'fissure' },
+              { id: 't43', type: 'skip', surface: ' ' },
+              { id: 't44', type: 'word', surface: 'opened', tier: 'normal', ref: 'opened' },
+              { id: 't45', type: 'skip', surface: ' four kilometers northeast of town and began ' },
+              { id: 't46', type: 'word', surface: 'spewing', tier: 'frequent', ref: 'spewing' },
+              { id: 't47', type: 'skip', surface: ' ' },
+              { id: 't48', type: 'expression', surface: 'lava fountains', ref: 'lava_fountains' },
+              { id: 't49', type: 'skip', surface: ' 100 meters tall.' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'late': { tier: 'normal', surface: 'Late', pos: 'adv · A2', pron: '/leɪt/', meaning: '遅く、夜遅く', example: { en: 'I worked <b>late</b> last night.', ja: '昨晩は遅くまで働いた。' }, context: '時間軸上の「遅さ」を表す副詞・形容詞。"late at night" は決まり文句で「夜更けに」。', collocations: ['late at night', 'late afternoon', 'too late'] },
+      'icelandic': { tier: 'key', surface: 'Icelandic', pos: 'adj · B2', pron: '/aɪsˈlæn.dɪk/', meaning: 'アイスランドの・アイスランド人の', example: { en: 'The <b>Icelandic</b> language is very old.', ja: 'アイスランド語は非常に古い言語だ。' }, context: '国名 Iceland の形容詞形。北ゲルマン語派の言語名でもある。形容詞・名詞両用。', collocations: ['Icelandic language', 'Icelandic saga', 'Icelandic culture'] },
+      'citizens': { tier: 'normal', surface: 'citizens', pos: 'noun · B1', pron: '/ˈsɪt.ɪ.zənz/', meaning: '市民、住民', example: { en: 'The <b>citizens</b> voted for change.', ja: '市民たちは変化を求めて投票した。' }, context: 'citizen の複数形。国家・自治体の構成員を指す。"residents" より公的な響き。', collocations: ['senior citizens', 'fellow citizens', 'citizens rights'] },
+      'experienced': { tier: 'frequent', surface: 'experienced', pos: 'verb · B1', pron: '/ɪkˈspɪə.ri.ənst/', meaning: '経験した、味わった', example: { en: 'She <b>experienced</b> a great loss.', ja: '彼女は大きな喪失を経験した。', }, context: 'experience(経験する)の過去形。ニュース・学術文書・日常会話まで万能の頻出動詞。形容詞用法では「経験豊富な」。', collocations: ['experienced firsthand', 'experienced symptoms', 'highly experienced'] },
+      'nightmare': { tier: 'key', surface: 'nightmare', pos: 'noun · B2', pron: '/ˈnaɪt.meər/', meaning: '悪夢、最悪の事態', example: { en: 'Last night was a complete <b>nightmare</b>.', ja: '昨晩は本当にひどい一夜だった。' }, context: '本来は「悪夢」だが、比喩的に「最悪の状況」を意味することが圧倒的に多い。「mare」は古英語で悪魔・悪霊。', collocations: ['worst nightmare', 'living nightmare', 'logistics nightmare'] },
+      'worst': { tier: 'normal', surface: 'worst', pos: 'adj · A2', pron: '/wɜːst/', meaning: '最悪の、最も悪い', example: { en: 'It was the <b>worst</b> day of my life.', ja: '人生最悪の日だった。' }, context: 'bad の最上級。"the worst" で「最悪のもの」を指す名詞的用法も頻出。', collocations: ['the worst case', 'worst-case scenario', 'worst nightmare'] },
+      'volcanic': { tier: 'key', surface: 'volcanic', pos: 'adj · B2', pron: '/vɒlˈkæn.ɪk/', meaning: '火山の、火山活動による', example: { en: 'The island has many <b>volcanic</b> hot springs.', ja: 'その島には多くの火山温泉がある。' }, context: 'volcano(火山)の形容詞形。地質学・防災・古生物学などの専門文脈で頻用。比喩的に「激しい・噴出するような」も。', collocations: ['volcanic eruption', 'volcanic ash', 'volcanic activity'] },
+      'fissure': { tier: 'key', surface: 'fissure', pos: 'noun · C1', pron: '/ˈfɪʃ.ər/', meaning: '裂け目、割れ目', example: { en: 'A deep <b>fissure</b> opened in the rock.', ja: '岩に深い裂け目が開いた。' }, context: '地質学・医学(肛門裂・口唇裂等)で頻用される専門語。crack より大規模・深刻なニュアンス。動詞形は「裂ける」。', collocations: ['volcanic fissure', 'open a fissure', 'fissure in the ground'] },
+      'opened': { tier: 'normal', surface: 'opened', pos: 'verb · A1', pron: '/ˈəʊ.pənd/', meaning: '開いた、開放した', example: { en: 'The door <b>opened</b> slowly.', ja: 'ドアがゆっくり開いた。' }, context: 'open の過去形。物理的・抽象的な「開く」両方で使う。"open up" で心を開くニュアンスも。', collocations: ['opened up', 'opened wide', 'newly opened'] },
+      'spewing': { tier: 'frequent', surface: 'spewing', pos: 'verb · B2', pron: '/ˈspjuː.ɪŋ/', meaning: '噴き出している、激しく吐き出している', example: { en: 'The factory was <b>spewing</b> smoke into the sky.', ja: '工場は空に煙を噴き上げていた。' }, context: 'spew(噴出させる)の現在分詞。火山・煙突・口など「勢いよく激しく噴き出す」イメージ。比喩的に「悪口を吐く」も。', collocations: ['spewing lava', 'spewing smoke', 'spewing nonsense'] }
+    },
+    expressions: {
+      'earthquake_filled_suspense': { tier: 'normal', surface: 'earthquake-filled suspense', pos: 'noun phrase', pron: '/ˈɜːθkweɪk.fɪld səsˈpens/', literal: '地震に満ちた緊張感', meaning: '地震群発に伴う恐怖と緊張感の連続', context: '"X-filled Y" で「Xに満ちたY」を表す形容詞句。ジャーナリズム・小説で頻用される修辞表現。', collocations: ['action-filled', 'tension-filled', 'drama-filled'] },
+      'lava_fountains': { tier: 'normal', surface: 'lava fountains', pos: 'noun phrase', pron: '/ˈlɑː.və ˈfaʊn.tənz/', literal: '溶岩の噴水', meaning: '火山割れ目から垂直に噴き上がる溶岩の柱', context: '火山学の専門用語。"lava fountain" は火口や割れ目から数十〜数百メートルの高さに噴き上がる溶岩の流体現象。', collocations: ['lava fountain eruption', 'spectacular lava fountains'] }
+    }
+  },
+  '2026-05-08': {
+    id: 'talk_2026-05-08', date: '2026-05-08', source: 'ted-ed',
+    primary_topic: 'Forensics',
+    tags: ['forensics', 'crime-scene', 'dna', 'investigation', 'detective'],
+    difficulty: 'medium',
+    slug: 'how_did_detectives_solve_the_case_of_the_bloody_motel',
+    video_id: 'P8OEz3PvWZQ',
+    title: 'How did detectives solve the case of the bloody motel?',
+    speaker: 'Theodore E. Yeshion',
+    duration_sec: 313,
+    video_url: 'https://www.youtube.com/watch?v=P8OEz3PvWZQ',
+    embed_url: 'https://www.youtube.com/embed/P8OEz3PvWZQ',
+    background: {
+      summary: 'モーテルでの血まみれ事件を題材に、現代の鑑識捜査(指紋・DNA・血痕パターン解析)が容疑者特定にどう寄与するかを物語形式で解説する TED-Ed Lesson。',
+      details: [
+        '舞台: 架空のモーテル事件。Officer Stone が事件現場を初動調査',
+        '鑑識3要素: 指紋分析・DNA 鑑定・血痕パターン解析',
+        'ナレーター: Theodore E. Yeshion(法医学・元 FBI 鑑識官)',
+        '関連分野: 法医学 / 犯罪捜査 / DNA 解析'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 7,
+        sentences: [
+          {
+            id: 's1',
+            text: "Officer Stone approaches the dimly lit motel he's been called to investigate.",
+            translation_ja: 'Stone 巡査は、捜査するよう呼ばれた薄暗いモーテルに近づく。',
+            structure: [
+              { label: 'S', content: 'Officer Stone', note: '主語' },
+              { label: 'V', content: 'approaches', note: '他動詞・現在形' },
+              { label: 'O', content: 'the dimly lit motel', note: '目的語' },
+              { label: '関係節', content: "he's been called to investigate", note: 'motelを修飾、関係代名詞that省略' }
+            ],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'Officer', tier: 'normal', ref: 'officer' },
+              { id: 't2', type: 'skip', surface: ' ' },
+              { id: 't3', type: 'word', surface: 'Stone', tier: 'basic', ref: 'stone_name' },
+              { id: 't4', type: 'skip', surface: ' ' },
+              { id: 't5', type: 'word', surface: 'approaches', tier: 'frequent', ref: 'approaches' },
+              { id: 't6', type: 'skip', surface: ' the ' },
+              { id: 't7', type: 'expression', surface: 'dimly lit', ref: 'dimly_lit' },
+              { id: 't8', type: 'skip', surface: ' ' },
+              { id: 't9', type: 'word', surface: 'motel', tier: 'normal', ref: 'motel' },
+              { id: 't10', type: 'skip', surface: ' ' },
+              { id: 't11', type: 'word', surface: "he's", tier: 'basic', ref: 'he_is' },
+              { id: 't12', type: 'skip', surface: ' been ' },
+              { id: 't13', type: 'word', surface: 'called', tier: 'normal', ref: 'called' },
+              { id: 't14', type: 'skip', surface: ' to ' },
+              { id: 't15', type: 'word', surface: 'investigate.', tier: 'frequent', ref: 'investigate' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'officer': { tier: 'normal', surface: 'Officer', pos: 'noun · B1', pron: '/ˈɒf.ɪ.sər/', meaning: '警官、士官、役員', example: { en: 'The <b>officer</b> arrived at the scene.', ja: '警官が現場に到着した。' }, context: '軍隊や警察の役職、企業の役員(CFO の "officer")等、組織の正式な肩書きで多用される。', collocations: ['police officer', 'commanding officer', 'chief executive officer'] },
+      'approaches': { tier: 'frequent', surface: 'approaches', pos: 'verb · B1', pron: '/əˈprəʊ.tʃɪz/', meaning: '近づく、取り組む', example: { en: 'She <b>approaches</b> problems calmly.', ja: '彼女は問題に冷静に取り組む。' }, context: '物理的に近づくほか、抽象的に「(問題に)取り組む」も極めて頻用。名詞形 approach は「アプローチ・手法」。', collocations: ['approach a problem', 'cautiously approach', 'as we approach the deadline'] },
+      'motel': { tier: 'normal', surface: 'motel', pos: 'noun · A2', pron: '/məʊˈtel/', meaning: 'モーテル(車旅行者向け簡易宿泊所)', example: { en: 'They stayed at a roadside <b>motel</b>.', ja: '彼らは道路沿いのモーテルに泊まった。' }, context: 'motor + hotel の合成語。アメリカで1925年頃に誕生。駐車場が部屋に隣接する造りが特徴。', collocations: ['cheap motel', 'roadside motel', 'motel room'] },
+      'called': { tier: 'normal', surface: 'called', pos: 'verb · A1', pron: '/kɔːld/', meaning: '呼ばれた、電話された', example: { en: 'He was <b>called</b> to the office.', ja: '彼はオフィスに呼び出された。' }, context: 'call の過去分詞。受動態で「呼ばれる/招集される」、能動で「電話する/名付ける」。多義語の典型。', collocations: ['called to action', 'so-called', 'called on'] },
+      'investigate': { tier: 'frequent', surface: 'investigate', pos: 'verb · B2', pron: '/ɪnˈves.tɪ.ɡeɪt/', meaning: '調査する、捜査する', example: { en: 'Police are <b>investigating</b> the incident.', ja: '警察はその事件を捜査している。' }, context: 'TOEFL/IELTS 頻出のアカデミック語彙。学術論文・ジャーナリズム・捜査文脈で必須。"investigation" は名詞形。', collocations: ['investigate further', 'investigate thoroughly', 'investigate a claim'] }
+    },
+    expressions: {
+      'dimly_lit': { tier: 'frequent', surface: 'dimly lit', pos: 'adjective phrase', pron: '/ˈdɪm.li lɪt/', literal: '薄暗く照らされた', meaning: '照明が暗く、ぼんやり光っている', context: '小説・映画・ニュースでの定番修飾。"dim" の副詞形 + "lit"(light の過去分詞)。"brightly lit" の対義語。', collocations: ['dimly lit room', 'dimly lit street', 'dimly lit corner'] }
+    }
+  },
+  '2026-05-07': {
+    id: 'talk_2026-05-07', date: '2026-05-07', source: 'ted-ed',
+    primary_topic: 'Psychology',
+    tags: ['developmental-psychology', 'infant-cognition', 'object-permanence', 'play'],
+    difficulty: 'easy',
+    slug: 'the_fascinating_reason_you_loved_peek_a_boo',
+    video_id: 'PEEK_A_BOO_DEMO',
+    title: 'The fascinating reason you loved peek-a-boo',
+    speaker: 'Alexandra Panzer',
+    duration_sec: 308,
+    video_url: 'https://www.youtube.com/watch?v=PEEK_A_BOO_DEMO',
+    embed_url: 'https://www.youtube.com/embed/PEEK_A_BOO_DEMO',
+    background: {
+      summary: '「いないいないばあ」という単純な遊びがなぜ世界中の赤ちゃんを夢中にさせるのか、発達心理学のキー概念「対象の永続性」から解き明かす TED-Ed Lesson。',
+      details: [
+        '対象の永続性: ジャン・ピアジェが提唱した認知概念。生後8〜12ヶ月で獲得される',
+        'Serve-and-return 理論との関連',
+        'ナレーター: Alexandra Panzer'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 5,
+        sentences: [
+          {
+            id: 's1',
+            text: 'In Italy, peek-a-boo is called il gioco del cucù.',
+            translation_ja: 'イタリアでは、いないいないばあは il gioco del cucù と呼ばれる。',
+            structure: [
+              { label: '副詞句', content: 'In Italy', note: '場所を示す前置修飾' },
+              { label: 'S+V', content: 'peek-a-boo is called', note: '受動態' }
+            ],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'In', tier: 'basic', ref: 'in' },
+              { id: 't2', type: 'skip', surface: ' ' },
+              { id: 't3', type: 'word', surface: 'Italy,', tier: 'basic', ref: 'italy' },
+              { id: 't4', type: 'skip', surface: ' peek-a-boo is ' },
+              { id: 't5', type: 'word', surface: 'called', tier: 'normal', ref: 'called' },
+              { id: 't6', type: 'skip', surface: ' ' },
+              { id: 't7', type: 'expression', surface: 'il gioco del cucù', ref: 'il_gioco' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'in': { tier: 'basic', surface: 'In', pos: 'prep · A1', pron: '/ɪn/', meaning: '〜の中で、〜において', example: { en: '<b>In</b> Japan, people bow to greet.', ja: '日本では、人はお辞儀で挨拶する。' }, context: '英語で最頻出の前置詞のひとつ。場所・時間・状態を表す。', collocations: ['in the morning', 'in fact', 'in addition'] },
+      'italy': { tier: 'basic', surface: 'Italy', pos: 'noun · A1', pron: '/ˈɪt.ə.li/', meaning: 'イタリア', example: { en: 'She visited <b>Italy</b> last year.', ja: '彼女は昨年イタリアを訪れた。' }, context: '南欧の国。形容詞形は Italian。', collocations: ['from Italy', 'visit Italy'] },
+      'called': { tier: 'normal', surface: 'called', pos: 'verb · A1', pron: '/kɔːld/', meaning: '呼ばれる', example: { en: 'It is <b>called</b> a paradox.', ja: 'それはパラドックスと呼ばれる。' }, context: 'call の過去分詞。be called X で「X と呼ばれる」。', collocations: ['so-called', 'called upon', 'called for'] }
+    },
+    expressions: {
+      'il_gioco': { tier: 'normal', surface: 'il gioco del cucù', pos: 'Italian phrase', pron: '/il ˈdʒɔ.ko del kuˈku/', literal: 'カッコウのゲーム', meaning: '(イタリア語)いないいないばあ', context: 'il = 男性定冠詞、gioco = ゲーム、del = of the、cucù = カッコウ/「ばあ!」の擬音。', collocations: [] }
+    }
+  },
+  '2026-05-06': {
+    id: 'talk_2026-05-06', date: '2026-05-06', source: 'ted-ed',
+    primary_topic: 'Biology',
+    tags: ['cephalopod', 'octopus', 'intelligence', 'neuroscience', 'animal-cognition'],
+    difficulty: 'hard',
+    slug: 'why_are_octopuses_so_smart',
+    video_id: 'OCTOPUS_DEMO',
+    title: 'Why are octopuses so smart?',
+    speaker: 'Claudio Sillero-Zubiri',
+    duration_sec: 342,
+    video_url: 'https://www.youtube.com/watch?v=OCTOPUS_DEMO',
+    embed_url: 'https://www.youtube.com/embed/OCTOPUS_DEMO',
+    background: {
+      summary: 'タコの分散型神経系・問題解決能力・道具使用について、最新の比較認知研究の知見を踏まえて解説する。',
+      details: [
+        '中央神経系と腕の独立処理(デッセントラリゼーション)',
+        '問題解決例: ジャーの蓋を開ける、迷路を抜ける',
+        '関連分野: 比較認知 / 神経科学 / 海洋生物学'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 0,
+        sentences: [
+          {
+            id: 's1',
+            text: 'Octopuses can solve puzzles, open jars, and even use tools.',
+            translation_ja: 'タコはパズルを解いたり、瓶を開けたり、道具すら使うことができる。',
+            structure: [
+              { label: 'S', content: 'Octopuses' },
+              { label: 'V', content: 'can solve, open, and use', note: '等位接続された3動詞' },
+              { label: 'O', content: 'puzzles, jars, tools' }
+            ],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'Octopuses', tier: 'key', ref: 'octopuses' },
+              { id: 't2', type: 'skip', surface: ' can ' },
+              { id: 't3', type: 'word', surface: 'solve', tier: 'frequent', ref: 'solve' },
+              { id: 't4', type: 'skip', surface: ' ' },
+              { id: 't5', type: 'word', surface: 'puzzles,', tier: 'normal', ref: 'puzzles' },
+              { id: 't6', type: 'skip', surface: ' open ' },
+              { id: 't7', type: 'word', surface: 'jars,', tier: 'normal', ref: 'jars' },
+              { id: 't8', type: 'skip', surface: ' and even use ' },
+              { id: 't9', type: 'word', surface: 'tools.', tier: 'normal', ref: 'tools' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'octopuses': { tier: 'key', surface: 'Octopuses', pos: 'noun · B2', pron: '/ˈɒk.tə.pʊs.ɪz/', meaning: 'タコ(複数形)', example: { en: '<b>Octopuses</b> are highly intelligent.', ja: 'タコは非常に知能が高い。' }, context: 'octopus の標準的複数形。学術文献では octopodes も使われるが稀。', collocations: ['giant octopus', 'octopus arm'] },
+      'solve': { tier: 'frequent', surface: 'solve', pos: 'verb · B1', pron: '/sɒlv/', meaning: '解決する、(問題を)解く', example: { en: 'Can you <b>solve</b> this equation?', ja: 'この方程式を解けますか?' }, context: 'TOEFL 頻出。"solve a problem" は最頻出のコロケーション。「solution(解決策)」と対で覚える。', collocations: ['solve a problem', 'solve a mystery', 'problem-solving'] },
+      'puzzles': { tier: 'normal', surface: 'puzzles', pos: 'noun · A2', pron: '/ˈpʌz.əlz/', meaning: 'パズル、難問', example: { en: 'The kids love jigsaw <b>puzzles</b>.', ja: '子供たちはジグソーパズルが大好きだ。' }, context: '名詞・動詞両用。動詞だと「困惑させる」。"puzzle out" で「考え抜いて解く」。', collocations: ['jigsaw puzzle', 'crossword puzzle', 'piece together a puzzle'] },
+      'jars': { tier: 'normal', surface: 'jars', pos: 'noun · A2', pron: '/dʒɑːz/', meaning: '瓶、ジャー(複数形)', example: { en: 'She filled the <b>jars</b> with jam.', ja: '彼女は瓶にジャムを詰めた。' }, context: '広口瓶のこと。動詞だと「衝撃を与える」。"jar of X" で「X が一瓶分」。', collocations: ['glass jar', 'jam jar', 'mason jar'] },
+      'tools': { tier: 'normal', surface: 'tools', pos: 'noun · A2', pron: '/tuːlz/', meaning: '道具、ツール', example: { en: 'A craftsman needs the right <b>tools</b>.', ja: '職人には適切な道具が必要だ。' }, context: '物理的道具からソフトウェア、抽象的「手段」まで広く。「tools of the trade」は「商売道具」。', collocations: ['the right tools', 'tools of the trade', 'power tools'] }
+    },
+    expressions: {}
+  },
+  '2026-05-05': {
+    id: 'talk_2026-05-05', date: '2026-05-05', source: 'ted-ed',
+    primary_topic: 'History',
+    tags: ['writing', 'cuneiform', 'mesopotamia', 'ancient-history', 'language'],
+    difficulty: 'medium',
+    slug: 'the_history_of_writing',
+    video_id: 'WRITING_DEMO',
+    title: 'The history of writing - from clay to keyboards',
+    speaker: 'Lera Boroditsky',
+    duration_sec: 298,
+    video_url: 'https://www.youtube.com/watch?v=WRITING_DEMO',
+    embed_url: 'https://www.youtube.com/embed/WRITING_DEMO',
+    background: {
+      summary: '紀元前3200年頃のメソポタミアで生まれた楔形文字から、現代のデジタル文字まで、書記システムの進化と人類社会への影響を辿る。',
+      details: [
+        '最古の文字: シュメール楔形文字 (ca. 3200 BCE)',
+        '記号→音節→アルファベットへの抽象化',
+        '関連分野: 言語学 / 古代史 / 認知科学'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 0,
+        sentences: [
+          {
+            id: 's1',
+            text: 'Writing might be the most consequential invention in human history.',
+            translation_ja: '書くという行為は、人類史上もっとも重要な発明かもしれない。',
+            structure: [{ label: 'S', content: 'Writing' }, { label: 'V', content: 'might be' }, { label: 'C', content: 'the most consequential invention' }],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'Writing', tier: 'normal', ref: 'writing' },
+              { id: 't2', type: 'skip', surface: ' ' },
+              { id: 't3', type: 'expression', surface: 'might be', ref: 'might_be' },
+              { id: 't4', type: 'skip', surface: ' the most ' },
+              { id: 't5', type: 'word', surface: 'consequential', tier: 'key', ref: 'consequential' },
+              { id: 't6', type: 'skip', surface: ' ' },
+              { id: 't7', type: 'word', surface: 'invention', tier: 'frequent', ref: 'invention' },
+              { id: 't8', type: 'skip', surface: ' in human history.' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'writing': { tier: 'normal', surface: 'Writing', pos: 'noun · A1', pron: '/ˈraɪ.tɪŋ/', meaning: '書くこと、文字、文章', example: { en: 'His <b>writing</b> is very clear.', ja: '彼の文章はとても明快だ。' }, context: '動名詞で「書くこと」、名詞で「文字/文章」両義。', collocations: ['in writing', 'creative writing', 'handwriting'] },
+      'consequential': { tier: 'key', surface: 'consequential', pos: 'adj · C1', pron: '/ˌkɒn.sɪˈkwen.ʃəl/', meaning: '重大な、結果に影響する', example: { en: 'The decision was <b>consequential</b> for the entire region.', ja: 'その決定は地域全体に重大な影響をもたらした。' }, context: 'important より「結果として影響が大きい」点を強調する硬めの語。学術・ニュースで頻出。', collocations: ['highly consequential', 'consequential decision'] },
+      'invention': { tier: 'frequent', surface: 'invention', pos: 'noun · B1', pron: '/ɪnˈven.ʃən/', meaning: '発明、発明品', example: { en: 'The wheel was a great <b>invention</b>.', ja: '車輪は偉大な発明だった。' }, context: 'invent(発明する)の名詞形。動詞 invent と一緒に覚える必修語。', collocations: ['great invention', 'recent invention', 'invention of'] }
+    },
+    expressions: {
+      'might_be': { tier: 'frequent', surface: 'might be', pos: 'modal phrase', pron: '/maɪt biː/', literal: '〜かもしれない', meaning: '可能性を控えめに示唆する', context: 'may be より弱い推量。学術論文・ビジネスで多用される必修表現。', collocations: ['might be the case', 'it might be that', 'might be worth'] }
+    }
+  },
+  '2026-05-02': {
+    id: 'talk_2026-05-02', date: '2026-05-02', source: 'ted-ed',
+    primary_topic: 'Science',
+    tags: ['water', 'desalination', 'environment', 'engineering'],
+    difficulty: 'medium',
+    slug: "why_dont_we_get_our_drinking_water_from_the_ocean",
+    video_id: 'WATER_DEMO',
+    title: "Why don't we get our drinking water from the ocean?",
+    speaker: 'Manish Kumar',
+    duration_sec: 287,
+    video_url: 'https://www.youtube.com/watch?v=WATER_DEMO',
+    embed_url: 'https://www.youtube.com/embed/WATER_DEMO',
+    background: {
+      summary: '海水を飲料水に変える「淡水化(desalination)」の仕組みと、なぜ世界中で広く使われていないのかをコスト・エネルギー観点から解説する。',
+      details: [
+        '逆浸透膜(RO)方式と熱方式の比較',
+        '世界の淡水化施設: 約2万箇所、サウジアラビア・UAE が主要利用国',
+        '関連分野: 環境工学 / 持続可能性'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 0,
+        sentences: [
+          {
+            id: 's1',
+            text: 'The ocean holds 97 percent of the water on Earth.',
+            translation_ja: '海洋は地球上の水の97パーセントを保有している。',
+            structure: [{ label: 'S', content: 'The ocean' }, { label: 'V', content: 'holds' }, { label: 'O', content: '97 percent of the water on Earth' }],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'The', tier: 'basic', ref: 'the' },
+              { id: 't2', type: 'skip', surface: ' ' },
+              { id: 't3', type: 'word', surface: 'ocean', tier: 'normal', ref: 'ocean' },
+              { id: 't4', type: 'skip', surface: ' ' },
+              { id: 't5', type: 'word', surface: 'holds', tier: 'frequent', ref: 'holds' },
+              { id: 't6', type: 'skip', surface: ' 97 ' },
+              { id: 't7', type: 'word', surface: 'percent', tier: 'normal', ref: 'percent' },
+              { id: 't8', type: 'skip', surface: ' of the water on Earth.' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'ocean': { tier: 'normal', surface: 'ocean', pos: 'noun · A2', pron: '/ˈəʊ.ʃən/', meaning: '海洋、大洋', example: { en: 'Life began in the <b>ocean</b>.', ja: '生命は海から始まった。' }, context: 'sea より大規模・深い水域。Pacific Ocean のように固有名詞でも。', collocations: ['Pacific Ocean', 'ocean floor', 'across the ocean'] },
+      'holds': { tier: 'frequent', surface: 'holds', pos: 'verb · A1', pron: '/həʊldz/', meaning: '保つ、保有する', example: { en: 'She <b>holds</b> a doctorate degree.', ja: '彼女は博士号を保持している。' }, context: 'hold は多義語の代表。物理的に「持つ」、抽象的に「(資格・地位を)保有する」「(意見を)抱く」。', collocations: ['hold a position', 'hold true', 'hold up'] },
+      'percent': { tier: 'normal', surface: 'percent', pos: 'noun · A2', pron: '/pəˈsent/', meaning: 'パーセント', example: { en: 'About 70 <b>percent</b> agreed.', ja: '約70パーセントが同意した。' }, context: 'percentage より口語的・記事的。アメリカ綴りは percent、英国 per cent。', collocations: ['percent of', 'percent increase', 'percent decline'] }
+    },
+    expressions: {}
+  },
+  '2026-04-30': {
+    id: 'talk_2026-04-30', date: '2026-04-30', source: 'ted-ed',
+    primary_topic: 'Health',
+    tags: ['stroke', 'brain', 'medicine', 'emergency-medicine'],
+    difficulty: 'hard',
+    slug: 'what_happens_during_a_stroke',
+    video_id: 'STROKE_DEMO',
+    title: 'What happens during a stroke?',
+    speaker: 'Vaibhav Goswami',
+    duration_sec: 324,
+    video_url: 'https://www.youtube.com/watch?v=STROKE_DEMO',
+    embed_url: 'https://www.youtube.com/embed/STROKE_DEMO',
+    background: {
+      summary: '脳卒中(stroke)が起きた瞬間、脳細胞では何が起きているのか。虚血性と出血性の2タイプを神経学の最新知見から解説する。',
+      details: [
+        '虚血性(ischemic)と出血性(hemorrhagic)',
+        '"Time is brain": 1分の遅れで190万のニューロンが死ぬ',
+        'FAST徴候(Face, Arm, Speech, Time)'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 0,
+        sentences: [
+          {
+            id: 's1',
+            text: 'Every second, your brain demands oxygen and glucose to operate.',
+            translation_ja: '毎秒、あなたの脳は機能するために酸素とグルコースを要求している。',
+            structure: [{ label: '副詞句', content: 'Every second' }, { label: 'S', content: 'your brain' }, { label: 'V', content: 'demands' }],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'Every', tier: 'basic', ref: 'every' },
+              { id: 't2', type: 'skip', surface: ' ' },
+              { id: 't3', type: 'word', surface: 'second,', tier: 'basic', ref: 'second' },
+              { id: 't4', type: 'skip', surface: ' your brain ' },
+              { id: 't5', type: 'word', surface: 'demands', tier: 'frequent', ref: 'demands' },
+              { id: 't6', type: 'skip', surface: ' ' },
+              { id: 't7', type: 'word', surface: 'oxygen', tier: 'key', ref: 'oxygen' },
+              { id: 't8', type: 'skip', surface: ' and ' },
+              { id: 't9', type: 'word', surface: 'glucose', tier: 'key', ref: 'glucose' },
+              { id: 't10', type: 'skip', surface: ' to ' },
+              { id: 't11', type: 'word', surface: 'operate.', tier: 'frequent', ref: 'operate' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'demands': { tier: 'frequent', surface: 'demands', pos: 'verb · B2', pron: '/dɪˈmɑːndz/', meaning: '要求する、必要とする', example: { en: 'This task <b>demands</b> attention.', ja: 'この作業は注意を要する。' }, context: 'require より強い「強く要求する」。名詞で「需要・要求」。"in demand" で「需要のある」。', collocations: ['demands attention', 'in demand', 'high demands'] },
+      'oxygen': { tier: 'key', surface: 'oxygen', pos: 'noun · B1', pron: '/ˈɒk.sɪ.dʒən/', meaning: '酸素', example: { en: 'Plants release <b>oxygen</b>.', ja: '植物は酸素を放出する。' }, context: '化学・生物学の必修語。元素記号 O。', collocations: ['oxygen supply', 'oxygen mask', 'oxygen levels'] },
+      'glucose': { tier: 'key', surface: 'glucose', pos: 'noun · B2', pron: '/ˈɡluː.kəʊs/', meaning: 'グルコース、ブドウ糖', example: { en: 'Cells use <b>glucose</b> for energy.', ja: '細胞はエネルギーのためにグルコースを使う。' }, context: '生化学・医学の必修語。"blood glucose" で血糖値。', collocations: ['blood glucose', 'glucose levels', 'glucose metabolism'] },
+      'operate': { tier: 'frequent', surface: 'operate', pos: 'verb · B1', pron: '/ˈɒp.ə.reɪt/', meaning: '機能する、運営する、手術する', example: { en: 'This machine doesn\'t <b>operate</b> properly.', ja: 'この機械は正常に作動しない。' }, context: '多義語。機械の「動作」、組織の「運営」、医学の「手術」すべて。"operation" は名詞形。', collocations: ['operate a machine', 'operate on a patient', 'operate efficiently'] }
+    },
+    expressions: {}
+  },
+  '2026-04-29': {
+    id: 'talk_2026-04-29', date: '2026-04-29', source: 'ted-ed',
+    primary_topic: 'Neuroscience',
+    tags: ['sleep', 'brain', 'memory', 'neuroscience'],
+    difficulty: 'medium',
+    slug: 'the_science_of_sleep',
+    video_id: 'SLEEP_DEMO',
+    title: 'The science behind why we need to sleep',
+    speaker: 'Stephanie Dutchen',
+    duration_sec: 295,
+    video_url: 'https://www.youtube.com/watch?v=SLEEP_DEMO',
+    embed_url: 'https://www.youtube.com/embed/SLEEP_DEMO',
+    background: {
+      summary: '睡眠中の脳で起きている記憶固定・老廃物排出・ホルモン分泌の3つのプロセスを、最新の神経科学知見から解説する。',
+      details: [
+        'グリンパティック系による老廃物クリアランス',
+        'REM 睡眠と記憶固定',
+        '関連分野: 睡眠科学 / 認知神経科学'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 0,
+        sentences: [
+          {
+            id: 's1',
+            text: 'When you sleep, your brain is anything but inactive.',
+            translation_ja: 'あなたが眠っている間、脳は活動を止めているどころではない。',
+            structure: [{ label: '副詞節', content: 'When you sleep' }, { label: 'S', content: 'your brain' }, { label: 'V', content: 'is' }, { label: 'C', content: 'anything but inactive' }],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'When', tier: 'basic', ref: 'when' },
+              { id: 't2', type: 'skip', surface: ' you ' },
+              { id: 't3', type: 'word', surface: 'sleep,', tier: 'basic', ref: 'sleep' },
+              { id: 't4', type: 'skip', surface: ' your ' },
+              { id: 't5', type: 'word', surface: 'brain', tier: 'normal', ref: 'brain' },
+              { id: 't6', type: 'skip', surface: ' is ' },
+              { id: 't7', type: 'expression', surface: 'anything but', ref: 'anything_but' },
+              { id: 't8', type: 'skip', surface: ' ' },
+              { id: 't9', type: 'word', surface: 'inactive.', tier: 'key', ref: 'inactive' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'brain': { tier: 'normal', surface: 'brain', pos: 'noun · A2', pron: '/breɪn/', meaning: '脳', example: { en: 'The human <b>brain</b> is complex.', ja: '人間の脳は複雑だ。' }, context: '解剖学の基本語。比喩で「頭脳」「中枢」も。"brainstorm" で「アイデア出し」。', collocations: ['human brain', 'brain cells', 'brainstorm'] },
+      'inactive': { tier: 'key', surface: 'inactive', pos: 'adj · B2', pron: '/ɪnˈæk.tɪv/', meaning: '活動していない、休止状態の', example: { en: 'The volcano has been <b>inactive</b> for centuries.', ja: 'その火山は何世紀も活動を停止している。' }, context: 'in- + active。「動いていない」状態を中立的に。"dormant" は同義だがより専門的。', collocations: ['remain inactive', 'inactive account', 'inactive volcano'] }
+    },
+    expressions: {
+      'anything_but': { tier: 'frequent', surface: 'anything but', pos: 'idiom', pron: '/ˈen.i.θɪŋ bʌt/', literal: '〜以外何でも', meaning: '決して〜ではない、〜どころではない', context: '"anything but X" で「Xではない、Xとは正反対」を強調する必修イディオム。日常英語・記事で頻用。', collocations: ['anything but easy', 'anything but boring'] }
+    }
+  },
+  '2026-04-28': {
+    id: 'talk_2026-04-28', date: '2026-04-28', source: 'ted-ed',
+    primary_topic: 'Astronomy',
+    tags: ['black-hole', 'space', 'physics', 'cosmology'],
+    difficulty: 'hard',
+    slug: 'whats_inside_a_black_hole',
+    video_id: 'BLACKHOLE_DEMO',
+    title: "What's inside a black hole?",
+    speaker: 'Sera Markoff',
+    duration_sec: 351,
+    video_url: 'https://www.youtube.com/watch?v=BLACKHOLE_DEMO',
+    embed_url: 'https://www.youtube.com/embed/BLACKHOLE_DEMO',
+    background: {
+      summary: 'ブラックホールの事象の地平線・特異点・情報パラドックスについて、現代物理学の最前線をTED-Edアニメーションで解説する。',
+      details: [
+        '事象の地平線とシュヴァルツシルト半径',
+        'ホーキング放射と情報パラドックス',
+        '関連分野: 一般相対論 / 量子重力理論'
+      ]
+    },
+    transcript: [
+      {
+        id: 'p1', start_sec: 0,
+        sentences: [
+          {
+            id: 's1',
+            text: 'Once you cross the event horizon, there is no way back.',
+            translation_ja: '事象の地平線を一度越えれば、もう戻る術はない。',
+            structure: [{ label: '副詞節', content: 'Once you cross the event horizon' }, { label: 'S', content: 'there' }, { label: 'V', content: 'is' }, { label: 'C', content: 'no way back' }],
+            tokens: [
+              { id: 't1', type: 'word', surface: 'Once', tier: 'normal', ref: 'once' },
+              { id: 't2', type: 'skip', surface: ' you ' },
+              { id: 't3', type: 'word', surface: 'cross', tier: 'frequent', ref: 'cross' },
+              { id: 't4', type: 'skip', surface: ' the ' },
+              { id: 't5', type: 'expression', surface: 'event horizon', ref: 'event_horizon' },
+              { id: 't6', type: 'skip', surface: ', there is ' },
+              { id: 't7', type: 'expression', surface: 'no way back', ref: 'no_way_back' },
+              { id: 't8', type: 'skip', surface: '.' }
+            ]
+          }
+        ]
+      }
+    ],
+    words: {
+      'once': { tier: 'normal', surface: 'Once', pos: 'conj · A2', pron: '/wʌns/', meaning: '一度、〜したら', example: { en: '<b>Once</b> you start, you cannot stop.', ja: '一度始めたら止まらない。' }, context: '副詞「一度」、接続詞「〜したら」。"once again" や "at once" 等の頻出フレーズ。', collocations: ['once again', 'at once', 'once upon a time'] },
+      'cross': { tier: 'frequent', surface: 'cross', pos: 'verb · A2', pron: '/krɒs/', meaning: '横切る、渡る', example: { en: 'They <b>crossed</b> the river.', ja: '彼らは川を渡った。' }, context: '物理的・抽象的な「渡る・越える」両用。"cross your fingers" は「祈る・期待する」のイディオム。', collocations: ['cross the line', 'cross your fingers', 'cross paths'] }
+    },
+    expressions: {
+      'event_horizon': { tier: 'normal', surface: 'event horizon', pos: 'noun phrase', pron: '/ɪˈvent həˈraɪ.zən/', literal: '事象の地平線', meaning: 'ブラックホールの境界面、ここから先は光すら脱出できない', context: '一般相対性理論の中心概念。比喩的に「もう戻れない一線」を表す表現にも使われる。', collocations: ['cross the event horizon', 'beyond the event horizon'] },
+      'no_way_back': { tier: 'frequent', surface: 'no way back', pos: 'idiom', pron: '/nəʊ weɪ bæk/', literal: '戻る道はない', meaning: '後戻りできない、不可逆の状態', context: '映画・ニュース・日常会話で頻用される必修表現。"point of no return" と同義。', collocations: ['there is no way back', 'point of no return'] }
+    }
+  }
+};
+
+// 直近14日のスキップ日
+const SKIPPED_DATES = ['2026-05-10', '2026-05-04', '2026-05-03', '2026-05-01', '2026-04-27', '2026-04-26'];
+
+// インデックス(日付降順)
+const INDEX = {
+  updated_at: '2026-05-10T06:30:00+09:00',
+  talks: Object.values(TALKS).sort((a, b) => b.date.localeCompare(a.date)).map(t => ({
+    id: t.id, date: t.date, source: t.source,
+    primary_topic: t.primary_topic, tags: t.tags, difficulty: t.difficulty,
+    title: t.title, speaker: t.speaker, duration_sec: t.duration_sec
+  })),
+  skipped_dates: SKIPPED_DATES
+};
+
+// トピック絵文字マップ
+const TOPIC_EMOJI = {
+  'Geology': '🌋', 'Forensics': '🔍', 'Psychology': '🧠', 'Biology': '🐙',
+  'History': '📜', 'Science': '⚗️', 'Health': '🩺', 'Neuroscience': '😴',
+  'Astronomy': '🕳️', 'Technology': '💻', 'Philosophy': '🤔', 'Mathematics': '📐'
+};
+
+// ============ STATE ============
+const STATE = {
+  currentView: 'home',
+  favorites: JSON.parse(localStorage.getItem('ted_favorites') || '[]'),
+  readDates: JSON.parse(localStorage.getItem('ted_read') || '[]'),
+  selectedTopic: null,
+  selectedWord: null,
+  favTab: 'all'
+};
+
+function persistFavorites() { localStorage.setItem('ted_favorites', JSON.stringify(STATE.favorites)); }
+function persistRead() { localStorage.setItem('ted_read', JSON.stringify(STATE.readDates)); }
+
+function isFavorite(type, ref, talkId) {
+  return STATE.favorites.some(f => f.type === type && f.ref === ref && f.talk_id === talkId);
+}
+function toggleFavorite(item) {
+  const idx = STATE.favorites.findIndex(f => f.type === item.type && f.ref === item.ref && f.talk_id === item.talk_id);
+  if (idx >= 0) STATE.favorites.splice(idx, 1);
+  else STATE.favorites.push({ ...item, saved_at: new Date().toISOString() });
+  persistFavorites();
+  document.getElementById('favCount').firstChild.textContent = STATE.favorites.length;
+}
+
+// ============ ROUTING / VIEW SWITCH ============
+function switchView(view) {
+  STATE.currentView = view;
+  document.querySelectorAll('.view').forEach(v => v.hidden = true);
+  document.getElementById(`view-${view}`).hidden = false;
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  if (view === 'home') renderHome();
+  if (view === 'archive') renderArchive();
+  if (view === 'calendar') renderCalendar();
+  if (view === 'topic') renderTopics();
+  if (view === 'words') renderWords();
+  if (view === 'favorites') renderFavorites();
+}
+document.getElementById('navTabs').addEventListener('click', e => {
+  if (e.target.matches('.nav-tab')) switchView(e.target.dataset.view);
+});
+
+// ============ RENDER: HOME (View A) ============
+function renderHome() {
+  const stream = document.getElementById('homeStream');
+  const cutoff = '2026-04-26';
+  const allDates = [];
+  for (let i = 0; i <= 14; i++) {
+    const d = new Date('2026-05-10');
+    d.setDate(d.getDate() - i);
+    allDates.push(d.toISOString().slice(0, 10));
+  }
+  let html = '';
+  allDates.forEach(date => {
+    if (TALKS[date]) {
+      html += talkCardHTML(TALKS[date], date === '2026-05-09'); // "today" treatment for the most recent
+    } else if (SKIPPED_DATES.includes(date)) {
+      html += `<div class="skip-card">— ${formatDate(date)} — no new release —</div>`;
+    }
+  });
+  stream.innerHTML = html;
+  stream.querySelectorAll('[data-talk]').forEach(el => {
+    el.addEventListener('click', () => openTalkDetail(el.dataset.talk));
+  });
+}
+
+function talkCardHTML(t, isToday) {
+  const read = STATE.readDates.includes(t.date);
+  return `
+    <div class="talk-card ${isToday ? 'today' : ''}" data-talk="${t.date}">
+      <div class="talk-meta-row">
+        <span class="source-badge">🎓 TED-Ed</span>
+        <span class="topic-pill">${TOPIC_EMOJI[t.primary_topic] || ''} ${t.primary_topic}</span>
+        <span class="difficulty ${t.difficulty}">${t.difficulty}</span>
+        <span style="opacity:0.7">${formatDate(t.date)} · ${formatDuration(t.duration_sec)}</span>
+        ${read ? '<span class="read-dot" title="既読">●</span>' : ''}
+      </div>
+      <div class="talk-title">${t.title}</div>
+      <div class="talk-speaker">— ${t.speaker}</div>
+      <div class="talk-tags">
+        ${t.tags.slice(0, 5).map(tag => `<span class="talk-tag">${tag}</span>`).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function formatDate(d) {
+  const dt = new Date(d);
+  const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  return `${days[dt.getDay()]}, ${dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}`;
+}
+function formatDuration(sec) {
+  const m = Math.floor(sec / 60);
+  const s = sec % 60;
+  return `${m}:${s.toString().padStart(2, '0')}`;
+}
+
+// ============ RENDER: CALENDAR (View C) ============
+function renderCalendar() {
+  const grid = document.getElementById('heatmapGrid');
+  const days = 90;
+  let html = '';
+  const today = new Date('2026-05-10');
+  for (let i = days - 1; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const ds = d.toISOString().slice(0, 10);
+    let cls = 'hm-cell';
+    if (TALKS[ds]) cls += ' has-talk';
+    else if (SKIPPED_DATES.includes(ds) || d < new Date('2026-04-26')) cls += ' skip';
+    html += `<div class="${cls}" data-date="${ds}" onclick="${TALKS[ds] ? `openTalkDetail('${ds}')` : ''}"></div>`;
+  }
+  grid.innerHTML = html;
+  document.getElementById('favCount').firstChild.textContent = STATE.favorites.length;
+}
+
+// ============ RENDER: ARCHIVE (View B) ============
+function renderArchive() {
+  const groups = {};
+  Object.values(TALKS).forEach(t => {
+    const m = t.date.slice(0, 7);
+    if (!groups[m]) groups[m] = [];
+    groups[m].push(t);
+  });
+  const sorted = Object.keys(groups).sort().reverse();
+  const labels = { '2026-05': '2026年 5月', '2026-04': '2026年 4月' };
+  let html = '';
+  sorted.forEach(m => {
+    html += `<div class="month-section">
+      <div class="month-header">${labels[m] || m}</div>
+      <div class="talks-stream">
+        ${groups[m].sort((a, b) => b.date.localeCompare(a.date)).map(t => talkCardHTML(t, false)).join('')}
+      </div>
+    </div>`;
+  });
+  document.getElementById('archiveContainer').innerHTML = html;
+  document.getElementById('archiveContainer').querySelectorAll('[data-talk]').forEach(el => {
+    el.addEventListener('click', () => openTalkDetail(el.dataset.talk));
+  });
+}
+
+// ============ RENDER: TOPIC (View D) ============
+function renderTopics() {
+  const counts = {};
+  Object.values(TALKS).forEach(t => {
+    counts[t.primary_topic] = (counts[t.primary_topic] || 0) + 1;
+  });
+  const grid = document.getElementById('topicsGrid');
+  grid.innerHTML = Object.entries(counts).map(([topic, count]) => `
+    <div class="topic-card" onclick="openTopic('${topic}')">
+      <div class="topic-emoji">${TOPIC_EMOJI[topic] || '📚'}</div>
+      <div class="topic-name">${topic}</div>
+      <div class="topic-count">${count} talk${count > 1 ? 's' : ''}</div>
+    </div>
+  `).join('');
+  document.getElementById('topicDetail').innerHTML = '';
+}
+function openTopic(topic) {
+  const filtered = Object.values(TALKS).filter(t => t.primary_topic === topic);
+  document.getElementById('topicDetail').innerHTML = `
+    <h2 style="font-family:'Fraunces',serif;font-size:24px;margin-bottom:16px;">${TOPIC_EMOJI[topic] || ''} ${topic}</h2>
+    <div class="talks-stream">
+      ${filtered.map(t => talkCardHTML(t, false)).join('')}
+    </div>
+  `;
+  document.getElementById('topicDetail').querySelectorAll('[data-talk]').forEach(el => {
+    el.addEventListener('click', () => openTalkDetail(el.dataset.talk));
+  });
+}
+
+// ============ RENDER: WORDS (View E) ============
+function renderWords() {
+  const wordItems = STATE.favorites.filter(f => f.type === 'word');
+  if (wordItems.length === 0) {
+    document.getElementById('wordsList').innerHTML = '<div class="fav-empty">お気に入り単語がまだありません。<br>Talk 詳細を開いて単語をタップ → ★ で保存してください。</div>';
+    document.getElementById('wordDetail').innerHTML = '';
+    return;
+  }
+  document.getElementById('wordsList').innerHTML = wordItems.map(f => `
+    <div class="word-list-item" onclick="openWord('${f.ref}')">
+      <div class="word-list-surface">${f.surface}</div>
+      <div class="word-list-meaning">${f.meaning}</div>
+      <div class="word-list-talks-count">${countTalksForWord(f.ref)} talks</div>
+    </div>
+  `).join('');
+  document.getElementById('wordDetail').innerHTML = '';
+}
+function countTalksForWord(ref) {
+  return Object.values(TALKS).filter(t => t.words && t.words[ref]).length;
+}
+function openWord(ref) {
+  const matchingTalks = Object.values(TALKS).filter(t => t.words && t.words[ref]);
+  if (matchingTalks.length === 0) return;
+  const w = matchingTalks[0].words[ref];
+  document.getElementById('wordDetail').innerHTML = `
+    <h2 style="font-family:'Fraunces',serif;font-size:28px;">${w.surface}</h2>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-faded);margin:4px 0 16px;">${w.pos} · ${w.pron}</div>
+    <div style="font-size:16px;line-height:1.7;color:var(--ink);margin-bottom:18px;">${w.meaning}</div>
+    <h3 style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-faded);margin-bottom:8px;">この単語が出てきた Talk</h3>
+    <div class="talks-stream">
+      ${matchingTalks.map(t => talkCardHTML(t, false)).join('')}
+    </div>
+  `;
+  document.getElementById('wordDetail').querySelectorAll('[data-talk]').forEach(el => {
+    el.addEventListener('click', () => openTalkDetail(el.dataset.talk));
+  });
+}
+
+// ============ RENDER: FAVORITES ============
+function renderFavorites() {
+  const filter = STATE.favTab;
+  const filtered = filter === 'all' ? STATE.favorites : STATE.favorites.filter(f => f.type === filter);
+  if (filtered.length === 0) {
+    document.getElementById('favoritesContainer').innerHTML = '<div class="fav-empty">お気に入りがまだありません。<br>Talk 詳細を開いて、単語・表現・文をタップ → ★ で保存してください。</div>';
+    return;
+  }
+  const byTalk = {};
+  filtered.forEach(f => {
+    if (!byTalk[f.talk_id]) byTalk[f.talk_id] = [];
+    byTalk[f.talk_id].push(f);
+  });
+  document.getElementById('favoritesContainer').innerHTML = Object.entries(byTalk).map(([talkId, items]) => {
+    const t = Object.values(TALKS).find(x => x.id === talkId);
+    return `
+      <div class="fav-talk-group">
+        <div class="fav-talk-title">${t ? t.title : talkId}</div>
+        ${items.map(item => `
+          <div class="fav-item">
+            <div class="fav-item-surface">${item.surface}</div>
+            <div class="fav-item-meaning">${item.meaning || ''}</div>
+            <span class="fav-item-remove" onclick="removeFav('${item.type}','${item.ref}','${item.talk_id}')">✕</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }).join('');
+}
+function removeFav(type, ref, talk_id) {
+  toggleFavorite({ type, ref, talk_id });
+  renderFavorites();
+  if (STATE.currentView === 'calendar') document.getElementById('favCount').firstChild.textContent = STATE.favorites.length;
+}
+document.querySelectorAll('.fav-tab').forEach(b => {
+  b.addEventListener('click', () => {
+    document.querySelectorAll('.fav-tab').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    STATE.favTab = b.dataset.fav;
+    renderFavorites();
+  });
+});
+
+// ============ TALK DETAIL ============
+function openTalkDetail(date) {
+  const t = TALKS[date];
+  if (!t) return;
+  if (!STATE.readDates.includes(date)) { STATE.readDates.push(date); persistRead(); }
+  let html = `
+    <div class="detail-meta">
+      <span class="source-badge">🎓 TED-Ed</span>
+      <span class="topic-pill">${TOPIC_EMOJI[t.primary_topic] || ''} ${t.primary_topic}</span>
+      <span class="difficulty ${t.difficulty}">${t.difficulty}</span>
+      <span>${formatDate(t.date)} · ${formatDuration(t.duration_sec)}</span>
+    </div>
+    <h1 class="detail-title">${t.title}</h1>
+    <div class="detail-speaker">— ${t.speaker}</div>
+    <div class="video-embed">
+      <iframe src="${t.embed_url}" allowfullscreen></iframe>
+    </div>
+    <details class="background-card">
+      <summary>📖 背景情報</summary>
+      <div class="background-summary">${t.background.summary}</div>
+      <ul class="background-list">
+        ${t.background.details.map(d => `<li>${d}</li>`).join('')}
+      </ul>
+    </details>
+    <div class="transcript">
+      ${t.transcript.map(p => paragraphHTML(p, t)).join('')}
+    </div>
+  `;
+  document.getElementById('talkDetailContent').innerHTML = html;
+  document.getElementById('talkDetail').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  // bind tokens & expressions & sentences
+  document.getElementById('talkDetailContent').querySelectorAll('[data-tok]').forEach(el => {
+    el.addEventListener('click', e => { e.stopPropagation(); openTokenModal(t.id, el.dataset.tokRef, el.dataset.tokType, el.dataset.tokSurface); });
+  });
+  document.getElementById('talkDetailContent').querySelectorAll('[data-sent]').forEach(el => {
+    el.addEventListener('click', e => { e.stopPropagation(); openSentenceModal(t.id, el.dataset.sent); });
+  });
+}
+function closeTalkDetail() {
+  document.getElementById('talkDetail').classList.remove('open');
+  document.body.style.overflow = '';
+  if (STATE.currentView === 'home') renderHome();
+}
+
+function paragraphHTML(p, talk) {
+  return `<div class="paragraph">
+    <div class="para-time">[${formatDuration(Math.floor(p.start_sec))}]</div>
+    <div>
+      ${p.sentences.map(s => sentenceHTML(s, talk)).join(' ')}
+    </div>
+  </div>`;
+}
+function sentenceHTML(s, talk) {
+  let html = `<span class="sentence">`;
+  s.tokens.forEach(tok => {
+    if (tok.type === 'skip') {
+      html += tok.surface;
+    } else if (tok.type === 'word') {
+      html += `<span class="tk tk-${tok.tier}" data-tok data-tok-type="word" data-tok-ref="${tok.ref}" data-tok-surface="${tok.surface.replace(/"/g, '&quot;')}">${tok.surface}</span>`;
+    } else if (tok.type === 'expression') {
+      html += `<span class="expr expr-${(talk.expressions[tok.ref]||{}).tier || 'normal'}" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${tok.surface.replace(/"/g, '&quot;')}">${tok.surface}</span>`;
+    } else if (tok.type === 'foreign') {
+      html += `<span class="expr expr-normal" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${tok.surface.replace(/"/g, '&quot;')}">${tok.surface}</span>`;
+    }
+  });
+  html += `<span class="sentence-marker" data-sent="${s.id}" title="構文解析">⌘</span></span>`;
+  return html;
+}
+
+// ============ MODAL ============
+let currentModalTalkId = null;
+function openTokenModal(talkId, ref, type, surface) {
+  currentModalTalkId = talkId;
+  const t = Object.values(TALKS).find(x => x.id === talkId);
+  if (!t) return;
+  const dict = type === 'word' ? t.words : t.expressions;
+  const e = dict[ref];
+  if (!e) return;
+  const fav = isFavorite(type, ref, talkId);
+  let sectionsHTML;
+  if (type === 'word') {
+    sectionsHTML = `
+      <div class="modal-section">
+        <div class="modal-section-label">意味</div>
+        <div class="modal-meaning">${e.meaning}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">例文</div>
+        <div class="modal-example">${e.example.en}</div>
+        <div class="modal-example-ja">${e.example.ja}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">背景・ニュアンス</div>
+        <div class="modal-context">${e.context}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">コロケーション</div>
+        <div class="modal-collocations">
+          ${e.collocations.map(c => `<span class="modal-collocation">${c}</span>`).join('')}
+        </div>
+      </div>
+    `;
+  } else {
+    sectionsHTML = `
+      <div class="modal-section">
+        <div class="modal-section-label">直訳</div>
+        <div class="modal-meaning">${e.literal}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">意味</div>
+        <div class="modal-meaning">${e.meaning}</div>
+      </div>
+      <div class="modal-section">
+        <div class="modal-section-label">背景</div>
+        <div class="modal-context">${e.context}</div>
+      </div>
+      ${e.collocations && e.collocations.length ? `<div class="modal-section">
+        <div class="modal-section-label">関連表現</div>
+        <div class="modal-collocations">
+          ${e.collocations.map(c => `<span class="modal-collocation">${c}</span>`).join('')}
+        </div>
+      </div>` : ''}
+    `;
+  }
+  document.getElementById('modalContent').innerHTML = `
+    <div class="modal-tier">${e.tier === 'frequent' ? '★ ' : ''}${type} · ${e.tier}</div>
+    <div class="modal-surface-row">
+      <div class="modal-surface">${e.surface}</div>
+      <button class="modal-fav-btn ${fav ? 'active' : ''}" onclick="modalToggleFav('${type}','${ref}','${(e.surface||'').replace(/'/g,"\\'")}','${(e.meaning||e.literal||'').replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</button>
+    </div>
+    <div class="modal-pos-pron">${e.pos} · ${e.pron}</div>
+    ${sectionsHTML}
+  `;
+  document.getElementById('modal').classList.add('open');
+  document.getElementById('modalBackdrop').classList.add('open');
+}
+function openSentenceModal(talkId, sentId) {
+  currentModalTalkId = talkId;
+  const t = Object.values(TALKS).find(x => x.id === talkId);
+  let sent = null;
+  for (const p of t.transcript) {
+    sent = p.sentences.find(s => s.id === sentId);
+    if (sent) break;
+  }
+  if (!sent) return;
+  const fav = isFavorite('sentence', sent.id, talkId);
+  document.getElementById('modalContent').innerHTML = `
+    <div class="modal-tier">⌘ sentence · 構文解析</div>
+    <div class="modal-surface-row">
+      <div class="modal-surface" style="font-size:22px;line-height:1.4;">${sent.text}</div>
+      <button class="modal-fav-btn ${fav ? 'active' : ''}" onclick="modalToggleFav('sentence','${sent.id}','${sent.text.replace(/'/g,"\\'")}','${sent.translation_ja.replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</button>
+    </div>
+    <div class="modal-pos-pron">sentence id: ${sent.id}</div>
+    <div class="modal-section">
+      <div class="modal-section-label">日本語訳</div>
+      <div class="modal-meaning">${sent.translation_ja}</div>
+    </div>
+    <div class="modal-section">
+      <div class="modal-section-label">構文解析</div>
+      ${sent.structure.map(st => `
+        <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px dotted var(--line);">
+          <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ed-amber);min-width:80px;">${st.label}</span>
+          <span style="font-family:'Fraunces',serif;font-size:14px;color:var(--ink-soft);flex:1;">${st.content}${st.note ? `<br><span style="font-size:12px;color:var(--ink-faded);">${st.note}</span>` : ''}</span>
+        </div>
+      `).join('')}
+    </div>
+  `;
+  document.getElementById('modal').classList.add('open');
+  document.getElementById('modalBackdrop').classList.add('open');
+}
+function modalToggleFav(type, ref, surface, meaning) {
+  toggleFavorite({ type, ref, talk_id: currentModalTalkId, surface, meaning });
+  const btn = document.querySelector('#modalContent .modal-fav-btn');
+  if (btn) {
+    const isFav = isFavorite(type, ref, currentModalTalkId);
+    btn.classList.toggle('active', isFav);
+    btn.textContent = isFav ? '★' : '☆';
+  }
+}
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+  document.getElementById('modalBackdrop').classList.remove('open');
+}
+
+// ============ SEARCH (Fuse.js) ============
+let fuse = null;
+function buildFuseIndex() {
+  const docs = [];
+  Object.values(TALKS).forEach(t => {
+    docs.push({ kind: 'talk', talk_id: t.id, date: t.date, title: t.title, speaker: t.speaker, primary_topic: t.primary_topic, tags: t.tags.join(' '), content: t.background.summary });
+    Object.entries(t.words || {}).forEach(([ref, w]) => {
+      docs.push({ kind: 'word', talk_id: t.id, date: t.date, ref, surface: w.surface, meaning: w.meaning, content: w.context + ' ' + w.example.en });
+    });
+    Object.entries(t.expressions || {}).forEach(([ref, x]) => {
+      docs.push({ kind: 'expression', talk_id: t.id, date: t.date, ref, surface: x.surface, meaning: x.meaning, content: x.context });
+    });
+  });
+  fuse = new Fuse(docs, {
+    keys: [{ name: 'title', weight: 0.4 }, { name: 'surface', weight: 0.35 }, { name: 'meaning', weight: 0.2 }, { name: 'content', weight: 0.15 }, { name: 'tags', weight: 0.1 }, { name: 'primary_topic', weight: 0.05 }],
+    threshold: 0.4, ignoreLocation: true, minMatchCharLength: 2
+  });
+}
+document.getElementById('searchInput').addEventListener('input', e => {
+  const q = e.target.value.trim();
+  if (q.length === 0) { switchView(STATE.currentView === 'search' ? 'home' : STATE.currentView); return; }
+  if (!fuse) buildFuseIndex();
+  document.querySelectorAll('.view').forEach(v => v.hidden = true);
+  document.getElementById('view-search').hidden = false;
+  document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
+  STATE.currentView = 'search';
+  const results = fuse.search(q).slice(0, 30);
+  document.getElementById('searchSubtitle').textContent = `"${q}" にヒット ${results.length} 件`;
+  document.getElementById('searchResults').innerHTML = results.map(r => {
+    const item = r.item;
+    if (item.kind === 'talk') {
+      return `<div class="search-result" onclick="openTalkDetail('${item.date}')">
+        <div style="font-size:11px;color:var(--ed-amber);font-family:'JetBrains Mono',monospace;letter-spacing:0.1em;">TALK · ${formatDate(item.date)}</div>
+        <div style="font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin:4px 0;">${item.title}</div>
+        <div class="search-snippet">${item.content.slice(0, 120)}…</div>
+      </div>`;
+    } else {
+      return `<div class="search-result" onclick="openTalkDetail('${item.date}')">
+        <div style="font-size:11px;color:var(--ed-amber);font-family:'JetBrains Mono',monospace;letter-spacing:0.1em;">${item.kind.toUpperCase()} · ${formatDate(item.date)}</div>
+        <div style="font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin:4px 0;">${item.surface}</div>
+        <div class="search-snippet">${item.meaning}</div>
+      </div>`;
+    }
+  }).join('');
+});
+
+// ============ STREAK ============
+function calcStreak() {
+  const dates = Object.keys(TALKS).sort().reverse();
+  let streak = 0;
+  let cursor = new Date('2026-05-10');
+  for (let i = 0; i < 30; i++) {
+    const ds = cursor.toISOString().slice(0, 10);
+    if (TALKS[ds]) streak++;
+    else if (!SKIPPED_DATES.includes(ds)) break;
+    cursor.setDate(cursor.getDate() - 1);
+  }
+  return streak;
+}
+
+// ============ INIT ============
+document.getElementById('streakValue').textContent = calcStreak();
+renderHome();
+</script>
+</body>
+</html>
