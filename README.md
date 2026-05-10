@@ -139,11 +139,45 @@ ted-pwa-handover/
 ## 連絡事項
 
 - 開始日:2026-05-07
-- 想定期間:Phase 1(1週間) + Phase 2(2-4週間) + 運用継続
+- 想定期間:Stage 1(数日)+ Stage 2(6-10週間)+ 運用継続(v3.2 Stage 制)
 - 著作権・コスト:私的利用 + MAXプランのため度外視
+
+---
+
+## PWA / 公開ホスティング
+
+リポジトリ root の `index.html` が PWA 本体です。`docs/mockup_v6_app_overview.html` を実データ fetch 化したもので、`./data/index.json` と `./data/talks/{date}.json` を読み込んで表示します。データが取れない場合は内蔵のサンプルデータにフォールバックし、上部に「サンプルデータ表示中」バナーを表示します。
+
+### 公開手順(GitHub Pages)
+
+1. **public 化**: GitHub の Settings → General → Danger Zone → "Change visibility" → public
+   - 著作権: 私的利用前提なので一旦は許容、将来必要なら Cloudflare Pages に切替
+2. **Pages 有効化**: Settings → Pages → Source: "Deploy from a branch" → Branch: `main` / `(root)` → Save
+3. 数分待つと `https://<user>.github.io/daily-ted/` でアクセス可能(初回はビルドに 1-3 分かかる)
+4. スマホでも上記 URL を開けば動く。「ホーム画面に追加」で PWA としてインストールできる
+
+### ローカル開発
+
+`index.html` は単一HTMLなのでビルド不要。ただし `fetch()` を使うので `file://` 直接開きでは data/* が読めない(サンプルフォールバックは表示される)。実データを試すには簡易サーバを使う:
+
+```bash
+python -m http.server 8000
+# → http://localhost:8000/
+```
+
+### 構成ファイル
+
+| ファイル | 役割 |
+|---|---|
+| `index.html` | PWA 本体(全 5 ビュー + 詳細 + モーダル + 検索 + お気に入り) |
+| `public/manifest.json` | Web App Manifest(ホーム画面追加用) |
+| `public/icon-192.svg`, `icon-512.svg` | PWA アイコン |
+| `service-worker.js` | オフラインキャッシュ(app shell + data network-first) |
+| `docs/mockup_v6_app_overview.html` | 設計参考プレビュー(ダミーデータ固定) |
 
 ---
 
 ## 改訂履歴
 
 - 2026-05-07: 初版作成、要件定義 v3.0 ベース
+- 2026-05-10: Stage 1 着手、case H ピボット (v3.1)、Phase 撤廃 + スキーマ拡張 (v3.2)、PWA 本体 (`index.html`) 投入
