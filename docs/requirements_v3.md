@@ -1,12 +1,24 @@
-# TED英語学習PWA 要件定義書 v3.0
+# TED英語学習PWA 要件定義書 v3.1
 
-作成日:2026-05-07 / 作成者:匠 / 対象:Claude Code実装担当
+作成日:2026-05-07 / 改訂日:2026-05-10 / 作成者:匠 / 対象:Claude Code実装担当
 
 ---
 
 ## 0. 本書の位置付け
 
-本書は、TED-EdおよびTED Talkを題材とした個人用英語学習PWAの正式な要件定義書である。Claude Code(Web版・Cloud Task)による実装を前提とする。著作権上の論点は私的利用範囲として全て度外視する前提で記述している。
+本書は、TED-Edを題材とした個人用英語学習PWAの正式な要件定義書である。Claude Code(Web版・Cloud Task / Scheduled Agent)による実装を前提とする。著作権上の論点は私的利用範囲として全て度外視する前提で記述している。
+
+> **v3.1 重要変更点**: Phase 1 PoC(2026-05-10)で v3.0 の前提が崩壊したため、TED-Ed取得を YouTube 直結フローに変更し、TED Talks 配信は廃止した。
+> 詳細は `steering/design_decisions.md` D-016 と `steering/lessons.md` を参照。
+> 主要な変更:
+>
+> - **配信ソース**: 平日 TED-Ed / 休日 TED Talks → **TED-Ed のみ(毎日チェック)**
+> - **新着取得**: YouTube RSS → **`youtube.com/@TEDEd/videos` の HTML スクレイピング(`ytInitialData` 抽出)**
+> - **transcript 取得**: ted.com スクレイピング → **`youtube-transcript-api`**
+> - **slug 推定**: 廃止(YouTube videoId を直接使う)
+> - **興味分野フィルター**: 廃止(TED-Ed のみのため不要)
+>
+> 本文中の各セクション(特に 2.1 / 2.2 / 3 / 4.1 / 8 / 9)は v3.0 の記述が残っている箇所がある。実装時は本書冒頭の v3.1 変更点と D-016 を優先すること。詳細セクションの全面改訂は次回セッションで実施予定。
 
 ---
 
@@ -424,3 +436,4 @@ YouTube動画タイトルから ted.com/talks の slug を機械的に推定：
 - v2.0 (2026-05-07) Claude Code Cloud Task採用、コスト議論撤廃
 - v2.1 (2026-05-07) ソース2系統化(TED-Ed + TED Talks)、平日/休日切替
 - v3.0 (2026-05-07) 全単語事前生成、4階層強調、固有名詞basic化、UI/UX確定
+- v3.1 (2026-05-10) D-016採用、TED-Ed YouTube直結フローに変更、TED Talks廃止、ted.com 経路廃止、`youtube-transcript-api` 依存追加。Phase 1 PoC で v3.0 の前提崩壊を確認。

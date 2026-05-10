@@ -1,108 +1,145 @@
-# 日次バッチプロンプト(Cloud Task用)
+# 日次バッチプロンプト(Cloud Task / Scheduled Agent 用)
 
-このプロンプトはClaude Code Cloud Taskに登録する。cronは `0 6 * * *` (JST 06:00)。
-変更時は本ファイルを更新してCloud Task側も再登録すること。
+このプロンプトは Claude Code の Scheduled Agent(claude.ai/code)に登録する。cron は UTC で `0 21 * * *`(JST 06:00)。
+変更時は本ファイルを更新して Scheduled Agent 側も再登録すること。
+
+> 本プロンプトは要件定義書 v3.1(`docs/requirements_v3.md`)の D-016 採用版に対応する。
+> TED-Ed の取得は YouTube 直結フロー(channel HTML スクレイピング + youtube-transcript-api)。
 
 ---
 
-## プロンプト本文(コピペしてCloud Taskに登録)
+## プロンプト本文(コピペして Scheduled Agent に登録)
 
+```text
+You are the daily batch script for the Daily TED PWA (Daily TED-Ed English learning).
+
+# 必読ドキュメント(最初に読む)
+
+リポジトリ root から以下を順に読み込むこと:
+
+1. /CLAUDE.md
+2. /docs/project_guide.md
+3. /docs/requirements_v3.md(SSoT)
+4. /docs/data_schema.md
+5. /prompts/word_classification.md
+6. /steering/design_decisions.md(特に D-016)
+7. /steering/lessons.md
+
+# 環境準備
+
+最初に Python パッケージをインストール:
 ```
-You are the daily batch script for the Daily TED English Learning PWA.
-
-# プロジェクト全体方針(必読)
-First, read /docs/project_guide.md and /docs/requirements_v3.md before doing anything else.
-Also read /prompts/word_classification.md for word-tier classification criteria.
+pip install --quiet youtube-transcript-api
+```
 
 # 実行手順
 
-## Step 1: 曜日判定(JST)
-Determine if today is weekday (Mon-Fri) or weekend (Sat-Sun) in JST.
+## Step 1: 日付決定(JST)
+
+JST(Asia/Tokyo)で当日日付 YYYY-MM-DD を決定。
 
 ## Step 2: 冪等性チェック
-If /data/talks/YYYY-MM-DD.json already exists for today's date, exit cleanly with no changes.
 
-## Step 3: RSS取得
-- Weekday: fetch https://www.youtube.com/feeds/videos.xml?channel_id=UCsooa4yRKGN_zEE8iknghZA (TED-Ed)
-- Weekend: fetch https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug (TED Talks)
+`/data/talks/YYYY-MM-DD.json` が既に存在する場合は何もせず正常終了。
 
-Parse the XML and find videos published in the last 24 hours.
-If no new videos exist, exit cleanly (skip).
+## Step 3: TED-Ed 新着動画の取得
 
-## Step 4: 興味分野フィルター(休日のみ)
-For weekend TED Talks, filter by these categories of interest:
-- Science (physics, math, biology, chemistry, neuroscience, space)
-- Technology (AI, computer science, engineering)
-- Philosophy & Psychology
-- Linguistics & Communication
-- Economics & Finance
-- Creativity & Storytelling
+`python scripts/fetch_ted_ed_videos.py 24` を実行。
 
-Read the video title and description, judge if it matches any category.
-If not, skip with no commit.
+このスクリプトは:
+- `https://www.youtube.com/@TEDEd/videos` の HTML を取得
+- 埋め込まれた `ytInitialData` JSON から各動画の videoId / title /
+  publishedTimeText / duration / thumbnail を抽出
+- "X hours ago" / "X days ago" 等の表記から直近24時間以内のみを返す
 
-## Step 5: slug推定とスクレイピング
-Convert YouTube video title to ted.com slug:
-- Lowercase, replace spaces and hyphens with underscores, strip special characters
-- For TED-Ed: prefix with "ted_ed_"
-- Example: "The fascinating reason you loved peek-a-boo" → "ted_ed_the_fascinating_reason_you_loved_peek_a_boo"
+返却が0件なら、その日は新作なしとして即座に終了(冪等)。`/data/index.json` の
+`skipped_dates` に当日日付を追加してコミット&プッシュは行うこと。
 
-Try fetching https://www.ted.com/talks/{slug}
-If 404, try variants (e.g., remove articles, adjust hyphen handling).
-If still 404 after 2-3 variants, exit cleanly (skip).
+## Step 4: TED-Ed lesson 詳細メタデータの補強(任意)
 
-## Step 6: トランスクリプト抽出
-From the HTML of ted.com/talks/{slug}, find the script tag containing:
-  q("talkPage.init", { ... JSON ... })
+任意で `https://ed.ted.com/lessons` の JSON-LD を読み、
+今回の動画 title と一致する lesson の uploadDate / description / publisher を補強。
+一致しない場合は YouTube 側の情報のみで進める。
 
-Extract the JSON. The transcript is typically under:
-  data.talks[0].player_talks[0].transcript_paragraphs
-or similar path. Adapt as needed based on actual HTML structure.
+## Step 5: トランスクリプト取得
 
-Each paragraph has:
-- start time (seconds)
-- text (with sentences inside)
+各 videoId について `python scripts/fetch_youtube_transcript.py <video_id>` 相当の処理を実行
+(または直接 youtube-transcript-api を呼ぶ)。
 
-## Step 7: 解説生成(全単語・全表現・全文)
+得られる snippets:
+```
+[{ "start_sec": float, "duration_sec": float, "text": str }, ...]
+```
 
-For the entire transcript, generate JSON following the schema in /docs/data_schema.md.
+## Step 6: スキーマ変換と全要素事前生成
 
-KEY REQUIREMENTS:
-1. **All words must be classified into one of 4 tiers** (basic/normal/key/frequent)
-   - Refer to /prompts/word_classification.md for detailed criteria
-   - Every word, including basic ones like "it" or "the", needs full data:
-     - meaning, pos, pronunciation, example (with English+Japanese), context, collocations
-2. **All idioms/multi-word expressions must be identified** and tagged
-   - 2-tier classification (normal/frequent)
-3. **Every sentence must have**:
-   - Japanese translation
-   - Syntactic structure breakdown (S/V/O/C labels with explanatory notes)
-4. **Background information** at the talk level:
-   - 1-paragraph summary (Japanese, ~150 chars)
-   - 3-5 detail bullets (key concepts, narrator info, related fields)
+`docs/data_schema.md` の `TalkJson` スキーマに従って JSON を生成する。
+重要な処理:
 
-Output format: STRICTLY follow /docs/data_schema.md.
-DO NOT skip words to save tokens. Cost is not a concern.
+1. **段落・文への再構成**:
+   - youtube-transcript-api の snippets は短い(2〜4秒)単位なので、これを
+     意味的にまとまる段落(start_sec を保持)と文(. ? ! 等で区切る)に再構成する
+   - 1段落 = 数文。動画長 5〜7 分なら通常 5〜10段落程度
 
-## Step 8: JSON出力
-Write to /data/talks/YYYY-MM-DD.json
-Update /data/index.json by:
-- Adding the new talk to the "talks" array (sorted by date desc)
-- Updating "updated_at" timestamp
+2. **全単語に tier 分類を付与**(`prompts/word_classification.md` の基準):
+   - basic / normal / key / frequent
+   - 全ての単語(it, the 等の基本語を含む)に対して
+     meaning / pos / pronunciation / example(en+ja) / context / collocations を生成
+
+3. **全表現(イディオム・複合名詞)を識別**(2-tier 分類):
+   - normal / frequent
+
+4. **全文に**:
+   - 日本語訳(translation_ja)
+   - 構文解析(structure: S/V/O/C ラベル + 解説)
+   - tokens 配列(word/expression/foreign/skip)
+
+5. **背景情報(Talk レベル)**:
+   - summary(日本語、約150字)
+   - details(3〜5項目、関連分野・ナレーター情報・キー概念)
+
+## Step 7: メタ情報
+
+`TalkJson` の以下のフィールドを設定:
+
+- `id`: `talk_YYYY-MM-DD`
+- `date`: 当日日付
+- `source`: `"ted-ed"`(常に固定。v3.1 で TED Talks は廃止)
+- `slug`: 動画タイトルから snake_case で生成(参照用、識別子として)
+- `title`: YouTube 動画タイトル
+- `speaker`: タイトル末尾(" - 著者名" の形式)から抽出、なければ "TED-Ed"
+- `duration_sec`: snippets の最後の start_sec + duration_sec
+- `video_url`: `https://www.youtube.com/watch?v=<videoId>`
+- `embed_url`: `https://www.youtube.com/embed/<videoId>`
+- ※ 旧フィールド(ted.com URL)は使わない
+
+## Step 8: JSON 出力
+
+- `/data/talks/YYYY-MM-DD.json` を書き込み
+- `/data/index.json` の `talks` 配列の先頭に新規エントリを追加(date 降順)
+- `/data/index.json` の `updated_at` を更新(JST ISO 8601)
 
 ## Step 9: commit & push
-git add /data/
-git commit -m "daily: YYYY-MM-DD {ted-ed|ted-talks} {title}"
+
+```bash
+git add data/
+git commit -m "daily: YYYY-MM-DD ted-ed <title>"
 git push
+```
 
 # エラーハンドリング
-- 何らかの失敗時は、原因をstderrに記録して非ゼロ終了
-- 部分的なコミットはしない(成功時のみcommit/push)
+
+- 何らかの失敗時は、原因を stderr に記録して非ゼロ終了する
+- 部分的なコミットはしない(成功時のみ commit/push)
 - リトライは最大2回まで(主にネットワークエラー)
+- youtube-transcript-api がエラーを返した場合は、別の言語を試す
+  (例: 英語が無ければ自動生成英語字幕でも可)
 
 # 制限事項
-- /data/ 以外のファイルは絶対に変更しない
-- 既存のJSONを上書きしない(冪等性)
+
+- `/data/` 以外のファイルは絶対に変更しない
+- 既存の YYYY-MM-DD.json は上書きしない(冪等性)
+- コスト懸念は度外視。トークン節約のため単語を端折ったりしない
 ```
 
 ---
@@ -111,15 +148,15 @@ git push
 
 ### 変更が必要になるシナリオ
 
-1. **YouTube RSSの構造が変わった**: Step 3のXMLパース部分を更新
-2. **TEDサイトのHTML構造が変わった**: Step 6のscript tag抽出ロジックを更新
-3. **興味分野を追加・変更したい**: Step 4のカテゴリリストを更新
-4. **データスキーマが進化した**: `/docs/data_schema.md` を更新し、Step 7の指示も合わせる
+1. **YouTube channel ページの UI 変更** で `lockupViewModel` 構造が変わった場合 → `scripts/fetch_ted_ed_videos.py` の抽出ロジックを更新
+2. **youtube-transcript-api の API 変更** → スクリプトを更新
+3. **TED-Ed が動画投稿頻度を変えた場合** → 新着検出 hours 値を調整
+4. **データスキーマが進化した場合** → `/docs/data_schema.md` を更新し、Step 6 の指示も合わせる
 
-### Cloud Task側の設定
+### Scheduled Agent 側の設定
 
-- cron式: `0 6 * * *` (JST 06:00)
-- 連携リポジトリ: 本リポジトリ(private)
+- cron 式: `0 21 * * *` UTC (= JST 06:00)
+- 連携リポジトリ: 本リポジトリ(scioltoharumi/daily-ted、private)
 - 必要権限: Bash, Web fetch, ファイル編集, リポジトリ書き込み
 - タイムアウト: デフォルト(30分)
-- 実行通知: 失敗時のみ通知(設定方法はPhase 3で決定)
+- 実行通知: 失敗時のみ通知(Phase 3 で設定方法決定)

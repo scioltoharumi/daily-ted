@@ -253,3 +253,60 @@
 
 **運用**:
 - 実運用しながらヒット率に応じて分野を追加・削除
+
+**v3.1 で撤回**: D-016 採用に伴い TED Talks 配信は廃止、興味分野フィルターも不要となった。
+
+---
+
+## D-016: TED-Ed のみ配信、取得は YouTube 直結に変更(案H)
+
+**日付**: 2026-05-10
+**判断**: TED-Ed のみを配信ソースとし、新着取得は `youtube.com/@TEDEd/videos` の HTML スクレイピング(`ytInitialData` 抽出)、トランスクリプト取得は `youtube-transcript-api` 経由に変更する。ted.com / ed.ted.com 経由のフローは廃止。
+
+**経緯(2026-05-10 PoC で判明した事実)**:
+
+1. YouTube TED-Ed チャンネルの RSS フィード(`/feeds/videos.xml?channel_id=UCsooa4yRKGN_zEE8iknghZA`)は 404 を返す。Made for Kids 設定下で RSS が無効化されている可能性が高い(MIT OpenCourseWare 等、教育系で同症状)。
+2. ted.com の talks RSS(`/talks/rss`、2696件)を分析した結果、TED-Ed は 2件しか含まれず、最新公開日も 2021-04-17。**ted.com には TED-Ed がほぼ存在しない**ことが判明。
+3. ed.ted.com には新着 lesson 一覧 + 詳細ページの JSON-LD で uploadDate が取れるが、編集者おすすめ順かつ YouTube 全動画が網羅されない(直近30日で 0 件)ため新着判定の主軸にできない。
+4. ed.ted.com lesson ページにはトランスクリプトは含まれていない(/transcript サブパスも 404)。
+5. **`youtube-transcript-api` で TED-Ed 動画の高品質字幕(タイムスタンプ付き)を取得できることを確認**。
+6. **`youtube.com/@TEDEd/videos` の HTML から `ytInitialData` を抽出し、各動画の videoId / title / `publishedTimeText`("2 days ago" 等)/ duration / thumbnail を取得できることを確認**。
+
+**新フロー**:
+
+```text
+1. youtube.com/@TEDEd/videos の HTML を取得 → ytInitialData JSON 抽出
+2. 各動画の publishedTimeText を timedelta に変換し、24時間以内のみ抽出
+3. 候補があれば、その videoId を youtube-transcript-api に渡して transcript snippets 取得
+4. (任意)ed.ted.com の lesson 詳細ページ JSON-LD から uploadDate / description / publisher を補強
+5. snippets を Claude Opus 4.7 で段落・文・token 構造に再構成 + 全要素解説生成
+6. /data/talks/YYYY-MM-DD.json + index.json 更新
+7. git commit & push
+```
+
+**TED Talks 廃止の理由(マスター方針)**:
+
+- 学習者(マスター)の英語レベル(初学者寄り)に対し、TED Talks の 10〜18分尺・専門用語密度が過剰
+- TED-Ed の 5〜7分・構文整理されたアニメ lesson の方が学習負荷的に最適
+
+**配信頻度の見立て**:
+
+- 直近7日で TED-Ed YouTube 投稿は 2本(2026-05-08、2026-05-06)
+- → 平日のみ配信ロジック(D-003)は不要、毎日チェックで「新作あればスキップなし」運用
+- D-004(新作なければスキップ)の方針はそのまま継続
+
+**撤回・修正される過去判断**:
+
+- D-003(平日 TED-Ed / 休日 TED Talks)→ 全曜日 TED-Ed のみ
+- D-010(TED-Ed transcript も ted.com 経由)→ youtube-transcript-api 経由に変更
+- D-015(興味分野フィルター)→ 不要(TED-Ed はそもそも教育目的のみ)
+
+**新依存**:
+
+- `youtube-transcript-api`(pip パッケージ)。Cloud Task / Scheduled Agent 内で `pip install youtube-transcript-api` を実行する。
+
+**新リスク**:
+
+- YouTube の channel videos ページ UI が変わると `lockupViewModel` 抽出ロジックが壊れる(R-01改)
+- youtube-transcript-api の実装変更や YouTube 側の字幕配信仕様変更(R-03改)
+- いずれも対応:エラー時は通知、リトライ実装、構造変更時は手動修正

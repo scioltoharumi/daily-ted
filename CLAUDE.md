@@ -12,7 +12,10 @@ Daily TED PWA リポジトリのエージェント向けエントリポイント
 
 - `docs/` — 要件定義・データスキーマ・PoC 手順・UI モックアップ
 - `prompts/` — Cloud Task / Scheduled Agent 用プロンプト(`daily_batch.md`)
-- `scripts/` — Python ヘルパー(RSS 取得・slug 推定・スクレイピング)
+- `scripts/` — Python ヘルパー
+  - `fetch_ted_ed_videos.py` — YouTube TED-Ed channel HTML スクレイピングで新着取得
+  - `fetch_youtube_transcript.py` — youtube-transcript-api で動画字幕取得
+- `archive/` — 退役したスクリプト(D-016 で TED-Ed パスを YouTube 直結に変更したため、ted.com / RSS 関連スクリプトを退避)
 - `data/` — Cloud Task が生成する JSON(`index.json`, `talks/YYYY-MM-DD.json`)
 - `src/`, `public/` — Phase 2 で着手する PWA 実装ディレクトリ(現時点では未作成)
 - `steering/` — 設計判断ログ・教訓ログ
@@ -32,7 +35,8 @@ Daily TED PWA リポジトリのエージェント向けエントリポイント
 
 ## 主要制約
 
-- **配信ロジック**: 平日 TED-Ed / 休日 TED Talks(興味分野フィルタ) / 新作なしならスキップ
+- **配信ロジック**(D-016, v3.1): TED-Ed のみ毎日チェック / 新作なしならスキップ。TED Talks は学習者レベル不適合のため廃止
+- **取得経路**(D-016): YouTube TED-Ed channel HTML スクレイピング + youtube-transcript-api。ted.com / RSS は使わない(TED-Ed は ted.com にほぼ存在せず、YouTube RSS は Made for Kids 設定で 404)
 - **冪等性**: 同日の `data/talks/YYYY-MM-DD.json` 既存なら即終了
 - **全単語事前生成**: PWA 側に AI フォールバック処理を作らない
 - **コスト・著作権度外視**: MAX プラン + 私的利用前提
