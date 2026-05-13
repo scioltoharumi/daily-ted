@@ -1,0 +1,4766 @@
+{
+  "id": "talk_2026-05-13",
+  "date": "2026-05-13",
+  "source": "ted-ed",
+  "primary_topic": "Education",
+  "tags": [
+    "play-based-learning",
+    "montessori",
+    "kindergarten",
+    "pedagogy",
+    "self-directed-learning",
+    "education-history"
+  ],
+  "difficulty": "medium",
+  "slug": "the_missing_ingredient_in_how_we_learn",
+  "video_id": "mA1lnxfqHk8",
+  "title": "The missing ingredient in how we learn",
+  "speaker": "TED-Ed",
+  "duration_sec": 349,
+  "video_url": "https://www.youtube.com/watch?v=mA1lnxfqHk8",
+  "embed_url": "https://www.youtube.com/embed/mA1lnxfqHk8",
+  "background": {
+    "summary": "1851年プロイセンで禁止されたフレーベルの「幼稚園」を起点に、モンテッソーリ・レッジョ・エミリア・MIT「生涯幼稚園」まで、遊びを学びの中心に置く教育哲学の歴史と現代的意義を探る。",
+    "details": [
+      "フリードリヒ・フレーベル(1782–1852): 幼稚園を創設したドイツの教育者。積み木・歌・ガーデニングなど遊びを通じた学びを重視し、「危険思想」としてプロイセン政府に禁止されたが、その理念は世界の教育改革を促した。",
+      "モンテッソーリ教育: 感覚的教具と自己主導型探求を重視する教育法。2023年の30以上の研究のメタ分析で、言語・数学・創造性・社会性すべてで従来型学校教育を上回ることが確認された。",
+      "レッジョ・エミリア・アプローチ: イタリア発祥の教育哲学。子どもの好奇心と興味を出発点にプロジェクト学習を構築し、教室全体が「第三の教育者」として設計される。教師は答えを与えず open-ended questions で探求を誘う。",
+      "Laboratory Schools(プロジェクト型学校): 数学・音楽・3Dアートなど複数分野を横断するプロジェクトで抽象概念を具体的に学ぶ学際的アプローチ。「苦手科目を避ける」という批判を、教科間の自然な連携で回避する。",
+      "MIT Lifelong Kindergarten: MITメディアラボの研究グループ(Mitch Resnick 主導)。「遊ぶ→作る→共有する」サイクルを全年齢に拡張。Scratch プログラミング言語の開発でも知られる。"
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 7.1,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In 1851, the Prussian government feared that Friedrich Fröbel's scandalous new approach to education might teach disobedience and lead to peasant rebellion.",
+          "translation_ja": "1851年、プロイセン政府はフリードリヒ・フレーベルのスキャンダラスな新しい教育へのアプローチが不服従を教え、農民反乱につながる恐れがあると危惧した。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "In 1851",
+              "note": "時の前置修飾"
+            },
+            {
+              "label": "S",
+              "content": "the Prussian government",
+              "note": "主語"
+            },
+            {
+              "label": "V",
+              "content": "feared that",
+              "note": "that節を目的語に取る他動詞"
+            },
+            {
+              "label": "S'",
+              "content": "Friedrich Fröbel's scandalous new approach to education",
+              "note": "that節の主語"
+            },
+            {
+              "label": "V'",
+              "content": "might teach / lead to",
+              "note": "情態動詞+原形(2つの動詞句が and で並列)"
+            },
+            {
+              "label": "O'",
+              "content": "disobedience / peasant rebellion",
+              "note": "それぞれの目的語"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In 1851, the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Prussian",
+              "ref": "prussian",
+              "tier": "basic"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "government",
+              "ref": "government",
+              "tier": "normal"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "feared",
+              "ref": "feared",
+              "tier": "normal"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " that Friedrich Fröbel's "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "scandalous",
+              "ref": "scandalous",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " new "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "approach",
+              "ref": "approach",
+              "tier": "frequent"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "education",
+              "ref": "education",
+              "tier": "frequent"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " might teach "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "disobedience",
+              "ref": "disobedience",
+              "tier": "key"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " and lead to "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "peasant",
+              "ref": "peasant",
+              "tier": "key"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "rebellion",
+              "ref": "rebellion",
+              "tier": "key"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The name of Fröbel's school?",
+          "translation_ja": "フレーベルの学校の名前は?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The name of Fröbel's school",
+              "note": "修辞的な疑問文。動詞省略の断片文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The name of Fröbel's school?"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Kindergarten.",
+          "translation_ja": "幼稚園。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Kindergarten",
+              "note": "前文の答えを示す1語断片文。ドイツ語由来の固有名詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Kindergarten."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Its controversial curriculum included singing and dancing, gardening, painting, and playing.",
+          "translation_ja": "その物議を醸すカリキュラムには、歌と踊り、ガーデニング、絵画、そして遊びが含まれていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Its controversial curriculum",
+              "note": "主語"
+            },
+            {
+              "label": "V",
+              "content": "included",
+              "note": "他動詞・過去形"
+            },
+            {
+              "label": "O",
+              "content": "singing and dancing, gardening, painting, and playing",
+              "note": "4つの動名詞を列挙"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Its "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "controversial",
+              "ref": "controversial",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "curriculum",
+              "ref": "curriculum",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " included singing and dancing, gardening, painting, and playing."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Prussia banned kindergarten, enforcing a strict system of supervised classrooms and government-approved lessons that clearly separated learning time from play time.",
+          "translation_ja": "プロイセンは幼稚園を禁止し、監督された教室と政府認定の授業から成る厳格なシステムを施行して、学習時間と遊び時間を明確に分離した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Prussia",
+              "note": "主語"
+            },
+            {
+              "label": "V",
+              "content": "banned",
+              "note": "他動詞・過去形"
+            },
+            {
+              "label": "O",
+              "content": "kindergarten",
+              "note": "目的語"
+            },
+            {
+              "label": "分詞句",
+              "content": "enforcing a strict system …",
+              "note": "付帯状況を示す現在分詞句"
+            },
+            {
+              "label": "関係節",
+              "content": "that clearly separated learning time from play time",
+              "note": "lessons を修飾"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Prussia "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "banned",
+              "ref": "banned",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " kindergarten, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "enforcing",
+              "ref": "enforcing",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a strict system of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "supervised",
+              "ref": "supervised",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " classrooms and government-approved lessons that clearly "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "separated",
+              "ref": "separated",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " learning time from "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "play time",
+              "ref": "play_time"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 41.0,
+      "sentences": [
+        {
+          "id": "s6",
+          "text": "And over the next century, the Prussian model inspired public school systems around the world.",
+          "translation_ja": "そしてその後の1世紀にわたって、プロイセンのモデルは世界中の公教育制度にインスピレーションを与えた。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "over the next century",
+              "note": "期間を示す前置修飾"
+            },
+            {
+              "label": "S",
+              "content": "the Prussian model",
+              "note": "主語"
+            },
+            {
+              "label": "V",
+              "content": "inspired",
+              "note": "他動詞・過去形"
+            },
+            {
+              "label": "O",
+              "content": "public school systems around the world",
+              "note": "目的語"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And over the next century, the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Prussian",
+              "ref": "prussian",
+              "tier": "basic"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "model",
+              "ref": "model",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "inspired",
+              "ref": "inspired",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " public school systems around the world."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "But while it might seem traditional now, the belief that play and learning are at odds with each other is a relatively new idea.",
+          "translation_ja": "しかし今では伝統的に見えるかもしれないが、遊びと学びが相容れないという考えは比較的新しい概念である。",
+          "structure": [
+            {
+              "label": "従属節",
+              "content": "while it might seem traditional now",
+              "note": "譲歩節"
+            },
+            {
+              "label": "S",
+              "content": "the belief that play and learning are at odds with each other",
+              "note": "that 同格節を持つ主語"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "a relatively new idea",
+              "note": "補語"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But while it might seem "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "traditional",
+              "ref": "traditional",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " now, the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "belief",
+              "ref": "belief",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " that play and learning are "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "at odds with",
+              "ref": "at_odds_with"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " each other is a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "relatively",
+              "ref": "relatively",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " new idea."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "Before the last few centuries, children around the world spent most of their time learning through play: observing and mimicking adults, roaming their surroundings, and sharing what they learned with friends and family.",
+          "translation_ja": "ここ数世紀以前は、世界中の子どもたちは遊びを通じた学習に時間の大半を費やしていた。すなわち大人を観察し真似をし、周囲を歩き回り、学んだことを友人や家族と共有していたのだ。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "Before the last few centuries",
+              "note": "時の前置修飾"
+            },
+            {
+              "label": "S",
+              "content": "children around the world",
+              "note": "主語"
+            },
+            {
+              "label": "V",
+              "content": "spent",
+              "note": "spend+O+Ving 構文"
+            },
+            {
+              "label": "O",
+              "content": "most of their time learning through play",
+              "note": "spend time Ving"
+            },
+            {
+              "label": "コロン以下",
+              "content": "observing and mimicking adults, roaming their surroundings, and sharing …",
+              "note": "learning の内容を3つ列挙"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Before the last few centuries, children around the world spent most of their time learning through play: observing and "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "mimicking",
+              "ref": "mimicking",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " adults, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "roaming",
+              "ref": "roaming",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "surroundings",
+              "ref": "surroundings",
+              "tier": "normal"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and sharing what they learned with friends and family."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "Many communities and educators still believe play is one of the best teachers we have, and they've taken a variety of approaches to keep this kind of self-directed learning alive.",
+          "translation_ja": "多くのコミュニティや教育者は、遊びは最良の教師のひとつだと今でも信じており、この種の自己主導型学習を守るために様々なアプローチを取ってきた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Many communities and educators",
+              "note": "主語"
+            },
+            {
+              "label": "V",
+              "content": "believe",
+              "note": "that 省略の目的語節"
+            },
+            {
+              "label": "O",
+              "content": "play is one of the best teachers we have",
+              "note": "that節"
+            },
+            {
+              "label": "等位節",
+              "content": "they've taken a variety of approaches …",
+              "note": "and で結ばれる第2の主節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Many "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "communities",
+              "ref": "communities",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "educators",
+              "ref": "educators",
+              "tier": "normal"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " still believe play is one of the best teachers we have, and they've taken a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "variety",
+              "ref": "variety",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of approaches to keep this kind of "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "self-directed learning",
+              "ref": "self_directed_learning"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " alive."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 83.4,
+      "sentences": [
+        {
+          "id": "s10",
+          "text": "In his Kindergartens, Fröbel provided specially designed toys to help kids learn concepts like volume, density, and even the principles of geometry.",
+          "translation_ja": "自らの幼稚園で、フレーベルは体積・密度、さらには幾何学の原理といった概念を子どもたちが学ぶのを助けるために、特別に設計されたおもちゃを提供した。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "In his Kindergartens",
+              "note": "場所の前置修飾"
+            },
+            {
+              "label": "S",
+              "content": "Fröbel"
+            },
+            {
+              "label": "V",
+              "content": "provided"
+            },
+            {
+              "label": "O",
+              "content": "specially designed toys"
+            },
+            {
+              "label": "目的節",
+              "content": "to help kids learn concepts like volume, density, and even the principles of geometry",
+              "note": "不定詞句(目的)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In his Kindergartens, Fröbel "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "provided",
+              "ref": "provided",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " specially designed toys to help kids learn "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "concepts",
+              "ref": "concepts",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " like "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "volume",
+              "ref": "volume",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "density",
+              "ref": "density",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and even the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "principles",
+              "ref": "principles",
+              "tier": "frequent"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "geometry",
+              "ref": "geometry",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s11",
+          "text": "And today, Montessori schools continue to embrace toy-based learning.",
+          "translation_ja": "そして今日、モンテッソーリ学校はおもちゃを通じた学習を引き続き受け入れている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Montessori schools"
+            },
+            {
+              "label": "V",
+              "content": "continue to embrace",
+              "note": "continue to do = し続ける"
+            },
+            {
+              "label": "O",
+              "content": "toy-based learning"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And today, Montessori schools continue to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "embrace",
+              "ref": "embrace",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "toy-based learning",
+              "ref": "toy_based_learning"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s12",
+          "text": "Montessori toys— or materials, as they call them— are rigorously designed to isolate and teach specific concepts.",
+          "translation_ja": "モンテッソーリの玩具——彼らが「材料」と呼ぶもの——は、特定の概念を切り離して教えるために厳密に設計されている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Montessori toys",
+              "note": "主語。or materials … は挿入句"
+            },
+            {
+              "label": "V",
+              "content": "are designed",
+              "note": "受動態"
+            },
+            {
+              "label": "副詞",
+              "content": "rigorously"
+            },
+            {
+              "label": "目的",
+              "content": "to isolate and teach specific concepts",
+              "note": "不定詞句(目的)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Montessori toys— or "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "materials",
+              "ref": "materials",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", as they call them— are "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "rigorously",
+              "ref": "rigorously",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " designed to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "isolate",
+              "ref": "isolate",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and teach "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "specific",
+              "ref": "specific",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "concepts",
+              "ref": "concepts",
+              "tier": "frequent"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s13",
+          "text": "For example to learn math, babies and toddlers might explore dimension with fat wooden cylinders, then unlock more spatial reasoning with a set of pink, stackable blocks.",
+          "translation_ja": "例えば算数を学ぶために、赤ちゃんやよちよち歩きの幼児は太い木製の円柱で次元を探り、さらにピンク色の積み重ね可能なブロックで空間推論を高めることができる。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "For example to learn math",
+              "note": "目的と例示"
+            },
+            {
+              "label": "S",
+              "content": "babies and toddlers"
+            },
+            {
+              "label": "V₁",
+              "content": "might explore dimension with fat wooden cylinders"
+            },
+            {
+              "label": "V₂",
+              "content": "then unlock more spatial reasoning",
+              "note": "and/then で並列"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For example to learn math, babies and "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "toddlers",
+              "ref": "toddlers",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " might "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "explore",
+              "ref": "explore",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "dimension",
+              "ref": "dimension",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " with fat wooden cylinders, then "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "unlock",
+              "ref": "unlock",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " more "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "spatial reasoning",
+              "ref": "spatial_reasoning"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " with a set of pink, stackable blocks."
+            }
+          ]
+        },
+        {
+          "id": "s14",
+          "text": "Older children tackle a set of brown stairs to learn about height, while a series of red rods reveals the secrets of length and balance.",
+          "translation_ja": "年長の子どもたちは茶色の階段セットで高さを学び、一方で赤い棒のシリーズは長さとバランスの秘密を明らかにする。",
+          "structure": [
+            {
+              "label": "S₁",
+              "content": "Older children"
+            },
+            {
+              "label": "V₁",
+              "content": "tackle",
+              "note": "他動詞：積極的に取り組む"
+            },
+            {
+              "label": "O₁",
+              "content": "a set of brown stairs to learn about height"
+            },
+            {
+              "label": "S₂",
+              "content": "a series of red rods",
+              "note": "while節"
+            },
+            {
+              "label": "V₂",
+              "content": "reveals",
+              "note": "三単現"
+            },
+            {
+              "label": "O₂",
+              "content": "the secrets of length and balance"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Older children "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "tackle",
+              "ref": "tackle",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a set of brown stairs to learn about height, while a series of red rods "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reveals",
+              "ref": "reveals",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the secrets of length and balance."
+            }
+          ]
+        },
+        {
+          "id": "s15",
+          "text": "Teachers gently guide this exploration by asking students questions and suggesting material specific activities— like arranging the rods in order of size.",
+          "translation_ja": "教師は学生に質問したり教材に特化した活動——棒を大きさ順に並べることなど——を提案したりして、この探索を穏やかに導く。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Teachers"
+            },
+            {
+              "label": "V",
+              "content": "guide"
+            },
+            {
+              "label": "O",
+              "content": "this exploration"
+            },
+            {
+              "label": "副詞",
+              "content": "gently"
+            },
+            {
+              "label": "by句",
+              "content": "by asking … and suggesting …",
+              "note": "手段を示す by+動名詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Teachers "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "gently",
+              "ref": "gently",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "guide",
+              "ref": "guide",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " this "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "exploration",
+              "ref": "exploration",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " by asking students questions and suggesting material specific activities— like arranging the rods in order of size."
+            }
+          ]
+        },
+        {
+          "id": "s16",
+          "text": "But Montessori classrooms also have a range of ages and low teacher to student ratios to encourage students to explore the materials together and learn from each other.",
+          "translation_ja": "しかしモンテッソーリの教室には様々な年齢の生徒がいて、教師対生徒の比率も低く、生徒が一緒に教材を探求し互いに学び合うことが奨励される。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Montessori classrooms"
+            },
+            {
+              "label": "V",
+              "content": "have"
+            },
+            {
+              "label": "O",
+              "content": "a range of ages and low teacher to student ratios"
+            },
+            {
+              "label": "目的節",
+              "content": "to encourage students to explore … and learn …",
+              "note": "不定詞句(目的)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But Montessori classrooms also have a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "range",
+              "ref": "variety",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of ages and low teacher to student "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "ratios",
+              "ref": "ratios",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "encourage",
+              "ref": "encourage",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " students to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "explore",
+              "ref": "explore",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "materials",
+              "ref": "materials",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " together and learn from each other."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 154.1,
+      "sentences": [
+        {
+          "id": "s17",
+          "text": "Reggio Emilia schools also give students sensory objects to explore together, but they're especially focused on letting the students direct their learning.",
+          "translation_ja": "レッジョ・エミリアの学校も生徒に感覚的な物を一緒に探索させるが、特に生徒自身が学習を方向付けることを重視している。",
+          "structure": [
+            {
+              "label": "S₁",
+              "content": "Reggio Emilia schools"
+            },
+            {
+              "label": "V₁",
+              "content": "give"
+            },
+            {
+              "label": "O₁",
+              "content": "students sensory objects to explore together",
+              "note": "give + 間接目的語 + 直接目的語"
+            },
+            {
+              "label": "S₂",
+              "content": "they're",
+              "note": "but節"
+            },
+            {
+              "label": "V₂",
+              "content": "are focused on"
+            },
+            {
+              "label": "O₂",
+              "content": "letting the students direct their learning",
+              "note": "focus on + Ving"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Reggio Emilia schools also give students "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "sensory",
+              "ref": "sensory",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " objects to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "explore",
+              "ref": "explore",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " together, but they're especially "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "focused",
+              "ref": "focused",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " on letting the students direct their learning."
+            }
+          ]
+        },
+        {
+          "id": "s18",
+          "text": "Every corner of a Reggio classroom is designed to reward curiosity, allowing students to follow their interests and express themselves with a variety of artistic tools.",
+          "translation_ja": "レッジョの教室のあらゆる角は好奇心を報いるように設計されており、生徒が自分の興味を追求し、様々な芸術的ツールで自己表現できるようになっている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Every corner of a Reggio classroom"
+            },
+            {
+              "label": "V",
+              "content": "is designed",
+              "note": "受動態"
+            },
+            {
+              "label": "目的",
+              "content": "to reward curiosity",
+              "note": "不定詞句"
+            },
+            {
+              "label": "分詞句",
+              "content": "allowing students to follow their interests and express themselves …",
+              "note": "付帯状況の現在分詞句"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Every corner of a Reggio classroom is designed to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "reward",
+              "ref": "reward",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "curiosity",
+              "ref": "curiosity",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", allowing students to follow their "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "interests",
+              "ref": "interests",
+              "tier": "normal"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "express",
+              "ref": "express",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " themselves with a variety of "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "artistic",
+              "ref": "artistic",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " tools."
+            }
+          ]
+        },
+        {
+          "id": "s19",
+          "text": "Even when Reggio teachers do assign formal projects, they start by asking students open-ended questions— from how to make a model ship float or sink to how they should decorate an art studio.",
+          "translation_ja": "レッジョの教師が正式なプロジェクトを課す場合でさえ、模型の船を浮かべるか沈めるかといった問いからアートスタジオをどう装飾するかまで、オープンエンドの質問から始める。",
+          "structure": [
+            {
+              "label": "従属節",
+              "content": "Even when Reggio teachers do assign formal projects",
+              "note": "逆接の従属節。do は強調の助動詞"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "start by asking",
+              "note": "by+動名詞で手段"
+            },
+            {
+              "label": "O",
+              "content": "students open-ended questions",
+              "note": "ask + 間接目的語 + 直接目的語"
+            },
+            {
+              "label": "from〜to句",
+              "content": "from how to make a model ship float or sink to how they should decorate an art studio",
+              "note": "質問の例示範囲"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Even when Reggio teachers do "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "assign",
+              "ref": "assign",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "formal",
+              "ref": "formal",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " projects, they start by asking students "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "open-ended questions",
+              "ref": "open_ended_questions"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "— from how to make a model ship float or sink to how they should decorate an art studio."
+            }
+          ]
+        },
+        {
+          "id": "s20",
+          "text": "Then they design the project to explore the student's assumptions and interests, weaving in their curriculum along the way.",
+          "translation_ja": "そして生徒の前提と興味を探るプロジェクトを設計し、その過程でカリキュラムを織り交ぜていく。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "design"
+            },
+            {
+              "label": "O",
+              "content": "the project"
+            },
+            {
+              "label": "目的",
+              "content": "to explore the student's assumptions and interests",
+              "note": "不定詞句"
+            },
+            {
+              "label": "分詞句",
+              "content": "weaving in their curriculum along the way",
+              "note": "付帯状況"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then they "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "design",
+              "ref": "design",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the project to explore the student's "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "assumptions",
+              "ref": "assumptions",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and interests, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "weaving",
+              "ref": "weaving",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "curriculum",
+              "ref": "curriculum",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "along the way",
+              "ref": "along_the_way"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 199.1,
+      "sentences": [
+        {
+          "id": "s21",
+          "text": "Skeptics might argue that self-directed learning lets kids avoid the subjects they're not as interested in, leading some students to fall behind.",
+          "translation_ja": "懐疑論者は、自己主導型学習によって子どもたちが興味のない教科を避けてしまい、一部の生徒が遅れをとると主張するかもしれない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Skeptics"
+            },
+            {
+              "label": "V",
+              "content": "might argue that",
+              "note": "情態動詞+that節"
+            },
+            {
+              "label": "O(that節)",
+              "content": "self-directed learning lets kids avoid the subjects …",
+              "note": "let + O + 原形"
+            },
+            {
+              "label": "分詞句",
+              "content": "leading some students to fall behind",
+              "note": "結果を示す現在分詞句"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": ""
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Skeptics",
+              "ref": "skeptics",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " might "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "argue",
+              "ref": "argue",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " that "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "self-directed learning",
+              "ref": "self_directed_learning"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " lets kids avoid the subjects they're not as interested in, leading some students to "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "fall behind",
+              "ref": "fall_behind"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s22",
+          "text": "But most of these schools use an interdisciplinary approach to ensure no subject is left behind.",
+          "translation_ja": "しかしこれらの学校のほとんどは、どの教科も遅れを取らないよう学際的なアプローチを採用している。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "most of these schools"
+            },
+            {
+              "label": "V",
+              "content": "use"
+            },
+            {
+              "label": "O",
+              "content": "an interdisciplinary approach"
+            },
+            {
+              "label": "目的",
+              "content": "to ensure no subject is left behind",
+              "note": "不定詞句(目的)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But most of these schools use an "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "interdisciplinary",
+              "ref": "interdisciplinary",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "approach",
+              "ref": "approach",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "ensure",
+              "ref": "ensure",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " no subject is left behind."
+            }
+          ]
+        },
+        {
+          "id": "s23",
+          "text": "For example, in project-based Laboratory Schools, the day might start by solving a number puzzle, then using the answers to compose a piece of music or three dimensional art.",
+          "translation_ja": "例えば、プロジェクト型のラボラトリー・スクールでは、数学パズルを解くことから一日が始まり、その答えを使って音楽や3次元アートを制作することもある。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "For example, in project-based Laboratory Schools",
+              "note": "例示と場所"
+            },
+            {
+              "label": "S",
+              "content": "the day"
+            },
+            {
+              "label": "V",
+              "content": "might start"
+            },
+            {
+              "label": "手段",
+              "content": "by solving a number puzzle",
+              "note": "by+動名詞"
+            },
+            {
+              "label": "then節",
+              "content": "then using the answers to compose a piece of music or three dimensional art",
+              "note": "連続する動作"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For example, in "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "project-based",
+              "ref": "project_based"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Laboratory Schools, the day might start by solving a number puzzle, then using the answers to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "compose",
+              "ref": "compose",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a piece of music or three dimensional art."
+            }
+          ]
+        },
+        {
+          "id": "s24",
+          "text": "By choosing to explore overlapping concepts through multiple projects, teachers can show different practical applications that make abstract ideas feel concrete and useful.",
+          "translation_ja": "複数のプロジェクトで重複した概念を探求することを選ぶことで、教師は抽象的なアイデアを具体的で有用に感じさせる様々な実践的応用を示すことができる。",
+          "structure": [
+            {
+              "label": "手段",
+              "content": "By choosing to explore overlapping concepts through multiple projects",
+              "note": "by+動名詞句"
+            },
+            {
+              "label": "S",
+              "content": "teachers"
+            },
+            {
+              "label": "V",
+              "content": "can show"
+            },
+            {
+              "label": "O",
+              "content": "different practical applications"
+            },
+            {
+              "label": "関係節",
+              "content": "that make abstract ideas feel concrete and useful",
+              "note": "S+V+O+C (SVOC)構文: make+O+feel"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "By choosing to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "explore",
+              "ref": "explore",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "overlapping",
+              "ref": "overlapping",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "concepts",
+              "ref": "concepts",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " through multiple projects, teachers can show different "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "practical",
+              "ref": "practical",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "applications",
+              "ref": "applications",
+              "tier": "frequent"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " that make "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "abstract",
+              "ref": "abstract",
+              "tier": "frequent"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " ideas feel "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "concrete",
+              "ref": "concrete",
+              "tier": "frequent"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " and useful."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 239.5,
+      "sentences": [
+        {
+          "id": "s25",
+          "text": "In all these models, giving students more agency comes with challenges.",
+          "translation_ja": "これらすべてのモデルにおいて、生徒に主体性を与えることには課題が伴う。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "In all these models"
+            },
+            {
+              "label": "S",
+              "content": "giving students more agency",
+              "note": "動名詞句が主語"
+            },
+            {
+              "label": "V",
+              "content": "comes with",
+              "note": "come with = 伴う"
+            },
+            {
+              "label": "O",
+              "content": "challenges"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In all these "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "models",
+              "ref": "model",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", giving students more "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "agency",
+              "ref": "agency",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " comes with "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "challenges",
+              "ref": "challenges",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s26",
+          "text": "Different kids have different needs, so educators have to be sensitive and able to adapt.",
+          "translation_ja": "子どもたちはそれぞれ異なるニーズを持っているため、教育者は敏感で適応できる必要がある。",
+          "structure": [
+            {
+              "label": "S₁",
+              "content": "Different kids"
+            },
+            {
+              "label": "V₁",
+              "content": "have"
+            },
+            {
+              "label": "O₁",
+              "content": "different needs"
+            },
+            {
+              "label": "S₂",
+              "content": "educators",
+              "note": "so節"
+            },
+            {
+              "label": "V₂",
+              "content": "have to be sensitive and able to adapt",
+              "note": "have to = 〜しなければならない"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Different kids have different needs, so "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "educators",
+              "ref": "educators",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " have to be "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "sensitive",
+              "ref": "sensitive",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and able to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "adapt",
+              "ref": "adapt",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s27",
+          "text": "From rearranging the room to redirecting attention, teachers need to respond to each student while maintaining a safe, playful environment for all.",
+          "translation_ja": "部屋の模様替えから注意の方向転換まで、教師はすべての生徒にとって安全で遊び心のある環境を維持しながら、各生徒に対応する必要がある。",
+          "structure": [
+            {
+              "label": "前置詞句",
+              "content": "From rearranging the room to redirecting attention",
+              "note": "from A to B の対比構造"
+            },
+            {
+              "label": "S",
+              "content": "teachers"
+            },
+            {
+              "label": "V",
+              "content": "need to respond"
+            },
+            {
+              "label": "while節",
+              "content": "while maintaining a safe, playful environment for all",
+              "note": "同時進行を示す while+分詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "From "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rearranging",
+              "ref": "rearranging",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the room to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "redirecting",
+              "ref": "redirecting",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " attention, teachers need to respond to each student while "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "maintaining",
+              "ref": "maintaining",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " a safe, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "playful",
+              "ref": "playful",
+              "tier": "normal"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " environment for all."
+            }
+          ]
+        },
+        {
+          "id": "s28",
+          "text": "This requires buckets of emotional intelligence, prep time, and trust from both parents and their school's administration.",
+          "translation_ja": "これには感情知性・準備時間、そして保護者と学校管理側双方からの信頼が山ほど必要となる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "requires"
+            },
+            {
+              "label": "O",
+              "content": "buckets of emotional intelligence, prep time, and trust …",
+              "note": "buckets of = 大量の(口語的強調)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This requires buckets of "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "emotional intelligence",
+              "ref": "emotional_intelligence"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", prep time, and trust from both parents and their school's "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "administration",
+              "ref": "administration",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s29",
+          "text": "But for many educators and learners, the effort is worth it.",
+          "translation_ja": "しかし多くの教育者や学習者にとって、その労力は報われる価値がある。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "for many educators and learners",
+              "note": "受益者を示す"
+            },
+            {
+              "label": "S",
+              "content": "the effort"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "worth it",
+              "note": "worth it = その価値がある"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But for many "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "educators",
+              "ref": "educators",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "learners",
+              "ref": "learners",
+              "tier": "normal"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "effort",
+              "ref": "effort",
+              "tier": "frequent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "worth it",
+              "ref": "worth_it"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 273.1,
+      "sentences": [
+        {
+          "id": "s30",
+          "text": "A 2023 analysis of over 30 studies found that Montessori education outperformed traditional schools in language and math learning, as well as in developing creativity and social skills.",
+          "translation_ja": "2023年の30以上の研究を対象とした分析で、モンテッソーリ教育は言語・算数の学習に加え、創造性と社会的スキルの発達においても従来の学校を上回ることが明らかになった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "A 2023 analysis of over 30 studies"
+            },
+            {
+              "label": "V",
+              "content": "found that",
+              "note": "that節を目的語に取る"
+            },
+            {
+              "label": "S'",
+              "content": "Montessori education"
+            },
+            {
+              "label": "V'",
+              "content": "outperformed"
+            },
+            {
+              "label": "O'",
+              "content": "traditional schools"
+            },
+            {
+              "label": "前置詞句",
+              "content": "in language and math learning, as well as in developing creativity and social skills",
+              "note": "as well as = だけでなく"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "A 2023 "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "analysis",
+              "ref": "analysis",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of over 30 studies found that Montessori education "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "outperformed",
+              "ref": "outperformed",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "traditional",
+              "ref": "traditional",
+              "tier": "normal"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " schools in language and math learning, as well as in developing "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "creativity",
+              "ref": "creativity",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "social skills",
+              "ref": "social_skills"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s31",
+          "text": "And these benefits go beyond early learning.",
+          "translation_ja": "そしてこれらの恩恵は早期学習を超えて広がる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "these benefits"
+            },
+            {
+              "label": "V",
+              "content": "go beyond",
+              "note": "go beyond = 〜を超える"
+            },
+            {
+              "label": "O",
+              "content": "early learning"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And these "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "benefits",
+              "ref": "benefits",
+              "tier": "frequent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " go beyond early learning."
+            }
+          ]
+        },
+        {
+          "id": "s32",
+          "text": "Many universities are moving from lecture-based learning towards long-term projects and roundtable discussions.",
+          "translation_ja": "多くの大学が講義中心の学習からプロジェクト型や円卓討議へと移行しつつある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Many universities"
+            },
+            {
+              "label": "V",
+              "content": "are moving",
+              "note": "現在進行形：進行中の傾向"
+            },
+            {
+              "label": "from〜towards",
+              "content": "from lecture-based learning towards long-term projects and roundtable discussions",
+              "note": "移行の方向を示す"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Many "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "universities",
+              "ref": "universities",
+              "tier": "normal"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " are moving from "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "lecture-based",
+              "ref": "lecture_based",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " learning towards long-term projects and "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "roundtable discussions",
+              "ref": "roundtable_discussions"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s33",
+          "text": "MIT's Lifelong Kindergarten tries to extend a playful, creativity-first approach to learners of all ages, giving students a variety of physical and digital tools to explore, experiment, and express themselves.",
+          "translation_ja": "MITの「生涯幼稚園」は、遊び心があり創造性を最優先するアプローチをあらゆる年齢の学習者に広げようとしており、生徒に物理的・デジタル的なツールを多様に提供して探求・実験・自己表現を促している。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "MIT's Lifelong Kindergarten"
+            },
+            {
+              "label": "V",
+              "content": "tries to extend",
+              "note": "try to do = 〜しようとする"
+            },
+            {
+              "label": "O",
+              "content": "a playful, creativity-first approach to learners of all ages"
+            },
+            {
+              "label": "分詞句",
+              "content": "giving students a variety of physical and digital tools to explore, experiment, and express themselves",
+              "note": "付帯状況の現在分詞句"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "MIT's "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "Lifelong Kindergarten",
+              "ref": "lifelong_kindergarten"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " tries to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "extend",
+              "ref": "extend",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "playful",
+              "ref": "playful",
+              "tier": "normal"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", creativity-first "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "approach",
+              "ref": "approach",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "learners",
+              "ref": "learners",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " of all ages, giving students a "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "variety",
+              "ref": "variety",
+              "tier": "frequent"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "physical",
+              "ref": "physical",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "digital",
+              "ref": "digital",
+              "tier": "normal"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " tools to "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "explore",
+              "ref": "explore",
+              "tier": "frequent"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "experiment",
+              "ref": "experiment",
+              "tier": "frequent"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t22",
+              "type": "word",
+              "surface": "express",
+              "ref": "express",
+              "tier": "frequent"
+            },
+            {
+              "id": "t23",
+              "type": "skip",
+              "surface": " themselves."
+            }
+          ]
+        },
+        {
+          "id": "s34",
+          "text": "Some architecture and engineering students even use Fröbel's special toys to hone their design principles and spatial reasoning— showing that it's not only children who learn through play.",
+          "translation_ja": "建築や工学の学生の中には、フレーベルの特別なおもちゃを使ってデザインの原則と空間推論を磨く者さえいる——遊びを通じて学ぶのは子どもだけではないということを示している。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Some architecture and engineering students"
+            },
+            {
+              "label": "V",
+              "content": "use"
+            },
+            {
+              "label": "O",
+              "content": "Fröbel's special toys"
+            },
+            {
+              "label": "目的",
+              "content": "to hone their design principles and spatial reasoning",
+              "note": "不定詞句(目的)"
+            },
+            {
+              "label": "分詞句",
+              "content": "showing that it's not only children who learn through play",
+              "note": "it is not only A who … = …するのはAだけではない(強調構文)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Some "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "architecture",
+              "ref": "architecture",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "engineering",
+              "ref": "engineering",
+              "tier": "frequent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " students even use Fröbel's special toys to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "hone",
+              "ref": "hone",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "design",
+              "ref": "design",
+              "tier": "frequent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "principles",
+              "ref": "principles",
+              "tier": "frequent"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "spatial reasoning",
+              "ref": "spatial_reasoning"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "— "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "showing",
+              "ref": "showing",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " that it's not only children who learn through play."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "prussian": {
+      "tier": "basic",
+      "surface": "Prussian",
+      "pos": "proper adj",
+      "pron": "/ˈprʌʃ.ən/",
+      "meaning": "プロイセンの(19世紀ドイツ北部の王国)",
+      "example": {
+        "en": "The <b>Prussian</b> army was famous for its discipline.",
+        "ja": "プロイセン軍はその規律で有名だった。"
+      },
+      "context": "Prussia は現在のドイツ・ポーランド北部に相当する旧王国。形容詞形 Prussian は厳格・権威主義的なものの比喩としても使われる。",
+      "collocations": [
+        "Prussian model",
+        "Prussian government",
+        "Prussian army"
+      ]
+    },
+    "government": {
+      "tier": "normal",
+      "surface": "government",
+      "pos": "n · A2",
+      "pron": "/ˈɡʌv.ən.mənt/",
+      "meaning": "政府、行政機関",
+      "example": {
+        "en": "The <b>government</b> announced new education policies.",
+        "ja": "政府は新しい教育政策を発表した。"
+      },
+      "context": "govern(統治する)+ment。中央政府・地方政府どちらにも使う。",
+      "collocations": [
+        "federal government",
+        "government policy",
+        "government school"
+      ]
+    },
+    "feared": {
+      "tier": "normal",
+      "surface": "feared",
+      "pos": "v · B1",
+      "pron": "/fɪrd/",
+      "meaning": "恐れた、懸念した",
+      "example": {
+        "en": "Officials <b>feared</b> the reforms would cause unrest.",
+        "ja": "当局は改革が不穏を招くと懸念した。"
+      },
+      "context": "fear の過去形。単純な恐怖だけでなく「～を懸念する」の意でも頻用される。",
+      "collocations": [
+        "feared that",
+        "widely feared",
+        "feared for"
+      ]
+    },
+    "scandalous": {
+      "tier": "key",
+      "surface": "scandalous",
+      "pos": "adj · B2",
+      "pron": "/ˈskæn.də.ləs/",
+      "meaning": "スキャンダラスな、非常識な、衝撃的な",
+      "example": {
+        "en": "The newspaper called the decision <b>scandalous</b>.",
+        "ja": "新聞はその決定を非常識だと呼んだ。"
+      },
+      "context": "scandal(スキャンダル)+ous。道徳的・社会的規範に反して衝撃を与えるという強い批判的評価を含む。",
+      "collocations": [
+        "scandalous behavior",
+        "scandalous news",
+        "simply scandalous"
+      ]
+    },
+    "approach": {
+      "tier": "frequent",
+      "surface": "approach",
+      "pos": "n/v · B1",
+      "pron": "/əˈprəʊtʃ/",
+      "meaning": "アプローチ、取り組み方、手法",
+      "example": {
+        "en": "We need a different <b>approach</b> to solve this problem.",
+        "ja": "この問題を解くには別のアプローチが必要だ。"
+      },
+      "context": "名詞・動詞両用。学術・ビジネスで頻出。method/way より洗練された語。",
+      "collocations": [
+        "new approach",
+        "approach to learning",
+        "take an approach"
+      ]
+    },
+    "education": {
+      "tier": "frequent",
+      "surface": "education",
+      "pos": "n · A2",
+      "pron": "/ˌedʒ.uˈkeɪ.ʃən/",
+      "meaning": "教育、教育制度",
+      "example": {
+        "en": "<b>Education</b> is key to reducing poverty.",
+        "ja": "教育は貧困削減の鍵だ。"
+      },
+      "context": "educate + tion。高等教育は higher education、義務教育は compulsory education。",
+      "collocations": [
+        "higher education",
+        "early education",
+        "education system",
+        "education policy"
+      ]
+    },
+    "disobedience": {
+      "tier": "key",
+      "surface": "disobedience",
+      "pos": "n · C1",
+      "pron": "/ˌdɪs.əˈbiː.di.əns/",
+      "meaning": "不服従、反抗",
+      "example": {
+        "en": "The teacher reprimanded the student for <b>disobedience</b>.",
+        "ja": "教師は不服従を理由に生徒を叱った。"
+      },
+      "context": "dis(否定)+obedience(服従)。civil disobedience(市民的不服従)は有名な複合語。",
+      "collocations": [
+        "civil disobedience",
+        "act of disobedience",
+        "encourage disobedience"
+      ]
+    },
+    "peasant": {
+      "tier": "key",
+      "surface": "peasant",
+      "pos": "n · B2",
+      "pron": "/ˈpez.ənt/",
+      "meaning": "農民、小作農(歴史的)",
+      "example": {
+        "en": "In medieval Europe, <b>peasants</b> worked the land for nobles.",
+        "ja": "中世ヨーロッパでは、農民が貴族のために土地を耕した。"
+      },
+      "context": "主に歴史・文学文脈で使われる。現代英語では侮辱語として使われることもある。",
+      "collocations": [
+        "peasant rebellion",
+        "peasant farming",
+        "peasant class"
+      ]
+    },
+    "rebellion": {
+      "tier": "key",
+      "surface": "rebellion",
+      "pos": "n · B2",
+      "pron": "/rɪˈbel.jən/",
+      "meaning": "反乱、反逆、叛乱",
+      "example": {
+        "en": "The <b>rebellion</b> was crushed by the army.",
+        "ja": "反乱は軍によって鎮圧された。"
+      },
+      "context": "rebel(反抗する)+lion。revolution より規模が小さく、既存権威への武力抵抗を指す場合が多い。",
+      "collocations": [
+        "peasant rebellion",
+        "armed rebellion",
+        "crush a rebellion",
+        "spark rebellion"
+      ]
+    },
+    "controversial": {
+      "tier": "key",
+      "surface": "controversial",
+      "pos": "adj · B2",
+      "pron": "/ˌkɒn.trəˈvɜː.ʃəl/",
+      "meaning": "物議を醸す、論争的な",
+      "example": {
+        "en": "The new policy was highly <b>controversial</b>.",
+        "ja": "その新政策は非常に物議を醸した。"
+      },
+      "context": "controversy(論争)+al。賛否が激しく分かれる話題に使う。",
+      "collocations": [
+        "highly controversial",
+        "controversial topic",
+        "controversial decision",
+        "prove controversial"
+      ]
+    },
+    "curriculum": {
+      "tier": "key",
+      "surface": "curriculum",
+      "pos": "n · B2",
+      "pron": "/kəˈrɪk.jʊ.ləm/",
+      "meaning": "カリキュラム、教育課程",
+      "example": {
+        "en": "The school updated its <b>curriculum</b> to include coding.",
+        "ja": "学校はコーディングを含めるためにカリキュラムを更新した。"
+      },
+      "context": "ラテン語由来。複数形は curricula または curriculums。",
+      "collocations": [
+        "school curriculum",
+        "curriculum design",
+        "core curriculum",
+        "national curriculum"
+      ]
+    },
+    "banned": {
+      "tier": "key",
+      "surface": "banned",
+      "pos": "v · B2",
+      "pron": "/bænd/",
+      "meaning": "禁止した",
+      "example": {
+        "en": "The government <b>banned</b> the book for political reasons.",
+        "ja": "政府は政治的理由でその本を禁止した。"
+      },
+      "context": "ban の過去形。法的・公式な禁止を意味する。prohibited より強い公的な禁止感がある。",
+      "collocations": [
+        "banned from",
+        "banned substance",
+        "officially banned"
+      ]
+    },
+    "enforcing": {
+      "tier": "frequent",
+      "surface": "enforcing",
+      "pos": "v · B2",
+      "pron": "/ɪnˈfɔː.sɪŋ/",
+      "meaning": "施行する、強制する、執行する",
+      "example": {
+        "en": "The police are responsible for <b>enforcing</b> the law.",
+        "ja": "警察は法律を執行する責任を持つ。"
+      },
+      "context": "en+force(力)。規則・法律・システムを実際に適用・強制することを指す。",
+      "collocations": [
+        "enforcing rules",
+        "enforcing the law",
+        "strictly enforcing"
+      ]
+    },
+    "supervised": {
+      "tier": "key",
+      "surface": "supervised",
+      "pos": "adj/v · B2",
+      "pron": "/ˈsuː.pə.vaɪzd/",
+      "meaning": "監督された、管理された",
+      "example": {
+        "en": "Children need <b>supervised</b> access to the internet.",
+        "ja": "子どもにはインターネットへの監視付きアクセスが必要だ。"
+      },
+      "context": "supervise(監督する)の過去分詞。形容詞的に使うことが多い。",
+      "collocations": [
+        "supervised learning",
+        "supervised activities",
+        "closely supervised"
+      ]
+    },
+    "separated": {
+      "tier": "frequent",
+      "surface": "separated",
+      "pos": "v/adj · B1",
+      "pron": "/ˈsep.ə.reɪ.tɪd/",
+      "meaning": "分離された、切り離された",
+      "example": {
+        "en": "Work and leisure were <b>separated</b> into different spaces.",
+        "ja": "仕事と余暇は別々のスペースに分けられた。"
+      },
+      "context": "separate + ed。物理的・概念的な切り離しどちらにも使う。",
+      "collocations": [
+        "separated from",
+        "clearly separated",
+        "separated into"
+      ]
+    },
+    "model": {
+      "tier": "frequent",
+      "surface": "model",
+      "pos": "n · B1",
+      "pron": "/ˈmɒd.əl/",
+      "meaning": "モデル、模型、手本、方式",
+      "example": {
+        "en": "Finland's education <b>model</b> is admired worldwide.",
+        "ja": "フィンランドの教育モデルは世界中で注目されている。"
+      },
+      "context": "多義語。教育・科学・ファッション・数学など多分野で頻出。",
+      "collocations": [
+        "education model",
+        "business model",
+        "role model",
+        "model of"
+      ]
+    },
+    "inspired": {
+      "tier": "frequent",
+      "surface": "inspired",
+      "pos": "v · B1",
+      "pron": "/ɪnˈspaɪəd/",
+      "meaning": "インスパイアした、影響を与えた、鼓舞した",
+      "example": {
+        "en": "Her speech <b>inspired</b> thousands of students.",
+        "ja": "彼女のスピーチは数千人の生徒を鼓舞した。"
+      },
+      "context": "inspire の過去形。形容詞「インスパイアされた・見事な」としても使われる。",
+      "collocations": [
+        "inspired by",
+        "inspired generations",
+        "an inspired idea"
+      ]
+    },
+    "traditional": {
+      "tier": "normal",
+      "surface": "traditional",
+      "pos": "adj · B1",
+      "pron": "/trəˈdɪʃ.ən.əl/",
+      "meaning": "伝統的な、従来型の",
+      "example": {
+        "en": "<b>Traditional</b> schools often use lecture-based teaching.",
+        "ja": "伝統的な学校では講義中心の指導が多い。"
+      },
+      "context": "tradition + al。良い意味にも否定的な意味にも使われる。",
+      "collocations": [
+        "traditional approach",
+        "traditional school",
+        "traditional method",
+        "traditional values"
+      ]
+    },
+    "belief": {
+      "tier": "frequent",
+      "surface": "belief",
+      "pos": "n · B1",
+      "pron": "/bɪˈliːf/",
+      "meaning": "信念、思い込み、考え",
+      "example": {
+        "en": "His <b>belief</b> that hard work pays off never changed.",
+        "ja": "努力は報われるという彼の信念は変わらなかった。"
+      },
+      "context": "believe の名詞形。beyond belief(信じられないほど)など慣用句も多い。",
+      "collocations": [
+        "belief in",
+        "strongly held belief",
+        "core belief",
+        "beyond belief"
+      ]
+    },
+    "relatively": {
+      "tier": "frequent",
+      "surface": "relatively",
+      "pos": "adv · B1",
+      "pron": "/ˈrel.ə.tɪv.li/",
+      "meaning": "比較的に、相対的に",
+      "example": {
+        "en": "This method is <b>relatively</b> new.",
+        "ja": "この方法は比較的新しい。"
+      },
+      "context": "absolute の対義語として相対的な比較を示す。学術文章で頻出。",
+      "collocations": [
+        "relatively new",
+        "relatively easy",
+        "relatively small",
+        "relatively speaking"
+      ]
+    },
+    "mimicking": {
+      "tier": "key",
+      "surface": "mimicking",
+      "pos": "v · B2",
+      "pron": "/ˈmɪm.ɪ.kɪŋ/",
+      "meaning": "模倣する、真似をする",
+      "example": {
+        "en": "Children learn by <b>mimicking</b> their parents.",
+        "ja": "子どもは親の真似をして学ぶ。"
+      },
+      "context": "mimic の進行形。動物の擬態(mimicry)も同語源。imitating より意図的・批評的なニュアンスが強い。",
+      "collocations": [
+        "mimicking adults",
+        "mimicking behavior",
+        "mimicking sounds"
+      ]
+    },
+    "roaming": {
+      "tier": "key",
+      "surface": "roaming",
+      "pos": "v · B2",
+      "pron": "/ˈrəʊ.mɪŋ/",
+      "meaning": "ぶらぶら歩く、自由に動き回る",
+      "example": {
+        "en": "Children once spent hours <b>roaming</b> freely outdoors.",
+        "ja": "かつて子どもたちは何時間も外を自由に歩き回った。"
+      },
+      "context": "目的なく広い範囲を動き回ること。動物の遊動・スマートフォンのローミングも同語。",
+      "collocations": [
+        "roaming freely",
+        "roaming the streets",
+        "roaming around"
+      ]
+    },
+    "surroundings": {
+      "tier": "normal",
+      "surface": "surroundings",
+      "pos": "n · B1",
+      "pron": "/səˈraʊn.dɪŋz/",
+      "meaning": "周囲の環境、環境",
+      "example": {
+        "en": "She felt comfortable in her new <b>surroundings</b>.",
+        "ja": "彼女は新しい環境に慣れ親しんだ。"
+      },
+      "context": "常に複数形。environment より具体的な「目に見える周りの様子」を指す。",
+      "collocations": [
+        "natural surroundings",
+        "familiar surroundings",
+        "explore surroundings"
+      ]
+    },
+    "communities": {
+      "tier": "normal",
+      "surface": "communities",
+      "pos": "n · A2",
+      "pron": "/kəˈmjuː.nɪ.tɪz/",
+      "meaning": "コミュニティ、地域社会、共同体",
+      "example": {
+        "en": "Local <b>communities</b> must be involved in education planning.",
+        "ja": "地域コミュニティは教育計画に参加すべきだ。"
+      },
+      "context": "community の複数形。地域的・文化的・オンラインなど多様なコミュニティに使える。",
+      "collocations": [
+        "local community",
+        "school community",
+        "online community",
+        "build community"
+      ]
+    },
+    "educators": {
+      "tier": "normal",
+      "surface": "educators",
+      "pos": "n · B1",
+      "pron": "/ˈed.jʊ.keɪ.tərz/",
+      "meaning": "教育者、教育家",
+      "example": {
+        "en": "Many <b>educators</b> support play-based learning.",
+        "ja": "多くの教育者が遊びを通じた学習を支持している。"
+      },
+      "context": "teacher より広い概念で、教育政策・設計も含む人を指す。",
+      "collocations": [
+        "experienced educators",
+        "educators and parents",
+        "early childhood educators"
+      ]
+    },
+    "variety": {
+      "tier": "frequent",
+      "surface": "variety",
+      "pos": "n · B1",
+      "pron": "/vəˈraɪ.ə.ti/",
+      "meaning": "多様性、さまざまなもの",
+      "example": {
+        "en": "A <b>variety</b> of tools were used in the project.",
+        "ja": "プロジェクトにはさまざまなツールが使われた。"
+      },
+      "context": "variety of ~ = さまざまな〜。TOEFL・IELTS でほぼ必出。",
+      "collocations": [
+        "a variety of",
+        "variety of approaches",
+        "offer variety",
+        "wide variety"
+      ]
+    },
+    "self_directed": {
+      "tier": "key",
+      "surface": "self-directed",
+      "pos": "adj · C1",
+      "pron": "/ˌself.dɪˈrek.tɪd/",
+      "meaning": "自己主導型の、自律学習の",
+      "example": {
+        "en": "<b>Self-directed</b> learners tend to be more motivated.",
+        "ja": "自己主導型の学習者はより意欲的になりやすい。"
+      },
+      "context": "self-directed learning は教育学の重要概念。learner autonomy とも言う。",
+      "collocations": [
+        "self-directed learning",
+        "self-directed study",
+        "self-directed approach"
+      ]
+    },
+    "provided": {
+      "tier": "frequent",
+      "surface": "provided",
+      "pos": "v · B1",
+      "pron": "/prəˈvaɪ.dɪd/",
+      "meaning": "提供した、用意した",
+      "example": {
+        "en": "The school <b>provided</b> all the materials needed.",
+        "ja": "学校は必要な教材をすべて提供した。"
+      },
+      "context": "provide の過去形。provide A with B または provide B for A の構文を確認しておくと良い。",
+      "collocations": [
+        "provided with",
+        "provided for",
+        "provide access",
+        "provide support"
+      ]
+    },
+    "concepts": {
+      "tier": "frequent",
+      "surface": "concepts",
+      "pos": "n · B2",
+      "pron": "/ˈkɒn.septs/",
+      "meaning": "概念、考え方",
+      "example": {
+        "en": "Abstract <b>concepts</b> are easier to understand through hands-on activities.",
+        "ja": "抽象的な概念はハンズオン活動を通じて理解しやすい。"
+      },
+      "context": "concept の複数形。TOEFL/IELTS 頻出の学術語。conceptual(概念的な)も重要。",
+      "collocations": [
+        "key concepts",
+        "abstract concepts",
+        "core concepts",
+        "understand concepts"
+      ]
+    },
+    "volume": {
+      "tier": "key",
+      "surface": "volume",
+      "pos": "n · B2",
+      "pron": "/ˈvɒl.juːm/",
+      "meaning": "体積、容量；音量；巻",
+      "example": {
+        "en": "Students explored <b>volume</b> by filling different containers with water.",
+        "ja": "生徒は異なる容器に水を満たして体積を学んだ。"
+      },
+      "context": "多義語: 体積(数学・理科)、音量(音響)、巻(本)。文脈で意味が変わる。",
+      "collocations": [
+        "volume of water",
+        "trading volume",
+        "turn up the volume"
+      ]
+    },
+    "density": {
+      "tier": "key",
+      "surface": "density",
+      "pos": "n · B2",
+      "pron": "/ˈden.sɪ.ti/",
+      "meaning": "密度",
+      "example": {
+        "en": "Oil floats on water because of differences in <b>density</b>.",
+        "ja": "油は密度の違いで水に浮く。"
+      },
+      "context": "dense(密な)+ity。物理・化学の基礎用語。population density(人口密度)でも使われる。",
+      "collocations": [
+        "density of matter",
+        "population density",
+        "high density",
+        "low density"
+      ]
+    },
+    "principles": {
+      "tier": "frequent",
+      "surface": "principles",
+      "pos": "n · B2",
+      "pron": "/ˈprɪn.sɪ.pəlz/",
+      "meaning": "原理、原則",
+      "example": {
+        "en": "She applied the <b>principles</b> of design to the layout.",
+        "ja": "彼女はデザインの原則をレイアウトに適用した。"
+      },
+      "context": "AWL 頻出語。principle(原理)と principal(主要な/校長)の混同に注意。",
+      "collocations": [
+        "design principles",
+        "scientific principles",
+        "core principles",
+        "principles of"
+      ]
+    },
+    "geometry": {
+      "tier": "key",
+      "surface": "geometry",
+      "pos": "n · B2",
+      "pron": "/dʒiˈɒm.ɪ.tri/",
+      "meaning": "幾何学",
+      "example": {
+        "en": "Fröbel used toys to teach <b>geometry</b> to young children.",
+        "ja": "フレーベルは幼児に幾何学を教えるおもちゃを使った。"
+      },
+      "context": "geo(地球)+metry(測定)。ギリシャ語由来。形容詞形 geometric(幾何学的な)も重要。",
+      "collocations": [
+        "principles of geometry",
+        "Euclidean geometry",
+        "geometry class"
+      ]
+    },
+    "embrace": {
+      "tier": "frequent",
+      "surface": "embrace",
+      "pos": "v · B2",
+      "pron": "/ɪmˈbreɪs/",
+      "meaning": "受け入れる、取り入れる；抱きしめる",
+      "example": {
+        "en": "Many companies are beginning to <b>embrace</b> remote work.",
+        "ja": "多くの企業がリモートワークを取り入れ始めている。"
+      },
+      "context": "物理的な抱擁と、考え・概念を受け入れることの両方に使える。後者は特にフォーマルな文脈で頻用。",
+      "collocations": [
+        "embrace change",
+        "embrace technology",
+        "enthusiastically embrace",
+        "embrace diversity"
+      ]
+    },
+    "materials": {
+      "tier": "normal",
+      "surface": "materials",
+      "pos": "n · B1",
+      "pron": "/məˈtɪər.i.əlz/",
+      "meaning": "材料、教材、資料",
+      "example": {
+        "en": "The teacher distributed reading <b>materials</b> to the class.",
+        "ja": "教師はクラスに読書教材を配った。"
+      },
+      "context": "material の複数形。教育文脈では「教具・教材」を指す。原材料の意味もある。",
+      "collocations": [
+        "teaching materials",
+        "raw materials",
+        "study materials",
+        "learning materials"
+      ]
+    },
+    "rigorously": {
+      "tier": "key",
+      "surface": "rigorously",
+      "pos": "adv · C1",
+      "pron": "/ˈrɪɡ.ər.əs.li/",
+      "meaning": "厳密に、厳格に",
+      "example": {
+        "en": "The method was <b>rigorously</b> tested before use.",
+        "ja": "その方法は使用前に厳密に検証された。"
+      },
+      "context": "rigorous(厳格な)+ly。academic/scientific text で頻出。thorough より「厳密さ」に強調点がある。",
+      "collocations": [
+        "rigorously tested",
+        "rigorously designed",
+        "rigorously applied"
+      ]
+    },
+    "isolate": {
+      "tier": "frequent",
+      "surface": "isolate",
+      "pos": "v · B2",
+      "pron": "/ˈaɪ.sə.leɪt/",
+      "meaning": "分離する、切り離す、隔離する",
+      "example": {
+        "en": "Scientists <b>isolate</b> variables in experiments to test one thing at a time.",
+        "ja": "科学者は実験で一度に一つのことをテストするために変数を切り離す。"
+      },
+      "context": "AWL 収録語。実験・医学・社会的文脈すべてで使う。isolation(孤立)も重要。",
+      "collocations": [
+        "isolate variables",
+        "isolate the cause",
+        "social isolation",
+        "isolate from"
+      ]
+    },
+    "specific": {
+      "tier": "frequent",
+      "surface": "specific",
+      "pos": "adj · B1",
+      "pron": "/spəˈsɪf.ɪk/",
+      "meaning": "特定の、具体的な",
+      "example": {
+        "en": "Each toy is designed to teach a <b>specific</b> concept.",
+        "ja": "各おもちゃは特定の概念を教えるために設計されている。"
+      },
+      "context": "AWL 頻出。general の対義語。specifically(具体的に言えば)、specification(仕様)と一緒に覚える。",
+      "collocations": [
+        "specific concept",
+        "be specific about",
+        "specific instructions",
+        "specific goals"
+      ]
+    },
+    "toddlers": {
+      "tier": "key",
+      "surface": "toddlers",
+      "pos": "n · B2",
+      "pron": "/ˈtɒd.lərz/",
+      "meaning": "よちよち歩きの幼児(1〜3歳程度)",
+      "example": {
+        "en": "<b>Toddlers</b> learn best through sensory play.",
+        "ja": "幼児は感覚的な遊びから最もよく学ぶ。"
+      },
+      "context": "toddle(よちよち歩く)+er。infant(乳児)<toddler(1〜3歳)<preschooler(3〜5歳)の年齢区分を覚えると便利。",
+      "collocations": [
+        "babies and toddlers",
+        "toddler toys",
+        "toddler development"
+      ]
+    },
+    "explore": {
+      "tier": "frequent",
+      "surface": "explore",
+      "pos": "v · B1",
+      "pron": "/ɪkˈsplɔːr/",
+      "meaning": "探る、探索する、探求する",
+      "example": {
+        "en": "Students are encouraged to <b>explore</b> their interests freely.",
+        "ja": "生徒は自分の興味を自由に探求することが奨励される。"
+      },
+      "context": "AWL 収録。物理的な探索と知的な探求の両方に使える。exploration(探索)、explorer(探検家)も重要。",
+      "collocations": [
+        "explore ideas",
+        "explore the world",
+        "explore concepts",
+        "freely explore"
+      ]
+    },
+    "dimension": {
+      "tier": "key",
+      "surface": "dimension",
+      "pos": "n · B2",
+      "pron": "/daɪˈmen.ʃən/",
+      "meaning": "次元；寸法；側面",
+      "example": {
+        "en": "Children explore <b>dimension</b> by handling three-dimensional objects.",
+        "ja": "子どもたちは三次元物体を扱うことで次元を学ぶ。"
+      },
+      "context": "数学・物理での「次元」、日常での「寸法・大きさ」、比喩での「側面・局面」と多義語。",
+      "collocations": [
+        "three-dimensional",
+        "new dimension",
+        "add another dimension",
+        "dimension of size"
+      ]
+    },
+    "unlock": {
+      "tier": "frequent",
+      "surface": "unlock",
+      "pos": "v · B1",
+      "pron": "/ʌnˈlɒk/",
+      "meaning": "解き放つ、開放する；鍵を開ける",
+      "example": {
+        "en": "Play helps <b>unlock</b> children's creative potential.",
+        "ja": "遊びは子どもの創造的な可能性を引き出す。"
+      },
+      "context": "un(否定)+lock(鍵)。比喩的に「可能性・能力を引き出す」の意でビジネス・教育文脈で頻用。",
+      "collocations": [
+        "unlock potential",
+        "unlock creativity",
+        "unlock the door",
+        "unlock skills"
+      ]
+    },
+    "spatial": {
+      "tier": "key",
+      "surface": "spatial",
+      "pos": "adj · B2",
+      "pron": "/ˈspeɪ.ʃəl/",
+      "meaning": "空間的な、空間の",
+      "example": {
+        "en": "<b>Spatial</b> reasoning is important in engineering and design.",
+        "ja": "空間的思考力は工学やデザインにおいて重要だ。"
+      },
+      "context": "space(空間)+ial。spatial reasoning(空間推論)・spatial awareness(空間認識)が重要コロケーション。",
+      "collocations": [
+        "spatial reasoning",
+        "spatial awareness",
+        "spatial skills",
+        "three-dimensional spatial"
+      ]
+    },
+    "reasoning": {
+      "tier": "key",
+      "surface": "reasoning",
+      "pos": "n · B2",
+      "pron": "/ˈriː.zən.ɪŋ/",
+      "meaning": "推論、推理、論理的思考",
+      "example": {
+        "en": "Mathematical <b>reasoning</b> improves through problem-solving practice.",
+        "ja": "問題解決の練習で数学的推論が向上する。"
+      },
+      "context": "reason(推論する)の動名詞形。logical reasoning、critical reasoning など頻出複合語。",
+      "collocations": [
+        "spatial reasoning",
+        "logical reasoning",
+        "critical reasoning",
+        "mathematical reasoning"
+      ]
+    },
+    "tackle": {
+      "tier": "frequent",
+      "surface": "tackle",
+      "pos": "v · B2",
+      "pron": "/ˈtæk.əl/",
+      "meaning": "取り組む、取り掛かる",
+      "example": {
+        "en": "Students <b>tackle</b> challenging puzzles to build problem-solving skills.",
+        "ja": "生徒は問題解決能力を養うために難しいパズルに取り組む。"
+      },
+      "context": "address/deal with より積極的・意欲的なニュアンス。スポーツのタックルとは別の意味で使われることも多い。",
+      "collocations": [
+        "tackle a problem",
+        "tackle challenges",
+        "tackle the issue",
+        "tackle head-on"
+      ]
+    },
+    "reveals": {
+      "tier": "frequent",
+      "surface": "reveals",
+      "pos": "v · B2",
+      "pron": "/rɪˈviːlz/",
+      "meaning": "明らかにする、露わにする",
+      "example": {
+        "en": "Research <b>reveals</b> that play is essential for development.",
+        "ja": "研究は遊びが発達に不可欠であることを明らかにしている。"
+      },
+      "context": "reveal の三人称単数現在形。物理的な「露出」と情報の「公開・暴露」両方に使う。",
+      "collocations": [
+        "reveals the truth",
+        "reveals secrets",
+        "study reveals",
+        "research reveals"
+      ]
+    },
+    "gently": {
+      "tier": "normal",
+      "surface": "gently",
+      "pos": "adv · B1",
+      "pron": "/ˈdʒent.li/",
+      "meaning": "穏やかに、優しく",
+      "example": {
+        "en": "Teachers <b>gently</b> guide students toward the right answer.",
+        "ja": "教師は生徒を正解へと穏やかに導く。"
+      },
+      "context": "gentle(優しい)+ly。育児・医療・教育など対人関係の文脈でよく使われる。",
+      "collocations": [
+        "gently guide",
+        "gently remind",
+        "gently suggest",
+        "speak gently"
+      ]
+    },
+    "guide": {
+      "tier": "frequent",
+      "surface": "guide",
+      "pos": "v/n · B1",
+      "pron": "/ɡaɪd/",
+      "meaning": "導く、案内する；ガイド",
+      "example": {
+        "en": "Teachers <b>guide</b> students through complex problems.",
+        "ja": "教師は生徒を複雑な問題の解決へと導く。"
+      },
+      "context": "名詞・動詞両用。guiding principle(指導原則)、guide students through(生徒を〜へ導く)が頻出。",
+      "collocations": [
+        "guide students",
+        "guide through",
+        "serve as a guide",
+        "step-by-step guide"
+      ]
+    },
+    "exploration": {
+      "tier": "frequent",
+      "surface": "exploration",
+      "pos": "n · B2",
+      "pron": "/ˌek.splɔːˈreɪ.ʃən/",
+      "meaning": "探索、探求、探査",
+      "example": {
+        "en": "The curriculum encourages <b>exploration</b> rather than memorization.",
+        "ja": "そのカリキュラムは暗記より探求を促す。"
+      },
+      "context": "explore の名詞形。space exploration(宇宙探査)から intellectual exploration(知的探求)まで幅広く使う。",
+      "collocations": [
+        "encourage exploration",
+        "free exploration",
+        "scientific exploration",
+        "space exploration"
+      ]
+    },
+    "ratios": {
+      "tier": "key",
+      "surface": "ratios",
+      "pos": "n · B2",
+      "pron": "/ˈreɪ.ʃi.əʊz/",
+      "meaning": "比率、割合",
+      "example": {
+        "en": "Low teacher-to-student <b>ratios</b> allow more individual attention.",
+        "ja": "低い教師対生徒の比率により、より個別の関心が可能になる。"
+      },
+      "context": "ratio の複数形。teacher to student ratio は教育評価指標として頻出。",
+      "collocations": [
+        "teacher to student ratio",
+        "low ratio",
+        "high ratio",
+        "debt-to-equity ratio"
+      ]
+    },
+    "encourage": {
+      "tier": "frequent",
+      "surface": "encourage",
+      "pos": "v · B1",
+      "pron": "/ɪnˈkʌr.ɪdʒ/",
+      "meaning": "奨励する、促す、励ます",
+      "example": {
+        "en": "Parents should <b>encourage</b> curiosity in their children.",
+        "ja": "親は子どもの好奇心を育てるべきだ。"
+      },
+      "context": "en+courage(勇気)。discourage の対義語。AWL 収録語。",
+      "collocations": [
+        "encourage learning",
+        "encourage students",
+        "highly encourage",
+        "encourage creativity"
+      ]
+    },
+    "sensory": {
+      "tier": "key",
+      "surface": "sensory",
+      "pos": "adj · B2",
+      "pron": "/ˈsen.sər.i/",
+      "meaning": "感覚の、感覚的な",
+      "example": {
+        "en": "Young children need <b>sensory</b> play to develop their senses.",
+        "ja": "幼い子どもは感覚を発達させるために感覚遊びが必要だ。"
+      },
+      "context": "sense(感覚)+ory。sensory overload(感覚過負荷)、sensory processing(感覚処理)が重要語。",
+      "collocations": [
+        "sensory play",
+        "sensory objects",
+        "sensory experience",
+        "sensory processing"
+      ]
+    },
+    "focused": {
+      "tier": "frequent",
+      "surface": "focused",
+      "pos": "adj · B1",
+      "pron": "/ˈfəʊ.kəst/",
+      "meaning": "集中した、焦点を絞った",
+      "example": {
+        "en": "The team remained <b>focused</b> on the goal despite setbacks.",
+        "ja": "チームは困難にもかかわらず目標に集中し続けた。"
+      },
+      "context": "focus の過去分詞形容詞。be focused on ~(〜に重点を置く)が教育・ビジネスで頻出。",
+      "collocations": [
+        "focused on",
+        "stay focused",
+        "sharply focused",
+        "focused approach"
+      ]
+    },
+    "reward": {
+      "tier": "frequent",
+      "surface": "reward",
+      "pos": "v/n · B1",
+      "pron": "/rɪˈwɔːd/",
+      "meaning": "報いる、報酬を与える；報酬",
+      "example": {
+        "en": "The school <b>rewards</b> curiosity, not just correct answers.",
+        "ja": "その学校は正解だけでなく好奇心を称える。"
+      },
+      "context": "名詞・動詞両用。intrinsic reward(内発的報酬)vs extrinsic reward(外発的報酬)が教育・心理学で重要。",
+      "collocations": [
+        "reward curiosity",
+        "reward system",
+        "offer rewards",
+        "intrinsic reward"
+      ]
+    },
+    "curiosity": {
+      "tier": "frequent",
+      "surface": "curiosity",
+      "pos": "n · B2",
+      "pron": "/ˌkjʊər.iˈɒs.ɪ.ti/",
+      "meaning": "好奇心",
+      "example": {
+        "en": "<b>Curiosity</b> is the foundation of all learning.",
+        "ja": "好奇心はすべての学びの基盤だ。"
+      },
+      "context": "curious(好奇心旺盛な)の名詞形。Curiosity killed the cat(知りすぎると危ない)という慣用句も有名。",
+      "collocations": [
+        "reward curiosity",
+        "spark curiosity",
+        "natural curiosity",
+        "intellectual curiosity"
+      ]
+    },
+    "interests": {
+      "tier": "normal",
+      "surface": "interests",
+      "pos": "n · A2",
+      "pron": "/ˈɪn.trəsts/",
+      "meaning": "興味、関心；利益",
+      "example": {
+        "en": "Students are allowed to pursue their own <b>interests</b>.",
+        "ja": "生徒は自分の興味を追求することが許されている。"
+      },
+      "context": "interest の複数形。名詞「興味」と動詞「興味を持たせる」の両方がある。",
+      "collocations": [
+        "follow interests",
+        "personal interests",
+        "best interests",
+        "areas of interest"
+      ]
+    },
+    "express": {
+      "tier": "frequent",
+      "surface": "express",
+      "pos": "v · B1",
+      "pron": "/ɪkˈspres/",
+      "meaning": "表現する、述べる",
+      "example": {
+        "en": "Art allows children to <b>express</b> their emotions.",
+        "ja": "アートは子どもたちが感情を表現することを可能にする。"
+      },
+      "context": "expression(表現)・expressive(表現豊かな)も重要。express oneself(自己表現する)が頻出。",
+      "collocations": [
+        "express themselves",
+        "express ideas",
+        "express emotions",
+        "freely express"
+      ]
+    },
+    "artistic": {
+      "tier": "key",
+      "surface": "artistic",
+      "pos": "adj · B2",
+      "pron": "/ɑːˈtɪs.tɪk/",
+      "meaning": "芸術的な、芸術家の",
+      "example": {
+        "en": "The school values both academic and <b>artistic</b> development.",
+        "ja": "その学校は学業と芸術的発達の両方を重視する。"
+      },
+      "context": "art+istic。artistically talented(芸術的な才能がある)なども頻出。",
+      "collocations": [
+        "artistic expression",
+        "artistic tools",
+        "artistic talent",
+        "creative and artistic"
+      ]
+    },
+    "assign": {
+      "tier": "frequent",
+      "surface": "assign",
+      "pos": "v · B2",
+      "pron": "/əˈsaɪn/",
+      "meaning": "課す、割り当てる",
+      "example": {
+        "en": "Teachers <b>assign</b> projects that explore student interests.",
+        "ja": "教師は生徒の興味を探るプロジェクトを課す。"
+      },
+      "context": "assignment(課題・割り当て)の動詞形。AWL 収録語。",
+      "collocations": [
+        "assign tasks",
+        "assign projects",
+        "assign roles",
+        "assign homework"
+      ]
+    },
+    "formal": {
+      "tier": "frequent",
+      "surface": "formal",
+      "pos": "adj · B1",
+      "pron": "/ˈfɔː.məl/",
+      "meaning": "正式な、フォーマルな；形式的な",
+      "example": {
+        "en": "Even <b>formal</b> projects begin with open-ended questions in Reggio schools.",
+        "ja": "レッジョの学校では、正式なプロジェクトでさえ自由な問いかけから始まる。"
+      },
+      "context": "informal の対義語。formal education(正規教育)、formal language(フォーマルな言語)など頻出。",
+      "collocations": [
+        "formal education",
+        "formal projects",
+        "formal assessment",
+        "formal language"
+      ]
+    },
+    "assumptions": {
+      "tier": "frequent",
+      "surface": "assumptions",
+      "pos": "n · B2",
+      "pron": "/əˈsʌmp.ʃənz/",
+      "meaning": "前提、思い込み、仮定",
+      "example": {
+        "en": "Good teachers challenge students' <b>assumptions</b>.",
+        "ja": "よい教師は生徒の前提に疑問を呈する。"
+      },
+      "context": "assume(仮定する)の名詞形。AWL 収録語。on the assumption that ~(〜という前提で)が重要。",
+      "collocations": [
+        "challenge assumptions",
+        "underlying assumptions",
+        "make assumptions",
+        "false assumptions"
+      ]
+    },
+    "weaving": {
+      "tier": "key",
+      "surface": "weaving",
+      "pos": "v · B2",
+      "pron": "/ˈwiː.vɪŋ/",
+      "meaning": "織り交ぜる、組み合わせる",
+      "example": {
+        "en": "The teacher succeeded in <b>weaving</b> math concepts into the art project.",
+        "ja": "教師は数学の概念を美術プロジェクトに織り交ぜることに成功した。"
+      },
+      "context": "weave(織る)の進行形。比喩的に「複数の要素を組み合わせる」という意味で使われる。",
+      "collocations": [
+        "weaving in",
+        "weaving together",
+        "weaving through",
+        "weaving curriculum"
+      ]
+    },
+    "skeptics": {
+      "tier": "key",
+      "surface": "Skeptics",
+      "pos": "n · C1",
+      "pron": "/ˈskep.tɪks/",
+      "meaning": "懐疑論者、疑念を持つ人たち",
+      "example": {
+        "en": "<b>Skeptics</b> argue that self-directed learning lacks structure.",
+        "ja": "懐疑論者は自己主導型学習には構造が欠けると主張する。"
+      },
+      "context": "skeptic(懐疑論者)の複数形。反論を紹介する際の典型的な書き言葉表現。criticは個人への批判、skepticは方法・考えへの疑念。",
+      "collocations": [
+        "skeptics argue",
+        "critics and skeptics",
+        "remain skeptical",
+        "prove skeptics wrong"
+      ]
+    },
+    "argue": {
+      "tier": "frequent",
+      "surface": "argue",
+      "pos": "v · B1",
+      "pron": "/ˈɑː.ɡjuː/",
+      "meaning": "主張する、論じる；口論する",
+      "example": {
+        "en": "Researchers <b>argue</b> that play is essential for cognitive development.",
+        "ja": "研究者たちは遊びが認知発達に不可欠だと主張する。"
+      },
+      "context": "学術文章での「主張する」意味で頻出(=claim, contend)。日常での「口論する」とは区別する。",
+      "collocations": [
+        "argue that",
+        "argue for",
+        "strongly argue",
+        "researchers argue"
+      ]
+    },
+    "interdisciplinary": {
+      "tier": "key",
+      "surface": "interdisciplinary",
+      "pos": "adj · C1",
+      "pron": "/ˌɪn.tə.dɪˈsɪp.lɪ.ner.i/",
+      "meaning": "学際的な、複数の分野にまたがる",
+      "example": {
+        "en": "An <b>interdisciplinary</b> curriculum connects math, science, and art.",
+        "ja": "学際的なカリキュラムは数学、科学、芸術をつなげる。"
+      },
+      "context": "inter(間)+disciplinary(学問分野の)。異なる学問領域を横断するアプローチ。",
+      "collocations": [
+        "interdisciplinary approach",
+        "interdisciplinary learning",
+        "interdisciplinary research",
+        "interdisciplinary team"
+      ]
+    },
+    "ensure": {
+      "tier": "frequent",
+      "surface": "ensure",
+      "pos": "v · B2",
+      "pron": "/ɪnˈʃʊər/",
+      "meaning": "確実にする、保証する",
+      "example": {
+        "en": "We must <b>ensure</b> that every student has access to quality education.",
+        "ja": "すべての生徒が質の高い教育を受けられることを確実にしなければならない。"
+      },
+      "context": "make sure よりフォーマル。AWL 収録語。insure(保険をかける)と混同しないこと。",
+      "collocations": [
+        "ensure quality",
+        "ensure safety",
+        "ensure that",
+        "measures to ensure"
+      ]
+    },
+    "compose": {
+      "tier": "key",
+      "surface": "compose",
+      "pos": "v · B2",
+      "pron": "/kəmˈpəʊz/",
+      "meaning": "作曲する；構成する",
+      "example": {
+        "en": "Students used math patterns to <b>compose</b> a piece of music.",
+        "ja": "生徒は数学のパターンを使って曲を作った。"
+      },
+      "context": "composition(作曲・構成)の動詞形。be composed of(〜で構成される)も重要。",
+      "collocations": [
+        "compose music",
+        "compose a piece",
+        "compose an essay",
+        "be composed of"
+      ]
+    },
+    "overlapping": {
+      "tier": "key",
+      "surface": "overlapping",
+      "pos": "v/adj · B2",
+      "pron": "/ˌəʊ.vəˈlæp.ɪŋ/",
+      "meaning": "重複する、重なり合う",
+      "example": {
+        "en": "The project covers <b>overlapping</b> concepts in art and mathematics.",
+        "ja": "そのプロジェクトは美術と数学の重複した概念を扱っている。"
+      },
+      "context": "overlap(重なる)の進行形/形容詞。Venn diagram との関連で論理的な文章に頻出。",
+      "collocations": [
+        "overlapping concepts",
+        "overlapping areas",
+        "overlapping interests",
+        "heavily overlapping"
+      ]
+    },
+    "practical": {
+      "tier": "frequent",
+      "surface": "practical",
+      "pos": "adj · B1",
+      "pron": "/ˈpræk.tɪ.kəl/",
+      "meaning": "実践的な、実用的な",
+      "example": {
+        "en": "Learning should have <b>practical</b> applications in real life.",
+        "ja": "学習には実生活での実践的な応用が必要だ。"
+      },
+      "context": "practice+al。theoretical(理論的)の対義語。practically(実際には)の副詞形も重要。",
+      "collocations": [
+        "practical skills",
+        "practical applications",
+        "in practical terms",
+        "practical experience"
+      ]
+    },
+    "applications": {
+      "tier": "frequent",
+      "surface": "applications",
+      "pos": "n · B1",
+      "pron": "/ˌæp.lɪˈkeɪ.ʃənz/",
+      "meaning": "応用、適用；アプリケーション",
+      "example": {
+        "en": "Math has many <b>applications</b> in everyday life.",
+        "ja": "数学には日常生活における多くの応用がある。"
+      },
+      "context": "apply の名詞形。job application(求職)、computer application(アプリ)など多義語。AWL収録。",
+      "collocations": [
+        "practical applications",
+        "real-world applications",
+        "job application",
+        "apply to applications"
+      ]
+    },
+    "abstract": {
+      "tier": "frequent",
+      "surface": "abstract",
+      "pos": "adj · B2",
+      "pron": "/ˈæb.strækt/",
+      "meaning": "抽象的な",
+      "example": {
+        "en": "<b>Abstract</b> ideas become clearer through concrete examples.",
+        "ja": "抽象的な考えは具体例を通じてより明確になる。"
+      },
+      "context": "concrete の対義語。abstract thinking(抽象的思考)は教育・哲学で頻出。名詞「要約・抄録」の意味もある。",
+      "collocations": [
+        "abstract ideas",
+        "abstract concepts",
+        "abstract thinking",
+        "abstract art"
+      ]
+    },
+    "concrete": {
+      "tier": "frequent",
+      "surface": "concrete",
+      "pos": "adj · B2",
+      "pron": "/ˈkɒŋ.kriːt/",
+      "meaning": "具体的な；コンクリートの",
+      "example": {
+        "en": "Give <b>concrete</b> examples to support your argument.",
+        "ja": "議論を裏付ける具体例を挙げなさい。"
+      },
+      "context": "abstract の対義語。学術文章での「具体的な」の意と建築での「コンクリート」の意がある。",
+      "collocations": [
+        "concrete examples",
+        "concrete evidence",
+        "concrete steps",
+        "feel concrete"
+      ]
+    },
+    "agency": {
+      "tier": "frequent",
+      "surface": "agency",
+      "pos": "n · B2",
+      "pron": "/ˈeɪ.dʒən.si/",
+      "meaning": "主体性、自律；機関、代理店",
+      "example": {
+        "en": "Giving students <b>agency</b> in their learning improves motivation.",
+        "ja": "学習における生徒の主体性を尊重することで意欲が向上する。"
+      },
+      "context": "教育・心理学では「主体性・行為者性」、ビジネスでは「代理店・機関」。AWL 収録語。",
+      "collocations": [
+        "student agency",
+        "sense of agency",
+        "human agency",
+        "give agency"
+      ]
+    },
+    "sensitive": {
+      "tier": "frequent",
+      "surface": "sensitive",
+      "pos": "adj · B2",
+      "pron": "/ˈsen.sɪ.tɪv/",
+      "meaning": "敏感な、感受性の高い；繊細な",
+      "example": {
+        "en": "Good educators are <b>sensitive</b> to each student's needs.",
+        "ja": "よい教育者は各生徒のニーズに敏感だ。"
+      },
+      "context": "sense(感覚)と同語源。culturally sensitive(文化的に配慮した)など重要な複合語が多い。",
+      "collocations": [
+        "sensitive to",
+        "emotionally sensitive",
+        "culturally sensitive",
+        "highly sensitive"
+      ]
+    },
+    "adapt": {
+      "tier": "frequent",
+      "surface": "adapt",
+      "pos": "v · B2",
+      "pron": "/əˈdæpt/",
+      "meaning": "適応する、対応する、適合させる",
+      "example": {
+        "en": "Teachers must <b>adapt</b> their methods to meet student needs.",
+        "ja": "教師は生徒のニーズに応えるために方法を適応させなければならない。"
+      },
+      "context": "AWL 収録語。adapt to (環境に適応する)・adapt for (用途に合わせる)の前置詞を確認。",
+      "collocations": [
+        "adapt to change",
+        "adapt methods",
+        "quickly adapt",
+        "adapt and improve"
+      ]
+    },
+    "rearranging": {
+      "tier": "key",
+      "surface": "rearranging",
+      "pos": "v · B2",
+      "pron": "/ˌriː.əˈreɪn.dʒɪŋ/",
+      "meaning": "再配置する、並べ直す",
+      "example": {
+        "en": "Teachers respond by <b>rearranging</b> the classroom furniture.",
+        "ja": "教師は教室の家具を並べ直すことで対応する。"
+      },
+      "context": "re(再)+arrange(配置する)+ing。物理的な再配置だけでなく、計画の見直しにも使う。",
+      "collocations": [
+        "rearranging furniture",
+        "rearranging the room",
+        "rearranging priorities"
+      ]
+    },
+    "redirecting": {
+      "tier": "key",
+      "surface": "redirecting",
+      "pos": "v · B2",
+      "pron": "/ˌriː.dɪˈrek.tɪŋ/",
+      "meaning": "方向転換させる、誘導し直す",
+      "example": {
+        "en": "Skilled teachers are good at <b>redirecting</b> off-task behavior.",
+        "ja": "熟練した教師は課題外の行動を適切に誘導し直すことが得意だ。"
+      },
+      "context": "re+direct(向ける)+ing。web redirect(ウェブのリダイレクト)、behavior redirection(行動の誘導)に使う。",
+      "collocations": [
+        "redirecting attention",
+        "redirecting behavior",
+        "web redirecting",
+        "redirect traffic"
+      ]
+    },
+    "maintaining": {
+      "tier": "frequent",
+      "surface": "maintaining",
+      "pos": "v · B2",
+      "pron": "/meɪnˈteɪ.nɪŋ/",
+      "meaning": "維持する、保つ",
+      "example": {
+        "en": "Teachers face the challenge of <b>maintaining</b> order while encouraging creativity.",
+        "ja": "教師は秩序を保ちつつ創造性を促すという課題に直面する。"
+      },
+      "context": "AWL 収録語。maintain+ing。maintenance(整備・保全)も重要関連語。",
+      "collocations": [
+        "maintaining balance",
+        "maintaining order",
+        "maintaining standards",
+        "maintaining quality"
+      ]
+    },
+    "emotional": {
+      "tier": "frequent",
+      "surface": "emotional",
+      "pos": "adj · B1",
+      "pron": "/ɪˈməʊ.ʃən.əl/",
+      "meaning": "感情的な、情緒の",
+      "example": {
+        "en": "Teaching requires high <b>emotional</b> intelligence.",
+        "ja": "教育は高い感情的知性を必要とする。"
+      },
+      "context": "emotion(感情)+al。emotional intelligence(EQ)は心理学・教育学の重要概念。",
+      "collocations": [
+        "emotional intelligence",
+        "emotional support",
+        "emotionally stable",
+        "social and emotional"
+      ]
+    },
+    "intelligence": {
+      "tier": "frequent",
+      "surface": "intelligence",
+      "pos": "n · B2",
+      "pron": "/ɪnˈtel.ɪ.dʒəns/",
+      "meaning": "知性、知能；情報収集",
+      "example": {
+        "en": "Emotional <b>intelligence</b> is as important as academic ability.",
+        "ja": "感情知性は学力と同じくらい重要だ。"
+      },
+      "context": "智能(IQ)だけでなく情報機関の「諜報」にも使う多義語。artificial intelligence(AI)でも必須。",
+      "collocations": [
+        "emotional intelligence",
+        "artificial intelligence",
+        "intelligence gathering",
+        "street intelligence"
+      ]
+    },
+    "administration": {
+      "tier": "key",
+      "surface": "administration",
+      "pos": "n · B2",
+      "pron": "/ədˌmɪn.ɪˈstreɪ.ʃən/",
+      "meaning": "管理、運営；行政、当局",
+      "example": {
+        "en": "The school <b>administration</b> supports play-based learning.",
+        "ja": "学校の管理者は遊びを通じた学習を支持している。"
+      },
+      "context": "administer(管理する)の名詞形。大学では「事務局」、米国政治では「政権」の意味でも使われる。",
+      "collocations": [
+        "school administration",
+        "public administration",
+        "Trump administration",
+        "administrative tasks"
+      ]
+    },
+    "analysis": {
+      "tier": "frequent",
+      "surface": "analysis",
+      "pos": "n · B2",
+      "pron": "/əˈnæl.ɪ.sɪs/",
+      "meaning": "分析、解析",
+      "example": {
+        "en": "An <b>analysis</b> of 30 studies showed clear benefits.",
+        "ja": "30の研究の分析が明確な利益を示した。"
+      },
+      "context": "AWL 頻出語。複数形は analyses。analyze(分析する)の名詞形。",
+      "collocations": [
+        "analysis of data",
+        "in-depth analysis",
+        "cost-benefit analysis",
+        "meta-analysis"
+      ]
+    },
+    "outperformed": {
+      "tier": "key",
+      "surface": "outperformed",
+      "pos": "v · B2",
+      "pron": "/ˌaʊt.pəˈfɔːmd/",
+      "meaning": "上回った、凌駕した",
+      "example": {
+        "en": "Montessori students <b>outperformed</b> their peers in multiple areas.",
+        "ja": "モンテッソーリの生徒たちは複数の分野で同年代を上回った。"
+      },
+      "context": "out(超える)+perform(成果を出す)。過去形。outrun, outshine など out+動詞の形は「〜を超える」を表す。",
+      "collocations": [
+        "outperformed expectations",
+        "outperformed competitors",
+        "significantly outperformed"
+      ]
+    },
+    "benefits": {
+      "tier": "frequent",
+      "surface": "benefits",
+      "pos": "n · B1",
+      "pron": "/ˈben.ɪ.fɪts/",
+      "meaning": "利益、恩恵、効果",
+      "example": {
+        "en": "The <b>benefits</b> of play-based learning extend beyond school.",
+        "ja": "遊び型学習の恩恵は学校教育を超えて広がる。"
+      },
+      "context": "benefit の複数形。名詞「恩恵」と動詞「恩恵を受ける/与える」の両方がある。AWL収録。",
+      "collocations": [
+        "health benefits",
+        "key benefits",
+        "benefits of learning",
+        "beyond the benefits"
+      ]
+    },
+    "creativity": {
+      "tier": "frequent",
+      "surface": "creativity",
+      "pos": "n · B2",
+      "pron": "/ˌkriː.eɪˈtɪv.ɪ.ti/",
+      "meaning": "創造性、創造力",
+      "example": {
+        "en": "Play-based learning is shown to improve <b>creativity</b>.",
+        "ja": "遊びを通じた学習は創造性を向上させることが示されている。"
+      },
+      "context": "creative(創造的)+ity。creative thinking → creativity という派生。TOEFL必出語。",
+      "collocations": [
+        "encourage creativity",
+        "boost creativity",
+        "creativity and innovation",
+        "foster creativity"
+      ]
+    },
+    "lecture_based": {
+      "tier": "key",
+      "surface": "lecture-based",
+      "pos": "adj · B2",
+      "pron": "/ˈlek.tʃər.beɪst/",
+      "meaning": "講義中心の",
+      "example": {
+        "en": "Traditional <b>lecture-based</b> teaching often lacks student engagement.",
+        "ja": "従来の講義中心の授業は生徒の関与が低いことが多い。"
+      },
+      "context": "lecture(講義)+based(〜中心の)。education では project-based, problem-based との対比で重要。",
+      "collocations": [
+        "lecture-based learning",
+        "lecture-based approach",
+        "lecture-based instruction"
+      ]
+    },
+    "extend": {
+      "tier": "frequent",
+      "surface": "extend",
+      "pos": "v · B2",
+      "pron": "/ɪkˈstend/",
+      "meaning": "拡張する、延長する、広げる",
+      "example": {
+        "en": "The research aims to <b>extend</b> play-based methods to all age groups.",
+        "ja": "研究はすべての年齢層に遊び型学習法を広げることを目指している。"
+      },
+      "context": "AWL 収録語。extension(拡張)・extensive(広範な)と関連。range・scope を「広げる」際に頻用。",
+      "collocations": [
+        "extend to",
+        "extend the deadline",
+        "extend learning",
+        "extend beyond"
+      ]
+    },
+    "playful": {
+      "tier": "normal",
+      "surface": "playful",
+      "pos": "adj · B1",
+      "pron": "/ˈpleɪ.fəl/",
+      "meaning": "遊び心のある、おちゃめな",
+      "example": {
+        "en": "A <b>playful</b> environment encourages risk-taking and creativity.",
+        "ja": "遊び心のある環境はリスクを取ることと創造性を促す。"
+      },
+      "context": "play(遊ぶ)+ful。幼児教育から大人の職場環境まで「気軽に楽しめる雰囲気」を表す際に使われる。",
+      "collocations": [
+        "playful environment",
+        "playful approach",
+        "playful learning",
+        "playful tone"
+      ]
+    },
+    "experiment": {
+      "tier": "frequent",
+      "surface": "experiment",
+      "pos": "v/n · B1",
+      "pron": "/ɪkˈsper.ɪ.mənt/",
+      "meaning": "実験する；実験",
+      "example": {
+        "en": "Students are encouraged to <b>experiment</b> with new ideas.",
+        "ja": "生徒は新しいアイデアで実験することが奨励される。"
+      },
+      "context": "名詞・動詞両用。trial and error を通じた学びの文脈で頻出。scientific experiment の略で exp とも略される。",
+      "collocations": [
+        "conduct an experiment",
+        "experiment with ideas",
+        "scientific experiment",
+        "experiment and explore"
+      ]
+    },
+    "architecture": {
+      "tier": "key",
+      "surface": "architecture",
+      "pos": "n · B2",
+      "pron": "/ˈɑː.kɪ.tek.tʃər/",
+      "meaning": "建築、建築学；アーキテクチャ",
+      "example": {
+        "en": "Students study <b>architecture</b> by building scale models.",
+        "ja": "学生はスケールモデルを作ることで建築学を学ぶ。"
+      },
+      "context": "architect(建築家)+ure。コンピュータ科学でも「ソフトウェアアーキテクチャ」として重要語。",
+      "collocations": [
+        "study architecture",
+        "computer architecture",
+        "architecture student",
+        "architectural design"
+      ]
+    },
+    "engineering": {
+      "tier": "frequent",
+      "surface": "engineering",
+      "pos": "n · B1",
+      "pron": "/ˌen.dʒɪˈnɪər.ɪŋ/",
+      "meaning": "工学、エンジニアリング",
+      "example": {
+        "en": "<b>Engineering</b> students apply math and science to solve real problems.",
+        "ja": "工学の学生は数学と科学を使って実際の問題を解く。"
+      },
+      "context": "engineer+ing。civil, mechanical, software など多くの下位分野がある。STEAM 教育の'E'。",
+      "collocations": [
+        "civil engineering",
+        "software engineering",
+        "engineering students",
+        "engineering design"
+      ]
+    },
+    "hone": {
+      "tier": "key",
+      "surface": "hone",
+      "pos": "v · B2",
+      "pron": "/həʊn/",
+      "meaning": "磨く、洗練させる",
+      "example": {
+        "en": "Playing with blocks helps children <b>hone</b> their spatial reasoning.",
+        "ja": "ブロック遊びは子どもが空間推論を磨くのに役立つ。"
+      },
+      "context": "刃物を研ぐ石(hone/whetstone)が語源。「スキル・能力を継続的に鍛え上げる」の意。refine より意志的で継続的な努力を含む。",
+      "collocations": [
+        "hone skills",
+        "hone abilities",
+        "hone design principles",
+        "hone your craft"
+      ]
+    },
+    "design": {
+      "tier": "frequent",
+      "surface": "design",
+      "pos": "n/v · B1",
+      "pron": "/dɪˈzaɪn/",
+      "meaning": "デザイン；設計する",
+      "example": {
+        "en": "Good <b>design</b> should be both functional and beautiful.",
+        "ja": "良いデザインは機能的でも美しくあるべきだ。"
+      },
+      "context": "名詞・動詞両用。graphic design, UX design など幅広い分野で使われる必修語。AWL収録。",
+      "collocations": [
+        "design principles",
+        "by design",
+        "design thinking",
+        "well-designed"
+      ]
+    },
+    "showing": {
+      "tier": "normal",
+      "surface": "showing",
+      "pos": "v · A2",
+      "pron": "/ˈʃəʊ.ɪŋ/",
+      "meaning": "示している",
+      "example": {
+        "en": "Research is <b>showing</b> that play is crucial for development.",
+        "ja": "研究は遊びが発達に重要であることを示している。"
+      },
+      "context": "show の進行形。demonstrate より会話的。showing that + 節の形でよく使われる。",
+      "collocations": [
+        "showing that",
+        "showing results",
+        "clearly showing",
+        "showing signs"
+      ]
+    },
+    "effort": {
+      "tier": "frequent",
+      "surface": "effort",
+      "pos": "n · B1",
+      "pron": "/ˈef.ət/",
+      "meaning": "努力、尽力",
+      "example": {
+        "en": "The <b>effort</b> required to implement play-based learning is significant.",
+        "ja": "遊び型学習を実施するために必要な努力は相当なものだ。"
+      },
+      "context": "TOEFL/IELTS 頻出語。make an effort(努力する)、worth the effort(努力する価値がある)が重要。",
+      "collocations": [
+        "make an effort",
+        "worth the effort",
+        "collaborative effort",
+        "require effort"
+      ]
+    },
+    "learners": {
+      "tier": "normal",
+      "surface": "learners",
+      "pos": "n · B1",
+      "pron": "/ˈlɜː.nərz/",
+      "meaning": "学習者",
+      "example": {
+        "en": "MIT's approach benefits <b>learners</b> of all ages.",
+        "ja": "MITのアプローチはすべての年齢層の学習者に恩恵をもたらす。"
+      },
+      "context": "learner の複数形。student/pupil より「学ぶ人一般」というニュアンスが強い。language learner など。",
+      "collocations": [
+        "lifelong learners",
+        "language learners",
+        "adult learners",
+        "learners of all ages"
+      ]
+    },
+    "physical": {
+      "tier": "normal",
+      "surface": "physical",
+      "pos": "adj · B1",
+      "pron": "/ˈfɪz.ɪ.kəl/",
+      "meaning": "物理的な、身体的な、物質的な",
+      "example": {
+        "en": "Students use both <b>physical</b> and digital tools.",
+        "ja": "生徒は物理的なツールとデジタルツールの両方を使用する。"
+      },
+      "context": "body/matter に関係するものに広く使える。physical education(体育)、physical world(物質世界)など。",
+      "collocations": [
+        "physical education",
+        "physical activity",
+        "physical tools",
+        "physical world"
+      ]
+    },
+    "digital": {
+      "tier": "normal",
+      "surface": "digital",
+      "pos": "adj · B1",
+      "pron": "/ˈdɪdʒ.ɪ.təl/",
+      "meaning": "デジタルの",
+      "example": {
+        "en": "Children have access to both <b>digital</b> and physical learning tools.",
+        "ja": "子どもたちはデジタルと物理の両方の学習ツールを利用できる。"
+      },
+      "context": "digit(数字/指)+al。アナログ(analog)の対義語。digital transformation(DX)で必須語。",
+      "collocations": [
+        "digital tools",
+        "digital learning",
+        "digital age",
+        "digital transformation"
+      ]
+    },
+    "universities": {
+      "tier": "normal",
+      "surface": "universities",
+      "pos": "n · A2",
+      "pron": "/ˌjuː.nɪˈvɜː.sɪ.tɪz/",
+      "meaning": "大学",
+      "example": {
+        "en": "Many <b>universities</b> are adopting project-based learning.",
+        "ja": "多くの大学がプロジェクト型学習を採用している。"
+      },
+      "context": "university の複数形。college との区別: 英国では大学全般を university と呼び、college は学部・単科大学。",
+      "collocations": [
+        "top universities",
+        "leading universities",
+        "universities worldwide",
+        "university education"
+      ]
+    },
+    "challenges": {
+      "tier": "frequent",
+      "surface": "challenges",
+      "pos": "n · B1",
+      "pron": "/ˈtʃæl.ɪn.dʒɪz/",
+      "meaning": "課題、難題、困難",
+      "example": {
+        "en": "Play-based learning comes with unique <b>challenges</b>.",
+        "ja": "遊び型学習は独自の課題を伴う。"
+      },
+      "context": "challenge の複数形。動詞「挑む」の意もある。face challenges、overcome challenges が頻出。",
+      "collocations": [
+        "face challenges",
+        "overcome challenges",
+        "key challenges",
+        "unique challenges"
+      ]
+    }
+  },
+  "expressions": {
+    "at_odds_with": {
+      "tier": "frequent",
+      "surface": "at odds with",
+      "pos": "idiom",
+      "pron": "/æt ɒdz wɪð/",
+      "literal": "(見解などが)食い違いがある",
+      "meaning": "〜と相容れない、〜と矛盾する",
+      "context": "odds は「差異・食い違い」の意。学術・議論文章で「AはBと相反する」を簡潔に表す重要慣用句。",
+      "collocations": [
+        "at odds with each other",
+        "at odds with reality",
+        "at odds with expectations"
+      ]
+    },
+    "self_directed_learning": {
+      "tier": "normal",
+      "surface": "self-directed learning",
+      "pos": "noun phrase",
+      "pron": "/ˌself.dɪˈrek.tɪd ˈlɜː.nɪŋ/",
+      "literal": "自己が方向を決める学び",
+      "meaning": "自己主導型学習(学習者が目標・方法・評価を自ら管理する学習形態)",
+      "context": "教育学の重要概念(SDL: Self-Directed Learning)。Knowles らの成人学習理論に起源を持つ。",
+      "collocations": [
+        "promote self-directed learning",
+        "self-directed learning approach",
+        "encourage self-directed learning"
+      ]
+    },
+    "open_ended_questions": {
+      "tier": "normal",
+      "surface": "open-ended questions",
+      "pos": "noun phrase",
+      "pron": "/ˌəʊ.pən.ˈen.dɪd ˈkwes.tʃənz/",
+      "literal": "終わりが開かれた質問",
+      "meaning": "オープンエンドの質問(yes/no 以外の自由な回答を求める質問)",
+      "context": "教育・インタビュー・デザイン思考で重要なテクニック。closed-ended question との対比で覚える。",
+      "collocations": [
+        "ask open-ended questions",
+        "open-ended discussion",
+        "open-ended tasks"
+      ]
+    },
+    "along_the_way": {
+      "tier": "frequent",
+      "surface": "along the way",
+      "pos": "idiom",
+      "pron": "/əˈlɒŋ ðə weɪ/",
+      "literal": "途中に沿って",
+      "meaning": "その過程で、途中で",
+      "context": "旅の途中という比喩から。学習・プロジェクト・人生の過程で「付随して起こること」を表す。",
+      "collocations": [
+        "learn along the way",
+        "along the way, we discovered",
+        "pick up skills along the way"
+      ]
+    },
+    "fall_behind": {
+      "tier": "frequent",
+      "surface": "fall behind",
+      "pos": "phrasal verb",
+      "pron": "/fɔːl bɪˈhaɪnd/",
+      "literal": "後ろに落ちる",
+      "meaning": "遅れをとる、ついていけなくなる",
+      "context": "進捗・スケジュール・学習の遅れに使う頻出フレーズ。fall behind schedule(予定に遅れる)も重要。",
+      "collocations": [
+        "fall behind in school",
+        "fall behind schedule",
+        "risk falling behind",
+        "don't fall behind"
+      ]
+    },
+    "worth_it": {
+      "tier": "frequent",
+      "surface": "worth it",
+      "pos": "idiom",
+      "pron": "/wɜːθ ɪt/",
+      "literal": "それだけの価値がある",
+      "meaning": "(苦労・コストが)その価値がある",
+      "context": "It is worth doing(〜する価値がある)の口語短縮形。be worth ~ing と混同しないよう注意。",
+      "collocations": [
+        "it's worth it",
+        "totally worth it",
+        "the effort is worth it",
+        "proves worth it"
+      ]
+    },
+    "emotional_intelligence": {
+      "tier": "normal",
+      "surface": "emotional intelligence",
+      "pos": "noun phrase",
+      "pron": "/ɪˌməʊ.ʃən.əl ɪnˈtel.ɪ.dʒəns/",
+      "literal": "感情的知性",
+      "meaning": "感情知性(EQ)。自他の感情を認識・管理し、社会的関係をうまく扱う能力",
+      "context": "心理学者 Goleman の著書で広まった概念。IQ との対比で使われることが多い。EQ とも略される。",
+      "collocations": [
+        "develop emotional intelligence",
+        "emotional intelligence skills",
+        "high emotional intelligence"
+      ]
+    },
+    "play_time": {
+      "tier": "normal",
+      "surface": "play time",
+      "pos": "noun phrase",
+      "pron": "/ˈpleɪ taɪm/",
+      "literal": "遊ぶ時間",
+      "meaning": "遊び時間",
+      "context": "学校での自由遊びの時間。playtime(1語)とも書く。recess(休憩時間)とも近い。",
+      "collocations": [
+        "free play time",
+        "structured play time",
+        "play time vs learning time"
+      ]
+    },
+    "project_based": {
+      "tier": "normal",
+      "surface": "project-based",
+      "pos": "adj",
+      "pron": "/ˈprɒdʒ.ekt.beɪst/",
+      "literal": "プロジェクトを基盤とした",
+      "meaning": "プロジェクト型の(教育アプローチ)",
+      "context": "Project-Based Learning(PBL)は現代教育の主要アプローチの一つ。problem-based, inquiry-based とも近い概念。",
+      "collocations": [
+        "project-based learning",
+        "project-based approach",
+        "project-based curriculum"
+      ]
+    },
+    "spatial_reasoning": {
+      "tier": "normal",
+      "surface": "spatial reasoning",
+      "pos": "noun phrase",
+      "pron": "/ˈspeɪ.ʃəl ˈriː.zən.ɪŋ/",
+      "literal": "空間的推論",
+      "meaning": "空間推論(3次元的な形・位置・方向を頭の中で操作する認知能力)",
+      "context": "STEM 教育の重要な認知スキル。積み木・パズル・地図読みなどで発達する。",
+      "collocations": [
+        "develop spatial reasoning",
+        "strong spatial reasoning",
+        "spatial reasoning skills"
+      ]
+    },
+    "social_skills": {
+      "tier": "normal",
+      "surface": "social skills",
+      "pos": "noun phrase",
+      "pron": "/ˈsəʊ.ʃəl skɪlz/",
+      "literal": "社会的スキル",
+      "meaning": "社会的スキル(対人関係・コミュニケーション・協調の能力)",
+      "context": "教育評価で学力(academic skills)と並んで重視される概念。SEL(Social Emotional Learning)とも関連。",
+      "collocations": [
+        "develop social skills",
+        "social skills training",
+        "improve social skills"
+      ]
+    },
+    "roundtable_discussions": {
+      "tier": "normal",
+      "surface": "roundtable discussions",
+      "pos": "noun phrase",
+      "pron": "/ˈraʊnd.teɪ.bəl dɪˈskʌʃ.ənz/",
+      "literal": "円卓の議論",
+      "meaning": "ラウンドテーブル・ディスカッション(参加者が対等の立場で議論する形式)",
+      "context": "King Arthur の円卓伝説に由来。全員が同等の発言権を持つ会議形式を指す。",
+      "collocations": [
+        "host a roundtable",
+        "roundtable discussion format",
+        "panel and roundtable"
+      ]
+    },
+    "toy_based_learning": {
+      "tier": "normal",
+      "surface": "toy-based learning",
+      "pos": "noun phrase",
+      "pron": "/ˈtɔɪ.beɪst ˈlɜː.nɪŋ/",
+      "literal": "おもちゃを使った学び",
+      "meaning": "おもちゃを通じた学習(遊び道具を使って概念を学ぶアプローチ)",
+      "context": "Fröbel の Gifts(恩物)、モンテッソーリ教具など物的教材を使う教育手法の総称。",
+      "collocations": [
+        "embrace toy-based learning",
+        "toy-based curriculum",
+        "toy-based approach"
+      ]
+    },
+    "lifelong_kindergarten": {
+      "tier": "normal",
+      "surface": "Lifelong Kindergarten",
+      "pos": "proper noun phrase",
+      "pron": "/ˌlaɪf.lɒŋ ˈkɪn.də.ɡɑː.tən/",
+      "literal": "生涯の幼稚園",
+      "meaning": "MIT Lifelong Kindergarten(MITメディアラボの研究グループ。遊び・創造・共有を生涯学習に適用する研究を行う)",
+      "context": "Mitch Resnick 教授が主導。Scratch プログラミング言語の開発でも知られる。",
+      "collocations": [
+        "MIT Lifelong Kindergarten",
+        "Lifelong Kindergarten approach",
+        "Lifelong Kindergarten group"
+      ]
+    }
+  }
+}
