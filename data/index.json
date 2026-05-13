@@ -1,17 +1,47 @@
 {
-  "updated_at": "2026-05-10T06:00:00+09:00",
+  "updated_at": "2026-05-13T06:00:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-05-13",
+      "date": "2026-05-13",
+      "source": "ted-ed",
+      "primary_topic": "Education",
+      "tags": [
+        "play-based-learning",
+        "montessori",
+        "kindergarten",
+        "pedagogy",
+        "self-directed-learning",
+        "education-history"
+      ],
+      "difficulty": "medium",
+      "title": "The missing ingredient in how we learn",
+      "speaker": "TED-Ed",
+      "duration_sec": 349,
+      "thumbnail_url": "https://i.ytimg.com/vi/mA1lnxfqHk8/hqdefault.jpg"
+    },
     {
       "id": "talk_2026-05-09",
       "date": "2026-05-09",
       "source": "ted-ed",
       "primary_topic": "Geology",
-      "tags": ["volcano", "iceland", "lava-flow", "geology", "natural-disaster", "engineering"],
+      "tags": [
+        "volcano",
+        "iceland",
+        "lava-flow",
+        "geology",
+        "natural-disaster",
+        "engineering"
+      ],
       "difficulty": "medium",
       "title": "Why Iceland's lava is so hard to control",
       "speaker": "Arianna Soldati",
       "duration_sec": 295
     }
   ],
-  "skipped_dates": ["2026-05-10"]
+  "skipped_dates": [
+    "2026-05-10",
+    "2026-05-11",
+    "2026-05-12"
+  ]
 }
