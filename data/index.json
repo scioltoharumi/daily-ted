@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-05-15T13:00:00+09:00",
+  "updated_at": "2026-05-15T06:30:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-05-15",
+      "date": "2026-05-15",
+      "source": "ted-ed",
+      "primary_topic": "Literature",
+      "tags": [
+        "edgar-allan-poe",
+        "masquerade",
+        "plague",
+        "gothic-literature",
+        "death",
+        "horror"
+      ],
+      "difficulty": "medium",
+      "title": "You're invited to the masquerade. Do you dare attend?",
+      "speaker": "Iseult Gillespie",
+      "duration_sec": 426,
+      "thumbnail_url": "https://i.ytimg.com/vi/HdieAFhQtPo/hqdefault.jpg"
+    },
     {
       "id": "talk_2026-05-13",
       "date": "2026-05-13",
