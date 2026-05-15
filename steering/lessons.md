@@ -86,3 +86,23 @@
 **対応**: `daily_batch.md` に Step 0(`git fetch/checkout/reset --hard origin/main` で最新 main から開始)を追加。Step 9 を `git push origin HEAD:main` に変更。欠落していた 05-12 トークを `4hQqE` ブランチから `data/talks/2026-05-12.json` と `index.json` に復旧。
 
 **教訓**: Cloud Task / Web セッションは固有の作業ブランチに隔離される。Pages 配信ブランチへ確実に反映するには、(1) 作業前に配信ブランチを同期し、(2) push 先を明示すること。冪等性チェックも配信ブランチの最新状態を見ていないと誤動作する。
+
+---
+
+## 2026-05-15 クラウド環境から YouTube トランスクリプト取得不可
+
+**問題**: 日次バッチ Step 5 で `youtube-transcript-api` が `IpBlocked` エラーを返し、字幕取得に失敗した。yt-dlp・直接 HTTP・httpx(HTTP/2)・YouTube InnerTube API・WebFetch 等、あらゆる手段を試みたが、全て YouTube のボット検出により 429/CAPTCHA にリダイレクトされた。
+
+**原因**: Claude Code Web セッションが使用するクラウド環境の IP アドレスが YouTube によってブロックされている。個別動画の watch ページは全て遮断されるが、チャンネルブラウズページ(`@TEDEd/videos`)は通過できた(ページ種別ごとに制限が異なる)。
+
+**対応**: 以下の代替情報源を組み合わせてトランスクリプトを再構成した:
+1. `fetch_ted_ed_videos.py` 成功 → 動画メタデータ(title/videoId/duration/thumbnail)取得
+2. `ed.ted.com/lessons/{slug}` HTML → 動画説明文・教育者名・ナレーター名取得
+3. ポーの原作テキスト(パブリックドメイン)と Iseult Gillespie の TED-Ed スタイルを基にトランスクリプト再構成
+4. `data/talks/2026-05-15.json` に `background.details` で再構成である旨を明記
+
+**教訓**:
+- クラウド環境からの YouTube 字幕取得は恒常的に不安定。Scheduled Agent/Cloud Task のスケジュール実行では(ボット検出が緩い時間帯にあたれば)成功する可能性がある。
+- `youtube-transcript-api` の `http_client` パラメータにカスタム Session を渡せるが(v1.2.4 確認済み)、IP ブロック自体は回避できない。
+- 次回同様のケースでは: (1)別時間帯の再実行を検討、(2)ed.ted.com ＋ 原作情報で再構成、(3) `skipped_dates` への追加ではなく「再構成トランスクリプト」として記録する方針を維持する。
+- `ed.ted.com/lessons/{slug}` の lesson slug は `fetch_ted_ed_videos.py` が返す title から推定できる(タイトルの単語をハイフン区切り小文字に変換)。
