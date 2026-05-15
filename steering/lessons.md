@@ -76,3 +76,13 @@
 ---
 
 <!-- ここから下に追記していく -->
+
+## 2026-05-15 デイリー更新が GitHub Pages に反映されない
+
+**問題**: ルーチンが毎日「成功」しているのに、`https://scioltoharumi.github.io/daily-ted/` のデータが 2026-05-13 から更新されない。05-12 のトークは `main` から完全に欠落していた。
+
+**原因**: 日次ルーチンの各実行が `main` ではなく毎回別々のセッション専用ブランチ(`claude/beautiful-franklin-*`)にコミット&プッシュしていた。GitHub Pages の配信元は `main` のため反映されない。さらに各ブランチが同じ古いベース(`73fdffb`)から分岐しており、互いの成果を持たず日次データが分散・欠落した。`daily_batch.md` Step 9 が単なる `git push`(ブランチ指定なし)だったことが直接原因。
+
+**対応**: `daily_batch.md` に Step 0(`git fetch/checkout/reset --hard origin/main` で最新 main から開始)を追加。Step 9 を `git push origin HEAD:main` に変更。欠落していた 05-12 トークを `4hQqE` ブランチから `data/talks/2026-05-12.json` と `index.json` に復旧。
+
+**教訓**: Cloud Task / Web セッションは固有の作業ブランチに隔離される。Pages 配信ブランチへ確実に反映するには、(1) 作業前に配信ブランチを同期し、(2) push 先を明示すること。冪等性チェックも配信ブランチの最新状態を見ていないと誤動作する。

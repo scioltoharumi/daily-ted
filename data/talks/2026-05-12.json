@@ -1,0 +1,2885 @@
+{
+  "id": "talk_2026-05-12",
+  "date": "2026-05-12",
+  "source": "ted-ed",
+  "primary_topic": "Psychology",
+  "tags": [
+    "imposter-syndrome",
+    "psychology",
+    "self-confidence",
+    "attribution",
+    "mental-health"
+  ],
+  "difficulty": "medium",
+  "slug": "what_is_imposter_syndrome_and_how_can_you_combat_it",
+  "video_id": "ZQUxL4Jm1Lo",
+  "title": "What is imposter syndrome, and how can you combat it?",
+  "speaker": "Elizabeth Cox",
+  "duration_sec": 312,
+  "video_url": "https://www.youtube.com/watch?v=ZQUxL4Jm1Lo",
+  "embed_url": "https://www.youtube.com/embed/ZQUxL4Jm1Lo",
+  "background": {
+    "summary": "インポスター症候群とは、十分な成果を上げているにもかかわらず「自分は詐欺師だ」という恐怖感を持ち続ける心理パターン。1978年に心理学者Pauline ClanceとSuzanne Imesが命名し、あらゆる性別・年齢・職業に見られることが後に判明。本Talkは定義・原因・対処法を発達心理学的に解説する。",
+    "details": [
+      "インポスター症候群:1978年に心理学者 Pauline Clance と Suzanne Imes が命名。当初は高成就の女性のパターンとして記述されたが、その後の研究ですべての性別・年齢・職業に見られることが判明している。",
+      "帰属理論(Attribution Theory):成功を内的要因(能力・努力)に帰属するか外的要因(運・環境)に帰属するかで自己評価が変わる。インポスター症候群の人は成功を外的に、失敗を内的に帰属させがちで、これが症候群を維持するメカニズムとなる。",
+      "インポスターサイクル:課題→不安→過剰準備または先延ばし→成功→「運だった」という外的帰属→次の課題でまた不安、というループ構造。",
+      "ナレーター:Elizabeth Cox(TED-Ed の定番ナレーターの一人。明瞭な標準英語・適度な速度で英語学習者に最適)",
+      "関連分野:社会心理学・キャリア心理学・認知行動療法(CBT)。セルフコンパッション研究(Kristin Neff)とも深く連関する。"
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 0.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Imagine you've just received notice that you got the job, earned the scholarship, or were accepted to the program you've been working toward for years.",
+          "translation_ja": "仕事に採用され、奨学金を得て、何年も目指してきたプログラムに合格したという知らせを受けたと想像してほしい。",
+          "structure": [
+            {
+              "label": "V(命令)",
+              "content": "Imagine",
+              "note": "仮定のシナリオを提示する命令形"
+            },
+            {
+              "label": "S",
+              "content": "you"
+            },
+            {
+              "label": "V",
+              "content": "have just received"
+            },
+            {
+              "label": "O",
+              "content": "notice that you got the job, earned the scholarship, or were accepted to the program",
+              "note": "that節で3つの事実を列挙"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Imagine you've just "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "received",
+              "tier": "normal",
+              "ref": "received"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "notice",
+              "tier": "normal",
+              "ref": "notice"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " that you got the job, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "earned",
+              "tier": "normal",
+              "ref": "earned"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "scholarship",
+              "tier": "key",
+              "ref": "scholarship"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", or were "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "accepted",
+              "tier": "normal",
+              "ref": "accepted"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " to the program you've been working toward for years."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But instead of feeling proud, you're overwhelmed by a creeping sense that you don't deserve any of it.",
+          "translation_ja": "ところが誇りを感じるどころか、自分にはそれを受け取る資格がないという忍び寄る感覚に圧倒されてしまう。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "instead of feeling proud",
+              "note": "期待される感情との対比"
+            },
+            {
+              "label": "S",
+              "content": "you"
+            },
+            {
+              "label": "V",
+              "content": "are overwhelmed",
+              "note": "受動態"
+            },
+            {
+              "label": "修飾節",
+              "content": "that you don't deserve any of it",
+              "note": "sense を修飾するthat節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But instead of feeling proud, you're "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "overwhelmed",
+              "tier": "frequent",
+              "ref": "overwhelmed"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " by a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "creeping",
+              "tier": "key",
+              "ref": "creeping"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " sense that you don't "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "deserve",
+              "tier": "frequent",
+              "ref": "deserve"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " any of it."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "You're certain that the people who selected you will eventually discover their mistake.",
+          "translation_ja": "あなたを選んだ人たちがいずれ自分たちの間違いに気づくだろうと確信している。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "You"
+            },
+            {
+              "label": "V+C",
+              "content": "are certain",
+              "note": "形容詞補語"
+            },
+            {
+              "label": "that節",
+              "content": "that the people who selected you will eventually discover their mistake"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "You're certain that the people who "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "selected",
+              "tier": "normal",
+              "ref": "selected"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " you will "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "eventually",
+              "tier": "frequent",
+              "ref": "eventually"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "discover",
+              "tier": "normal",
+              "ref": "discover"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " their mistake."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 30.0,
+      "sentences": [
+        {
+          "id": "s4",
+          "text": "This experience is called imposter syndrome, or the imposter phenomenon.",
+          "translation_ja": "この経験はインポスター症候群、あるいはインポスター現象と呼ばれる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This experience"
+            },
+            {
+              "label": "V",
+              "content": "is called",
+              "note": "受動態"
+            },
+            {
+              "label": "C",
+              "content": "imposter syndrome, or the imposter phenomenon"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This experience is called "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "imposter syndrome",
+              "ref": "imposter_syndrome"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", or the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "imposter",
+              "tier": "key",
+              "ref": "imposter"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "phenomenon",
+              "tier": "frequent",
+              "ref": "phenomenon"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "The term was coined by psychologists Pauline Clance and Suzanne Imes in 1978 to describe high-achieving women who believed their success was due to luck rather than ability.",
+          "translation_ja": "この用語は1978年に心理学者のポーリン・クランスとスザンヌ・アイムズが考案したもので、自分の成功は能力ではなく運によるものだと信じていた高成就の女性たちを表現するためのものだった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The term"
+            },
+            {
+              "label": "V",
+              "content": "was coined",
+              "note": "受動態"
+            },
+            {
+              "label": "行為者",
+              "content": "by psychologists Pauline Clance and Suzanne Imes"
+            },
+            {
+              "label": "目的の不定詞",
+              "content": "to describe high-achieving women who..."
+            },
+            {
+              "label": "関係節",
+              "content": "who believed their success was due to luck rather than ability"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The term was "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "coined",
+              "tier": "key",
+              "ref": "coined"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " by "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "psychologists",
+              "tier": "key",
+              "ref": "psychologists"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " Pauline Clance and Suzanne Imes in 1978 to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "describe",
+              "tier": "frequent",
+              "ref": "describe"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "high-achieving",
+              "ref": "high_achieving"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " women who believed their success was "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "due to",
+              "ref": "due_to"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " luck rather than "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "ability",
+              "tier": "frequent",
+              "ref": "ability"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Since then, research has shown that people of all genders, ages, and occupations report experiencing it.",
+          "translation_ja": "それ以降の研究では、あらゆる性別・年齢・職業の人々がこの経験を報告していることが明らかになっている。",
+          "structure": [
+            {
+              "label": "副詞句",
+              "content": "Since then"
+            },
+            {
+              "label": "S",
+              "content": "research"
+            },
+            {
+              "label": "V",
+              "content": "has shown"
+            },
+            {
+              "label": "that節",
+              "content": "that people of all genders, ages, and occupations report experiencing it"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Since then, research has shown that people of all genders, ages, and "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "occupations",
+              "tier": "normal",
+              "ref": "occupations"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "report",
+              "tier": "frequent",
+              "ref": "report"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " experiencing it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 72.0,
+      "sentences": [
+        {
+          "id": "s7",
+          "text": "People with imposter syndrome often believe that they're not as competent as others perceive them to be.",
+          "translation_ja": "インポスター症候群の人々はしばしば、他者が自分を認識しているほど自分は有能ではないと感じている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "People with imposter syndrome"
+            },
+            {
+              "label": "V",
+              "content": "believe"
+            },
+            {
+              "label": "that節",
+              "content": "that they're not as competent as others perceive them to be",
+              "note": "as ... as 比較構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "People with imposter syndrome often believe that they're not as "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "competent",
+              "tier": "frequent",
+              "ref": "competent"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " as others "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "perceive",
+              "tier": "frequent",
+              "ref": "perceive"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " them to be."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "When given an assignment, they tend to either over-prepare out of anxiety or procrastinate and rely on last-minute inspiration.",
+          "translation_ja": "課題を与えられると、不安から過剰に準備するか、先延ばしにして土壇場のひらめきに頼る傾向がある。",
+          "structure": [
+            {
+              "label": "副詞節",
+              "content": "When given an assignment",
+              "note": "受動態の省略分詞構文"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "tend to either over-prepare or procrastinate"
+            },
+            {
+              "label": "接続詞",
+              "content": "either...or",
+              "note": "2つの行動パターンを対置"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "When given an "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "assignment",
+              "tier": "normal",
+              "ref": "assignment"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", they tend to either "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "over-prepare",
+              "ref": "over_prepare"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " out of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "anxiety",
+              "tier": "frequent",
+              "ref": "anxiety"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "procrastinate",
+              "tier": "key",
+              "ref": "procrastinate"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "rely",
+              "tier": "frequent",
+              "ref": "rely"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " on "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "last-minute",
+              "ref": "last_minute"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "inspiration",
+              "tier": "normal",
+              "ref": "inspiration"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "If they succeed, they discount the achievement by saying it was luck, or they worked so hard that success was inevitable.",
+          "translation_ja": "成功しても、運だったと言って成果を否定するか、あるいは猛烈に頑張ったのだから成功して当然だと割り引いてしまう。",
+          "structure": [
+            {
+              "label": "条件節",
+              "content": "If they succeed"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "discount"
+            },
+            {
+              "label": "O",
+              "content": "the achievement"
+            },
+            {
+              "label": "by-句",
+              "content": "by saying it was luck"
+            },
+            {
+              "label": "or節",
+              "content": "they worked so hard that success was inevitable",
+              "note": "so...that 結果構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "If they succeed, they "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "discount",
+              "tier": "key",
+              "ref": "discount"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "achievement",
+              "tier": "frequent",
+              "ref": "achievement"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " by saying it was luck, or they worked so hard that success was "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "inevitable",
+              "tier": "key",
+              "ref": "inevitable"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 118.0,
+      "sentences": [
+        {
+          "id": "s10",
+          "text": "At the heart of imposter syndrome is a particular way of attributing success and failure.",
+          "translation_ja": "インポスター症候群の核心には、成功と失敗を帰属させる特定のパターンがある。",
+          "structure": [
+            {
+              "label": "前置詞句(主語位置)",
+              "content": "At the heart of imposter syndrome",
+              "note": "倒置構文：本来の主語は a particular way"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "S",
+              "content": "a particular way of attributing success and failure"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "At "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "the heart of",
+              "ref": "the_heart_of"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " imposter syndrome is a particular way of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "attributing",
+              "tier": "frequent",
+              "ref": "attributing"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " success and failure."
+            }
+          ]
+        },
+        {
+          "id": "s11",
+          "text": "People with imposter syndrome tend to attribute their successes to external factors — luck, timing, or other people's help — while attributing their failures to internal flaws.",
+          "translation_ja": "インポスター症候群の人々は成功を外的要因（運・タイミング・他者の助け）に帰属させ、失敗を内的な欠点に帰属させる傾向がある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "People with imposter syndrome"
+            },
+            {
+              "label": "V",
+              "content": "tend to attribute"
+            },
+            {
+              "label": "O",
+              "content": "their successes"
+            },
+            {
+              "label": "to句",
+              "content": "to external factors — luck, timing, or other people's help"
+            },
+            {
+              "label": "while節",
+              "content": "while attributing their failures to internal flaws",
+              "note": "対比を示す分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "People with imposter syndrome tend to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "attribute",
+              "tier": "frequent",
+              "ref": "attribute"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their successes to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "external",
+              "tier": "frequent",
+              "ref": "external"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "factors",
+              "tier": "frequent",
+              "ref": "factors"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " — luck, timing, or other people's help — while attributing their failures to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "internal",
+              "tier": "frequent",
+              "ref": "internal"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "flaws",
+              "tier": "key",
+              "ref": "flaws"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s12",
+          "text": "This imbalanced attribution style keeps them locked in a cycle of self-doubt, no matter how much evidence of competence they accumulate.",
+          "translation_ja": "このアンバランスな帰属スタイルにより、どれだけ有能さの証拠を積み上げても自己不信のサイクルに閉じ込められてしまう。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This imbalanced attribution style"
+            },
+            {
+              "label": "V",
+              "content": "keeps"
+            },
+            {
+              "label": "O+C",
+              "content": "them locked in a cycle of self-doubt",
+              "note": "SVOC構文"
+            },
+            {
+              "label": "譲歩節",
+              "content": "no matter how much evidence they accumulate"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "imbalanced",
+              "tier": "key",
+              "ref": "imbalanced"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "attribution style",
+              "ref": "attribution_style"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " keeps them locked in a "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "cycle of self-doubt",
+              "ref": "cycle_of_self_doubt"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", no matter how much evidence of "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "competence",
+              "tier": "key",
+              "ref": "competence"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " they "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "accumulate",
+              "tier": "frequent",
+              "ref": "accumulate"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 162.0,
+      "sentences": [
+        {
+          "id": "s13",
+          "text": "While imposter syndrome can affect anyone, it's especially common among first-generation students, people from underrepresented groups, and those entering highly competitive fields.",
+          "translation_ja": "インポスター症候群は誰にでも起こりうるが、第一世代の学生、過小代表グループ出身の人々、高度に競争的な分野に参入する人々に特に多く見られる。",
+          "structure": [
+            {
+              "label": "譲歩節",
+              "content": "While imposter syndrome can affect anyone"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V+C",
+              "content": "is especially common"
+            },
+            {
+              "label": "among句",
+              "content": "among first-generation students, people from underrepresented groups, and those entering highly competitive fields"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While imposter syndrome can "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "affect",
+              "tier": "frequent",
+              "ref": "affect"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " anyone, it's especially common among "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "first-generation students",
+              "ref": "first_generation_students"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", people from "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "underrepresented",
+              "tier": "key",
+              "ref": "underrepresented"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " groups, and those entering highly "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "competitive",
+              "tier": "frequent",
+              "ref": "competitive"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " fields."
+            }
+          ]
+        },
+        {
+          "id": "s14",
+          "text": "Ironically, the traits associated with imposter syndrome — thoroughness, humility, and a desire for feedback — can actually be assets in professional settings.",
+          "translation_ja": "逆説的なことに、インポスター症候群に関連する特性（徹底性・謙虚さ・フィードバックへの欲求）は、実際にはプロの環境では強みになりうる。",
+          "structure": [
+            {
+              "label": "副詞",
+              "content": "Ironically"
+            },
+            {
+              "label": "S",
+              "content": "the traits associated with imposter syndrome"
+            },
+            {
+              "label": "挿入句",
+              "content": "thoroughness, humility, and a desire for feedback"
+            },
+            {
+              "label": "V+C",
+              "content": "can actually be assets"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Ironically, the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "traits",
+              "tier": "key",
+              "ref": "traits"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " associated with imposter syndrome — "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "thoroughness",
+              "tier": "key",
+              "ref": "thoroughness"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "humility",
+              "tier": "key",
+              "ref": "humility"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and a desire for "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "feedback",
+              "tier": "frequent",
+              "ref": "feedback"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " — can actually be "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "assets",
+              "tier": "key",
+              "ref": "assets"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " in professional settings."
+            }
+          ]
+        },
+        {
+          "id": "s15",
+          "text": "However, when the anxiety becomes overwhelming, imposter syndrome can lead to burnout, reluctance to advocate for oneself, or even depression.",
+          "translation_ja": "しかし、不安が圧倒的になると、インポスター症候群は燃え尽き症候群や自己主張への抵抗感、さらにはうつ病につながることもある。",
+          "structure": [
+            {
+              "label": "副詞節",
+              "content": "when the anxiety becomes overwhelming"
+            },
+            {
+              "label": "S",
+              "content": "imposter syndrome"
+            },
+            {
+              "label": "V",
+              "content": "can lead to"
+            },
+            {
+              "label": "O",
+              "content": "burnout, reluctance to advocate for oneself, or depression",
+              "note": "3要素の列挙"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "However, when the anxiety becomes "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "overwhelming",
+              "tier": "frequent",
+              "ref": "overwhelming"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", imposter syndrome can "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "lead to",
+              "ref": "lead_to"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "burnout",
+              "tier": "key",
+              "ref": "burnout"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "reluctance",
+              "tier": "key",
+              "ref": "reluctance"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "advocate",
+              "tier": "frequent",
+              "ref": "advocate"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " for oneself, or even "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "depression",
+              "tier": "key",
+              "ref": "depression"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 216.0,
+      "sentences": [
+        {
+          "id": "s16",
+          "text": "Researchers suggest that the most effective way to reduce imposter syndrome is to talk about it openly with mentors or peers.",
+          "translation_ja": "研究者たちは、インポスター症候群を軽減する最も効果的な方法は、メンターや仲間とオープンに話し合うことだと示唆している。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Researchers"
+            },
+            {
+              "label": "V",
+              "content": "suggest"
+            },
+            {
+              "label": "that節",
+              "content": "that the most effective way to reduce imposter syndrome is to talk about it openly with mentors or peers",
+              "note": "主語に不定詞句、補語も不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Researchers "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "suggest",
+              "tier": "frequent",
+              "ref": "suggest"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " that the most "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "effective",
+              "tier": "frequent",
+              "ref": "effective"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " way to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "reduce",
+              "tier": "frequent",
+              "ref": "reduce"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " imposter syndrome is to talk about it openly with "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "mentors",
+              "tier": "key",
+              "ref": "mentors"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "peers",
+              "tier": "frequent",
+              "ref": "peers"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s17",
+          "text": "Learning that highly competent people share these feelings can help dismantle the false belief that everyone else has things figured out.",
+          "translation_ja": "非常に有能な人々もこうした感情を共有していると知ることが、「他のみんなはちゃんとわかっている」という誤った信念を解体する助けになる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Learning that highly competent people share these feelings",
+              "note": "動名詞句が主語"
+            },
+            {
+              "label": "V",
+              "content": "can help"
+            },
+            {
+              "label": "O",
+              "content": "dismantle the false belief that everyone else has things figured out"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Learning that highly competent people share these feelings can help "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "dismantle",
+              "tier": "key",
+              "ref": "dismantle"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the false "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "belief",
+              "tier": "normal",
+              "ref": "belief"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " that everyone else has things "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "figured out",
+              "ref": "figured_out"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s18",
+          "text": "Other strategies include keeping a record of positive feedback, reframing failure as a learning opportunity rather than evidence of inadequacy, and practicing self-compassion.",
+          "translation_ja": "その他の方略として、肯定的なフィードバックを記録しておくこと、失敗を不適格の証拠としてではなく学習の機会として再解釈すること、セルフコンパッションを実践することが挙げられる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Other strategies"
+            },
+            {
+              "label": "V",
+              "content": "include"
+            },
+            {
+              "label": "O",
+              "content": "3つの動名詞句（keeping / reframing / practicing）",
+              "note": "並列構造"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Other strategies include keeping a record of positive "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "feedback",
+              "tier": "frequent",
+              "ref": "feedback"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reframing",
+              "tier": "key",
+              "ref": "reframing"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " failure as a learning opportunity rather than evidence of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "inadequacy",
+              "tier": "key",
+              "ref": "inadequacy"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and practicing "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "self-compassion",
+              "ref": "self_compassion"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s19",
+          "text": "With time, many people find that imposter syndrome fades as they accumulate genuine evidence of their capabilities and learn to internalize their own success.",
+          "translation_ja": "時間とともに、多くの人は、自分の能力の真の証拠を積み重ね、自分自身の成功を内面化することを学ぶにつれて、インポスター症候群が薄れていくことに気づく。",
+          "structure": [
+            {
+              "label": "前置詞句",
+              "content": "With time"
+            },
+            {
+              "label": "S",
+              "content": "many people"
+            },
+            {
+              "label": "V",
+              "content": "find"
+            },
+            {
+              "label": "that節",
+              "content": "that imposter syndrome fades as they accumulate genuine evidence..."
+            },
+            {
+              "label": "as節",
+              "content": "as they accumulate genuine evidence of their capabilities and learn to internalize their own success"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "With time, many people find that imposter syndrome "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "fades",
+              "tier": "normal",
+              "ref": "fades"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " as they "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "accumulate",
+              "tier": "frequent",
+              "ref": "accumulate"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "genuine",
+              "tier": "frequent",
+              "ref": "genuine"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " evidence of their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "capabilities",
+              "tier": "frequent",
+              "ref": "capabilities"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and learn to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "internalize",
+              "tier": "key",
+              "ref": "internalize"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " their own success."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "received": {
+      "tier": "normal",
+      "surface": "received",
+      "pos": "verb · B1",
+      "pron": "/rɪˈsiːvd/",
+      "meaning": "受け取った、受領した",
+      "example": {
+        "en": "She <b>received</b> an award for her research.",
+        "ja": "彼女は研究で賞を受け取った。"
+      },
+      "context": "receive の過去形・過去分詞。正式・書き言葉的な「受け取る」。get より改まった表現。",
+      "collocations": [
+        "receive an offer",
+        "receive notice",
+        "receive training"
+      ]
+    },
+    "notice": {
+      "tier": "normal",
+      "surface": "notice",
+      "pos": "noun · B1",
+      "pron": "/ˈnoʊ.tɪs/",
+      "meaning": "通知、知らせ",
+      "example": {
+        "en": "He received <b>notice</b> of his acceptance.",
+        "ja": "彼は合格の通知を受け取った。"
+      },
+      "context": "動詞「気づく」としても頻用。名詞では「告知・通告」の意味で書き言葉に多い。",
+      "collocations": [
+        "advance notice",
+        "short notice",
+        "receive notice",
+        "notice board"
+      ]
+    },
+    "earned": {
+      "tier": "normal",
+      "surface": "earned",
+      "pos": "verb · B1",
+      "pron": "/ɜːrnd/",
+      "meaning": "勝ち取った、獲得した",
+      "example": {
+        "en": "She <b>earned</b> a scholarship through hard work.",
+        "ja": "彼女は努力で奨学金を勝ち取った。"
+      },
+      "context": "earn は「稼ぐ」だけでなく「値する・勝ち取る」の意味でも使われる。特に努力の結果としての達成に使う。",
+      "collocations": [
+        "earn a degree",
+        "earn respect",
+        "hard-earned"
+      ]
+    },
+    "scholarship": {
+      "tier": "key",
+      "surface": "scholarship",
+      "pos": "noun · B2",
+      "pron": "/ˈskɒl.ər.ʃɪp/",
+      "meaning": "奨学金",
+      "example": {
+        "en": "She was awarded a full <b>scholarship</b> to study abroad.",
+        "ja": "彼女は留学のための全額奨学金を授与された。"
+      },
+      "context": "scholar(学者)+ ship。grant や fellowship とは財源・対象・条件が異なる。fellowship は大学院・研究向け。",
+      "collocations": [
+        "full scholarship",
+        "merit-based scholarship",
+        "scholarship program",
+        "award a scholarship"
+      ]
+    },
+    "accepted": {
+      "tier": "normal",
+      "surface": "accepted",
+      "pos": "verb · B1",
+      "pron": "/əkˈsep.tɪd/",
+      "meaning": "合格した、受け入れられた",
+      "example": {
+        "en": "He was <b>accepted</b> into a prestigious university.",
+        "ja": "彼は名門大学に合格した。"
+      },
+      "context": "accept の受動態。入学・採用・提案の承諾に広く使う。",
+      "collocations": [
+        "accepted to/into",
+        "widely accepted",
+        "accepted offer"
+      ]
+    },
+    "overwhelmed": {
+      "tier": "frequent",
+      "surface": "overwhelmed",
+      "pos": "adj/verb · B2",
+      "pron": "/ˌoʊ.vərˈwelmd/",
+      "meaning": "圧倒された、手に負えなくなった",
+      "example": {
+        "en": "She was <b>overwhelmed</b> by the amount of work.",
+        "ja": "彼女は仕事の量に圧倒された。"
+      },
+      "context": "感情・情報・業務量などに「飲み込まれる」感覚。overwhelm の過去分詞。TOEFL頻出。ビジネス・学術文書で必修。",
+      "collocations": [
+        "feel overwhelmed",
+        "completely overwhelmed",
+        "overwhelmed by emotion",
+        "overwhelmed with work"
+      ]
+    },
+    "creeping": {
+      "tier": "key",
+      "surface": "creeping",
+      "pos": "adj/verb · C1",
+      "pron": "/ˈkriː.pɪŋ/",
+      "meaning": "忍び寄る、じわじわと広がる",
+      "example": {
+        "en": "A <b>creeping</b> doubt began to form in her mind.",
+        "ja": "忍び寄る疑念が心の中で形成され始めた。"
+      },
+      "context": "creep(這う・忍び寄る)の現在分詞。恐怖・疑念・変化がゆっくり広がる様子を表す修辞的形容詞。文学・ジャーナリズムで多用。",
+      "collocations": [
+        "creeping doubt",
+        "creeping fear",
+        "creeping sense of",
+        "creeping inflation"
+      ]
+    },
+    "deserve": {
+      "tier": "frequent",
+      "surface": "deserve",
+      "pos": "verb · B1",
+      "pron": "/dɪˈzɜːrv/",
+      "meaning": "〜に値する、〜を受けるにふさわしい",
+      "example": {
+        "en": "Everyone <b>deserves</b> a second chance.",
+        "ja": "誰でも二度目のチャンスに値する。"
+      },
+      "context": "「ふさわしい・当然の報酬を受けるべき」。must/should より穏やか。論文・スピーチで多用。",
+      "collocations": [
+        "deserve credit",
+        "deserve attention",
+        "deserve better",
+        "you deserve it"
+      ]
+    },
+    "selected": {
+      "tier": "normal",
+      "surface": "selected",
+      "pos": "verb · B1",
+      "pron": "/sɪˈlek.tɪd/",
+      "meaning": "選んだ、選ばれた",
+      "example": {
+        "en": "She was <b>selected</b> for the team.",
+        "ja": "彼女はチームに選ばれた。"
+      },
+      "context": "select は「複数の中から意図的に選ぶ」。choose より改まった語。",
+      "collocations": [
+        "carefully selected",
+        "hand-selected",
+        "selected candidate"
+      ]
+    },
+    "eventually": {
+      "tier": "frequent",
+      "surface": "eventually",
+      "pos": "adv · B1",
+      "pron": "/ɪˈven.tʃu.ə.li/",
+      "meaning": "いずれは、最終的に",
+      "example": {
+        "en": "She <b>eventually</b> found a solution.",
+        "ja": "彼女はいずれ解決策を見つけた。"
+      },
+      "context": "finally と似るが、eventually は「時間がかかった結果として」のニュアンスが強い。過去・未来両方に使える。AWL収録。",
+      "collocations": [
+        "eventually realize",
+        "eventually lead to",
+        "eventually die out"
+      ]
+    },
+    "discover": {
+      "tier": "normal",
+      "surface": "discover",
+      "pos": "verb · B1",
+      "pron": "/dɪˈskʌv.ər/",
+      "meaning": "発見する、気づく",
+      "example": {
+        "en": "They <b>discovered</b> a new species in the rainforest.",
+        "ja": "彼らは熱帯雨林で新種を発見した。"
+      },
+      "context": "find より「初めて明らかにする」の意味が強い。科学・探索の文脈でも日常でも使える。",
+      "collocations": [
+        "discover a secret",
+        "discover new evidence",
+        "discover that..."
+      ]
+    },
+    "imposter": {
+      "tier": "key",
+      "surface": "imposter",
+      "pos": "noun · C1",
+      "pron": "/ɪmˈpɒs.tər/",
+      "meaning": "詐欺師、なりすまし者",
+      "example": {
+        "en": "He felt like an <b>imposter</b> at the prestigious university.",
+        "ja": "彼は名門大学で詐欺師のように感じた。"
+      },
+      "context": "imposter / impostor どちらのスペルも使われる。本来の意味は「偽りの身分で人を欺く者」。心理学用語「imposter syndrome」での使用で一般的になった。",
+      "collocations": [
+        "imposter syndrome",
+        "feel like an imposter",
+        "imposter phenomenon"
+      ]
+    },
+    "phenomenon": {
+      "tier": "frequent",
+      "surface": "phenomenon",
+      "pos": "noun · B2",
+      "pron": "/fɪˈnɒm.ɪ.nən/",
+      "meaning": "現象",
+      "example": {
+        "en": "Climate change is a global <b>phenomenon</b>.",
+        "ja": "気候変動は世界的な現象だ。"
+      },
+      "context": "複数形は phenomena（不規則変化）。AWL収録。学術・ニュースで頻出。phenomenal(驚異的な)も派生語として重要。",
+      "collocations": [
+        "natural phenomenon",
+        "social phenomenon",
+        "rare phenomenon",
+        "the phenomenon of"
+      ]
+    },
+    "coined": {
+      "tier": "key",
+      "surface": "coined",
+      "pos": "verb · B2",
+      "pron": "/kɔɪnd/",
+      "meaning": "(新語・表現を)作った、生み出した",
+      "example": {
+        "en": "The phrase was <b>coined</b> in the 1960s.",
+        "ja": "その表現は1960年代に作られた。"
+      },
+      "context": "coin は元々「硬貨を鋳造する」の意。ここから転じて「新しい語を生み出す」。学術・メディアで新概念の命名に必ず出てくる表現。",
+      "collocations": [
+        "coined the term",
+        "coined the phrase",
+        "first coined by"
+      ]
+    },
+    "psychologists": {
+      "tier": "key",
+      "surface": "psychologists",
+      "pos": "noun · B2",
+      "pron": "/saɪˈkɒl.ə.dʒɪsts/",
+      "meaning": "心理学者たち",
+      "example": {
+        "en": "<b>Psychologists</b> study human behavior and mental processes.",
+        "ja": "心理学者は人間の行動と精神過程を研究する。"
+      },
+      "context": "psychology(心理学)→ psychologist(心理学者)。psychiatrist(精神科医)との区別が重要：psychologist は博士号を持つ研究者・カウンセラー、psychiatrist は医師で薬を処方できる。",
+      "collocations": [
+        "clinical psychologist",
+        "developmental psychologist",
+        "according to psychologists"
+      ]
+    },
+    "describe": {
+      "tier": "frequent",
+      "surface": "describe",
+      "pos": "verb · A2",
+      "pron": "/dɪˈskraɪb/",
+      "meaning": "説明する、記述する、表現する",
+      "example": {
+        "en": "Can you <b>describe</b> what happened?",
+        "ja": "何が起きたか説明できますか？"
+      },
+      "context": "describe は「言葉で詳しく描写する」。explain は「理由・仕組みを説明する」と異なる。論文・報告書・会話すべてで必須。",
+      "collocations": [
+        "describe as",
+        "best described as",
+        "describe in detail",
+        "described earlier"
+      ]
+    },
+    "ability": {
+      "tier": "frequent",
+      "surface": "ability",
+      "pos": "noun · A2",
+      "pron": "/əˈbɪl.ɪ.ti/",
+      "meaning": "能力、才能",
+      "example": {
+        "en": "She has the <b>ability</b> to solve complex problems.",
+        "ja": "彼女は複雑な問題を解決する能力を持つ。"
+      },
+      "context": "skill(技術・訓練で習得した能力)と対比。ability はより広い天性・素質も含む。capability は組織・システムの能力にも使う。",
+      "collocations": [
+        "natural ability",
+        "ability to",
+        "beyond one's ability",
+        "cognitive ability"
+      ]
+    },
+    "occupations": {
+      "tier": "normal",
+      "surface": "occupations",
+      "pos": "noun · B1",
+      "pron": "/ˌɒk.jʊˈpeɪ.ʃənz/",
+      "meaning": "職業、仕事",
+      "example": {
+        "en": "People in many <b>occupations</b> experience stress.",
+        "ja": "多くの職業の人々がストレスを経験する。"
+      },
+      "context": "job・work より改まった語。正式な統計・分類では occupation を使う（例：occupation classification）。",
+      "collocations": [
+        "professional occupations",
+        "skilled occupations",
+        "by occupation"
+      ]
+    },
+    "report": {
+      "tier": "frequent",
+      "surface": "report",
+      "pos": "verb · B1",
+      "pron": "/rɪˈpɔːrt/",
+      "meaning": "報告する、申告する；（研究で）示す",
+      "example": {
+        "en": "Participants <b>reported</b> feeling less anxious.",
+        "ja": "参加者は不安が減ったと報告した。"
+      },
+      "context": "学術論文で「被験者が〜と述べた」を表す標準的な動詞。名詞・動詞両方で頻用。AWL収録。",
+      "collocations": [
+        "report experiencing",
+        "report that",
+        "self-report",
+        "reports suggest"
+      ]
+    },
+    "competent": {
+      "tier": "frequent",
+      "surface": "competent",
+      "pos": "adj · B2",
+      "pron": "/ˈkɒm.pɪ.tənt/",
+      "meaning": "有能な、適任の",
+      "example": {
+        "en": "She is highly <b>competent</b> in her field.",
+        "ja": "彼女は自分の分野で非常に有能だ。"
+      },
+      "context": "competence(名詞), competency(複数のスキルセット)も頻出。反義語: incompetent。TOEFL・ビジネス必修語。",
+      "collocations": [
+        "highly competent",
+        "competent at",
+        "deemed competent",
+        "competent authority"
+      ]
+    },
+    "perceive": {
+      "tier": "frequent",
+      "surface": "perceive",
+      "pos": "verb · B2",
+      "pron": "/pəˈsiːv/",
+      "meaning": "知覚する、認識する、〜と見なす",
+      "example": {
+        "en": "She is often <b>perceived</b> as a leader.",
+        "ja": "彼女はしばしばリーダーとして認識されている。"
+      },
+      "context": "perceive は「外部からの情報を受け取り認識する」。think/believe より客観的な評価の文脈で使う。AWL収録。perception(知覚)も重要。",
+      "collocations": [
+        "perceived as",
+        "widely perceived",
+        "perceive a difference",
+        "self-perception"
+      ]
+    },
+    "assignment": {
+      "tier": "normal",
+      "surface": "assignment",
+      "pos": "noun · B1",
+      "pron": "/əˈsaɪn.mənt/",
+      "meaning": "課題、宿題；割り当て",
+      "example": {
+        "en": "The teacher gave a difficult <b>assignment</b>.",
+        "ja": "教師が難しい課題を出した。"
+      },
+      "context": "学校の宿題から職場の任務まで広く使える。assign(割り当てる)の名詞形。",
+      "collocations": [
+        "complete an assignment",
+        "homework assignment",
+        "writing assignment",
+        "job assignment"
+      ]
+    },
+    "anxiety": {
+      "tier": "frequent",
+      "surface": "anxiety",
+      "pos": "noun · B2",
+      "pron": "/æŋˈzaɪ.ɪ.ti/",
+      "meaning": "不安、心配",
+      "example": {
+        "en": "Test <b>anxiety</b> affects many students.",
+        "ja": "テスト不安は多くの学生に影響する。"
+      },
+      "context": "worry(一時的な心配)より持続的・深刻。medical context では anxiety disorder(不安障害)。anxious(形容詞)も必修。",
+      "collocations": [
+        "social anxiety",
+        "anxiety disorder",
+        "cause anxiety",
+        "anxiety about"
+      ]
+    },
+    "procrastinate": {
+      "tier": "key",
+      "surface": "procrastinate",
+      "pos": "verb · C1",
+      "pron": "/prəˈkræs.tɪ.neɪt/",
+      "meaning": "先延ばしにする、ぐずぐずする",
+      "example": {
+        "en": "Stop <b>procrastinating</b> and start the report.",
+        "ja": "先延ばしをやめてレポートを始めなさい。"
+      },
+      "context": "procrastination(名詞)も頻出。ラテン語 pro(前に) + crastinus(明日の)が語源で「明日に先送りする」。心理学・自己啓発分野で頻用。",
+      "collocations": [
+        "tend to procrastinate",
+        "chronic procrastinator",
+        "stop procrastinating"
+      ]
+    },
+    "rely": {
+      "tier": "frequent",
+      "surface": "rely",
+      "pos": "verb · B1",
+      "pron": "/rɪˈlaɪ/",
+      "meaning": "頼る、依存する",
+      "example": {
+        "en": "We <b>rely</b> on data to make decisions.",
+        "ja": "私たちは意思決定にデータに頼る。"
+      },
+      "context": "rely on/upon の形で使う。depend on と近いが、rely はより積極的な信頼感。AWL収録。",
+      "collocations": [
+        "rely on",
+        "rely heavily on",
+        "rely solely on",
+        "can be relied upon"
+      ]
+    },
+    "inspiration": {
+      "tier": "normal",
+      "surface": "inspiration",
+      "pos": "noun · B1",
+      "pron": "/ˌɪn.spɪˈreɪ.ʃən/",
+      "meaning": "ひらめき、インスピレーション",
+      "example": {
+        "en": "She found <b>inspiration</b> in nature.",
+        "ja": "彼女は自然にインスピレーションを見つけた。"
+      },
+      "context": "inspire(鼓舞する)の名詞形。「最後の瞬間のひらめき」は last-minute inspiration として頻出。",
+      "collocations": [
+        "source of inspiration",
+        "draw inspiration from",
+        "creative inspiration"
+      ]
+    },
+    "discount": {
+      "tier": "key",
+      "surface": "discount",
+      "pos": "verb · B2",
+      "pron": "/dɪˈskaʊnt/",
+      "meaning": "軽視する、割り引いて考える；否定する",
+      "example": {
+        "en": "Don't <b>discount</b> the importance of small steps.",
+        "ja": "小さなステップの重要性を軽視しないこと。"
+      },
+      "context": "名詞「値引き」が有名だが、動詞では「重要視しない・無視する」の意味で学術・議論文脈で必須。dismiss / disregard と類似。",
+      "collocations": [
+        "discount the possibility",
+        "discount evidence",
+        "easily discounted"
+      ]
+    },
+    "achievement": {
+      "tier": "frequent",
+      "surface": "achievement",
+      "pos": "noun · B1",
+      "pron": "/əˈtʃiːv.mənt/",
+      "meaning": "達成、成果、業績",
+      "example": {
+        "en": "Winning the award was a great <b>achievement</b>.",
+        "ja": "賞を受賞することは大きな成果だった。"
+      },
+      "context": "achieve(達成する)の名詞形。accomplishment とほぼ同義だが、achievement の方が正式・書き言葉的。TOEFL頻出。",
+      "collocations": [
+        "academic achievement",
+        "personal achievement",
+        "sense of achievement",
+        "remarkable achievement"
+      ]
+    },
+    "inevitable": {
+      "tier": "key",
+      "surface": "inevitable",
+      "pos": "adj · C1",
+      "pron": "/ɪnˈev.ɪ.tə.bəl/",
+      "meaning": "避けられない、必然の",
+      "example": {
+        "en": "Change is <b>inevitable</b>.",
+        "ja": "変化は避けられない。"
+      },
+      "context": "in-(否定) + evitable(avoid から)。名詞形 inevitability。副詞 inevitably も重要。論文・スピーチで結論強調に使う。",
+      "collocations": [
+        "seem inevitable",
+        "inevitable result",
+        "inevitable conclusion",
+        "inevitably lead to"
+      ]
+    },
+    "attributing": {
+      "tier": "frequent",
+      "surface": "attributing",
+      "pos": "verb · B2",
+      "pron": "/əˈtrɪb.juː.tɪŋ/",
+      "meaning": "〜に帰する、〜のせいにする",
+      "example": {
+        "en": "He kept <b>attributing</b> his success to luck.",
+        "ja": "彼は自分の成功を運のせいにし続けた。"
+      },
+      "context": "attribute A to B = AをBに帰属させる。心理学の帰属理論(attribution theory)で核心的動詞。AWL収録。",
+      "collocations": [
+        "attributed to",
+        "attribute success to",
+        "attribution theory"
+      ]
+    },
+    "attribute": {
+      "tier": "frequent",
+      "surface": "attribute",
+      "pos": "verb · B2",
+      "pron": "/əˈtrɪb.juːt/",
+      "meaning": "〜の原因を〜に帰する；〜に起因するとみなす",
+      "example": {
+        "en": "Many people <b>attribute</b> their failures to bad luck.",
+        "ja": "多くの人は失敗を不運のせいにする。"
+      },
+      "context": "attribute A to B のパターンで使う。学術・ビジネスで原因帰属に必須。AWL収録。",
+      "collocations": [
+        "attribute to",
+        "attributed to",
+        "attribute success",
+        "attribute blame"
+      ]
+    },
+    "external": {
+      "tier": "frequent",
+      "surface": "external",
+      "pos": "adj · B1",
+      "pron": "/ɪkˈstɜːr.nəl/",
+      "meaning": "外部の、外的な",
+      "example": {
+        "en": "<b>External</b> factors influence our decisions.",
+        "ja": "外的要因が私たちの決断に影響する。"
+      },
+      "context": "internal の反義語。学術・ビジネスで必須。externalize(外化する)、externally(副詞)も重要。AWL収録。",
+      "collocations": [
+        "external factors",
+        "external pressure",
+        "external review",
+        "external validation"
+      ]
+    },
+    "factors": {
+      "tier": "frequent",
+      "surface": "factors",
+      "pos": "noun · B1",
+      "pron": "/ˈfæk.tərz/",
+      "meaning": "要因、要素",
+      "example": {
+        "en": "Many <b>factors</b> contribute to success.",
+        "ja": "多くの要因が成功に貢献する。"
+      },
+      "context": "cause(原因)よりやや中立的で多義的。risk factor(危険因子), contributing factor(寄与要因)など複合語で頻用。AWL収録。",
+      "collocations": [
+        "key factor",
+        "contributing factor",
+        "risk factor",
+        "external/internal factors"
+      ]
+    },
+    "internal": {
+      "tier": "frequent",
+      "surface": "internal",
+      "pos": "adj · B1",
+      "pron": "/ɪnˈtɜːr.nəl/",
+      "meaning": "内部の、内的な",
+      "example": {
+        "en": "The team focused on <b>internal</b> communication.",
+        "ja": "チームは内部コミュニケーションに集中した。"
+      },
+      "context": "external の反義語。internalize(内面化する)は本Talkの重要語。AWL収録。ビジネス・学術で必須。",
+      "collocations": [
+        "internal conflict",
+        "internal factors",
+        "internal review",
+        "internal motivation"
+      ]
+    },
+    "flaws": {
+      "tier": "key",
+      "surface": "flaws",
+      "pos": "noun · B2",
+      "pron": "/flɔːz/",
+      "meaning": "欠点、弱点、瑕疵",
+      "example": {
+        "en": "Everyone has <b>flaws</b>.",
+        "ja": "誰でも欠点がある。"
+      },
+      "context": "flaw は「構造的・本質的な欠陥」。mistake/error は「行為の誤り」と区別。flawed(欠陥のある)も重要。",
+      "collocations": [
+        "human flaws",
+        "fatal flaw",
+        "design flaw",
+        "expose flaws"
+      ]
+    },
+    "imbalanced": {
+      "tier": "key",
+      "surface": "imbalanced",
+      "pos": "adj · C1",
+      "pron": "/ɪmˈbæl.ənst/",
+      "meaning": "バランスの崩れた、不均衡な",
+      "example": {
+        "en": "An <b>imbalanced</b> diet can cause health problems.",
+        "ja": "バランスの崩れた食事は健康問題を引き起こす。"
+      },
+      "context": "im-(否定) + balanced。unbalanced よりやや改まった語。心理学・統計で測定のバイアスを表す際に使われる。",
+      "collocations": [
+        "imbalanced diet",
+        "imbalanced power",
+        "imbalanced relationship"
+      ]
+    },
+    "competence": {
+      "tier": "key",
+      "surface": "competence",
+      "pos": "noun · B2",
+      "pron": "/ˈkɒm.pɪ.təns/",
+      "meaning": "能力、有能さ；適性",
+      "example": {
+        "en": "She demonstrated her <b>competence</b> through results.",
+        "ja": "彼女は結果で自分の能力を示した。"
+      },
+      "context": "competent の名詞形。linguistic competence(言語能力)など専門用語でも重要。competency は職業能力評価の文脈で使われる。",
+      "collocations": [
+        "demonstrate competence",
+        "core competence",
+        "sense of competence",
+        "cultural competence"
+      ]
+    },
+    "accumulate": {
+      "tier": "frequent",
+      "surface": "accumulate",
+      "pos": "verb · B2",
+      "pron": "/əˈkjuː.mjʊ.leɪt/",
+      "meaning": "蓄積する、積み上げる",
+      "example": {
+        "en": "Evidence continues to <b>accumulate</b>.",
+        "ja": "証拠は蓄積し続けている。"
+      },
+      "context": "accumulation(名詞)。科学・経済・心理学の文脈で頻出。AWL収録。collect より「時間をかけて積み重ねる」ニュアンス。",
+      "collocations": [
+        "accumulate evidence",
+        "accumulate wealth",
+        "accumulate experience",
+        "gradually accumulate"
+      ]
+    },
+    "affect": {
+      "tier": "frequent",
+      "surface": "affect",
+      "pos": "verb · B1",
+      "pron": "/əˈfekt/",
+      "meaning": "影響を与える",
+      "example": {
+        "en": "Stress can <b>affect</b> your health.",
+        "ja": "ストレスは健康に影響を与えうる。"
+      },
+      "context": "effect(名詞・結果)との混同に注意。affect=動詞(影響を与える)、effect=名詞(影響・結果)。affect は感情的影響にも使う。AWL収録。",
+      "collocations": [
+        "adversely affect",
+        "affect performance",
+        "deeply affected",
+        "affect the outcome"
+      ]
+    },
+    "underrepresented": {
+      "tier": "key",
+      "surface": "underrepresented",
+      "pos": "adj · C1",
+      "pron": "/ˌʌn.dər.rep.rɪˈzen.tɪd/",
+      "meaning": "過小代表の、代表が不十分な",
+      "example": {
+        "en": "Women are <b>underrepresented</b> in leadership roles.",
+        "ja": "女性はリーダーシップの役割において過小代表だ。"
+      },
+      "context": "diversity・equity・inclusion(DEI)の文脈で必須語。representation(代表性)→ underrepresented(十分に代表されていない)。",
+      "collocations": [
+        "underrepresented groups",
+        "historically underrepresented",
+        "underrepresented minorities"
+      ]
+    },
+    "competitive": {
+      "tier": "frequent",
+      "surface": "competitive",
+      "pos": "adj · B1",
+      "pron": "/kəmˈpet.ɪ.tɪv/",
+      "meaning": "競争の激しい；競争力のある",
+      "example": {
+        "en": "It's a highly <b>competitive</b> industry.",
+        "ja": "それは非常に競争の激しい業界だ。"
+      },
+      "context": "compete → competition → competitive → competitor。ビジネス・就職活動・学術で頻出。TOEFL必修。",
+      "collocations": [
+        "highly competitive",
+        "competitive market",
+        "competitive advantage",
+        "competitive salary"
+      ]
+    },
+    "traits": {
+      "tier": "key",
+      "surface": "traits",
+      "pos": "noun · B2",
+      "pron": "/treɪts/",
+      "meaning": "特性、特質",
+      "example": {
+        "en": "Curiosity is one of her defining <b>traits</b>.",
+        "ja": "好奇心は彼女の際立った特性の一つだ。"
+      },
+      "context": "personality trait(性格特性)が最も一般的な用法。心理学で頻用。characteristic と近いが trait は固有・持続的な属性を強調。",
+      "collocations": [
+        "personality traits",
+        "character traits",
+        "inherited traits",
+        "define traits"
+      ]
+    },
+    "thoroughness": {
+      "tier": "key",
+      "surface": "thoroughness",
+      "pos": "noun · C1",
+      "pron": "/ˈθʌr.ə.nəs/",
+      "meaning": "徹底性、念入りさ",
+      "example": {
+        "en": "Her <b>thoroughness</b> made her an excellent researcher.",
+        "ja": "彼女の徹底性が優れた研究者にした。"
+      },
+      "context": "thorough(徹底的な) + -ness。thorough は「完全に・漏れなく行う」。thoroughness は精密さ・几帳面さを表す。",
+      "collocations": [
+        "intellectual thoroughness",
+        "thoroughness of research",
+        "known for thoroughness"
+      ]
+    },
+    "humility": {
+      "tier": "key",
+      "surface": "humility",
+      "pos": "noun · C1",
+      "pron": "/hjuːˈmɪl.ɪ.ti/",
+      "meaning": "謙虚さ、謙遜",
+      "example": {
+        "en": "True leaders show <b>humility</b>.",
+        "ja": "真のリーダーは謙虚さを示す。"
+      },
+      "context": "humble(謙虚な) の名詞形。humiliation(屈辱)と語源は同じ(humilis=地に低い)。ビジネス・リーダーシップ文脈で「強みとしての謙虚さ」が評価される。",
+      "collocations": [
+        "intellectual humility",
+        "show humility",
+        "act with humility",
+        "humility and grace"
+      ]
+    },
+    "feedback": {
+      "tier": "frequent",
+      "surface": "feedback",
+      "pos": "noun · B1",
+      "pron": "/ˈfiːd.bæk/",
+      "meaning": "フィードバック、反応、意見",
+      "example": {
+        "en": "Please provide <b>feedback</b> on the proposal.",
+        "ja": "提案についてフィードバックをください。"
+      },
+      "context": "不可算名詞。give/provide/receive feedback が標準。constructive feedback(建設的な意見)はビジネス必須表現。",
+      "collocations": [
+        "constructive feedback",
+        "positive feedback",
+        "feedback loop",
+        "give feedback"
+      ]
+    },
+    "assets": {
+      "tier": "key",
+      "surface": "assets",
+      "pos": "noun · B2",
+      "pron": "/ˈæs.ɪts/",
+      "meaning": "強み、資産、長所",
+      "example": {
+        "en": "Her language skills are great <b>assets</b>.",
+        "ja": "彼女の語学力は大きな強みだ。"
+      },
+      "context": "本来は財務用語（資産）だが、比喩的に「人の強み・長所」として広く使われる。liabilities(負債)の対義語。",
+      "collocations": [
+        "valuable asset",
+        "key asset",
+        "personal assets",
+        "be an asset to"
+      ]
+    },
+    "overwhelming": {
+      "tier": "frequent",
+      "surface": "overwhelming",
+      "pos": "adj · B2",
+      "pron": "/ˌoʊ.vərˈwel.mɪŋ/",
+      "meaning": "圧倒的な、手に負えない",
+      "example": {
+        "en": "The <b>overwhelming</b> majority agreed.",
+        "ja": "圧倒的多数が同意した。"
+      },
+      "context": "overwhelm の現在分詞形が形容詞化。量・感情・証拠が「overwhelming」= 無視できないほど大きい。ニュース・論文で多用。",
+      "collocations": [
+        "overwhelming evidence",
+        "overwhelming majority",
+        "feel overwhelming",
+        "overwhelming response"
+      ]
+    },
+    "burnout": {
+      "tier": "key",
+      "surface": "burnout",
+      "pos": "noun · B2",
+      "pron": "/ˈbɜːrn.aʊt/",
+      "meaning": "燃え尽き症候群、バーンアウト",
+      "example": {
+        "en": "Overwork can lead to <b>burnout</b>.",
+        "ja": "過労は燃え尽き症候群につながる。"
+      },
+      "context": "WHO が2019年に「職業上の現象」と認定。慢性的なストレスによる感情的・身体的疲弊。burn out(句動詞)からの名詞形。",
+      "collocations": [
+        "experience burnout",
+        "prevent burnout",
+        "work-related burnout",
+        "on the verge of burnout"
+      ]
+    },
+    "reluctance": {
+      "tier": "key",
+      "surface": "reluctance",
+      "pos": "noun · C1",
+      "pron": "/rɪˈlʌk.təns/",
+      "meaning": "気乗りのしなさ、抵抗感",
+      "example": {
+        "en": "She showed <b>reluctance</b> to ask for help.",
+        "ja": "彼女は助けを求めることへの抵抗感を示した。"
+      },
+      "context": "reluctant(形容詞)「気が進まない」の名詞形。unwillingness より強い心理的抵抗のニュアンス。with reluctance / reluctantly で副詞的にも。",
+      "collocations": [
+        "show reluctance",
+        "reluctance to change",
+        "overcome reluctance",
+        "with great reluctance"
+      ]
+    },
+    "advocate": {
+      "tier": "frequent",
+      "surface": "advocate",
+      "pos": "verb · B2",
+      "pron": "/ˈæd.və.keɪt/",
+      "meaning": "主張する、擁護する；支持を表明する",
+      "example": {
+        "en": "She <b>advocates</b> for equal rights.",
+        "ja": "彼女は平等権を擁護する。"
+      },
+      "context": "名詞「支持者・弁護士」としても使われる。advocate for = 〜の権利・利益のために声を上げる。キャリア・社会問題文脈で必須。",
+      "collocations": [
+        "advocate for",
+        "strong advocate",
+        "advocate change",
+        "self-advocacy"
+      ]
+    },
+    "depression": {
+      "tier": "key",
+      "surface": "depression",
+      "pos": "noun · B1",
+      "pron": "/dɪˈpreʃ.ən/",
+      "meaning": "うつ病；意気消沈",
+      "example": {
+        "en": "Clinical <b>depression</b> requires professional treatment.",
+        "ja": "臨床的なうつ病は専門的な治療が必要だ。"
+      },
+      "context": "sadness との区別が重要：depression は持続的・臨床的状態。Great Depression(大恐慌)など経済用語でも使われる。",
+      "collocations": [
+        "clinical depression",
+        "suffer from depression",
+        "depression and anxiety",
+        "treat depression"
+      ]
+    },
+    "suggest": {
+      "tier": "frequent",
+      "surface": "suggest",
+      "pos": "verb · B1",
+      "pron": "/səˈdʒest/",
+      "meaning": "示唆する、提案する、示す",
+      "example": {
+        "en": "Research <b>suggests</b> that sleep improves memory.",
+        "ja": "研究は睡眠が記憶力を改善することを示唆する。"
+      },
+      "context": "学術的な「証拠がある方向性を示す」に最適な動詞。prove/show より控えめで科学論文必須。AWL収録。",
+      "collocations": [
+        "research suggests",
+        "evidence suggests",
+        "strongly suggest",
+        "suggest that"
+      ]
+    },
+    "effective": {
+      "tier": "frequent",
+      "surface": "effective",
+      "pos": "adj · B1",
+      "pron": "/ɪˈfek.tɪv/",
+      "meaning": "効果的な、有効な",
+      "example": {
+        "en": "Exercise is an <b>effective</b> way to reduce stress.",
+        "ja": "運動はストレスを減らす効果的な方法だ。"
+      },
+      "context": "efficient(効率的)との違い：effective=目標を達成できる、efficient=無駄なく行う。AWL収録。",
+      "collocations": [
+        "cost-effective",
+        "highly effective",
+        "most effective",
+        "effective strategy"
+      ]
+    },
+    "reduce": {
+      "tier": "frequent",
+      "surface": "reduce",
+      "pos": "verb · B1",
+      "pron": "/rɪˈduːs/",
+      "meaning": "減らす、低下させる",
+      "example": {
+        "en": "Regular exercise can <b>reduce</b> the risk of heart disease.",
+        "ja": "定期的な運動は心臓病のリスクを下げうる。"
+      },
+      "context": "decrease/lower と類似だがreduce はより幅広い文脈で使える。reduction(名詞)はAWL収録。",
+      "collocations": [
+        "reduce risk",
+        "reduce stress",
+        "significantly reduce",
+        "reduce the gap"
+      ]
+    },
+    "mentors": {
+      "tier": "key",
+      "surface": "mentors",
+      "pos": "noun · B2",
+      "pron": "/ˈmen.tɔːrz/",
+      "meaning": "メンター、指導者",
+      "example": {
+        "en": "Having good <b>mentors</b> can accelerate your career.",
+        "ja": "良いメンターを持つことでキャリアを加速できる。"
+      },
+      "context": "ギリシャ神話のMentor(オデュッセウスの友人・助言者)が語源。mentor-mentee 関係は職業・学術キャリア成長の鍵。",
+      "collocations": [
+        "find a mentor",
+        "role model and mentor",
+        "mentor program",
+        "mentoring relationship"
+      ]
+    },
+    "peers": {
+      "tier": "frequent",
+      "surface": "peers",
+      "pos": "noun · B1",
+      "pron": "/pɪərz/",
+      "meaning": "仲間、同僚、同輩",
+      "example": {
+        "en": "She compared herself to her <b>peers</b>.",
+        "ja": "彼女は自分を仲間と比較した。"
+      },
+      "context": "同じ立場・年齢・能力レベルの人々。peer pressure(仲間からの圧力)、peer review(査読)など複合語が必須。",
+      "collocations": [
+        "peer pressure",
+        "peer review",
+        "talk to peers",
+        "peer support"
+      ]
+    },
+    "dismantle": {
+      "tier": "key",
+      "surface": "dismantle",
+      "pos": "verb · C1",
+      "pron": "/dɪsˈmæn.tl/",
+      "meaning": "解体する、壊す；(信念・構造を)崩す",
+      "example": {
+        "en": "The argument helped <b>dismantle</b> the myth.",
+        "ja": "その議論は神話を崩す助けになった。"
+      },
+      "context": "物理的な解体から「誤った信念・制度を段階的に壊す」まで使う。dismantle a system / dismantle a myth が典型的用法。",
+      "collocations": [
+        "dismantle a myth",
+        "dismantle barriers",
+        "dismantle a system",
+        "gradually dismantle"
+      ]
+    },
+    "belief": {
+      "tier": "normal",
+      "surface": "belief",
+      "pos": "noun · B1",
+      "pron": "/bɪˈliːf/",
+      "meaning": "信念、信じること",
+      "example": {
+        "en": "Her <b>belief</b> in herself helped her succeed.",
+        "ja": "自分への信念が彼女を成功に導いた。"
+      },
+      "context": "believe(信じる)の名詞形。faith より世俗的・広義。core belief(中核的信念)、false belief(誤った信念)が重要。",
+      "collocations": [
+        "false belief",
+        "core belief",
+        "beyond belief",
+        "in the belief that"
+      ]
+    },
+    "reframing": {
+      "tier": "key",
+      "surface": "reframing",
+      "pos": "verb/noun · C1",
+      "pron": "/riːˈfreɪ.mɪŋ/",
+      "meaning": "再解釈する、捉え直す",
+      "example": {
+        "en": "<b>Reframing</b> failure as learning is a key skill.",
+        "ja": "失敗を学びとして再解釈することは重要なスキルだ。"
+      },
+      "context": "認知行動療法(CBT)の核心的概念。思考パターンを新しい視点から捉え直すこと。re-(再び) + frame(枠組み)。",
+      "collocations": [
+        "cognitive reframing",
+        "reframing failure",
+        "reframe the problem",
+        "reframing technique"
+      ]
+    },
+    "inadequacy": {
+      "tier": "key",
+      "surface": "inadequacy",
+      "pos": "noun · C1",
+      "pron": "/ɪnˈæd.ɪ.kwə.si/",
+      "meaning": "不十分さ、不適格感",
+      "example": {
+        "en": "She was haunted by a sense of <b>inadequacy</b>.",
+        "ja": "彼女は不適格感に悩まされていた。"
+      },
+      "context": "inadequate(不十分な)の名詞形。feelings of inadequacy は自己不信・インポスター症候群の核心的感情。",
+      "collocations": [
+        "feelings of inadequacy",
+        "sense of inadequacy",
+        "fear of inadequacy"
+      ]
+    },
+    "fades": {
+      "tier": "normal",
+      "surface": "fades",
+      "pos": "verb · B1",
+      "pron": "/feɪdz/",
+      "meaning": "薄れる、消えていく",
+      "example": {
+        "en": "The memory <b>fades</b> with time.",
+        "ja": "記憶は時間とともに薄れる。"
+      },
+      "context": "fade は「徐々に消える・弱まる」。感情・色・音・記憶など幅広い文脈で使える。fade away(消え去る)も重要。",
+      "collocations": [
+        "fades away",
+        "fades with time",
+        "fades into the background",
+        "quickly fades"
+      ]
+    },
+    "genuine": {
+      "tier": "frequent",
+      "surface": "genuine",
+      "pos": "adj · B2",
+      "pron": "/ˈdʒen.ju.ɪn/",
+      "meaning": "本物の、真の、心からの",
+      "example": {
+        "en": "Her concern for others is <b>genuine</b>.",
+        "ja": "他者への彼女の関心は心からのものだ。"
+      },
+      "context": "authentic と近いが genuine は「偽物でないこと」を強調。genuine interest, genuine concern, genuine effort が頻出コロケーション。",
+      "collocations": [
+        "genuine concern",
+        "genuine effort",
+        "genuine interest",
+        "seems genuine"
+      ]
+    },
+    "capabilities": {
+      "tier": "frequent",
+      "surface": "capabilities",
+      "pos": "noun · B2",
+      "pron": "/ˌkeɪ.pəˈbɪl.ɪ.tiz/",
+      "meaning": "能力、能力範囲",
+      "example": {
+        "en": "The new software has advanced <b>capabilities</b>.",
+        "ja": "新しいソフトウェアは高度な能力を持つ。"
+      },
+      "context": "capability は「潜在的な・将来的な能力」。ability は現在の能力に近い。AWL収録。企業・技術・個人の能力評価で頻用。",
+      "collocations": [
+        "technical capabilities",
+        "human capabilities",
+        "core capabilities",
+        "expand capabilities"
+      ]
+    },
+    "internalize": {
+      "tier": "key",
+      "surface": "internalize",
+      "pos": "verb · C1",
+      "pron": "/ɪnˈtɜːr.nə.laɪz/",
+      "meaning": "内面化する、自分のものにする",
+      "example": {
+        "en": "Children <b>internalize</b> the values they learn at home.",
+        "ja": "子供たちは家庭で学んだ価値観を内面化する。"
+      },
+      "context": "internal(内部の) + -ize(動詞化)。心理学・教育学でほぼ専門用語レベル。自分の成功・価値観・ルールを「自分のもの」として受け入れること。",
+      "collocations": [
+        "internalize values",
+        "internalize success",
+        "internalize the message",
+        "fail to internalize"
+      ]
+    }
+  },
+  "expressions": {
+    "imposter_syndrome": {
+      "tier": "frequent",
+      "surface": "imposter syndrome",
+      "pos": "noun phrase",
+      "pron": "/ɪmˈpɒs.tər ˈsɪn.droʊm/",
+      "literal": "詐欺師症候群",
+      "meaning": "自分の成功は偽物で、いずれ「詐欺師」だとばれてしまうと恐れる心理パターン",
+      "context": "1978年に心理学者Pauline Clance & Suzanne Imesが命名。WHO認定ではないが、世界中の職場・教育機関で広く認知された概念。高成就者・完璧主義者・マイノリティグループに多い。",
+      "collocations": [
+        "experience imposter syndrome",
+        "imposter syndrome affects",
+        "overcome imposter syndrome"
+      ]
+    },
+    "due_to": {
+      "tier": "frequent",
+      "surface": "due to",
+      "pos": "prepositional phrase",
+      "pron": "/djuː tuː/",
+      "literal": "〜に起因して",
+      "meaning": "〜のせいで、〜が原因で",
+      "context": "because of と意味は近いが、due to はよりフォーマルで、主語が名詞句の時に用いることが多い。学術・ビジネス文書で必須。",
+      "collocations": [
+        "due to luck",
+        "due to circumstances",
+        "partly due to",
+        "largely due to"
+      ]
+    },
+    "high_achieving": {
+      "tier": "normal",
+      "surface": "high-achieving",
+      "pos": "compound adjective",
+      "pron": "/haɪ.əˈtʃiː.vɪŋ/",
+      "literal": "高い達成を遂げる",
+      "meaning": "高成就の、優秀な",
+      "context": "複合形容詞。high-achiever(高成就者)の形容詞形。キャリア・教育文脈で頻用。",
+      "collocations": [
+        "high-achieving students",
+        "high-achieving women",
+        "high-achieving individuals"
+      ]
+    },
+    "over_prepare": {
+      "tier": "normal",
+      "surface": "over-prepare",
+      "pos": "phrasal verb",
+      "pron": "/ˌoʊ.vər.prɪˈpeər/",
+      "literal": "過剰に準備する",
+      "meaning": "必要以上に準備する、念を入れすぎる",
+      "context": "over-(過度に) + prepare。インポスター症候群の典型的な行動パターン。over-preparation(名詞)も使われる。",
+      "collocations": [
+        "tend to over-prepare",
+        "over-prepare for interviews",
+        "over-preparation strategy"
+      ]
+    },
+    "last_minute": {
+      "tier": "frequent",
+      "surface": "last-minute",
+      "pos": "compound adjective",
+      "pron": "/ˌlɑːst ˈmɪn.ɪt/",
+      "literal": "最後の瞬間の",
+      "meaning": "土壇場の、ギリギリの",
+      "context": "直前になってようやく行動するパターン。last-minute preparations, last-minute changes が典型例。日常会話・ビジネスで必須。",
+      "collocations": [
+        "last-minute changes",
+        "last-minute decision",
+        "last-minute inspiration",
+        "at the last minute"
+      ]
+    },
+    "the_heart_of": {
+      "tier": "frequent",
+      "surface": "the heart of",
+      "pos": "noun phrase (idiom)",
+      "pron": "/ðə hɑːrt ʌv/",
+      "literal": "〜の心臓",
+      "meaning": "〜の核心、〜の中心",
+      "context": "at the heart of = 「〜の中核に」。スピーチ・論文で「最も重要な点」を強調するときに使う必須表現。",
+      "collocations": [
+        "at the heart of",
+        "get to the heart of",
+        "lies at the heart of",
+        "the heart of the matter"
+      ]
+    },
+    "attribution_style": {
+      "tier": "normal",
+      "surface": "attribution style",
+      "pos": "noun phrase",
+      "pron": "/ˌæt.rɪˈbjuː.ʃən staɪl/",
+      "literal": "帰属スタイル",
+      "meaning": "成功・失敗の原因をどのように帰属させるかの認知パターン",
+      "context": "心理学の帰属理論(Attribution Theory)の専門用語。内的帰属 vs 外的帰属、安定的 vs 不安定的の2軸で評価される。",
+      "collocations": [
+        "internal attribution style",
+        "pessimistic attribution style",
+        "change attribution style"
+      ]
+    },
+    "cycle_of_self_doubt": {
+      "tier": "normal",
+      "surface": "cycle of self-doubt",
+      "pos": "noun phrase",
+      "pron": "/ˈsaɪ.kl ʌv self daʊt/",
+      "literal": "自己不信のサイクル",
+      "meaning": "自己不信が繰り返されるループ状のパターン",
+      "context": "cycle(循環) + self-doubt(自己不信)。self-doubt = 自分の能力・判断への疑念。インポスター症候群・うつ病の維持メカニズムを表す。",
+      "collocations": [
+        "break the cycle of self-doubt",
+        "locked in a cycle",
+        "vicious cycle of self-doubt"
+      ]
+    },
+    "first_generation_students": {
+      "tier": "normal",
+      "surface": "first-generation students",
+      "pos": "noun phrase",
+      "pron": "/ˌfɜːst ˌdʒen.əˈreɪ.ʃən ˈstjuː.dənts/",
+      "literal": "第一世代の学生",
+      "meaning": "家族の中で初めて大学・高等教育機関に進学する学生",
+      "context": "DEI(多様性・公平性・包括性)文脈で頻用。first-generation college student が完全形。家族のサポートや情報格差が課題となりやすい。",
+      "collocations": [
+        "first-generation college students",
+        "support first-generation students",
+        "first-generation experience"
+      ]
+    },
+    "lead_to": {
+      "tier": "frequent",
+      "surface": "lead to",
+      "pos": "phrasal verb",
+      "pron": "/liːd tuː/",
+      "literal": "〜に導く",
+      "meaning": "〜につながる、〜をもたらす",
+      "context": "原因→結果の論理的展開を表す最重要句動詞。cause との違い：lead to は間接的・段階的な結果を示すことが多い。AWL必須。",
+      "collocations": [
+        "lead to burnout",
+        "lead to depression",
+        "eventually lead to",
+        "can lead to"
+      ]
+    },
+    "figured_out": {
+      "tier": "frequent",
+      "surface": "figured out",
+      "pos": "phrasal verb",
+      "pron": "/ˈfɪɡ.ərd aʊt/",
+      "literal": "解決した、理解した",
+      "meaning": "わかった、理解できた、(問題を)解決した",
+      "context": "figure out = understand / solve を口語的に言う必須句動詞。「have things figured out」= 物事をちゃんとわかっている・うまくやっている、という意味で頻用。",
+      "collocations": [
+        "have it figured out",
+        "figured out how to",
+        "trying to figure out",
+        "haven't figured it out yet"
+      ]
+    },
+    "self_compassion": {
+      "tier": "normal",
+      "surface": "self-compassion",
+      "pos": "noun phrase",
+      "pron": "/self kəmˈpæʃ.ən/",
+      "literal": "自己への思いやり",
+      "meaning": "自分自身に対して思いやりをもって接する姿勢",
+      "context": "Kristin Neff(クリスティン・ネフ)が心理学的概念として確立。セルフクリティシズム(自己批判)の対概念。インポスター症候群・完璧主義の改善に有効とされる。",
+      "collocations": [
+        "practice self-compassion",
+        "self-compassion exercises",
+        "build self-compassion"
+      ]
+    }
+  }
+}

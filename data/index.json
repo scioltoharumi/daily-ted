@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-13T06:00:00+09:00",
+  "updated_at": "2026-05-15T13:00:00+09:00",
   "talks": [
     {
       "id": "talk_2026-05-13",
@@ -19,6 +19,23 @@
       "speaker": "TED-Ed",
       "duration_sec": 349,
       "thumbnail_url": "https://i.ytimg.com/vi/mA1lnxfqHk8/hqdefault.jpg"
+    },
+    {
+      "id": "talk_2026-05-12",
+      "date": "2026-05-12",
+      "source": "ted-ed",
+      "primary_topic": "Psychology",
+      "tags": [
+        "imposter-syndrome",
+        "psychology",
+        "self-confidence",
+        "attribution",
+        "mental-health"
+      ],
+      "difficulty": "medium",
+      "title": "What is imposter syndrome, and how can you combat it?",
+      "speaker": "Elizabeth Cox",
+      "duration_sec": 312
     },
     {
       "id": "talk_2026-05-09",
@@ -41,7 +58,6 @@
   ],
   "skipped_dates": [
     "2026-05-10",
-    "2026-05-11",
-    "2026-05-12"
+    "2026-05-11"
   ]
 }

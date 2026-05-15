@@ -34,6 +34,21 @@ pip install --quiet youtube-transcript-api
 
 # 実行手順
 
+## Step 0: main ブランチ同期(最重要)
+
+GitHub Pages は `main` ブランチを配信元にしている。バッチ成果を必ず `main` に
+反映させるため、作業前に必ず最新の `main` から開始すること:
+
+```bash
+git fetch origin main
+git checkout main
+git reset --hard origin/main
+```
+
+セッションが固有の作業ブランチ(`claude/...`)に隔離されている場合でも、上記で
+`main` の最新状態を取り込む。これを怠ると Step 2 の冪等性チェックが過去日の
+JSON を見つけられず、かつ古いベースで分岐して他日のデータを失う。
+
 ## Step 1: 日付決定(JST)
 
 JST(Asia/Tokyo)で当日日付 YYYY-MM-DD を決定。
@@ -151,8 +166,13 @@ PWA のビュー D(トピック別)/ビュー E(単語駆動)/検索のために
 ```bash
 git add data/
 git commit -m "daily: YYYY-MM-DD ted-ed <title>"
-git push
+git push origin HEAD:main
 ```
+
+`git push origin HEAD:main` で必ず `main` へ直接反映する(GitHub Pages の
+配信元)。単なる `git push` はセッション専用ブランチに送られ、サイトに
+反映されないため使わない。push がブランチ保護で拒否される場合は、PR を
+作成して auto-merge する運用に切り替えること。
 
 # エラーハンドリング
 
