@@ -268,10 +268,6 @@
 </head>
 <body>
 
-<div id="sampleBanner" style="display:none; background:rgba(196,135,10,0.12); border-bottom:1px solid rgba(196,135,10,0.3); padding:8px 20px; text-align:center; font-size:12px; color:#c4870a; font-family:'JetBrains Mono', monospace; letter-spacing:0.04em;">
-  📦 <b>サンプルデータ表示中</b> — Cloud Task が初回バッチを実行すると、実 talk が表示されます。
-</div>
-
 <header class="app-header">
   <div class="app-header-inner">
     <div class="brand">Daily<em>TED</em></div>
@@ -1749,18 +1745,7 @@ async function tryLoadRealData() {
 
 // ============ INIT ============
 (async () => {
-  const status = await tryLoadRealData();
-  const banner = document.getElementById('sampleBanner');
-  if (banner) {
-    if (status.mode === 'hybrid') {
-      banner.innerHTML = `📦 <b>実データ ${status.realCount} 件 + サンプル混在</b> — 残りの日付は省略版サンプルです。Cloud Task が新作を取り込むと順次置き換わります。`;
-      banner.style.display = 'block';
-    } else {
-      // sample / sample-with-real-skip
-      banner.innerHTML = '📦 <b>サンプルデータ表示中(各 talk は短縮版)</b> — Cloud Task が新作を取り込むと、実 talk のフル品質に置き換わります。';
-      banner.style.display = 'block';
-    }
-  }
+  await tryLoadRealData();
   document.getElementById('streakValue').textContent = calcStreak();
   renderHome();
 })();
