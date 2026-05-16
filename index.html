@@ -1760,8 +1760,18 @@ async function tryLoadRealData() {
 
 // ============ SERVICE WORKER REGISTRATION ============
 if ('serviceWorker' in navigator) {
+  // 既存SWが制御中に新SWへ切り替わった=更新。一度だけリロードして最新を表示する。
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloaded) return;
+    reloaded = true;
+    window.location.reload();
+  });
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./service-worker.js').catch(() => { /* ignore */ });
+    navigator.serviceWorker.register('./service-worker.js')
+      .then((reg) => { reg.update(); })
+      .catch(() => { /* ignore */ });
   });
 }
 </script>
