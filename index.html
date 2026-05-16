@@ -296,7 +296,7 @@
   <!-- ============ VIEW A: HOME (timeline) ============ -->
   <section id="view-home" class="view">
     <h1 class="view-title">直近のタイムライン</h1>
-    <p class="view-subtitle">本日 2026-05-10 (土) · 過去14日分</p>
+    <p class="view-subtitle" id="homeSubtitle">過去14日分</p>
     <div class="talks-stream" id="homeStream"></div>
   </section>
 
@@ -437,7 +437,8 @@
 // 直近14日分のダミー talk データ。実 TED-Ed video_id 含む。
 // スキーマは docs/data_schema.md v3.2 準拠(抜粋・モック)。
 
-const TODAY = '2026-05-10';
+// 当日(Asia/Tokyo)。固定値ではなく実際の現在日付を使う。
+const TODAY = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Tokyo' });
 
 const SAMPLE_TALKS = {
   '2026-05-09': {
@@ -1070,17 +1071,22 @@ document.getElementById('navTabs').addEventListener('click', e => {
 // ============ RENDER: HOME (View A) ============
 function renderHome() {
   const stream = document.getElementById('homeStream');
-  const cutoff = '2026-04-26';
   const allDates = [];
   for (let i = 0; i <= 14; i++) {
-    const d = new Date('2026-05-10');
+    const d = new Date(TODAY);
     d.setDate(d.getDate() - i);
     allDates.push(d.toISOString().slice(0, 10));
+  }
+  const mostRecentTalk = allDates.find(date => TALKS[date]);
+  const subtitle = document.getElementById('homeSubtitle');
+  if (subtitle) {
+    const wd = new Date().toLocaleDateString('ja-JP', { timeZone: 'Asia/Tokyo', weekday: 'short' });
+    subtitle.textContent = `本日 ${TODAY} (${wd}) · 過去14日分`;
   }
   let html = '';
   allDates.forEach(date => {
     if (TALKS[date]) {
-      html += talkCardHTML(TALKS[date], date === '2026-05-09'); // "today" treatment for the most recent
+      html += talkCardHTML(TALKS[date], date === mostRecentTalk); // 最新トークを強調
     } else if (SKIPPED_DATES.includes(date)) {
       html += `<div class="skip-card">— ${formatDate(date)} — no new release —</div>`;
     }
@@ -1127,7 +1133,7 @@ function renderCalendar() {
   const grid = document.getElementById('heatmapGrid');
   const days = 90;
   let html = '';
-  const today = new Date('2026-05-10');
+  const today = new Date(TODAY);
   for (let i = days - 1; i >= 0; i--) {
     const d = new Date(today);
     d.setDate(d.getDate() - i);
@@ -1543,13 +1549,14 @@ document.getElementById('searchInput').addEventListener('input', e => {
 
 // ============ STREAK ============
 function calcStreak() {
-  const dates = Object.keys(TALKS).sort().reverse();
   let streak = 0;
-  let cursor = new Date('2026-05-10');
-  for (let i = 0; i < 30; i++) {
+  let started = false;
+  let cursor = new Date(TODAY);
+  for (let i = 0; i < 60; i++) {
     const ds = cursor.toISOString().slice(0, 10);
-    if (TALKS[ds]) streak++;
-    else if (!SKIPPED_DATES.includes(ds)) break;
+    if (TALKS[ds]) { streak++; started = true; }
+    else if (SKIPPED_DATES.includes(ds)) { started = true; }
+    else if (started) break;   // 計上開始後の空白で途切れる(未処理の当日は素通り)
     cursor.setDate(cursor.getDate() - 1);
   }
   return streak;
