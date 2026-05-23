@@ -1,0 +1,5268 @@
+{
+  "id": "talk_2026-04-21",
+  "date": "2026-04-21",
+  "source": "ted-ed",
+  "primary_topic": "Literature",
+  "tags": [
+    "wuxia",
+    "jin-yong",
+    "chinese-literature",
+    "martial-arts",
+    "historical-fiction",
+    "hong-kong"
+  ],
+  "difficulty": "hard",
+  "slug": "gladys_mac_war_love_and_betrayal_the_epic_tale_of_the_legend_of_the_condor_heroes",
+  "video_id": "176728",
+  "title": "War, love, and betrayal: The epic tale of the “Legend of the Condor Heroes”",
+  "speaker": "Gladys Mac",
+  "duration_sec": 289,
+  "published_at": "2026-04-21T15:02:30Z",
+  "video_url": "https://www.ted.com/talks/gladys_mac_war_love_and_betrayal_the_epic_tale_of_the_legend_of_the_condor_heroes",
+  "embed_url": "https://embed.ted.com/talks/gladys_mac_war_love_and_betrayal_the_epic_tale_of_the_legend_of_the_condor_heroes",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_176728/d5fb9170-9e5b-40e7-b90c-645ff2e05506/jinyong_textless.jpg",
+  "background": {
+    "summary": "金庸『射雕英雄伝』(1957-59 連載) は中国武侠小説の金字塔。13世紀のジュルチン金朝・南宋・モンゴルの三つ巴を背景に、義兄弟の子郭靖・楊康の対照的な運命を描く。武侠ジャンルの史実と神話の融合、香港というフィクション避難地、世界での再評価まで。",
+    "details": [
+      {
+        "heading": "武侠 (wuxia)",
+        "body": "「武の英雄」を意味する中国小説ジャンル。1500年以上の民話に根ざし、義に縛られた放浪武芸者が江湖(jianghu)を旅する。"
+      },
+      {
+        "heading": "金庸 (1924-2018)",
+        "body": "本名 Louis Cha。香港の Ming Pao Daily News 創設者。1957-59年に『射雕英雄伝』連載、以後 14作品で華語圏最大の作家に。"
+      },
+      {
+        "heading": "13世紀の三国対立",
+        "body": "ジュルチン金朝・漢族南宋・モンゴル(チンギス・ハーン)の三勢力が中華大陸で激突。郭靖・楊康はその戦乱に翻弄される。"
+      },
+      {
+        "heading": "江湖 (jianghu)",
+        "body": "字義「川と湖」。武侠世界の代名詞となった、武芸者・盗賊・神秘の道具が交差する古代中国の神話化された世界。"
+      },
+      {
+        "heading": "中国本土での解禁と国際化",
+        "body": "1960-70年代、武侠は封建主義として中国本土で禁止。海賊版が広まり、1980年代の政策緩和で公式解禁。近年の英訳で西側でも読者を獲得中。"
+      }
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In the late 1950s, Hong Kong citizens flocked to newsstands to pick up the latest edition of the Commercial Daily.",
+          "translation_ja": "1950年代後半、香港市民は『商報』の最新版を手に入れようと新聞売店に殺到した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In the late 1950s"
+            },
+            {
+              "label": "S",
+              "content": "Hong Kong citizens"
+            },
+            {
+              "label": "V",
+              "content": "flocked"
+            },
+            {
+              "label": "M",
+              "content": "to newsstands"
+            },
+            {
+              "label": "M",
+              "content": "to pick up the latest edition of the Commercial Daily",
+              "note": "目的の to不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In the late 1950s, Hong Kong "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "citizens",
+              "ref": "citizens",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "flocked",
+              "ref": "flocked",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "newsstands",
+              "ref": "newsstands",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "pick up",
+              "ref": "pick_up"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the latest "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "edition",
+              "ref": "edition",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " of the "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "Commercial Daily",
+              "ref": "commercial_daily"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But not all readers were looking for timely news.",
+          "translation_ja": "しかしすべての読者がタイムリーなニュースを求めていたわけではない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "not all readers"
+            },
+            {
+              "label": "V",
+              "content": "were looking"
+            },
+            {
+              "label": "M",
+              "content": "for timely news"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "not all",
+              "ref": "not_all"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "readers",
+              "ref": "readers",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " were "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "looking for",
+              "ref": "look_for"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "timely",
+              "ref": "timely",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " news."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Many were following a story set hundreds of years in the past— a tale of adventure and war, romance and intrigue, brotherhood and betrayal.",
+          "translation_ja": "多くの人は数百年前を舞台とする物語を追っていた ── 冒険と戦争、ロマンスと陰謀、義兄弟と裏切りの物語を。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Many"
+            },
+            {
+              "label": "V",
+              "content": "were following"
+            },
+            {
+              "label": "O",
+              "content": "a story set hundreds of years in the past— a tale of adventure and war, romance and intrigue, brotherhood and betrayal"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Many were "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "following",
+              "ref": "following",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "story",
+              "ref": "story",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "set",
+              "ref": "set",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " hundreds of years in the past— a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "tale",
+              "ref": "tale",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "adventure",
+              "ref": "adventure",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "war",
+              "ref": "war",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "romance",
+              "ref": "romance",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "intrigue",
+              "ref": "intrigue",
+              "tier": "key"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "brotherhood",
+              "ref": "brotherhood",
+              "tier": "known"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "betrayal",
+              "ref": "betrayal",
+              "tier": "known"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Serialized from 1957 to 1959, Jin Yong's \"Legend of the Condor Heroes\" is the first book in Jin's beloved Condor Trilogy.",
+          "translation_ja": "1957年から59年にかけて連載された金庸の『射雕英雄伝』は、彼の愛される射雕三部作の第1作である。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Serialized from 1957 to 1959",
+              "note": "分詞構文"
+            },
+            {
+              "label": "S",
+              "content": "Jin Yong's \"Legend of the Condor Heroes\""
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "the first book in Jin's beloved Condor Trilogy"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Serialized",
+              "ref": "serialized",
+              "tier": "key"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " from 1957 to 1959, Jin Yong's \""
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "Legend of the Condor Heroes",
+              "ref": "legend_condor"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": "\" is the first book in Jin's "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "beloved",
+              "ref": "beloved",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "Condor Trilogy",
+              "ref": "condor_trilogy"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "This multigenerational epic is considered one of the most important works of Chinese fiction— and one of the finest wuxia stories ever written.",
+          "translation_ja": "この複数世代にわたる叙事詩は、中国小説の最重要作の一つ ── かつ史上最高峰の武侠物語の一つ ── とみなされている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This multigenerational epic"
+            },
+            {
+              "label": "V",
+              "content": "is considered",
+              "note": "受動態"
+            },
+            {
+              "label": "C",
+              "content": "one of the most important works of Chinese fiction— and one of the finest wuxia stories ever written"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "multigenerational",
+              "ref": "multigenerational",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "epic",
+              "ref": "epic",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "considered",
+              "ref": "considered",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " one of the most important works of Chinese "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "fiction",
+              "ref": "fiction",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "— and one of the finest "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "wuxia",
+              "ref": "wuxia",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " stories ever written."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 50.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Wuxia, roughly translated as \"martial hero,\" is a popular genre of Chinese fiction with roots in folktales over 1,500 years old.",
+          "translation_ja": "「武侠」は大まかに「武の英雄」と訳され、1,500年以上前の民話に根を持つ中国小説の人気ジャンルだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Wuxia, roughly translated as \"martial hero\"",
+              "note": "同格"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "a popular genre of Chinese fiction with roots in folktales over 1,500 years old"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Wuxia, roughly "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "translated",
+              "ref": "translated",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " as \""
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "martial hero",
+              "ref": "martial_hero"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ",\" is a popular "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "genre",
+              "ref": "genre",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of Chinese fiction with "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "roots",
+              "ref": "roots",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " in "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "folktales",
+              "ref": "folktales",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " over 1,500 years old."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Wuxia stories generally focus on nomadic martial artists bound to an honorable code of chivalry.",
+          "translation_ja": "武侠物語は概して、名誉ある騎士道精神に縛られた放浪の武芸者に焦点を当てる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Wuxia stories"
+            },
+            {
+              "label": "V",
+              "content": "focus"
+            },
+            {
+              "label": "M",
+              "content": "on nomadic martial artists bound to an honorable code of chivalry"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Wuxia stories generally focus on "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "nomadic",
+              "ref": "nomadic",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "martial artists",
+              "ref": "martial_artists"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "bound",
+              "ref": "bound",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to an "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "honorable",
+              "ref": "honorable",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "code of chivalry",
+              "ref": "code_chivalry"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "These heroes travel through a mythologized version of ancient China called jianghu, full of powerful leaders, roaming bandits, and mystical artifacts.",
+          "translation_ja": "これらの英雄は江湖と呼ばれる神話化された古代中国を旅する。そこは強大な指導者、流浪する盗賊、神秘の遺物に満ちている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These heroes"
+            },
+            {
+              "label": "V",
+              "content": "travel"
+            },
+            {
+              "label": "M",
+              "content": "through a mythologized version of ancient China called jianghu"
+            },
+            {
+              "label": "M",
+              "content": "full of powerful leaders, roaming bandits, and mystical artifacts",
+              "note": "分詞句的後置修飾"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These heroes travel through a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "mythologized",
+              "ref": "mythologized",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " version of ancient China called "
+            },
+            {
+              "id": "t4",
+              "type": "foreign",
+              "surface": "jianghu",
+              "ref": "jianghu"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", full of powerful "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "leaders",
+              "ref": "leaders",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "roaming",
+              "ref": "roaming",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "bandits",
+              "ref": "bandits",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "mystical",
+              "ref": "mystical",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "artifacts",
+              "ref": "artifacts",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "To face these challenges, wuxia heroes must learn superhuman feats of martial arts from ancient scrolls and reclusive immortal masters.",
+          "translation_ja": "こうした試練に立ち向かうため、武侠の英雄は古い巻物や世を捨てた不老不死の達人から、人並み外れた武術技を学ばねばならない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "To face these challenges",
+              "note": "目的の to不定詞"
+            },
+            {
+              "label": "S",
+              "content": "wuxia heroes"
+            },
+            {
+              "label": "V",
+              "content": "must learn"
+            },
+            {
+              "label": "O",
+              "content": "superhuman feats of martial arts from ancient scrolls and reclusive immortal masters"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "To face these challenges, wuxia heroes must learn "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "superhuman",
+              "ref": "superhuman",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "feats",
+              "ref": "feats",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "martial arts",
+              "ref": "martial_arts"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " from ancient "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "scrolls",
+              "ref": "scrolls",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "reclusive",
+              "ref": "reclusive",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "immortal",
+              "ref": "immortal",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "masters",
+              "ref": "masters",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 95.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "\"Legend of the Condor Heroes\" blends this martial arts action with pivotal Chinese history.",
+          "translation_ja": "『射雕英雄伝』はこの武術アクションを中国史の決定的時代と融合させる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "\"Legend of the Condor Heroes\""
+            },
+            {
+              "label": "V",
+              "content": "blends"
+            },
+            {
+              "label": "O",
+              "content": "this martial arts action with pivotal Chinese history",
+              "note": "blend A with B"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "\"Legend of the Condor Heroes\" "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "blends",
+              "ref": "blends",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " this martial arts "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "action",
+              "ref": "action",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "pivotal",
+              "ref": "pivotal",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " Chinese "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "history",
+              "ref": "history",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The book is set in the 13th century, amidst a century-long war between the Jurchen Jin dynasty and the Han Chinese Song Dynasty.",
+          "translation_ja": "本作は13世紀、ジュルチン金朝と漢族の宋朝の間で100年続いた戦争のさなかに設定されている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The book"
+            },
+            {
+              "label": "V",
+              "content": "is set"
+            },
+            {
+              "label": "M",
+              "content": "in the 13th century, amidst a century-long war between the Jurchen Jin dynasty and the Han Chinese Song Dynasty"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The book is "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "set in",
+              "ref": "set_in_period"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the 13th century, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "amidst",
+              "ref": "amidst",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "century-long",
+              "ref": "century_long"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " war between the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "Jurchen",
+              "ref": "jurchen",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "Jin dynasty",
+              "ref": "jin_dynasty"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " and the "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "Han",
+              "ref": "han",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " Chinese "
+            },
+            {
+              "id": "t14",
+              "type": "expression",
+              "surface": "Song Dynasty",
+              "ref": "song_dynasty"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Roughly 70 years into the conflict, a new enemy has joined the fray: Genghis Khan.",
+          "translation_ja": "紛争開始からおよそ70年、新たな敵が乱戦に加わった ── チンギス・ハーンである。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Roughly 70 years into the conflict",
+              "note": "時期"
+            },
+            {
+              "label": "S",
+              "content": "a new enemy"
+            },
+            {
+              "label": "V",
+              "content": "has joined",
+              "note": "現在完了"
+            },
+            {
+              "label": "O",
+              "content": "the fray"
+            },
+            {
+              "label": "M",
+              "content": "Genghis Khan",
+              "note": "同格"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Roughly 70 years into the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "conflict",
+              "ref": "conflict",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", a new "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "enemy",
+              "ref": "enemy",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " has joined the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "fray",
+              "ref": "fray",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ": "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "Genghis Khan",
+              "ref": "genghis_khan"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "The Mongols threaten to topple both empires, and raids by all parties wreak havoc across the continent.",
+          "translation_ja": "モンゴル人は両帝国を打倒しかねず、全勢力による襲撃が大陸に大混乱をもたらす。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The Mongols"
+            },
+            {
+              "label": "V",
+              "content": "threaten"
+            },
+            {
+              "label": "O",
+              "content": "to topple both empires"
+            },
+            {
+              "label": "M",
+              "content": "and raids by all parties wreak havoc across the continent",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Mongols",
+              "ref": "mongols",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " threaten to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "topple",
+              "ref": "topple",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " both empires, and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "raids",
+              "ref": "raids",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " by all parties "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "wreak havoc",
+              "ref": "wreak_havoc"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " across the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "continent",
+              "ref": "continent",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 125.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The novel begins in a Han village, where two expecting fathers are binding their unborn children as blood brothers.",
+          "translation_ja": "小説は漢族の村で始まる。そこでは出産間近の二人の父親が、まだ生まれぬ我が子を義兄弟として結ぼうとしている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The novel"
+            },
+            {
+              "label": "V",
+              "content": "begins"
+            },
+            {
+              "label": "M",
+              "content": "in a Han village, where two expecting fathers are binding their unborn children as blood brothers",
+              "note": "関係副詞節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "novel",
+              "ref": "novel",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " begins in a Han "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "village",
+              "ref": "village",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", where two "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "expecting",
+              "ref": "expecting",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " fathers are "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "binding",
+              "ref": "binding",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "unborn",
+              "ref": "unborn",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " children as "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "blood brothers",
+              "ref": "blood_brothers"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The children's names— Guo Jing and Yang Kang— were engraved on a pair of daggers.",
+          "translation_ja": "子供たちの名 ── 郭靖と楊康 ── は一対の短剣に刻まれた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The children's names— Guo Jing and Yang Kang—"
+            },
+            {
+              "label": "V",
+              "content": "were engraved",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "on a pair of daggers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The children's names— Guo Jing and Yang Kang— were "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "engraved",
+              "ref": "engraved",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " on a pair of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "daggers",
+              "ref": "daggers",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But a sudden Jurchen raid scatters the families.",
+          "translation_ja": "しかしジュルチンの突然の襲撃が家族たちを散り散りにする。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But"
+            },
+            {
+              "label": "S",
+              "content": "a sudden Jurchen raid"
+            },
+            {
+              "label": "V",
+              "content": "scatters"
+            },
+            {
+              "label": "O",
+              "content": "the families"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But a sudden Jurchen "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "raid",
+              "ref": "raid",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "scatters",
+              "ref": "scatters",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the families."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Guo Jing grows up amongst the Mongols, yet remains loyal to his Han heritage.",
+          "translation_ja": "郭靖はモンゴル人の中で成長するが、漢族の出自に忠実なままだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Guo Jing"
+            },
+            {
+              "label": "V",
+              "content": "grows up"
+            },
+            {
+              "label": "M",
+              "content": "amongst the Mongols"
+            },
+            {
+              "label": "M",
+              "content": "yet remains loyal to his Han heritage",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Guo Jing "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "grows up",
+              "ref": "grow_up"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "amongst",
+              "ref": "amongst",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the Mongols, yet remains "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "loyal",
+              "ref": "loyal",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to his Han "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "heritage",
+              "ref": "heritage",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Meanwhile, Jurchen royalty raise Yang Kang as a scheming prince— setting the stage for the brothers' tragic conflict.",
+          "translation_ja": "一方、ジュルチンの王族は楊康を策謀家の王子として育て上げ ── 義兄弟の悲劇的な対立の舞台を整える。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Meanwhile"
+            },
+            {
+              "label": "S",
+              "content": "Jurchen royalty"
+            },
+            {
+              "label": "V",
+              "content": "raise"
+            },
+            {
+              "label": "O",
+              "content": "Yang Kang"
+            },
+            {
+              "label": "C",
+              "content": "as a scheming prince"
+            },
+            {
+              "label": "M",
+              "content": "setting the stage for the brothers' tragic conflict",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Meanwhile, Jurchen "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "royalty",
+              "ref": "royalty",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "raise",
+              "ref": "raise",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " Yang Kang as a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "scheming",
+              "ref": "scheming",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "prince",
+              "ref": "prince",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "— "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "setting the stage for",
+              "ref": "set_the_stage"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " the brothers' "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "tragic",
+              "ref": "tragic",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "conflict",
+              "ref": "conflict",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 155.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Jin's novel follows the naive but kind-hearted Guo Jing and his clever lover Huang Rong.",
+          "translation_ja": "金庸の小説は、純朴だが心優しい郭靖と、賢明な恋人黄蓉を追う。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Jin's novel"
+            },
+            {
+              "label": "V",
+              "content": "follows"
+            },
+            {
+              "label": "O",
+              "content": "the naive but kind-hearted Guo Jing and his clever lover Huang Rong"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Jin's novel follows the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "naive",
+              "ref": "naive",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " but "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "kind-hearted",
+              "ref": "kind_hearted"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " Guo Jing and his "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "clever",
+              "ref": "clever",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " lover Huang Rong."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Their journey takes them to the bustling Song capital of Hangzhou, the harsh Mongol steppes, and the fabled market city of Samarkand.",
+          "translation_ja": "二人の旅路は、宋の活気あふれる首都・杭州、過酷なモンゴル草原、そして伝説の市場都市サマルカンドへと彼らを運ぶ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Their journey"
+            },
+            {
+              "label": "V",
+              "content": "takes"
+            },
+            {
+              "label": "O",
+              "content": "them"
+            },
+            {
+              "label": "M",
+              "content": "to the bustling Song capital of Hangzhou, the harsh Mongol steppes, and the fabled market city of Samarkand"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Their "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "journey",
+              "ref": "journey",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " takes them to the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "bustling",
+              "ref": "bustling",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " Song capital of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "Hangzhou",
+              "ref": "hangzhou",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "harsh",
+              "ref": "harsh",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " Mongol "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "steppes",
+              "ref": "steppes",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", and the "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "fabled",
+              "ref": "fabled",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " market city of "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "Samarkand",
+              "ref": "samarkand",
+              "tier": "key"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Our heroes traverse through jianghu, encountering colorful characters, and witnessing key historical events.",
+          "translation_ja": "主人公たちは江湖を縦横に渡り、個性豊かな人物に出会い、歴史的事件を目撃する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Our heroes"
+            },
+            {
+              "label": "V",
+              "content": "traverse"
+            },
+            {
+              "label": "M",
+              "content": "through jianghu"
+            },
+            {
+              "label": "M",
+              "content": "encountering colorful characters, and witnessing key historical events",
+              "note": "分詞構文(並列)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Our heroes "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "traverse",
+              "ref": "traverse",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " through jianghu, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "encountering",
+              "ref": "encountering",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "colorful",
+              "ref": "colorful",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "characters",
+              "ref": "characters",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "witnessing",
+              "ref": "witnessing",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " key historical events."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "As they battle enemies, discover treasure, and help solve local crimes, their martial arts skills grow more legendary— preparing Guo Jing for his fated confrontation.",
+          "translation_ja": "敵と戦い、宝物を発見し、地元の犯罪解決を助けるうちに、彼らの武術の腕はより伝説的になっていき ── 郭靖を宿命の対決へと準備する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "As they battle enemies, discover treasure, and help solve local crimes",
+              "note": "同時の as 節"
+            },
+            {
+              "label": "S",
+              "content": "their martial arts skills"
+            },
+            {
+              "label": "V",
+              "content": "grow"
+            },
+            {
+              "label": "C",
+              "content": "more legendary"
+            },
+            {
+              "label": "M",
+              "content": "preparing Guo Jing for his fated confrontation",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "As they "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "battle",
+              "ref": "battle",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "enemies",
+              "ref": "enemies",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", discover "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "treasure",
+              "ref": "treasure",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and help solve local crimes, their martial arts skills grow more "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "legendary",
+              "ref": "legendary",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "— "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "preparing",
+              "ref": "preparing",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " Guo Jing for his "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "fated",
+              "ref": "fated",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "confrontation",
+              "ref": "confrontation",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 195.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The novel showcases over 80 unique styles of martial arts, ranging from realistic techniques to almost mystical maneuvers.",
+          "translation_ja": "本作は80以上の独自の武術流派を披露し、現実的な技から、ほぼ神秘的な動作まで及ぶ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The novel"
+            },
+            {
+              "label": "V",
+              "content": "showcases"
+            },
+            {
+              "label": "O",
+              "content": "over 80 unique styles of martial arts"
+            },
+            {
+              "label": "M",
+              "content": "ranging from realistic techniques to almost mystical maneuvers",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The novel "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "showcases",
+              "ref": "showcases",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " over 80 unique styles of martial arts, "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "ranging from … to",
+              "ref": "range_from_to"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "realistic",
+              "ref": "realistic",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "techniques",
+              "ref": "techniques",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to almost mystical "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "maneuvers",
+              "ref": "maneuvers",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But even seemingly simple moves have surprising depth.",
+          "translation_ja": "しかし一見単純な動きにも驚くべき深さがある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "even seemingly simple moves"
+            },
+            {
+              "label": "V",
+              "content": "have"
+            },
+            {
+              "label": "O",
+              "content": "surprising depth"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But even "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "seemingly",
+              "ref": "seemingly",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " simple "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "moves",
+              "ref": "moves",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " have surprising "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "depth",
+              "ref": "depth",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "To master a technique that will allow him to perform two attacks at once, Guo Jing must first learn to simultaneously draw a circle with one hand and a square with the other.",
+          "translation_ja": "二つの攻撃を同時に放てる技を習得するため、郭靖はまず片手で円、もう片手で四角を同時に描くことを学ばねばならない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "To master a technique that will allow him to perform two attacks at once",
+              "note": "目的の to不定詞"
+            },
+            {
+              "label": "S",
+              "content": "Guo Jing"
+            },
+            {
+              "label": "V",
+              "content": "must first learn"
+            },
+            {
+              "label": "O",
+              "content": "to simultaneously draw a circle with one hand and a square with the other"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "To "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "master",
+              "ref": "master",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a technique that will allow him to perform two attacks "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "at once",
+              "ref": "at_once"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " Guo Jing must first learn to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "simultaneously",
+              "ref": "simultaneously",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " draw a circle with one hand and a square with the other."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This kind of deceptively difficult tutelage torments wuxia students and readers alike.",
+          "translation_ja": "この種の見かけによらず難しい修練は、武侠の門弟と読者の双方を悩ませる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This kind of deceptively difficult tutelage"
+            },
+            {
+              "label": "V",
+              "content": "torments"
+            },
+            {
+              "label": "O",
+              "content": "wuxia students and readers alike"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This kind of "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "deceptively",
+              "ref": "deceptively",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " difficult "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "tutelage",
+              "ref": "tutelage",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "torments",
+              "ref": "torments",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " wuxia students and readers "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "alike",
+              "ref": "alike",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 225.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Jin Yong was the pen name of Louis Cha, a journalist and founder of Ming Pao Daily News.",
+          "translation_ja": "金庸はルイ・チャの筆名で、ジャーナリストにして『明報』の創設者である。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Jin Yong"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "the pen name of Louis Cha, a journalist and founder of Ming Pao Daily News"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Jin Yong was the "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "pen name",
+              "ref": "pen_name"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of Louis Cha, a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "journalist",
+              "ref": "journalist",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "founder",
+              "ref": "founder",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "Ming Pao Daily News",
+              "ref": "ming_pao"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "In the 1960s and 70s, wuxia was banned for its feudal associations.",
+          "translation_ja": "1960年代と70年代、武侠はその封建的な連想ゆえに禁止されていた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In the 1960s and 70s"
+            },
+            {
+              "label": "S",
+              "content": "wuxia"
+            },
+            {
+              "label": "V",
+              "content": "was banned",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "for its feudal associations"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In the 1960s and 70s, wuxia was "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "banned",
+              "ref": "banned",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " for its "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "feudal",
+              "ref": "feudal",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "associations",
+              "ref": "associations",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But in Hong Kong, a British colony at the time, Cha could write fiction and cover news about the Cultural Revolution freely.",
+          "translation_ja": "しかし当時イギリス植民地だった香港では、チャは自由に小説を書き、文化大革命のニュースを取材することができた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "in Hong Kong, a British colony at the time",
+              "note": "同格"
+            },
+            {
+              "label": "S",
+              "content": "Cha"
+            },
+            {
+              "label": "V",
+              "content": "could write / cover",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "fiction and news about the Cultural Revolution"
+            },
+            {
+              "label": "M",
+              "content": "freely"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But in Hong Kong, a British "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "colony",
+              "ref": "colony",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " at the time, Cha could write fiction and "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "cover news",
+              "ref": "cover_news"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " about the "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "Cultural Revolution",
+              "ref": "cultural_revolution"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " freely."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "He even worked to add depth and complexity to a genre often considered formulaic and lowbrow.",
+          "translation_ja": "彼は、しばしば紋切型で低俗とされるジャンルに深みと複雑さを加えるべく努めさえした。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "He"
+            },
+            {
+              "label": "V",
+              "content": "worked"
+            },
+            {
+              "label": "M",
+              "content": "to add depth and complexity to a genre often considered formulaic and lowbrow",
+              "note": "目的の to不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "He even worked to add depth and "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "complexity",
+              "ref": "complexity",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to a genre often considered "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "formulaic",
+              "ref": "formulaic",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "lowbrow",
+              "ref": "lowbrow",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "\"Legend of the Condor Heroes\" celebrates Chinese identity by exploring China's culture and history with intimate humanity.",
+          "translation_ja": "『射雕英雄伝』は、中国の文化と歴史を親密な人間性をもって探求することで、中国の自己同一性を称える。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "\"Legend of the Condor Heroes\""
+            },
+            {
+              "label": "V",
+              "content": "celebrates"
+            },
+            {
+              "label": "O",
+              "content": "Chinese identity"
+            },
+            {
+              "label": "M",
+              "content": "by exploring China's culture and history with intimate humanity",
+              "note": "手段"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "\"Legend of the Condor Heroes\" "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "celebrates",
+              "ref": "celebrates",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Chinese "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "identity",
+              "ref": "identity",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " by "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "exploring",
+              "ref": "exploring",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " China's culture and history with "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "intimate",
+              "ref": "intimate",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "humanity",
+              "ref": "humanity",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Even though Jin's books were banned in China, his work still found Chinese readers around the globe, and bootleg versions even made their way to the mainland.",
+          "translation_ja": "金の作品は中国で禁書だったにもかかわらず、彼の作品は世界中の中国系読者を見つけ、海賊版すら本土へ流入した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Even though Jin's books were banned in China",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "his work"
+            },
+            {
+              "label": "V",
+              "content": "found"
+            },
+            {
+              "label": "O",
+              "content": "Chinese readers around the globe"
+            },
+            {
+              "label": "M",
+              "content": "and bootleg versions even made their way to the mainland",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Even though Jin's books were banned in China, his work still found Chinese readers "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "around the globe",
+              "ref": "around_globe"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "bootleg",
+              "ref": "bootleg",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " versions even "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "made their way to",
+              "ref": "make_way_to"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "mainland",
+              "ref": "mainland",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "When the Chinese government relaxed its policies in the 1980s, his novels found an eager audience.",
+          "translation_ja": "1980年代に中国政府が政策を緩和すると、彼の小説は熱心な読者を獲得した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "When the Chinese government relaxed its policies in the 1980s",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "his novels"
+            },
+            {
+              "label": "V",
+              "content": "found"
+            },
+            {
+              "label": "O",
+              "content": "an eager audience"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "When the Chinese government "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "relaxed",
+              "ref": "relaxed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " its "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "policies",
+              "ref": "policies",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " in the 1980s, his novels found an "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "eager",
+              "ref": "eager",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "audience",
+              "ref": "audience",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start_sec": 270.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Today, Jin Yong's works have been adapted into film, television, and video games.",
+          "translation_ja": "今日、金庸の作品は映画・テレビ・ビデオゲームに翻案されている。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Today"
+            },
+            {
+              "label": "S",
+              "content": "Jin Yong's works"
+            },
+            {
+              "label": "V",
+              "content": "have been adapted",
+              "note": "現在完了受動"
+            },
+            {
+              "label": "M",
+              "content": "into film, television, and video games"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Today, Jin Yong's works have been "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "adapted",
+              "ref": "adapted",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " into film, television, and video games."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "His novels are so beloved it has been said, \"where there are Chinese people, there must be Jin Yong's fiction.\"",
+          "translation_ja": "彼の小説はあまりに愛されており、「中国人のいるところには必ず金庸の小説がある」と言われるほどだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "His novels"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "so beloved it has been said, \"where there are Chinese people, there must be Jin Yong's fiction\"",
+              "note": "so 〜 that(省略)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "His novels are so beloved it has been said, \"where there are Chinese people, there must be Jin Yong's fiction.\""
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "However, this literary titan remains relatively unknown in the West, due to the difficulties of translation and the high level of Chinese cultural knowledge his works demand.",
+          "translation_ja": "しかしながら、この文学界の巨人は、翻訳の難しさと作品が要求する高度な中国文化的知識のため、西側では比較的知られていない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "However"
+            },
+            {
+              "label": "S",
+              "content": "this literary titan"
+            },
+            {
+              "label": "V",
+              "content": "remains"
+            },
+            {
+              "label": "C",
+              "content": "relatively unknown in the West"
+            },
+            {
+              "label": "M",
+              "content": "due to the difficulties of translation and the high level of Chinese cultural knowledge his works demand"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "However, this "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "literary",
+              "ref": "literary",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "titan",
+              "ref": "titan",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "remains",
+              "ref": "remains",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " relatively unknown in the West, "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "due to",
+              "ref": "due_to"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the difficulties of "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "translation",
+              "ref": "translation",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " and the high level of Chinese cultural knowledge his works "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "demand",
+              "ref": "demand",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Fortunately, recent English translations of the \"Legend of the Condor Heroes\" are helping a new generation of readers experience the sweeping saga of the rivers and lakes.",
+          "translation_ja": "幸い、『射雕英雄伝』の最近の英訳が、新世代の読者に「川と湖」の壮大な物語を体験させる助けとなっている。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Fortunately"
+            },
+            {
+              "label": "S",
+              "content": "recent English translations of the \"Legend of the Condor Heroes\""
+            },
+            {
+              "label": "V",
+              "content": "are helping"
+            },
+            {
+              "label": "O",
+              "content": "a new generation of readers"
+            },
+            {
+              "label": "C",
+              "content": "experience the sweeping saga of the rivers and lakes",
+              "note": "原形不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Fortunately, recent English translations of the \"Legend of the Condor Heroes\" are helping a new "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "generation",
+              "ref": "generation",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of readers experience the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "sweeping",
+              "ref": "sweeping",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "saga",
+              "ref": "saga",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of the "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "rivers and lakes",
+              "ref": "rivers_lakes"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "action": {
+      "tier": "skip",
+      "surface": "action",
+      "pos": "n · A2",
+      "pron": "/ˈæk.ʃən/",
+      "meaning": "行動、アクション",
+      "example": {
+        "en": "Quick action.",
+        "ja": "素早い行動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adapted": {
+      "tier": "known",
+      "surface": "adapted",
+      "pos": "v · B2",
+      "pron": "/əˈdæp.tɪd/",
+      "meaning": "翻案された",
+      "example": {
+        "en": "Adapted from a novel.",
+        "ja": "小説から脚色。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adventure": {
+      "tier": "skip",
+      "surface": "adventure",
+      "pos": "n · A2",
+      "pron": "/ədˈven.tʃər/",
+      "meaning": "冒険",
+      "example": {
+        "en": "Big adventure.",
+        "ja": "大冒険。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alike": {
+      "tier": "known",
+      "surface": "alike",
+      "pos": "adv · B1",
+      "pron": "/əˈlaɪk/",
+      "meaning": "同様に",
+      "example": {
+        "en": "Young and old alike.",
+        "ja": "老いも若きも。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "amidst": {
+      "tier": "known",
+      "surface": "amidst",
+      "pos": "prep · C1",
+      "pron": "/əˈmɪdst/",
+      "meaning": "〜のさなかで",
+      "example": {
+        "en": "Amidst the chaos.",
+        "ja": "混乱のさなか。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "amongst": {
+      "tier": "known",
+      "surface": "amongst",
+      "pos": "prep · B1",
+      "pron": "/əˈmʌŋst/",
+      "meaning": "〜の中で",
+      "example": {
+        "en": "Amongst friends.",
+        "ja": "友人の間で。"
+      },
+      "context": "among の英語形。",
+      "collocations": []
+    },
+    "artifacts": {
+      "tier": "known",
+      "surface": "artifacts",
+      "pos": "n · B2",
+      "pron": "/ˈɑː.tɪ.fækts/",
+      "meaning": "遺物、人工物",
+      "example": {
+        "en": "Ancient artifacts.",
+        "ja": "古代遺物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "associations": {
+      "tier": "known",
+      "surface": "associations",
+      "pos": "n · B2",
+      "pron": "/əˌsoʊ.siˈeɪ.ʃənz/",
+      "meaning": "連想",
+      "example": {
+        "en": "Negative associations.",
+        "ja": "否定的連想。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "audience": {
+      "tier": "skip",
+      "surface": "audience",
+      "pos": "n · A2",
+      "pron": "/ˈɔː.di.əns/",
+      "meaning": "聴衆",
+      "example": {
+        "en": "Live audience.",
+        "ja": "ライブ観客。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bandits": {
+      "tier": "known",
+      "surface": "bandits",
+      "pos": "n · B2",
+      "pron": "/ˈbæn.dɪts/",
+      "meaning": "盗賊",
+      "example": {
+        "en": "Highway bandits.",
+        "ja": "街道の盗賊。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "banned": {
+      "tier": "known",
+      "surface": "banned",
+      "pos": "v · B1",
+      "pron": "/bænd/",
+      "meaning": "禁止された",
+      "example": {
+        "en": "Banned in many countries.",
+        "ja": "多国で禁止。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "battle": {
+      "tier": "known",
+      "surface": "battle",
+      "pos": "v · B2",
+      "pron": "/ˈbæt.l/",
+      "meaning": "戦う",
+      "example": {
+        "en": "Battle the enemy.",
+        "ja": "敵と戦う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "beloved": {
+      "tier": "known",
+      "surface": "beloved",
+      "pos": "adj · B2",
+      "pron": "/bɪˈlʌv.ɪd/",
+      "meaning": "愛される",
+      "example": {
+        "en": "Beloved author.",
+        "ja": "愛される作家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "betrayal": {
+      "tier": "known",
+      "surface": "betrayal",
+      "pos": "n · B2",
+      "pron": "/bɪˈtreɪ.əl/",
+      "meaning": "裏切り",
+      "example": {
+        "en": "Act of betrayal.",
+        "ja": "裏切り行為。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "binding": {
+      "tier": "known",
+      "surface": "binding",
+      "pos": "v · B2",
+      "pron": "/ˈbaɪn.dɪŋ/",
+      "meaning": "結びつけて",
+      "example": {
+        "en": "Binding contract.",
+        "ja": "拘束力ある契約。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "blends": {
+      "tier": "known",
+      "surface": "blends",
+      "pos": "v · B2",
+      "pron": "/blendz/",
+      "meaning": "混ぜる、融合する",
+      "example": {
+        "en": "Blends styles.",
+        "ja": "流派を融合。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bootleg": {
+      "tier": "key",
+      "surface": "bootleg",
+      "pos": "adj · C1",
+      "pron": "/ˈbuːt.leɡ/",
+      "meaning": "海賊版の",
+      "example": {
+        "en": "Bootleg recording.",
+        "ja": "海賊録音。"
+      },
+      "context": "禁酒法時代の密造酒に由来。",
+      "collocations": []
+    },
+    "bound": {
+      "tier": "known",
+      "surface": "bound",
+      "pos": "adj · B2",
+      "pron": "/baʊnd/",
+      "meaning": "縛られた",
+      "example": {
+        "en": "Bound by duty.",
+        "ja": "義務に縛られた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "brotherhood": {
+      "tier": "known",
+      "surface": "brotherhood",
+      "pos": "n · B2",
+      "pron": "/ˈbrʌð.ə.hʊd/",
+      "meaning": "兄弟愛",
+      "example": {
+        "en": "Sense of brotherhood.",
+        "ja": "兄弟愛の感覚。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bustling": {
+      "tier": "known",
+      "surface": "bustling",
+      "pos": "adj · B2",
+      "pron": "/ˈbʌs.l.ɪŋ/",
+      "meaning": "活気あふれる",
+      "example": {
+        "en": "Bustling market.",
+        "ja": "賑やかな市場。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "celebrates": {
+      "tier": "skip",
+      "surface": "celebrates",
+      "pos": "v · A2",
+      "pron": "/ˈsel.ɪ.breɪts/",
+      "meaning": "祝う、称える",
+      "example": {
+        "en": "Celebrates victory.",
+        "ja": "勝利を祝う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "characters": {
+      "tier": "skip",
+      "surface": "characters",
+      "pos": "n · A2",
+      "pron": "/ˈkær.ək.təz/",
+      "meaning": "登場人物",
+      "example": {
+        "en": "Main characters.",
+        "ja": "主要人物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "citizens": {
+      "tier": "skip",
+      "surface": "citizens",
+      "pos": "n · A2",
+      "pron": "/ˈsɪt.ɪ.zənz/",
+      "meaning": "市民",
+      "example": {
+        "en": "Concerned citizens.",
+        "ja": "懸念する市民。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clever": {
+      "tier": "skip",
+      "surface": "clever",
+      "pos": "adj · A2",
+      "pron": "/ˈklev.ər/",
+      "meaning": "賢い",
+      "example": {
+        "en": "Clever kid.",
+        "ja": "賢い子。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "colony": {
+      "tier": "known",
+      "surface": "colony",
+      "pos": "n · B2",
+      "pron": "/ˈkɒl.ə.ni/",
+      "meaning": "植民地",
+      "example": {
+        "en": "British colony.",
+        "ja": "英国植民地。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "colorful": {
+      "tier": "known",
+      "surface": "colorful",
+      "pos": "adj · B1",
+      "pron": "/ˈkʌl.ə.fəl/",
+      "meaning": "個性的な、色彩豊かな",
+      "example": {
+        "en": "Colorful character.",
+        "ja": "個性的な人物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "complexity": {
+      "tier": "known",
+      "surface": "complexity",
+      "pos": "n · B2",
+      "pron": "/kəmˈplek.sə.ti/",
+      "meaning": "複雑さ",
+      "example": {
+        "en": "Hidden complexity.",
+        "ja": "隠れた複雑さ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conflict": {
+      "tier": "known",
+      "surface": "conflict",
+      "pos": "n · B1",
+      "pron": "/ˈkɒn.flɪkt/",
+      "meaning": "対立、紛争",
+      "example": {
+        "en": "Armed conflict.",
+        "ja": "武力衝突。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confrontation": {
+      "tier": "known",
+      "surface": "confrontation",
+      "pos": "n · B2",
+      "pron": "/ˌkɒn.frənˈteɪ.ʃən/",
+      "meaning": "対決",
+      "example": {
+        "en": "Direct confrontation.",
+        "ja": "直接対決。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "considered": {
+      "tier": "skip",
+      "surface": "considered",
+      "pos": "v · A2",
+      "pron": "/kənˈsɪd.əd/",
+      "meaning": "とみなされた",
+      "example": {
+        "en": "Considered safe.",
+        "ja": "安全と見なされた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "continent": {
+      "tier": "skip",
+      "surface": "continent",
+      "pos": "n · A2",
+      "pron": "/ˈkɒn.tɪ.nənt/",
+      "meaning": "大陸",
+      "example": {
+        "en": "African continent.",
+        "ja": "アフリカ大陸。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "daggers": {
+      "tier": "known",
+      "surface": "daggers",
+      "pos": "n · B2",
+      "pron": "/ˈdæɡ.əz/",
+      "meaning": "短剣",
+      "example": {
+        "en": "Hidden daggers.",
+        "ja": "隠された短剣。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deceptively": {
+      "tier": "key",
+      "surface": "deceptively",
+      "pos": "adv · C2",
+      "pron": "/dɪˈsep.tɪv.li/",
+      "meaning": "見かけによらず",
+      "example": {
+        "en": "Deceptively simple.",
+        "ja": "見かけより複雑。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "demand": {
+      "tier": "skip",
+      "surface": "demand",
+      "pos": "v · A2",
+      "pron": "/dɪˈmɑːnd/",
+      "meaning": "要求する",
+      "example": {
+        "en": "Demand respect.",
+        "ja": "尊敬を要求。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "depth": {
+      "tier": "skip",
+      "surface": "depth",
+      "pos": "n · A2",
+      "pron": "/depθ/",
+      "meaning": "深さ",
+      "example": {
+        "en": "Ocean depth.",
+        "ja": "海の深さ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eager": {
+      "tier": "known",
+      "surface": "eager",
+      "pos": "adj · B1",
+      "pron": "/ˈiː.ɡər/",
+      "meaning": "熱心な",
+      "example": {
+        "en": "Eager students.",
+        "ja": "熱心な学生。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "edition": {
+      "tier": "known",
+      "surface": "edition",
+      "pos": "n · B1",
+      "pron": "/ɪˈdɪʃ.ən/",
+      "meaning": "版",
+      "example": {
+        "en": "Special edition.",
+        "ja": "特別版。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "encountering": {
+      "tier": "known",
+      "surface": "encountering",
+      "pos": "v · B2",
+      "pron": "/ɪnˈkaʊn.tər.ɪŋ/",
+      "meaning": "出会って",
+      "example": {
+        "en": "Encountering difficulties.",
+        "ja": "困難に遭遇。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enemies": {
+      "tier": "skip",
+      "surface": "enemies",
+      "pos": "n · A2",
+      "pron": "/ˈen.ə.miz/",
+      "meaning": "敵",
+      "example": {
+        "en": "Sworn enemies.",
+        "ja": "宿敵。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enemy": {
+      "tier": "skip",
+      "surface": "enemy",
+      "pos": "n · A2",
+      "pron": "/ˈen.ə.mi/",
+      "meaning": "敵",
+      "example": {
+        "en": "Common enemy.",
+        "ja": "共通の敵。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "engraved": {
+      "tier": "known",
+      "surface": "engraved",
+      "pos": "v · B2",
+      "pron": "/ɪnˈɡreɪvd/",
+      "meaning": "刻まれた",
+      "example": {
+        "en": "Engraved name.",
+        "ja": "刻印された名。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "epic": {
+      "tier": "known",
+      "surface": "epic",
+      "pos": "n · B2",
+      "pron": "/ˈep.ɪk/",
+      "meaning": "叙事詩、超大作",
+      "example": {
+        "en": "Epic film.",
+        "ja": "超大作映画。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expecting": {
+      "tier": "known",
+      "surface": "expecting",
+      "pos": "adj · B2",
+      "pron": "/ɪkˈspek.tɪŋ/",
+      "meaning": "出産間近の",
+      "example": {
+        "en": "She's expecting.",
+        "ja": "彼女は妊娠中。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exploring": {
+      "tier": "skip",
+      "surface": "exploring",
+      "pos": "v · A2",
+      "pron": "/ɪkˈsplɔː.rɪŋ/",
+      "meaning": "探求して",
+      "example": {
+        "en": "Exploring caves.",
+        "ja": "洞窟を探検。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fabled": {
+      "tier": "known",
+      "surface": "fabled",
+      "pos": "adj · C1",
+      "pron": "/ˈfeɪ.bld/",
+      "meaning": "伝説の",
+      "example": {
+        "en": "Fabled city.",
+        "ja": "伝説の都市。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fated": {
+      "tier": "key",
+      "surface": "fated",
+      "pos": "adj · C1",
+      "pron": "/ˈfeɪ.tɪd/",
+      "meaning": "運命づけられた",
+      "example": {
+        "en": "Fated to meet.",
+        "ja": "出会う運命。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "feats": {
+      "tier": "known",
+      "surface": "feats",
+      "pos": "n · B2",
+      "pron": "/fiːts/",
+      "meaning": "偉業",
+      "example": {
+        "en": "Athletic feats.",
+        "ja": "運動の偉業。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "feudal": {
+      "tier": "key",
+      "surface": "feudal",
+      "pos": "adj · C1",
+      "pron": "/ˈfjuː.dəl/",
+      "meaning": "封建制の",
+      "example": {
+        "en": "Feudal Japan.",
+        "ja": "封建時代の日本。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fiction": {
+      "tier": "skip",
+      "surface": "fiction",
+      "pos": "n · A2",
+      "pron": "/ˈfɪk.ʃən/",
+      "meaning": "フィクション",
+      "example": {
+        "en": "Science fiction.",
+        "ja": "SF。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "flocked": {
+      "tier": "known",
+      "surface": "flocked",
+      "pos": "v · B2",
+      "pron": "/flɒkt/",
+      "meaning": "群がった",
+      "example": {
+        "en": "Fans flocked.",
+        "ja": "ファンが殺到。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "folktales": {
+      "tier": "known",
+      "surface": "folktales",
+      "pos": "n · C1",
+      "pron": "/ˈfoʊk.teɪlz/",
+      "meaning": "民話",
+      "example": {
+        "en": "Ancient folktales.",
+        "ja": "古い民話。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "following": {
+      "tier": "skip",
+      "surface": "following",
+      "pos": "v · A2",
+      "pron": "/ˈfɒl.oʊ.ɪŋ/",
+      "meaning": "追って",
+      "example": {
+        "en": "Following news.",
+        "ja": "ニュースを追う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "formulaic": {
+      "tier": "key",
+      "surface": "formulaic",
+      "pos": "adj · C1",
+      "pron": "/ˌfɔː.mjəˈleɪ.ɪk/",
+      "meaning": "紋切型の",
+      "example": {
+        "en": "Formulaic plot.",
+        "ja": "紋切型の筋。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "founder": {
+      "tier": "known",
+      "surface": "founder",
+      "pos": "n · B2",
+      "pron": "/ˈfaʊn.dər/",
+      "meaning": "創設者",
+      "example": {
+        "en": "Company founder.",
+        "ja": "会社創業者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fray": {
+      "tier": "key",
+      "surface": "fray",
+      "pos": "n · C2",
+      "pron": "/freɪ/",
+      "meaning": "乱戦、戦い",
+      "example": {
+        "en": "Join the fray.",
+        "ja": "乱戦に加わる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "generation": {
+      "tier": "skip",
+      "surface": "generation",
+      "pos": "n · A2",
+      "pron": "/ˌdʒen.əˈreɪ.ʃən/",
+      "meaning": "世代",
+      "example": {
+        "en": "Next generation.",
+        "ja": "次世代。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "genre": {
+      "tier": "known",
+      "surface": "genre",
+      "pos": "n · B1",
+      "pron": "/ˈʒɒn.rə/",
+      "meaning": "ジャンル",
+      "example": {
+        "en": "Music genre.",
+        "ja": "音楽ジャンル。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "han": {
+      "tier": "key",
+      "surface": "Han",
+      "pos": "n · proper",
+      "pron": "/hæn/",
+      "meaning": "漢族、漢",
+      "example": {
+        "en": "Han Chinese.",
+        "ja": "漢民族。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hangzhou": {
+      "tier": "key",
+      "surface": "Hangzhou",
+      "pos": "n · proper",
+      "pron": "/ˌhɑːŋˈdʒoʊ/",
+      "meaning": "杭州",
+      "example": {
+        "en": "Hangzhou is in Zhejiang.",
+        "ja": "杭州は浙江省にある。"
+      },
+      "context": "南宋の首都。",
+      "collocations": []
+    },
+    "harsh": {
+      "tier": "known",
+      "surface": "harsh",
+      "pos": "adj · B1",
+      "pron": "/hɑːʃ/",
+      "meaning": "過酷な",
+      "example": {
+        "en": "Harsh climate.",
+        "ja": "厳しい気候。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "heritage": {
+      "tier": "known",
+      "surface": "heritage",
+      "pos": "n · B2",
+      "pron": "/ˈher.ɪ.tɪdʒ/",
+      "meaning": "遺産、伝統",
+      "example": {
+        "en": "Cultural heritage.",
+        "ja": "文化遺産。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "history": {
+      "tier": "skip",
+      "surface": "history",
+      "pos": "n · A1",
+      "pron": "/ˈhɪs.tər.i/",
+      "meaning": "歴史",
+      "example": {
+        "en": "Local history.",
+        "ja": "郷土史。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "honorable": {
+      "tier": "known",
+      "surface": "honorable",
+      "pos": "adj · B2",
+      "pron": "/ˈɒn.ə.rə.bl/",
+      "meaning": "名誉ある",
+      "example": {
+        "en": "Honorable conduct.",
+        "ja": "立派な行動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "humanity": {
+      "tier": "known",
+      "surface": "humanity",
+      "pos": "n · B2",
+      "pron": "/hjuːˈmæn.ə.ti/",
+      "meaning": "人間性、人類",
+      "example": {
+        "en": "Crimes against humanity.",
+        "ja": "人道に対する罪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "identity": {
+      "tier": "known",
+      "surface": "identity",
+      "pos": "n · B1",
+      "pron": "/aɪˈden.tə.ti/",
+      "meaning": "自己同一性、身元",
+      "example": {
+        "en": "Cultural identity.",
+        "ja": "文化的アイデンティティ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "immortal": {
+      "tier": "known",
+      "surface": "immortal",
+      "pos": "adj · B2",
+      "pron": "/ɪˈmɔː.təl/",
+      "meaning": "不老不死の",
+      "example": {
+        "en": "Immortal soul.",
+        "ja": "不滅の魂。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intimate": {
+      "tier": "known",
+      "surface": "intimate",
+      "pos": "adj · B2",
+      "pron": "/ˈɪn.tɪ.mət/",
+      "meaning": "親密な",
+      "example": {
+        "en": "Intimate dinner.",
+        "ja": "親密な夕食。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intrigue": {
+      "tier": "key",
+      "surface": "intrigue",
+      "pos": "n · C1",
+      "pron": "/ˈɪn.triːɡ/",
+      "meaning": "陰謀、興味津々の状況",
+      "example": {
+        "en": "Political intrigue.",
+        "ja": "政治的陰謀。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "journalist": {
+      "tier": "skip",
+      "surface": "journalist",
+      "pos": "n · A2",
+      "pron": "/ˈdʒɜː.nə.lɪst/",
+      "meaning": "ジャーナリスト",
+      "example": {
+        "en": "Investigative journalist.",
+        "ja": "調査報道記者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "journey": {
+      "tier": "skip",
+      "surface": "journey",
+      "pos": "n · A2",
+      "pron": "/ˈdʒɜː.ni/",
+      "meaning": "旅",
+      "example": {
+        "en": "Long journey.",
+        "ja": "長旅。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "jurchen": {
+      "tier": "key",
+      "surface": "Jurchen",
+      "pos": "n · proper",
+      "pron": "/ˈdʒɜː.tʃən/",
+      "meaning": "ジュルチン",
+      "example": {
+        "en": "Jurchen tribes.",
+        "ja": "ジュルチン諸部族。"
+      },
+      "context": "金朝を建てた満州系民族。",
+      "collocations": []
+    },
+    "leaders": {
+      "tier": "skip",
+      "surface": "leaders",
+      "pos": "n · A2",
+      "pron": "/ˈliː.dəz/",
+      "meaning": "指導者",
+      "example": {
+        "en": "Strong leaders.",
+        "ja": "強い指導者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "legendary": {
+      "tier": "known",
+      "surface": "legendary",
+      "pos": "adj · B2",
+      "pron": "/ˈledʒ.ən.dər.i/",
+      "meaning": "伝説的な",
+      "example": {
+        "en": "Legendary hero.",
+        "ja": "伝説の英雄。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "literary": {
+      "tier": "known",
+      "surface": "literary",
+      "pos": "adj · B2",
+      "pron": "/ˈlɪt.ər.ər.i/",
+      "meaning": "文学の",
+      "example": {
+        "en": "Literary critic.",
+        "ja": "文学評論家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lowbrow": {
+      "tier": "key",
+      "surface": "lowbrow",
+      "pos": "adj · C2",
+      "pron": "/ˈloʊ.braʊ/",
+      "meaning": "低俗な、大衆向けの",
+      "example": {
+        "en": "Lowbrow humor.",
+        "ja": "低俗な笑い。"
+      },
+      "context": "highbrow の対義。",
+      "collocations": []
+    },
+    "loyal": {
+      "tier": "known",
+      "surface": "loyal",
+      "pos": "adj · B1",
+      "pron": "/ˈlɔɪ.əl/",
+      "meaning": "忠実な",
+      "example": {
+        "en": "Loyal customer.",
+        "ja": "常連客。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mainland": {
+      "tier": "known",
+      "surface": "mainland",
+      "pos": "n · B2",
+      "pron": "/ˈmeɪn.lənd/",
+      "meaning": "本土",
+      "example": {
+        "en": "Mainland China.",
+        "ja": "中国本土。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "maneuvers": {
+      "tier": "known",
+      "surface": "maneuvers",
+      "pos": "n · B2",
+      "pron": "/məˈnuː.vəz/",
+      "meaning": "動作、策略",
+      "example": {
+        "en": "Tactical maneuvers.",
+        "ja": "戦術的動作。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "master": {
+      "tier": "known",
+      "surface": "master",
+      "pos": "v · B1",
+      "pron": "/ˈmɑːs.tər/",
+      "meaning": "習得する",
+      "example": {
+        "en": "Master a skill.",
+        "ja": "技能習得。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "masters": {
+      "tier": "skip",
+      "surface": "masters",
+      "pos": "n · A2",
+      "pron": "/ˈmɑː.stəz/",
+      "meaning": "達人",
+      "example": {
+        "en": "Tea masters.",
+        "ja": "茶道家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mongols": {
+      "tier": "known",
+      "surface": "Mongols",
+      "pos": "n · proper",
+      "pron": "/ˈmɒŋ.ɡəlz/",
+      "meaning": "モンゴル人",
+      "example": {
+        "en": "Mongol invasion.",
+        "ja": "モンゴル侵略。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "moves": {
+      "tier": "skip",
+      "surface": "moves",
+      "pos": "n · A2",
+      "pron": "/muːvz/",
+      "meaning": "動き",
+      "example": {
+        "en": "Quick moves.",
+        "ja": "素早い動き。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "multigenerational": {
+      "tier": "key",
+      "surface": "multigenerational",
+      "pos": "adj · C2",
+      "pron": "/ˌmʌl.tiˌdʒen.əˈreɪ.ʃən.əl/",
+      "meaning": "複数世代にわたる",
+      "example": {
+        "en": "Multigenerational saga.",
+        "ja": "多世代叙事詩。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mystical": {
+      "tier": "known",
+      "surface": "mystical",
+      "pos": "adj · B2",
+      "pron": "/ˈmɪs.tɪ.kəl/",
+      "meaning": "神秘的な",
+      "example": {
+        "en": "Mystical experience.",
+        "ja": "神秘体験。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mythologized": {
+      "tier": "key",
+      "surface": "mythologized",
+      "pos": "adj · C2",
+      "pron": "/mɪˈθɒl.ə.dʒaɪzd/",
+      "meaning": "神話化された",
+      "example": {
+        "en": "Mythologized hero.",
+        "ja": "神話化された英雄。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "naive": {
+      "tier": "known",
+      "surface": "naive",
+      "pos": "adj · B2",
+      "pron": "/naɪˈiːv/",
+      "meaning": "純朴な",
+      "example": {
+        "en": "Naive belief.",
+        "ja": "素朴な信念。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "newsstands": {
+      "tier": "known",
+      "surface": "newsstands",
+      "pos": "n · B2",
+      "pron": "/ˈnjuːz.stændz/",
+      "meaning": "新聞売店",
+      "example": {
+        "en": "Newsstands at corners.",
+        "ja": "街角の売店。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nomadic": {
+      "tier": "known",
+      "surface": "nomadic",
+      "pos": "adj · C1",
+      "pron": "/noʊˈmæd.ɪk/",
+      "meaning": "遊牧の、放浪の",
+      "example": {
+        "en": "Nomadic tribe.",
+        "ja": "遊牧部族。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "novel": {
+      "tier": "skip",
+      "surface": "novel",
+      "pos": "n · A2",
+      "pron": "/ˈnɒv.əl/",
+      "meaning": "小説",
+      "example": {
+        "en": "Read a novel.",
+        "ja": "小説を読む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pivotal": {
+      "tier": "known",
+      "surface": "pivotal",
+      "pos": "adj · B2",
+      "pron": "/ˈpɪv.ə.təl/",
+      "meaning": "決定的な",
+      "example": {
+        "en": "Pivotal role.",
+        "ja": "決定的役割。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "policies": {
+      "tier": "skip",
+      "surface": "policies",
+      "pos": "n · A2",
+      "pron": "/ˈpɒl.ə.siz/",
+      "meaning": "政策",
+      "example": {
+        "en": "Government policies.",
+        "ja": "政府政策。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "preparing": {
+      "tier": "skip",
+      "surface": "preparing",
+      "pos": "v · A2",
+      "pron": "/prɪˈpeə.rɪŋ/",
+      "meaning": "準備して",
+      "example": {
+        "en": "Preparing meal.",
+        "ja": "食事準備。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prince": {
+      "tier": "known",
+      "surface": "prince",
+      "pos": "n · A2",
+      "pron": "/prɪns/",
+      "meaning": "王子",
+      "example": {
+        "en": "Crown prince.",
+        "ja": "皇太子。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "raid": {
+      "tier": "known",
+      "surface": "raid",
+      "pos": "n · B2",
+      "pron": "/reɪd/",
+      "meaning": "襲撃",
+      "example": {
+        "en": "Surprise raid.",
+        "ja": "奇襲。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "raids": {
+      "tier": "known",
+      "surface": "raids",
+      "pos": "n · B2",
+      "pron": "/reɪdz/",
+      "meaning": "襲撃",
+      "example": {
+        "en": "Air raids.",
+        "ja": "空襲。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "raise": {
+      "tier": "skip",
+      "surface": "raise",
+      "pos": "v · A2",
+      "pron": "/reɪz/",
+      "meaning": "育てる",
+      "example": {
+        "en": "Raise children.",
+        "ja": "子供を育てる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "readers": {
+      "tier": "skip",
+      "surface": "readers",
+      "pos": "n · A2",
+      "pron": "/ˈriː.dəz/",
+      "meaning": "読者",
+      "example": {
+        "en": "Avid readers.",
+        "ja": "熱心な読者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "realistic": {
+      "tier": "skip",
+      "surface": "realistic",
+      "pos": "adj · A2",
+      "pron": "/ˌrɪəˈlɪs.tɪk/",
+      "meaning": "現実的な",
+      "example": {
+        "en": "Realistic plan.",
+        "ja": "現実的計画。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reclusive": {
+      "tier": "key",
+      "surface": "reclusive",
+      "pos": "adj · C1",
+      "pron": "/rɪˈkluː.sɪv/",
+      "meaning": "世を捨てた、隠遁の",
+      "example": {
+        "en": "Reclusive artist.",
+        "ja": "隠遁する芸術家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "relaxed": {
+      "tier": "known",
+      "surface": "relaxed",
+      "pos": "v · B1",
+      "pron": "/rɪˈlækst/",
+      "meaning": "緩めた",
+      "example": {
+        "en": "Relaxed restrictions.",
+        "ja": "規制緩和。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "remains": {
+      "tier": "skip",
+      "surface": "remains",
+      "pos": "v · A2",
+      "pron": "/rɪˈmeɪnz/",
+      "meaning": "依然〜である",
+      "example": {
+        "en": "Remains unclear.",
+        "ja": "不明のまま。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roaming": {
+      "tier": "known",
+      "surface": "roaming",
+      "pos": "v · B2",
+      "pron": "/ˈroʊ.mɪŋ/",
+      "meaning": "流浪する",
+      "example": {
+        "en": "Roaming the desert.",
+        "ja": "砂漠を放浪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "romance": {
+      "tier": "known",
+      "surface": "romance",
+      "pos": "n · B1",
+      "pron": "/roʊˈmæns/",
+      "meaning": "恋愛",
+      "example": {
+        "en": "Office romance.",
+        "ja": "職場の恋。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roots": {
+      "tier": "known",
+      "surface": "roots",
+      "pos": "n · B1",
+      "pron": "/ruːts/",
+      "meaning": "起源、根",
+      "example": {
+        "en": "Cultural roots.",
+        "ja": "文化的ルーツ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "royalty": {
+      "tier": "known",
+      "surface": "royalty",
+      "pos": "n · B2",
+      "pron": "/ˈrɔɪ.əl.ti/",
+      "meaning": "王族",
+      "example": {
+        "en": "British royalty.",
+        "ja": "英王室。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "saga": {
+      "tier": "known",
+      "surface": "saga",
+      "pos": "n · B2",
+      "pron": "/ˈsɑː.ɡə/",
+      "meaning": "長編物語",
+      "example": {
+        "en": "Family saga.",
+        "ja": "家族の長編物語。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "samarkand": {
+      "tier": "key",
+      "surface": "Samarkand",
+      "pos": "n · proper",
+      "pron": "/ˌsæm.əˈkænd/",
+      "meaning": "サマルカンド",
+      "example": {
+        "en": "Silk Road city Samarkand.",
+        "ja": "シルクロード都市サマルカンド。"
+      },
+      "context": "ウズベキスタンの古都。",
+      "collocations": []
+    },
+    "scatters": {
+      "tier": "known",
+      "surface": "scatters",
+      "pos": "v · B2",
+      "pron": "/ˈskæt.əz/",
+      "meaning": "散らばす",
+      "example": {
+        "en": "Wind scatters leaves.",
+        "ja": "風が葉を散らす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scheming": {
+      "tier": "known",
+      "surface": "scheming",
+      "pos": "adj · C1",
+      "pron": "/ˈskiː.mɪŋ/",
+      "meaning": "策謀の",
+      "example": {
+        "en": "Scheming villain.",
+        "ja": "策略家の悪役。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scrolls": {
+      "tier": "known",
+      "surface": "scrolls",
+      "pos": "n · B2",
+      "pron": "/skroʊlz/",
+      "meaning": "巻物",
+      "example": {
+        "en": "Ancient scrolls.",
+        "ja": "古代の巻物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "seemingly": {
+      "tier": "known",
+      "surface": "seemingly",
+      "pos": "adv · B2",
+      "pron": "/ˈsiː.mɪŋ.li/",
+      "meaning": "一見",
+      "example": {
+        "en": "Seemingly endless.",
+        "ja": "一見終わらない。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "serialized": {
+      "tier": "key",
+      "surface": "Serialized",
+      "pos": "v · C1",
+      "pron": "/ˈsɪə.ri.ə.laɪzd/",
+      "meaning": "連載された",
+      "example": {
+        "en": "Serialized in 1957.",
+        "ja": "1957年に連載。"
+      },
+      "context": "小説などを定期刊行物に分割掲載すること。",
+      "collocations": []
+    },
+    "set": {
+      "tier": "skip",
+      "surface": "set",
+      "pos": "v · A2",
+      "pron": "/set/",
+      "meaning": "設定された",
+      "example": {
+        "en": "Set in 1920s.",
+        "ja": "1920年代設定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "showcases": {
+      "tier": "known",
+      "surface": "showcases",
+      "pos": "v · B2",
+      "pron": "/ˈʃoʊ.keɪs.ɪz/",
+      "meaning": "披露する",
+      "example": {
+        "en": "Showcases talent.",
+        "ja": "才能を披露。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "simultaneously": {
+      "tier": "known",
+      "surface": "simultaneously",
+      "pos": "adv · B2",
+      "pron": "/ˌsɪm.lˈteɪ.ni.əs.li/",
+      "meaning": "同時に",
+      "example": {
+        "en": "Operate simultaneously.",
+        "ja": "同時稼働。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "steppes": {
+      "tier": "known",
+      "surface": "steppes",
+      "pos": "n · C1",
+      "pron": "/steps/",
+      "meaning": "ステップ草原",
+      "example": {
+        "en": "Mongolian steppes.",
+        "ja": "モンゴル草原。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "story": {
+      "tier": "skip",
+      "surface": "story",
+      "pos": "n · A1",
+      "pron": "/ˈstɔː.ri/",
+      "meaning": "物語",
+      "example": {
+        "en": "Bedtime story.",
+        "ja": "寝物語。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "superhuman": {
+      "tier": "known",
+      "surface": "superhuman",
+      "pos": "adj · B2",
+      "pron": "/ˌsuː.pəˈhjuː.mən/",
+      "meaning": "超人的な",
+      "example": {
+        "en": "Superhuman strength.",
+        "ja": "超人的な力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sweeping": {
+      "tier": "known",
+      "surface": "sweeping",
+      "pos": "adj · B2",
+      "pron": "/ˈswiː.pɪŋ/",
+      "meaning": "壮大な、広範な",
+      "example": {
+        "en": "Sweeping reforms.",
+        "ja": "広範な改革。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tale": {
+      "tier": "known",
+      "surface": "tale",
+      "pos": "n · B1",
+      "pron": "/teɪl/",
+      "meaning": "物語",
+      "example": {
+        "en": "Fairy tale.",
+        "ja": "おとぎ話。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "techniques": {
+      "tier": "skip",
+      "surface": "techniques",
+      "pos": "n · A2",
+      "pron": "/tekˈniːks/",
+      "meaning": "技術",
+      "example": {
+        "en": "New techniques.",
+        "ja": "新技術。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "timely": {
+      "tier": "known",
+      "surface": "timely",
+      "pos": "adj · B2",
+      "pron": "/ˈtaɪm.li/",
+      "meaning": "タイムリーな",
+      "example": {
+        "en": "Timely warning.",
+        "ja": "時宜にかなった警告。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "titan": {
+      "tier": "key",
+      "surface": "titan",
+      "pos": "n · C1",
+      "pron": "/ˈtaɪ.tən/",
+      "meaning": "巨人、巨匠",
+      "example": {
+        "en": "Industry titan.",
+        "ja": "業界の巨人。"
+      },
+      "context": "ギリシャ神話のタイタン由来。",
+      "collocations": []
+    },
+    "topple": {
+      "tier": "key",
+      "surface": "topple",
+      "pos": "v · C1",
+      "pron": "/ˈtɒp.l/",
+      "meaning": "打倒する",
+      "example": {
+        "en": "Topple a regime.",
+        "ja": "政権を打倒。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "torments": {
+      "tier": "known",
+      "surface": "torments",
+      "pos": "v · B2",
+      "pron": "/ˈtɔː.ments/",
+      "meaning": "苦しめる",
+      "example": {
+        "en": "Torments the mind.",
+        "ja": "心を苛む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tragic": {
+      "tier": "known",
+      "surface": "tragic",
+      "pos": "adj · B2",
+      "pron": "/ˈtrædʒ.ɪk/",
+      "meaning": "悲劇的な",
+      "example": {
+        "en": "Tragic ending.",
+        "ja": "悲劇的結末。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "translated": {
+      "tier": "skip",
+      "surface": "translated",
+      "pos": "v · A2",
+      "pron": "/trænzˈleɪ.tɪd/",
+      "meaning": "訳された",
+      "example": {
+        "en": "Translated to English.",
+        "ja": "英訳された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "translation": {
+      "tier": "skip",
+      "surface": "translation",
+      "pos": "n · A2",
+      "pron": "/trænzˈleɪ.ʃən/",
+      "meaning": "翻訳",
+      "example": {
+        "en": "Machine translation.",
+        "ja": "機械翻訳。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "traverse": {
+      "tier": "key",
+      "surface": "traverse",
+      "pos": "v · C1",
+      "pron": "/trəˈvɜːs/",
+      "meaning": "横断する、行き来する",
+      "example": {
+        "en": "Traverse the desert.",
+        "ja": "砂漠を横断。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "treasure": {
+      "tier": "known",
+      "surface": "treasure",
+      "pos": "n · B1",
+      "pron": "/ˈtreʒ.ər/",
+      "meaning": "宝",
+      "example": {
+        "en": "Hidden treasure.",
+        "ja": "隠された宝。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tutelage": {
+      "tier": "key",
+      "surface": "tutelage",
+      "pos": "n · C2",
+      "pron": "/ˈtjuː.tɪ.lɪdʒ/",
+      "meaning": "指導、後見",
+      "example": {
+        "en": "Under his tutelage.",
+        "ja": "彼の指導下で。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unborn": {
+      "tier": "known",
+      "surface": "unborn",
+      "pos": "adj · B2",
+      "pron": "/ˌʌnˈbɔːn/",
+      "meaning": "未生の、まだ生まれぬ",
+      "example": {
+        "en": "Unborn child.",
+        "ja": "胎児。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "village": {
+      "tier": "skip",
+      "surface": "village",
+      "pos": "n · A2",
+      "pron": "/ˈvɪl.ɪdʒ/",
+      "meaning": "村",
+      "example": {
+        "en": "Small village.",
+        "ja": "小さな村。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "war": {
+      "tier": "skip",
+      "surface": "war",
+      "pos": "n · A1",
+      "pron": "/wɔːr/",
+      "meaning": "戦争",
+      "example": {
+        "en": "Cold war.",
+        "ja": "冷戦。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "witnessing": {
+      "tier": "known",
+      "surface": "witnessing",
+      "pos": "v · B2",
+      "pron": "/ˈwɪt.nəs.ɪŋ/",
+      "meaning": "目撃して",
+      "example": {
+        "en": "Witnessing history.",
+        "ja": "歴史を目撃。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wuxia": {
+      "tier": "key",
+      "surface": "wuxia",
+      "pos": "n · proper(Chinese)",
+      "pron": "/ˌwuːˈʃjɑː/",
+      "meaning": "武侠",
+      "example": {
+        "en": "Wuxia novels.",
+        "ja": "武侠小説。"
+      },
+      "context": "「武の英雄」を意味する中国小説ジャンル。",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "around_globe": {
+      "tier": "known",
+      "surface": "around the globe",
+      "pos": "phrase · B2",
+      "pron": "/əˈraʊnd ðə ɡloʊb/",
+      "literal": "世界中で",
+      "meaning": "世界中で",
+      "context": "",
+      "collocations": []
+    },
+    "at_once": {
+      "tier": "known",
+      "surface": "at once",
+      "pos": "phrase · B1",
+      "pron": "/ət wʌns/",
+      "literal": "同時に、すぐに",
+      "meaning": "同時に、すぐに",
+      "context": "",
+      "collocations": []
+    },
+    "blood_brothers": {
+      "tier": "known",
+      "surface": "blood brothers",
+      "pos": "n phrase · B2",
+      "pron": "/blʌd ˈbrʌð.əz/",
+      "literal": "義兄弟",
+      "meaning": "義兄弟",
+      "context": "",
+      "collocations": []
+    },
+    "century_long": {
+      "tier": "known",
+      "surface": "century-long",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈsen.tʃər.i lɒŋ/",
+      "literal": "100年に及ぶ",
+      "meaning": "100年に及ぶ",
+      "context": "",
+      "collocations": []
+    },
+    "code_chivalry": {
+      "tier": "known",
+      "surface": "code of chivalry",
+      "pos": "n phrase · C1",
+      "pron": "/koʊd əv ˈʃɪv.əl.ri/",
+      "literal": "騎士道",
+      "meaning": "騎士道",
+      "context": "",
+      "collocations": []
+    },
+    "commercial_daily": {
+      "tier": "known",
+      "surface": "Commercial Daily",
+      "pos": "n phrase · proper",
+      "pron": "/kəˈmɜː.ʃəl ˈdeɪ.li/",
+      "literal": "商報",
+      "meaning": "香港の新聞",
+      "context": "",
+      "collocations": []
+    },
+    "condor_trilogy": {
+      "tier": "known",
+      "surface": "Condor Trilogy",
+      "pos": "n phrase · proper",
+      "pron": "/ˈkɒn.dər ˈtrɪl.ə.dʒi/",
+      "literal": "射雕三部作",
+      "meaning": "Condor Heroes・神雕侠侶・倚天屠龍記",
+      "context": "",
+      "collocations": []
+    },
+    "cover_news": {
+      "tier": "known",
+      "surface": "cover news",
+      "pos": "v phrase · B2",
+      "pron": "/ˈkʌv.ər njuːz/",
+      "literal": "ニュースを取材する",
+      "meaning": "ニュースを取材する",
+      "context": "",
+      "collocations": []
+    },
+    "cultural_revolution": {
+      "tier": "key",
+      "surface": "Cultural Revolution",
+      "pos": "n phrase · proper",
+      "pron": "/ˈkʌl.tʃər.əl ˌrev.əˈluː.ʃən/",
+      "literal": "文化大革命",
+      "meaning": "1966-1976年の中国の政治運動",
+      "context": "",
+      "collocations": []
+    },
+    "due_to": {
+      "tier": "known",
+      "surface": "due to",
+      "pos": "phrase · B1",
+      "pron": "/djuː tə/",
+      "literal": "〜のために",
+      "meaning": "〜のために",
+      "context": "",
+      "collocations": []
+    },
+    "genghis_khan": {
+      "tier": "known",
+      "surface": "Genghis Khan",
+      "pos": "n phrase · proper",
+      "pron": "/ˈdʒen.ɡɪs kɑːn/",
+      "literal": "チンギス・ハーン",
+      "meaning": "モンゴル帝国創始者",
+      "context": "",
+      "collocations": []
+    },
+    "grow_up": {
+      "tier": "known",
+      "surface": "grows up",
+      "pos": "phrasal v · A2",
+      "pron": "/ɡroʊz ʌp/",
+      "literal": "成長する",
+      "meaning": "成長する",
+      "context": "",
+      "collocations": []
+    },
+    "jin_dynasty": {
+      "tier": "known",
+      "surface": "Jin dynasty",
+      "pos": "n phrase · proper",
+      "pron": "/dʒɪn ˈdaɪ.nəs.ti/",
+      "literal": "金朝",
+      "meaning": "ジュルチンが建てた王朝",
+      "context": "",
+      "collocations": []
+    },
+    "kind_hearted": {
+      "tier": "known",
+      "surface": "kind-hearted",
+      "pos": "adj phrase · B2",
+      "pron": "/kaɪnd ˈhɑː.tɪd/",
+      "literal": "心優しい",
+      "meaning": "心優しい",
+      "context": "",
+      "collocations": []
+    },
+    "legend_condor": {
+      "tier": "key",
+      "surface": "Legend of the Condor Heroes",
+      "pos": "n phrase · proper",
+      "pron": "/ˈledʒ.ənd əv ðə ˈkɒn.dər ˈhɪə.roʊz/",
+      "literal": "射雕英雄伝",
+      "meaning": "金庸 1957-59 連載の代表作",
+      "context": "",
+      "collocations": []
+    },
+    "look_for": {
+      "tier": "known",
+      "surface": "looking for",
+      "pos": "phrasal v · A2",
+      "pron": "/ˈlʊk.ɪŋ fɔː/",
+      "literal": "探している",
+      "meaning": "探している",
+      "context": "",
+      "collocations": []
+    },
+    "make_way_to": {
+      "tier": "known",
+      "surface": "made their way to",
+      "pos": "v phrase · B2",
+      "pron": "/meɪd ðeə weɪ tə/",
+      "literal": "〜へたどり着いた",
+      "meaning": "〜へたどり着いた",
+      "context": "",
+      "collocations": []
+    },
+    "martial_artists": {
+      "tier": "known",
+      "surface": "martial artists",
+      "pos": "n phrase · B2",
+      "pron": "/ˈmɑː.ʃəl ˈɑː.tɪsts/",
+      "literal": "武術家",
+      "meaning": "武術家",
+      "context": "",
+      "collocations": []
+    },
+    "martial_arts": {
+      "tier": "known",
+      "surface": "martial arts",
+      "pos": "n phrase · B1",
+      "pron": "/ˈmɑː.ʃəl ɑːts/",
+      "literal": "武術",
+      "meaning": "武術",
+      "context": "",
+      "collocations": []
+    },
+    "martial_hero": {
+      "tier": "known",
+      "surface": "martial hero",
+      "pos": "n phrase · C1",
+      "pron": "/ˈmɑː.ʃəl ˈhɪə.roʊ/",
+      "literal": "武の英雄",
+      "meaning": "wuxia の字義訳",
+      "context": "",
+      "collocations": []
+    },
+    "ming_pao": {
+      "tier": "known",
+      "surface": "Ming Pao Daily News",
+      "pos": "n phrase · proper",
+      "pron": "/mɪŋ paʊ ˈdeɪ.li njuːz/",
+      "literal": "明報",
+      "meaning": "金庸が創設した香港の新聞",
+      "context": "",
+      "collocations": []
+    },
+    "not_all": {
+      "tier": "known",
+      "surface": "not all",
+      "pos": "phrase · A2",
+      "pron": "/nɒt ɔːl/",
+      "literal": "全てではない",
+      "meaning": "全てではない",
+      "context": "",
+      "collocations": []
+    },
+    "pen_name": {
+      "tier": "known",
+      "surface": "pen name",
+      "pos": "n phrase · B2",
+      "pron": "/pen neɪm/",
+      "literal": "筆名",
+      "meaning": "筆名",
+      "context": "",
+      "collocations": []
+    },
+    "pick_up": {
+      "tier": "known",
+      "surface": "pick up",
+      "pos": "phrasal v · A2",
+      "pron": "/pɪk ʌp/",
+      "literal": "拾う、買う",
+      "meaning": "拾う、買う",
+      "context": "",
+      "collocations": []
+    },
+    "range_from_to": {
+      "tier": "known",
+      "surface": "ranging from … to",
+      "pos": "phrase · B2",
+      "pron": "/ˈreɪn.dʒɪŋ frɒm tə/",
+      "literal": "〜から…まで及ぶ",
+      "meaning": "〜から…まで及ぶ",
+      "context": "",
+      "collocations": []
+    },
+    "rivers_lakes": {
+      "tier": "known",
+      "surface": "rivers and lakes",
+      "pos": "n phrase · C1",
+      "pron": "/ˈrɪv.əz ənd leɪks/",
+      "literal": "川と湖(=江湖)",
+      "meaning": "jianghu の字義訳",
+      "context": "",
+      "collocations": []
+    },
+    "set_in_period": {
+      "tier": "known",
+      "surface": "set in",
+      "pos": "phrase · B2",
+      "pron": "/set ɪn/",
+      "literal": "〜時代を舞台とする",
+      "meaning": "〜時代を舞台とする",
+      "context": "",
+      "collocations": []
+    },
+    "set_the_stage": {
+      "tier": "known",
+      "surface": "setting the stage for",
+      "pos": "v phrase · B2",
+      "pron": "/ˈset.ɪŋ ðə steɪdʒ fɔː/",
+      "literal": "〜の舞台を整える",
+      "meaning": "〜の舞台を整える",
+      "context": "",
+      "collocations": []
+    },
+    "song_dynasty": {
+      "tier": "known",
+      "surface": "Song Dynasty",
+      "pos": "n phrase · proper",
+      "pron": "/sɒŋ ˈdaɪ.nəs.ti/",
+      "literal": "宋朝",
+      "meaning": "960-1279年の中国王朝",
+      "context": "",
+      "collocations": []
+    },
+    "wreak_havoc": {
+      "tier": "key",
+      "surface": "wreak havoc",
+      "pos": "v phrase · C1",
+      "pron": "/riːk ˈhæv.ək/",
+      "literal": "大混乱をもたらす",
+      "meaning": "大混乱をもたらす",
+      "context": "",
+      "collocations": []
+    }
+  }
+}

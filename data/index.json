@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-05-23T18:38:16+09:00",
+  "updated_at": "2026-05-23T18:28:59+00:00",
   "talks": [
+    {
+      "id": "talk_2026-05-21",
+      "date": "2026-05-21",
+      "source": "ted-ed",
+      "primary_topic": "History",
+      "tags": [
+        "venice",
+        "engineering",
+        "medieval",
+        "lagoon",
+        "republic",
+        "trade"
+      ],
+      "difficulty": "hard",
+      "title": "The incredible engineering of Venice",
+      "speaker": "Stephanie H. Smith",
+      "duration_sec": 390,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_178996/3dff0694-d846-4290-a7bc-4cdaca9d0c83/venicecanals_Textless.jpg",
+      "published_at": "2026-05-21T15:02:51Z"
+    },
+    {
+      "id": "talk_2026-05-19",
+      "date": "2026-05-19",
+      "source": "ted-ed",
+      "primary_topic": "Health",
+      "tags": [
+        "rabies",
+        "virus",
+        "vaccine",
+        "louis-pasteur",
+        "infectious-disease",
+        "immunology"
+      ],
+      "difficulty": "hard",
+      "title": "Why is getting bitten by a rabid animal so dangerous?",
+      "speaker": "Charles Rupprecht",
+      "duration_sec": 345,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_178235/a059f58f-f112-4341-ab5e-0e1b0e5f43de/rabies_textless.jpg",
+      "published_at": "2026-05-19T15:23:43Z"
+    },
     {
       "id": "talk_2026-05-15",
       "date": "2026-05-15",
@@ -76,6 +116,86 @@
       "duration_sec": 296,
       "published_at": "2026-05-07T15:01:49Z",
       "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_178234/51777d55-2e0e-44a8-87fa-a84c9b40bb68/lavaflow_Textless.jpg"
+    },
+    {
+      "id": "talk_2026-05-05",
+      "date": "2026-05-05",
+      "source": "ted-ed",
+      "primary_topic": "Forensics",
+      "tags": [
+        "forensics",
+        "luminol",
+        "crime-scene",
+        "chemistry",
+        "investigation",
+        "blood"
+      ],
+      "difficulty": "medium",
+      "title": "How did detectives solve the case of the bloody motel?",
+      "speaker": "Theodore E. Yeshion",
+      "duration_sec": 313,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_175323/a64e4b10-dbb6-4693-bc21-df6b84a66149/luminol_Textless.jpg",
+      "published_at": "2026-05-05T15:04:57Z"
+    },
+    {
+      "id": "talk_2026-04-30",
+      "date": "2026-04-30",
+      "source": "ted-ed",
+      "primary_topic": "Psychology",
+      "tags": [
+        "child-development",
+        "piaget",
+        "object-permanence",
+        "play",
+        "infants",
+        "social-skills"
+      ],
+      "difficulty": "medium",
+      "title": "The fascinating reason you loved peek-a-boo",
+      "speaker": "TED-Ed",
+      "duration_sec": 308,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_177595/9f607c6d-67af-414c-be75-a84d89ca8296/peekaboo_textless.jpg",
+      "published_at": "2026-04-30T15:31:20Z"
+    },
+    {
+      "id": "talk_2026-04-28",
+      "date": "2026-04-28",
+      "source": "ted-ed",
+      "primary_topic": "Linguistics",
+      "tags": [
+        "grammar",
+        "english-language",
+        "prescriptivism",
+        "pronouns",
+        "linguistics",
+        "history"
+      ],
+      "difficulty": "medium",
+      "title": "3 grammar rules that you don't need to follow anymore",
+      "speaker": "Arika Okrent",
+      "duration_sec": 316,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_177574/ac35cdfe-4dbc-4bc8-92d1-ae3fe68f291c/grammarrules_textless.jpg",
+      "published_at": "2026-04-28T15:06:08Z"
+    },
+    {
+      "id": "talk_2026-04-21",
+      "date": "2026-04-21",
+      "source": "ted-ed",
+      "primary_topic": "Literature",
+      "tags": [
+        "wuxia",
+        "jin-yong",
+        "chinese-literature",
+        "martial-arts",
+        "historical-fiction",
+        "hong-kong"
+      ],
+      "difficulty": "hard",
+      "title": "War, love, and betrayal: The epic tale of the “Legend of the Condor Heroes”",
+      "speaker": "Gladys Mac",
+      "duration_sec": 289,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_176728/d5fb9170-9e5b-40e7-b90c-645ff2e05506/jinyong_textless.jpg",
+      "published_at": "2026-04-21T15:02:30Z"
     }
   ],
   "skipped_dates": [
