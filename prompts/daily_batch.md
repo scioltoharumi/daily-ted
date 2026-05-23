@@ -3,8 +3,11 @@
 このプロンプトは Claude Code の Scheduled Agent(claude.ai/code)に登録する。cron は UTC で `0 21 * * *`(JST 06:00)。
 変更時は本ファイルを更新して Scheduled Agent 側も再登録すること。
 
-> 本プロンプトは要件定義書 v3.1(`docs/requirements_v3.md`)の D-016 採用版に対応する。
-> TED-Ed の取得は YouTube 直結フロー(channel HTML スクレイピング + youtube-transcript-api)。
+> 本プロンプトは要件定義書 v3.3(`docs/requirements_v3.md`)の D-019 採用版に対応する。
+> TED-Ed の取得は **ted.com 公式 GraphQL API 直結**(`topic(slug:"ted+ed").videos` で新着検出、
+> `translation(language,videoId).paragraphs.cues` で公式トランスクリプト取得)。YouTube 直結
+> フロー(D-016)は (a) クラウド IP の watch ページ遮断、(b) "X days ago" 粗い相対時刻による
+> 恒久欠落、(c) YouTube 字幕が公式 lesson 本文と乖離、の 3 つの欠点で 2026-05-23 に退役。
 
 ---
 
@@ -27,10 +30,8 @@ You are the daily batch script for the Daily TED PWA (Daily TED-Ed English learn
 
 # 環境準備
 
-最初に Python パッケージをインストール:
-```
-pip install --quiet youtube-transcript-api
-```
+追加の Python パッケージは不要(`urllib` のみで動作)。`scripts/fetch_ted_ed_talks.py`
+と `scripts/fetch_ted_transcript.py` は標準ライブラリのみ。
 
 # 実行手順
 
@@ -57,44 +58,91 @@ JST(Asia/Tokyo)で当日日付 YYYY-MM-DD を決定。
 
 `/data/talks/YYYY-MM-DD.json` が既に存在する場合は何もせず正常終了。
 
-## Step 3: TED-Ed 新着動画の取得
+## Step 3: TED-Ed 新着動画の取得(ted.com)
 
-`python scripts/fetch_ted_ed_videos.py 24` を実行。
+```
+python scripts/fetch_ted_ed_talks.py --since <last_processed_iso> --json
+```
 
-このスクリプトは:
-- `https://www.youtube.com/@TEDEd/videos` の HTML を取得
-- 埋め込まれた `ytInitialData` JSON から各動画の videoId / title /
-  publishedTimeText / duration / thumbnail を抽出
-- "X hours ago" / "X days ago" 等の表記から直近24時間以内のみを返す
+`<last_processed_iso>` は `/data/index.json` の `talks[0].published_at`(無ければ
+24時間前のISO)を使う。引数なしで実行すると直近24h を返す。
 
-返却が0件なら、その日は新作なしとして即座に終了(冪等)。`/data/index.json` の
+このスクリプトは ted.com GraphQL を1回叩き、`topic(slug:"ted+ed").videos` の
+ノードから:
+- ted_video_id(数値)、slug(`canonicalUrl` の最後の path セグメント)、title、
+  speaker(presenterDisplayName)、duration_sec、publishedAt、canonical_url、
+  description、thumbnail_url(`primaryImageSet` の 16x9)
+
+を取得して JSON 配列で返す。`publishedAt` は ISO 8601 で正確なため、相対時刻
+推定や 24h 窓の脆弱性はない。
+
+返却が0件なら新作なしとして即時終了(冪等)。`/data/index.json` の
 `skipped_dates` に当日日付を追加してコミット&プッシュは行うこと。
 
-## Step 4: TED-Ed lesson 詳細メタデータの補強(任意)
+複数の新着が返った場合は、当日バッチでは **最も古い未処理1本のみ** を扱う
+(残りは翌日以降のバッチで順次拾う)。これにより 1日 1本の配信リズムを保つ。
 
-任意で `https://ed.ted.com/lessons` の JSON-LD を読み、
-今回の動画 title と一致する lesson の uploadDate / description / publisher を補強。
-一致しない場合は YouTube 側の情報のみで進める。
+## Step 4: (削除)
 
-## Step 5: トランスクリプト取得
+旧 D-016 時代の ed.ted.com 補強ステップは廃止。Step 3 の ted.com GraphQL が
+description / publishedAt / speaker / duration を全て返すため不要。
 
-各 videoId について `python scripts/fetch_youtube_transcript.py <video_id>` 相当の処理を実行
-(または直接 youtube-transcript-api を呼ぶ)。
+## Step 5: 公式トランスクリプト取得(ted.com)
 
-得られる snippets:
 ```
-[{ "start_sec": float, "duration_sec": float, "text": str }, ...]
+python scripts/fetch_ted_transcript.py <ted_video_id> en
 ```
+
+ted.com GraphQL の `translation(language:"en", videoId:<id>)` を叩き、
+段落・cue 単位の公式 lesson トランスクリプトを得る。返却構造:
+
+```
+{
+  "video_id": "...",
+  "language": "en",
+  "duration_sec": float,
+  "paragraphs": [
+    { "start_sec": float, "cues": [
+        { "start_sec": float, "end_sec": float, "duration_sec": float, "text": str },
+        ...
+      ] },
+    ...
+  ]
+}
+```
+
+ted.com は段落分割と paragraphs[].cues[].text を既に持っているため、
+**段落構造はこの結果をそのまま採用する**(Claude による再段落化は禁止。
+Step 6 で文に分割する処理のみ行う)。
+
+**取得失敗時の鉄則(NEVER FABRICATE)**:
+
+- `translation` が null を返す / 4xx・5xx エラー / ネットワーク不能
+  → その日は失敗として終了し、トランスクリプトを **絶対に再構成・捏造
+    しない**。`skipped_dates` に当日日付を追加してコミット&プッシュ。
+- 過去に `2026-05-15.json`(masquerade)を IP ブロック下でポー原作から
+  再構成した事例があるが、これは公式と乖離した汚染データだったため
+  D-019 で禁止規約化。`background.details` に再構成である旨を書いて誤魔化す
+  運用も禁止。
 
 ## Step 6: スキーマ変換と全要素事前生成
 
 `docs/data_schema.md` の `TalkJson` スキーマに従って JSON を生成する。
 重要な処理:
 
-1. **段落・文への再構成**:
-   - youtube-transcript-api の snippets は短い(2〜4秒)単位なので、これを
-     意味的にまとまる段落(start_sec を保持)と文(. ? ! 等で区切る)に再構成する
-   - 1段落 = 数文。動画長 5〜7 分なら通常 5〜10段落程度
+0. **VERBATIM 厳守**:
+   - ted.com から取得した cue.text の文字列は **一字一句改変してはならない**
+     (大文字小文字・句読点・改行・全角半角を含めて公式表記を保持)。
+   - Claude は段落・文の **再区切り** と **構造解析** のみ行い、本文の
+     書き換え・整文・誤字修正を行わない。
+
+1. **段落・文への分割**:
+   - 段落: ted.com の `paragraphs[]` 構造をそのまま採用(start_sec はその段落の
+     最初の cue の start_sec)。動画長 5〜7 分なら通常 5〜10段落。
+   - 文: 各段落内で cues.text を結合してから `. ? !` 等で文分割。cue 内に改行
+     (`\n`)が含まれる場合、原文の改行は文区切りではなく組版上の改行として
+     スペース1個に置換してから処理する。
+   - 文の `id` は段落内で `s1, s2, ...` と振る。
 
 2. **全単語に tier 分類を付与**(`prompts/word_classification.md` の基準):
    - basic / normal / key / frequent
@@ -117,17 +165,18 @@ JST(Asia/Tokyo)で当日日付 YYYY-MM-DD を決定。
 
 `TalkJson` の以下のフィールドを設定:
 
-- `id`: `talk_YYYY-MM-DD`
-- `date`: 当日日付
+- `id`: `talk_YYYY-MM-DD`(配信日ベース、ted.com 公開日とは別)
+- `date`: 当日日付(配信日 / JST)
 - `source`: `"ted-ed"`(常に固定。v3.1 で TED Talks は廃止)
-- `slug`: 動画タイトルから snake_case で生成(参照用、識別子として)
-- `video_id`: YouTube の動画 ID(11文字)
-- `title`: YouTube 動画タイトル
-- `speaker`: タイトル末尾(" - 著者名" の形式)から抽出、なければ "TED-Ed"
-- `duration_sec`: snippets の最後の start_sec + duration_sec
-- `video_url`: `https://www.youtube.com/watch?v=<video_id>`
-- `embed_url`: `https://www.youtube.com/embed/<video_id>`
-- ※ 旧フィールド(ted.com URL)は使わない
+- `slug`: ted.com の talk slug(`canonicalUrl` 末尾)。例: `stephanie_h_smith_the_incredible_engineering_of_venice`
+- `video_id`: **ted.com の数値 video id**(D-019 v3.3)。例: `"178996"`
+- `title`: ted.com の talk title(YouTube 上の表記とは差異あり得る。ted.com を SSoT とする)
+- `speaker`: `presenterDisplayName`(空なら `"TED-Ed"`)
+- `duration_sec`: ted.com `videos.duration`(秒)。トランスクリプト末尾の `end_sec` でも可
+- `published_at`: ted.com `publishedAt`(ISO 8601, UTC)
+- `video_url`: `https://www.ted.com/talks/<slug>`(= canonical_url)
+- `embed_url`: `https://embed.ted.com/talks/<slug>`
+- `thumbnail_url`: ted.com `primaryImageSet` の 16x9 URL
 
 ### Step 7.5: 分類メタ情報(v3.2 / D-203)
 
@@ -179,8 +228,10 @@ git push origin HEAD:main
 - 何らかの失敗時は、原因を stderr に記録して非ゼロ終了する
 - 部分的なコミットはしない(成功時のみ commit/push)
 - リトライは最大2回まで(主にネットワークエラー)
-- youtube-transcript-api がエラーを返した場合は、別の言語を試す
-  (例: 英語が無ければ自動生成英語字幕でも可)
+- ted.com の `translation` クエリが null を返した場合: 別言語(`ja` 等)に
+  fall back **してはならない**(英語ネイティブ本文が SSoT。日本語訳は
+  Claude 側の `translation_ja` で生成する)。null なら **その日は skip**。
+- **絶対に再構成・捏造しない**(D-019 / lessons.md 2026-05-23 参照)。
 
 # 制限事項
 
@@ -195,10 +246,10 @@ git push origin HEAD:main
 
 ### 変更が必要になるシナリオ
 
-1. **YouTube channel ページの UI 変更** で `lockupViewModel` 構造が変わった場合 → `scripts/fetch_ted_ed_videos.py` の抽出ロジックを更新
-2. **youtube-transcript-api の API 変更** → スクリプトを更新
-3. **TED-Ed が動画投稿頻度を変えた場合** → 新着検出 hours 値を調整
-4. **データスキーマが進化した場合** → `/docs/data_schema.md` を更新し、Step 6 の指示も合わせる
+1. **ted.com GraphQL スキーマ変更** → `scripts/fetch_ted_ed_talks.py` / `scripts/fetch_ted_transcript.py` のクエリを更新。スキーマ確認は `__schema` introspection で行う。
+2. **TED-Ed が動画投稿頻度を変えた場合** → `--since` / `--hours` のチューニングのみ(構造変更不要)。
+3. **データスキーマが進化した場合** → `/docs/data_schema.md` を更新し、Step 6 の指示も合わせる。
+4. **ted.com 側で TED-Ed topic slug が変わった場合**(現在 `ted+ed`、id 345) → `fetch_ted_ed_talks.py` の `TED_ED_TOPIC_SLUG` を更新。
 
 ### Scheduled Agent 側の設定
 

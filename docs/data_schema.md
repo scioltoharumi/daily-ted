@@ -38,7 +38,8 @@ interface TalkSummary {
   title: string;
   speaker: string;
   duration_sec: number;
-  thumbnail_url?: string;    // YouTube動画のサムネイル
+  thumbnail_url?: string;    // ted.com の primaryImageSet (16x9) URL
+  published_at?: string;     // v3.3 (D-019): ted.com publishedAt (ISO 8601 / UTC)
 }
 ```
 
@@ -88,13 +89,15 @@ interface TalkJson {
   tags: string[];                     // 細かい分類
   difficulty: "easy" | "medium" | "hard";
 
-  slug: string;                       // 識別子(タイトルから snake_case で生成。v3.1 以降は ted.com URL ではない)
-  video_id: string;                   // v3.1 追加:YouTube videoId
+  slug: string;                       // v3.3 (D-019): ted.com の talk slug (canonicalUrl 末尾)
+  video_id: string;                   // v3.3 (D-019): ted.com の数値 video id ("178996" 等)。v3.1 の YouTube videoId からセマンティクス変更
   title: string;
   speaker: string;
   duration_sec: number;
-  video_url: string;                  // v3.1: https://www.youtube.com/watch?v={video_id}
-  embed_url: string;                  // v3.1: https://www.youtube.com/embed/{video_id}
+  published_at?: string;              // v3.3: ted.com publishedAt (ISO 8601 / UTC)
+  video_url: string;                  // v3.3: https://www.ted.com/talks/{slug}
+  embed_url: string;                  // v3.3: https://embed.ted.com/talks/{slug}
+  thumbnail_url?: string;             // v3.3: ted.com primaryImageSet 16x9
   
   // 背景情報(Talk冒頭に表示)
   background: {
@@ -175,9 +178,11 @@ interface ExpressionEntry {
   "date": "2026-05-07",
   "source": "ted-ed",
   "slug": "ted_ed_the_fascinating_reason_you_loved_peek_a_boo",
+  "video_id": "177595",
   "title": "The fascinating reason you loved peek-a-boo",
-  "speaker": "Alexandra Panzer",
+  "speaker": "TED-Ed",
   "duration_sec": 308,
+  "published_at": "2026-04-30T15:31:20Z",
   "video_url": "https://www.ted.com/talks/ted_ed_the_fascinating_reason_you_loved_peek_a_boo",
   "embed_url": "https://embed.ted.com/talks/ted_ed_the_fascinating_reason_you_loved_peek_a_boo",
   
@@ -302,10 +307,11 @@ interface ExpressionEntry {
 2. 既存JSONとの互換性を保つか、移行スクリプトを書くか判断
 3. PWA側のパース処理も合わせて更新
 
-現在のスキーマバージョン:**v3.2** (2026-05-10)
+現在のスキーマバージョン:**v3.3** (2026-05-23)
 
 ## 改訂履歴(スキーマ)
 
 - **v3.0** (2026-05-07) 初版
 - **v3.1** (2026-05-10) D-016 採用に伴い、`source` を "ted-ed" 固定に。`video_id` 追加(YouTube videoId)。`video_url` / `embed_url` を YouTube ベースに変更。`slug` は識別子に降格(ted.com URL の一部ではなくなる)。
 - **v3.2** (2026-05-10) D-017 / D-203 採用に伴い、`primary_topic` / `tags` / `difficulty` を TalkJson と TalkSummary に追加。PWA のビュー D(トピック)/ ビュー E(単語駆動)/ 検索フィルタの基盤。
+- **v3.3** (2026-05-23) D-019 採用に伴い、取得経路を ted.com 公式 GraphQL API に統一。`slug` を ted.com talk slug に格上げ(D-010 復活、D-016 撤回)。`video_id` のセマンティクスを **ted.com 数値 video id** に変更(YouTube videoId は廃止)。`video_url` / `embed_url` を ted.com / embed.ted.com に戻す。`published_at`(ted.com publishedAt)を TalkJson / TalkSummary に追加。

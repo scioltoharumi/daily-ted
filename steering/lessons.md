@@ -77,6 +77,34 @@
 
 <!-- ここから下に追記していく -->
 
+## 2026-05-23 D-016 の前提が崩壊、ted.com 公式 API に切替(D-019)
+
+**問題**: マスターから「TED-Ed 最新版がサイトに反映されていない」「動画スクリプトが公式と違うものがいくつかある」と指摘あり。`data/index.json` の最新は 05-15、05-16/17/18 は `skip (no new TED-Ed upload)` だが、ted.com の TED-Ed フィルタ画面には 05-19(rabid animal)・05-21(Venice)など複数の新作が存在していた。スクリプト乖離は (a) YouTube 字幕と公式本文の差異、(b) 05-15 の完全捏造(ポー原作からの再構成)が確認された。
+
+**原因**: D-016 が3つの誤前提に立っていた。
+
+1. **「TED-Ed は ted.com からほぼ消滅」は誤り**。D-016 / lessons 2026-05-10 は `/talks/rss` の2件のみで判断したが、`/talks?topics[]=ted-ed` は **1376件**を返す。RSS feed の限界 ≠ カタログ全体の限界だった。
+2. **YouTube 24h 相対時刻ウィンドウは恒久欠落を生む**。1日でもバッチが失敗すると窓を抜けて永久に拾えない。
+3. **YouTube 字幕 ≠ 公式 lesson トランスクリプト**。語句・句読点・行分割が乖離する。さらにクラウド IP の YouTube ブロック下で、過去に **原作テキストからの再構成** という事実上の捏造を許容してしまった(05-15 / 2026-05-15.json の background.details に注記)。
+
+**対応**:
+
+- 取得経路を ted.com 公式 GraphQL(`https://www.ted.com/graphql`)に統一(D-019)。
+  - 一覧: `topic(slug:"ted+ed").videos.nodes` — 正確な `publishedAt` 付き
+  - 本文: `translation(language,videoId).paragraphs.cues` — 段落分割と ms 精度タイムスタンプ付き公式トランスクリプト
+- 新スクリプト `scripts/fetch_ted_ed_talks.py` / `scripts/fetch_ted_transcript.py` を作成。旧 `fetch_ted_ed_videos.py` / `fetch_youtube_transcript.py` は `archive/` に退避。
+- `daily_batch.md` に **VERBATIM 厳守ルール** と **NEVER FABRICATE ルール**(translation null 時は再構成せず skip)を明文化。
+- 汚染済み 4 件(05-09 / 05-12 / 05-13 / 05-15)を ted.com 公式トランスクリプトで再生成。
+
+**教訓**:
+
+- **「カタログから消えた」を判定する前に、最低3つの異なる経路で確認する**。RSS が空でも HTML/GraphQL/sitemap 等で生きていることがある。一次情報の取り方を1経路に依存しない。
+- **GraphQL introspection は必須**。`{__schema{queryType{fields{name args{name}}}}}` で API の全体像を把握してから設計すれば、スキーマ変更(例: Translation.language が文字列 → AcmeLanguage オブジェクトに変わった)にも気付ける。
+- **「字幕が取れないので原作から再構成」は禁忌**。学習者は本物の lesson を期待しているので、それっぽい再現は最悪の選択肢。データが取れなければ skip が正しい。`background.details` への注記での誤魔化しも禁止。
+- **相対時刻による新着判定は脆い**。可能な限り絶対時刻(ISO 8601)を返す API を選ぶ。
+
+---
+
 ## 2026-05-15 デイリー更新が GitHub Pages に反映されない
 
 **問題**: ルーチンが毎日「成功」しているのに、`https://scioltoharumi.github.io/daily-ted/` のデータが 2026-05-13 から更新されない。05-12 のトークは `main` から完全に欠落していた。

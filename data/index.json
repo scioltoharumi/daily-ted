@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T06:30:00+09:00",
+  "updated_at": "2026-05-23T18:38:16+09:00",
   "talks": [
     {
       "id": "talk_2026-05-15",
@@ -8,17 +8,18 @@
       "primary_topic": "Literature",
       "tags": [
         "edgar-allan-poe",
+        "gothic-literature",
         "masquerade",
         "plague",
-        "gothic-literature",
         "death",
-        "horror"
+        "allegory"
       ],
-      "difficulty": "medium",
-      "title": "You're invited to the masquerade. Do you dare attend?",
+      "difficulty": "hard",
+      "title": "You’re invited to the masquerade. Do you dare attend?",
       "speaker": "Iseult Gillespie",
-      "duration_sec": 426,
-      "thumbnail_url": "https://i.ytimg.com/vi/HdieAFhQtPo/hqdefault.jpg"
+      "duration_sec": 405,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_178677/c549a643-041f-47d6-9e85-d3dff990fd3e/reddeath_textless.jpg",
+      "published_at": "2026-05-14T15:02:43Z"
     },
     {
       "id": "talk_2026-05-13",
@@ -72,7 +73,9 @@
       "difficulty": "medium",
       "title": "Why Iceland's lava is so hard to control",
       "speaker": "Arianna Soldati",
-      "duration_sec": 295
+      "duration_sec": 296,
+      "published_at": "2026-05-07T15:01:49Z",
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_178234/51777d55-2e0e-44a8-87fa-a84c9b40bb68/lavaflow_Textless.jpg"
     }
   ],
   "skipped_dates": [
