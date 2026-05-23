@@ -1,6 +1,6 @@
-# TED英語学習PWA 要件定義書 v3.1
+# TED英語学習PWA 要件定義書 v3.3
 
-作成日:2026-05-07 / 改訂日:2026-05-10 / 作成者:匠 / 対象:Claude Code実装担当
+作成日:2026-05-07 / 改訂日:2026-05-23 / 作成者:匠 / 対象:Claude Code実装担当
 
 ---
 
@@ -8,17 +8,21 @@
 
 本書は、TED-Edを題材とした個人用英語学習PWAの正式な要件定義書である。Claude Code(Web版・Cloud Task / Scheduled Agent)による実装を前提とする。著作権上の論点は私的利用範囲として全て度外視する前提で記述している。
 
-> **v3.1 重要変更点**: Phase 1 PoC(2026-05-10)で v3.0 の前提が崩壊したため、TED-Ed取得を YouTube 直結フローに変更し、TED Talks 配信は廃止した。
-> 詳細は `steering/design_decisions.md` D-016 と `steering/lessons.md` を参照。
-> 主要な変更:
+> **v3.3 重要変更点(2026-05-23)**: 運用 2 週間で D-016 の3前提が崩壊したため、取得経路を ted.com 公式 GraphQL API に統一(D-019)。詳細は `steering/design_decisions.md` D-019 と `steering/lessons.md` 2026-05-23 を参照。
+>
+> - **新着取得**: YouTube channel HTML スクレイピング → **ted.com GraphQL `topic(slug:"ted+ed").videos`**
+> - **transcript 取得**: `youtube-transcript-api` → **ted.com GraphQL `translation(language,videoId).paragraphs.cues`**(公式 lesson 本文)
+> - **NEVER FABRICATE 規約**: 取得失敗時にトランスクリプトを再構成・原作からの再現で代替することを禁止
+> - **VERBATIM 規約**: cue.text の英文は一字一句改変しない / 段落構造は ted.com の `paragraphs[]` をそのまま採用
+> - **video_id セマンティクス変更**: YouTube videoId → ted.com 数値 video id
+> - **video_url / embed_url**: ted.com / embed.ted.com に復帰
+>
+> **過去の v3.1(D-016 採用版)変更点**(2026-05-10):
 >
 > - **配信ソース**: 平日 TED-Ed / 休日 TED Talks → **TED-Ed のみ(毎日チェック)**
-> - **新着取得**: YouTube RSS → **`youtube.com/@TEDEd/videos` の HTML スクレイピング(`ytInitialData` 抽出)**
-> - **transcript 取得**: ted.com スクレイピング → **`youtube-transcript-api`**
-> - **slug 推定**: 廃止(YouTube videoId を直接使う)
 > - **興味分野フィルター**: 廃止(TED-Ed のみのため不要)
 >
-> 本文中の各セクション(特に 2.1 / 2.2 / 3 / 4.1 / 8 / 9)は v3.0 の記述が残っている箇所がある。実装時は本書冒頭の v3.1 変更点と D-016 を優先すること。詳細セクションの全面改訂は次回セッションで実施予定。
+> 本文中の各セクション(特に 2.1 / 2.2 / 3 / 4.1 / 8 / 9)は v3.0 / v3.1 の記述が残っている箇所がある。実装時は本書冒頭の v3.3 変更点と D-019 / D-016 を優先すること。詳細セクションの全面改訂は次回セッションで実施予定。
 
 ---
 
@@ -446,3 +450,4 @@ D-017 に従い、初回 PWA リリースで以下を全部入れる:
 - v3.0 (2026-05-07) 全単語事前生成、4階層強調、固有名詞basic化、UI/UX確定
 - v3.1 (2026-05-10) D-016採用、TED-Ed YouTube直結フローに変更、TED Talks廃止、ted.com 経路廃止、`youtube-transcript-api` 依存追加。Phase 1 PoC で v3.0 の前提崩壊を確認。
 - v3.2 (2026-05-10) D-017採用、Phase 概念撤廃→Stage 1〜3 再編。初回 PWA リリースに5ビュー(A〜E)+補助機能を全部入れ。データスキーマに `primary_topic` / `tags` / `difficulty` 追加。D-018 で hash-based routing + Svelte+Vite を確定。詳細は `00_admin/steering/20260510-pwa-ui-direction/`。
+- v3.3 (2026-05-23) D-019採用、D-016 を撤回。取得経路を ted.com 公式 GraphQL API に統一(`topic(slug:"ted+ed").videos` で新着検出、`translation(language,videoId).paragraphs.cues` で公式トランスクリプト)。NEVER FABRICATE / VERBATIM の運用規約を明文化。データスキーマ v3.3(video_id を ted.com 数値 id、video_url/embed_url を ted.com に復帰、published_at 追加)。

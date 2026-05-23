@@ -13,9 +13,9 @@ Daily TED PWA リポジトリのエージェント向けエントリポイント
 - `docs/` — 要件定義・データスキーマ・PoC 手順・UI モックアップ
 - `prompts/` — Cloud Task / Scheduled Agent 用プロンプト(`daily_batch.md`)
 - `scripts/` — Python ヘルパー
-  - `fetch_ted_ed_videos.py` — YouTube TED-Ed channel HTML スクレイピングで新着取得
-  - `fetch_youtube_transcript.py` — youtube-transcript-api で動画字幕取得
-- `archive/` — 退役したスクリプト(D-016 で TED-Ed パスを YouTube 直結に変更したため、ted.com / RSS 関連スクリプトを退避)
+  - `fetch_ted_ed_talks.py` — ted.com GraphQL `topic(slug:"ted+ed").videos` で新着取得 (D-019)
+  - `fetch_ted_transcript.py` — ted.com GraphQL `translation(language,videoId)` で公式トランスクリプト取得 (D-019)
+- `archive/` — 退役したスクリプト(D-019 で YouTube 直結フローを退役、その前 D-016 で旧 ted.com スクレイピングを退役)
 - `data/` — Cloud Task が生成する JSON(`index.json`, `talks/YYYY-MM-DD.json`)
 - `src/`, `public/` — Phase 2 で着手する PWA 実装ディレクトリ(現時点では未作成)
 - `steering/` — 設計判断ログ・教訓ログ
@@ -36,7 +36,8 @@ Daily TED PWA リポジトリのエージェント向けエントリポイント
 ## 主要制約
 
 - **配信ロジック**(D-016, v3.1): TED-Ed のみ毎日チェック / 新作なしならスキップ。TED Talks は学習者レベル不適合のため廃止
-- **取得経路**(D-016): YouTube TED-Ed channel HTML スクレイピング + youtube-transcript-api。ted.com / RSS は使わない(TED-Ed は ted.com にほぼ存在せず、YouTube RSS は Made for Kids 設定で 404)
+- **取得経路**(D-019, v3.3): ted.com 公式 GraphQL API (`https://www.ted.com/graphql`)。新着検出は `topic(slug:"ted+ed").videos`、公式トランスクリプト取得は `translation(language,videoId).paragraphs.cues`。**取得失敗時にトランスクリプトを再構成・捏造することは禁止** (NEVER FABRICATE)
+- **VERBATIM 厳守**: cue.text の英文は一字一句改変しない。段落構造は ted.com の `paragraphs[]` をそのまま採用
 - **冪等性**: 同日の `data/talks/YYYY-MM-DD.json` 既存なら即終了
 - **全単語事前生成**: PWA 側に AI フォールバック処理を作らない
 - **コスト・著作権度外視**: MAX プラン + 私的利用前提

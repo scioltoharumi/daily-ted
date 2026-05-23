@@ -340,6 +340,56 @@
 
 ---
 
+## D-019: 取得経路を ted.com 公式 GraphQL API に切替(D-016 を撤回)
+
+**日付**: 2026-05-23
+**判断**: 新着検出も公式トランスクリプト取得も `https://www.ted.com/graphql` に統一する。YouTube 直結フロー(D-016 / 案H)は退役。
+
+**経緯**: 運用2週間(2026-05-09〜05-18)で D-016 経由の収集に重大な3欠陥が顕在化した。
+
+1. **クラウド IP の YouTube 遮断**(lessons.md 2026-05-15)。`youtube-transcript-api` を含むあらゆる YouTube watch ページアクセスが 429/CAPTCHA リダイレクトに遭い、字幕取得が恒常的に失敗する日が発生。
+2. **24h 相対時刻ウィンドウの恒久欠落**。`fetch_ted_ed_videos.py` は YouTube の "X days ago" 粒度の `publishedTimeText` を 24h で足切りしていたため、バッチが1日でも失敗すると該当動画は二度と窓に入らず永久欠落する。実際 05-16 / 05-17 / 05-18 が `skip (no new TED-Ed upload)` と記録されているが、ted.com 側では 05-19(rabid animal)・05-21(Venice)など複数の新作があった。
+3. **YouTube 字幕と公式 lesson 本文の乖離**。`youtube-transcript-api` が返すのは YouTube のキャプション(自動生成/手動配信どちらもあり得る)で、ted.com / ed.ted.com の lesson 公式トランスクリプトと語句・句読点・行分割が一致しない事例が散見された。さらに 05-15(masquerade)では IP ブロック下で **ポー原作テキストから字幕を再構成**して保存しており、公式と全く違う文章を「正しい字幕」として配信していた(2026-05-15.json の background.details に注記あり)。
+
+**再検証で判明した事実**(D-016 当時の前提が誤りだった部分):
+
+- D-016 は「TED-Ed は ted.com にほぼ存在しない(2件のみ、2021年で停止)」と結論したが、その根拠は `/talks/rss`(curated feed)のみ。実機確認したところ `https://www.ted.com/talks?topics[0]=ted-ed` は **1376件** の TED-Ed talk を返し、最新作も網羅されている。RSS の限界をカタログ全体の限界と取り違えていた。
+- ted.com には公式 GraphQL エンドポイント `https://www.ted.com/graphql` があり、`topic(slug:"ted+ed").videos(first:N).nodes` で TED-Ed の最新一覧(正確な `publishedAt` 付き)、`translation(language,videoId).paragraphs.cues` で **公式 lesson トランスクリプト**(段落分割済み、ms 精度のタイムスタンプ付き)を返す。
+- このエンドポイントはクラウド IP からブロックされていない(2026-05-23 時点で 200 応答を確認)。
+
+**新フロー**:
+
+```text
+1. ted.com graphql に topic(slug:"ted+ed").videos クエリ → 最新 N 件取得
+2. publishedAt ≥ 前回処理時刻 をフィルタ。複数あれば最古の未処理1本のみ採用
+3. translation(language:"en", videoId:<id>) → 公式トランスクリプト取得
+4. paragraphs[] 構造をそのまま採用し、cues.text は verbatim 保持
+5. Claude が文分割 / token tier / structure / 単語・表現解説を生成
+6. /data/talks/YYYY-MM-DD.json + index.json 更新 → git commit & push
+```
+
+**重要規約**:
+
+- **NEVER FABRICATE**: GraphQL `translation` が null / エラーを返した場合、トランスクリプトを再構成・推定・原作テキストからの再現で代替してはならない。その日は skip。
+- **VERBATIM**: cue.text の英文本文は一字一句改変しない(大文字・句読点・改行を含む)。
+- **段落構造尊重**: ted.com の `paragraphs[]` をそのまま採用(Claude による再段落化禁止)。
+
+**撤回・修正される過去判断**:
+
+- D-016(YouTube 直結フロー)→ 全廃止。`fetch_ted_ed_videos.py` と `fetch_youtube_transcript.py` を `archive/` に退避。
+- D-010(TED-Ed transcript も ted.com 経由)→ 実質復活。slug はタイトル推定ではなく ted.com `canonicalUrl` から確定取得するため slug 推定不要。
+
+**新依存**: なし(Python 標準ライブラリ `urllib` のみ)。
+
+**新リスク**:
+
+- ted.com GraphQL スキーマの破壊的変更(`Translation.language` が文字列 → AcmeLanguage オブジェクトに変わった事例あり)。対応: スキーマ introspection で確認し、エラー時は手動修正。
+- ted.com 側の TED-Ed topic slug 変更。現在 `ted+ed`(id 345)。対応: `fetch_ted_ed_talks.py` の `TED_ED_TOPIC_SLUG` を更新。
+
+**汚染データの後始末**: D-016 期に取得した 4 件(2026-05-09 / 05-12 / 05-13 / 05-15)は、(a) 05-15 が完全捏造、(b) 05-09 が概算タイムスタンプ、(c) 05-12 が ted.com TED-Ed に存在しない 2018年再アップロードの誤検出、(d) 05-13 が YouTube 字幕乖離、の理由で全て再生成済み。
+
+---
+
 ## D-018: PWA は hash-based routing + Svelte + Vite
 
 **日付**: 2026-05-10
