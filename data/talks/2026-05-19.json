@@ -1,0 +1,7336 @@
+{
+  "id": "talk_2026-05-19",
+  "date": "2026-05-19",
+  "source": "ted-ed",
+  "primary_topic": "Health",
+  "tags": [
+    "rabies",
+    "virus",
+    "vaccine",
+    "louis-pasteur",
+    "infectious-disease",
+    "immunology"
+  ],
+  "difficulty": "hard",
+  "slug": "charles_rupprecht_why_is_getting_bitten_by_a_rabid_animal_so_dangerous",
+  "video_id": "178235",
+  "title": "Why is getting bitten by a rabid animal so dangerous?",
+  "speaker": "Charles Rupprecht",
+  "duration_sec": 345,
+  "published_at": "2026-05-19T15:23:43Z",
+  "video_url": "https://www.ted.com/talks/charles_rupprecht_why_is_getting_bitten_by_a_rabid_animal_so_dangerous",
+  "embed_url": "https://embed.ted.com/talks/charles_rupprecht_why_is_getting_bitten_by_a_rabid_animal_so_dangerous",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_178235/a059f58f-f112-4341-ab5e-0e1b0e5f43de/rabies_textless.jpg",
+  "background": {
+    "summary": "1885年、狂犬病に噛まれた少年ジョセフ・マイスターをルイ・パスツールの実験的ワクチンが救った。Lyssavirus が神経系を巧妙に逃れる仕組みと、現代のばく露前後ワクチンによる予防、年間5.9万人の死者という現状を解説する。",
+    "details": [
+      {
+        "heading": "Lyssavirus 属",
+        "body": "20種ほどのウイルスからなる属。すべて哺乳類の神経系を攻撃。最も多いのが Lyssavirus rabies。コウモリが主要な自然宿主で、人間感染の大半は犬から。"
+      },
+      {
+        "heading": "感染の進行",
+        "body": "唾液中のウイルスが傷口や粘膜から侵入 → 神経軸索を1日100mm移動 → 中枢神経へ → 急性症状(麻痺型・狂躁型)→ 昏睡 → 死亡。発症後の致死率はほぼ100%。"
+      },
+      {
+        "heading": "ルイ・パスツール (1822–1895)",
+        "body": "フランスの化学者・微生物学者。狂犬病ウイルス感染ウサギの脊髄を乾燥させ弱毒化ワクチンを開発。1885年マイスター少年への接種が世界初の成功例。"
+      },
+      {
+        "heading": "曝露前/後予防",
+        "body": "PrEP(曝露前予防)は獣医・研究者向け。PEP(曝露後予防)は咬傷後すぐに接種すれば中枢神経到達前にウイルスを抑え発症を防げる。"
+      },
+      {
+        "heading": "撲滅困難な理由",
+        "body": "コウモリ・キツネ・アライグマ・スカンクなど多様な自然宿主を持つため根絶不可。年5.9万人(推計)が死亡、医療アクセスの乏しい地域では数字はさらに高い可能性。"
+      }
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "One morning in France in 1885, a dog attacked 9-year-old Joseph Meister, biting him in 14 places.",
+          "translation_ja": "1885年フランスのある朝、一匹の犬が9歳のジョセフ・マイスターを襲い、体の14カ所を噛んだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "One morning in France in 1885",
+              "note": "時"
+            },
+            {
+              "label": "S",
+              "content": "a dog"
+            },
+            {
+              "label": "V",
+              "content": "attacked"
+            },
+            {
+              "label": "O",
+              "content": "9-year-old Joseph Meister"
+            },
+            {
+              "label": "M",
+              "content": "biting him in 14 places",
+              "note": "分詞構文(付帯状況)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "One morning in France in 1885, a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "dog",
+              "ref": "dog",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "attacked",
+              "ref": "attacked",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " 9-year-old Joseph Meister, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "biting",
+              "ref": "biting",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " him in 14 "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "places",
+              "ref": "places",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "He survived— but his mother realized he was probably now infected with rabies, an almost certain death sentence.",
+          "translation_ja": "少年は生き延びたが、母親は彼が今や狂犬病に感染した可能性が高いと悟った。それはほぼ確実な死刑宣告だった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "He"
+            },
+            {
+              "label": "V",
+              "content": "survived"
+            },
+            {
+              "label": "M",
+              "content": "but his mother realized he was probably now infected with rabies",
+              "note": "等位節 + that 節省略"
+            },
+            {
+              "label": "M",
+              "content": "an almost certain death sentence",
+              "note": "同格"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "He "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "survived",
+              "ref": "survived",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— but his "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "mother",
+              "ref": "mother",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "realized",
+              "ref": "realized",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " he was probably now "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "infected",
+              "ref": "infected",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", an almost certain "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "death sentence",
+              "ref": "death_sentence"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "She rushed him to Paris, knowing his life depended on a rumored experimental medicine.",
+          "translation_ja": "彼女はパリへ急ぎ、息子の命は噂の実験的な治療薬にかかっていると知っていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "She"
+            },
+            {
+              "label": "V",
+              "content": "rushed"
+            },
+            {
+              "label": "O",
+              "content": "him"
+            },
+            {
+              "label": "M",
+              "content": "to Paris"
+            },
+            {
+              "label": "M",
+              "content": "knowing his life depended on a rumored experimental medicine",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "She "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rushed",
+              "ref": "rushed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " him to Paris, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "knowing",
+              "ref": "knowing",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " his "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "life",
+              "ref": "life",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "depended on",
+              "ref": "depend_on"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "rumored",
+              "ref": "rumored",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "experimental",
+              "ref": "experimental",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "medicine",
+              "ref": "medicine",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 30.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Today, without proper intervention, rabies remains deadly in almost all cases, making it the most lethal infectious disease.",
+          "translation_ja": "今日でも、適切な介入がなければ狂犬病はほぼ全例で致死性を保ち、最も致死性の高い感染症となっている。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Today, without proper intervention",
+              "note": "譲歩・条件"
+            },
+            {
+              "label": "S",
+              "content": "rabies"
+            },
+            {
+              "label": "V",
+              "content": "remains",
+              "note": "remain + 形容詞"
+            },
+            {
+              "label": "C",
+              "content": "deadly"
+            },
+            {
+              "label": "M",
+              "content": "in almost all cases"
+            },
+            {
+              "label": "M",
+              "content": "making it the most lethal infectious disease",
+              "note": "分詞構文(結果)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Today, without "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "proper",
+              "ref": "proper",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "intervention",
+              "ref": "intervention",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", rabies "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "remains",
+              "ref": "remains",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "deadly",
+              "ref": "deadly",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " in almost all "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "cases",
+              "ref": "cases",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "making",
+              "ref": "making",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " it the most "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "lethal",
+              "ref": "lethal",
+              "tier": "key"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "expression",
+              "surface": "infectious disease",
+              "ref": "infectious_disease"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "However, modern advances have afforded us a much deeper understanding of the mechanisms that make rabies so dangerous and treatment-resistant, and have revealed the best methods to save lives.",
+          "translation_ja": "しかし現代の進歩により、狂犬病をこれほど危険かつ治療抵抗性にする仕組みのより深い理解が得られ、命を救う最良の方法も明らかになった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "However"
+            },
+            {
+              "label": "S",
+              "content": "modern advances"
+            },
+            {
+              "label": "V",
+              "content": "have afforded",
+              "note": "afford + 二重目的語"
+            },
+            {
+              "label": "O1",
+              "content": "us"
+            },
+            {
+              "label": "O2",
+              "content": "a much deeper understanding of the mechanisms that make rabies so dangerous and treatment-resistant"
+            },
+            {
+              "label": "M",
+              "content": "and have revealed the best methods to save lives",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "However, modern "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "advances",
+              "ref": "advances",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " have "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "afforded",
+              "ref": "afforded",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " us a much deeper "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "understanding",
+              "ref": "understanding",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "mechanisms",
+              "ref": "mechanisms",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " that "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "make",
+              "ref": "make",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " rabies so "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "dangerous",
+              "ref": "dangerous",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t14",
+              "type": "expression",
+              "surface": "treatment-resistant",
+              "ref": "treatment_resistant"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": ", and have "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "revealed",
+              "ref": "revealed",
+              "tier": "skip"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " the best "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "methods",
+              "ref": "methods",
+              "tier": "skip"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "save",
+              "ref": "save",
+              "tier": "skip"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t22",
+              "type": "word",
+              "surface": "lives",
+              "ref": "lives",
+              "tier": "skip"
+            },
+            {
+              "id": "t23",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 60.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Rabies is caused by the roughly 20 virus species in the Lyssavirus genus, all of which attack the mammalian nervous system.",
+          "translation_ja": "狂犬病はリッサウイルス属の約20種類のウイルスによって引き起こされ、それら全てが哺乳類の神経系を攻撃する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Rabies"
+            },
+            {
+              "label": "V",
+              "content": "is caused",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "by the roughly 20 virus species in the Lyssavirus genus"
+            },
+            {
+              "label": "M",
+              "content": "all of which attack the mammalian nervous system",
+              "note": "関係代名詞 of which"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Rabies is "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "caused",
+              "ref": "caused",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " by the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "roughly",
+              "ref": "roughly",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " 20 "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "species",
+              "ref": "species",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " in the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "Lyssavirus",
+              "ref": "lyssavirus",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "genus",
+              "ref": "genus",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", all of which "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "attack",
+              "ref": "attack",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "mammalian",
+              "ref": "mammalian",
+              "tier": "key"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t18",
+              "type": "expression",
+              "surface": "nervous system",
+              "ref": "nervous_system"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Lyssavirus rabies, the most abundant, can infect any mammal.",
+          "translation_ja": "最も豊富な Lyssavirus rabies は、あらゆる哺乳類に感染しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Lyssavirus rabies, the most abundant",
+              "note": "同格"
+            },
+            {
+              "label": "V",
+              "content": "can infect"
+            },
+            {
+              "label": "O",
+              "content": "any mammal"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Lyssavirus",
+              "ref": "lyssavirus",
+              "tier": "key"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " rabies, the most "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "abundant",
+              "ref": "abundant",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": ", can "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "infect",
+              "ref": "infect",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " any "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "mammal",
+              "ref": "mammal",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Lyssaviruses mainly persist long term in bat populations.",
+          "translation_ja": "リッサウイルス類は主にコウモリ集団に長期的にとどまる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Lyssaviruses"
+            },
+            {
+              "label": "V",
+              "content": "persist",
+              "note": "継続を意味する自動詞"
+            },
+            {
+              "label": "M",
+              "content": "mainly long term in bat populations"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Lyssaviruses",
+              "ref": "lyssaviruses",
+              "tier": "key"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "mainly",
+              "ref": "mainly",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "persist",
+              "ref": "persist",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "long term",
+              "ref": "long_term"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " in "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "bat",
+              "ref": "bat",
+              "tier": "skip"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "populations",
+              "ref": "populations",
+              "tier": "known"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Besides bats, rabies virus has also adapted to carnivores like foxes, raccoons, and skunks, and most human rabies infections come from dogs.",
+          "translation_ja": "コウモリの他にも、狂犬病ウイルスはキツネ・アライグマ・スカンクといった肉食動物にも適応しており、人の感染の大半は犬に由来する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Besides bats"
+            },
+            {
+              "label": "S",
+              "content": "rabies virus"
+            },
+            {
+              "label": "V",
+              "content": "has adapted",
+              "note": "現在完了"
+            },
+            {
+              "label": "M",
+              "content": "to carnivores like foxes, raccoons, and skunks"
+            },
+            {
+              "label": "M",
+              "content": "and most human rabies infections come from dogs",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Besides",
+              "ref": "besides",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "bats",
+              "ref": "bats",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": ", rabies virus has also "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "adapted",
+              "ref": "adapted",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "carnivores",
+              "ref": "carnivores",
+              "tier": "key"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " like "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "foxes",
+              "ref": "foxes",
+              "tier": "known"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "raccoons",
+              "ref": "raccoons",
+              "tier": "key"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "skunks",
+              "ref": "skunks",
+              "tier": "key"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": ", and most "
+            },
+            {
+              "id": "t15",
+              "type": "word",
+              "surface": "human",
+              "ref": "human",
+              "tier": "skip"
+            },
+            {
+              "id": "t16",
+              "type": "skip",
+              "surface": " rabies "
+            },
+            {
+              "id": "t17",
+              "type": "word",
+              "surface": "infections",
+              "ref": "infections",
+              "tier": "known"
+            },
+            {
+              "id": "t18",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t19",
+              "type": "expression",
+              "surface": "come from",
+              "ref": "come_from"
+            },
+            {
+              "id": "t20",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t21",
+              "type": "word",
+              "surface": "dogs",
+              "ref": "dogs",
+              "tier": "skip"
+            },
+            {
+              "id": "t22",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 90.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Infection begins with the transfer of virus-laden saliva into the new host's tissue.",
+          "translation_ja": "感染はウイルスを含んだ唾液が新たな宿主の組織に移ることから始まる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Infection"
+            },
+            {
+              "label": "V",
+              "content": "begins"
+            },
+            {
+              "label": "M",
+              "content": "with the transfer of virus-laden saliva into the new host's tissue"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Infection",
+              "ref": "infection",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "begins",
+              "ref": "begins",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " with the "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "transfer",
+              "ref": "transfer",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "virus-laden",
+              "ref": "virus_laden"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "saliva",
+              "ref": "saliva",
+              "tier": "key"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " into the new "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "host",
+              "ref": "host",
+              "tier": "known"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": "'s "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "tissue",
+              "ref": "tissue",
+              "tier": "known"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "This could happen with a deep bite wound or a simple lick to certain spots.",
+          "translation_ja": "これは深い噛み傷でも、特定の部位への単純な舐めでも起こりうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "could happen",
+              "note": "可能性 could"
+            },
+            {
+              "label": "M",
+              "content": "with a deep bite wound or a simple lick to certain spots"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This could "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "happen",
+              "ref": "happen",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " with a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "deep",
+              "ref": "deep",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "bite",
+              "ref": "bite",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "wound",
+              "ref": "wound",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " or a simple "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "lick",
+              "ref": "lick",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "certain",
+              "ref": "certain",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "spots",
+              "ref": "spots",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Once inside its new host, the virus particles, called virions, set out for the brain.",
+          "translation_ja": "新たな宿主に入ると、ビリオンと呼ばれるウイルス粒子は脳を目指す。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once inside its new host",
+              "note": "分詞構文(時)"
+            },
+            {
+              "label": "S",
+              "content": "the virus particles, called virions",
+              "note": "同格"
+            },
+            {
+              "label": "V",
+              "content": "set out"
+            },
+            {
+              "label": "M",
+              "content": "for the brain"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once inside its new host, the virus "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "particles",
+              "ref": "particles",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", called "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "set out",
+              "ref": "set_out"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " for the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "brain",
+              "ref": "brain",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "If the infection site is closer to the head, things may escalate faster.",
+          "translation_ja": "感染部位が頭に近ければ、事態はより早く悪化しうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "If the infection site is closer to the head",
+              "note": "条件節"
+            },
+            {
+              "label": "S",
+              "content": "things"
+            },
+            {
+              "label": "V",
+              "content": "may escalate"
+            },
+            {
+              "label": "M",
+              "content": "faster"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "If the infection "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "site",
+              "ref": "site",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "closer",
+              "ref": "closer",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "head",
+              "ref": "head",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", things may "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "escalate",
+              "ref": "escalate",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "faster",
+              "ref": "faster",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Rabies virions may lay low for days, weeks, months, or in rare cases, years, replicating without causing any immediate symptoms.",
+          "translation_ja": "狂犬病ビリオンは数日、数週、数か月、稀には数年も身を潜めながら、症状を出さずに複製しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Rabies virions"
+            },
+            {
+              "label": "V",
+              "content": "may lay low",
+              "note": "lay low = 身を潜める"
+            },
+            {
+              "label": "M",
+              "content": "for days, weeks, months, or in rare cases, years"
+            },
+            {
+              "label": "M",
+              "content": "replicating without causing any immediate symptoms",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Rabies virions may "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "lay low",
+              "ref": "lay_low"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " for days, weeks, months, or in rare "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "cases",
+              "ref": "cases",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", years, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "replicating",
+              "ref": "replicating",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " without "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "causing",
+              "ref": "causing",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " any "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "immediate",
+              "ref": "immediate",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Virions also suppress certain immune responses, making it harder to clear an infection locally.",
+          "translation_ja": "ビリオンは特定の免疫応答も抑制し、局所での感染排除を困難にする。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Virions"
+            },
+            {
+              "label": "V",
+              "content": "suppress"
+            },
+            {
+              "label": "O",
+              "content": "certain immune responses"
+            },
+            {
+              "label": "M",
+              "content": "making it harder to clear an infection locally",
+              "note": "分詞構文(結果)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Virions also "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "suppress",
+              "ref": "suppress",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " certain "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "immune responses",
+              "ref": "immune_responses"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " making it harder to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "clear",
+              "ref": "clear",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "locally",
+              "ref": "locally",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 140.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Meanwhile, the virions begin to travel, entering local nerve cells and exploiting the existing transport mechanisms along their axons, traveling up to 100 millimeters a day.",
+          "translation_ja": "その間にビリオンは移動を始め、局所の神経細胞に入り込み、軸索沿いの既存の輸送機構を利用して、一日最大100ミリ進む。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Meanwhile"
+            },
+            {
+              "label": "S",
+              "content": "the virions"
+            },
+            {
+              "label": "V",
+              "content": "begin"
+            },
+            {
+              "label": "O",
+              "content": "to travel"
+            },
+            {
+              "label": "M",
+              "content": "entering local nerve cells and exploiting the existing transport mechanisms along their axons",
+              "note": "分詞構文(並列)"
+            },
+            {
+              "label": "M",
+              "content": "traveling up to 100 millimeters a day",
+              "note": "分詞構文(補足)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Meanwhile",
+              "ref": "meanwhile",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", the virions begin to "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "travel",
+              "ref": "travel",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "entering",
+              "ref": "entering",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " local "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "nerve cells",
+              "ref": "nerve_cells"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "exploiting",
+              "ref": "exploiting",
+              "tier": "known"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " the existing "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "transport",
+              "ref": "transport",
+              "tier": "skip"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "mechanisms",
+              "ref": "mechanisms",
+              "tier": "known"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": " along their "
+            },
+            {
+              "id": "t15",
+              "type": "word",
+              "surface": "axons",
+              "ref": "axons",
+              "tier": "key"
+            },
+            {
+              "id": "t16",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t17",
+              "type": "word",
+              "surface": "traveling",
+              "ref": "traveling",
+              "tier": "skip"
+            },
+            {
+              "id": "t18",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t19",
+              "type": "expression",
+              "surface": "up to",
+              "ref": "up_to"
+            },
+            {
+              "id": "t20",
+              "type": "skip",
+              "surface": " 100 "
+            },
+            {
+              "id": "t21",
+              "type": "word",
+              "surface": "millimeters",
+              "ref": "millimeters",
+              "tier": "skip"
+            },
+            {
+              "id": "t22",
+              "type": "skip",
+              "surface": " a day."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Their protected position here in the nerve cells helps shield the virions from the host's immune system.",
+          "translation_ja": "神経細胞内という保護された位置によって、ビリオンは宿主の免疫系から守られる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Their protected position here in the nerve cells"
+            },
+            {
+              "label": "V",
+              "content": "helps shield"
+            },
+            {
+              "label": "O",
+              "content": "the virions"
+            },
+            {
+              "label": "M",
+              "content": "from the host's immune system"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Their "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "protected",
+              "ref": "protected",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "position",
+              "ref": "position",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " here in the nerve cells helps "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "shield",
+              "ref": "shield",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the virions from the host's "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "immune system",
+              "ref": "immune_system"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 170.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Once they've made it to the central nervous system, the infection enters a new, devastating stage.",
+          "translation_ja": "ひとたび中枢神経系に到達すると、感染は新たな破壊的段階に入る。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once they've made it to the central nervous system",
+              "note": "時の従属節"
+            },
+            {
+              "label": "S",
+              "content": "the infection"
+            },
+            {
+              "label": "V",
+              "content": "enters"
+            },
+            {
+              "label": "O",
+              "content": "a new, devastating stage"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once they've "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "made it to",
+              "ref": "make_it_to"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "central nervous system",
+              "ref": "central_nervous_system"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", the infection "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "enters",
+              "ref": "enters",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " a new, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "devastating",
+              "ref": "devastating",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "stage",
+              "ref": "stage",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Clinical symptoms develop as rabies virions rapidly proliferate, spreading into the peripheral nervous system and its connective tissues.",
+          "translation_ja": "狂犬病ビリオンが急速に増殖するにつれ臨床症状が現れ、末梢神経系とその結合組織へ広がる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Clinical symptoms"
+            },
+            {
+              "label": "V",
+              "content": "develop"
+            },
+            {
+              "label": "M",
+              "content": "as rabies virions rapidly proliferate",
+              "note": "同時の as 節"
+            },
+            {
+              "label": "M",
+              "content": "spreading into the peripheral nervous system and its connective tissues",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Clinical",
+              "ref": "clinical",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "develop",
+              "ref": "develop",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " as rabies virions "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "rapidly",
+              "ref": "rapidly",
+              "tier": "skip"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "proliferate",
+              "ref": "proliferate",
+              "tier": "key"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "spreading",
+              "ref": "spreading",
+              "tier": "skip"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " into the "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "peripheral",
+              "ref": "peripheral",
+              "tier": "key"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": " nervous system and its "
+            },
+            {
+              "id": "t15",
+              "type": "word",
+              "surface": "connective",
+              "ref": "connective",
+              "tier": "known"
+            },
+            {
+              "id": "t16",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t17",
+              "type": "word",
+              "surface": "tissues",
+              "ref": "tissues",
+              "tier": "known"
+            },
+            {
+              "id": "t18",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "First, the escalating infection registers with flu-like symptoms.",
+          "translation_ja": "まず、悪化していく感染がインフルエンザに似た症状として現れる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "First"
+            },
+            {
+              "label": "S",
+              "content": "the escalating infection"
+            },
+            {
+              "label": "V",
+              "content": "registers",
+              "note": "register = 兆候を示す"
+            },
+            {
+              "label": "M",
+              "content": "with flu-like symptoms"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "First, the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "escalating",
+              "ref": "escalating",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " infection "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "registers",
+              "ref": "registers",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "flu-like",
+              "ref": "flu_like"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " symptoms."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Where a different neurological infection might cause inflammation that opens the blood-brain barrier and incites an immune response, rabies viruses do not, so immune cells and therapies cannot easily or quickly reach them there.",
+          "translation_ja": "他の神経感染症であれば血液脳関門を開き免疫応答を誘発するような炎症を起こすところを、狂犬病ウイルスはそれをしないので、免疫細胞や治療薬は容易に・早く到達できない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Where a different neurological infection might cause inflammation that opens the blood-brain barrier and incites an immune response",
+              "note": "関係副詞 where による対比"
+            },
+            {
+              "label": "S",
+              "content": "rabies viruses"
+            },
+            {
+              "label": "V",
+              "content": "do not"
+            },
+            {
+              "label": "M",
+              "content": "so immune cells and therapies cannot easily or quickly reach them there",
+              "note": "結果"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Where a different "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "neurological",
+              "ref": "neurological",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " infection might cause "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "inflammation",
+              "ref": "inflammation",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " that opens the "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "blood-brain barrier",
+              "ref": "blood_brain_barrier"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "incites",
+              "ref": "incites",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " an immune response, rabies viruses do not, so "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "immune",
+              "ref": "immune",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " cells and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "therapies",
+              "ref": "therapies",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " cannot easily or quickly "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "reach",
+              "ref": "reach",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " them there."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Then, as the disease damages the nervous system, things take one of two turns.",
+          "translation_ja": "次いで、病気が神経系を傷つけるにつれ、事態は二つのうち一つの方向に進む。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Then"
+            },
+            {
+              "label": "M",
+              "content": "as the disease damages the nervous system",
+              "note": "時の従属節"
+            },
+            {
+              "label": "S",
+              "content": "things"
+            },
+            {
+              "label": "V",
+              "content": "take"
+            },
+            {
+              "label": "O",
+              "content": "one of two turns",
+              "note": "take a turn = 進路を変える"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then, as the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "disease",
+              "ref": "disease",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "damages",
+              "ref": "damages",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the nervous system, things "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "take one of two turns",
+              "ref": "take_a_turn"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "In paralytic rabies, symptoms like a vacant expression, weakness, and paralysis set in.",
+          "translation_ja": "麻痺型狂犬病では、虚ろな表情、脱力、麻痺などの症状が現れる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In paralytic rabies"
+            },
+            {
+              "label": "S",
+              "content": "symptoms like a vacant expression, weakness, and paralysis"
+            },
+            {
+              "label": "V",
+              "content": "set in",
+              "note": "set in = (好ましくない状態が)始まる"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "paralytic",
+              "ref": "paralytic",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " rabies, symptoms like a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "vacant",
+              "ref": "vacant",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "expression",
+              "ref": "expression",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "weakness",
+              "ref": "weakness",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "paralysis",
+              "ref": "paralysis",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "set in",
+              "ref": "set_in"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Furious rabies, meanwhile, is associated with hyperactivity, uncontrolled movements, hallucinations, aggression, and paralysis.",
+          "translation_ja": "一方、狂躁型狂犬病は多動、制御不能な動き、幻覚、攻撃性、麻痺と結びつく。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Furious rabies"
+            },
+            {
+              "label": "V",
+              "content": "is associated"
+            },
+            {
+              "label": "M",
+              "content": "with hyperactivity, uncontrolled movements, hallucinations, aggression, and paralysis"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Furious",
+              "ref": "furious",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " rabies, meanwhile, is "
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "associated with",
+              "ref": "associated_with"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "hyperactivity",
+              "ref": "hyperactivity",
+              "tier": "key"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "uncontrolled",
+              "ref": "uncontrolled",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "movements",
+              "ref": "movements",
+              "tier": "skip"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "hallucinations",
+              "ref": "hallucinations",
+              "tier": "key"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "aggression",
+              "ref": "aggression",
+              "tier": "known"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": ", and paralysis."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "As virions accumulate in the salivary glands, the host secretes excess saliva.",
+          "translation_ja": "ビリオンが唾液腺に蓄積すると、宿主は唾液を過剰に分泌する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "As virions accumulate in the salivary glands",
+              "note": "時の従属節"
+            },
+            {
+              "label": "S",
+              "content": "the host"
+            },
+            {
+              "label": "V",
+              "content": "secretes"
+            },
+            {
+              "label": "O",
+              "content": "excess saliva"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "As virions "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "accumulate",
+              "ref": "accumulate",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in the "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "salivary glands",
+              "ref": "salivary_glands"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", the host "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "secretes",
+              "ref": "secretes",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "excess",
+              "ref": "excess",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " saliva."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "The infection also often causes hydrophobia in people, where throat spasms make swallowing water painful and difficult, further concentrating the virus in the saliva and increasing the odds of transmission.",
+          "translation_ja": "感染は人に恐水症もしばしば引き起こす。喉の痙攣で水を飲み込むのが痛く困難になり、唾液中のウイルスがさらに濃縮され、伝染の可能性が高まる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The infection"
+            },
+            {
+              "label": "V",
+              "content": "causes"
+            },
+            {
+              "label": "O",
+              "content": "hydrophobia in people"
+            },
+            {
+              "label": "M",
+              "content": "where throat spasms make swallowing water painful and difficult",
+              "note": "関係副詞節"
+            },
+            {
+              "label": "M",
+              "content": "further concentrating the virus in the saliva and increasing the odds of transmission",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The infection also often causes "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "hydrophobia",
+              "ref": "hydrophobia",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in people, where "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "throat",
+              "ref": "throat",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "spasms",
+              "ref": "spasms",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " make "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "swallowing",
+              "ref": "swallowing",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " water "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "painful",
+              "ref": "painful",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "difficult",
+              "ref": "difficult",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", further "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "concentrating",
+              "ref": "concentrating",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " the virus in the saliva and increasing the "
+            },
+            {
+              "id": "t16",
+              "type": "expression",
+              "surface": "odds of",
+              "ref": "odds_of"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "transmission",
+              "ref": "transmission",
+              "tier": "known"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s10",
+          "text": "Some hosts are especially effective at transmitting the virus; humans, however, aren't, and rarely transmit rabies themselves, for example, in cases of tissue or organ transplantation.",
+          "translation_ja": "宿主の中にはウイルスを伝播するのに特に効率的なものもいるが、人間はそうではなく、組織や臓器移植のような特殊な場合を除き、自ら狂犬病を伝染させることはまれだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Some hosts"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "especially effective at transmitting the virus"
+            },
+            {
+              "label": "M",
+              "content": "humans, however, aren't, and rarely transmit rabies themselves",
+              "note": "対比節"
+            },
+            {
+              "label": "M",
+              "content": "for example, in cases of tissue or organ transplantation"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Some "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "hosts",
+              "ref": "hosts",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " are especially "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "effective",
+              "ref": "effective",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " at "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "transmitting",
+              "ref": "transmitting",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the virus; humans, however, aren't, and rarely "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "transmit",
+              "ref": "transmit",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " rabies themselves, for example, in cases of "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "tissue",
+              "ref": "tissue",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "organ",
+              "ref": "organ",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "transplantation",
+              "ref": "transplantation",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 230.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Regardless of whether transmission occurs, this period of acute illness is almost always followed by coma and death.",
+          "translation_ja": "伝染が起こるかどうかに関わらず、この急性期はほぼ常に昏睡と死へ続く。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Regardless of whether transmission occurs",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "this period of acute illness"
+            },
+            {
+              "label": "V",
+              "content": "is followed"
+            },
+            {
+              "label": "M",
+              "content": "by coma and death"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "Regardless of",
+              "ref": "regardless_of"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " whether transmission occurs, this period of "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "acute",
+              "ref": "acute",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "illness",
+              "ref": "illness",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " is almost always "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "followed by",
+              "ref": "followed_by"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "coma",
+              "ref": "coma",
+              "tier": "known"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "death",
+              "ref": "death",
+              "tier": "skip"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Once symptoms have begun, there is currently no cure for rabies.",
+          "translation_ja": "症状が出始めてしまうと、狂犬病に治療法は現在ない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once symptoms have begun",
+              "note": "時"
+            },
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "currently no cure for rabies"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once symptoms have begun, there is "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "currently",
+              "ref": "currently",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " no "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "cure",
+              "ref": "cure",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " for rabies."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "However, we do have highly effective preventative methods if they're delivered early enough— and Joseph Meister was the first to benefit.",
+          "translation_ja": "しかし、十分早期に投与すれば極めて効果的な予防法はあり、ジョセフ・マイスターはその最初の恩恵者だった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "However"
+            },
+            {
+              "label": "S",
+              "content": "we"
+            },
+            {
+              "label": "V",
+              "content": "do have",
+              "note": "強調の do"
+            },
+            {
+              "label": "O",
+              "content": "highly effective preventative methods"
+            },
+            {
+              "label": "M",
+              "content": "if they're delivered early enough",
+              "note": "条件"
+            },
+            {
+              "label": "M",
+              "content": "and Joseph Meister was the first to benefit",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "However, we do have "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "highly",
+              "ref": "highly",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "effective",
+              "ref": "effective",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "preventative",
+              "ref": "preventative",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " methods if they're "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "delivered",
+              "ref": "delivered",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "early",
+              "ref": "early",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "enough",
+              "ref": "enough",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "— and Joseph Meister was the first to "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "benefit",
+              "ref": "benefit",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "For years, French scientist Louis Pasteur and colleagues had been trying to develop a rabies vaccine.",
+          "translation_ja": "長年、フランス人科学者ルイ・パスツールと同僚たちは狂犬病ワクチンの開発に取り組んでいた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "For years"
+            },
+            {
+              "label": "S",
+              "content": "French scientist Louis Pasteur and colleagues"
+            },
+            {
+              "label": "V",
+              "content": "had been trying",
+              "note": "過去完了進行"
+            },
+            {
+              "label": "O",
+              "content": "to develop a rabies vaccine"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For years, French "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "scientist",
+              "ref": "scientist",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Louis Pasteur and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "colleagues",
+              "ref": "colleagues",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " had been "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "trying",
+              "ref": "trying",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "develop",
+              "ref": "develop",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " a rabies "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "vaccine",
+              "ref": "vaccine",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "They collected the spinal cords of rabies-virus-infected rabbits, dried them to weaken the virus, and injected the resulting mixtures into dogs and other animals.",
+          "translation_ja": "彼らは狂犬病ウイルス感染ウサギの脊髄を集め、乾燥させてウイルスを弱毒化し、できた混合物を犬などの動物に注射した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "They"
+            },
+            {
+              "label": "V1",
+              "content": "collected"
+            },
+            {
+              "label": "O1",
+              "content": "the spinal cords of rabies-virus-infected rabbits"
+            },
+            {
+              "label": "V2",
+              "content": "dried"
+            },
+            {
+              "label": "M2",
+              "content": "to weaken the virus"
+            },
+            {
+              "label": "V3",
+              "content": "injected"
+            },
+            {
+              "label": "O3",
+              "content": "the resulting mixtures"
+            },
+            {
+              "label": "M3",
+              "content": "into dogs and other animals"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "They "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "collected",
+              "ref": "collected",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "spinal cords",
+              "ref": "spinal_cords"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of rabies-virus-infected "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "rabbits",
+              "ref": "rabbits",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "dried",
+              "ref": "dried",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " them to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "weaken",
+              "ref": "weaken",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " the virus, and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "injected",
+              "ref": "injected",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "resulting",
+              "ref": "resulting",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "mixtures",
+              "ref": "mixtures",
+              "tier": "known"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " into dogs and other animals."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Meister's mother got him to Pasteur two days after the attack.",
+          "translation_ja": "マイスターの母親は襲撃の2日後にパスツールのもとへ息子を連れて行った。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Meister's mother"
+            },
+            {
+              "label": "V",
+              "content": "got"
+            },
+            {
+              "label": "O",
+              "content": "him"
+            },
+            {
+              "label": "M",
+              "content": "to Pasteur two days after the attack"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Meister's mother got him to Pasteur two days after the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "attack",
+              "ref": "attack",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "He received a course of inoculations, and though the procedure was risky, he beat the odds, becoming the first rabies-vaccinated person to survive.",
+          "translation_ja": "彼は一連の予防接種を受け、その処置は危険を伴ったが、勝算を覆して狂犬病ワクチンで生存した最初の人物となった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "He"
+            },
+            {
+              "label": "V",
+              "content": "received"
+            },
+            {
+              "label": "O",
+              "content": "a course of inoculations"
+            },
+            {
+              "label": "M",
+              "content": "and though the procedure was risky, he beat the odds",
+              "note": "譲歩 + 主節"
+            },
+            {
+              "label": "M",
+              "content": "becoming the first rabies-vaccinated person to survive",
+              "note": "分詞構文(結果)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "He "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "received",
+              "ref": "received",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "a course of",
+              "ref": "course_of"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "inoculations",
+              "ref": "inoculations",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and though the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "procedure",
+              "ref": "procedure",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " was "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "risky",
+              "ref": "risky",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", he "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "beat the odds",
+              "ref": "beat_the_odds"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", becoming the first "
+            },
+            {
+              "id": "t14",
+              "type": "expression",
+              "surface": "rabies-vaccinated",
+              "ref": "rabies_vaccinated"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " person to "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "survive",
+              "ref": "survive",
+              "tier": "skip"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start_sec": 280.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Today, two series of vaccinations are available: pre- and post-exposure prophylaxis.",
+          "translation_ja": "現在は二系統のワクチン接種が利用可能だ。曝露前予防と曝露後予防である。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Today"
+            },
+            {
+              "label": "S",
+              "content": "two series of vaccinations"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "available"
+            },
+            {
+              "label": "M",
+              "content": "pre- and post-exposure prophylaxis",
+              "note": "同格"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Today, two "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "series",
+              "ref": "series",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "vaccinations",
+              "ref": "vaccinations",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " are available: "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "pre- and post-exposure prophylaxis",
+              "ref": "pre_post_exposure_prophylaxis"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Each is highly effective at preventing rabies virus infections from reaching the central nervous system, before symptoms develop and the virus has done irreparable harm.",
+          "translation_ja": "いずれも、症状発現とウイルスが取り返しのつかない損傷を与える前に、狂犬病ウイルス感染が中枢神経系に達するのを防ぐのに極めて有効だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Each"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "highly effective at preventing rabies virus infections from reaching the central nervous system"
+            },
+            {
+              "label": "M",
+              "content": "before symptoms develop and the virus has done irreparable harm",
+              "note": "時の従属節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Each is highly effective at "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "preventing … from",
+              "ref": "prevent_from"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " rabies virus infections "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reaching",
+              "ref": "reaching",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the central nervous system, before symptoms develop and the virus has done "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "irreparable",
+              "ref": "irreparable",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "harm",
+              "ref": "harm",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "The very few people known to have survived rabies after the onset of symptoms have done so due to intensive care, usually sustaining neurological damage in the process.",
+          "translation_ja": "症状発現後に狂犬病を生き延びたごく少数の人々は、集中治療のおかげでそうできたが、その過程で通常は神経学的損傷を負う。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The very few people known to have survived rabies after the onset of symptoms"
+            },
+            {
+              "label": "V",
+              "content": "have done",
+              "note": "have done so = そうしてきた"
+            },
+            {
+              "label": "M",
+              "content": "due to intensive care"
+            },
+            {
+              "label": "M",
+              "content": "usually sustaining neurological damage in the process",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The very few people known to have survived rabies after the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "onset",
+              "ref": "onset",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of symptoms have done so "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "due to",
+              "ref": "due_to"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "intensive care",
+              "ref": "intensive_care"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", usually "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "sustaining",
+              "ref": "sustaining",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " neurological "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "damage",
+              "ref": "damage",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " in the process."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Around 59,000 people are still estimated to die of rabies annually, though the number is sadly suspected to be higher due to insufficient medical access in rabies-burdened areas.",
+          "translation_ja": "依然として年間およそ5万9千人が狂犬病で死亡すると推定されているが、狂犬病負荷の高い地域では医療アクセス不足のため、この数字はもっと高いと残念ながら疑われている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Around 59,000 people"
+            },
+            {
+              "label": "V",
+              "content": "are estimated",
+              "note": "be estimated to do"
+            },
+            {
+              "label": "O",
+              "content": "to die of rabies annually"
+            },
+            {
+              "label": "M",
+              "content": "though the number is sadly suspected to be higher due to insufficient medical access in rabies-burdened areas",
+              "note": "譲歩"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Around 59,000 people are still "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "estimated",
+              "ref": "estimated",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to die of rabies annually, though the number is "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "sadly",
+              "ref": "sadly",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "suspected",
+              "ref": "suspected",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to be higher due to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "insufficient",
+              "ref": "insufficient",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "medical",
+              "ref": "medical",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "access",
+              "ref": "access",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " in "
+            },
+            {
+              "id": "t14",
+              "type": "expression",
+              "surface": "rabies-burdened",
+              "ref": "rabies_burdened"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " areas."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start_sec": 318.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Scientists are still looking into new therapies.",
+          "translation_ja": "科学者たちは新たな治療法を引き続き探っている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Scientists"
+            },
+            {
+              "label": "V",
+              "content": "are looking"
+            },
+            {
+              "label": "M",
+              "content": "into new therapies"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Scientists are still "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "looking into",
+              "ref": "look_into"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " new therapies."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But the way rabies virions elude the immune system and damage cells makes the infection extremely difficult to treat.",
+          "translation_ja": "しかし狂犬病ビリオンが免疫系を逃れ細胞を傷つける仕方は、感染を治療することを極めて困難にする。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "the way rabies virions elude the immune system and damage cells"
+            },
+            {
+              "label": "V",
+              "content": "makes",
+              "note": "make O C"
+            },
+            {
+              "label": "O",
+              "content": "the infection"
+            },
+            {
+              "label": "C",
+              "content": "extremely difficult to treat"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But the way rabies virions "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "elude",
+              "ref": "elude",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the immune system and damage cells makes the infection extremely difficult to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "treat",
+              "ref": "treat",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And because the Lyssavirus has so many natural hosts, it's impossible to eradicate the disease.",
+          "translation_ja": "そしてリッサウイルスには非常に多くの自然宿主が存在するため、この病気の根絶は不可能だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "because the Lyssavirus has so many natural hosts",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "'s"
+            },
+            {
+              "label": "C",
+              "content": "impossible to eradicate the disease",
+              "note": "形式主語 it + to不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And because the Lyssavirus has so many "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "natural hosts",
+              "ref": "natural_hosts"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " it's impossible to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "eradicate",
+              "ref": "eradicate",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the disease."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This makes preventative measures especially essential.",
+          "translation_ja": "これゆえに予防策がとりわけ重要になる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "makes"
+            },
+            {
+              "label": "O",
+              "content": "preventative measures"
+            },
+            {
+              "label": "C",
+              "content": "especially essential"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This makes "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "preventative measures",
+              "ref": "preventative_measures"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " especially "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "essential",
+              "ref": "essential",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Even unconfirmed, potential exposures— like the mere presence of a bat in one's house while they've been sleeping— warrant serious medical investigation.",
+          "translation_ja": "未確認の潜在的曝露——例えば就寝中に家の中にコウモリがいたという事実のみでも——真剣な医学的調査に値する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Even unconfirmed, potential exposures"
+            },
+            {
+              "label": "M",
+              "content": "like the mere presence of a bat in one's house while they've been sleeping",
+              "note": "例"
+            },
+            {
+              "label": "V",
+              "content": "warrant",
+              "note": "warrant = 〜に値する"
+            },
+            {
+              "label": "O",
+              "content": "serious medical investigation"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Even "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "unconfirmed",
+              "ref": "unconfirmed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", potential "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "exposures",
+              "ref": "exposures",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "— like the mere "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "presence",
+              "ref": "presence",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of a bat in one's house while they've been sleeping— "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "warrant",
+              "ref": "warrant",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " serious medical "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "investigation",
+              "ref": "investigation",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "abundant": {
+      "tier": "known",
+      "surface": "abundant",
+      "pos": "adj · B2",
+      "pron": "/əˈbʌn.dənt/",
+      "meaning": "豊富な",
+      "example": {
+        "en": "Water is abundant here.",
+        "ja": "ここでは水が豊富だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "access": {
+      "tier": "skip",
+      "surface": "access",
+      "pos": "n · A2",
+      "pron": "/ˈæk.ses/",
+      "meaning": "アクセス",
+      "example": {
+        "en": "Limited access.",
+        "ja": "アクセス制限。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "accumulate": {
+      "tier": "known",
+      "surface": "accumulate",
+      "pos": "v · B2",
+      "pron": "/əˈkjuː.mjə.leɪt/",
+      "meaning": "蓄積する",
+      "example": {
+        "en": "Snow accumulates fast.",
+        "ja": "雪が急速に積もる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "acute": {
+      "tier": "known",
+      "surface": "acute",
+      "pos": "adj · B2",
+      "pron": "/əˈkjuːt/",
+      "meaning": "急性の、深刻な",
+      "example": {
+        "en": "Acute pain.",
+        "ja": "急性の痛み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adapted": {
+      "tier": "known",
+      "surface": "adapted",
+      "pos": "v · B2",
+      "pron": "/əˈdæp.tɪd/",
+      "meaning": "適応した",
+      "example": {
+        "en": "Animals adapted to cold.",
+        "ja": "動物は寒さに適応した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "advances": {
+      "tier": "known",
+      "surface": "advances",
+      "pos": "n · B2",
+      "pron": "/ədˈvɑːn.sɪz/",
+      "meaning": "進歩",
+      "example": {
+        "en": "Tech advances accelerated.",
+        "ja": "技術進歩が加速した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "afforded": {
+      "tier": "key",
+      "surface": "afforded",
+      "pos": "v · C1",
+      "pron": "/əˈfɔː.dɪd/",
+      "meaning": "与えた、可能にした",
+      "example": {
+        "en": "The data afforded us new insights.",
+        "ja": "データは我々に新たな洞察を与えた。"
+      },
+      "context": "afford には「余裕がある」以外に「(機会・知見を)与える」意。",
+      "collocations": [
+        "afforded us",
+        "afford an opportunity"
+      ]
+    },
+    "aggression": {
+      "tier": "known",
+      "surface": "aggression",
+      "pos": "n · B2",
+      "pron": "/əˈɡreʃ.ən/",
+      "meaning": "攻撃性",
+      "example": {
+        "en": "Aggression rose.",
+        "ja": "攻撃性が高まった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attack": {
+      "tier": "skip",
+      "surface": "attack",
+      "pos": "v · A2",
+      "pron": "/əˈtæk/",
+      "meaning": "攻撃する",
+      "example": {
+        "en": "Attack early.",
+        "ja": "早く攻撃。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attacked": {
+      "tier": "skip",
+      "surface": "attacked",
+      "pos": "v · A2",
+      "pron": "/əˈtækt/",
+      "meaning": "襲った",
+      "example": {
+        "en": "He attacked first.",
+        "ja": "彼が先に攻撃した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "axons": {
+      "tier": "key",
+      "surface": "axons",
+      "pos": "n · C1",
+      "pron": "/ˈæk.sɒnz/",
+      "meaning": "軸索",
+      "example": {
+        "en": "Axons transmit electrical signals.",
+        "ja": "軸索は電気信号を伝える。"
+      },
+      "context": "神経細胞の長い突起。",
+      "collocations": []
+    },
+    "bat": {
+      "tier": "skip",
+      "surface": "bat",
+      "pos": "n · A2",
+      "pron": "/bæt/",
+      "meaning": "コウモリ",
+      "example": {
+        "en": "Bats fly at night.",
+        "ja": "コウモリは夜飛ぶ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bats": {
+      "tier": "skip",
+      "surface": "bats",
+      "pos": "n · A2",
+      "pron": "/bæts/",
+      "meaning": "コウモリたち",
+      "example": {
+        "en": "Bats roost in caves.",
+        "ja": "コウモリは洞窟にねぐらを取る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "begins": {
+      "tier": "skip",
+      "surface": "begins",
+      "pos": "v · A1",
+      "pron": "/bɪˈɡɪnz/",
+      "meaning": "始まる",
+      "example": {
+        "en": "Class begins.",
+        "ja": "授業が始まる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "benefit": {
+      "tier": "known",
+      "surface": "benefit",
+      "pos": "v · B1",
+      "pron": "/ˈben.ɪ.fɪt/",
+      "meaning": "恩恵を受ける",
+      "example": {
+        "en": "Benefit from training.",
+        "ja": "訓練の恩恵を得る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "besides": {
+      "tier": "known",
+      "surface": "besides",
+      "pos": "prep · A2",
+      "pron": "/bɪˈsaɪdz/",
+      "meaning": "〜に加えて",
+      "example": {
+        "en": "Besides me, nobody knew.",
+        "ja": "私の他誰も知らなかった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bite": {
+      "tier": "known",
+      "surface": "bite",
+      "pos": "n · B1",
+      "pron": "/baɪt/",
+      "meaning": "噛み傷",
+      "example": {
+        "en": "A dog bite hurts.",
+        "ja": "犬の噛み傷は痛い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "biting": {
+      "tier": "skip",
+      "surface": "biting",
+      "pos": "v · A2",
+      "pron": "/ˈbaɪ.tɪŋ/",
+      "meaning": "噛んで",
+      "example": {
+        "en": "Biting hard.",
+        "ja": "強く噛んで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "brain": {
+      "tier": "skip",
+      "surface": "brain",
+      "pos": "n · A2",
+      "pron": "/breɪn/",
+      "meaning": "脳",
+      "example": {
+        "en": "The brain controls.",
+        "ja": "脳が制御する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "carnivores": {
+      "tier": "key",
+      "surface": "carnivores",
+      "pos": "n · B2",
+      "pron": "/ˈkɑː.nɪ.vɔːz/",
+      "meaning": "肉食動物",
+      "example": {
+        "en": "Lions are top carnivores.",
+        "ja": "ライオンは頂点捕食者だ。"
+      },
+      "context": "",
+      "collocations": [
+        "apex carnivores"
+      ]
+    },
+    "cases": {
+      "tier": "skip",
+      "surface": "cases",
+      "pos": "n · A2",
+      "pron": "/ˈkeɪ.sɪz/",
+      "meaning": "場合",
+      "example": {
+        "en": "In most cases.",
+        "ja": "ほとんどの場合。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "caused": {
+      "tier": "skip",
+      "surface": "caused",
+      "pos": "v · A2",
+      "pron": "/kɔːzd/",
+      "meaning": "引き起こした",
+      "example": {
+        "en": "Storm caused damage.",
+        "ja": "嵐が被害を起こした。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "causing": {
+      "tier": "skip",
+      "surface": "causing",
+      "pos": "v · A2",
+      "pron": "/ˈkɔː.zɪŋ/",
+      "meaning": "引き起こす",
+      "example": {
+        "en": "Causing trouble.",
+        "ja": "面倒を起こす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "certain": {
+      "tier": "skip",
+      "surface": "certain",
+      "pos": "adj · A2",
+      "pron": "/ˈsɜː.tən/",
+      "meaning": "特定の",
+      "example": {
+        "en": "Certain places.",
+        "ja": "特定の場所。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clear": {
+      "tier": "known",
+      "surface": "clear",
+      "pos": "v · A2",
+      "pron": "/klɪər/",
+      "meaning": "取り除く",
+      "example": {
+        "en": "Clear the table.",
+        "ja": "テーブルを片付けて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clinical": {
+      "tier": "known",
+      "surface": "clinical",
+      "pos": "adj · B2",
+      "pron": "/ˈklɪn.ɪ.kəl/",
+      "meaning": "臨床の",
+      "example": {
+        "en": "Clinical trials began.",
+        "ja": "臨床試験が始まった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "closer": {
+      "tier": "skip",
+      "surface": "closer",
+      "pos": "adj · A2",
+      "pron": "/ˈkloʊ.sər/",
+      "meaning": "より近い",
+      "example": {
+        "en": "Move closer.",
+        "ja": "近づいて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "colleagues": {
+      "tier": "known",
+      "surface": "colleagues",
+      "pos": "n · B1",
+      "pron": "/ˈkɒl.iːɡz/",
+      "meaning": "同僚",
+      "example": {
+        "en": "His colleagues helped.",
+        "ja": "同僚が助けた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "collected": {
+      "tier": "skip",
+      "surface": "collected",
+      "pos": "v · A2",
+      "pron": "/kəˈlek.tɪd/",
+      "meaning": "集めた",
+      "example": {
+        "en": "Collected samples.",
+        "ja": "試料を集めた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "coma": {
+      "tier": "known",
+      "surface": "coma",
+      "pos": "n · B2",
+      "pron": "/ˈkoʊ.mə/",
+      "meaning": "昏睡",
+      "example": {
+        "en": "Fell into a coma.",
+        "ja": "昏睡に陥った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "concentrating": {
+      "tier": "known",
+      "surface": "concentrating",
+      "pos": "v · B2",
+      "pron": "/ˈkɒn.sən.treɪ.tɪŋ/",
+      "meaning": "集中させて",
+      "example": {
+        "en": "Concentrating efforts pays off.",
+        "ja": "努力を集中させると報われる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "connective": {
+      "tier": "known",
+      "surface": "connective",
+      "pos": "adj · C1",
+      "pron": "/kəˈnek.tɪv/",
+      "meaning": "結合性の",
+      "example": {
+        "en": "Connective tissue surrounds organs.",
+        "ja": "結合組織が臓器を包む。"
+      },
+      "context": "",
+      "collocations": [
+        "connective tissue"
+      ]
+    },
+    "cure": {
+      "tier": "known",
+      "surface": "cure",
+      "pos": "n · B1",
+      "pron": "/kjʊər/",
+      "meaning": "治療法、治癒",
+      "example": {
+        "en": "Find a cure.",
+        "ja": "治療法を見つける。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "currently": {
+      "tier": "skip",
+      "surface": "currently",
+      "pos": "adv · A2",
+      "pron": "/ˈkʌr.ənt.li/",
+      "meaning": "現在",
+      "example": {
+        "en": "Currently closed.",
+        "ja": "現在閉鎖中。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "damage": {
+      "tier": "skip",
+      "surface": "damage",
+      "pos": "n · A2",
+      "pron": "/ˈdæm.ɪdʒ/",
+      "meaning": "損傷",
+      "example": {
+        "en": "Storm damage.",
+        "ja": "嵐被害。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "damages": {
+      "tier": "skip",
+      "surface": "damages",
+      "pos": "v · A2",
+      "pron": "/ˈdæm.ɪ.dʒɪz/",
+      "meaning": "損なう",
+      "example": {
+        "en": "Damages property.",
+        "ja": "物を損なう。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dangerous": {
+      "tier": "skip",
+      "surface": "dangerous",
+      "pos": "adj · A2",
+      "pron": "/ˈdeɪn.dʒə.rəs/",
+      "meaning": "危険な",
+      "example": {
+        "en": "Dangerous job.",
+        "ja": "危険な仕事。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deadly": {
+      "tier": "known",
+      "surface": "deadly",
+      "pos": "adj · B2",
+      "pron": "/ˈded.li/",
+      "meaning": "致死的な",
+      "example": {
+        "en": "Deadly storms hit.",
+        "ja": "致死的な嵐が襲った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "death": {
+      "tier": "skip",
+      "surface": "death",
+      "pos": "n · A2",
+      "pron": "/deθ/",
+      "meaning": "死",
+      "example": {
+        "en": "After death.",
+        "ja": "死後。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deep": {
+      "tier": "skip",
+      "surface": "deep",
+      "pos": "adj · A1",
+      "pron": "/diːp/",
+      "meaning": "深い",
+      "example": {
+        "en": "Deep water.",
+        "ja": "深い水。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "delivered": {
+      "tier": "skip",
+      "surface": "delivered",
+      "pos": "v · A2",
+      "pron": "/dɪˈlɪv.əd/",
+      "meaning": "届けられた",
+      "example": {
+        "en": "Delivered late.",
+        "ja": "遅れて届いた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "devastating": {
+      "tier": "known",
+      "surface": "devastating",
+      "pos": "adj · B2",
+      "pron": "/ˈdev.ə.steɪ.tɪŋ/",
+      "meaning": "壊滅的な",
+      "example": {
+        "en": "Devastating news.",
+        "ja": "衝撃的な知らせ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "develop": {
+      "tier": "skip",
+      "surface": "develop",
+      "pos": "v · A2",
+      "pron": "/dɪˈvel.əp/",
+      "meaning": "発達する",
+      "example": {
+        "en": "Skills develop with practice.",
+        "ja": "技能は練習で発達する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "difficult": {
+      "tier": "skip",
+      "surface": "difficult",
+      "pos": "adj · A1",
+      "pron": "/ˈdɪf.ɪ.kəlt/",
+      "meaning": "難しい",
+      "example": {
+        "en": "Difficult task.",
+        "ja": "難題。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disease": {
+      "tier": "known",
+      "surface": "disease",
+      "pos": "n · B1",
+      "pron": "/dɪˈziːz/",
+      "meaning": "病気",
+      "example": {
+        "en": "Heart disease.",
+        "ja": "心臓病。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dog": {
+      "tier": "skip",
+      "surface": "dog",
+      "pos": "n · A1",
+      "pron": "/dɒɡ/",
+      "meaning": "犬",
+      "example": {
+        "en": "Pet dog.",
+        "ja": "ペットの犬。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dogs": {
+      "tier": "skip",
+      "surface": "dogs",
+      "pos": "n · A1",
+      "pron": "/dɒɡz/",
+      "meaning": "犬たち",
+      "example": {
+        "en": "Two dogs barked.",
+        "ja": "二匹の犬が吠えた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dried": {
+      "tier": "skip",
+      "surface": "dried",
+      "pos": "v · A2",
+      "pron": "/draɪd/",
+      "meaning": "乾燥させた",
+      "example": {
+        "en": "Dried flowers.",
+        "ja": "乾燥花。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "early": {
+      "tier": "skip",
+      "surface": "early",
+      "pos": "adv · A1",
+      "pron": "/ˈɜː.li/",
+      "meaning": "早く",
+      "example": {
+        "en": "Wake up early.",
+        "ja": "早く起きて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "effective": {
+      "tier": "skip",
+      "surface": "effective",
+      "pos": "adj · A2",
+      "pron": "/ɪˈfek.tɪv/",
+      "meaning": "効果的な",
+      "example": {
+        "en": "Effective drug.",
+        "ja": "有効な薬。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "elude": {
+      "tier": "key",
+      "surface": "elude",
+      "pos": "v · C1",
+      "pron": "/ɪˈluːd/",
+      "meaning": "巧みに逃れる",
+      "example": {
+        "en": "The truth eludes us.",
+        "ja": "真実は我々を逃れる。"
+      },
+      "context": "",
+      "collocations": [
+        "elude capture"
+      ]
+    },
+    "enough": {
+      "tier": "skip",
+      "surface": "enough",
+      "pos": "adv · A1",
+      "pron": "/ɪˈnʌf/",
+      "meaning": "十分に",
+      "example": {
+        "en": "Good enough.",
+        "ja": "十分良い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "entering": {
+      "tier": "skip",
+      "surface": "entering",
+      "pos": "v · A2",
+      "pron": "/ˈen.tər.ɪŋ/",
+      "meaning": "入って",
+      "example": {
+        "en": "Entering quietly.",
+        "ja": "静かに入って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enters": {
+      "tier": "skip",
+      "surface": "enters",
+      "pos": "v · A2",
+      "pron": "/ˈen.təz/",
+      "meaning": "入る",
+      "example": {
+        "en": "She enters the room.",
+        "ja": "彼女は部屋に入る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eradicate": {
+      "tier": "key",
+      "surface": "eradicate",
+      "pos": "v · C1",
+      "pron": "/ɪˈræd.ɪ.keɪt/",
+      "meaning": "根絶する",
+      "example": {
+        "en": "We must eradicate poverty.",
+        "ja": "貧困を根絶せねば。"
+      },
+      "context": "",
+      "collocations": [
+        "eradicate disease"
+      ]
+    },
+    "escalate": {
+      "tier": "known",
+      "surface": "escalate",
+      "pos": "v · B2",
+      "pron": "/ˈes.kə.leɪt/",
+      "meaning": "悪化する",
+      "example": {
+        "en": "Tensions escalate.",
+        "ja": "緊張が悪化する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "escalating": {
+      "tier": "known",
+      "surface": "escalating",
+      "pos": "v · B2",
+      "pron": "/ˈes.kə.leɪ.tɪŋ/",
+      "meaning": "深刻化する",
+      "example": {
+        "en": "Escalating tensions worry leaders.",
+        "ja": "深刻化する緊張が指導者を悩ます。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "essential": {
+      "tier": "known",
+      "surface": "essential",
+      "pos": "adj · B1",
+      "pron": "/ɪˈsen.ʃəl/",
+      "meaning": "不可欠な",
+      "example": {
+        "en": "Essential nutrient.",
+        "ja": "必須栄養素。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "estimated": {
+      "tier": "known",
+      "surface": "estimated",
+      "pos": "v · B1",
+      "pron": "/ˈes.tɪ.meɪ.tɪd/",
+      "meaning": "推定された",
+      "example": {
+        "en": "Costs were estimated high.",
+        "ja": "費用は高く推定された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "excess": {
+      "tier": "known",
+      "surface": "excess",
+      "pos": "adj · B2",
+      "pron": "/ɪkˈses/",
+      "meaning": "過剰の",
+      "example": {
+        "en": "Excess weight is unhealthy.",
+        "ja": "過剰体重は不健康だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "experimental": {
+      "tier": "known",
+      "surface": "experimental",
+      "pos": "adj · B2",
+      "pron": "/ɪkˌsper.ɪˈmen.təl/",
+      "meaning": "実験的な",
+      "example": {
+        "en": "Experimental therapy worked.",
+        "ja": "実験的治療が効いた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exploiting": {
+      "tier": "known",
+      "surface": "exploiting",
+      "pos": "v · B2",
+      "pron": "/ɪkˈsplɔɪ.tɪŋ/",
+      "meaning": "活用する、搾取する",
+      "example": {
+        "en": "Exploiting a loophole.",
+        "ja": "抜け穴を活用する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exposures": {
+      "tier": "known",
+      "surface": "exposures",
+      "pos": "n · B2",
+      "pron": "/ɪkˈspoʊ.ʒəz/",
+      "meaning": "曝露",
+      "example": {
+        "en": "Sun exposures add up.",
+        "ja": "日光曝露は累積する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expression": {
+      "tier": "known",
+      "surface": "expression",
+      "pos": "n · B1",
+      "pron": "/ɪkˈspreʃ.ən/",
+      "meaning": "表情、表現",
+      "example": {
+        "en": "A puzzled expression appeared.",
+        "ja": "困惑の表情が浮かんだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "faster": {
+      "tier": "skip",
+      "surface": "faster",
+      "pos": "adv · A2",
+      "pron": "/ˈfɑː.stər/",
+      "meaning": "より速く",
+      "example": {
+        "en": "Run faster.",
+        "ja": "もっと速く走って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "foxes": {
+      "tier": "known",
+      "surface": "foxes",
+      "pos": "n · A2",
+      "pron": "/ˈfɒk.sɪz/",
+      "meaning": "キツネたち",
+      "example": {
+        "en": "Foxes hunt at night.",
+        "ja": "キツネは夜狩る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "furious": {
+      "tier": "known",
+      "surface": "furious",
+      "pos": "adj · B2",
+      "pron": "/ˈfjʊə.ri.əs/",
+      "meaning": "狂躁の、激怒した",
+      "example": {
+        "en": "Furious storm.",
+        "ja": "荒れ狂う嵐。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "genus": {
+      "tier": "key",
+      "surface": "genus",
+      "pos": "n · C1",
+      "pron": "/ˈdʒiː.nəs/",
+      "meaning": "属(分類)",
+      "example": {
+        "en": "The genus Homo includes us.",
+        "ja": "ホモ属は我々を含む。"
+      },
+      "context": "生物分類で species の上位。",
+      "collocations": [
+        "genus and species"
+      ]
+    },
+    "hallucinations": {
+      "tier": "key",
+      "surface": "hallucinations",
+      "pos": "n · C1",
+      "pron": "/həˌluː.sɪˈneɪ.ʃənz/",
+      "meaning": "幻覚",
+      "example": {
+        "en": "Fever can cause hallucinations.",
+        "ja": "発熱で幻覚が起こり得る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "happen": {
+      "tier": "skip",
+      "surface": "happen",
+      "pos": "v · A1",
+      "pron": "/ˈhæp.ən/",
+      "meaning": "起こる",
+      "example": {
+        "en": "Things happen.",
+        "ja": "物事は起こる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "harm": {
+      "tier": "skip",
+      "surface": "harm",
+      "pos": "n · A2",
+      "pron": "/hɑːm/",
+      "meaning": "害",
+      "example": {
+        "en": "Cause harm.",
+        "ja": "害を与える。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "head": {
+      "tier": "skip",
+      "surface": "head",
+      "pos": "n · A1",
+      "pron": "/hed/",
+      "meaning": "頭",
+      "example": {
+        "en": "Touch your head.",
+        "ja": "頭に触れて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "highly": {
+      "tier": "skip",
+      "surface": "highly",
+      "pos": "adv · A2",
+      "pron": "/ˈhaɪ.li/",
+      "meaning": "非常に",
+      "example": {
+        "en": "Highly likely.",
+        "ja": "非常にあり得る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "host": {
+      "tier": "known",
+      "surface": "host",
+      "pos": "n · B2",
+      "pron": "/hoʊst/",
+      "meaning": "宿主",
+      "example": {
+        "en": "The host's cells are hijacked.",
+        "ja": "宿主の細胞は乗っ取られる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hosts": {
+      "tier": "known",
+      "surface": "hosts",
+      "pos": "n · B2",
+      "pron": "/hoʊsts/",
+      "meaning": "宿主たち",
+      "example": {
+        "en": "Multiple hosts exist.",
+        "ja": "複数の宿主が存在する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "human": {
+      "tier": "skip",
+      "surface": "human",
+      "pos": "adj · A1",
+      "pron": "/ˈhjuː.mən/",
+      "meaning": "人間の",
+      "example": {
+        "en": "Human nature.",
+        "ja": "人間の本性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hydrophobia": {
+      "tier": "key",
+      "surface": "hydrophobia",
+      "pos": "n · C2",
+      "pron": "/ˌhaɪ.drəˈfoʊ.bi.ə/",
+      "meaning": "恐水症",
+      "example": {
+        "en": "Hydrophobia is a classic rabies symptom.",
+        "ja": "恐水症は狂犬病の古典的症状だ。"
+      },
+      "context": "水を見ると喉が痙攣して飲めなくなる。狂犬病の別名にも。",
+      "collocations": []
+    },
+    "hyperactivity": {
+      "tier": "key",
+      "surface": "hyperactivity",
+      "pos": "n · C1",
+      "pron": "/ˌhaɪ.pər.ækˈtɪv.ə.ti/",
+      "meaning": "多動、過剰活動",
+      "example": {
+        "en": "ADHD involves hyperactivity.",
+        "ja": "ADHD は多動を伴う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "illness": {
+      "tier": "known",
+      "surface": "illness",
+      "pos": "n · B1",
+      "pron": "/ˈɪl.nəs/",
+      "meaning": "病気",
+      "example": {
+        "en": "Long illness.",
+        "ja": "長い病気。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "immediate": {
+      "tier": "skip",
+      "surface": "immediate",
+      "pos": "adj · A2",
+      "pron": "/ɪˈmiː.di.ət/",
+      "meaning": "即座の",
+      "example": {
+        "en": "Immediate action needed.",
+        "ja": "即座の行動が必要。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "immune": {
+      "tier": "known",
+      "surface": "immune",
+      "pos": "adj · B2",
+      "pron": "/ɪˈmjuːn/",
+      "meaning": "免疫の",
+      "example": {
+        "en": "She has immune deficiency.",
+        "ja": "彼女は免疫不全だ。"
+      },
+      "context": "",
+      "collocations": [
+        "immune system",
+        "immune response"
+      ]
+    },
+    "incites": {
+      "tier": "key",
+      "surface": "incites",
+      "pos": "v · C1",
+      "pron": "/ɪnˈsaɪts/",
+      "meaning": "煽る、誘発する",
+      "example": {
+        "en": "His speech incites the crowd.",
+        "ja": "彼の演説は群衆を煽る。"
+      },
+      "context": "刺激的・否定的響き。",
+      "collocations": [
+        "incite violence"
+      ]
+    },
+    "infect": {
+      "tier": "known",
+      "surface": "infect",
+      "pos": "v · B1",
+      "pron": "/ɪnˈfekt/",
+      "meaning": "感染させる",
+      "example": {
+        "en": "Viruses infect cells.",
+        "ja": "ウイルスは細胞に感染する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "infected": {
+      "tier": "known",
+      "surface": "infected",
+      "pos": "adj · B1",
+      "pron": "/ɪnˈfek.tɪd/",
+      "meaning": "感染した",
+      "example": {
+        "en": "Infected wounds need treatment.",
+        "ja": "感染した傷は治療が必要。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "infection": {
+      "tier": "known",
+      "surface": "infection",
+      "pos": "n · B1",
+      "pron": "/ɪnˈfek.ʃən/",
+      "meaning": "感染、感染症",
+      "example": {
+        "en": "She caught a chest infection.",
+        "ja": "胸部感染症にかかった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "infections": {
+      "tier": "known",
+      "surface": "infections",
+      "pos": "n · B1",
+      "pron": "/ɪnˈfek.ʃənz/",
+      "meaning": "感染症",
+      "example": {
+        "en": "Hospital infections rose.",
+        "ja": "院内感染が増えた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inflammation": {
+      "tier": "known",
+      "surface": "inflammation",
+      "pos": "n · B2",
+      "pron": "/ˌɪn.fləˈmeɪ.ʃən/",
+      "meaning": "炎症",
+      "example": {
+        "en": "Inflammation causes swelling.",
+        "ja": "炎症は腫れを起こす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "injected": {
+      "tier": "known",
+      "surface": "injected",
+      "pos": "v · B2",
+      "pron": "/ɪnˈdʒek.tɪd/",
+      "meaning": "注射した",
+      "example": {
+        "en": "Injected a dose.",
+        "ja": "一回分注射した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inoculations": {
+      "tier": "key",
+      "surface": "inoculations",
+      "pos": "n · C1",
+      "pron": "/ɪˌnɒk.jəˈleɪ.ʃənz/",
+      "meaning": "予防接種",
+      "example": {
+        "en": "Travel inoculations protect you abroad.",
+        "ja": "渡航ワクチンが海外で守ってくれる。"
+      },
+      "context": "vaccination より古風で医学的響き。",
+      "collocations": []
+    },
+    "insufficient": {
+      "tier": "known",
+      "surface": "insufficient",
+      "pos": "adj · B2",
+      "pron": "/ˌɪn.səˈfɪʃ.ənt/",
+      "meaning": "不十分な",
+      "example": {
+        "en": "Insufficient data prevents conclusions.",
+        "ja": "データ不足で結論が出ない。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intervention": {
+      "tier": "known",
+      "surface": "intervention",
+      "pos": "n · B2",
+      "pron": "/ˌɪn.təˈven.ʃən/",
+      "meaning": "介入",
+      "example": {
+        "en": "Early intervention saves lives.",
+        "ja": "早期介入が命を救う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigation": {
+      "tier": "skip",
+      "surface": "investigation",
+      "pos": "n · A2",
+      "pron": "/ɪnˌves.tɪˈɡeɪ.ʃən/",
+      "meaning": "調査",
+      "example": {
+        "en": "Police investigation.",
+        "ja": "警察捜査。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "irreparable": {
+      "tier": "key",
+      "surface": "irreparable",
+      "pos": "adj · C2",
+      "pron": "/ɪˈrep.ər.ə.bl/",
+      "meaning": "取り返しのつかない",
+      "example": {
+        "en": "Irreparable damage to the reef.",
+        "ja": "サンゴ礁の取り返しのつかない損傷。"
+      },
+      "context": "",
+      "collocations": [
+        "irreparable harm"
+      ]
+    },
+    "knowing": {
+      "tier": "skip",
+      "surface": "knowing",
+      "pos": "v · A2",
+      "pron": "/ˈnoʊ.ɪŋ/",
+      "meaning": "知って",
+      "example": {
+        "en": "Knowing the risks helps.",
+        "ja": "リスクを知ることが役立つ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lethal": {
+      "tier": "key",
+      "surface": "lethal",
+      "pos": "adj · B2",
+      "pron": "/ˈliː.θəl/",
+      "meaning": "致死性の",
+      "example": {
+        "en": "A lethal dose can kill in minutes.",
+        "ja": "致死量で数分で死に至る。"
+      },
+      "context": "deadly と類義。やや格式高い。",
+      "collocations": [
+        "lethal dose",
+        "lethal weapon"
+      ]
+    },
+    "lick": {
+      "tier": "known",
+      "surface": "lick",
+      "pos": "n · B2",
+      "pron": "/lɪk/",
+      "meaning": "舐めること",
+      "example": {
+        "en": "One lick was enough.",
+        "ja": "一舐めで十分。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "life": {
+      "tier": "skip",
+      "surface": "life",
+      "pos": "n · A1",
+      "pron": "/laɪf/",
+      "meaning": "命",
+      "example": {
+        "en": "Life is short.",
+        "ja": "人生は短い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lives": {
+      "tier": "skip",
+      "surface": "lives",
+      "pos": "n · A2",
+      "pron": "/laɪvz/",
+      "meaning": "命",
+      "example": {
+        "en": "Lives matter.",
+        "ja": "命は大切だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "locally": {
+      "tier": "skip",
+      "surface": "locally",
+      "pos": "adv · A2",
+      "pron": "/ˈloʊ.kə.li/",
+      "meaning": "局所的に",
+      "example": {
+        "en": "Sold locally.",
+        "ja": "地元で販売。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lyssavirus": {
+      "tier": "key",
+      "surface": "Lyssavirus",
+      "pos": "n · proper",
+      "pron": "/ˈlɪs.ə.vaɪ.rəs/",
+      "meaning": "リッサウイルス属",
+      "example": {
+        "en": "Lyssavirus includes the rabies virus.",
+        "ja": "リッサウイルス属には狂犬病ウイルスが含まれる。"
+      },
+      "context": "ギリシャ語 lyssa(狂気)から。",
+      "collocations": [
+        "Lyssavirus genus"
+      ]
+    },
+    "lyssaviruses": {
+      "tier": "key",
+      "surface": "Lyssaviruses",
+      "pos": "n · proper",
+      "pron": "/ˈlɪs.ə.vaɪ.rəs.ɪz/",
+      "meaning": "リッサウイルス類",
+      "example": {
+        "en": "Lyssaviruses persist in bat populations.",
+        "ja": "リッサウイルス類はコウモリ集団に存続する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mainly": {
+      "tier": "skip",
+      "surface": "mainly",
+      "pos": "adv · A2",
+      "pron": "/ˈmeɪn.li/",
+      "meaning": "主に",
+      "example": {
+        "en": "Mainly because.",
+        "ja": "主に〜のため。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "make": {
+      "tier": "skip",
+      "surface": "make",
+      "pos": "v · A1",
+      "pron": "/meɪk/",
+      "meaning": "する",
+      "example": {
+        "en": "Make sure.",
+        "ja": "必ず。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "making": {
+      "tier": "skip",
+      "surface": "making",
+      "pos": "v · A2",
+      "pron": "/ˈmeɪ.kɪŋ/",
+      "meaning": "作って",
+      "example": {
+        "en": "Making progress.",
+        "ja": "進歩している。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mammal": {
+      "tier": "known",
+      "surface": "mammal",
+      "pos": "n · A2",
+      "pron": "/ˈmæm.əl/",
+      "meaning": "哺乳類",
+      "example": {
+        "en": "A whale is a mammal.",
+        "ja": "クジラは哺乳類だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mammalian": {
+      "tier": "key",
+      "surface": "mammalian",
+      "pos": "adj · C1",
+      "pron": "/məˈmeɪ.li.ən/",
+      "meaning": "哺乳類の",
+      "example": {
+        "en": "The mammalian brain is complex.",
+        "ja": "哺乳類の脳は複雑だ。"
+      },
+      "context": "",
+      "collocations": [
+        "mammalian nervous system"
+      ]
+    },
+    "meanwhile": {
+      "tier": "known",
+      "surface": "meanwhile",
+      "pos": "adv · B1",
+      "pron": "/ˈmiːn.waɪl/",
+      "meaning": "その間に",
+      "example": {
+        "en": "Meanwhile, she waited.",
+        "ja": "その間彼女は待った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mechanisms": {
+      "tier": "known",
+      "surface": "mechanisms",
+      "pos": "n · B2",
+      "pron": "/ˈmek.ə.nɪz.əmz/",
+      "meaning": "仕組み、機構",
+      "example": {
+        "en": "Defense mechanisms vary.",
+        "ja": "防御機構は様々だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "medical": {
+      "tier": "skip",
+      "surface": "medical",
+      "pos": "adj · A2",
+      "pron": "/ˈmed.ɪ.kəl/",
+      "meaning": "医療の",
+      "example": {
+        "en": "Medical help.",
+        "ja": "医療援助。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "medicine": {
+      "tier": "skip",
+      "surface": "medicine",
+      "pos": "n · A2",
+      "pron": "/ˈmed.ɪ.sɪn/",
+      "meaning": "薬、医学",
+      "example": {
+        "en": "Take your medicine.",
+        "ja": "薬を飲んで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "methods": {
+      "tier": "skip",
+      "surface": "methods",
+      "pos": "n · A2",
+      "pron": "/ˈmeθ.ədz/",
+      "meaning": "方法",
+      "example": {
+        "en": "New methods.",
+        "ja": "新手法。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "millimeters": {
+      "tier": "skip",
+      "surface": "millimeters",
+      "pos": "n · A2",
+      "pron": "/ˈmɪl.ɪˌmiː.təz/",
+      "meaning": "ミリメートル",
+      "example": {
+        "en": "Two millimeters apart.",
+        "ja": "2ミリ離れて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mixtures": {
+      "tier": "known",
+      "surface": "mixtures",
+      "pos": "n · B2",
+      "pron": "/ˈmɪks.tʃəz/",
+      "meaning": "混合物",
+      "example": {
+        "en": "Various mixtures.",
+        "ja": "様々な混合物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mother": {
+      "tier": "skip",
+      "surface": "mother",
+      "pos": "n · A1",
+      "pron": "/ˈmʌð.ər/",
+      "meaning": "母",
+      "example": {
+        "en": "Her mother smiled.",
+        "ja": "母は微笑んだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "movements": {
+      "tier": "skip",
+      "surface": "movements",
+      "pos": "n · A2",
+      "pron": "/ˈmuːv.mənts/",
+      "meaning": "動き",
+      "example": {
+        "en": "Sudden movements startled him.",
+        "ja": "急な動きが彼を驚かせた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "neurological": {
+      "tier": "known",
+      "surface": "neurological",
+      "pos": "adj · C1",
+      "pron": "/ˌnjʊə.rəˈlɒdʒ.ɪ.kl/",
+      "meaning": "神経学の",
+      "example": {
+        "en": "A neurological exam was ordered.",
+        "ja": "神経学的検査が指示された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "onset": {
+      "tier": "known",
+      "surface": "onset",
+      "pos": "n · B2",
+      "pron": "/ˈɒn.set/",
+      "meaning": "発症、開始",
+      "example": {
+        "en": "Onset of winter.",
+        "ja": "冬の到来。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "organ": {
+      "tier": "skip",
+      "surface": "organ",
+      "pos": "n · A2",
+      "pron": "/ˈɔː.ɡən/",
+      "meaning": "臓器",
+      "example": {
+        "en": "Organ transplant.",
+        "ja": "臓器移植。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "painful": {
+      "tier": "skip",
+      "surface": "painful",
+      "pos": "adj · A2",
+      "pron": "/ˈpeɪn.fəl/",
+      "meaning": "痛い",
+      "example": {
+        "en": "Painful injury.",
+        "ja": "痛い怪我。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "paralysis": {
+      "tier": "known",
+      "surface": "paralysis",
+      "pos": "n · B2",
+      "pron": "/pəˈræl.ə.sɪs/",
+      "meaning": "麻痺",
+      "example": {
+        "en": "Paralysis from the waist down.",
+        "ja": "腰から下の麻痺。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "paralytic": {
+      "tier": "key",
+      "surface": "paralytic",
+      "pos": "adj · C2",
+      "pron": "/ˌpær.əˈlɪt.ɪk/",
+      "meaning": "麻痺性の、酔いつぶれた",
+      "example": {
+        "en": "Paralytic shellfish poisoning is dangerous.",
+        "ja": "麻痺性貝毒は危険だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "particles": {
+      "tier": "known",
+      "surface": "particles",
+      "pos": "n · B2",
+      "pron": "/ˈpɑː.tɪ.kəlz/",
+      "meaning": "粒子",
+      "example": {
+        "en": "Dust particles floated in the air.",
+        "ja": "塵粒子が空中に浮いた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "peripheral": {
+      "tier": "key",
+      "surface": "peripheral",
+      "pos": "adj · C1",
+      "pron": "/pəˈrɪf.ər.əl/",
+      "meaning": "末梢の、周辺の",
+      "example": {
+        "en": "Peripheral devices include keyboards.",
+        "ja": "周辺機器にはキーボードが含まれる。"
+      },
+      "context": "central の対義。神経系では「末梢神経系」。",
+      "collocations": [
+        "peripheral nervous system"
+      ]
+    },
+    "persist": {
+      "tier": "known",
+      "surface": "persist",
+      "pos": "v · B2",
+      "pron": "/pəˈsɪst/",
+      "meaning": "存続する、しつこく続く",
+      "example": {
+        "en": "Symptoms persist for weeks.",
+        "ja": "症状が数週間続く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "places": {
+      "tier": "skip",
+      "surface": "places",
+      "pos": "n · A1",
+      "pron": "/ˈpleɪ.sɪz/",
+      "meaning": "場所",
+      "example": {
+        "en": "Different places.",
+        "ja": "異なる場所。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "populations": {
+      "tier": "known",
+      "surface": "populations",
+      "pos": "n · B1",
+      "pron": "/ˌpɒp.jəˈleɪ.ʃənz/",
+      "meaning": "個体群",
+      "example": {
+        "en": "Wildlife populations decline.",
+        "ja": "野生動物個体群が減少。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "position": {
+      "tier": "skip",
+      "surface": "position",
+      "pos": "n · A2",
+      "pron": "/pəˈzɪʃ.ən/",
+      "meaning": "位置",
+      "example": {
+        "en": "Take your position.",
+        "ja": "定位置に。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "presence": {
+      "tier": "known",
+      "surface": "presence",
+      "pos": "n · B2",
+      "pron": "/ˈprez.əns/",
+      "meaning": "存在",
+      "example": {
+        "en": "Quiet presence.",
+        "ja": "静かな存在。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "preventative": {
+      "tier": "known",
+      "surface": "preventative",
+      "pos": "adj · B2",
+      "pron": "/prɪˈven.tə.tɪv/",
+      "meaning": "予防の",
+      "example": {
+        "en": "Preventative care.",
+        "ja": "予防医療。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "procedure": {
+      "tier": "known",
+      "surface": "procedure",
+      "pos": "n · B1",
+      "pron": "/prəˈsiː.dʒər/",
+      "meaning": "処置、手順",
+      "example": {
+        "en": "Standard procedure.",
+        "ja": "標準手順。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "proliferate": {
+      "tier": "key",
+      "surface": "proliferate",
+      "pos": "v · C1",
+      "pron": "/prəˈlɪf.ər.eɪt/",
+      "meaning": "増殖する",
+      "example": {
+        "en": "Cells proliferate rapidly.",
+        "ja": "細胞が急速に増殖する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "proper": {
+      "tier": "skip",
+      "surface": "proper",
+      "pos": "adj · A2",
+      "pron": "/ˈprɒp.ər/",
+      "meaning": "適切な",
+      "example": {
+        "en": "Proper care.",
+        "ja": "適切な介護。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "protected": {
+      "tier": "skip",
+      "surface": "protected",
+      "pos": "adj · A2",
+      "pron": "/prəˈtek.tɪd/",
+      "meaning": "保護された",
+      "example": {
+        "en": "Protected status granted.",
+        "ja": "保護資格が与えられた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rabbits": {
+      "tier": "skip",
+      "surface": "rabbits",
+      "pos": "n · A1",
+      "pron": "/ˈræb.ɪts/",
+      "meaning": "ウサギ",
+      "example": {
+        "en": "Rabbits hopped away.",
+        "ja": "ウサギは跳ねて去った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rabies": {
+      "tier": "key",
+      "surface": "rabies",
+      "pos": "n · B2",
+      "pron": "/ˈreɪ.biz/",
+      "meaning": "狂犬病",
+      "example": {
+        "en": "Rabies kills almost all untreated victims.",
+        "ja": "狂犬病は治療しなければほぼ全員を殺す。"
+      },
+      "context": "Lyssavirus 属が引き起こす致死性の感染症。",
+      "collocations": [
+        "rabies virus",
+        "rabies vaccine"
+      ]
+    },
+    "raccoons": {
+      "tier": "key",
+      "surface": "raccoons",
+      "pos": "n · B2",
+      "pron": "/rəˈkuːnz/",
+      "meaning": "アライグマ",
+      "example": {
+        "en": "Raccoons rummaged through the trash.",
+        "ja": "アライグマがゴミをあさった。"
+      },
+      "context": "北米固有種だが世界各地に分布拡大。",
+      "collocations": []
+    },
+    "rapidly": {
+      "tier": "skip",
+      "surface": "rapidly",
+      "pos": "adv · A2",
+      "pron": "/ˈræp.ɪd.li/",
+      "meaning": "急速に",
+      "example": {
+        "en": "Things changed rapidly.",
+        "ja": "物事が急速に変わった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reach": {
+      "tier": "skip",
+      "surface": "reach",
+      "pos": "v · A2",
+      "pron": "/riːtʃ/",
+      "meaning": "届く",
+      "example": {
+        "en": "Reach the top.",
+        "ja": "頂上に到達。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reaching": {
+      "tier": "skip",
+      "surface": "reaching",
+      "pos": "v · A2",
+      "pron": "/ˈriː.tʃɪŋ/",
+      "meaning": "届くこと",
+      "example": {
+        "en": "Reaching out.",
+        "ja": "手を伸ばして。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "realized": {
+      "tier": "skip",
+      "surface": "realized",
+      "pos": "v · A2",
+      "pron": "/ˈrɪə.laɪzd/",
+      "meaning": "気づいた",
+      "example": {
+        "en": "She realized late.",
+        "ja": "彼女は遅く気づいた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "received": {
+      "tier": "skip",
+      "surface": "received",
+      "pos": "v · A2",
+      "pron": "/rɪˈsiːvd/",
+      "meaning": "受け取った",
+      "example": {
+        "en": "Received a gift.",
+        "ja": "贈り物を受け取った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "registers": {
+      "tier": "known",
+      "surface": "registers",
+      "pos": "v · B2",
+      "pron": "/ˈredʒ.ɪ.stəz/",
+      "meaning": "現れる、登録する",
+      "example": {
+        "en": "The change registers immediately.",
+        "ja": "変化がすぐ現れる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "remains": {
+      "tier": "skip",
+      "surface": "remains",
+      "pos": "v · A2",
+      "pron": "/rɪˈmeɪnz/",
+      "meaning": "残る",
+      "example": {
+        "en": "It remains true.",
+        "ja": "それは真実のままだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "replicating": {
+      "tier": "key",
+      "surface": "replicating",
+      "pos": "v · C1",
+      "pron": "/ˈrep.lɪ.keɪ.tɪŋ/",
+      "meaning": "複製している",
+      "example": {
+        "en": "Replicating the experiment.",
+        "ja": "実験を再現する。"
+      },
+      "context": "DNA・ウイルスの自己複製。",
+      "collocations": []
+    },
+    "resulting": {
+      "tier": "known",
+      "surface": "resulting",
+      "pos": "adj · B2",
+      "pron": "/rɪˈzʌl.tɪŋ/",
+      "meaning": "その結果生じた",
+      "example": {
+        "en": "Resulting damage.",
+        "ja": "結果として生じた損害。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "revealed": {
+      "tier": "skip",
+      "surface": "revealed",
+      "pos": "v · A2",
+      "pron": "/rɪˈviːld/",
+      "meaning": "明らかにした",
+      "example": {
+        "en": "Data revealed.",
+        "ja": "データが明かした。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "risky": {
+      "tier": "known",
+      "surface": "risky",
+      "pos": "adj · B1",
+      "pron": "/ˈrɪs.ki/",
+      "meaning": "危険な",
+      "example": {
+        "en": "Risky bet.",
+        "ja": "危険な賭け。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roughly": {
+      "tier": "known",
+      "surface": "roughly",
+      "pos": "adv · B1",
+      "pron": "/ˈrʌf.li/",
+      "meaning": "おおよそ",
+      "example": {
+        "en": "Roughly half.",
+        "ja": "ほぼ半数。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rumored": {
+      "tier": "known",
+      "surface": "rumored",
+      "pos": "adj · B2",
+      "pron": "/ˈruː.məd/",
+      "meaning": "噂された",
+      "example": {
+        "en": "A rumored deal collapsed.",
+        "ja": "噂された取引は破談した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rushed": {
+      "tier": "known",
+      "surface": "rushed",
+      "pos": "v · B1",
+      "pron": "/rʌʃt/",
+      "meaning": "急いで運んだ",
+      "example": {
+        "en": "She rushed to the hospital.",
+        "ja": "彼女は病院へ急行した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sadly": {
+      "tier": "skip",
+      "surface": "sadly",
+      "pos": "adv · A2",
+      "pron": "/ˈsæd.li/",
+      "meaning": "残念ながら",
+      "example": {
+        "en": "Sadly true.",
+        "ja": "残念ながら本当だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "saliva": {
+      "tier": "key",
+      "surface": "saliva",
+      "pos": "n · B2",
+      "pron": "/səˈlaɪ.və/",
+      "meaning": "唾液",
+      "example": {
+        "en": "Dogs salivate when they smell food.",
+        "ja": "犬は食べ物の匂いで唾液を出す。"
+      },
+      "context": "",
+      "collocations": [
+        "excess saliva",
+        "virus-laden saliva"
+      ]
+    },
+    "save": {
+      "tier": "skip",
+      "surface": "save",
+      "pos": "v · A1",
+      "pron": "/seɪv/",
+      "meaning": "救う",
+      "example": {
+        "en": "Save lives.",
+        "ja": "命を救う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scientist": {
+      "tier": "skip",
+      "surface": "scientist",
+      "pos": "n · A2",
+      "pron": "/ˈsaɪ.ən.tɪst/",
+      "meaning": "科学者",
+      "example": {
+        "en": "Famous scientist.",
+        "ja": "有名科学者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "secretes": {
+      "tier": "key",
+      "surface": "secretes",
+      "pos": "v · C1",
+      "pron": "/sɪˈkriːts/",
+      "meaning": "分泌する",
+      "example": {
+        "en": "Glands secrete hormones.",
+        "ja": "腺はホルモンを分泌する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "series": {
+      "tier": "skip",
+      "surface": "series",
+      "pos": "n · A2",
+      "pron": "/ˈsɪə.riːz/",
+      "meaning": "系列",
+      "example": {
+        "en": "TV series.",
+        "ja": "テレビシリーズ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shield": {
+      "tier": "known",
+      "surface": "shield",
+      "pos": "v · B2",
+      "pron": "/ʃiːld/",
+      "meaning": "守る",
+      "example": {
+        "en": "Shield your eyes.",
+        "ja": "目を覆って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "site": {
+      "tier": "skip",
+      "surface": "site",
+      "pos": "n · A2",
+      "pron": "/saɪt/",
+      "meaning": "場所",
+      "example": {
+        "en": "The site was chosen.",
+        "ja": "場所が選ばれた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "skunks": {
+      "tier": "key",
+      "surface": "skunks",
+      "pos": "n · B2",
+      "pron": "/skʌŋks/",
+      "meaning": "スカンク",
+      "example": {
+        "en": "Skunks spray a foul odor.",
+        "ja": "スカンクは悪臭を吹きかける。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spasms": {
+      "tier": "key",
+      "surface": "spasms",
+      "pos": "n · C1",
+      "pron": "/ˈspæz.mz/",
+      "meaning": "痙攣",
+      "example": {
+        "en": "Muscle spasms woke him up.",
+        "ja": "筋痙攣で彼は目覚めた。"
+      },
+      "context": "",
+      "collocations": [
+        "muscle spasms"
+      ]
+    },
+    "species": {
+      "tier": "known",
+      "surface": "species",
+      "pos": "n · B1",
+      "pron": "/ˈspiː.ʃiːz/",
+      "meaning": "種",
+      "example": {
+        "en": "Endangered species need protection.",
+        "ja": "絶滅危惧種は保護が必要。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spots": {
+      "tier": "skip",
+      "surface": "spots",
+      "pos": "n · A2",
+      "pron": "/spɒts/",
+      "meaning": "場所",
+      "example": {
+        "en": "Sore spots.",
+        "ja": "痛い箇所。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spreading": {
+      "tier": "skip",
+      "surface": "spreading",
+      "pos": "v · A2",
+      "pron": "/ˈspred.ɪŋ/",
+      "meaning": "広がる",
+      "example": {
+        "en": "Fire spreading fast.",
+        "ja": "火が急速に広がる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stage": {
+      "tier": "skip",
+      "surface": "stage",
+      "pos": "n · A2",
+      "pron": "/steɪdʒ/",
+      "meaning": "段階",
+      "example": {
+        "en": "Final stage approaches.",
+        "ja": "最終段階が近づく。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suppress": {
+      "tier": "known",
+      "surface": "suppress",
+      "pos": "v · B2",
+      "pron": "/səˈpres/",
+      "meaning": "抑制する",
+      "example": {
+        "en": "Suppress emotions.",
+        "ja": "感情を抑える。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "survive": {
+      "tier": "skip",
+      "surface": "survive",
+      "pos": "v · A2",
+      "pron": "/səˈvaɪv/",
+      "meaning": "生き延びる",
+      "example": {
+        "en": "Survive the night.",
+        "ja": "夜を生き延びる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "survived": {
+      "tier": "skip",
+      "surface": "survived",
+      "pos": "v · A2",
+      "pron": "/səˈvaɪvd/",
+      "meaning": "生き延びた",
+      "example": {
+        "en": "He survived.",
+        "ja": "彼は生き延びた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suspected": {
+      "tier": "known",
+      "surface": "suspected",
+      "pos": "v · B2",
+      "pron": "/səˈspek.tɪd/",
+      "meaning": "疑われた",
+      "example": {
+        "en": "The cause is suspected.",
+        "ja": "原因が疑われている。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sustaining": {
+      "tier": "known",
+      "surface": "sustaining",
+      "pos": "v · B2",
+      "pron": "/səˈsteɪn.ɪŋ/",
+      "meaning": "負って、維持して",
+      "example": {
+        "en": "Sustaining injuries.",
+        "ja": "怪我を負って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "swallowing": {
+      "tier": "known",
+      "surface": "swallowing",
+      "pos": "v · B1",
+      "pron": "/ˈswɒl.oʊ.ɪŋ/",
+      "meaning": "飲み込み",
+      "example": {
+        "en": "Difficulty swallowing emerged.",
+        "ja": "嚥下困難が現れた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "symptoms": {
+      "tier": "known",
+      "surface": "symptoms",
+      "pos": "n · B1",
+      "pron": "/ˈsɪmp.təmz/",
+      "meaning": "症状",
+      "example": {
+        "en": "Symptoms include fever.",
+        "ja": "症状には発熱がある。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "therapies": {
+      "tier": "known",
+      "surface": "therapies",
+      "pos": "n · B2",
+      "pron": "/ˈθer.ə.piz/",
+      "meaning": "治療法",
+      "example": {
+        "en": "New therapies emerge.",
+        "ja": "新療法が登場。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "throat": {
+      "tier": "skip",
+      "surface": "throat",
+      "pos": "n · A2",
+      "pron": "/θroʊt/",
+      "meaning": "喉",
+      "example": {
+        "en": "Sore throat is common.",
+        "ja": "喉の痛みはよくある。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tissue": {
+      "tier": "known",
+      "surface": "tissue",
+      "pos": "n · B2",
+      "pron": "/ˈtɪʃ.uː/",
+      "meaning": "組織",
+      "example": {
+        "en": "Soft tissue injury healed.",
+        "ja": "軟組織損傷が治った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tissues": {
+      "tier": "known",
+      "surface": "tissues",
+      "pos": "n · B2",
+      "pron": "/ˈtɪʃ.uːz/",
+      "meaning": "組織群",
+      "example": {
+        "en": "Connective tissues link organs.",
+        "ja": "結合組織が臓器をつなぐ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transfer": {
+      "tier": "skip",
+      "surface": "transfer",
+      "pos": "n · A2",
+      "pron": "/ˈtræns.fɜː/",
+      "meaning": "移動、転送",
+      "example": {
+        "en": "Money transfer.",
+        "ja": "送金。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transmission": {
+      "tier": "known",
+      "surface": "transmission",
+      "pos": "n · B2",
+      "pron": "/trænzˈmɪʃ.ən/",
+      "meaning": "伝染、伝達",
+      "example": {
+        "en": "Reduce transmission risk.",
+        "ja": "伝染リスクを減らす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transmit": {
+      "tier": "known",
+      "surface": "transmit",
+      "pos": "v · B2",
+      "pron": "/trænzˈmɪt/",
+      "meaning": "伝える",
+      "example": {
+        "en": "Signals transmit data.",
+        "ja": "信号がデータを伝える。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transmitting": {
+      "tier": "known",
+      "surface": "transmitting",
+      "pos": "v · B2",
+      "pron": "/trænzˈmɪt.ɪŋ/",
+      "meaning": "伝えること",
+      "example": {
+        "en": "Transmitting requires contact.",
+        "ja": "伝染には接触が必要。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transplantation": {
+      "tier": "known",
+      "surface": "transplantation",
+      "pos": "n · C1",
+      "pron": "/ˌtrænz.plɑːnˈteɪ.ʃən/",
+      "meaning": "移植",
+      "example": {
+        "en": "Organ transplantation saves lives.",
+        "ja": "臓器移植が命を救う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transport": {
+      "tier": "skip",
+      "surface": "transport",
+      "pos": "n · A2",
+      "pron": "/ˈtræns.pɔːt/",
+      "meaning": "輸送",
+      "example": {
+        "en": "Public transport runs late.",
+        "ja": "公共交通が遅れる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "travel": {
+      "tier": "skip",
+      "surface": "travel",
+      "pos": "v · A1",
+      "pron": "/ˈtræv.əl/",
+      "meaning": "移動する",
+      "example": {
+        "en": "Travel safely.",
+        "ja": "安全に旅して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "traveling": {
+      "tier": "skip",
+      "surface": "traveling",
+      "pos": "v · A2",
+      "pron": "/ˈtræv.əl.ɪŋ/",
+      "meaning": "移動して",
+      "example": {
+        "en": "Traveling fast.",
+        "ja": "速く移動して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "treat": {
+      "tier": "skip",
+      "surface": "treat",
+      "pos": "v · A2",
+      "pron": "/triːt/",
+      "meaning": "治療する",
+      "example": {
+        "en": "Treat the wound.",
+        "ja": "傷を治療。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trying": {
+      "tier": "skip",
+      "surface": "trying",
+      "pos": "v · A1",
+      "pron": "/ˈtraɪ.ɪŋ/",
+      "meaning": "試みて",
+      "example": {
+        "en": "Trying hard.",
+        "ja": "懸命に試して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unconfirmed": {
+      "tier": "known",
+      "surface": "unconfirmed",
+      "pos": "adj · B2",
+      "pron": "/ˌʌn.kənˈfɜːmd/",
+      "meaning": "未確認の",
+      "example": {
+        "en": "Unconfirmed rumor.",
+        "ja": "未確認の噂。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "uncontrolled": {
+      "tier": "known",
+      "surface": "uncontrolled",
+      "pos": "adj · B2",
+      "pron": "/ˌʌn.kənˈtroʊld/",
+      "meaning": "制御不能な",
+      "example": {
+        "en": "Uncontrolled growth occurred.",
+        "ja": "制御不能な成長が起きた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "understanding": {
+      "tier": "skip",
+      "surface": "understanding",
+      "pos": "n · A2",
+      "pron": "/ˌʌn.dəˈstæn.dɪŋ/",
+      "meaning": "理解",
+      "example": {
+        "en": "Mutual understanding.",
+        "ja": "相互理解。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "vacant": {
+      "tier": "known",
+      "surface": "vacant",
+      "pos": "adj · B2",
+      "pron": "/ˈveɪ.kənt/",
+      "meaning": "虚ろな、空の",
+      "example": {
+        "en": "The room was vacant.",
+        "ja": "部屋は空だった。"
+      },
+      "context": "",
+      "collocations": [
+        "vacant expression"
+      ]
+    },
+    "vaccinations": {
+      "tier": "known",
+      "surface": "vaccinations",
+      "pos": "n · B2",
+      "pron": "/ˌvæk.sɪˈneɪ.ʃənz/",
+      "meaning": "予防接種",
+      "example": {
+        "en": "Routine vaccinations protect children.",
+        "ja": "定期予防接種が子供を守る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "vaccine": {
+      "tier": "known",
+      "surface": "vaccine",
+      "pos": "n · B1",
+      "pron": "/ˈvæk.siːn/",
+      "meaning": "ワクチン",
+      "example": {
+        "en": "The vaccine was approved.",
+        "ja": "ワクチンが承認された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "virions": {
+      "tier": "key",
+      "surface": "virions",
+      "pos": "n · C1",
+      "pron": "/ˈvɪr.i.ɒnz/",
+      "meaning": "ビリオン(ウイルス粒子)",
+      "example": {
+        "en": "Virions attach to host cells.",
+        "ja": "ビリオンは宿主細胞に付着する。"
+      },
+      "context": "完全な感染性を持つ一個のウイルス粒子。",
+      "collocations": [
+        "virus virions",
+        "virion structure"
+      ]
+    },
+    "virus": {
+      "tier": "known",
+      "surface": "virus",
+      "pos": "n · B1",
+      "pron": "/ˈvaɪ.rəs/",
+      "meaning": "ウイルス",
+      "example": {
+        "en": "A new virus emerged.",
+        "ja": "新型ウイルスが出現した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "warrant": {
+      "tier": "key",
+      "surface": "warrant",
+      "pos": "v · C1",
+      "pron": "/ˈwɒr.ənt/",
+      "meaning": "正当化する、〜に値する",
+      "example": {
+        "en": "The findings warrant further study.",
+        "ja": "発見は更なる研究に値する。"
+      },
+      "context": "名詞では「令状」。",
+      "collocations": [
+        "warrant attention"
+      ]
+    },
+    "weaken": {
+      "tier": "known",
+      "surface": "weaken",
+      "pos": "v · B2",
+      "pron": "/ˈwiː.kən/",
+      "meaning": "弱める",
+      "example": {
+        "en": "Weaken the structure.",
+        "ja": "構造を弱める。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "weakness": {
+      "tier": "known",
+      "surface": "weakness",
+      "pos": "n · B1",
+      "pron": "/ˈwiːk.nəs/",
+      "meaning": "脱力、弱さ",
+      "example": {
+        "en": "Muscle weakness developed.",
+        "ja": "筋力低下が出た。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wound": {
+      "tier": "known",
+      "surface": "wound",
+      "pos": "n · B1",
+      "pron": "/wuːnd/",
+      "meaning": "傷",
+      "example": {
+        "en": "A deep wound.",
+        "ja": "深い傷。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "associated_with": {
+      "tier": "known",
+      "surface": "associated with",
+      "pos": "phrase · B2",
+      "pron": "/əˈsoʊ.ʃi.eɪ.tɪd wɪð/",
+      "literal": "〜と結びついた",
+      "meaning": "関連性を表す",
+      "context": "",
+      "collocations": []
+    },
+    "beat_the_odds": {
+      "tier": "key",
+      "surface": "beat the odds",
+      "pos": "v phrase · C1",
+      "pron": "/biːt ði ɒdz/",
+      "literal": "勝算を覆す、奇跡的に成功する",
+      "meaning": "低い確率を覆して成功",
+      "context": "",
+      "collocations": []
+    },
+    "blood_brain_barrier": {
+      "tier": "key",
+      "surface": "blood-brain barrier",
+      "pos": "n phrase · C1",
+      "pron": "/blʌd breɪn ˈbær.i.ər/",
+      "literal": "血液脳関門",
+      "meaning": "脳血管が脳組織への物質透過を制限する仕組み",
+      "context": "薬物送達の障壁としても重要。",
+      "collocations": []
+    },
+    "central_nervous_system": {
+      "tier": "known",
+      "surface": "central nervous system",
+      "pos": "n phrase · B2",
+      "pron": "/ˈsen.trəl ˈnɜː.vəs ˈsɪs.təm/",
+      "literal": "中枢神経系",
+      "meaning": "脳と脊髄",
+      "context": "CNS と略す。",
+      "collocations": []
+    },
+    "come_from": {
+      "tier": "known",
+      "surface": "come from",
+      "pos": "phrasal v · A1",
+      "pron": "/kʌm frɒm/",
+      "literal": "〜由来である",
+      "meaning": "原因・出身を示す",
+      "context": "",
+      "collocations": []
+    },
+    "course_of": {
+      "tier": "known",
+      "surface": "a course of",
+      "pos": "n phrase · B2",
+      "pron": "/ə kɔːrs əv/",
+      "literal": "一連の(治療・授業など)",
+      "meaning": "a course of treatment",
+      "context": "",
+      "collocations": [
+        "a course of antibiotics"
+      ]
+    },
+    "death_sentence": {
+      "tier": "known",
+      "surface": "death sentence",
+      "pos": "n phrase · B2",
+      "pron": "/deθ ˈsen.təns/",
+      "literal": "死刑判決、死の宣告",
+      "meaning": "死刑、または絶望的な事態",
+      "context": "比喩で「絶望的状況」も。",
+      "collocations": [
+        "a death sentence"
+      ]
+    },
+    "depend_on": {
+      "tier": "known",
+      "surface": "depend on",
+      "pos": "phrasal v · A2",
+      "pron": "/dɪˈpend ɒn/",
+      "literal": "〜にかかっている",
+      "meaning": "依存する・かかっている",
+      "context": "",
+      "collocations": [
+        "depend on you"
+      ]
+    },
+    "due_to": {
+      "tier": "known",
+      "surface": "due to",
+      "pos": "phrase · B1",
+      "pron": "/djuː tə/",
+      "literal": "〜のために",
+      "meaning": "原因",
+      "context": "",
+      "collocations": []
+    },
+    "flu_like": {
+      "tier": "known",
+      "surface": "flu-like",
+      "pos": "adj phrase · B2",
+      "pron": "/fluː laɪk/",
+      "literal": "インフルエンザ様の",
+      "meaning": "風邪・発熱・倦怠感",
+      "context": "",
+      "collocations": [
+        "flu-like symptoms"
+      ]
+    },
+    "followed_by": {
+      "tier": "known",
+      "surface": "followed by",
+      "pos": "phrase · B1",
+      "pron": "/ˈfɒl.oʊd baɪ/",
+      "literal": "〜が続いて",
+      "meaning": "直後に続く",
+      "context": "",
+      "collocations": []
+    },
+    "immune_responses": {
+      "tier": "known",
+      "surface": "immune responses",
+      "pos": "n phrase · B2",
+      "pron": "/ɪˈmjuːn rɪˈspɒn.sɪz/",
+      "literal": "免疫応答",
+      "meaning": "抗原に対する免疫系の反応",
+      "context": "",
+      "collocations": []
+    },
+    "immune_system": {
+      "tier": "known",
+      "surface": "immune system",
+      "pos": "n phrase · B1",
+      "pron": "/ɪˈmjuːn ˈsɪs.təm/",
+      "literal": "免疫系",
+      "meaning": "病原体から守る生体システム",
+      "context": "",
+      "collocations": []
+    },
+    "infectious_disease": {
+      "tier": "known",
+      "surface": "infectious disease",
+      "pos": "n phrase · B2",
+      "pron": "/ɪnˈfek.ʃəs dɪˈziːz/",
+      "literal": "感染症",
+      "meaning": "人や動物に感染しうる疾患",
+      "context": "CDC・WHO 用語。",
+      "collocations": []
+    },
+    "intensive_care": {
+      "tier": "known",
+      "surface": "intensive care",
+      "pos": "n phrase · B2",
+      "pron": "/ɪnˈten.sɪv keər/",
+      "literal": "集中治療",
+      "meaning": "ICU での治療",
+      "context": "",
+      "collocations": []
+    },
+    "lay_low": {
+      "tier": "key",
+      "surface": "lay low",
+      "pos": "phrasal v · C1",
+      "pron": "/leɪ loʊ/",
+      "literal": "身を潜める",
+      "meaning": "目立たないようにする",
+      "context": "ギャング映画でも頻出。",
+      "collocations": [
+        "lay low for weeks"
+      ]
+    },
+    "long_term": {
+      "tier": "known",
+      "surface": "long term",
+      "pos": "adv phrase · B1",
+      "pron": "/lɒŋ tɜːm/",
+      "literal": "長期的に",
+      "meaning": "over a long period",
+      "context": "",
+      "collocations": [
+        "in the long term"
+      ]
+    },
+    "look_into": {
+      "tier": "known",
+      "surface": "look into",
+      "pos": "phrasal v · B1",
+      "pron": "/lʊk ˈɪn.tə/",
+      "literal": "調査する",
+      "meaning": "investigate",
+      "context": "",
+      "collocations": []
+    },
+    "make_it_to": {
+      "tier": "known",
+      "surface": "make it to",
+      "pos": "phrasal v · B2",
+      "pron": "/meɪk ɪt tə/",
+      "literal": "〜にたどり着く",
+      "meaning": "困難の中到達する",
+      "context": "make it = うまくいく の発展。",
+      "collocations": []
+    },
+    "natural_hosts": {
+      "tier": "known",
+      "surface": "natural hosts",
+      "pos": "n phrase · C1",
+      "pron": "/ˈnætʃ.ər.əl hoʊsts/",
+      "literal": "自然宿主",
+      "meaning": "ウイルスが自然界で生存する宿主動物",
+      "context": "",
+      "collocations": []
+    },
+    "nerve_cells": {
+      "tier": "known",
+      "surface": "nerve cells",
+      "pos": "n phrase · B2",
+      "pron": "/nɜːv selz/",
+      "literal": "神経細胞",
+      "meaning": "ニューロン",
+      "context": "= neurons",
+      "collocations": []
+    },
+    "nervous_system": {
+      "tier": "known",
+      "surface": "nervous system",
+      "pos": "n phrase · B2",
+      "pron": "/ˈnɜː.vəs ˈsɪs.təm/",
+      "literal": "神経系",
+      "meaning": "central / peripheral nervous system",
+      "context": "",
+      "collocations": []
+    },
+    "odds_of": {
+      "tier": "known",
+      "surface": "odds of",
+      "pos": "n phrase · B2",
+      "pron": "/ɒdz əv/",
+      "literal": "〜の見込み・確率",
+      "meaning": "probability of",
+      "context": "",
+      "collocations": [
+        "odds of winning"
+      ]
+    },
+    "pre_post_exposure_prophylaxis": {
+      "tier": "key",
+      "surface": "pre- and post-exposure prophylaxis",
+      "pos": "n phrase · C2",
+      "pron": "/priː ənd poʊst ɪkˈspoʊ.ʒər ˌprɒf.ɪˈlæk.sɪs/",
+      "literal": "曝露前/後予防",
+      "meaning": "PrEP / PEP と略される",
+      "context": "HIV 文脈でも同名。",
+      "collocations": []
+    },
+    "prevent_from": {
+      "tier": "known",
+      "surface": "prevent … from",
+      "pos": "v pattern · B1",
+      "pron": "/prɪˈvent frɒm/",
+      "literal": "〜が…するのを防ぐ",
+      "meaning": "prevent O from doing",
+      "context": "",
+      "collocations": []
+    },
+    "preventative_measures": {
+      "tier": "known",
+      "surface": "preventative measures",
+      "pos": "n phrase · B2",
+      "pron": "/prɪˈven.tə.tɪv ˈmeʒ.əz/",
+      "literal": "予防策",
+      "meaning": "prevention measures とも",
+      "context": "",
+      "collocations": []
+    },
+    "rabies_burdened": {
+      "tier": "known",
+      "surface": "rabies-burdened",
+      "pos": "adj phrase · C2",
+      "pron": "/ˈreɪ.biz ˈbɜː.dnd/",
+      "literal": "狂犬病負荷の高い",
+      "meaning": "burden = 負担",
+      "context": "",
+      "collocations": []
+    },
+    "rabies_vaccinated": {
+      "tier": "known",
+      "surface": "rabies-vaccinated",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈreɪ.biz ˈvæk.sɪ.neɪ.tɪd/",
+      "literal": "狂犬病ワクチン接種済みの",
+      "meaning": "ワクチン接種を完了した状態",
+      "context": "",
+      "collocations": []
+    },
+    "regardless_of": {
+      "tier": "known",
+      "surface": "regardless of",
+      "pos": "phrase · B2",
+      "pron": "/rɪˈɡɑːd.ləs əv/",
+      "literal": "〜に関わらず",
+      "meaning": "無関係に",
+      "context": "",
+      "collocations": []
+    },
+    "salivary_glands": {
+      "tier": "key",
+      "surface": "salivary glands",
+      "pos": "n phrase · C1",
+      "pron": "/ˈsæl.ɪ.vər.i ɡlændz/",
+      "literal": "唾液腺",
+      "meaning": "唾液を分泌する腺",
+      "context": "",
+      "collocations": []
+    },
+    "set_in": {
+      "tier": "known",
+      "surface": "set in",
+      "pos": "phrasal v · B2",
+      "pron": "/set ɪn/",
+      "literal": "(好ましくない状態が)始まる",
+      "meaning": "winter sets in, panic set in",
+      "context": "",
+      "collocations": []
+    },
+    "set_out": {
+      "tier": "known",
+      "surface": "set out",
+      "pos": "phrasal v · B2",
+      "pron": "/set aʊt/",
+      "literal": "出発する、目指す",
+      "meaning": "目的を持って動き始める",
+      "context": "",
+      "collocations": []
+    },
+    "spinal_cords": {
+      "tier": "known",
+      "surface": "spinal cords",
+      "pos": "n phrase · B2",
+      "pron": "/ˈspaɪ.nəl kɔːdz/",
+      "literal": "脊髄",
+      "meaning": "central nervous system の一部",
+      "context": "",
+      "collocations": []
+    },
+    "take_a_turn": {
+      "tier": "known",
+      "surface": "take one of two turns",
+      "pos": "v phrase · C1",
+      "pron": "/teɪk wʌn əv tuː tɜːnz/",
+      "literal": "二つの進路のうち一つを取る",
+      "meaning": "take a turn = 方向が変わる",
+      "context": "",
+      "collocations": []
+    },
+    "treatment_resistant": {
+      "tier": "known",
+      "surface": "treatment-resistant",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈtriːt.mənt rɪˈzɪs.tənt/",
+      "literal": "治療抵抗性の",
+      "meaning": "標準治療が効きにくい",
+      "context": "がん・うつ・感染症で頻用。",
+      "collocations": []
+    },
+    "up_to": {
+      "tier": "known",
+      "surface": "up to",
+      "pos": "prep phrase · A2",
+      "pron": "/ʌp tə/",
+      "literal": "最大〜まで",
+      "meaning": "上限を示す",
+      "context": "",
+      "collocations": []
+    },
+    "virus_laden": {
+      "tier": "known",
+      "surface": "virus-laden",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈvaɪ.rəs ˈleɪ.dn/",
+      "literal": "ウイルスを含んだ",
+      "meaning": "laden = 重荷を負った",
+      "context": "",
+      "collocations": []
+    }
+  }
+}

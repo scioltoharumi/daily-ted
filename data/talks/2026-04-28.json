@@ -1,0 +1,4548 @@
+{
+  "id": "talk_2026-04-28",
+  "date": "2026-04-28",
+  "source": "ted-ed",
+  "primary_topic": "Linguistics",
+  "tags": [
+    "grammar",
+    "english-language",
+    "prescriptivism",
+    "pronouns",
+    "linguistics",
+    "history"
+  ],
+  "difficulty": "medium",
+  "slug": "arika_okrent_3_grammar_rules_that_you_don_t_need_to_follow_anymore",
+  "video_id": "177574",
+  "title": "3 grammar rules that you don't need to follow anymore",
+  "speaker": "Arika Okrent",
+  "duration_sec": 316,
+  "published_at": "2026-04-28T15:06:08Z",
+  "video_url": "https://www.ted.com/talks/arika_okrent_3_grammar_rules_that_you_don_t_need_to_follow_anymore",
+  "embed_url": "https://embed.ted.com/talks/arika_okrent_3_grammar_rules_that_you_don_t_need_to_follow_anymore",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_177574/ac35cdfe-4dbc-4bc8-92d1-ae3fe68f291c/grammarrules_textless.jpg",
+  "background": {
+    "summary": "「文末に前置詞を置くな」「可算名詞には fewer」「they は複数のみ」── 英語の三大文法ルールがなぜ生まれ、なぜ守らなくてよいかを18世紀英国の規範主義から辿る。文法は流動的、使う人々を反映するもの、という結論。",
+    "details": [
+      {
+        "heading": "規範主義 (prescriptivism)",
+        "body": "18世紀イギリスでマナー本流行の延長として『正しい話し方』指南書が大量出版。多くのルールはラテン語の文法を強引に英語に当てはめたもので、ロバート・ベイカーらが代表格。"
+      },
+      {
+        "heading": "前置詞ルールの起源",
+        "body": "ラテン語では前置詞を文末に置けないことから派生。提案者は様式の選択肢として提示したが、後続の文法書が強制ルールに変えた。"
+      },
+      {
+        "heading": "fewer/less 論争",
+        "body": "1770年 Robert Baker が「less は可算名詞には不格好」と私見を述べた。彼の好みが「規則」化して今日のスーパーマーケットの \"10 items or fewer\" レーンへつながる。"
+      },
+      {
+        "heading": "単数の they",
+        "body": "中世から文学にも見られる用法。19世紀文法家が「they は複数のみ、単数では generic he」と決めつけ、1970年代のフェミニズムで \"he or she\" に。今日では多くの公式ガイドが単数 they を再承認、ノンバイナリーの代名詞にも。"
+      },
+      {
+        "heading": "Norman Conquest と英語の地位",
+        "body": "1066年のノルマン征服以降、フランス語が貴族の言語、英語は庶民の言語に。英語文法家たちはこの劣等感の名残から L'Académie Française に対抗するアカデミーを夢見た。"
+      }
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In 1954, Winston Cigarettes launched an ad so controversial broadcasters refused to say it on the air.",
+          "translation_ja": "1954年、ウィンストン社のタバコ広告があまりに物議を醸し、放送局が放送で読み上げることを拒んだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In 1954"
+            },
+            {
+              "label": "S",
+              "content": "Winston Cigarettes"
+            },
+            {
+              "label": "V",
+              "content": "launched"
+            },
+            {
+              "label": "O",
+              "content": "an ad so controversial broadcasters refused to say it on the air",
+              "note": "so 〜 that(省略) の構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In 1954, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Winston",
+              "ref": "winston",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "Cigarettes",
+              "ref": "cigarettes",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "launched",
+              "ref": "launched",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "ad",
+              "ref": "ad",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " so "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "controversial",
+              "ref": "controversial",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "broadcasters",
+              "ref": "broadcasters",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "refused",
+              "ref": "refused",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " to say it "
+            },
+            {
+              "id": "t16",
+              "type": "expression",
+              "surface": "on the air",
+              "ref": "on_the_air"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But the uproar had nothing to do with the dangerous product being advertised— people were appalled by the ad's grammar.",
+          "translation_ja": "しかし騒動は宣伝された危険な製品とは無関係だった ── 人々はその広告の文法に憤慨したのだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "the uproar"
+            },
+            {
+              "label": "V",
+              "content": "had"
+            },
+            {
+              "label": "O",
+              "content": "nothing to do with the dangerous product being advertised"
+            },
+            {
+              "label": "M",
+              "content": "people were appalled by the ad's grammar",
+              "note": "補足"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "uproar",
+              "ref": "uproar",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " had "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "nothing to do with",
+              "ref": "nothing_to_do_with"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "dangerous",
+              "ref": "dangerous",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "product",
+              "ref": "product",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " being "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "advertised",
+              "ref": "advertised",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "— people were "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "appalled",
+              "ref": "appalled",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " by the ad's "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "grammar",
+              "ref": "grammar",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Specifically, using \"like\" as a conjunction instead of \"as.\"",
+          "translation_ja": "具体的には、「as」の代わりに「like」を接続詞として使っていたのだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Specifically"
+            },
+            {
+              "label": "S",
+              "content": "using \"like\" as a conjunction instead of \"as\"",
+              "note": "動名詞句"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Specifically",
+              "ref": "specifically",
+              "tier": "skip"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "using",
+              "ref": "using",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " \"like\" as a "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "conjunction",
+              "ref": "conjunction",
+              "tier": "key"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "instead of",
+              "ref": "instead_of"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " \"as.\""
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Grammatical incidents like this have caused outrage in various regions and languages for centuries.",
+          "translation_ja": "このような文法上の事件は、何世紀にもわたって様々な地域・言語で怒りを引き起こしてきた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Grammatical incidents like this"
+            },
+            {
+              "label": "V",
+              "content": "have caused",
+              "note": "現在完了"
+            },
+            {
+              "label": "O",
+              "content": "outrage"
+            },
+            {
+              "label": "M",
+              "content": "in various regions and languages for centuries"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Grammatical",
+              "ref": "grammatical",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "incidents",
+              "ref": "incidents",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " like this have caused "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "outrage",
+              "ref": "outrage",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " in various regions and languages for "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "centuries",
+              "ref": "centuries",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "But while we know people take grammar seriously, what's less clear is, why?",
+          "translation_ja": "しかし、人々が文法を真剣にとらえていることは分かっているが、その理由ははっきりしない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But while we know people take grammar seriously",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "what's less clear"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "why?"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But while we know people "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "take grammar seriously",
+              "ref": "take_seriously"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", what's less "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "clear",
+              "ref": "clear",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " is, why?"
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Where do these seemingly random rules come from?",
+          "translation_ja": "これら一見ランダムなルールはどこから来るのか?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "these seemingly random rules"
+            },
+            {
+              "label": "V",
+              "content": "come from"
+            },
+            {
+              "label": "M",
+              "content": "where"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Where do these seemingly "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "random",
+              "ref": "random",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " rules "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "come from",
+              "ref": "come_from"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "?"
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "And which, if any, actually matter?",
+          "translation_ja": "そして、もしあるなら、どれが実際に重要なのか?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "which, if any"
+            },
+            {
+              "label": "V",
+              "content": "matter"
+            },
+            {
+              "label": "M",
+              "content": "actually"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And which, if any, actually "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "matter",
+              "ref": "matter",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "?"
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "The answers to these questions vary from rule to rule, so let's look at three particularly famous English examples.",
+          "translation_ja": "これらの質問への答えは規則ごとに異なるので、特に有名な英語の3例を見てみよう。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The answers to these questions"
+            },
+            {
+              "label": "V",
+              "content": "vary"
+            },
+            {
+              "label": "M",
+              "content": "from rule to rule"
+            },
+            {
+              "label": "M",
+              "content": "so let's look at three particularly famous English examples",
+              "note": "結果"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The answers to these questions "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "vary",
+              "ref": "vary",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " from rule to rule, so let's look at three "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "particularly",
+              "ref": "particularly",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " famous English examples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 50.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "First up, the idea that you should never end a sentence with a preposition.",
+          "translation_ja": "まずは、文を前置詞で終えてはいけないという考え。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "First up"
+            },
+            {
+              "label": "S",
+              "content": "the idea that you should never end a sentence with a preposition",
+              "note": "同格 that 節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "First up",
+              "ref": "first_up"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", the "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "idea",
+              "ref": "idea",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " that you should never end a "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "sentence",
+              "ref": "sentence",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " with a "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "preposition",
+              "ref": "preposition",
+              "tier": "key"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Prepositions are small, common words like with, on, for, or to, that often come before nouns.",
+          "translation_ja": "前置詞とは with, on, for, to のような小さくて一般的な語で、しばしば名詞の前に置かれる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Prepositions"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "small, common words like with, on, for, or to, that often come before nouns"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Prepositions are small, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "common",
+              "ref": "common",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " words like with, on, for, or to, that often come before "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "nouns",
+              "ref": "nouns",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "So, for example, a grammar stickler would consider \"where does this rule come from?\" incorrect, preferring instead, \"from where does this rule come?\"",
+          "translation_ja": "そこで例えば、文法にうるさい人は \"where does this rule come from?\" を不正確と見なし、代わりに \"from where does this rule come?\" を好むだろう。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "a grammar stickler"
+            },
+            {
+              "label": "V",
+              "content": "would consider"
+            },
+            {
+              "label": "O",
+              "content": "\"where does this rule come from?\" incorrect"
+            },
+            {
+              "label": "M",
+              "content": "preferring instead, \"from where does this rule come?\"",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So, for example, a grammar "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "stickler",
+              "ref": "stickler",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " would consider \"where does this rule come from?\" "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "incorrect",
+              "ref": "incorrect",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "preferring",
+              "ref": "preferring",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " instead, \"from where does this rule come?\""
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This rule comes from 18th century England, when etiquette was all the rage.",
+          "translation_ja": "この規則は、礼儀作法が大流行していた18世紀のイギリスに由来する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This rule"
+            },
+            {
+              "label": "V",
+              "content": "comes"
+            },
+            {
+              "label": "M",
+              "content": "from 18th century England, when etiquette was all the rage",
+              "note": "関係副詞 when"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This rule comes from 18th century England, when "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "etiquette",
+              "ref": "etiquette",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " was "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "all the rage",
+              "ref": "all_the_rage"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "And amidst countless guides on how to act properly, grammarians flooded the market with books on how to speak properly.",
+          "translation_ja": "そして、適切な振る舞い方の数多のガイドに混じって、文法家たちは適切な話し方の本を市場に大量投入した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "amidst countless guides on how to act properly"
+            },
+            {
+              "label": "S",
+              "content": "grammarians"
+            },
+            {
+              "label": "V",
+              "content": "flooded"
+            },
+            {
+              "label": "O",
+              "content": "the market"
+            },
+            {
+              "label": "M",
+              "content": "with books on how to speak properly"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "amidst",
+              "ref": "amidst",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "countless",
+              "ref": "countless",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " guides on how to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "act",
+              "ref": "act",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "properly",
+              "ref": "properly",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "grammarians",
+              "ref": "grammarians",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "flooded the market",
+              "ref": "flood_the_market"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " with books on how to speak properly."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Many of the rules in these guides were taken from Latin— a language that was commonly used for written scholarship.",
+          "translation_ja": "これらのガイドの規則の多くは、書かれた学術言語として広く使われていたラテン語から取られた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Many of the rules in these guides"
+            },
+            {
+              "label": "V",
+              "content": "were taken",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "from Latin— a language that was commonly used for written scholarship"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Many of the rules in these guides were taken from "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Latin",
+              "ref": "latin",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— a language that was commonly used for "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "written",
+              "ref": "written",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "scholarship",
+              "ref": "scholarship",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "But no one had spoken Latin conversationally in 1,000 years, and imposing its rules on speech was awkward to say the least.",
+          "translation_ja": "しかし誰も1000年もラテン語を会話で話していなかったし、その規則を発話に押し付けるのは控えめに言ってもぎこちなかった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "no one"
+            },
+            {
+              "label": "V",
+              "content": "had spoken"
+            },
+            {
+              "label": "O",
+              "content": "Latin conversationally in 1,000 years"
+            },
+            {
+              "label": "M",
+              "content": "and imposing its rules on speech was awkward to say the least",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But no one had spoken Latin "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "conversationally",
+              "ref": "conversationally",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in 1,000 years, and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "imposing",
+              "ref": "imposing",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " its rules on speech was "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "awkward",
+              "ref": "awkward",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "to say the least",
+              "ref": "to_say_the_least"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "The rule to never strand a preposition without a noun was one such revived relic.",
+          "translation_ja": "前置詞を名詞なしで取り残してはいけないという規則は、そうした復活した遺物の一つだった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The rule to never strand a preposition without a noun"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "one such revived relic"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The rule to never "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "strand",
+              "ref": "strand",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a preposition without a noun was one such "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "revived",
+              "ref": "revived",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "relic",
+              "ref": "relic",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "And while the scholars who proposed it presented the idea as a stylistic choice, subsequent writers turned their suggestion into a hard rule.",
+          "translation_ja": "それを提唱した学者たちはそれを様式上の選択肢として提示したが、後続の作家たちはその提案を厳格な規則に変えてしまった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while the scholars who proposed it presented the idea as a stylistic choice",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "subsequent writers"
+            },
+            {
+              "label": "V",
+              "content": "turned"
+            },
+            {
+              "label": "O",
+              "content": "their suggestion"
+            },
+            {
+              "label": "M",
+              "content": "into a hard rule"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And while the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "scholars",
+              "ref": "scholars",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " who "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "proposed",
+              "ref": "proposed",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " it presented the idea as a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "stylistic",
+              "ref": "stylistic",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "choice",
+              "ref": "choice",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "subsequent",
+              "ref": "subsequent",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " writers "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "turned … into",
+              "ref": "turn_into"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " their suggestion into a "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "hard",
+              "ref": "hard",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "rule",
+              "ref": "rule",
+              "tier": "skip"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 120.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Other rules have origins that are perhaps less arbitrary, but significantly more petty.",
+          "translation_ja": "他の規則には、おそらくより恣意的ではないが、はるかに些細な起源を持つものがある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Other rules"
+            },
+            {
+              "label": "V",
+              "content": "have"
+            },
+            {
+              "label": "O",
+              "content": "origins that are perhaps less arbitrary, but significantly more petty"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Other rules have "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "origins",
+              "ref": "origins",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " that are perhaps less "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "arbitrary",
+              "ref": "arbitrary",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", but significantly more "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "petty",
+              "ref": "petty",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Consider the idea that you should use \"fewer\" when referring to countable nouns— like water bottles— and \"less\" when referring to nouns we don't count— like water.",
+          "translation_ja": "可算名詞 ── 水のボトルなど ── を指す時は \"fewer\" を、数えない名詞 ── 水など ── を指す時は \"less\" を使うべし、という考えを思い浮かべてほしい。",
+          "structure": [
+            {
+              "label": "V",
+              "content": "Consider"
+            },
+            {
+              "label": "O",
+              "content": "the idea that you should use \"fewer\" when referring to countable nouns— like water bottles— and \"less\" when referring to nouns we don't count— like water"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Consider",
+              "ref": "consider",
+              "tier": "skip"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " the idea that you should use \"fewer\" when "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "referring",
+              "ref": "referring",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t5",
+              "type": "expression",
+              "surface": "countable nouns",
+              "ref": "countable_nouns"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": "— like water bottles— and \"less\" when referring to nouns we don't count— like water."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This rule comes from another 18th century grammarian called Robert Baker, who, for reasons unknown, believed \"less\" was inelegant when used with countable nouns.",
+          "translation_ja": "この規則は、もう一人の18世紀の文法家ロバート・ベイカーに由来し、彼は理由不明ながら、可算名詞に \"less\" を使うのは品がないと信じていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This rule"
+            },
+            {
+              "label": "V",
+              "content": "comes"
+            },
+            {
+              "label": "M",
+              "content": "from another 18th century grammarian called Robert Baker, who, for reasons unknown, believed \"less\" was inelegant when used with countable nouns"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This rule comes from another 18th century "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "grammarian",
+              "ref": "grammarian",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " called Robert Baker, who, for "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reasons",
+              "ref": "reasons",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "unknown",
+              "ref": "unknown",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", believed \"less\" was "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "inelegant",
+              "ref": "inelegant",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " when used with countable nouns."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This might seem strange, but people today wage similar wars on so-called lesser language, such as \"like\" or \"literally.\"",
+          "translation_ja": "奇妙に思えるかもしれないが、現代の人々も \"like\" や \"literally\" など、いわゆる「劣った」言葉に同じような戦いを仕掛けている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "might seem"
+            },
+            {
+              "label": "C",
+              "content": "strange"
+            },
+            {
+              "label": "M",
+              "content": "but people today wage similar wars on so-called lesser language, such as \"like\" or \"literally\"",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This might seem "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "strange",
+              "ref": "strange",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", but people today "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "wage wars on",
+              "ref": "wage_war_on"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "so-called",
+              "ref": "so_called"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " lesser language, such as \"like\" or \"literally.\""
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Besides, Baker's preference was part of a larger craze for codifying English.",
+          "translation_ja": "そのうえ、ベイカーの好みは英語を成文化する大きな熱狂の一部だった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Besides"
+            },
+            {
+              "label": "S",
+              "content": "Baker's preference"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "part of a larger craze for codifying English"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Besides, Baker's "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "preference",
+              "ref": "preference",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " was part of a larger "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "craze",
+              "ref": "craze",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " for "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "codifying",
+              "ref": "codifying",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " English."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "For centuries after the Norman Conquest in 1066, French was the language of nobility in England, while English was seen as the language of commoners.",
+          "translation_ja": "1066年のノルマン征服から数世紀の間、英国ではフランス語が貴族の言語、英語は庶民の言語と見なされた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "For centuries after the Norman Conquest in 1066"
+            },
+            {
+              "label": "S",
+              "content": "French"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "the language of nobility in England"
+            },
+            {
+              "label": "M",
+              "content": "while English was seen as the language of commoners",
+              "note": "対比節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For centuries after the "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "Norman Conquest",
+              "ref": "norman_conquest"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in 1066, French was the language of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "nobility",
+              "ref": "nobility",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " in England, while English was seen as the language of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "commoners",
+              "ref": "commoners",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "While the English had long reclaimed their kingdom by Baker's time, this insecurity lingered in the hearts of many English grammarians.",
+          "translation_ja": "ベイカーの時代までに英国民は王国を取り戻して久しかったが、この劣等感は多くの英語文法家の心に残っていた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While the English had long reclaimed their kingdom by Baker's time",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "this insecurity"
+            },
+            {
+              "label": "V",
+              "content": "lingered"
+            },
+            {
+              "label": "M",
+              "content": "in the hearts of many English grammarians"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While the English had long "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "reclaimed",
+              "ref": "reclaimed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "kingdom",
+              "ref": "kingdom",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " by Baker's time, this "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "insecurity",
+              "ref": "insecurity",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "lingered",
+              "ref": "lingered",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " in the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "hearts",
+              "ref": "hearts",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " of many English grammarians."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "In fact, Baker also wanted King George to establish an Academy of Letters with 50 officials to protect the English language.",
+          "translation_ja": "実際、ベイカーは英語を守るために 50 人の役人を擁する「文学アカデミー」をジョージ国王に設立してほしいとも望んだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In fact"
+            },
+            {
+              "label": "S",
+              "content": "Baker"
+            },
+            {
+              "label": "V",
+              "content": "wanted"
+            },
+            {
+              "label": "O",
+              "content": "King George to establish an Academy of Letters with 50 officials to protect the English language"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In fact, Baker also wanted King George to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "establish",
+              "ref": "establish",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "Academy of Letters",
+              "ref": "academy_of_letters"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with 50 "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "officials",
+              "ref": "officials",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to protect the English language."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "That's ten more officials than were employed in France's grammar guard— L'Académie Française.",
+          "translation_ja": "それはフランスの文法の番人 ── アカデミー・フランセーズ ── が雇っていたよりも10人多い。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "That"
+            },
+            {
+              "label": "V",
+              "content": "'s"
+            },
+            {
+              "label": "C",
+              "content": "ten more officials than were employed in France's grammar guard— L'Académie Française"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "That's ten more officials than were "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "employed",
+              "ref": "employed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in France's grammar guard— "
+            },
+            {
+              "id": "t4",
+              "type": "foreign",
+              "surface": "L'Académie Française",
+              "ref": "academie_francaise"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 200.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Many English grammar rules have similarly silly origins, such as efforts to distinguish \"over\" from \"more than,\" or our attachment to Latin plurals like fungi and formulae.",
+          "translation_ja": "英語文法の多くの規則も同様にばかげた起源を持つ。\"over\" と \"more than\" を区別しようとする努力、あるいは fungi や formulae のようなラテン語複数形への執着など。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Many English grammar rules"
+            },
+            {
+              "label": "V",
+              "content": "have"
+            },
+            {
+              "label": "O",
+              "content": "similarly silly origins, such as efforts to distinguish \"over\" from \"more than,\" or our attachment to Latin plurals like fungi and formulae"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Many English grammar rules have similarly "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "silly",
+              "ref": "silly",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " origins, such as "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "efforts",
+              "ref": "efforts",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "distinguish",
+              "ref": "distinguish",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " \"over\" from \"more than,\" or our "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "attachment",
+              "ref": "attachment",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to Latin "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "plurals",
+              "ref": "plurals",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " like fungi and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "formulae",
+              "ref": "formulae",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The stakes of all these grammatical debates are mostly academic.",
+          "translation_ja": "これらの文法論争の重要性はおおむね学術的なものだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The stakes of all these grammatical debates"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "mostly academic"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "stakes",
+              "ref": "stakes",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of all these grammatical "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "debates",
+              "ref": "debates",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " are "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "mostly",
+              "ref": "mostly",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "academic",
+              "ref": "academic",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But one frequently discussed rule does have some real-world consequences.",
+          "translation_ja": "しかし、よく議論されるある規則は現実世界に影響を持つ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "one frequently discussed rule"
+            },
+            {
+              "label": "V",
+              "content": "does have",
+              "note": "強調の do"
+            },
+            {
+              "label": "O",
+              "content": "some real-world consequences"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But one "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "frequently",
+              "ref": "frequently",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " discussed rule does have some "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "real-world",
+              "ref": "real_world"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "consequences",
+              "ref": "consequences",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "For centuries, \"they\" has been used in classic literature and everyday speech as both a plural and a singular pronoun.",
+          "translation_ja": "何世紀もの間、\"they\" は古典文学でも日常会話でも、複数代名詞としても単数代名詞としても使われてきた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "For centuries"
+            },
+            {
+              "label": "S",
+              "content": "\"they\""
+            },
+            {
+              "label": "V",
+              "content": "has been used",
+              "note": "現在完了受動"
+            },
+            {
+              "label": "M",
+              "content": "in classic literature and everyday speech as both a plural and a singular pronoun"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For centuries, \"they\" has been used in "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "classic",
+              "ref": "classic",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "literature",
+              "ref": "literature",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and everyday "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "speech",
+              "ref": "speech",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " as both a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "plural",
+              "ref": "plural",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and a "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "singular",
+              "ref": "singular",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "pronoun",
+              "ref": "pronoun",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "And today, many non-binary and transgender individuals prefer to use \"they/them\" as singular pronouns to refer to themselves.",
+          "translation_ja": "そして今日、多くのノンバイナリーやトランスジェンダーの人々は、自分を指す単数代名詞として \"they/them\" を用いることを好む。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "And today"
+            },
+            {
+              "label": "S",
+              "content": "many non-binary and transgender individuals"
+            },
+            {
+              "label": "V",
+              "content": "prefer"
+            },
+            {
+              "label": "O",
+              "content": "to use \"they/them\" as singular pronouns to refer to themselves"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And today, many "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "non-binary",
+              "ref": "non_binary"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "transgender",
+              "ref": "transgender",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "individuals",
+              "ref": "individuals",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " prefer to use \"they/them\" as singular pronouns to "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "refer to",
+              "ref": "refer_to"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " themselves."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "19th century grammarians, however, believed that \"they\" should be an exclusively plural pronoun.",
+          "translation_ja": "しかし19世紀の文法家たちは、\"they\" は専ら複数代名詞であるべきだと信じていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "19th century grammarians"
+            },
+            {
+              "label": "V",
+              "content": "believed"
+            },
+            {
+              "label": "O",
+              "content": "that \"they\" should be an exclusively plural pronoun"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "19th century grammarians, however, believed that \"they\" should be an "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "exclusively",
+              "ref": "exclusively",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " plural pronoun."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Furthermore, in cases where \"they\" could be used as a singular pronoun, they argued the word should be swapped for the generic \"he.\"",
+          "translation_ja": "さらに、\"they\" が単数代名詞として使われ得る場合には、その語は総称の \"he\" に置き換えるべきだと彼らは主張した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Furthermore"
+            },
+            {
+              "label": "M",
+              "content": "in cases where \"they\" could be used as a singular pronoun",
+              "note": "関係副詞節"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "argued"
+            },
+            {
+              "label": "O",
+              "content": "the word should be swapped for the generic \"he\""
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Furthermore",
+              "ref": "furthermore",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", in cases where \"they\" could be used as a singular pronoun, they "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "argued",
+              "ref": "argued",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " the word should be "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "swapped",
+              "ref": "swapped",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " for the "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "generic",
+              "ref": "generic",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " \"he.\""
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "This was an obviously patriarchal decision, and during the 1970s, activists eventually convinced some usage guides to begin using \"he or she.\"",
+          "translation_ja": "これは明らかに家父長制的な決定であり、1970年代には活動家たちが一部の用法ガイドに \"he or she\" を使い始めるよう説得した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "an obviously patriarchal decision"
+            },
+            {
+              "label": "M",
+              "content": "and during the 1970s, activists eventually convinced some usage guides to begin using \"he or she\"",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This was an "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "obviously",
+              "ref": "obviously",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "patriarchal",
+              "ref": "patriarchal",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "decision",
+              "ref": "decision",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and during the 1970s, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "activists",
+              "ref": "activists",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " eventually "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "convinced",
+              "ref": "convinced",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " some "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "usage guides",
+              "ref": "usage_guides"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " to begin using \"he or she.\""
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "But today, this quibble continues to cause confusion, even though most official grammar guides have accepted \"they\" as both a singular and plural pronoun.",
+          "translation_ja": "しかし今日、ほとんどの公式文法ガイドが \"they\" を単数・複数両方の代名詞として受け入れているにもかかわらず、この些細な議論は依然として混乱を引き起こしている。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But today"
+            },
+            {
+              "label": "S",
+              "content": "this quibble"
+            },
+            {
+              "label": "V",
+              "content": "continues"
+            },
+            {
+              "label": "O",
+              "content": "to cause confusion"
+            },
+            {
+              "label": "M",
+              "content": "even though most official grammar guides have accepted \"they\" as both a singular and plural pronoun",
+              "note": "譲歩節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But today, this "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "quibble",
+              "ref": "quibble",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " continues to cause "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "confusion",
+              "ref": "confusion",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", even though most official grammar guides have accepted \"they\" as both a singular and plural pronoun."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 270.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "This isn't the first time we've had this kind of pronoun predicament.",
+          "translation_ja": "代名詞のこの種の難局は初めてではない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "isn't"
+            },
+            {
+              "label": "C",
+              "content": "the first time we've had this kind of pronoun predicament"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This isn't the first time we've had this kind of pronoun "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "predicament",
+              "ref": "predicament",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "For centuries, \"you\" was also considered an exclusively plural pronoun, and yet today it's completely accepted in singular situations.",
+          "translation_ja": "何世紀もの間、\"you\" もまた専ら複数代名詞と見なされていたが、今日では単数の場面で完全に受け入れられている。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "For centuries"
+            },
+            {
+              "label": "S",
+              "content": "\"you\""
+            },
+            {
+              "label": "V",
+              "content": "was considered",
+              "note": "受動態"
+            },
+            {
+              "label": "C",
+              "content": "an exclusively plural pronoun"
+            },
+            {
+              "label": "M",
+              "content": "and yet today it's completely accepted in singular situations",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For centuries, \"you\" was also considered an exclusively plural pronoun, "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "and yet",
+              "ref": "and_yet"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " today it's completely accepted in singular "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "situations",
+              "ref": "situations",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And that's because grammar isn't a hard science— it's something we all build together to reflect the people using it.",
+          "translation_ja": "それは文法が厳密な科学ではないからだ ── それは使う人々を映すために皆が共に築き上げるものなのだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "that"
+            },
+            {
+              "label": "V",
+              "content": "'s"
+            },
+            {
+              "label": "C",
+              "content": "because grammar isn't a hard science"
+            },
+            {
+              "label": "M",
+              "content": "it's something we all build together to reflect the people using it",
+              "note": "補足"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And that's because grammar isn't a "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "hard science",
+              "ref": "hard_science"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— it's something we all build together to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reflect",
+              "ref": "reflect",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the people using it."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "So however strange a rule's origins may be, the usage we choose to respect today is far from arbitrary.",
+          "translation_ja": "だから規則の起源がどれほど奇妙であろうとも、私たちが今日尊重しようと選ぶ用法は、決して恣意的ではない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "So however strange a rule's origins may be",
+              "note": "譲歩(however + adj)"
+            },
+            {
+              "label": "S",
+              "content": "the usage we choose to respect today"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "far from arbitrary"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So however strange a rule's origins may be, the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "usage",
+              "ref": "usage",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " we choose to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "respect",
+              "ref": "respect",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " today is "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "far from",
+              "ref": "far_from"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " arbitrary."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "academic": {
+      "tier": "known",
+      "surface": "academic",
+      "pos": "adj · B2",
+      "pron": "/ˌæk.əˈdem.ɪk/",
+      "meaning": "学術的な",
+      "example": {
+        "en": "Academic debate.",
+        "ja": "学術論争。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "act": {
+      "tier": "skip",
+      "surface": "act",
+      "pos": "v · A2",
+      "pron": "/ækt/",
+      "meaning": "振る舞う",
+      "example": {
+        "en": "Act normally.",
+        "ja": "普通に振る舞って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "activists": {
+      "tier": "known",
+      "surface": "activists",
+      "pos": "n · B2",
+      "pron": "/ˈæk.tɪ.vɪsts/",
+      "meaning": "活動家",
+      "example": {
+        "en": "Climate activists.",
+        "ja": "気候活動家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ad": {
+      "tier": "skip",
+      "surface": "ad",
+      "pos": "n · A2",
+      "pron": "/æd/",
+      "meaning": "広告",
+      "example": {
+        "en": "TV ad.",
+        "ja": "テレビ広告。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "advertised": {
+      "tier": "skip",
+      "surface": "advertised",
+      "pos": "v · A2",
+      "pron": "/ˈæd.və.taɪzd/",
+      "meaning": "宣伝された",
+      "example": {
+        "en": "Advertised online.",
+        "ja": "オンライン広告された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "amidst": {
+      "tier": "known",
+      "surface": "amidst",
+      "pos": "prep · C1",
+      "pron": "/əˈmɪdst/",
+      "meaning": "〜の只中で",
+      "example": {
+        "en": "Amidst chaos.",
+        "ja": "混沌の中で。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "appalled": {
+      "tier": "known",
+      "surface": "appalled",
+      "pos": "adj · C1",
+      "pron": "/əˈpɔːld/",
+      "meaning": "愕然とした、憤慨した",
+      "example": {
+        "en": "Appalled by news.",
+        "ja": "知らせに愕然。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "arbitrary": {
+      "tier": "known",
+      "surface": "arbitrary",
+      "pos": "adj · B2",
+      "pron": "/ˈɑː.bɪ.trər.i/",
+      "meaning": "恣意的な",
+      "example": {
+        "en": "Arbitrary decision.",
+        "ja": "恣意的決定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "argued": {
+      "tier": "known",
+      "surface": "argued",
+      "pos": "v · B1",
+      "pron": "/ˈɑː.ɡjuːd/",
+      "meaning": "主張した",
+      "example": {
+        "en": "Argued for change.",
+        "ja": "変化を主張。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attachment": {
+      "tier": "known",
+      "surface": "attachment",
+      "pos": "n · B2",
+      "pron": "/əˈtætʃ.mənt/",
+      "meaning": "愛着、添付",
+      "example": {
+        "en": "Strong attachment.",
+        "ja": "強い愛着。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "awkward": {
+      "tier": "known",
+      "surface": "awkward",
+      "pos": "adj · B2",
+      "pron": "/ˈɔːk.wəd/",
+      "meaning": "ぎこちない",
+      "example": {
+        "en": "Awkward silence.",
+        "ja": "気まずい沈黙。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "broadcasters": {
+      "tier": "known",
+      "surface": "broadcasters",
+      "pos": "n · B2",
+      "pron": "/ˈbrɔːd.kɑːs.təz/",
+      "meaning": "放送局",
+      "example": {
+        "en": "Major broadcasters.",
+        "ja": "主要放送局。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "centuries": {
+      "tier": "known",
+      "surface": "centuries",
+      "pos": "n · B1",
+      "pron": "/ˈsen.tʃər.iz/",
+      "meaning": "世紀",
+      "example": {
+        "en": "Centuries-old.",
+        "ja": "数世紀前の。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "choice": {
+      "tier": "skip",
+      "surface": "choice",
+      "pos": "n · A2",
+      "pron": "/tʃɔɪs/",
+      "meaning": "選択",
+      "example": {
+        "en": "Hard choice.",
+        "ja": "難しい選択。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cigarettes": {
+      "tier": "skip",
+      "surface": "Cigarettes",
+      "pos": "n · A2",
+      "pron": "/ˌsɪɡ.əˈrets/",
+      "meaning": "タバコ",
+      "example": {
+        "en": "Pack of cigarettes.",
+        "ja": "タバコ一箱。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "classic": {
+      "tier": "skip",
+      "surface": "classic",
+      "pos": "adj · A2",
+      "pron": "/ˈklæs.ɪk/",
+      "meaning": "古典の",
+      "example": {
+        "en": "Classic film.",
+        "ja": "名作映画。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clear": {
+      "tier": "skip",
+      "surface": "clear",
+      "pos": "adj · A1",
+      "pron": "/klɪər/",
+      "meaning": "明確な",
+      "example": {
+        "en": "Clear answer.",
+        "ja": "明確な答え。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "codifying": {
+      "tier": "key",
+      "surface": "codifying",
+      "pos": "v · C2",
+      "pron": "/ˈkoʊ.də.faɪ.ɪŋ/",
+      "meaning": "成文化する",
+      "example": {
+        "en": "Codifying laws.",
+        "ja": "法律の成文化。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "common": {
+      "tier": "skip",
+      "surface": "common",
+      "pos": "adj · A1",
+      "pron": "/ˈkɒm.ən/",
+      "meaning": "一般的な",
+      "example": {
+        "en": "Common sense.",
+        "ja": "常識。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "commoners": {
+      "tier": "known",
+      "surface": "commoners",
+      "pos": "n · C1",
+      "pron": "/ˈkɒm.ə.nəz/",
+      "meaning": "平民",
+      "example": {
+        "en": "Among commoners.",
+        "ja": "平民の間で。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confusion": {
+      "tier": "skip",
+      "surface": "confusion",
+      "pos": "n · A2",
+      "pron": "/kənˈfjuː.ʒən/",
+      "meaning": "混乱",
+      "example": {
+        "en": "Cause confusion.",
+        "ja": "混乱を招く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conjunction": {
+      "tier": "key",
+      "surface": "conjunction",
+      "pos": "n · C1",
+      "pron": "/kənˈdʒʌŋk.ʃən/",
+      "meaning": "接続詞",
+      "example": {
+        "en": "Conjunction \"and.\"",
+        "ja": "接続詞 and。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "consequences": {
+      "tier": "known",
+      "surface": "consequences",
+      "pos": "n · B2",
+      "pron": "/ˈkɒn.sɪ.kwən.sɪz/",
+      "meaning": "結果",
+      "example": {
+        "en": "Severe consequences.",
+        "ja": "深刻な結果。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "consider": {
+      "tier": "skip",
+      "surface": "consider",
+      "pos": "v · A2",
+      "pron": "/kənˈsɪd.ər/",
+      "meaning": "考慮する",
+      "example": {
+        "en": "Consider it.",
+        "ja": "検討して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "controversial": {
+      "tier": "known",
+      "surface": "controversial",
+      "pos": "adj · B2",
+      "pron": "/ˌkɒn.trəˈvɜː.ʃəl/",
+      "meaning": "物議を醸す",
+      "example": {
+        "en": "Controversial topic.",
+        "ja": "物議を醸す話題。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conversationally": {
+      "tier": "known",
+      "surface": "conversationally",
+      "pos": "adv · C1",
+      "pron": "/ˌkɒn.vəˈseɪ.ʃən.əl.i/",
+      "meaning": "会話的に",
+      "example": {
+        "en": "Speak conversationally.",
+        "ja": "会話風に話す。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "convinced": {
+      "tier": "known",
+      "surface": "convinced",
+      "pos": "v · B1",
+      "pron": "/kənˈvɪnst/",
+      "meaning": "説得した",
+      "example": {
+        "en": "Convinced finally.",
+        "ja": "ついに説得。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "countless": {
+      "tier": "known",
+      "surface": "countless",
+      "pos": "adj · B2",
+      "pron": "/ˈkaʊnt.ləs/",
+      "meaning": "数え切れない",
+      "example": {
+        "en": "Countless stars.",
+        "ja": "無数の星。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "craze": {
+      "tier": "known",
+      "surface": "craze",
+      "pos": "n · B2",
+      "pron": "/kreɪz/",
+      "meaning": "熱狂、ブーム",
+      "example": {
+        "en": "Latest craze.",
+        "ja": "最新ブーム。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dangerous": {
+      "tier": "skip",
+      "surface": "dangerous",
+      "pos": "adj · A2",
+      "pron": "/ˈdeɪn.dʒə.rəs/",
+      "meaning": "危険な",
+      "example": {
+        "en": "Dangerous job.",
+        "ja": "危険な仕事。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "debates": {
+      "tier": "known",
+      "surface": "debates",
+      "pos": "n · B1",
+      "pron": "/dɪˈbeɪts/",
+      "meaning": "討論",
+      "example": {
+        "en": "Political debates.",
+        "ja": "政治討論。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "decision": {
+      "tier": "skip",
+      "surface": "decision",
+      "pos": "n · A2",
+      "pron": "/dɪˈsɪʒ.ən/",
+      "meaning": "決定",
+      "example": {
+        "en": "Final decision.",
+        "ja": "最終決定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "distinguish": {
+      "tier": "known",
+      "surface": "distinguish",
+      "pos": "v · B2",
+      "pron": "/dɪˈstɪŋ.ɡwɪʃ/",
+      "meaning": "区別する",
+      "example": {
+        "en": "Distinguish A from B.",
+        "ja": "A と B を区別。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "efforts": {
+      "tier": "skip",
+      "surface": "efforts",
+      "pos": "n · A2",
+      "pron": "/ˈef.əts/",
+      "meaning": "努力",
+      "example": {
+        "en": "Joint efforts.",
+        "ja": "共同努力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "employed": {
+      "tier": "known",
+      "surface": "employed",
+      "pos": "v · B1",
+      "pron": "/ɪmˈplɔɪd/",
+      "meaning": "雇用された",
+      "example": {
+        "en": "Newly employed.",
+        "ja": "新規雇用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "establish": {
+      "tier": "known",
+      "surface": "establish",
+      "pos": "v · B1",
+      "pron": "/ɪˈstæb.lɪʃ/",
+      "meaning": "設立する",
+      "example": {
+        "en": "Establish a fund.",
+        "ja": "基金設立。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "etiquette": {
+      "tier": "known",
+      "surface": "etiquette",
+      "pos": "n · B2",
+      "pron": "/ˈet.ɪ.ket/",
+      "meaning": "礼儀作法",
+      "example": {
+        "en": "Business etiquette.",
+        "ja": "ビジネスマナー。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exclusively": {
+      "tier": "known",
+      "surface": "exclusively",
+      "pos": "adv · B2",
+      "pron": "/ɪkˈskluː.sɪv.li/",
+      "meaning": "もっぱら",
+      "example": {
+        "en": "Exclusively for members.",
+        "ja": "会員専用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "formulae": {
+      "tier": "known",
+      "surface": "formulae",
+      "pos": "n · C1",
+      "pron": "/ˈfɔː.mjə.liː/",
+      "meaning": "公式・処方(複数)",
+      "example": {
+        "en": "Math formulae.",
+        "ja": "数式群。"
+      },
+      "context": "formula のラテン語複数形。",
+      "collocations": []
+    },
+    "frequently": {
+      "tier": "known",
+      "surface": "frequently",
+      "pos": "adv · B1",
+      "pron": "/ˈfriː.kwənt.li/",
+      "meaning": "頻繁に",
+      "example": {
+        "en": "Frequently asked.",
+        "ja": "よく質問される。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "furthermore": {
+      "tier": "known",
+      "surface": "furthermore",
+      "pos": "adv · B2",
+      "pron": "/ˌfɜː.ðəˈmɔːr/",
+      "meaning": "さらに",
+      "example": {
+        "en": "Furthermore, costs rose.",
+        "ja": "さらに費用も上昇。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "generic": {
+      "tier": "known",
+      "surface": "generic",
+      "pos": "adj · B2",
+      "pron": "/dʒəˈner.ɪk/",
+      "meaning": "一般的な、総称的な",
+      "example": {
+        "en": "Generic brand.",
+        "ja": "ジェネリック銘柄。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grammar": {
+      "tier": "known",
+      "surface": "grammar",
+      "pos": "n · B1",
+      "pron": "/ˈɡræm.ər/",
+      "meaning": "文法",
+      "example": {
+        "en": "English grammar.",
+        "ja": "英語文法。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grammarian": {
+      "tier": "key",
+      "surface": "grammarian",
+      "pos": "n · C1",
+      "pron": "/ɡrəˈmeə.ri.ən/",
+      "meaning": "文法家",
+      "example": {
+        "en": "18th century grammarian.",
+        "ja": "18世紀の文法家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grammarians": {
+      "tier": "key",
+      "surface": "grammarians",
+      "pos": "n · C1",
+      "pron": "/ɡrəˈmeə.ri.ənz/",
+      "meaning": "文法家",
+      "example": {
+        "en": "Strict grammarians.",
+        "ja": "厳格な文法家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grammatical": {
+      "tier": "known",
+      "surface": "grammatical",
+      "pos": "adj · B2",
+      "pron": "/ɡrəˈmæt.ɪ.kəl/",
+      "meaning": "文法上の",
+      "example": {
+        "en": "Grammatical error.",
+        "ja": "文法ミス。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hard": {
+      "tier": "skip",
+      "surface": "hard",
+      "pos": "adj · A1",
+      "pron": "/hɑːd/",
+      "meaning": "厳しい、硬い",
+      "example": {
+        "en": "Hard rule.",
+        "ja": "厳格な規則。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hearts": {
+      "tier": "skip",
+      "surface": "hearts",
+      "pos": "n · A1",
+      "pron": "/hɑːts/",
+      "meaning": "心",
+      "example": {
+        "en": "Open hearts.",
+        "ja": "開いた心。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "idea": {
+      "tier": "skip",
+      "surface": "idea",
+      "pos": "n · A1",
+      "pron": "/aɪˈdɪə/",
+      "meaning": "考え",
+      "example": {
+        "en": "Good idea.",
+        "ja": "良い考え。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "imposing": {
+      "tier": "known",
+      "surface": "imposing",
+      "pos": "v · B2",
+      "pron": "/ɪmˈpoʊ.zɪŋ/",
+      "meaning": "押し付けて",
+      "example": {
+        "en": "Imposing rules.",
+        "ja": "規則を強制。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "incidents": {
+      "tier": "known",
+      "surface": "incidents",
+      "pos": "n · B2",
+      "pron": "/ˈɪn.sɪ.dənts/",
+      "meaning": "事件",
+      "example": {
+        "en": "Minor incidents.",
+        "ja": "小事件。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "incorrect": {
+      "tier": "skip",
+      "surface": "incorrect",
+      "pos": "adj · A2",
+      "pron": "/ˌɪn.kərˈekt/",
+      "meaning": "不正確な",
+      "example": {
+        "en": "Incorrect answer.",
+        "ja": "不正解。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "individuals": {
+      "tier": "known",
+      "surface": "individuals",
+      "pos": "n · B1",
+      "pron": "/ˌɪn.dɪˈvɪdʒ.u.əlz/",
+      "meaning": "個人",
+      "example": {
+        "en": "Two individuals.",
+        "ja": "二名の個人。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inelegant": {
+      "tier": "known",
+      "surface": "inelegant",
+      "pos": "adj · C1",
+      "pron": "/ɪnˈel.ɪ.ɡənt/",
+      "meaning": "品のない、不格好な",
+      "example": {
+        "en": "Inelegant solution.",
+        "ja": "不格好な解。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "insecurity": {
+      "tier": "known",
+      "surface": "insecurity",
+      "pos": "n · B2",
+      "pron": "/ˌɪn.sɪˈkjʊə.rə.ti/",
+      "meaning": "不安、劣等感",
+      "example": {
+        "en": "Job insecurity.",
+        "ja": "雇用不安。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "kingdom": {
+      "tier": "known",
+      "surface": "kingdom",
+      "pos": "n · B1",
+      "pron": "/ˈkɪŋ.dəm/",
+      "meaning": "王国",
+      "example": {
+        "en": "Animal kingdom.",
+        "ja": "動物界。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "latin": {
+      "tier": "skip",
+      "surface": "Latin",
+      "pos": "n · proper",
+      "pron": "/ˈlæt.ɪn/",
+      "meaning": "ラテン語",
+      "example": {
+        "en": "Latin roots.",
+        "ja": "ラテン語起源。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "launched": {
+      "tier": "known",
+      "surface": "launched",
+      "pos": "v · B1",
+      "pron": "/lɔːntʃt/",
+      "meaning": "発表した",
+      "example": {
+        "en": "Launched campaign.",
+        "ja": "キャンペーン開始。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lingered": {
+      "tier": "known",
+      "surface": "lingered",
+      "pos": "v · B2",
+      "pron": "/ˈlɪŋ.ɡəd/",
+      "meaning": "残った",
+      "example": {
+        "en": "Doubt lingered.",
+        "ja": "疑念が残った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "literature": {
+      "tier": "skip",
+      "surface": "literature",
+      "pos": "n · A2",
+      "pron": "/ˈlɪt.rə.tʃər/",
+      "meaning": "文学",
+      "example": {
+        "en": "English literature.",
+        "ja": "英文学。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "matter": {
+      "tier": "skip",
+      "surface": "matter",
+      "pos": "v · A2",
+      "pron": "/ˈmæt.ər/",
+      "meaning": "重要だ",
+      "example": {
+        "en": "Truth matters.",
+        "ja": "真実は重要。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mostly": {
+      "tier": "skip",
+      "surface": "mostly",
+      "pos": "adv · A2",
+      "pron": "/ˈmoʊst.li/",
+      "meaning": "主に",
+      "example": {
+        "en": "Mostly true.",
+        "ja": "ほぼ真実。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nobility": {
+      "tier": "known",
+      "surface": "nobility",
+      "pos": "n · B2",
+      "pron": "/noʊˈbɪl.ə.ti/",
+      "meaning": "貴族",
+      "example": {
+        "en": "Royal nobility.",
+        "ja": "王侯貴族。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nouns": {
+      "tier": "known",
+      "surface": "nouns",
+      "pos": "n · B1",
+      "pron": "/naʊnz/",
+      "meaning": "名詞",
+      "example": {
+        "en": "Proper nouns.",
+        "ja": "固有名詞。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "obviously": {
+      "tier": "known",
+      "surface": "obviously",
+      "pos": "adv · B1",
+      "pron": "/ˈɒb.vi.əs.li/",
+      "meaning": "明らかに",
+      "example": {
+        "en": "Obviously true.",
+        "ja": "明らかに真。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "officials": {
+      "tier": "known",
+      "surface": "officials",
+      "pos": "n · B1",
+      "pron": "/əˈfɪʃ.əlz/",
+      "meaning": "役人",
+      "example": {
+        "en": "Government officials.",
+        "ja": "政府高官。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "origins": {
+      "tier": "known",
+      "surface": "origins",
+      "pos": "n · B1",
+      "pron": "/ˈɒr.ɪ.dʒɪnz/",
+      "meaning": "起源",
+      "example": {
+        "en": "Origins of life.",
+        "ja": "生命の起源。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "outrage": {
+      "tier": "known",
+      "surface": "outrage",
+      "pos": "n · B2",
+      "pron": "/ˈaʊt.reɪdʒ/",
+      "meaning": "怒り、憤激",
+      "example": {
+        "en": "Moral outrage.",
+        "ja": "道徳的怒り。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "particularly": {
+      "tier": "known",
+      "surface": "particularly",
+      "pos": "adv · B1",
+      "pron": "/pəˈtɪk.jə.lə.li/",
+      "meaning": "特に",
+      "example": {
+        "en": "Particularly hot.",
+        "ja": "特に暑い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "patriarchal": {
+      "tier": "known",
+      "surface": "patriarchal",
+      "pos": "adj · C1",
+      "pron": "/ˌpeɪ.triˈɑː.kəl/",
+      "meaning": "家父長制の",
+      "example": {
+        "en": "Patriarchal society.",
+        "ja": "家父長制社会。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "petty": {
+      "tier": "known",
+      "surface": "petty",
+      "pos": "adj · B2",
+      "pron": "/ˈpet.i/",
+      "meaning": "つまらない",
+      "example": {
+        "en": "Petty cash.",
+        "ja": "小口現金。"
+      },
+      "context": "「些細な」「ケチな」。",
+      "collocations": []
+    },
+    "plural": {
+      "tier": "known",
+      "surface": "plural",
+      "pos": "n · B1",
+      "pron": "/ˈplʊə.rəl/",
+      "meaning": "複数(形)",
+      "example": {
+        "en": "In plural.",
+        "ja": "複数形で。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "plurals": {
+      "tier": "known",
+      "surface": "plurals",
+      "pos": "n · B2",
+      "pron": "/ˈplʊə.rəlz/",
+      "meaning": "複数形",
+      "example": {
+        "en": "Irregular plurals.",
+        "ja": "不規則複数形。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "predicament": {
+      "tier": "key",
+      "surface": "predicament",
+      "pos": "n · C1",
+      "pron": "/prɪˈdɪk.ə.mənt/",
+      "meaning": "苦境、難局",
+      "example": {
+        "en": "Difficult predicament.",
+        "ja": "厳しい苦境。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "preference": {
+      "tier": "known",
+      "surface": "preference",
+      "pos": "n · B1",
+      "pron": "/ˈpref.ər.əns/",
+      "meaning": "好み",
+      "example": {
+        "en": "Personal preference.",
+        "ja": "個人の好み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "preferring": {
+      "tier": "known",
+      "surface": "preferring",
+      "pos": "v · B1",
+      "pron": "/prɪˈfɜː.rɪŋ/",
+      "meaning": "好んで",
+      "example": {
+        "en": "Preferring quiet.",
+        "ja": "静けさを好んで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "preposition": {
+      "tier": "key",
+      "surface": "preposition",
+      "pos": "n · B2",
+      "pron": "/ˌprep.əˈzɪʃ.ən/",
+      "meaning": "前置詞",
+      "example": {
+        "en": "Preposition rules.",
+        "ja": "前置詞の規則。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "product": {
+      "tier": "skip",
+      "surface": "product",
+      "pos": "n · A2",
+      "pron": "/ˈprɒd.ʌkt/",
+      "meaning": "製品",
+      "example": {
+        "en": "New product.",
+        "ja": "新製品。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pronoun": {
+      "tier": "key",
+      "surface": "pronoun",
+      "pos": "n · B2",
+      "pron": "/ˈproʊ.naʊn/",
+      "meaning": "代名詞",
+      "example": {
+        "en": "Personal pronoun.",
+        "ja": "人称代名詞。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "properly": {
+      "tier": "skip",
+      "surface": "properly",
+      "pos": "adv · A2",
+      "pron": "/ˈprɒp.ə.li/",
+      "meaning": "適切に",
+      "example": {
+        "en": "Properly trained.",
+        "ja": "適切に訓練された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "proposed": {
+      "tier": "known",
+      "surface": "proposed",
+      "pos": "v · B1",
+      "pron": "/prəˈpoʊzd/",
+      "meaning": "提案した",
+      "example": {
+        "en": "Proposed change.",
+        "ja": "変更を提案。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "quibble": {
+      "tier": "key",
+      "surface": "quibble",
+      "pos": "n · C2",
+      "pron": "/ˈkwɪb.l/",
+      "meaning": "ささいな論争",
+      "example": {
+        "en": "Minor quibble.",
+        "ja": "ささいな指摘。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "random": {
+      "tier": "skip",
+      "surface": "random",
+      "pos": "adj · A2",
+      "pron": "/ˈræn.dəm/",
+      "meaning": "ランダムな",
+      "example": {
+        "en": "Random choice.",
+        "ja": "無作為の選択。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reasons": {
+      "tier": "skip",
+      "surface": "reasons",
+      "pos": "n · A2",
+      "pron": "/ˈriː.zənz/",
+      "meaning": "理由",
+      "example": {
+        "en": "Many reasons.",
+        "ja": "多くの理由。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reclaimed": {
+      "tier": "known",
+      "surface": "reclaimed",
+      "pos": "v · B2",
+      "pron": "/rɪˈkleɪmd/",
+      "meaning": "取り戻した",
+      "example": {
+        "en": "Reclaimed land.",
+        "ja": "埋立地。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "referring": {
+      "tier": "skip",
+      "surface": "referring",
+      "pos": "v · A2",
+      "pron": "/rɪˈfɜː.rɪŋ/",
+      "meaning": "言及して",
+      "example": {
+        "en": "Referring to data.",
+        "ja": "データに言及。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reflect": {
+      "tier": "skip",
+      "surface": "reflect",
+      "pos": "v · A2",
+      "pron": "/rɪˈflekt/",
+      "meaning": "映す",
+      "example": {
+        "en": "Reflect light.",
+        "ja": "光を反射。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "refused": {
+      "tier": "skip",
+      "surface": "refused",
+      "pos": "v · A2",
+      "pron": "/rɪˈfjuːzd/",
+      "meaning": "拒否した",
+      "example": {
+        "en": "Refused entry.",
+        "ja": "入場を拒否。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "relic": {
+      "tier": "known",
+      "surface": "relic",
+      "pos": "n · B2",
+      "pron": "/ˈrel.ɪk/",
+      "meaning": "遺物",
+      "example": {
+        "en": "Ancient relic.",
+        "ja": "古代遺物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "respect": {
+      "tier": "skip",
+      "surface": "respect",
+      "pos": "v · A2",
+      "pron": "/rɪˈspekt/",
+      "meaning": "尊重する",
+      "example": {
+        "en": "Respect rules.",
+        "ja": "規則を尊重。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "revived": {
+      "tier": "known",
+      "surface": "revived",
+      "pos": "adj · B2",
+      "pron": "/rɪˈvaɪvd/",
+      "meaning": "復活した",
+      "example": {
+        "en": "Revived interest.",
+        "ja": "関心の復活。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rule": {
+      "tier": "skip",
+      "surface": "rule",
+      "pos": "n · A2",
+      "pron": "/ruːl/",
+      "meaning": "規則",
+      "example": {
+        "en": "Golden rule.",
+        "ja": "黄金律。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scholars": {
+      "tier": "known",
+      "surface": "scholars",
+      "pos": "n · B2",
+      "pron": "/ˈskɒl.əz/",
+      "meaning": "学者",
+      "example": {
+        "en": "Eminent scholars.",
+        "ja": "著名学者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scholarship": {
+      "tier": "known",
+      "surface": "scholarship",
+      "pos": "n · B2",
+      "pron": "/ˈskɒl.ə.ʃɪp/",
+      "meaning": "学術、奨学金",
+      "example": {
+        "en": "Latin scholarship.",
+        "ja": "ラテン語学術。"
+      },
+      "context": "奨学金と学術両義。",
+      "collocations": []
+    },
+    "sentence": {
+      "tier": "skip",
+      "surface": "sentence",
+      "pos": "n · A2",
+      "pron": "/ˈsen.təns/",
+      "meaning": "文",
+      "example": {
+        "en": "Long sentence.",
+        "ja": "長い文。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "silly": {
+      "tier": "skip",
+      "surface": "silly",
+      "pos": "adj · A2",
+      "pron": "/ˈsɪl.i/",
+      "meaning": "ばかげた",
+      "example": {
+        "en": "Silly mistake.",
+        "ja": "ばかなミス。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "singular": {
+      "tier": "known",
+      "surface": "singular",
+      "pos": "n · B1",
+      "pron": "/ˈsɪŋ.ɡjə.lər/",
+      "meaning": "単数(形)",
+      "example": {
+        "en": "In singular.",
+        "ja": "単数形で。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "situations": {
+      "tier": "skip",
+      "surface": "situations",
+      "pos": "n · A2",
+      "pron": "/ˌsɪtʃ.uˈeɪ.ʃənz/",
+      "meaning": "状況",
+      "example": {
+        "en": "Tough situations.",
+        "ja": "厳しい状況。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "specifically": {
+      "tier": "skip",
+      "surface": "specifically",
+      "pos": "adv · A2",
+      "pron": "/spəˈsɪf.ɪk.li/",
+      "meaning": "具体的に",
+      "example": {
+        "en": "Specifically asked.",
+        "ja": "明確に頼んだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "speech": {
+      "tier": "skip",
+      "surface": "speech",
+      "pos": "n · A2",
+      "pron": "/spiːtʃ/",
+      "meaning": "話",
+      "example": {
+        "en": "Free speech.",
+        "ja": "言論の自由。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stakes": {
+      "tier": "known",
+      "surface": "stakes",
+      "pos": "n · B2",
+      "pron": "/steɪks/",
+      "meaning": "重要度、賭け金",
+      "example": {
+        "en": "High stakes.",
+        "ja": "重大局面。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stickler": {
+      "tier": "key",
+      "surface": "stickler",
+      "pos": "n · C1",
+      "pron": "/ˈstɪk.lər/",
+      "meaning": "うるさ型",
+      "example": {
+        "en": "A stickler for rules.",
+        "ja": "規則に厳しい人。"
+      },
+      "context": "be a stickler for で「〜にうるさい」。",
+      "collocations": [
+        "a stickler for"
+      ]
+    },
+    "strand": {
+      "tier": "key",
+      "surface": "strand",
+      "pos": "v · C1",
+      "pron": "/strænd/",
+      "meaning": "取り残す",
+      "example": {
+        "en": "Strand the passengers.",
+        "ja": "乗客を取り残す。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strange": {
+      "tier": "skip",
+      "surface": "strange",
+      "pos": "adj · A2",
+      "pron": "/streɪndʒ/",
+      "meaning": "奇妙な",
+      "example": {
+        "en": "Strange sound.",
+        "ja": "奇妙な音。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stylistic": {
+      "tier": "known",
+      "surface": "stylistic",
+      "pos": "adj · C1",
+      "pron": "/staɪˈlɪs.tɪk/",
+      "meaning": "様式上の",
+      "example": {
+        "en": "Stylistic choice.",
+        "ja": "様式上の選択。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "subsequent": {
+      "tier": "known",
+      "surface": "subsequent",
+      "pos": "adj · B2",
+      "pron": "/ˈsʌb.sɪ.kwənt/",
+      "meaning": "後続の",
+      "example": {
+        "en": "Subsequent events.",
+        "ja": "後続の出来事。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "swapped": {
+      "tier": "known",
+      "surface": "swapped",
+      "pos": "v · B2",
+      "pron": "/swɒpt/",
+      "meaning": "交換された",
+      "example": {
+        "en": "Swapped seats.",
+        "ja": "席を交換。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transgender": {
+      "tier": "known",
+      "surface": "transgender",
+      "pos": "adj · B2",
+      "pron": "/trænzˈdʒen.dər/",
+      "meaning": "トランスジェンダーの",
+      "example": {
+        "en": "Transgender rights.",
+        "ja": "トランスジェンダーの権利。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unknown": {
+      "tier": "skip",
+      "surface": "unknown",
+      "pos": "adj · A2",
+      "pron": "/ʌnˈnoʊn/",
+      "meaning": "不明の",
+      "example": {
+        "en": "Unknown caller.",
+        "ja": "非通知。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "uproar": {
+      "tier": "key",
+      "surface": "uproar",
+      "pos": "n · C1",
+      "pron": "/ˈʌp.rɔːr/",
+      "meaning": "騒動、騒ぎ",
+      "example": {
+        "en": "Public uproar.",
+        "ja": "世論の騒動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "usage": {
+      "tier": "known",
+      "surface": "usage",
+      "pos": "n · B2",
+      "pron": "/ˈjuː.sɪdʒ/",
+      "meaning": "用法",
+      "example": {
+        "en": "Word usage.",
+        "ja": "語の用法。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "using": {
+      "tier": "skip",
+      "surface": "using",
+      "pos": "v · A1",
+      "pron": "/ˈjuː.zɪŋ/",
+      "meaning": "使って",
+      "example": {
+        "en": "Using it now.",
+        "ja": "今使って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "vary": {
+      "tier": "known",
+      "surface": "vary",
+      "pos": "v · B1",
+      "pron": "/ˈveə.ri/",
+      "meaning": "異なる",
+      "example": {
+        "en": "Prices vary.",
+        "ja": "価格は様々。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "winston": {
+      "tier": "skip",
+      "surface": "Winston",
+      "pos": "n · proper",
+      "pron": "/ˈwɪn.stən/",
+      "meaning": "ウィンストン",
+      "example": {
+        "en": "Winston brand.",
+        "ja": "ウィンストン銘柄。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "written": {
+      "tier": "skip",
+      "surface": "written",
+      "pos": "adj · A2",
+      "pron": "/ˈrɪt.n/",
+      "meaning": "書かれた",
+      "example": {
+        "en": "Written test.",
+        "ja": "筆記試験。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "academy_of_letters": {
+      "tier": "known",
+      "surface": "Academy of Letters",
+      "pos": "n phrase · proper",
+      "pron": "/əˈkæd.ə.mi əv ˈlet.əz/",
+      "literal": "文学アカデミー",
+      "meaning": "文学アカデミー",
+      "context": "",
+      "collocations": []
+    },
+    "all_the_rage": {
+      "tier": "key",
+      "surface": "all the rage",
+      "pos": "phrase · C1",
+      "pron": "/ɔːl ðə reɪdʒ/",
+      "literal": "大流行で",
+      "meaning": "大流行で",
+      "context": "",
+      "collocations": []
+    },
+    "and_yet": {
+      "tier": "known",
+      "surface": "and yet",
+      "pos": "phrase · B1",
+      "pron": "/ənd jet/",
+      "literal": "それでもなお",
+      "meaning": "それでもなお",
+      "context": "",
+      "collocations": []
+    },
+    "come_from": {
+      "tier": "known",
+      "surface": "come from",
+      "pos": "phrasal v · A2",
+      "pron": "/kʌm frɒm/",
+      "literal": "〜に由来する",
+      "meaning": "〜に由来する",
+      "context": "",
+      "collocations": []
+    },
+    "countable_nouns": {
+      "tier": "key",
+      "surface": "countable nouns",
+      "pos": "n phrase · B2",
+      "pron": "/ˈkaʊn.tə.bl naʊnz/",
+      "literal": "可算名詞",
+      "meaning": "数えられる名詞",
+      "context": "",
+      "collocations": []
+    },
+    "far_from": {
+      "tier": "known",
+      "surface": "far from",
+      "pos": "phrase · B1",
+      "pron": "/fɑː frɒm/",
+      "literal": "決して〜ない",
+      "meaning": "決して〜ない",
+      "context": "",
+      "collocations": []
+    },
+    "first_up": {
+      "tier": "known",
+      "surface": "First up",
+      "pos": "phrase · B2",
+      "pron": "/fɜːst ʌp/",
+      "literal": "まずは",
+      "meaning": "まずは",
+      "context": "",
+      "collocations": []
+    },
+    "flood_the_market": {
+      "tier": "known",
+      "surface": "flooded the market",
+      "pos": "v phrase · B2",
+      "pron": "/ˈflʌd.ɪd ðə ˈmɑː.kɪt/",
+      "literal": "市場に大量投入した",
+      "meaning": "市場に大量投入した",
+      "context": "",
+      "collocations": []
+    },
+    "hard_science": {
+      "tier": "known",
+      "surface": "hard science",
+      "pos": "n phrase · C1",
+      "pron": "/hɑːd ˈsaɪ.əns/",
+      "literal": "厳密科学(自然科学)",
+      "meaning": "物理・化学・生物など",
+      "context": "",
+      "collocations": []
+    },
+    "instead_of": {
+      "tier": "known",
+      "surface": "instead of",
+      "pos": "phrase · A2",
+      "pron": "/ɪnˈsted əv/",
+      "literal": "〜の代わりに",
+      "meaning": "〜の代わりに",
+      "context": "",
+      "collocations": []
+    },
+    "non_binary": {
+      "tier": "known",
+      "surface": "non-binary",
+      "pos": "adj phrase · C1",
+      "pron": "/nɒn ˈbaɪ.nər.i/",
+      "literal": "ノンバイナリーの",
+      "meaning": "男女二元論に当てはまらない性自認",
+      "context": "",
+      "collocations": []
+    },
+    "norman_conquest": {
+      "tier": "key",
+      "surface": "Norman Conquest",
+      "pos": "n phrase · proper",
+      "pron": "/ˈnɔː.mən ˈkɒŋ.kwest/",
+      "literal": "ノルマン征服",
+      "meaning": "1066年のウィリアム1世による英国征服",
+      "context": "",
+      "collocations": []
+    },
+    "nothing_to_do_with": {
+      "tier": "known",
+      "surface": "nothing to do with",
+      "pos": "phrase · B2",
+      "pron": "/ˈnʌθ.ɪŋ tə duː wɪð/",
+      "literal": "〜と無関係",
+      "meaning": "〜と無関係",
+      "context": "",
+      "collocations": []
+    },
+    "on_the_air": {
+      "tier": "known",
+      "surface": "on the air",
+      "pos": "phrase · B2",
+      "pron": "/ɒn ði eər/",
+      "literal": "放送中で",
+      "meaning": "放送中で",
+      "context": "",
+      "collocations": []
+    },
+    "real_world": {
+      "tier": "known",
+      "surface": "real-world",
+      "pos": "adj phrase · B2",
+      "pron": "/rɪəl wɜːld/",
+      "literal": "現実世界の",
+      "meaning": "現実世界の",
+      "context": "",
+      "collocations": []
+    },
+    "refer_to": {
+      "tier": "known",
+      "surface": "refer to",
+      "pos": "phrasal v · B1",
+      "pron": "/rɪˈfɜː tə/",
+      "literal": "〜を指す",
+      "meaning": "〜を指す",
+      "context": "",
+      "collocations": []
+    },
+    "so_called": {
+      "tier": "known",
+      "surface": "so-called",
+      "pos": "adj · B2",
+      "pron": "/soʊ kɔːld/",
+      "literal": "いわゆる",
+      "meaning": "いわゆる",
+      "context": "",
+      "collocations": []
+    },
+    "take_seriously": {
+      "tier": "known",
+      "surface": "take grammar seriously",
+      "pos": "v phrase · B2",
+      "pron": "/teɪk ˈɡræm.ər ˈsɪə.ri.əs.li/",
+      "literal": "文法を真剣に受け取る",
+      "meaning": "take X seriously の応用",
+      "context": "",
+      "collocations": []
+    },
+    "to_say_the_least": {
+      "tier": "known",
+      "surface": "to say the least",
+      "pos": "phrase · C1",
+      "pron": "/tə seɪ ðə liːst/",
+      "literal": "控えめに言っても",
+      "meaning": "控えめに言っても",
+      "context": "",
+      "collocations": []
+    },
+    "turn_into": {
+      "tier": "known",
+      "surface": "turned … into",
+      "pos": "v phrase · B1",
+      "pron": "/tɜːnd ˈɪn.tə/",
+      "literal": "〜を…に変えた",
+      "meaning": "〜を…に変えた",
+      "context": "",
+      "collocations": []
+    },
+    "usage_guides": {
+      "tier": "known",
+      "surface": "usage guides",
+      "pos": "n phrase · B2",
+      "pron": "/ˈjuː.sɪdʒ ɡaɪdz/",
+      "literal": "用法ガイド",
+      "meaning": "用法ガイド",
+      "context": "",
+      "collocations": []
+    },
+    "wage_war_on": {
+      "tier": "known",
+      "surface": "wage similar wars on",
+      "pos": "v phrase · C1",
+      "pron": "/weɪdʒ ˈsɪm.ə.lər wɔːz ɒn/",
+      "literal": "〜に同様の戦いを仕掛ける",
+      "meaning": "wage war on の応用",
+      "context": "",
+      "collocations": []
+    }
+  }
+}

@@ -1,0 +1,5174 @@
+{
+  "id": "talk_2026-05-05",
+  "date": "2026-05-05",
+  "source": "ted-ed",
+  "primary_topic": "Forensics",
+  "tags": [
+    "forensics",
+    "luminol",
+    "crime-scene",
+    "chemistry",
+    "investigation",
+    "blood"
+  ],
+  "difficulty": "medium",
+  "slug": "theodore_e_yeshion_how_did_detectives_solve_the_case_of_the_bloody_motel",
+  "video_id": "175323",
+  "title": "How did detectives solve the case of the bloody motel?",
+  "speaker": "Theodore E. Yeshion",
+  "duration_sec": 313,
+  "published_at": "2026-05-05T15:04:57Z",
+  "video_url": "https://www.ted.com/talks/theodore_e_yeshion_how_did_detectives_solve_the_case_of_the_bloody_motel",
+  "embed_url": "https://embed.ted.com/talks/theodore_e_yeshion_how_did_detectives_solve_the_case_of_the_bloody_motel",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_175323/a64e4b10-dbb6-4693-bc21-df6b84a66149/luminol_Textless.jpg",
+  "background": {
+    "summary": "モーテルでの血痕事件をルミノールで追う架空ケース。ルミノール反応が化学発光で微量の血液を可視化する仕組み、推定検査と確定検査の違い、DNA鑑定の決め手までを順を追って解説する。",
+    "details": [
+      {
+        "heading": "ルミノール (3-aminophthalhydrazide)",
+        "body": "1937年にドイツの法医学者 Walter Specht が捜査ツールとして導入。酸化剤と組み合わせ、血中ヘモグロビンの鉄に触れると青白く発光(化学発光)する。"
+      },
+      {
+        "heading": "化学発光 (chemiluminescence)",
+        "body": "化学反応のエネルギーが光として放出される現象。ルミノールでは約30秒間の青白い淡い発光が続く。"
+      },
+      {
+        "heading": "推定検査 vs 確定検査",
+        "body": "ルミノールは「presumptive(推定)」テスト。血液以外にも漂白剤や銅などにも反応する。確定にはヘモグロビンにのみ反応する化学検査が必要。"
+      },
+      {
+        "heading": "血痕パターン分析",
+        "body": "ドリップ・スパッター・引きずり跡の形から、出血の速さ・凶器の種類・被害者の移動経路を推定。拭き取り痕も残るため隠蔽は極めて困難。"
+      },
+      {
+        "heading": "DNA 鑑定",
+        "body": "血液試料から DNA を抽出し、容疑者・被害者を特定。本ケースでは血液が容疑者ではなく被害者 Frank Carter のものだと判明し、車の運転手が真犯人として自白した。"
+      }
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Officer Stone approaches the dimly lit motel he's been called to investigate.",
+          "translation_ja": "ストーン巡査は、捜査の要請を受けたほの暗いモーテルに近づく。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Officer Stone"
+            },
+            {
+              "label": "V",
+              "content": "approaches"
+            },
+            {
+              "label": "O",
+              "content": "the dimly lit motel he's been called to investigate",
+              "note": "関係詞節 + 受動態"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Officer Stone "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "approaches",
+              "ref": "approaches",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "dimly lit",
+              "ref": "dimly_lit"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "motel",
+              "ref": "motel",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " he's been called to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "investigate",
+              "ref": "investigate",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Outside the shattered windows and broken door, the motel manager tells him the room was rented to Frank Carter, who was last seen entering the motel three nights earlier.",
+          "translation_ja": "粉々のガラス窓と壊れた扉の外で、モーテルの支配人は、その部屋はフランク・カーターに貸されており、彼は3晩前にモーテルに入るのが最後に目撃されたと話す。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Outside the shattered windows and broken door"
+            },
+            {
+              "label": "S",
+              "content": "the motel manager"
+            },
+            {
+              "label": "V",
+              "content": "tells"
+            },
+            {
+              "label": "O1",
+              "content": "him"
+            },
+            {
+              "label": "O2",
+              "content": "the room was rented to Frank Carter, who was last seen entering the motel three nights earlier",
+              "note": "that 節省略 + 非制限関係詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Outside the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "shattered",
+              "ref": "shattered",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " windows and broken door, the motel "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "manager",
+              "ref": "manager",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " tells him the room was "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "rented",
+              "ref": "rented",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to Frank Carter, who was last seen "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "entering",
+              "ref": "entering",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the motel three nights "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "earlier",
+              "ref": "earlier",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "While Carter doesn't have the cleanest record, he's never been arrested for a violent crime before.",
+          "translation_ja": "カーターには綺麗な前歴とは言えないが、暴力犯罪で逮捕されたことは一度もない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While Carter doesn't have the cleanest record",
+              "note": "譲歩節"
+            },
+            {
+              "label": "S",
+              "content": "he"
+            },
+            {
+              "label": "V",
+              "content": "has been arrested",
+              "note": "現在完了受動 + never"
+            },
+            {
+              "label": "M",
+              "content": "for a violent crime before"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While Carter doesn't have the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "cleanest",
+              "ref": "cleanest",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "record",
+              "ref": "record",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", he's never been "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "arrested",
+              "ref": "arrested",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " for a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "violent",
+              "ref": "violent",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "crime",
+              "ref": "crime",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "before",
+              "ref": "before",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Yet as Stone scans the crime scene, he sees a disorderly room, visible red-brown stains and a partial shoe track.",
+          "translation_ja": "しかしストーンが現場を見渡すと、乱れた室内、目に見える赤茶色の染み、部分的な靴跡が見えてくる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Yet as Stone scans the crime scene",
+              "note": "同時の as"
+            },
+            {
+              "label": "S",
+              "content": "he"
+            },
+            {
+              "label": "V",
+              "content": "sees"
+            },
+            {
+              "label": "O",
+              "content": "a disorderly room, visible red-brown stains and a partial shoe track",
+              "note": "三項目並列"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Yet as Stone "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "scans",
+              "ref": "scans",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "crime scene",
+              "ref": "crime_scene"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", he sees a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "disorderly",
+              "ref": "disorderly",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " room, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "visible",
+              "ref": "visible",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "red-brown",
+              "ref": "red_brown"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "stains",
+              "ref": "stains",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " and a "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "partial",
+              "ref": "partial",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "shoe",
+              "ref": "shoe",
+              "tier": "skip"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "track",
+              "ref": "track",
+              "tier": "skip"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "All these details hint at a bloody struggle, but there aren't enough clues to say exactly what happened.",
+          "translation_ja": "これらの細部はすべて血まみれの格闘を匂わせるが、何が起きたかを正確に特定するだけの手がかりはない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "All these details"
+            },
+            {
+              "label": "V",
+              "content": "hint",
+              "note": "hint at = 仄めかす"
+            },
+            {
+              "label": "M",
+              "content": "at a bloody struggle"
+            },
+            {
+              "label": "M",
+              "content": "but there aren't enough clues to say exactly what happened",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "All these "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "details",
+              "ref": "details",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "hint at",
+              "ref": "hint_at"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "bloody",
+              "ref": "bloody",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "struggle",
+              "ref": "struggle",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", but there aren't enough "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "clues",
+              "ref": "clues",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " to say exactly what "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "happened",
+              "ref": "happened",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "After calling in a detective and a crime scene investigation team to inspect, photograph, sketch, measure, and collect all the obvious evidence, the investigators decide their next move.",
+          "translation_ja": "刑事と現場捜査班を呼び、検分・撮影・スケッチ・測定・明白な証拠の収集を行わせた後、捜査員たちは次の一手を決める。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "After calling in a detective and a crime scene investigation team to inspect, photograph, sketch, measure, and collect all the obvious evidence",
+              "note": "時節 + 並列動詞列"
+            },
+            {
+              "label": "S",
+              "content": "the investigators"
+            },
+            {
+              "label": "V",
+              "content": "decide"
+            },
+            {
+              "label": "O",
+              "content": "their next move"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "After "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "calling in",
+              "ref": "call_in"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "detective",
+              "ref": "detective",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and a crime scene "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "investigation",
+              "ref": "investigation",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " team to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "inspect",
+              "ref": "inspect",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "photograph",
+              "ref": "photograph",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "sketch",
+              "ref": "sketch",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "measure",
+              "ref": "measure",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "collect",
+              "ref": "collect",
+              "tier": "skip"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " all the "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "obvious",
+              "ref": "obvious",
+              "tier": "skip"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "evidence",
+              "ref": "evidence",
+              "tier": "known"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": ", the "
+            },
+            {
+              "id": "t22",
+              "type": "word",
+              "surface": "investigators",
+              "ref": "investigators",
+              "tier": "known"
+            },
+            {
+              "id": "t23",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t24",
+              "type": "word",
+              "surface": "decide",
+              "ref": "decide",
+              "tier": "skip"
+            },
+            {
+              "id": "t25",
+              "type": "skip",
+              "surface": " their next move."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "It's time to apply luminol.",
+          "translation_ja": "ルミノールを使う時間だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "It"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "time to apply luminol"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "It's time to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "apply",
+              "ref": "apply",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "luminol",
+              "ref": "luminol",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 60.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Luminol, also known as 3-aminophthalhydrazide, was first introduced as an investigative tool in 1937 by a German forensic scientist named Dr. Walter Specht.",
+          "translation_ja": "ルミノール、別名 3-アミノフタルヒドラジドは、1937年にドイツの法医科学者ウォルター・シュペヒト博士によって捜査ツールとして初めて導入された。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Luminol, also known as 3-aminophthalhydrazide",
+              "note": "同格"
+            },
+            {
+              "label": "V",
+              "content": "was introduced",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "as an investigative tool in 1937 by a German forensic scientist named Dr. Walter Specht"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Luminol, also known as 3-aminophthalhydrazide, was first "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "introduced",
+              "ref": "introduced",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " as an "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "investigative",
+              "ref": "investigative",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "tool",
+              "ref": "tool",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in 1937 by a German "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "forensic",
+              "ref": "forensic",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "scientist",
+              "ref": "scientist",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " named Dr. Walter Specht."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Almost a decade earlier, research found that when mixed in a solution with an oxidizing agent and exposed to certain compounds, luminol molecules rapidly oxidize, become excited, and emit a faint blue-white glow as they return to their normal state.",
+          "translation_ja": "ほぼ10年前、酸化剤を含む溶液で混合し特定の化合物に曝すと、ルミノール分子は急速に酸化して励起状態になり、通常状態に戻る際に淡い青白い光を放つことが研究で分かった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Almost a decade earlier"
+            },
+            {
+              "label": "S",
+              "content": "research"
+            },
+            {
+              "label": "V",
+              "content": "found"
+            },
+            {
+              "label": "O",
+              "content": "that … luminol molecules rapidly oxidize, become excited, and emit a faint blue-white glow as they return to their normal state",
+              "note": "that 節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Almost a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "decade",
+              "ref": "decade",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " earlier, research found that when mixed in a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "solution",
+              "ref": "solution",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with an "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "oxidizing agent",
+              "ref": "oxidizing_agent"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and exposed to certain "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "compounds",
+              "ref": "compounds",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", luminol "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "molecules",
+              "ref": "molecules",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " rapidly "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "oxidize",
+              "ref": "oxidize",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", become "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "excited",
+              "ref": "excited",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "emit",
+              "ref": "emit",
+              "tier": "known"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "faint",
+              "ref": "faint",
+              "tier": "known"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t20",
+              "type": "expression",
+              "surface": "blue-white",
+              "ref": "blue_white"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t22",
+              "type": "word",
+              "surface": "glow",
+              "ref": "glow",
+              "tier": "known"
+            },
+            {
+              "id": "t23",
+              "type": "skip",
+              "surface": " as they return to their normal "
+            },
+            {
+              "id": "t24",
+              "type": "word",
+              "surface": "state",
+              "ref": "state",
+              "tier": "skip"
+            },
+            {
+              "id": "t25",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This process is called chemiluminescence, and Specht discovered he could trigger it by exposing luminol to hemoglobin, a protein found in red blood cells.",
+          "translation_ja": "この過程は化学発光と呼ばれ、シュペヒトはルミノールを赤血球中のタンパク質ヘモグロビンに曝すことでこれを引き起こせると発見した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This process"
+            },
+            {
+              "label": "V",
+              "content": "is called"
+            },
+            {
+              "label": "C",
+              "content": "chemiluminescence"
+            },
+            {
+              "label": "M",
+              "content": "and Specht discovered he could trigger it by exposing luminol to hemoglobin, a protein found in red blood cells",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This process is called "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "chemiluminescence",
+              "ref": "chemiluminescence",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", and Specht discovered he could "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "trigger",
+              "ref": "trigger",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " it by exposing luminol to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "hemoglobin",
+              "ref": "hemoglobin",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "protein",
+              "ref": "protein",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " found in red "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "blood cells",
+              "ref": "blood_cells"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "So by spraying the solution in a dark crime scene, he could illuminate even the faintest traces of blood.",
+          "translation_ja": "そうして暗い現場で溶液を噴霧すれば、ごく微かな血液の痕跡まで照らし出せた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "So by spraying the solution in a dark crime scene",
+              "note": "手段"
+            },
+            {
+              "label": "S",
+              "content": "he"
+            },
+            {
+              "label": "V",
+              "content": "could illuminate"
+            },
+            {
+              "label": "O",
+              "content": "even the faintest traces of blood"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So by "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "spraying",
+              "ref": "spraying",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the solution in a dark crime scene, he could "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "illuminate",
+              "ref": "illuminate",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " even the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "faintest",
+              "ref": "faintest",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "traces",
+              "ref": "traces",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "blood",
+              "ref": "blood",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 130.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "This is what Officer Stone is hoping to do back at the motel.",
+          "translation_ja": "これがストーン巡査がモーテルでやろうとしていることだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "what Officer Stone is hoping to do back at the motel",
+              "note": "what 節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This is what Officer Stone is "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "hoping",
+              "ref": "hoping",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to do back at the motel."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The lights are switched off, and the forensic team sprays luminol across the walls, floor, and ceiling.",
+          "translation_ja": "明かりが消され、法医チームは壁・床・天井にルミノールを噴霧する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The lights"
+            },
+            {
+              "label": "V",
+              "content": "are switched",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "off"
+            },
+            {
+              "label": "M",
+              "content": "and the forensic team sprays luminol across the walls, floor, and ceiling",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The lights are "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "switched off",
+              "ref": "switch_off"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and the forensic team "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "sprays",
+              "ref": "sprays",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " luminol across the walls, floor, and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "ceiling",
+              "ref": "ceiling",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "The chemiluminescence only lasts about 30 seconds, so our investigators need to keep spraying as they track blood through the crime scene.",
+          "translation_ja": "化学発光は30秒ほどしか続かないため、捜査員は現場で血液を追跡しながら噴霧を続けねばならない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The chemiluminescence"
+            },
+            {
+              "label": "V",
+              "content": "lasts"
+            },
+            {
+              "label": "M",
+              "content": "only about 30 seconds"
+            },
+            {
+              "label": "M",
+              "content": "so our investigators need to keep spraying as they track blood through the crime scene",
+              "note": "結果"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The chemiluminescence only "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "lasts",
+              "ref": "lasts",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " about 30 seconds, so our investigators need to "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "keep spraying",
+              "ref": "keep_doing"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " as they "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "track",
+              "ref": "track",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " blood through the crime scene."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "But if they find a trail, the specific patterns of blood could help reconstruct what might have happened.",
+          "translation_ja": "しかし血痕の経路が見つかれば、血液の特定のパターンが何が起きたかの再構築に役立つ可能性がある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But if they find a trail",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "the specific patterns of blood"
+            },
+            {
+              "label": "V",
+              "content": "could help"
+            },
+            {
+              "label": "O",
+              "content": "reconstruct what might have happened",
+              "note": "原形不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But if they find a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "trail",
+              "ref": "trail",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", the specific "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "patterns",
+              "ref": "patterns",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of blood could help "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "reconstruct",
+              "ref": "reconstruct",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " what might have happened."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "In some crime scenes, luminol might reveal footprints or drag marks.",
+          "translation_ja": "事件現場によっては、ルミノールが足跡や引きずり跡を明らかにすることもある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In some crime scenes"
+            },
+            {
+              "label": "S",
+              "content": "luminol"
+            },
+            {
+              "label": "V",
+              "content": "might reveal"
+            },
+            {
+              "label": "O",
+              "content": "footprints or drag marks"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In some crime scenes, luminol might "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "reveal",
+              "ref": "reveal",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "footprints",
+              "ref": "footprints",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "drag marks",
+              "ref": "drag_marks"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "It can show larger drips associated with slowly bleeding wounds, or fine spatter suggesting high-impact wounds from firearms or motorized tools.",
+          "translation_ja": "ゆっくり出血する傷の大粒のしずく、あるいは銃器や電動工具による高衝撃の傷を示す細かな飛沫を示しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "It"
+            },
+            {
+              "label": "V",
+              "content": "can show"
+            },
+            {
+              "label": "O",
+              "content": "larger drips associated with slowly bleeding wounds, or fine spatter suggesting high-impact wounds from firearms or motorized tools"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "It can show larger "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "drips",
+              "ref": "drips",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "associated with",
+              "ref": "associated_with"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " slowly "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "bleeding",
+              "ref": "bleeding",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "wounds",
+              "ref": "wounds",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", or "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "fine",
+              "ref": "fine",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "spatter",
+              "ref": "spatter",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "suggesting",
+              "ref": "suggesting",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "expression",
+              "surface": "high-impact",
+              "ref": "high_impact"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " wounds from "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "firearms",
+              "ref": "firearms",
+              "tier": "known"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "motorized",
+              "ref": "motorized",
+              "tier": "known"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t22",
+              "type": "word",
+              "surface": "tools",
+              "ref": "tools",
+              "tier": "skip"
+            },
+            {
+              "id": "t23",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "The absence of a reaction can be just as informative, indicating when people or objects blocked blood from hitting a surface.",
+          "translation_ja": "反応がないこと自体も同じくらい情報となり、いつ人や物が血液の付着を妨げたかを示しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The absence of a reaction"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "just as informative"
+            },
+            {
+              "label": "M",
+              "content": "indicating when people or objects blocked blood from hitting a surface",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "absence",
+              "ref": "absence",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reaction",
+              "ref": "reaction",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " can be just as "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "informative",
+              "ref": "informative",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "indicating",
+              "ref": "indicating",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " when people or objects "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "blocked",
+              "ref": "blocked",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " blood from hitting a "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "surface",
+              "ref": "surface",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "And since luminol will react even if the blood is extremely diluted, it's almost impossible to clean a bloody crime scene well enough to prevent chemiluminescence.",
+          "translation_ja": "ルミノールは血液が極めて希釈されていても反応するため、化学発光を防げるほど血まみれの現場を綺麗にすることはほぼ不可能だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "And since luminol will react even if the blood is extremely diluted",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "'s"
+            },
+            {
+              "label": "C",
+              "content": "almost impossible to clean a bloody crime scene well enough to prevent chemiluminescence",
+              "note": "形式主語"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And since luminol will "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "react",
+              "ref": "react",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " even if the blood is extremely "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "diluted",
+              "ref": "diluted",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", it's almost impossible to clean a bloody crime scene well enough to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "prevent",
+              "ref": "prevent",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " chemiluminescence."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "In fact, a skilled investigator can even use these lingering patterns to identify attempts at blood removal.",
+          "translation_ja": "実際、熟練の捜査員はこれら残存パターンを使って、血液を除去しようとした試みを見抜くこともできる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In fact"
+            },
+            {
+              "label": "S",
+              "content": "a skilled investigator"
+            },
+            {
+              "label": "V",
+              "content": "can use"
+            },
+            {
+              "label": "O",
+              "content": "these lingering patterns"
+            },
+            {
+              "label": "M",
+              "content": "to identify attempts at blood removal",
+              "note": "目的の to不定詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In fact, a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "skilled",
+              "ref": "skilled",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " investigator can even use these "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "lingering",
+              "ref": "lingering",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " patterns to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "identify",
+              "ref": "identify",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "attempts",
+              "ref": "attempts",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " at blood "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "removal",
+              "ref": "removal",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 200.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In this case, Officer Stone finds spattered spots of blue light on the floor, suggesting an impact wound and a struggle.",
+          "translation_ja": "本件で、ストーン巡査は床に飛び散った青い光の斑点を見つけ、衝撃による傷と格闘を示唆する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In this case"
+            },
+            {
+              "label": "S",
+              "content": "Officer Stone"
+            },
+            {
+              "label": "V",
+              "content": "finds"
+            },
+            {
+              "label": "O",
+              "content": "spattered spots of blue light on the floor"
+            },
+            {
+              "label": "M",
+              "content": "suggesting an impact wound and a struggle",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In this case, Officer Stone finds "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "spattered",
+              "ref": "spattered",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " spots of blue light on the floor, suggesting an "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "impact wound",
+              "ref": "impact_wound"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and a struggle."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Shoe track impressions and a glowing handprint on the kitchen countertop line up with the drag mark on the floor.",
+          "translation_ja": "靴跡の痕、キッチンカウンターで光る手形、そして床の引きずり跡が一致する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Shoe track impressions and a glowing handprint on the kitchen countertop"
+            },
+            {
+              "label": "V",
+              "content": "line up",
+              "note": "line up with = 一致する"
+            },
+            {
+              "label": "M",
+              "content": "with the drag mark on the floor"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Shoe track "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "impressions",
+              "ref": "impressions",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "glowing",
+              "ref": "glowing",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "handprint",
+              "ref": "handprint",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " on the "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "kitchen countertop",
+              "ref": "kitchen_countertop"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "line up with",
+              "ref": "line_up_with"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " the drag mark on the floor."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Following the trail from the foot of the bed, the investigators end up in the parking lot, suggesting the victim was placed inside a vehicle.",
+          "translation_ja": "ベッドの足元から痕跡を辿ると、捜査員は駐車場に行き着き、被害者が車内に入れられたことを示唆する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Following the trail from the foot of the bed",
+              "note": "分詞構文"
+            },
+            {
+              "label": "S",
+              "content": "the investigators"
+            },
+            {
+              "label": "V",
+              "content": "end up"
+            },
+            {
+              "label": "M",
+              "content": "in the parking lot"
+            },
+            {
+              "label": "M",
+              "content": "suggesting the victim was placed inside a vehicle",
+              "note": "分詞構文(結果)"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Following the trail from the "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "foot of the bed",
+              "ref": "foot_of_bed"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the investigators "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "end up",
+              "ref": "end_up"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " in the "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "parking lot",
+              "ref": "parking_lot"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " suggesting the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "victim",
+              "ref": "victim",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " was placed inside a "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "vehicle",
+              "ref": "vehicle",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 220.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "These stains make a strong case for the narrative revealed by luminol.",
+          "translation_ja": "これらの染みは、ルミノールが明かす筋書きを強く裏付ける。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These stains"
+            },
+            {
+              "label": "V",
+              "content": "make"
+            },
+            {
+              "label": "O",
+              "content": "a strong case"
+            },
+            {
+              "label": "M",
+              "content": "for the narrative revealed by luminol"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These stains "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "make a strong case for",
+              "ref": "make_case_for"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "narrative",
+              "ref": "narrative",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " revealed by luminol."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But investigators have to be careful since the chemical's high sensitivity is a double-edged sword.",
+          "translation_ja": "しかし、この薬剤の高い感度は諸刃の剣であるため、捜査員は注意せねばならない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "investigators"
+            },
+            {
+              "label": "V",
+              "content": "have to be"
+            },
+            {
+              "label": "C",
+              "content": "careful"
+            },
+            {
+              "label": "M",
+              "content": "since the chemical's high sensitivity is a double-edged sword",
+              "note": "理由"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But investigators have to be "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "careful",
+              "ref": "careful",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " since the chemical's high "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "sensitivity",
+              "ref": "sensitivity",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " is a "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "double-edged sword",
+              "ref": "double_edged_sword"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Not only does luminol react to very old bloodstains, with some cases showing chemoluminescence on objects thousands of years old, it can also react to cleaning agents like bleach or materials containing copper.",
+          "translation_ja": "ルミノールはごく古い血痕にも反応し、何千年も前の物体に化学発光が現れた例もある。さらに漂白剤などの清掃剤や、銅を含む素材にも反応しうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Not only does luminol react to very old bloodstains",
+              "note": "Not only … 倒置"
+            },
+            {
+              "label": "M",
+              "content": "with some cases showing chemoluminescence on objects thousands of years old",
+              "note": "付帯"
+            },
+            {
+              "label": "M",
+              "content": "it can also react to cleaning agents like bleach or materials containing copper",
+              "note": "主節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "Not only",
+              "ref": "not_only"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " does luminol react to very old "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "bloodstains",
+              "ref": "bloodstains",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": ", with some cases showing chemoluminescence on objects thousands of years old, it can also react to "
+            },
+            {
+              "id": "t5",
+              "type": "expression",
+              "surface": "cleaning agents",
+              "ref": "cleaning_agents"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " like "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "bleach",
+              "ref": "bleach",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " or materials "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "containing",
+              "ref": "containing",
+              "tier": "skip"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "copper",
+              "ref": "copper",
+              "tier": "known"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This is why luminol is what's called a presumptive blood test.",
+          "translation_ja": "それゆえルミノールはいわゆる推定血液検査と呼ばれる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "why luminol is what's called a presumptive blood test",
+              "note": "why 節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This is why luminol is what's called a "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "presumptive blood test",
+              "ref": "presumptive_test"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "It indicates the possible presence of blood, but a confirmatory test with chemicals that only react to hemoglobin must be done to prove it.",
+          "translation_ja": "血液の存在の可能性を示すが、ヘモグロビンにのみ反応する化学物質による確認試験を行わなければ証明できない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "It"
+            },
+            {
+              "label": "V",
+              "content": "indicates"
+            },
+            {
+              "label": "O",
+              "content": "the possible presence of blood"
+            },
+            {
+              "label": "M",
+              "content": "but a confirmatory test with chemicals that only react to hemoglobin must be done to prove it",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "It indicates the possible "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "presence",
+              "ref": "presence",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of blood, but a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "confirmatory",
+              "ref": "confirmatory",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " test with chemicals that only react to hemoglobin must be done to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "prove",
+              "ref": "prove",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 250.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "If a positive reaction for blood is confirmed, however, DNA tests can be especially useful for identifying and eliminating potential suspects.",
+          "translation_ja": "ただし血液の陽性反応が確認されれば、DNA 鑑定が容疑者の特定や除外に特に有用となりうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "If a positive reaction for blood is confirmed, however",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "DNA tests"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "especially useful for identifying and eliminating potential suspects"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "If a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "positive",
+              "ref": "positive",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " reaction for blood is "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "confirmed",
+              "ref": "confirmed",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", however, DNA tests can be especially "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "useful",
+              "ref": "useful",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " for "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "identifying",
+              "ref": "identifying",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "eliminating",
+              "ref": "eliminating",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " potential "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "suspects",
+              "ref": "suspects",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Officer Stone submitted a DNA sample from the motel for that exact purpose, and the results found exactly the clue he needs.",
+          "translation_ja": "ストーン巡査はその目的でモーテルから DNA サンプルを提出し、結果は彼が必要とする手がかりをまさに与えた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Officer Stone"
+            },
+            {
+              "label": "V",
+              "content": "submitted"
+            },
+            {
+              "label": "O",
+              "content": "a DNA sample from the motel"
+            },
+            {
+              "label": "M",
+              "content": "for that exact purpose"
+            },
+            {
+              "label": "M",
+              "content": "and the results found exactly the clue he needs",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Officer Stone "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "submitted",
+              "ref": "submitted",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a DNA "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "sample",
+              "ref": "sample",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " from the motel for that "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "exact",
+              "ref": "exact",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "purpose",
+              "ref": "purpose",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and the results found exactly the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "clue",
+              "ref": "clue",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " he needs."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "The blood belongs to Frank Carter, suggesting that he may be the victim, not the culprit.",
+          "translation_ja": "血液はフランク・カーターのもので、彼が犯人ではなく被害者かもしれないと示唆する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The blood"
+            },
+            {
+              "label": "V",
+              "content": "belongs"
+            },
+            {
+              "label": "M",
+              "content": "to Frank Carter"
+            },
+            {
+              "label": "M",
+              "content": "suggesting that he may be the victim, not the culprit",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The blood "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "belongs to",
+              "ref": "belong_to"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Frank Carter, suggesting that he may be the victim, not the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "culprit",
+              "ref": "culprit",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Stone is mulling over this new evidence when he gets a call from a local state trooper.",
+          "translation_ja": "ストーンがこの新しい証拠を熟考していると、地元の州警察官から電話が入る。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Stone"
+            },
+            {
+              "label": "V",
+              "content": "is mulling"
+            },
+            {
+              "label": "M",
+              "content": "over this new evidence"
+            },
+            {
+              "label": "M",
+              "content": "when he gets a call from a local state trooper",
+              "note": "時節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Stone is "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "mulling over",
+              "ref": "mull_over"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " this new evidence when he gets a call from a local "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "state trooper",
+              "ref": "state_trooper"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "After pulling over an erratic driver, the trooper noticed what appeared to be bloodstains on the rear bumper.",
+          "translation_ja": "蛇行運転をする車を停車させた後、警官は後部バンパーに血痕らしきものを認めた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "After pulling over an erratic driver",
+              "note": "分詞構文"
+            },
+            {
+              "label": "S",
+              "content": "the trooper"
+            },
+            {
+              "label": "V",
+              "content": "noticed"
+            },
+            {
+              "label": "O",
+              "content": "what appeared to be bloodstains on the rear bumper"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "After "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "pulling over",
+              "ref": "pull_over"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "erratic",
+              "ref": "erratic",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "driver",
+              "ref": "driver",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", the trooper noticed what appeared to be bloodstains on the rear "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "bumper",
+              "ref": "bumper",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "The car's trunk was empty, but luminol testing later revealed traces of blood throughout the car.",
+          "translation_ja": "車のトランクは空だったが、後のルミノール検査で車中至るところに血痕が見つかった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The car's trunk"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "empty"
+            },
+            {
+              "label": "M",
+              "content": "but luminol testing later revealed traces of blood throughout the car",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The car's "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "trunk",
+              "ref": "trunk",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " was "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "empty",
+              "ref": "empty",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", but luminol "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "testing",
+              "ref": "testing",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " later revealed traces of blood "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "throughout",
+              "ref": "throughout",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the car."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "One more DNA test confirms Stone's suspicions: Carter was the victim.",
+          "translation_ja": "もう一度の DNA 検査でストーンの疑念が裏付けられる。カーターは被害者だった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "One more DNA test"
+            },
+            {
+              "label": "V",
+              "content": "confirms"
+            },
+            {
+              "label": "O",
+              "content": "Stone's suspicions"
+            },
+            {
+              "label": "M",
+              "content": "Carter was the victim",
+              "note": "補足説明"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "One more DNA test "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "confirms",
+              "ref": "confirms",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Stone's "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "suspicions",
+              "ref": "suspicions",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ": Carter was the victim."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "And faced with this overwhelming evidence, the car's driver confessed to the crime.",
+          "translation_ja": "この圧倒的な証拠を突きつけられ、車の運転手は罪を自白した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "And faced with this overwhelming evidence",
+              "note": "分詞構文(理由)"
+            },
+            {
+              "label": "S",
+              "content": "the car's driver"
+            },
+            {
+              "label": "V",
+              "content": "confessed"
+            },
+            {
+              "label": "M",
+              "content": "to the crime"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "faced with",
+              "ref": "faced_with"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " this "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "overwhelming",
+              "ref": "overwhelming",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " evidence, the car's driver "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "confessed",
+              "ref": "confessed",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to the crime."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "absence": {
+      "tier": "known",
+      "surface": "absence",
+      "pos": "n · B1",
+      "pron": "/ˈæb.səns/",
+      "meaning": "不在",
+      "example": {
+        "en": "Long absence.",
+        "ja": "長期不在。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "apply": {
+      "tier": "skip",
+      "surface": "apply",
+      "pos": "v · A2",
+      "pron": "/əˈplaɪ/",
+      "meaning": "適用する",
+      "example": {
+        "en": "Apply pressure.",
+        "ja": "圧をかけて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "approaches": {
+      "tier": "skip",
+      "surface": "approaches",
+      "pos": "v · A2",
+      "pron": "/əˈproʊ.tʃɪz/",
+      "meaning": "近づく",
+      "example": {
+        "en": "He approaches slowly.",
+        "ja": "彼はゆっくり近づく。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "arrested": {
+      "tier": "known",
+      "surface": "arrested",
+      "pos": "v · B1",
+      "pron": "/əˈres.tɪd/",
+      "meaning": "逮捕された",
+      "example": {
+        "en": "Arrested for theft.",
+        "ja": "窃盗で逮捕。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attempts": {
+      "tier": "skip",
+      "surface": "attempts",
+      "pos": "n · A2",
+      "pron": "/əˈtempts/",
+      "meaning": "試み",
+      "example": {
+        "en": "Several attempts.",
+        "ja": "数度の試み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "before": {
+      "tier": "skip",
+      "surface": "before",
+      "pos": "adv · A1",
+      "pron": "/bɪˈfɔːr/",
+      "meaning": "以前に",
+      "example": {
+        "en": "Met him before.",
+        "ja": "以前会った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bleach": {
+      "tier": "known",
+      "surface": "bleach",
+      "pos": "n · B2",
+      "pron": "/bliːtʃ/",
+      "meaning": "漂白剤",
+      "example": {
+        "en": "Use bleach.",
+        "ja": "漂白剤を使って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bleeding": {
+      "tier": "known",
+      "surface": "bleeding",
+      "pos": "v · B1",
+      "pron": "/ˈbliː.dɪŋ/",
+      "meaning": "出血",
+      "example": {
+        "en": "Stop bleeding.",
+        "ja": "出血を止めて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "blocked": {
+      "tier": "skip",
+      "surface": "blocked",
+      "pos": "v · A2",
+      "pron": "/blɒkt/",
+      "meaning": "遮った",
+      "example": {
+        "en": "Blocked the road.",
+        "ja": "道を塞いだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "blood": {
+      "tier": "skip",
+      "surface": "blood",
+      "pos": "n · A2",
+      "pron": "/blʌd/",
+      "meaning": "血",
+      "example": {
+        "en": "Blood test.",
+        "ja": "血液検査。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bloodstains": {
+      "tier": "known",
+      "surface": "bloodstains",
+      "pos": "n · C1",
+      "pron": "/ˈblʌd.steɪnz/",
+      "meaning": "血痕",
+      "example": {
+        "en": "Old bloodstains.",
+        "ja": "古い血痕。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bloody": {
+      "tier": "known",
+      "surface": "bloody",
+      "pos": "adj · B1",
+      "pron": "/ˈblʌd.i/",
+      "meaning": "血まみれの",
+      "example": {
+        "en": "Bloody nose.",
+        "ja": "鼻血。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bumper": {
+      "tier": "known",
+      "surface": "bumper",
+      "pos": "n · B2",
+      "pron": "/ˈbʌm.pər/",
+      "meaning": "バンパー",
+      "example": {
+        "en": "Bumper sticker.",
+        "ja": "バンパーステッカー。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "careful": {
+      "tier": "skip",
+      "surface": "careful",
+      "pos": "adj · A1",
+      "pron": "/ˈkeə.fəl/",
+      "meaning": "慎重な",
+      "example": {
+        "en": "Be careful.",
+        "ja": "気をつけて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ceiling": {
+      "tier": "known",
+      "surface": "ceiling",
+      "pos": "n · B1",
+      "pron": "/ˈsiː.lɪŋ/",
+      "meaning": "天井",
+      "example": {
+        "en": "Low ceiling.",
+        "ja": "低い天井。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chemiluminescence": {
+      "tier": "key",
+      "surface": "chemiluminescence",
+      "pos": "n · C2",
+      "pron": "/ˌkem.iˌluː.mɪˈnes.əns/",
+      "meaning": "化学発光",
+      "example": {
+        "en": "Chemiluminescence lights up the lab.",
+        "ja": "化学発光が実験室を照らす。"
+      },
+      "context": "化学反応により発生する光。",
+      "collocations": []
+    },
+    "cleanest": {
+      "tier": "skip",
+      "surface": "cleanest",
+      "pos": "adj · A2",
+      "pron": "/ˈkliː.nəst/",
+      "meaning": "最もきれいな",
+      "example": {
+        "en": "The cleanest room.",
+        "ja": "最も清潔な部屋。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clue": {
+      "tier": "known",
+      "surface": "clue",
+      "pos": "n · B1",
+      "pron": "/kluː/",
+      "meaning": "手がかり",
+      "example": {
+        "en": "First clue.",
+        "ja": "最初の手がかり。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clues": {
+      "tier": "known",
+      "surface": "clues",
+      "pos": "n · B1",
+      "pron": "/kluːz/",
+      "meaning": "手がかり",
+      "example": {
+        "en": "Few clues remain.",
+        "ja": "手がかりはわずか。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "collect": {
+      "tier": "skip",
+      "surface": "collect",
+      "pos": "v · A2",
+      "pron": "/kəˈlekt/",
+      "meaning": "集める",
+      "example": {
+        "en": "Collect samples.",
+        "ja": "試料収集。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "compounds": {
+      "tier": "known",
+      "surface": "compounds",
+      "pos": "n · B2",
+      "pron": "/ˈkɒm.paʊndz/",
+      "meaning": "化合物",
+      "example": {
+        "en": "Chemical compounds.",
+        "ja": "化学化合物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confessed": {
+      "tier": "known",
+      "surface": "confessed",
+      "pos": "v · B2",
+      "pron": "/kənˈfest/",
+      "meaning": "自白した",
+      "example": {
+        "en": "Confessed crime.",
+        "ja": "犯行を自白。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confirmatory": {
+      "tier": "key",
+      "surface": "confirmatory",
+      "pos": "adj · C2",
+      "pron": "/kənˈfɜː.mə.tɔːr.i/",
+      "meaning": "確認のための",
+      "example": {
+        "en": "A confirmatory test is required.",
+        "ja": "確認試験が必要だ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confirmed": {
+      "tier": "skip",
+      "surface": "confirmed",
+      "pos": "v · A2",
+      "pron": "/kənˈfɜːmd/",
+      "meaning": "確認された",
+      "example": {
+        "en": "Confirmed booking.",
+        "ja": "確定予約。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confirms": {
+      "tier": "skip",
+      "surface": "confirms",
+      "pos": "v · A2",
+      "pron": "/kənˈfɜːmz/",
+      "meaning": "確認する",
+      "example": {
+        "en": "Confirms today.",
+        "ja": "今日確認。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "containing": {
+      "tier": "skip",
+      "surface": "containing",
+      "pos": "v · A2",
+      "pron": "/kənˈteɪ.nɪŋ/",
+      "meaning": "含む",
+      "example": {
+        "en": "Containing sugar.",
+        "ja": "砂糖含有。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "copper": {
+      "tier": "known",
+      "surface": "copper",
+      "pos": "n · B1",
+      "pron": "/ˈkɒp.ər/",
+      "meaning": "銅",
+      "example": {
+        "en": "Copper wire.",
+        "ja": "銅線。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crime": {
+      "tier": "known",
+      "surface": "crime",
+      "pos": "n · B1",
+      "pron": "/kraɪm/",
+      "meaning": "犯罪",
+      "example": {
+        "en": "Crime rates drop.",
+        "ja": "犯罪率が下がる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "culprit": {
+      "tier": "known",
+      "surface": "culprit",
+      "pos": "n · B2",
+      "pron": "/ˈkʌl.prɪt/",
+      "meaning": "犯人",
+      "example": {
+        "en": "Find the culprit.",
+        "ja": "犯人を見つけて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "decade": {
+      "tier": "known",
+      "surface": "decade",
+      "pos": "n · B1",
+      "pron": "/ˈdek.eɪd/",
+      "meaning": "10年",
+      "example": {
+        "en": "Past decade.",
+        "ja": "過ぎた10年。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "decide": {
+      "tier": "skip",
+      "surface": "decide",
+      "pos": "v · A2",
+      "pron": "/dɪˈsaɪd/",
+      "meaning": "決める",
+      "example": {
+        "en": "Decide now.",
+        "ja": "今決めて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "details": {
+      "tier": "skip",
+      "surface": "details",
+      "pos": "n · A2",
+      "pron": "/ˈdiː.teɪlz/",
+      "meaning": "細部",
+      "example": {
+        "en": "Check details.",
+        "ja": "詳細を確認。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "detective": {
+      "tier": "known",
+      "surface": "detective",
+      "pos": "n · B1",
+      "pron": "/dɪˈtek.tɪv/",
+      "meaning": "刑事",
+      "example": {
+        "en": "A detective questioned him.",
+        "ja": "刑事が彼を尋問した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "diluted": {
+      "tier": "known",
+      "surface": "diluted",
+      "pos": "adj · B2",
+      "pron": "/daɪˈluː.tɪd/",
+      "meaning": "希釈された",
+      "example": {
+        "en": "Diluted juice.",
+        "ja": "薄めたジュース。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disorderly": {
+      "tier": "known",
+      "surface": "disorderly",
+      "pos": "adj · B2",
+      "pron": "/dɪˈsɔː.də.li/",
+      "meaning": "乱雑な",
+      "example": {
+        "en": "Disorderly conduct.",
+        "ja": "秩序を乱す行為。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "drips": {
+      "tier": "known",
+      "surface": "drips",
+      "pos": "n · B2",
+      "pron": "/drɪps/",
+      "meaning": "しずく",
+      "example": {
+        "en": "Steady drips.",
+        "ja": "継続する滴り。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "driver": {
+      "tier": "skip",
+      "surface": "driver",
+      "pos": "n · A1",
+      "pron": "/ˈdraɪ.vər/",
+      "meaning": "運転手",
+      "example": {
+        "en": "Bus driver.",
+        "ja": "バス運転手。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "earlier": {
+      "tier": "skip",
+      "surface": "earlier",
+      "pos": "adv · A2",
+      "pron": "/ˈɜː.li.ər/",
+      "meaning": "以前に",
+      "example": {
+        "en": "Earlier today.",
+        "ja": "本日早く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eliminating": {
+      "tier": "known",
+      "surface": "eliminating",
+      "pos": "v · B2",
+      "pron": "/ɪˈlɪm.ɪ.neɪ.tɪŋ/",
+      "meaning": "排除すること",
+      "example": {
+        "en": "Eliminating waste.",
+        "ja": "廃棄物削減。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "emit": {
+      "tier": "known",
+      "surface": "emit",
+      "pos": "v · B2",
+      "pron": "/ɪˈmɪt/",
+      "meaning": "放出する",
+      "example": {
+        "en": "Emit light.",
+        "ja": "光を放出。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "empty": {
+      "tier": "skip",
+      "surface": "empty",
+      "pos": "adj · A2",
+      "pron": "/ˈemp.ti/",
+      "meaning": "空の",
+      "example": {
+        "en": "Empty room.",
+        "ja": "空室。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "entering": {
+      "tier": "skip",
+      "surface": "entering",
+      "pos": "v · A2",
+      "pron": "/ˈen.tər.ɪŋ/",
+      "meaning": "入って",
+      "example": {
+        "en": "Entering the room.",
+        "ja": "部屋に入って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "erratic": {
+      "tier": "known",
+      "surface": "erratic",
+      "pos": "adj · B2",
+      "pron": "/ɪˈræt.ɪk/",
+      "meaning": "不規則な",
+      "example": {
+        "en": "Erratic behavior.",
+        "ja": "不規則な行動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "evidence": {
+      "tier": "known",
+      "surface": "evidence",
+      "pos": "n · B1",
+      "pron": "/ˈev.ɪ.dəns/",
+      "meaning": "証拠",
+      "example": {
+        "en": "Strong evidence.",
+        "ja": "強い証拠。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exact": {
+      "tier": "skip",
+      "surface": "exact",
+      "pos": "adj · A2",
+      "pron": "/ɪɡˈzækt/",
+      "meaning": "正確な",
+      "example": {
+        "en": "Exact amount.",
+        "ja": "正確な量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "excited": {
+      "tier": "known",
+      "surface": "excited",
+      "pos": "adj · B2",
+      "pron": "/ɪkˈsaɪ.tɪd/",
+      "meaning": "励起した",
+      "example": {
+        "en": "Excited state.",
+        "ja": "励起状態。"
+      },
+      "context": "物理化学用語と一般語の二義。",
+      "collocations": []
+    },
+    "faint": {
+      "tier": "known",
+      "surface": "faint",
+      "pos": "adj · B2",
+      "pron": "/feɪnt/",
+      "meaning": "かすかな",
+      "example": {
+        "en": "Faint sound.",
+        "ja": "かすかな音。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "faintest": {
+      "tier": "skip",
+      "surface": "faintest",
+      "pos": "adj · A2",
+      "pron": "/ˈfeɪn.təst/",
+      "meaning": "最も薄い",
+      "example": {
+        "en": "Faintest light.",
+        "ja": "最弱の光。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fine": {
+      "tier": "skip",
+      "surface": "fine",
+      "pos": "adj · A1",
+      "pron": "/faɪn/",
+      "meaning": "細かい",
+      "example": {
+        "en": "Fine sand.",
+        "ja": "細かい砂。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "firearms": {
+      "tier": "known",
+      "surface": "firearms",
+      "pos": "n · B2",
+      "pron": "/ˈfaɪər.ɑːmz/",
+      "meaning": "銃器",
+      "example": {
+        "en": "Licensed firearms.",
+        "ja": "認可銃器。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "footprints": {
+      "tier": "known",
+      "surface": "footprints",
+      "pos": "n · B1",
+      "pron": "/ˈfʊt.prɪnts/",
+      "meaning": "足跡",
+      "example": {
+        "en": "Carbon footprints.",
+        "ja": "炭素足跡。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "forensic": {
+      "tier": "key",
+      "surface": "forensic",
+      "pos": "adj · B2",
+      "pron": "/fəˈren.sɪk/",
+      "meaning": "法医学の",
+      "example": {
+        "en": "Forensic science solves crimes.",
+        "ja": "法医科学が事件を解決する。"
+      },
+      "context": "",
+      "collocations": [
+        "forensic team",
+        "forensic scientist"
+      ]
+    },
+    "glow": {
+      "tier": "known",
+      "surface": "glow",
+      "pos": "n · B2",
+      "pron": "/ɡloʊ/",
+      "meaning": "輝き",
+      "example": {
+        "en": "Soft glow.",
+        "ja": "柔らかな輝き。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "glowing": {
+      "tier": "known",
+      "surface": "glowing",
+      "pos": "adj · B2",
+      "pron": "/ˈɡloʊ.ɪŋ/",
+      "meaning": "光る",
+      "example": {
+        "en": "Glowing embers.",
+        "ja": "光る残り火。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "handprint": {
+      "tier": "known",
+      "surface": "handprint",
+      "pos": "n · C1",
+      "pron": "/ˈhænd.prɪnt/",
+      "meaning": "手形",
+      "example": {
+        "en": "Handprint on glass.",
+        "ja": "ガラスの手形。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "happened": {
+      "tier": "skip",
+      "surface": "happened",
+      "pos": "v · A1",
+      "pron": "/ˈhæp.ənd/",
+      "meaning": "起こった",
+      "example": {
+        "en": "What happened?",
+        "ja": "何が起きた?"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hemoglobin": {
+      "tier": "key",
+      "surface": "hemoglobin",
+      "pos": "n · C1",
+      "pron": "/ˈhiː.məˌɡloʊ.bɪn/",
+      "meaning": "ヘモグロビン",
+      "example": {
+        "en": "Hemoglobin carries oxygen.",
+        "ja": "ヘモグロビンは酸素を運ぶ。"
+      },
+      "context": "赤血球中の鉄含有タンパク質。",
+      "collocations": []
+    },
+    "hoping": {
+      "tier": "skip",
+      "surface": "hoping",
+      "pos": "v · A2",
+      "pron": "/ˈhoʊ.pɪŋ/",
+      "meaning": "期待して",
+      "example": {
+        "en": "Hoping for rain.",
+        "ja": "雨を願って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "identify": {
+      "tier": "skip",
+      "surface": "identify",
+      "pos": "v · A2",
+      "pron": "/aɪˈden.tɪ.faɪ/",
+      "meaning": "特定する",
+      "example": {
+        "en": "Identify cause.",
+        "ja": "原因を特定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "identifying": {
+      "tier": "skip",
+      "surface": "identifying",
+      "pos": "v · A2",
+      "pron": "/aɪˈden.tɪ.faɪ.ɪŋ/",
+      "meaning": "特定すること",
+      "example": {
+        "en": "Identifying patterns.",
+        "ja": "パターンを特定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "illuminate": {
+      "tier": "known",
+      "surface": "illuminate",
+      "pos": "v · B2",
+      "pron": "/ɪˈluː.mɪ.neɪt/",
+      "meaning": "照らす",
+      "example": {
+        "en": "Illuminate the path.",
+        "ja": "道を照らす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impressions": {
+      "tier": "known",
+      "surface": "impressions",
+      "pos": "n · B2",
+      "pron": "/ɪmˈpreʃ.ənz/",
+      "meaning": "痕、印象",
+      "example": {
+        "en": "Lasting impressions.",
+        "ja": "残る印象。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "indicating": {
+      "tier": "known",
+      "surface": "indicating",
+      "pos": "v · B2",
+      "pron": "/ˈɪn.dɪ.keɪ.tɪŋ/",
+      "meaning": "示して",
+      "example": {
+        "en": "Indicating progress.",
+        "ja": "進捗を示して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "informative": {
+      "tier": "known",
+      "surface": "informative",
+      "pos": "adj · B2",
+      "pron": "/ɪnˈfɔː.mə.tɪv/",
+      "meaning": "有益な",
+      "example": {
+        "en": "Informative lecture.",
+        "ja": "有益な講義。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inspect": {
+      "tier": "known",
+      "surface": "inspect",
+      "pos": "v · B2",
+      "pron": "/ɪnˈspekt/",
+      "meaning": "検分する",
+      "example": {
+        "en": "Inspect the goods.",
+        "ja": "商品を検分。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "introduced": {
+      "tier": "skip",
+      "surface": "introduced",
+      "pos": "v · A2",
+      "pron": "/ˌɪn.trəˈdjuːst/",
+      "meaning": "導入された",
+      "example": {
+        "en": "Introduced in 1937.",
+        "ja": "1937年に導入。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigate": {
+      "tier": "known",
+      "surface": "investigate",
+      "pos": "v · B1",
+      "pron": "/ɪnˈves.tɪ.ɡeɪt/",
+      "meaning": "捜査する",
+      "example": {
+        "en": "Police investigate the case.",
+        "ja": "警察が事件を捜査する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigation": {
+      "tier": "skip",
+      "surface": "investigation",
+      "pos": "n · A2",
+      "pron": "/ɪnˌves.tɪˈɡeɪ.ʃən/",
+      "meaning": "捜査",
+      "example": {
+        "en": "Investigation ongoing.",
+        "ja": "捜査中。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigative": {
+      "tier": "known",
+      "surface": "investigative",
+      "pos": "adj · B2",
+      "pron": "/ɪnˈves.tɪ.ɡeɪ.tɪv/",
+      "meaning": "捜査の",
+      "example": {
+        "en": "Investigative reporting.",
+        "ja": "調査報道。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigators": {
+      "tier": "known",
+      "surface": "investigators",
+      "pos": "n · B1",
+      "pron": "/ɪnˈves.tɪ.ɡeɪ.təz/",
+      "meaning": "捜査員",
+      "example": {
+        "en": "Investigators arrived early.",
+        "ja": "捜査員が早く到着した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lasts": {
+      "tier": "skip",
+      "surface": "lasts",
+      "pos": "v · A2",
+      "pron": "/lɑːsts/",
+      "meaning": "続く",
+      "example": {
+        "en": "Lasts long.",
+        "ja": "長持ち。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lingering": {
+      "tier": "known",
+      "surface": "lingering",
+      "pos": "adj · B2",
+      "pron": "/ˈlɪŋ.ɡər.ɪŋ/",
+      "meaning": "残存する",
+      "example": {
+        "en": "Lingering doubt.",
+        "ja": "残る疑い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "luminol": {
+      "tier": "key",
+      "surface": "luminol",
+      "pos": "n · C1",
+      "pron": "/ˈluː.mɪ.nɒl/",
+      "meaning": "ルミノール",
+      "example": {
+        "en": "Luminol reveals hidden blood.",
+        "ja": "ルミノールは隠れた血液を明らかにする。"
+      },
+      "context": "3-aminophthalhydrazide。法医捜査の代表的試薬。",
+      "collocations": [
+        "spray luminol"
+      ]
+    },
+    "manager": {
+      "tier": "skip",
+      "surface": "manager",
+      "pos": "n · A2",
+      "pron": "/ˈmæn.ɪ.dʒər/",
+      "meaning": "支配人",
+      "example": {
+        "en": "Hotel manager.",
+        "ja": "ホテル支配人。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "measure": {
+      "tier": "skip",
+      "surface": "measure",
+      "pos": "v · A2",
+      "pron": "/ˈmeʒ.ər/",
+      "meaning": "測る",
+      "example": {
+        "en": "Measure the length.",
+        "ja": "長さを測る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "molecules": {
+      "tier": "known",
+      "surface": "molecules",
+      "pos": "n · B2",
+      "pron": "/ˈmɒl.ɪ.kjuːlz/",
+      "meaning": "分子",
+      "example": {
+        "en": "Tiny molecules.",
+        "ja": "小さい分子。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "motel": {
+      "tier": "known",
+      "surface": "motel",
+      "pos": "n · B1",
+      "pron": "/moʊˈtel/",
+      "meaning": "モーテル",
+      "example": {
+        "en": "They stayed at a motel.",
+        "ja": "彼らはモーテルに泊まった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "motorized": {
+      "tier": "known",
+      "surface": "motorized",
+      "pos": "adj · B2",
+      "pron": "/ˈmoʊ.tə.raɪzd/",
+      "meaning": "電動の",
+      "example": {
+        "en": "Motorized tools.",
+        "ja": "電動工具。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "narrative": {
+      "tier": "known",
+      "surface": "narrative",
+      "pos": "n · B2",
+      "pron": "/ˈnær.ə.tɪv/",
+      "meaning": "物語、筋書き",
+      "example": {
+        "en": "Compelling narrative.",
+        "ja": "説得力ある物語。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "obvious": {
+      "tier": "skip",
+      "surface": "obvious",
+      "pos": "adj · A2",
+      "pron": "/ˈɒb.vi.əs/",
+      "meaning": "明らかな",
+      "example": {
+        "en": "Obvious answer.",
+        "ja": "明らかな答え。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "overwhelming": {
+      "tier": "known",
+      "surface": "overwhelming",
+      "pos": "adj · B2",
+      "pron": "/ˌoʊ.vəˈwel.mɪŋ/",
+      "meaning": "圧倒的な",
+      "example": {
+        "en": "Overwhelming support.",
+        "ja": "圧倒的支持。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "oxidize": {
+      "tier": "known",
+      "surface": "oxidize",
+      "pos": "v · C1",
+      "pron": "/ˈɒk.sɪ.daɪz/",
+      "meaning": "酸化する",
+      "example": {
+        "en": "Iron oxidizes.",
+        "ja": "鉄は酸化する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "partial": {
+      "tier": "known",
+      "surface": "partial",
+      "pos": "adj · B2",
+      "pron": "/ˈpɑː.ʃəl/",
+      "meaning": "部分的な",
+      "example": {
+        "en": "Partial victory.",
+        "ja": "部分的勝利。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "patterns": {
+      "tier": "skip",
+      "surface": "patterns",
+      "pos": "n · A2",
+      "pron": "/ˈpæt.ənz/",
+      "meaning": "模様",
+      "example": {
+        "en": "Fabric patterns.",
+        "ja": "布の模様。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "photograph": {
+      "tier": "skip",
+      "surface": "photograph",
+      "pos": "v · A2",
+      "pron": "/ˈfoʊ.tə.ɡrɑːf/",
+      "meaning": "撮影する",
+      "example": {
+        "en": "Photograph the scene.",
+        "ja": "現場を撮影。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "positive": {
+      "tier": "skip",
+      "surface": "positive",
+      "pos": "adj · A2",
+      "pron": "/ˈpɒz.ə.tɪv/",
+      "meaning": "陽性の",
+      "example": {
+        "en": "Positive result.",
+        "ja": "陽性結果。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "presence": {
+      "tier": "known",
+      "surface": "presence",
+      "pos": "n · B2",
+      "pron": "/ˈprez.əns/",
+      "meaning": "存在",
+      "example": {
+        "en": "Strong presence.",
+        "ja": "強い存在感。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prevent": {
+      "tier": "skip",
+      "surface": "prevent",
+      "pos": "v · A2",
+      "pron": "/prɪˈvent/",
+      "meaning": "防ぐ",
+      "example": {
+        "en": "Prevent fire.",
+        "ja": "火災防止。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "protein": {
+      "tier": "known",
+      "surface": "protein",
+      "pos": "n · B1",
+      "pron": "/ˈproʊ.tiːn/",
+      "meaning": "タンパク質",
+      "example": {
+        "en": "Animal protein.",
+        "ja": "動物性タンパク。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prove": {
+      "tier": "skip",
+      "surface": "prove",
+      "pos": "v · A2",
+      "pron": "/pruːv/",
+      "meaning": "証明する",
+      "example": {
+        "en": "Prove it.",
+        "ja": "証明して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "purpose": {
+      "tier": "skip",
+      "surface": "purpose",
+      "pos": "n · A2",
+      "pron": "/ˈpɜː.pəs/",
+      "meaning": "目的",
+      "example": {
+        "en": "Clear purpose.",
+        "ja": "明確な目的。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "react": {
+      "tier": "known",
+      "surface": "react",
+      "pos": "v · B1",
+      "pron": "/riˈækt/",
+      "meaning": "反応する",
+      "example": {
+        "en": "React quickly.",
+        "ja": "素早く反応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reaction": {
+      "tier": "skip",
+      "surface": "reaction",
+      "pos": "n · A2",
+      "pron": "/riˈæk.ʃən/",
+      "meaning": "反応",
+      "example": {
+        "en": "Chain reaction.",
+        "ja": "連鎖反応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reconstruct": {
+      "tier": "known",
+      "surface": "reconstruct",
+      "pos": "v · B2",
+      "pron": "/ˌriː.kənˈstrʌkt/",
+      "meaning": "再構成する",
+      "example": {
+        "en": "Reconstruct events.",
+        "ja": "出来事を再構成。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "record": {
+      "tier": "skip",
+      "surface": "record",
+      "pos": "n · A2",
+      "pron": "/ˈrek.ɔːd/",
+      "meaning": "記録",
+      "example": {
+        "en": "Criminal record.",
+        "ja": "犯罪歴。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "removal": {
+      "tier": "known",
+      "surface": "removal",
+      "pos": "n · B2",
+      "pron": "/rɪˈmuː.vəl/",
+      "meaning": "除去",
+      "example": {
+        "en": "Snow removal.",
+        "ja": "除雪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rented": {
+      "tier": "known",
+      "surface": "rented",
+      "pos": "v · B1",
+      "pron": "/ˈren.tɪd/",
+      "meaning": "賃借された",
+      "example": {
+        "en": "Rented a car.",
+        "ja": "車を借りた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reveal": {
+      "tier": "skip",
+      "surface": "reveal",
+      "pos": "v · A2",
+      "pron": "/rɪˈviːl/",
+      "meaning": "明らかにする",
+      "example": {
+        "en": "Reveal secrets.",
+        "ja": "秘密を明かす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sample": {
+      "tier": "skip",
+      "surface": "sample",
+      "pos": "n · A2",
+      "pron": "/ˈsɑːm.pl/",
+      "meaning": "試料",
+      "example": {
+        "en": "Take a sample.",
+        "ja": "サンプルを採取。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scans": {
+      "tier": "known",
+      "surface": "scans",
+      "pos": "v · B2",
+      "pron": "/skænz/",
+      "meaning": "見渡す",
+      "example": {
+        "en": "Scans the horizon.",
+        "ja": "水平線を見渡す。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scientist": {
+      "tier": "skip",
+      "surface": "scientist",
+      "pos": "n · A2",
+      "pron": "/ˈsaɪ.ən.tɪst/",
+      "meaning": "科学者",
+      "example": {
+        "en": "Famous scientist.",
+        "ja": "有名科学者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sensitivity": {
+      "tier": "known",
+      "surface": "sensitivity",
+      "pos": "n · B2",
+      "pron": "/ˌsen.sɪˈtɪv.ə.ti/",
+      "meaning": "感度",
+      "example": {
+        "en": "High sensitivity.",
+        "ja": "高感度。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shattered": {
+      "tier": "key",
+      "surface": "shattered",
+      "pos": "adj · B2",
+      "pron": "/ˈʃæt.əd/",
+      "meaning": "粉々の",
+      "example": {
+        "en": "Shattered glass covered the floor.",
+        "ja": "粉々のガラスが床を覆った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shoe": {
+      "tier": "skip",
+      "surface": "shoe",
+      "pos": "n · A1",
+      "pron": "/ʃuː/",
+      "meaning": "靴",
+      "example": {
+        "en": "Lost a shoe.",
+        "ja": "靴を失くした。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sketch": {
+      "tier": "known",
+      "surface": "sketch",
+      "pos": "v · B1",
+      "pron": "/sketʃ/",
+      "meaning": "スケッチする",
+      "example": {
+        "en": "Sketch quickly.",
+        "ja": "素早くスケッチ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "skilled": {
+      "tier": "skip",
+      "surface": "skilled",
+      "pos": "adj · A2",
+      "pron": "/skɪld/",
+      "meaning": "熟練した",
+      "example": {
+        "en": "Skilled worker.",
+        "ja": "熟練労働者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "solution": {
+      "tier": "known",
+      "surface": "solution",
+      "pos": "n · B1",
+      "pron": "/səˈluː.ʃən/",
+      "meaning": "溶液、解決",
+      "example": {
+        "en": "Salt solution.",
+        "ja": "食塩溶液。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spatter": {
+      "tier": "key",
+      "surface": "spatter",
+      "pos": "n · C1",
+      "pron": "/ˈspæt.ər/",
+      "meaning": "飛沫",
+      "example": {
+        "en": "Blood spatter analysis is a forensic skill.",
+        "ja": "血液飛沫分析は法医学技術だ。"
+      },
+      "context": "",
+      "collocations": [
+        "blood spatter"
+      ]
+    },
+    "spattered": {
+      "tier": "known",
+      "surface": "spattered",
+      "pos": "adj · C1",
+      "pron": "/ˈspæt.əd/",
+      "meaning": "飛び散った",
+      "example": {
+        "en": "Mud-spattered car.",
+        "ja": "泥はねの車。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spraying": {
+      "tier": "known",
+      "surface": "spraying",
+      "pos": "v · B1",
+      "pron": "/ˈspreɪ.ɪŋ/",
+      "meaning": "噴霧して",
+      "example": {
+        "en": "Spraying paint.",
+        "ja": "ペイントを噴霧。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sprays": {
+      "tier": "known",
+      "surface": "sprays",
+      "pos": "v · B1",
+      "pron": "/spreɪz/",
+      "meaning": "噴霧する",
+      "example": {
+        "en": "Sprays water.",
+        "ja": "水を撒く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stains": {
+      "tier": "known",
+      "surface": "stains",
+      "pos": "n · B1",
+      "pron": "/steɪnz/",
+      "meaning": "染み",
+      "example": {
+        "en": "Wine stains.",
+        "ja": "ワインの染み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "state": {
+      "tier": "skip",
+      "surface": "state",
+      "pos": "n · A2",
+      "pron": "/steɪt/",
+      "meaning": "状態",
+      "example": {
+        "en": "Sleep state.",
+        "ja": "睡眠状態。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "struggle": {
+      "tier": "known",
+      "surface": "struggle",
+      "pos": "n · B1",
+      "pron": "/ˈstrʌɡ.l/",
+      "meaning": "格闘、苦闘",
+      "example": {
+        "en": "A daily struggle.",
+        "ja": "毎日の苦闘。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "submitted": {
+      "tier": "known",
+      "surface": "submitted",
+      "pos": "v · B1",
+      "pron": "/səbˈmɪt.ɪd/",
+      "meaning": "提出した",
+      "example": {
+        "en": "Submitted papers.",
+        "ja": "書類提出。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suggesting": {
+      "tier": "known",
+      "surface": "suggesting",
+      "pos": "v · B1",
+      "pron": "/səˈdʒes.tɪŋ/",
+      "meaning": "示唆する",
+      "example": {
+        "en": "Suggesting change.",
+        "ja": "変化を提案。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surface": {
+      "tier": "skip",
+      "surface": "surface",
+      "pos": "n · A2",
+      "pron": "/ˈsɜː.fɪs/",
+      "meaning": "表面",
+      "example": {
+        "en": "Smooth surface.",
+        "ja": "滑らかな表面。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suspects": {
+      "tier": "known",
+      "surface": "suspects",
+      "pos": "n · B1",
+      "pron": "/ˈsʌs.pekts/",
+      "meaning": "容疑者",
+      "example": {
+        "en": "Two suspects.",
+        "ja": "容疑者二名。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suspicions": {
+      "tier": "known",
+      "surface": "suspicions",
+      "pos": "n · B2",
+      "pron": "/səˈspɪʃ.ənz/",
+      "meaning": "疑念",
+      "example": {
+        "en": "Raise suspicions.",
+        "ja": "疑念を呼ぶ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "testing": {
+      "tier": "skip",
+      "surface": "testing",
+      "pos": "n · A2",
+      "pron": "/ˈtes.tɪŋ/",
+      "meaning": "検査",
+      "example": {
+        "en": "Drug testing.",
+        "ja": "薬物検査。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "throughout": {
+      "tier": "known",
+      "surface": "throughout",
+      "pos": "prep · B1",
+      "pron": "/θruːˈaʊt/",
+      "meaning": "至る所に",
+      "example": {
+        "en": "Throughout the day.",
+        "ja": "一日中。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tool": {
+      "tier": "skip",
+      "surface": "tool",
+      "pos": "n · A2",
+      "pron": "/tuːl/",
+      "meaning": "道具",
+      "example": {
+        "en": "Useful tool.",
+        "ja": "便利な道具。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tools": {
+      "tier": "skip",
+      "surface": "tools",
+      "pos": "n · A2",
+      "pron": "/tuːlz/",
+      "meaning": "道具",
+      "example": {
+        "en": "Hand tools.",
+        "ja": "手工具。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "traces": {
+      "tier": "known",
+      "surface": "traces",
+      "pos": "n · B2",
+      "pron": "/ˈtreɪ.sɪz/",
+      "meaning": "痕跡",
+      "example": {
+        "en": "Traces of poison.",
+        "ja": "毒の痕跡。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "track": {
+      "tier": "known",
+      "surface": "track",
+      "pos": "n · B1",
+      "pron": "/træk/",
+      "meaning": "痕跡",
+      "example": {
+        "en": "Animal tracks.",
+        "ja": "動物の足跡。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trail": {
+      "tier": "known",
+      "surface": "trail",
+      "pos": "n · B1",
+      "pron": "/treɪl/",
+      "meaning": "痕跡、跡",
+      "example": {
+        "en": "Mountain trail.",
+        "ja": "山道。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trigger": {
+      "tier": "known",
+      "surface": "trigger",
+      "pos": "v · B1",
+      "pron": "/ˈtrɪɡ.ər/",
+      "meaning": "引き起こす",
+      "example": {
+        "en": "Trigger an alarm.",
+        "ja": "警報を作動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trunk": {
+      "tier": "known",
+      "surface": "trunk",
+      "pos": "n · B1",
+      "pron": "/trʌŋk/",
+      "meaning": "トランク",
+      "example": {
+        "en": "Car trunk.",
+        "ja": "車のトランク。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "useful": {
+      "tier": "skip",
+      "surface": "useful",
+      "pos": "adj · A1",
+      "pron": "/ˈjuːs.fəl/",
+      "meaning": "役立つ",
+      "example": {
+        "en": "Useful tip.",
+        "ja": "役立つ助言。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "vehicle": {
+      "tier": "skip",
+      "surface": "vehicle",
+      "pos": "n · A2",
+      "pron": "/ˈviː.ə.kəl/",
+      "meaning": "車両",
+      "example": {
+        "en": "Motor vehicle.",
+        "ja": "自動車。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "victim": {
+      "tier": "known",
+      "surface": "victim",
+      "pos": "n · B1",
+      "pron": "/ˈvɪk.tɪm/",
+      "meaning": "被害者",
+      "example": {
+        "en": "Crime victim.",
+        "ja": "犯罪被害者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "violent": {
+      "tier": "known",
+      "surface": "violent",
+      "pos": "adj · B1",
+      "pron": "/ˈvaɪə.lənt/",
+      "meaning": "暴力的な",
+      "example": {
+        "en": "Violent crime.",
+        "ja": "暴力犯罪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "visible": {
+      "tier": "skip",
+      "surface": "visible",
+      "pos": "adj · A2",
+      "pron": "/ˈvɪz.ə.bl/",
+      "meaning": "目に見える",
+      "example": {
+        "en": "Visible damage.",
+        "ja": "目に見える損傷。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wounds": {
+      "tier": "known",
+      "surface": "wounds",
+      "pos": "n · B1",
+      "pron": "/wuːndz/",
+      "meaning": "傷",
+      "example": {
+        "en": "Deep wounds.",
+        "ja": "深い傷。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "associated_with": {
+      "tier": "known",
+      "surface": "associated with",
+      "pos": "phrase · B2",
+      "pron": "/əˈsoʊ.ʃi.eɪ.tɪd wɪð/",
+      "literal": "〜と関連した",
+      "meaning": "〜と関連した",
+      "context": "",
+      "collocations": []
+    },
+    "belong_to": {
+      "tier": "known",
+      "surface": "belong to",
+      "pos": "phrasal v · A2",
+      "pron": "/bɪˈlɒŋ tə/",
+      "literal": "〜のものである",
+      "meaning": "〜のものである",
+      "context": "",
+      "collocations": []
+    },
+    "blood_cells": {
+      "tier": "known",
+      "surface": "blood cells",
+      "pos": "n phrase · B2",
+      "pron": "/blʌd selz/",
+      "literal": "血液細胞",
+      "meaning": "血液細胞",
+      "context": "",
+      "collocations": []
+    },
+    "blue_white": {
+      "tier": "known",
+      "surface": "blue-white",
+      "pos": "adj phrase · B2",
+      "pron": "/bluː waɪt/",
+      "literal": "青白い",
+      "meaning": "青白い",
+      "context": "",
+      "collocations": []
+    },
+    "call_in": {
+      "tier": "known",
+      "surface": "call in",
+      "pos": "phrasal v · B2",
+      "pron": "/kɔːl ɪn/",
+      "literal": "呼び入れる、応援を呼ぶ",
+      "meaning": "呼び入れる、応援を呼ぶ",
+      "context": "",
+      "collocations": []
+    },
+    "cleaning_agents": {
+      "tier": "known",
+      "surface": "cleaning agents",
+      "pos": "n phrase · B2",
+      "pron": "/ˈkliː.nɪŋ ˈeɪ.dʒənts/",
+      "literal": "清掃剤",
+      "meaning": "清掃剤",
+      "context": "",
+      "collocations": []
+    },
+    "crime_scene": {
+      "tier": "known",
+      "surface": "crime scene",
+      "pos": "n phrase · B1",
+      "pron": "/kraɪm siːn/",
+      "literal": "犯罪現場",
+      "meaning": "犯罪現場",
+      "context": "",
+      "collocations": []
+    },
+    "dimly_lit": {
+      "tier": "known",
+      "surface": "dimly lit",
+      "pos": "adj phrase · B2",
+      "pron": "/ˈdɪm.li lɪt/",
+      "literal": "薄暗い",
+      "meaning": "薄暗い",
+      "context": "",
+      "collocations": []
+    },
+    "double_edged_sword": {
+      "tier": "known",
+      "surface": "double-edged sword",
+      "pos": "n phrase · B2",
+      "pron": "/ˌdʌb.l edʒd sɔːd/",
+      "literal": "諸刃の剣",
+      "meaning": "諸刃の剣",
+      "context": "",
+      "collocations": []
+    },
+    "drag_marks": {
+      "tier": "known",
+      "surface": "drag marks",
+      "pos": "n phrase · B2",
+      "pron": "/dræɡ mɑːks/",
+      "literal": "引きずり跡",
+      "meaning": "引きずり跡",
+      "context": "",
+      "collocations": []
+    },
+    "end_up": {
+      "tier": "known",
+      "surface": "end up",
+      "pos": "phrasal v · B1",
+      "pron": "/end ʌp/",
+      "literal": "結局〜になる",
+      "meaning": "結局〜になる",
+      "context": "",
+      "collocations": []
+    },
+    "faced_with": {
+      "tier": "known",
+      "surface": "faced with",
+      "pos": "phrase · B2",
+      "pron": "/feɪst wɪð/",
+      "literal": "〜に直面して",
+      "meaning": "〜に直面して",
+      "context": "",
+      "collocations": []
+    },
+    "foot_of_bed": {
+      "tier": "known",
+      "surface": "foot of the bed",
+      "pos": "n phrase · B2",
+      "pron": "/fʊt əv ðə bed/",
+      "literal": "ベッドの足元",
+      "meaning": "ベッドの足元",
+      "context": "",
+      "collocations": []
+    },
+    "high_impact": {
+      "tier": "known",
+      "surface": "high-impact",
+      "pos": "adj phrase · B2",
+      "pron": "/haɪ ˈɪm.pækt/",
+      "literal": "高衝撃の",
+      "meaning": "高衝撃の",
+      "context": "",
+      "collocations": []
+    },
+    "hint_at": {
+      "tier": "known",
+      "surface": "hint at",
+      "pos": "phrasal v · B2",
+      "pron": "/hɪnt æt/",
+      "literal": "ほのめかす",
+      "meaning": "ほのめかす",
+      "context": "",
+      "collocations": []
+    },
+    "impact_wound": {
+      "tier": "known",
+      "surface": "impact wound",
+      "pos": "n phrase · C1",
+      "pron": "/ˈɪm.pækt wuːnd/",
+      "literal": "衝撃による傷",
+      "meaning": "衝撃による傷",
+      "context": "",
+      "collocations": []
+    },
+    "keep_doing": {
+      "tier": "known",
+      "surface": "keep doing",
+      "pos": "v pattern · A2",
+      "pron": "/kiːp ˈduː.ɪŋ/",
+      "literal": "〜し続ける",
+      "meaning": "〜し続ける",
+      "context": "",
+      "collocations": []
+    },
+    "kitchen_countertop": {
+      "tier": "known",
+      "surface": "kitchen countertop",
+      "pos": "n phrase · B2",
+      "pron": "/ˈkɪtʃ.ən ˈkaʊn.tər.tɒp/",
+      "literal": "キッチンカウンター",
+      "meaning": "キッチンカウンター",
+      "context": "",
+      "collocations": []
+    },
+    "line_up_with": {
+      "tier": "known",
+      "surface": "line up with",
+      "pos": "phrasal v · B2",
+      "pron": "/laɪn ʌp wɪð/",
+      "literal": "〜と一致する",
+      "meaning": "〜と一致する",
+      "context": "",
+      "collocations": []
+    },
+    "make_case_for": {
+      "tier": "known",
+      "surface": "make a strong case for",
+      "pos": "v phrase · C1",
+      "pron": "/meɪk ə strɒŋ keɪs fɔː/",
+      "literal": "〜を強く裏付ける",
+      "meaning": "〜を強く裏付ける",
+      "context": "",
+      "collocations": []
+    },
+    "mull_over": {
+      "tier": "known",
+      "surface": "mull over",
+      "pos": "phrasal v · B2",
+      "pron": "/mʌl ˈoʊ.vər/",
+      "literal": "熟考する",
+      "meaning": "熟考する",
+      "context": "",
+      "collocations": []
+    },
+    "not_only": {
+      "tier": "known",
+      "surface": "Not only",
+      "pos": "phrase · B2",
+      "pron": "/nɒt ˈoʊn.li/",
+      "literal": "〜だけでなく",
+      "meaning": "〜だけでなく",
+      "context": "",
+      "collocations": []
+    },
+    "oxidizing_agent": {
+      "tier": "known",
+      "surface": "oxidizing agent",
+      "pos": "n phrase · C1",
+      "pron": "/ˈɒk.sɪ.daɪ.zɪŋ ˈeɪ.dʒənt/",
+      "literal": "酸化剤",
+      "meaning": "酸化剤",
+      "context": "",
+      "collocations": []
+    },
+    "parking_lot": {
+      "tier": "known",
+      "surface": "parking lot",
+      "pos": "n phrase · A2",
+      "pron": "/ˈpɑː.kɪŋ lɒt/",
+      "literal": "駐車場",
+      "meaning": "駐車場",
+      "context": "",
+      "collocations": []
+    },
+    "presumptive_test": {
+      "tier": "key",
+      "surface": "presumptive blood test",
+      "pos": "n phrase · C1",
+      "pron": "/prɪˈzʌmp.tɪv blʌd test/",
+      "literal": "推定血液検査",
+      "meaning": "確定検査の前段階",
+      "context": "",
+      "collocations": []
+    },
+    "pull_over": {
+      "tier": "known",
+      "surface": "pull over",
+      "pos": "phrasal v · B2",
+      "pron": "/pʊl ˈoʊ.vər/",
+      "literal": "路肩に停める",
+      "meaning": "路肩に停める",
+      "context": "",
+      "collocations": []
+    },
+    "red_brown": {
+      "tier": "known",
+      "surface": "red-brown",
+      "pos": "adj phrase · B1",
+      "pron": "/red braʊn/",
+      "literal": "赤茶色の",
+      "meaning": "赤茶色の",
+      "context": "",
+      "collocations": []
+    },
+    "state_trooper": {
+      "tier": "known",
+      "surface": "state trooper",
+      "pos": "n phrase · B2",
+      "pron": "/steɪt ˈtruː.pər/",
+      "literal": "州警察官",
+      "meaning": "州警察官",
+      "context": "",
+      "collocations": []
+    },
+    "switch_off": {
+      "tier": "known",
+      "surface": "switch off",
+      "pos": "phrasal v · A2",
+      "pron": "/swɪtʃ ɒf/",
+      "literal": "消す",
+      "meaning": "消す",
+      "context": "",
+      "collocations": []
+    }
+  }
+}

@@ -1,0 +1,4739 @@
+{
+  "id": "talk_2026-04-30",
+  "date": "2026-04-30",
+  "source": "ted-ed",
+  "primary_topic": "Psychology",
+  "tags": [
+    "child-development",
+    "piaget",
+    "object-permanence",
+    "play",
+    "infants",
+    "social-skills"
+  ],
+  "difficulty": "medium",
+  "slug": "ted_ed_the_fascinating_reason_you_loved_peek_a_boo",
+  "video_id": "177595",
+  "title": "The fascinating reason you loved peek-a-boo",
+  "speaker": "TED-Ed",
+  "duration_sec": 308,
+  "published_at": "2026-04-30T15:31:20Z",
+  "video_url": "https://www.ted.com/talks/ted_ed_the_fascinating_reason_you_loved_peek_a_boo",
+  "embed_url": "https://embed.ted.com/talks/ted_ed_the_fascinating_reason_you_loved_peek_a_boo",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_177595/9f607c6d-67af-414c-be75-a84d89ca8296/peekaboo_textless.jpg",
+  "background": {
+    "summary": "「いないいないばあ」が全世界で乳児を笑わせるのはなぜか。顔認識・社会的微笑・因果理解・対象の永続性(object permanence)など6〜9ヶ月までの発達段階と、それが社会的会話・ジョーク・かくれんぼへつながる流れを解説する。",
+    "details": [
+      {
+        "heading": "ジャン・ピアジェ (1896-1980)",
+        "body": "スイスの発達心理学者。1936年に乳児発達の段階モデルを公表。現代研究では各段階の境界はより流動的とされるが、対象の永続性などの概念は今も中核。"
+      },
+      {
+        "heading": "対象の永続性 (object permanence)",
+        "body": "見えなくても物や人が存在し続けると理解する能力。生後4-7ヶ月で獲得。これがあるから「ばあ!」の驚きと喜びが成立する。"
+      },
+      {
+        "heading": "サーブ&リターン",
+        "body": "養育者と乳児の「呼びかけ → 応答」の往復。会話の基礎となる社会的スキルで、peek-a-boo はその原型。"
+      },
+      {
+        "heading": "心の理論 (theory of mind)",
+        "body": "3-4歳頃に発達する「他者の心の状態を推測する力」。これが未発達だと、子供は目を覆っただけで「隠れた」と思う。かくれんぼが下手な理由。"
+      },
+      {
+        "heading": "発達の文化普遍性",
+        "body": "イタリア『il gioco del cucù』、パレスチナ『ba' 'éno』、日本『いないいないばあ』。表現は違えど反応はほぼ同じ ── 普遍的な認知発達の証。"
+      }
+    ]
+  },
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In Italy, it's called il gioco del cucù.",
+          "translation_ja": "イタリアでは「クックーの遊び」と呼ばれる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In Italy"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "is called"
+            },
+            {
+              "label": "C",
+              "content": "il gioco del cucù",
+              "note": "イタリア語の固有表現"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In Italy, it's called "
+            },
+            {
+              "id": "t2",
+              "type": "foreign",
+              "surface": "il gioco del cucù",
+              "ref": "il_gioco"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Palestinians say ba' 'éno.",
+          "translation_ja": "パレスチナ人は「バー・エーノ」と言う。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Palestinians"
+            },
+            {
+              "label": "V",
+              "content": "say"
+            },
+            {
+              "label": "O",
+              "content": "ba' 'éno",
+              "note": "アラビア語の固有表現"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Palestinians",
+              "ref": "palestinians",
+              "tier": "skip"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " say "
+            },
+            {
+              "id": "t3",
+              "type": "foreign",
+              "surface": "ba' 'éno",
+              "ref": "baeno"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And in Japan it's inai-inai...ba!",
+          "translation_ja": "そして日本では「いないいない…ばあ!」だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "in Japan"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "inai-inai...ba!",
+              "note": "日本語の固有表現"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And in Japan it's "
+            },
+            {
+              "id": "t2",
+              "type": "foreign",
+              "surface": "inai-inai...ba!",
+              "ref": "inainaibaa"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "But in every language, the response is usually the same.",
+          "translation_ja": "しかしどの言語でも反応はだいたい同じだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "in every language"
+            },
+            {
+              "label": "S",
+              "content": "the response"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "usually the same"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But in every "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "language",
+              "ref": "language",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "response",
+              "ref": "response",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " is usually the same."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Peek-a-boo is a near-universal source of laughter and connection for infants and adults— it's the first game that almost everyone plays.",
+          "translation_ja": "いないいないばあは、乳児にも大人にもほぼ普遍的な笑いとつながりの源 ── ほとんど誰もが最初に遊ぶゲームだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Peek-a-boo"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "a near-universal source of laughter and connection for infants and adults"
+            },
+            {
+              "label": "M",
+              "content": "it's the first game that almost everyone plays",
+              "note": "補足"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "Peek-a-boo",
+              "ref": "peek_a_boo"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " is a "
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "near-universal",
+              "ref": "near_universal"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "source",
+              "ref": "source",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "laughter",
+              "ref": "laughter",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "connection",
+              "ref": "connection",
+              "tier": "skip"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " for "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "infants",
+              "ref": "infants",
+              "tier": "key"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "adults",
+              "ref": "adults",
+              "tier": "skip"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": "— it's the first game that almost everyone plays."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "So what is it about this goofy game that babies love so much?",
+          "translation_ja": "では、このおどけたゲームの何が、赤ちゃんたちにこれほど愛されるのか?",
+          "structure": [
+            {
+              "label": "M",
+              "content": "So"
+            },
+            {
+              "label": "S",
+              "content": "what"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "M",
+              "content": "about this goofy game that babies love so much",
+              "note": "what is it about … that 構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So what is it about this "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "goofy",
+              "ref": "goofy",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " game that "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "babies",
+              "ref": "babies",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "love",
+              "ref": "love",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " so much?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 35.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "While infants develop at different rates, many cognitive and motor abilities emerge in a certain order.",
+          "translation_ja": "乳児は異なる速度で発達するが、多くの認知・運動能力は一定の順序で現れる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While infants develop at different rates",
+              "note": "譲歩節"
+            },
+            {
+              "label": "S",
+              "content": "many cognitive and motor abilities"
+            },
+            {
+              "label": "V",
+              "content": "emerge"
+            },
+            {
+              "label": "M",
+              "content": "in a certain order"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While infants "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "develop",
+              "ref": "develop",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " at different "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "rates",
+              "ref": "rates",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", many "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "cognitive",
+              "ref": "cognitive",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "motor",
+              "ref": "motor",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "abilities",
+              "ref": "abilities",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "emerge",
+              "ref": "emerge",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " in a certain "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "order",
+              "ref": "order",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "For example, while 6-month-olds can typically grab things— and then promptly drop them— walking and talking generally begin around 12 months.",
+          "translation_ja": "例えば、生後6ヶ月児は通常物を掴むことはできるが ── そしてすぐに落とすが ── 歩行と会話は一般に12ヶ月頃に始まる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "For example"
+            },
+            {
+              "label": "M",
+              "content": "while 6-month-olds can typically grab things— and then promptly drop them",
+              "note": "譲歩節"
+            },
+            {
+              "label": "S",
+              "content": "walking and talking"
+            },
+            {
+              "label": "V",
+              "content": "begin"
+            },
+            {
+              "label": "M",
+              "content": "generally around 12 months"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For example, while "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "6-month-olds",
+              "ref": "six_month_olds"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " can typically "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "grab",
+              "ref": "grab",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " things— and then "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "promptly",
+              "ref": "promptly",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " drop them— walking and talking generally begin around 12 months."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This timeline was first formally charted in 1936 by Swiss psychologist Jean Piaget.",
+          "translation_ja": "このタイムラインは1936年にスイスの心理学者ジャン・ピアジェによって初めて正式に図示された。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This timeline"
+            },
+            {
+              "label": "V",
+              "content": "was charted",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "first formally in 1936 by Swiss psychologist Jean Piaget"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "timeline",
+              "ref": "timeline",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " was first formally "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "charted",
+              "ref": "charted",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " in 1936 by Swiss "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "psychologist",
+              "ref": "psychologist",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " Jean Piaget."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "And while most modern researchers agree this process is more fluid than Piaget believed, the early developments he identified are key for understanding peek-a-boo.",
+          "translation_ja": "現代の多くの研究者はこの過程がピアジェが考えたよりも流動的だと認めるが、彼が特定した初期発達はいないいないばあを理解する鍵だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while most modern researchers agree this process is more fluid than Piaget believed",
+              "note": "譲歩節"
+            },
+            {
+              "label": "S",
+              "content": "the early developments he identified"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "key for understanding peek-a-boo"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And while most modern "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "researchers",
+              "ref": "researchers",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "agree",
+              "ref": "agree",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " this process is more "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "fluid",
+              "ref": "fluid",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " than Piaget "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "believed",
+              "ref": "believed",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", the early "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "developments",
+              "ref": "developments",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " he "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "identified",
+              "ref": "identified",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " are "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "key",
+              "ref": "key",
+              "tier": "skip"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " for understanding peek-a-boo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 75.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "First is face processing.",
+          "translation_ja": "まずは顔の処理である。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "First"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "S",
+              "content": "face processing"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "First is "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "face processing",
+              "ref": "face_processing"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "This happens almost immediately— newborns as young as two days old can recognize their caregivers' faces.",
+          "translation_ja": "これはほぼ即座に起こり ── 生後たった2日の新生児ですら養育者の顔を認識できる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "happens"
+            },
+            {
+              "label": "M",
+              "content": "almost immediately"
+            },
+            {
+              "label": "M",
+              "content": "newborns as young as two days old can recognize their caregivers' faces",
+              "note": "補足主節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This happens almost "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "immediately",
+              "ref": "immediately",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "newborns",
+              "ref": "newborns",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " as young as two days old can "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "recognize",
+              "ref": "recognize",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "caregivers",
+              "ref": "caregivers",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "' faces."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Then, around 6 to 10 weeks, babies will begin social smiling— this is when they notice nearby laughing or smiling faces and start to mimic them.",
+          "translation_ja": "次いで6〜10週頃、赤ちゃんは社会的微笑を始める ── 近くで笑ったり微笑んだりする顔に気付き、それを真似し始める段階だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Then, around 6 to 10 weeks"
+            },
+            {
+              "label": "S",
+              "content": "babies"
+            },
+            {
+              "label": "V",
+              "content": "will begin"
+            },
+            {
+              "label": "O",
+              "content": "social smiling"
+            },
+            {
+              "label": "M",
+              "content": "this is when they notice nearby laughing or smiling faces and start to mimic them",
+              "note": "関係副詞 when 節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then, around 6 to 10 weeks, babies will begin "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "social smiling",
+              "ref": "social_smiling"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— this is when they "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "notice",
+              "ref": "notice",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " nearby "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "laughing",
+              "ref": "laughing",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "smiling",
+              "ref": "smiling",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " faces and start to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "mimic",
+              "ref": "mimic",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " them."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "At 2 to 4 months, they may begin to understand cause and effect.",
+          "translation_ja": "2〜4ヶ月で因果関係を理解し始めるかもしれない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "At 2 to 4 months"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "may begin"
+            },
+            {
+              "label": "O",
+              "content": "to understand cause and effect"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "At 2 to 4 months, they may begin to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "understand",
+              "ref": "understand",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "cause and effect",
+              "ref": "cause_and_effect"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "And finally, between 4 and 7 months they learn object permanence.",
+          "translation_ja": "そして最後に、4〜7ヶ月で「対象の永続性」を学ぶ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "And finally"
+            },
+            {
+              "label": "M",
+              "content": "between 4 and 7 months"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "learn"
+            },
+            {
+              "label": "O",
+              "content": "object permanence"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And finally, between 4 and 7 months they learn "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "object permanence",
+              "ref": "object_permanence"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Piaget described this as the understanding that people and objects continue to exist even when you can't see them.",
+          "translation_ja": "ピアジェはこれを、人や物が見えなくても存在し続けるという理解だと述べた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Piaget"
+            },
+            {
+              "label": "V",
+              "content": "described"
+            },
+            {
+              "label": "O",
+              "content": "this"
+            },
+            {
+              "label": "C",
+              "content": "as the understanding that people and objects continue to exist even when you can't see them"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Piaget "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "described",
+              "ref": "described",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " this as the understanding that people and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "objects",
+              "ref": "objects",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " continue to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "exist",
+              "ref": "exist",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " even when you can't see them."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "So before this period, \"out of sight\" can literally mean \"out of mind\"— making hiding your face akin to a magic trick.",
+          "translation_ja": "それゆえ、この時期以前は「視界から消える」が文字通り「念頭から消える」となる ── 顔を隠すことが魔法の手品同然になる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "So before this period"
+            },
+            {
+              "label": "S",
+              "content": "\"out of sight\""
+            },
+            {
+              "label": "V",
+              "content": "can mean"
+            },
+            {
+              "label": "C",
+              "content": "\"out of mind\""
+            },
+            {
+              "label": "M",
+              "content": "making hiding your face akin to a magic trick",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So before this period, \""
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "out of sight",
+              "ref": "out_of_sight"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "\" can literally mean \""
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "out of mind",
+              "ref": "out_of_mind"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "\"— making hiding your face "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "akin to",
+              "ref": "akin_to"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "magic trick",
+              "ref": "magic_trick"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 135.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Before object permanence, this disappearing act can range from confusing to pleasantly surprising.",
+          "translation_ja": "対象の永続性を獲得する前は、この消失行為は困惑から心地よい驚きまでの範囲にわたる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Before object permanence"
+            },
+            {
+              "label": "S",
+              "content": "this disappearing act"
+            },
+            {
+              "label": "V",
+              "content": "can range"
+            },
+            {
+              "label": "M",
+              "content": "from confusing to pleasantly surprising"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Before object permanence, this "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "disappearing",
+              "ref": "disappearing",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "act",
+              "ref": "act",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "can range from … to",
+              "ref": "range_from_to"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "confusing",
+              "ref": "confusing",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "pleasantly",
+              "ref": "pleasantly",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "surprising",
+              "ref": "surprising",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But by 9 months, these developments are working together for peak peek-a-boo performance.",
+          "translation_ja": "しかし生後9ヶ月までに、これらの発達は連携してピーク状態のいないいないばあを成立させる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But by 9 months"
+            },
+            {
+              "label": "S",
+              "content": "these developments"
+            },
+            {
+              "label": "V",
+              "content": "are working",
+              "note": "現在進行"
+            },
+            {
+              "label": "M",
+              "content": "together for peak peek-a-boo performance"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But by 9 months, these developments are working "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "together",
+              "ref": "together",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " for peak peek-a-boo "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "performance",
+              "ref": "performance",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "At this age, infants can focus on the game longer, predict the timing of the reveal, and even look for the hidden object or person.",
+          "translation_ja": "この年齢では、乳児はゲームに長く集中でき、「ばあ!」の瞬間を予測し、隠れた物や人を探しさえもできる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "At this age"
+            },
+            {
+              "label": "S",
+              "content": "infants"
+            },
+            {
+              "label": "V",
+              "content": "can focus / predict / look",
+              "note": "三項並列"
+            },
+            {
+              "label": "O",
+              "content": "on the game longer, predict the timing of the reveal, and even look for the hidden object or person"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "At this age, infants can "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "focus",
+              "ref": "focus",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " on the game longer, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "predict",
+              "ref": "predict",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the timing of the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "reveal",
+              "ref": "reveal",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and even "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "look for",
+              "ref": "look_for"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the hidden object or person."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "And since infants learn about the world through play, peek-a-boo is one of their first teachers.",
+          "translation_ja": "乳児は遊びを通して世界を学ぶため、いないいないばあは最初の教師の一つとなる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "since infants learn about the world through play",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "peek-a-boo"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "one of their first teachers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And since infants learn about the world through "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "play",
+              "ref": "play",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", peek-a-boo is one of their first "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "teachers",
+              "ref": "teachers",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "In one study, 11-month-olds were shown a barrier, the bottom of which was hidden behind a screen.",
+          "translation_ja": "ある研究で、生後11ヶ月児に下部がスクリーンに隠れた仕切りを見せた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In one study"
+            },
+            {
+              "label": "S",
+              "content": "11-month-olds"
+            },
+            {
+              "label": "V",
+              "content": "were shown",
+              "note": "受動態"
+            },
+            {
+              "label": "O",
+              "content": "a barrier"
+            },
+            {
+              "label": "M",
+              "content": "the bottom of which was hidden behind a screen",
+              "note": "関係詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In one study, "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "11-month-olds",
+              "ref": "eleven_month_olds"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " were shown a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "barrier",
+              "ref": "barrier",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "bottom",
+              "ref": "bottom",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of which was hidden behind a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "screen",
+              "ref": "screen",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Then researchers rolled balls and toy cars behind the screen, removing it afterwards to show that the toys had either stopped at the barrier as expected, or, somehow, gone through it.",
+          "translation_ja": "次に研究者はスクリーンの後ろにボールとミニカーを転がし、後でスクリーンを外して、玩具が期待通り仕切りで止まったか、あるいはなぜか仕切りを貫通したかを見せた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "researchers"
+            },
+            {
+              "label": "V",
+              "content": "rolled"
+            },
+            {
+              "label": "O",
+              "content": "balls and toy cars behind the screen"
+            },
+            {
+              "label": "M",
+              "content": "removing it afterwards to show that the toys had either stopped at the barrier as expected, or, somehow, gone through it",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then researchers "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rolled",
+              "ref": "rolled",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "balls",
+              "ref": "balls",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and toy cars behind the screen, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "removing",
+              "ref": "removing",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " it "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "afterwards",
+              "ref": "afterwards",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to show that the toys had either "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "stopped",
+              "ref": "stopped",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " at the barrier as expected, or, "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "somehow",
+              "ref": "somehow",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", gone through it."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Infants shown these seemingly magical toys showed more interest in them afterwards— even ignoring new objects in favor of toys that challenged their expectations.",
+          "translation_ja": "見かけ上魔法のような玩具を見せられた乳児は、その後それらにより関心を示し ── 期待を裏切る玩具を優先して新しい物を無視しさえした。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Infants shown these seemingly magical toys",
+              "note": "過去分詞の後置修飾"
+            },
+            {
+              "label": "V",
+              "content": "showed"
+            },
+            {
+              "label": "O",
+              "content": "more interest in them afterwards"
+            },
+            {
+              "label": "M",
+              "content": "even ignoring new objects in favor of toys that challenged their expectations",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Infants shown these "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "seemingly",
+              "ref": "seemingly",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "magical",
+              "ref": "magical",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " toys showed more interest in them afterwards— even "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "ignoring",
+              "ref": "ignoring",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " new objects "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "in favor of",
+              "ref": "in_favor_of"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " toys that "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "challenged",
+              "ref": "challenged",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "expectations",
+              "ref": "expectations",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 195.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The social expectations peek-a-boo develops may be even more important.",
+          "translation_ja": "いないいないばあが育む社会的期待は、もっと重要かもしれない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The social expectations peek-a-boo develops"
+            },
+            {
+              "label": "V",
+              "content": "may be"
+            },
+            {
+              "label": "C",
+              "content": "even more important"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "social",
+              "ref": "social",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " expectations peek-a-boo develops may be even more "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "important",
+              "ref": "important",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The game features several hallmarks of what researchers call social play: eye contact, turn-taking, and joint attention.",
+          "translation_ja": "このゲームには研究者が「ソーシャルプレイ」と呼ぶ特徴がいくつも含まれる ── アイコンタクト、順番交代、共同注意である。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The game"
+            },
+            {
+              "label": "V",
+              "content": "features"
+            },
+            {
+              "label": "O",
+              "content": "several hallmarks of what researchers call social play"
+            },
+            {
+              "label": "M",
+              "content": "eye contact, turn-taking, and joint attention",
+              "note": "同格列挙"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The game "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "features",
+              "ref": "features",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " several "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "hallmarks",
+              "ref": "hallmarks",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of what researchers call "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "social play",
+              "ref": "social_play"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ": "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "eye contact",
+              "ref": "eye_contact"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "turn-taking",
+              "ref": "turn_taking"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "joint attention",
+              "ref": "joint_attention"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "These skills are the foundation of human conversation, and since it's a conversation, what the adult does matters.",
+          "translation_ja": "これらの技能は人間の会話の基礎であり、会話である以上、大人の振る舞いが重要となる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These skills"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "the foundation of human conversation"
+            },
+            {
+              "label": "M",
+              "content": "and since it's a conversation, what the adult does matters",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "skills",
+              "ref": "skills",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " are the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "foundation",
+              "ref": "foundation",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of human "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "conversation",
+              "ref": "conversation",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and since it's a conversation, what the adult does "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "matters",
+              "ref": "matters",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Just as caregivers learn to read their infant's cries and verbal cues, babies learn how adults respond to their behavior.",
+          "translation_ja": "養育者が乳児の泣き声や音声の手がかりを読み取れるようになるのと同様に、赤ちゃんも大人が自分の行動にどう反応するかを学ぶ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Just as caregivers learn to read their infant's cries and verbal cues",
+              "note": "Just as 〜 like 〜"
+            },
+            {
+              "label": "S",
+              "content": "babies"
+            },
+            {
+              "label": "V",
+              "content": "learn"
+            },
+            {
+              "label": "O",
+              "content": "how adults respond to their behavior"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Just as caregivers learn to read their infant's "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "cries",
+              "ref": "cries",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "verbal",
+              "ref": "verbal",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "cues",
+              "ref": "cues",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", babies learn how adults "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "respond",
+              "ref": "respond",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to their "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "behavior",
+              "ref": "behavior",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Some play researchers call this back and forth \"serve and return\" interaction, and peek-a-boo is a prime example.",
+          "translation_ja": "一部の遊び研究者はこの往復を「サーブ&リターン」相互作用と呼び、いないいないばあはその代表例だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Some play researchers"
+            },
+            {
+              "label": "V",
+              "content": "call"
+            },
+            {
+              "label": "O",
+              "content": "this back and forth"
+            },
+            {
+              "label": "C",
+              "content": "\"serve and return\" interaction"
+            },
+            {
+              "label": "M",
+              "content": "and peek-a-boo is a prime example",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Some play researchers call this "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "back and forth",
+              "ref": "back_and_forth"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " \""
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "serve and return",
+              "ref": "serve_and_return"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "\" interaction, and peek-a-boo is a "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "prime example",
+              "ref": "prime_example"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "This call and response structure is also why some psychologists describe peek-a-boo as a baby's first joke.",
+          "translation_ja": "この呼びかけと応答の構造ゆえに、一部の心理学者はいないいないばあを赤ちゃんの最初のジョークと表現する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This call and response structure"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "why some psychologists describe peek-a-boo as a baby's first joke",
+              "note": "why 節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "call and response",
+              "ref": "call_and_response"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " structure is also why some psychologists describe peek-a-boo as a baby's first "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "joke",
+              "ref": "joke",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "It's an interaction where the format is reliable, but the content is surprising.",
+          "translation_ja": "それは、形式は予測可能だが内容は意外という相互作用だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "It"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "an interaction where the format is reliable, but the content is surprising",
+              "note": "関係副詞節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "It's an "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "interaction",
+              "ref": "interaction",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " where the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "format",
+              "ref": "format",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "reliable",
+              "ref": "reliable",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", but the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "content",
+              "ref": "content",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "surprising",
+              "ref": "surprising",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 235.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "As other motor and cognitive abilities develop, this foundation of social skills and object permanence informs various kinds of play.",
+          "translation_ja": "他の運動・認知能力が発達するにつれ、社会的技能と対象の永続性のこの基礎は、様々な遊びの形を形作っていく。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "As other motor and cognitive abilities develop",
+              "note": "同時の as 節"
+            },
+            {
+              "label": "S",
+              "content": "this foundation of social skills and object permanence"
+            },
+            {
+              "label": "V",
+              "content": "informs",
+              "note": "inform = 形作る・指針となる"
+            },
+            {
+              "label": "O",
+              "content": "various kinds of play"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "As other motor and cognitive abilities develop, this foundation of social skills and object permanence "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "informs",
+              "ref": "informs",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " various kinds of play."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Once kids begin walking and talking, peek-a-boo usually evolves into hide-and-seek— though their hiding isn't usually very good at this age due to poor impulse control and a lack of theory of mind.",
+          "translation_ja": "子供が歩いたり話したりし始めると、いないいないばあは通常「かくれんぼ」へと進化する ── ただし、この年齢では衝動制御の弱さと心の理論の欠如によって、隠れ方はあまり上手でない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once kids begin walking and talking",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "peek-a-boo"
+            },
+            {
+              "label": "V",
+              "content": "evolves"
+            },
+            {
+              "label": "M",
+              "content": "into hide-and-seek"
+            },
+            {
+              "label": "M",
+              "content": "though their hiding isn't usually very good at this age due to poor impulse control and a lack of theory of mind",
+              "note": "譲歩補足"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once kids begin walking and talking, peek-a-boo usually evolves into "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "hide-and-seek",
+              "ref": "hide_and_seek"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— though their hiding isn't usually very good at this age due to poor "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "impulse control",
+              "ref": "impulse_control"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and a lack of "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "theory of mind",
+              "ref": "theory_of_mind"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This is the ability to understand, imagine, and predict other people's mental states.",
+          "translation_ja": "これは他者の心の状態を理解し、想像し、予測する能力だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "the ability to understand, imagine, and predict other people's mental states"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This is the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "ability",
+              "ref": "ability",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to understand, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "imagine",
+              "ref": "imagine",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", and predict other people's "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "mental states",
+              "ref": "mental_states"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Without it, a child might think they're hidden simply by covering their own eyes— after all, if they can't see you, surely you can't see them.",
+          "translation_ja": "これがなければ、子供は自分の目を覆っただけで隠れていると思いかねない ── 結局、自分から相手が見えなければ、相手からも自分は見えないはず、というわけだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Without it"
+            },
+            {
+              "label": "S",
+              "content": "a child"
+            },
+            {
+              "label": "V",
+              "content": "might think"
+            },
+            {
+              "label": "O",
+              "content": "they're hidden simply by covering their own eyes"
+            },
+            {
+              "label": "M",
+              "content": "after all, if they can't see you, surely you can't see them",
+              "note": "補足説明"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Without it, a child might think they're hidden simply by "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "covering",
+              "ref": "covering",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their own "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "eyes",
+              "ref": "eyes",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "— "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "after all",
+              "ref": "after_all"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", if they can't see you, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "surely",
+              "ref": "surely",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " you can't see them."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Once theory of mind develops around age 3 or 4, kids can begin playing pretend together, all occupying a shared imaginary world.",
+          "translation_ja": "心の理論が3〜4歳頃に発達すると、子供たちは一緒にごっこ遊びを始められ、共有の想像世界を皆で占める。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once theory of mind develops around age 3 or 4",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "kids"
+            },
+            {
+              "label": "V",
+              "content": "can begin"
+            },
+            {
+              "label": "O",
+              "content": "playing pretend together"
+            },
+            {
+              "label": "M",
+              "content": "all occupying a shared imaginary world",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once theory of mind develops around age 3 or 4, kids can begin "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "playing pretend",
+              "ref": "play_pretend"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " together, all "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "occupying",
+              "ref": "occupying",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a shared "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "imaginary",
+              "ref": "imaginary",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " world."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Though even the most cooperative pretend play is often sprinkled with peek-a-boo style surprises.",
+          "translation_ja": "もっとも、最も協調的なごっこ遊びでさえ、いないいないばあ風の驚きで彩られることがしばしばある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Though"
+            },
+            {
+              "label": "S",
+              "content": "even the most cooperative pretend play"
+            },
+            {
+              "label": "V",
+              "content": "is sprinkled",
+              "note": "受動態 + 慣用句"
+            },
+            {
+              "label": "M",
+              "content": "with peek-a-boo style surprises"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Though even the most "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "cooperative",
+              "ref": "cooperative",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " pretend play is often "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "sprinkled with",
+              "ref": "sprinkled_with"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " peek-a-boo style "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "surprises",
+              "ref": "surprises",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "By ages 5 and 6, language expands to inform more playful negotiation, leading to games with more complicated rules.",
+          "translation_ja": "5〜6歳までに言語が広がり、より遊び心のある交渉を可能にし、より複雑なルールのゲームに繋がる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "By ages 5 and 6"
+            },
+            {
+              "label": "S",
+              "content": "language"
+            },
+            {
+              "label": "V",
+              "content": "expands"
+            },
+            {
+              "label": "M",
+              "content": "to inform more playful negotiation, leading to games with more complicated rules"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "By ages 5 and 6, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "language",
+              "ref": "language",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "expands",
+              "ref": "expands",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to inform more "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "playful",
+              "ref": "playful",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "negotiation",
+              "ref": "negotiation",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", leading to games with more "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "complicated",
+              "ref": "complicated",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "rules",
+              "ref": "rules",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 285.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "After this point, most kids' favorite types of play are more determined by their personalities and interests than their cognitive development.",
+          "translation_ja": "この時点以降、多くの子の好きな遊びの種類は、認知発達よりも性格と興味によってより決まる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "After this point"
+            },
+            {
+              "label": "S",
+              "content": "most kids' favorite types of play"
+            },
+            {
+              "label": "V",
+              "content": "are determined",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "more by their personalities and interests than their cognitive development"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "After this point, most kids' "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "favorite",
+              "ref": "favorite",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " types of play are more "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "determined",
+              "ref": "determined",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " by their "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "personalities",
+              "ref": "personalities",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "interests",
+              "ref": "interests",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " than their cognitive development."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But no matter what play they pursue, as adults they'll likely wind up playing peek-a-boo again— this time from an all-new perspective.",
+          "translation_ja": "しかしどんな遊びを追求しようとも、大人になれば再びいないいないばあをすることになるだろう ── 今度はまったく新しい視点から。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But no matter what play they pursue",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "'ll likely wind up"
+            },
+            {
+              "label": "O",
+              "content": "playing peek-a-boo again"
+            },
+            {
+              "label": "M",
+              "content": "this time from an all-new perspective"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "no matter what",
+              "ref": "no_matter_what"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " play they "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "pursue",
+              "ref": "pursue",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", as adults they'll likely "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "wind up",
+              "ref": "wind_up"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " playing peek-a-boo again— this time from an all-new "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "perspective",
+              "ref": "perspective",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "abilities": {
+      "tier": "known",
+      "surface": "abilities",
+      "pos": "n · B1",
+      "pron": "/əˈbɪl.ə.tiz/",
+      "meaning": "能力",
+      "example": {
+        "en": "Hidden abilities.",
+        "ja": "秘めた能力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ability": {
+      "tier": "skip",
+      "surface": "ability",
+      "pos": "n · A2",
+      "pron": "/əˈbɪl.ə.ti/",
+      "meaning": "能力",
+      "example": {
+        "en": "Special ability.",
+        "ja": "特殊能力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "act": {
+      "tier": "skip",
+      "surface": "act",
+      "pos": "n · A2",
+      "pron": "/ækt/",
+      "meaning": "行為",
+      "example": {
+        "en": "Heroic act.",
+        "ja": "英雄的行為。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adults": {
+      "tier": "skip",
+      "surface": "adults",
+      "pos": "n · A2",
+      "pron": "/ˈæd.ʌlts/",
+      "meaning": "大人",
+      "example": {
+        "en": "Two adults.",
+        "ja": "大人二人。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "afterwards": {
+      "tier": "known",
+      "surface": "afterwards",
+      "pos": "adv · B1",
+      "pron": "/ˈɑːf.tə.wədz/",
+      "meaning": "後で",
+      "example": {
+        "en": "Eat afterwards.",
+        "ja": "後で食べて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "agree": {
+      "tier": "skip",
+      "surface": "agree",
+      "pos": "v · A2",
+      "pron": "/əˈɡriː/",
+      "meaning": "同意する",
+      "example": {
+        "en": "Agree completely.",
+        "ja": "完全同意。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "babies": {
+      "tier": "skip",
+      "surface": "babies",
+      "pos": "n · A1",
+      "pron": "/ˈbeɪ.biz/",
+      "meaning": "赤ちゃん",
+      "example": {
+        "en": "Newborn babies.",
+        "ja": "新生児。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "balls": {
+      "tier": "skip",
+      "surface": "balls",
+      "pos": "n · A1",
+      "pron": "/bɔːlz/",
+      "meaning": "ボール",
+      "example": {
+        "en": "Two balls.",
+        "ja": "ボール二つ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "barrier": {
+      "tier": "known",
+      "surface": "barrier",
+      "pos": "n · B1",
+      "pron": "/ˈbær.i.ər/",
+      "meaning": "障壁、仕切り",
+      "example": {
+        "en": "Language barrier.",
+        "ja": "言語の壁。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "behavior": {
+      "tier": "skip",
+      "surface": "behavior",
+      "pos": "n · A2",
+      "pron": "/bɪˈheɪv.jər/",
+      "meaning": "行動",
+      "example": {
+        "en": "Good behavior.",
+        "ja": "良い行動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "believed": {
+      "tier": "skip",
+      "surface": "believed",
+      "pos": "v · A2",
+      "pron": "/bɪˈliːvd/",
+      "meaning": "信じた",
+      "example": {
+        "en": "Believed firmly.",
+        "ja": "固く信じた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bottom": {
+      "tier": "skip",
+      "surface": "bottom",
+      "pos": "n · A2",
+      "pron": "/ˈbɒt.əm/",
+      "meaning": "底",
+      "example": {
+        "en": "Bottom shelf.",
+        "ja": "下棚。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "caregivers": {
+      "tier": "known",
+      "surface": "caregivers",
+      "pos": "n · B2",
+      "pron": "/ˈkeə.ɡɪv.əz/",
+      "meaning": "養育者",
+      "example": {
+        "en": "Primary caregivers.",
+        "ja": "主要養育者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "challenged": {
+      "tier": "known",
+      "surface": "challenged",
+      "pos": "v · B2",
+      "pron": "/ˈtʃæl.ɪndʒd/",
+      "meaning": "異議を唱えた",
+      "example": {
+        "en": "Challenged the rule.",
+        "ja": "規則に挑んだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "charted": {
+      "tier": "known",
+      "surface": "charted",
+      "pos": "v · B2",
+      "pron": "/ˈtʃɑː.tɪd/",
+      "meaning": "図示した",
+      "example": {
+        "en": "Charted progress.",
+        "ja": "進歩を記録。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cognitive": {
+      "tier": "known",
+      "surface": "cognitive",
+      "pos": "adj · B2",
+      "pron": "/ˈkɒɡ.nə.tɪv/",
+      "meaning": "認知の",
+      "example": {
+        "en": "Cognitive skills.",
+        "ja": "認知技能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "complicated": {
+      "tier": "skip",
+      "surface": "complicated",
+      "pos": "adj · A2",
+      "pron": "/ˈkɒm.plɪ.keɪ.tɪd/",
+      "meaning": "複雑な",
+      "example": {
+        "en": "Complicated rules.",
+        "ja": "複雑な規則。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confusing": {
+      "tier": "known",
+      "surface": "confusing",
+      "pos": "adj · B1",
+      "pron": "/kənˈfjuː.zɪŋ/",
+      "meaning": "混乱させる",
+      "example": {
+        "en": "Confusing rules.",
+        "ja": "混乱する規則。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "connection": {
+      "tier": "skip",
+      "surface": "connection",
+      "pos": "n · A2",
+      "pron": "/kəˈnek.ʃən/",
+      "meaning": "つながり",
+      "example": {
+        "en": "Strong connection.",
+        "ja": "強いつながり。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "content": {
+      "tier": "skip",
+      "surface": "content",
+      "pos": "n · A2",
+      "pron": "/ˈkɒn.tent/",
+      "meaning": "内容",
+      "example": {
+        "en": "Video content.",
+        "ja": "動画コンテンツ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conversation": {
+      "tier": "skip",
+      "surface": "conversation",
+      "pos": "n · A2",
+      "pron": "/ˌkɒn.vəˈseɪ.ʃən/",
+      "meaning": "会話",
+      "example": {
+        "en": "Long conversation.",
+        "ja": "長い会話。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cooperative": {
+      "tier": "known",
+      "surface": "cooperative",
+      "pos": "adj · B2",
+      "pron": "/koʊˈɒp.ər.ə.tɪv/",
+      "meaning": "協力的な",
+      "example": {
+        "en": "Cooperative team.",
+        "ja": "協力的なチーム。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "covering": {
+      "tier": "skip",
+      "surface": "covering",
+      "pos": "v · A2",
+      "pron": "/ˈkʌv.ər.ɪŋ/",
+      "meaning": "覆って",
+      "example": {
+        "en": "Covering eyes.",
+        "ja": "目を覆って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cries": {
+      "tier": "skip",
+      "surface": "cries",
+      "pos": "n · A2",
+      "pron": "/kraɪz/",
+      "meaning": "泣き声",
+      "example": {
+        "en": "Baby cries.",
+        "ja": "赤ちゃんの泣き声。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cues": {
+      "tier": "known",
+      "surface": "cues",
+      "pos": "n · B2",
+      "pron": "/kjuːz/",
+      "meaning": "合図",
+      "example": {
+        "en": "Visual cues.",
+        "ja": "視覚的合図。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "described": {
+      "tier": "skip",
+      "surface": "described",
+      "pos": "v · A2",
+      "pron": "/dɪˈskraɪbd/",
+      "meaning": "述べた",
+      "example": {
+        "en": "Described accurately.",
+        "ja": "正確に述べた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "determined": {
+      "tier": "skip",
+      "surface": "determined",
+      "pos": "v · A2",
+      "pron": "/dɪˈtɜː.mɪnd/",
+      "meaning": "決まった",
+      "example": {
+        "en": "Determined by score.",
+        "ja": "点数で決定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "develop": {
+      "tier": "skip",
+      "surface": "develop",
+      "pos": "v · A2",
+      "pron": "/dɪˈvel.əp/",
+      "meaning": "発達する",
+      "example": {
+        "en": "Children develop fast.",
+        "ja": "子供は早く発達する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "developments": {
+      "tier": "skip",
+      "surface": "developments",
+      "pos": "n · A2",
+      "pron": "/dɪˈvel.əp.mənts/",
+      "meaning": "発達",
+      "example": {
+        "en": "Recent developments.",
+        "ja": "最近の動き。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disappearing": {
+      "tier": "skip",
+      "surface": "disappearing",
+      "pos": "v · A2",
+      "pron": "/ˌdɪs.əˈpɪər.ɪŋ/",
+      "meaning": "消えて",
+      "example": {
+        "en": "Disappearing fast.",
+        "ja": "急速に消えて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "emerge": {
+      "tier": "known",
+      "surface": "emerge",
+      "pos": "v · B2",
+      "pron": "/ɪˈmɜːdʒ/",
+      "meaning": "現れる",
+      "example": {
+        "en": "Trends emerge.",
+        "ja": "傾向が現れる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exist": {
+      "tier": "skip",
+      "surface": "exist",
+      "pos": "v · A2",
+      "pron": "/ɪɡˈzɪst/",
+      "meaning": "存在する",
+      "example": {
+        "en": "Aliens exist?",
+        "ja": "宇宙人はいる?"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expands": {
+      "tier": "known",
+      "surface": "expands",
+      "pos": "v · B1",
+      "pron": "/ɪkˈspændz/",
+      "meaning": "拡大する",
+      "example": {
+        "en": "Business expands.",
+        "ja": "事業が拡大。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expectations": {
+      "tier": "known",
+      "surface": "expectations",
+      "pos": "n · B1",
+      "pron": "/ˌek.spekˈteɪ.ʃənz/",
+      "meaning": "期待",
+      "example": {
+        "en": "High expectations.",
+        "ja": "高い期待。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eyes": {
+      "tier": "skip",
+      "surface": "eyes",
+      "pos": "n · A1",
+      "pron": "/aɪz/",
+      "meaning": "目",
+      "example": {
+        "en": "Blue eyes.",
+        "ja": "青い目。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "favorite": {
+      "tier": "skip",
+      "surface": "favorite",
+      "pos": "adj · A1",
+      "pron": "/ˈfeɪ.vrɪt/",
+      "meaning": "お気に入りの",
+      "example": {
+        "en": "Favorite food.",
+        "ja": "好物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "features": {
+      "tier": "known",
+      "surface": "features",
+      "pos": "v · B1",
+      "pron": "/ˈfiː.tʃəz/",
+      "meaning": "特徴とする",
+      "example": {
+        "en": "Features new design.",
+        "ja": "新デザインを採用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fluid": {
+      "tier": "known",
+      "surface": "fluid",
+      "pos": "adj · B2",
+      "pron": "/ˈfluː.ɪd/",
+      "meaning": "流動的な",
+      "example": {
+        "en": "Fluid situation.",
+        "ja": "流動的な状況。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "focus": {
+      "tier": "skip",
+      "surface": "focus",
+      "pos": "v · A2",
+      "pron": "/ˈfoʊ.kəs/",
+      "meaning": "集中する",
+      "example": {
+        "en": "Focus now.",
+        "ja": "今集中して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "format": {
+      "tier": "known",
+      "surface": "format",
+      "pos": "n · B1",
+      "pron": "/ˈfɔː.mæt/",
+      "meaning": "形式",
+      "example": {
+        "en": "File format.",
+        "ja": "ファイル形式。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "foundation": {
+      "tier": "known",
+      "surface": "foundation",
+      "pos": "n · B1",
+      "pron": "/faʊnˈdeɪ.ʃən/",
+      "meaning": "基礎",
+      "example": {
+        "en": "Strong foundation.",
+        "ja": "強い基盤。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "goofy": {
+      "tier": "known",
+      "surface": "goofy",
+      "pos": "adj · B2",
+      "pron": "/ˈɡuː.fi/",
+      "meaning": "おどけた",
+      "example": {
+        "en": "Goofy smile.",
+        "ja": "おどけた笑顔。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grab": {
+      "tier": "known",
+      "surface": "grab",
+      "pos": "v · B1",
+      "pron": "/ɡræb/",
+      "meaning": "つかむ",
+      "example": {
+        "en": "Grab the rope.",
+        "ja": "ロープを掴め。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hallmarks": {
+      "tier": "known",
+      "surface": "hallmarks",
+      "pos": "n · B2",
+      "pron": "/ˈhɔːl.mɑːks/",
+      "meaning": "特徴",
+      "example": {
+        "en": "Hallmarks of quality.",
+        "ja": "品質の証。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "identified": {
+      "tier": "skip",
+      "surface": "identified",
+      "pos": "v · A2",
+      "pron": "/aɪˈden.tɪ.faɪd/",
+      "meaning": "特定した",
+      "example": {
+        "en": "Identified cause.",
+        "ja": "原因特定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ignoring": {
+      "tier": "skip",
+      "surface": "ignoring",
+      "pos": "v · A2",
+      "pron": "/ɪɡˈnɔː.rɪŋ/",
+      "meaning": "無視して",
+      "example": {
+        "en": "Ignoring noise.",
+        "ja": "騒音を無視。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "imaginary": {
+      "tier": "known",
+      "surface": "imaginary",
+      "pos": "adj · B1",
+      "pron": "/ɪˈmædʒ.ə.nər.i/",
+      "meaning": "想像の",
+      "example": {
+        "en": "Imaginary friend.",
+        "ja": "架空の友達。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "imagine": {
+      "tier": "skip",
+      "surface": "imagine",
+      "pos": "v · A2",
+      "pron": "/ɪˈmædʒ.ɪn/",
+      "meaning": "想像する",
+      "example": {
+        "en": "Imagine that.",
+        "ja": "想像してみて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "immediately": {
+      "tier": "skip",
+      "surface": "immediately",
+      "pos": "adv · A2",
+      "pron": "/ɪˈmiː.di.ət.li/",
+      "meaning": "即座に",
+      "example": {
+        "en": "Reply immediately.",
+        "ja": "直ちに返答。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "important": {
+      "tier": "skip",
+      "surface": "important",
+      "pos": "adj · A1",
+      "pron": "/ɪmˈpɔː.tənt/",
+      "meaning": "重要な",
+      "example": {
+        "en": "Important news.",
+        "ja": "重要な知らせ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "infants": {
+      "tier": "key",
+      "surface": "infants",
+      "pos": "n · B2",
+      "pron": "/ˈɪn.fənts/",
+      "meaning": "乳児",
+      "example": {
+        "en": "Newborn infants.",
+        "ja": "新生児。"
+      },
+      "context": "baby より医学的・学術的。",
+      "collocations": []
+    },
+    "informs": {
+      "tier": "known",
+      "surface": "informs",
+      "pos": "v · B2",
+      "pron": "/ɪnˈfɔːmz/",
+      "meaning": "形作る、知らせる",
+      "example": {
+        "en": "Informs policy.",
+        "ja": "政策を形作る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "interaction": {
+      "tier": "known",
+      "surface": "interaction",
+      "pos": "n · B2",
+      "pron": "/ˌɪn.tərˈæk.ʃən/",
+      "meaning": "相互作用",
+      "example": {
+        "en": "Social interaction.",
+        "ja": "社会的交流。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "interests": {
+      "tier": "skip",
+      "surface": "interests",
+      "pos": "n · A2",
+      "pron": "/ˈɪn.trəsts/",
+      "meaning": "興味",
+      "example": {
+        "en": "Common interests.",
+        "ja": "共通の興味。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "joke": {
+      "tier": "skip",
+      "surface": "joke",
+      "pos": "n · A2",
+      "pron": "/dʒoʊk/",
+      "meaning": "ジョーク",
+      "example": {
+        "en": "Funny joke.",
+        "ja": "面白い冗談。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "key": {
+      "tier": "skip",
+      "surface": "key",
+      "pos": "adj · A2",
+      "pron": "/kiː/",
+      "meaning": "鍵となる",
+      "example": {
+        "en": "Key player.",
+        "ja": "主要人物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "language": {
+      "tier": "skip",
+      "surface": "language",
+      "pos": "n · A1",
+      "pron": "/ˈlæŋ.ɡwɪdʒ/",
+      "meaning": "言語",
+      "example": {
+        "en": "Mother tongue.",
+        "ja": "母語。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "laughing": {
+      "tier": "skip",
+      "surface": "laughing",
+      "pos": "v · A2",
+      "pron": "/ˈlɑː.fɪŋ/",
+      "meaning": "笑って",
+      "example": {
+        "en": "Laughing aloud.",
+        "ja": "声を上げて笑って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "laughter": {
+      "tier": "known",
+      "surface": "laughter",
+      "pos": "n · B1",
+      "pron": "/ˈlɑːf.tər/",
+      "meaning": "笑い",
+      "example": {
+        "en": "Burst of laughter.",
+        "ja": "爆笑。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "love": {
+      "tier": "skip",
+      "surface": "love",
+      "pos": "v · A1",
+      "pron": "/lʌv/",
+      "meaning": "愛する",
+      "example": {
+        "en": "Love family.",
+        "ja": "家族を愛する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "magical": {
+      "tier": "known",
+      "surface": "magical",
+      "pos": "adj · B1",
+      "pron": "/ˈmædʒ.ɪ.kəl/",
+      "meaning": "魔法のような",
+      "example": {
+        "en": "Magical moment.",
+        "ja": "魔法の瞬間。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "matters": {
+      "tier": "skip",
+      "surface": "matters",
+      "pos": "v · A2",
+      "pron": "/ˈmæt.əz/",
+      "meaning": "重要だ",
+      "example": {
+        "en": "Size matters.",
+        "ja": "大きさは重要。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mimic": {
+      "tier": "known",
+      "surface": "mimic",
+      "pos": "v · B2",
+      "pron": "/ˈmɪm.ɪk/",
+      "meaning": "真似る",
+      "example": {
+        "en": "Mimic accents.",
+        "ja": "訛りを真似る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "motor": {
+      "tier": "known",
+      "surface": "motor",
+      "pos": "adj · B1",
+      "pron": "/ˈmoʊ.tər/",
+      "meaning": "運動の",
+      "example": {
+        "en": "Motor skills.",
+        "ja": "運動能力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "negotiation": {
+      "tier": "known",
+      "surface": "negotiation",
+      "pos": "n · B2",
+      "pron": "/nəˌɡoʊ.ʃiˈeɪ.ʃən/",
+      "meaning": "交渉",
+      "example": {
+        "en": "Trade negotiation.",
+        "ja": "通商交渉。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "newborns": {
+      "tier": "known",
+      "surface": "newborns",
+      "pos": "n · B2",
+      "pron": "/ˈnjuː.bɔːnz/",
+      "meaning": "新生児",
+      "example": {
+        "en": "Newborns sleep a lot.",
+        "ja": "新生児はよく眠る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "notice": {
+      "tier": "skip",
+      "surface": "notice",
+      "pos": "v · A2",
+      "pron": "/ˈnoʊ.tɪs/",
+      "meaning": "気付く",
+      "example": {
+        "en": "Notice change.",
+        "ja": "変化に気付く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "objects": {
+      "tier": "skip",
+      "surface": "objects",
+      "pos": "n · A2",
+      "pron": "/ˈɒb.dʒekts/",
+      "meaning": "物体",
+      "example": {
+        "en": "Sharp objects.",
+        "ja": "鋭い物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "occupying": {
+      "tier": "known",
+      "surface": "occupying",
+      "pos": "v · B2",
+      "pron": "/ˈɒk.jə.paɪ.ɪŋ/",
+      "meaning": "占めて",
+      "example": {
+        "en": "Occupying space.",
+        "ja": "空間を占めて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "order": {
+      "tier": "skip",
+      "surface": "order",
+      "pos": "n · A1",
+      "pron": "/ˈɔː.dər/",
+      "meaning": "順序",
+      "example": {
+        "en": "In order.",
+        "ja": "順序通り。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "palestinians": {
+      "tier": "skip",
+      "surface": "Palestinians",
+      "pos": "n · proper",
+      "pron": "/ˌpæl.ɪˈstɪn.i.ənz/",
+      "meaning": "パレスチナ人",
+      "example": {
+        "en": "Palestinians speak Arabic.",
+        "ja": "パレスチナ人はアラビア語を話す。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "performance": {
+      "tier": "skip",
+      "surface": "performance",
+      "pos": "n · A2",
+      "pron": "/pəˈfɔː.məns/",
+      "meaning": "上演、性能",
+      "example": {
+        "en": "Live performance.",
+        "ja": "ライブ公演。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "personalities": {
+      "tier": "known",
+      "surface": "personalities",
+      "pos": "n · B1",
+      "pron": "/ˌpɜː.səˈnæl.ə.tiz/",
+      "meaning": "性格",
+      "example": {
+        "en": "Strong personalities.",
+        "ja": "強烈な個性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "perspective": {
+      "tier": "known",
+      "surface": "perspective",
+      "pos": "n · B2",
+      "pron": "/pəˈspek.tɪv/",
+      "meaning": "視点",
+      "example": {
+        "en": "New perspective.",
+        "ja": "新たな視点。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "play": {
+      "tier": "skip",
+      "surface": "play",
+      "pos": "n · A1",
+      "pron": "/pleɪ/",
+      "meaning": "遊び",
+      "example": {
+        "en": "Stage play.",
+        "ja": "舞台劇。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "playful": {
+      "tier": "known",
+      "surface": "playful",
+      "pos": "adj · B1",
+      "pron": "/ˈpleɪ.fəl/",
+      "meaning": "遊び心ある",
+      "example": {
+        "en": "Playful tone.",
+        "ja": "遊び心ある口調。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pleasantly": {
+      "tier": "known",
+      "surface": "pleasantly",
+      "pos": "adv · B2",
+      "pron": "/ˈplez.ənt.li/",
+      "meaning": "心地よく",
+      "example": {
+        "en": "Pleasantly cool.",
+        "ja": "心地よく涼しい。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "predict": {
+      "tier": "known",
+      "surface": "predict",
+      "pos": "v · B1",
+      "pron": "/prɪˈdɪkt/",
+      "meaning": "予測する",
+      "example": {
+        "en": "Predict weather.",
+        "ja": "天気を予測。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "promptly": {
+      "tier": "known",
+      "surface": "promptly",
+      "pos": "adv · B2",
+      "pron": "/ˈprɒmpt.li/",
+      "meaning": "即座に",
+      "example": {
+        "en": "Reply promptly.",
+        "ja": "即返信。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "psychologist": {
+      "tier": "known",
+      "surface": "psychologist",
+      "pos": "n · B1",
+      "pron": "/saɪˈkɒl.ə.dʒɪst/",
+      "meaning": "心理学者",
+      "example": {
+        "en": "Clinical psychologist.",
+        "ja": "臨床心理学者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pursue": {
+      "tier": "known",
+      "surface": "pursue",
+      "pos": "v · B2",
+      "pron": "/pəˈsjuː/",
+      "meaning": "追求する",
+      "example": {
+        "en": "Pursue dreams.",
+        "ja": "夢を追う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rates": {
+      "tier": "skip",
+      "surface": "rates",
+      "pos": "n · A2",
+      "pron": "/reɪts/",
+      "meaning": "速度",
+      "example": {
+        "en": "Growth rates.",
+        "ja": "成長速度。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "recognize": {
+      "tier": "skip",
+      "surface": "recognize",
+      "pos": "v · A2",
+      "pron": "/ˈrek.əɡ.naɪz/",
+      "meaning": "認識する",
+      "example": {
+        "en": "Recognize faces.",
+        "ja": "顔を認識。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reliable": {
+      "tier": "known",
+      "surface": "reliable",
+      "pos": "adj · B1",
+      "pron": "/rɪˈlaɪə.bl/",
+      "meaning": "信頼できる",
+      "example": {
+        "en": "Reliable source.",
+        "ja": "信頼できる出典。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "removing": {
+      "tier": "skip",
+      "surface": "removing",
+      "pos": "v · A2",
+      "pron": "/rɪˈmuː.vɪŋ/",
+      "meaning": "取り除いて",
+      "example": {
+        "en": "Removing dirt.",
+        "ja": "汚れを除去。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "researchers": {
+      "tier": "skip",
+      "surface": "researchers",
+      "pos": "n · A2",
+      "pron": "/rɪˈsɜː.tʃəz/",
+      "meaning": "研究者",
+      "example": {
+        "en": "Top researchers.",
+        "ja": "一流研究者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "respond": {
+      "tier": "known",
+      "surface": "respond",
+      "pos": "v · B1",
+      "pron": "/rɪˈspɒnd/",
+      "meaning": "応答する",
+      "example": {
+        "en": "Respond quickly.",
+        "ja": "素早く応答。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "response": {
+      "tier": "skip",
+      "surface": "response",
+      "pos": "n · A2",
+      "pron": "/rɪˈspɒns/",
+      "meaning": "反応",
+      "example": {
+        "en": "Quick response.",
+        "ja": "素早い反応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reveal": {
+      "tier": "known",
+      "surface": "reveal",
+      "pos": "n · B2",
+      "pron": "/rɪˈviːl/",
+      "meaning": "公開、明かし",
+      "example": {
+        "en": "Big reveal.",
+        "ja": "大公開。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rolled": {
+      "tier": "known",
+      "surface": "rolled",
+      "pos": "v · B1",
+      "pron": "/roʊld/",
+      "meaning": "転がした",
+      "example": {
+        "en": "Rolled the ball.",
+        "ja": "ボールを転がした。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rules": {
+      "tier": "skip",
+      "surface": "rules",
+      "pos": "n · A1",
+      "pron": "/ruːlz/",
+      "meaning": "規則",
+      "example": {
+        "en": "House rules.",
+        "ja": "ハウスルール。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "screen": {
+      "tier": "skip",
+      "surface": "screen",
+      "pos": "n · A2",
+      "pron": "/skriːn/",
+      "meaning": "スクリーン",
+      "example": {
+        "en": "Big screen.",
+        "ja": "大画面。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "seemingly": {
+      "tier": "known",
+      "surface": "seemingly",
+      "pos": "adv · B2",
+      "pron": "/ˈsiː.mɪŋ.li/",
+      "meaning": "一見",
+      "example": {
+        "en": "Seemingly easy.",
+        "ja": "一見簡単。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "skills": {
+      "tier": "skip",
+      "surface": "skills",
+      "pos": "n · A2",
+      "pron": "/skɪlz/",
+      "meaning": "技能",
+      "example": {
+        "en": "Soft skills.",
+        "ja": "ソフトスキル。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "smiling": {
+      "tier": "skip",
+      "surface": "smiling",
+      "pos": "v · A2",
+      "pron": "/ˈsmaɪl.ɪŋ/",
+      "meaning": "微笑んで",
+      "example": {
+        "en": "Smiling kindly.",
+        "ja": "優しく微笑んで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "social": {
+      "tier": "skip",
+      "surface": "social",
+      "pos": "adj · A2",
+      "pron": "/ˈsoʊ.ʃəl/",
+      "meaning": "社会的な",
+      "example": {
+        "en": "Social media.",
+        "ja": "SNS。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "somehow": {
+      "tier": "known",
+      "surface": "somehow",
+      "pos": "adv · B1",
+      "pron": "/ˈsʌm.haʊ/",
+      "meaning": "どうにかして",
+      "example": {
+        "en": "Somehow worked.",
+        "ja": "何とか動いた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "source": {
+      "tier": "skip",
+      "surface": "source",
+      "pos": "n · A2",
+      "pron": "/sɔːrs/",
+      "meaning": "源",
+      "example": {
+        "en": "Water source.",
+        "ja": "水源。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stopped": {
+      "tier": "skip",
+      "surface": "stopped",
+      "pos": "v · A1",
+      "pron": "/stɒpt/",
+      "meaning": "止まった",
+      "example": {
+        "en": "The car stopped.",
+        "ja": "車が止まった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surely": {
+      "tier": "known",
+      "surface": "surely",
+      "pos": "adv · B1",
+      "pron": "/ˈʃʊə.li/",
+      "meaning": "確かに",
+      "example": {
+        "en": "Surely true.",
+        "ja": "確かに真実。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surprises": {
+      "tier": "skip",
+      "surface": "surprises",
+      "pos": "n · A2",
+      "pron": "/səˈpraɪ.zɪz/",
+      "meaning": "驚き",
+      "example": {
+        "en": "Big surprises.",
+        "ja": "大きな驚き。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surprising": {
+      "tier": "skip",
+      "surface": "surprising",
+      "pos": "adj · A2",
+      "pron": "/səˈpraɪ.zɪŋ/",
+      "meaning": "驚くべき",
+      "example": {
+        "en": "Surprising news.",
+        "ja": "驚きの知らせ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "teachers": {
+      "tier": "skip",
+      "surface": "teachers",
+      "pos": "n · A1",
+      "pron": "/ˈtiː.tʃəz/",
+      "meaning": "教師",
+      "example": {
+        "en": "Math teachers.",
+        "ja": "数学教師。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "timeline": {
+      "tier": "known",
+      "surface": "timeline",
+      "pos": "n · B1",
+      "pron": "/ˈtaɪm.laɪn/",
+      "meaning": "時系列",
+      "example": {
+        "en": "Project timeline.",
+        "ja": "プロジェクト工程。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "together": {
+      "tier": "skip",
+      "surface": "together",
+      "pos": "adv · A1",
+      "pron": "/təˈɡeð.ər/",
+      "meaning": "一緒に",
+      "example": {
+        "en": "Work together.",
+        "ja": "協力する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "understand": {
+      "tier": "skip",
+      "surface": "understand",
+      "pos": "v · A2",
+      "pron": "/ˌʌn.dəˈstænd/",
+      "meaning": "理解する",
+      "example": {
+        "en": "Understand well.",
+        "ja": "よく理解する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "verbal": {
+      "tier": "known",
+      "surface": "verbal",
+      "pos": "adj · B2",
+      "pron": "/ˈvɜː.bəl/",
+      "meaning": "言葉の",
+      "example": {
+        "en": "Verbal agreement.",
+        "ja": "口頭合意。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "after_all": {
+      "tier": "known",
+      "surface": "after all",
+      "pos": "phrase · B1",
+      "pron": "/ˈɑːf.tər ɔːl/",
+      "literal": "結局のところ",
+      "meaning": "結局のところ",
+      "context": "",
+      "collocations": []
+    },
+    "akin_to": {
+      "tier": "known",
+      "surface": "akin to",
+      "pos": "phrase · C1",
+      "pron": "/əˈkɪn tə/",
+      "literal": "〜に類似した",
+      "meaning": "類似性を表す",
+      "context": "",
+      "collocations": []
+    },
+    "back_and_forth": {
+      "tier": "known",
+      "surface": "back and forth",
+      "pos": "phrase · B1",
+      "pron": "/bæk ənd fɔːθ/",
+      "literal": "往復、行ったり来たり",
+      "meaning": "往復、行ったり来たり",
+      "context": "",
+      "collocations": []
+    },
+    "call_and_response": {
+      "tier": "known",
+      "surface": "call and response",
+      "pos": "n phrase · B2",
+      "pron": "/kɔːl ənd rɪˈspɒns/",
+      "literal": "呼応、コール&レスポンス",
+      "meaning": "音楽・宗教儀礼にも",
+      "context": "",
+      "collocations": []
+    },
+    "cause_and_effect": {
+      "tier": "known",
+      "surface": "cause and effect",
+      "pos": "n phrase · B2",
+      "pron": "/kɔːz ənd ɪˈfekt/",
+      "literal": "因果関係",
+      "meaning": "原因と結果のつながり",
+      "context": "",
+      "collocations": []
+    },
+    "eleven_month_olds": {
+      "tier": "known",
+      "surface": "11-month-olds",
+      "pos": "n phrase · B2",
+      "pron": "/ɪˈlev.ən mʌnθ oʊldz/",
+      "literal": "生後11ヶ月児",
+      "meaning": "生後11ヶ月児",
+      "context": "",
+      "collocations": []
+    },
+    "eye_contact": {
+      "tier": "known",
+      "surface": "eye contact",
+      "pos": "n phrase · B1",
+      "pron": "/aɪ ˈkɒn.tækt/",
+      "literal": "アイコンタクト",
+      "meaning": "目を合わせること",
+      "context": "",
+      "collocations": []
+    },
+    "face_processing": {
+      "tier": "known",
+      "surface": "face processing",
+      "pos": "n phrase · C1",
+      "pron": "/feɪs ˈproʊ.ses.ɪŋ/",
+      "literal": "顔処理",
+      "meaning": "顔を識別・記憶する脳機能",
+      "context": "",
+      "collocations": []
+    },
+    "hide_and_seek": {
+      "tier": "known",
+      "surface": "hide-and-seek",
+      "pos": "n phrase · A2",
+      "pron": "/ˌhaɪd ənd ˈsiːk/",
+      "literal": "かくれんぼ",
+      "meaning": "かくれんぼ",
+      "context": "",
+      "collocations": []
+    },
+    "impulse_control": {
+      "tier": "known",
+      "surface": "impulse control",
+      "pos": "n phrase · C1",
+      "pron": "/ˈɪm.pʌls kənˈtroʊl/",
+      "literal": "衝動制御",
+      "meaning": "自制心",
+      "context": "",
+      "collocations": []
+    },
+    "in_favor_of": {
+      "tier": "known",
+      "surface": "in favor of",
+      "pos": "phrase · B2",
+      "pron": "/ɪn ˈfeɪ.vər əv/",
+      "literal": "〜を支持して、〜を優先して",
+      "meaning": "〜を支持して、〜を優先して",
+      "context": "",
+      "collocations": []
+    },
+    "joint_attention": {
+      "tier": "key",
+      "surface": "joint attention",
+      "pos": "n phrase · C1",
+      "pron": "/dʒɔɪnt əˈten.ʃən/",
+      "literal": "共同注意",
+      "meaning": "二人が同じ対象に注意を向ける現象",
+      "context": "",
+      "collocations": []
+    },
+    "look_for": {
+      "tier": "known",
+      "surface": "look for",
+      "pos": "phrasal v · A2",
+      "pron": "/lʊk fɔː/",
+      "literal": "探す",
+      "meaning": "探す",
+      "context": "",
+      "collocations": []
+    },
+    "magic_trick": {
+      "tier": "known",
+      "surface": "magic trick",
+      "pos": "n phrase · B1",
+      "pron": "/ˈmædʒ.ɪk trɪk/",
+      "literal": "手品",
+      "meaning": "手品師の芸",
+      "context": "",
+      "collocations": []
+    },
+    "mental_states": {
+      "tier": "known",
+      "surface": "mental states",
+      "pos": "n phrase · B2",
+      "pron": "/ˈmen.təl steɪts/",
+      "literal": "心的状態",
+      "meaning": "心的状態",
+      "context": "",
+      "collocations": []
+    },
+    "near_universal": {
+      "tier": "known",
+      "surface": "near-universal",
+      "pos": "adj phrase · C1",
+      "pron": "/nɪər ˌjuː.nɪˈvɜː.səl/",
+      "literal": "ほぼ普遍的な",
+      "meaning": "near + universal の組み合わせ",
+      "context": "",
+      "collocations": []
+    },
+    "no_matter_what": {
+      "tier": "known",
+      "surface": "no matter what",
+      "pos": "phrase · B1",
+      "pron": "/noʊ ˈmæt.ər wɒt/",
+      "literal": "何があっても",
+      "meaning": "何があっても",
+      "context": "",
+      "collocations": []
+    },
+    "object_permanence": {
+      "tier": "key",
+      "surface": "object permanence",
+      "pos": "n phrase · C1",
+      "pron": "/ˈɒb.dʒekt ˈpɜː.mə.nəns/",
+      "literal": "対象の永続性",
+      "meaning": "対象が見えなくても存在し続けると理解する能力",
+      "context": "ピアジェ理論の中核概念。",
+      "collocations": []
+    },
+    "out_of_mind": {
+      "tier": "known",
+      "surface": "out of mind",
+      "pos": "phrase · B2",
+      "pron": "/aʊt əv maɪnd/",
+      "literal": "念頭から外れて",
+      "meaning": "忘れられて",
+      "context": "",
+      "collocations": []
+    },
+    "out_of_sight": {
+      "tier": "known",
+      "surface": "out of sight",
+      "pos": "phrase · B2",
+      "pron": "/aʊt əv saɪt/",
+      "literal": "視界から外れて",
+      "meaning": "見えないところに",
+      "context": "",
+      "collocations": []
+    },
+    "peek_a_boo": {
+      "tier": "key",
+      "surface": "Peek-a-boo",
+      "pos": "n · B2",
+      "pron": "/ˈpiːk.ə.buː/",
+      "literal": "いないいないばあ",
+      "meaning": "英語圏の乳児向け代表的遊び",
+      "context": "",
+      "collocations": []
+    },
+    "play_pretend": {
+      "tier": "known",
+      "surface": "playing pretend",
+      "pos": "v phrase · B1",
+      "pron": "/ˈpleɪ.ɪŋ prɪˈtend/",
+      "literal": "ごっこ遊び",
+      "meaning": "ごっこ遊び",
+      "context": "",
+      "collocations": []
+    },
+    "prime_example": {
+      "tier": "known",
+      "surface": "prime example",
+      "pos": "n phrase · B2",
+      "pron": "/praɪm ɪɡˈzɑːm.pl/",
+      "literal": "好例、代表例",
+      "meaning": "好例、代表例",
+      "context": "",
+      "collocations": []
+    },
+    "range_from_to": {
+      "tier": "known",
+      "surface": "range from … to",
+      "pos": "v phrase · B2",
+      "pron": "/reɪndʒ frɒm tə/",
+      "literal": "〜から〜まで及ぶ",
+      "meaning": "幅を示す",
+      "context": "",
+      "collocations": []
+    },
+    "serve_and_return": {
+      "tier": "key",
+      "surface": "serve and return",
+      "pos": "n phrase · C1",
+      "pron": "/sɜːv ənd rɪˈtɜːn/",
+      "literal": "サーブ&リターン",
+      "meaning": "乳児と養育者の対話的やりとり(発達用語)",
+      "context": "",
+      "collocations": []
+    },
+    "six_month_olds": {
+      "tier": "known",
+      "surface": "6-month-olds",
+      "pos": "n phrase · B2",
+      "pron": "/sɪks mʌnθ oʊldz/",
+      "literal": "生後6ヶ月児",
+      "meaning": "年齢を表すハイフン名詞",
+      "context": "",
+      "collocations": []
+    },
+    "social_play": {
+      "tier": "key",
+      "surface": "social play",
+      "pos": "n phrase · C1",
+      "pron": "/ˈsoʊ.ʃəl pleɪ/",
+      "literal": "ソーシャルプレイ",
+      "meaning": "他者と関わる遊びの総称",
+      "context": "",
+      "collocations": []
+    },
+    "social_smiling": {
+      "tier": "known",
+      "surface": "social smiling",
+      "pos": "n phrase · C1",
+      "pron": "/ˈsoʊ.ʃəl ˈsmaɪ.lɪŋ/",
+      "literal": "社会的微笑",
+      "meaning": "他者に向けた微笑み(発達指標)",
+      "context": "",
+      "collocations": []
+    },
+    "sprinkled_with": {
+      "tier": "known",
+      "surface": "sprinkled with",
+      "pos": "phrase · B2",
+      "pron": "/ˈsprɪŋ.kld wɪð/",
+      "literal": "〜が散りばめられた",
+      "meaning": "〜が散りばめられた",
+      "context": "",
+      "collocations": []
+    },
+    "theory_of_mind": {
+      "tier": "key",
+      "surface": "theory of mind",
+      "pos": "n phrase · C1",
+      "pron": "/ˈθɪə.ri əv maɪnd/",
+      "literal": "心の理論",
+      "meaning": "他者の心的状態を推測する力",
+      "context": "",
+      "collocations": []
+    },
+    "turn_taking": {
+      "tier": "known",
+      "surface": "turn-taking",
+      "pos": "n phrase · B2",
+      "pron": "/tɜːn ˈteɪ.kɪŋ/",
+      "literal": "順番交代",
+      "meaning": "会話・遊びでの交代",
+      "context": "",
+      "collocations": []
+    },
+    "wind_up": {
+      "tier": "known",
+      "surface": "wind up",
+      "pos": "phrasal v · B2",
+      "pron": "/waɪnd ʌp/",
+      "literal": "結局〜することになる",
+      "meaning": "end up と類義",
+      "context": "",
+      "collocations": []
+    }
+  }
+}
