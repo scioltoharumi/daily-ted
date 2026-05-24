@@ -102,9 +102,17 @@ interface TalkJson {
   // 背景情報(Talk冒頭に表示)
   background: {
     summary: string;                  // 150字程度の概要(日本語)
-    details: string[];                // 3-5個の詳細項目(日本語)
+    details: string[];                // 3-5個の詳細項目(日本語、"見出し: 本文" 等の自由文字列)
   };
-  
+
+  // v3.4 / D-204: 段落単位の日本語要約(背景とトランスクリプトの間に表示)
+  // transcript の paragraphs と paragraph_id で 1対1 対応。順序も一致させる。
+  // 合計 1000 字以内、各段落 80-150 字目安。
+  paragraph_summaries_ja: Array<{
+    paragraph_id: string;             // "p1", "p2", ... — transcript.Paragraph.id と一致
+    summary: string;                  // 該当段落の日本語要約
+  }>;
+
   // トランスクリプト(段落・文・トークンの3階層)
   transcript: Paragraph[];
   
@@ -195,7 +203,12 @@ interface ExpressionEntry {
       "関連分野:発達心理学 / 認知発達 / Serve-and-return理論"
     ]
   },
-  
+
+  "paragraph_summaries_ja": [
+    {"paragraph_id": "p1", "summary": "イタリア語の cucù、パレスチナの ba''éno、日本の「いないいないばあ」── 言語は違えど世界中の乳児が同じく笑う。最初に遊ぶこのおどけたゲームの魅力とは?"},
+    {"paragraph_id": "p2", "summary": "1936年ピアジェが乳児発達を初めて体系化。現代では境界は流動的とされるが、彼が特定した初期段階こそ peek-a-boo を理解する鍵となる。"}
+  ],
+
   "transcript": [
     {
       "id": "p1",

@@ -167,6 +167,21 @@
   .background-list li { font-size: 13px; color: var(--ink-muted); line-height: 1.6; padding: 4px 0; padding-left: 16px; position: relative; }
   .background-list li::before { content: "·"; position: absolute; left: 4px; color: var(--ed-amber); font-weight: 700; }
 
+  /* ============ PARAGRAPH SUMMARIES (Japanese gist between background and transcript) ============ */
+  .summaries-card { background: var(--paper-card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; }
+  .summaries-card summary { cursor: pointer; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ed-amber); list-style: none; user-select: none; display: flex; align-items: center; justify-content: space-between; }
+  .summaries-card summary::-webkit-details-marker { display: none; }
+  .summaries-card summary::after { content: "▸"; transition: transform 0.2s; }
+  .summaries-card[open] summary { margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px dashed var(--line); }
+  .summaries-card[open] summary::after { transform: rotate(90deg); }
+  .summaries-list { list-style: none; padding-left: 0; margin: 0; counter-reset: psum; }
+  .summaries-list li { font-size: 13px; color: var(--ink-soft); line-height: 1.7; padding: 6px 0 6px 28px; position: relative; counter-increment: psum; }
+  .summaries-list li::before { content: counter(psum); position: absolute; left: 0; top: 6px; width: 20px; height: 20px; border-radius: 50%; background: var(--paper); border: 1px solid var(--line); color: var(--ed-amber); font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; display: flex; align-items: center; justify-content: center; }
+  .summaries-list a { color: inherit; text-decoration: none; cursor: pointer; border-bottom: 1px dashed transparent; transition: border-color 0.15s; }
+  .summaries-list a:hover { border-bottom-color: var(--ed-amber); }
+  .paragraph.flash { animation: flash 1.2s ease-out; }
+  @keyframes flash { 0% { background: rgba(216, 154, 49, 0.18); } 100% { background: transparent; } }
+
   /* ============ TRANSCRIPT ============ */
   .transcript { font-family: 'Fraunces', serif; font-size: 18px; line-height: 1.85; color: var(--ink); }
   .paragraph { margin-bottom: 24px; }
@@ -1310,6 +1325,13 @@ function openTalkDetail(date) {
         ${t.background.details.map(d => `<li>${d}</li>`).join('')}
       </ul>
     </details>
+    ${Array.isArray(t.paragraph_summaries_ja) && t.paragraph_summaries_ja.length ? `
+    <details class="summaries-card" open>
+      <summary>📋 セクション要約(日本語)</summary>
+      <ol class="summaries-list">
+        ${t.paragraph_summaries_ja.map(ps => `<li><a data-jump-pid="${ps.paragraph_id}">${ps.summary || ''}</a></li>`).join('')}
+      </ol>
+    </details>` : ''}
     <div class="transcript">
       ${t.transcript.map(p => paragraphHTML(p, t)).join('')}
     </div>
@@ -1324,6 +1346,19 @@ function openTalkDetail(date) {
   document.getElementById('talkDetailContent').querySelectorAll('[data-sent]').forEach(el => {
     el.addEventListener('click', e => { e.stopPropagation(); openSentenceModal(t.id, el.dataset.sent); });
   });
+  // Paragraph summary links → scroll to target paragraph in transcript with flash highlight
+  document.getElementById('talkDetailContent').querySelectorAll('[data-jump-pid]').forEach(el => {
+    el.addEventListener('click', e => {
+      e.stopPropagation();
+      const pid = el.dataset.jumpPid;
+      const target = document.querySelector(`#talkDetailContent .paragraph[data-pid="${pid}"]`);
+      if (!target) return;
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      target.classList.remove('flash');
+      void target.offsetWidth; // force reflow to restart animation
+      target.classList.add('flash');
+    });
+  });
 }
 function closeTalkDetail() {
   document.getElementById('talkDetail').classList.remove('open');
@@ -1332,7 +1367,7 @@ function closeTalkDetail() {
 }
 
 function paragraphHTML(p, talk) {
-  return `<div class="paragraph">
+  return `<div class="paragraph" data-pid="${p.id}">
     <div class="para-time">[${formatDuration(Math.floor(p.start_sec))}]</div>
     <div>
       ${p.sentences.map(s => sentenceHTML(s, talk)).join(' ')}
