@@ -2,8 +2,8 @@
   "name": "Daily TED",
   "short_name": "DailyTED",
   "description": "TED-Edで毎日英語学習。タップで全単語の意味・例文・背景・コロケーションが見える個人用 PWA。",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "../",
+  "scope": "../",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fafaf7",
@@ -11,13 +11,13 @@
   "lang": "ja",
   "icons": [
     {
-      "src": "./public/icon-192.svg",
+      "src": "./icon-192.svg",
       "sizes": "192x192",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "./public/icon-512.svg",
+      "src": "./icon-512.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any maskable"
