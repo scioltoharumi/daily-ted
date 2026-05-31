@@ -134,3 +134,26 @@
 - `youtube-transcript-api` の `http_client` パラメータにカスタム Session を渡せるが(v1.2.4 確認済み)、IP ブロック自体は回避できない。
 - 次回同様のケースでは: (1)別時間帯の再実行を検討、(2)ed.ted.com ＋ 原作情報で再構成、(3) `skipped_dates` への追加ではなく「再構成トランスクリプト」として記録する方針を維持する。
 - `ed.ted.com/lessons/{slug}` の lesson slug は `fetch_ted_ed_videos.py` が返す title から推定できる(タイトルの単語をハイフン区切り小文字に変換)。
+
+---
+
+## 2026-05-30 TED-Ed の YouTube 限定シリーズは意図的に除外される
+
+**問題**: YouTube に上がっている TED-Ed 動画(例: `BlK23YzqXOM` "Why your best ideas usually start as bad ones | Think Like A Musician")がサイトに反映されないという問い合わせ。
+
+**原因**: 当該動画は **ted.com にレッスンページが存在しない** YouTube 限定シリーズコンテンツだった。確認手順:
+1. ted.com の `topic(slug:"ted+ed").videos` 一覧に含まれない
+2. slug を 2 パターン推測して直接アクセスしても全て `HTTP 404`
+3. YouTube タイトルの `| Think Like A Musician` というシリーズ接尾辞が YouTube 限定企画であることを示唆
+
+TED-Ed のコンテンツストリームは複数あり、(a) 従来型 TED-Ed Lessons(ted.com に独立ページ + 公式トランスクリプト)、(b) YouTube 限定シリーズ ("Think Like A...", short-form 等)、(c) TED-Ed Originals 等の中間カテゴリに分かれる。**Daily TED は (a) のみを対象とする**(D-019)。
+
+**対応**: 何もしない(仕様どおり)。問い合わせユーザに「YouTube 限定シリーズで ted.com lesson ページが無いため意図的に除外」と説明。
+
+**教訓**:
+- 「YouTube に上がっている TED-Ed 動画 = ted.com にもある」という前提は**誤り**。TED-Ed の YouTube チャンネルは ted.com lesson より広いセットを配信している。
+- 同種問い合わせの即答チェックリスト:
+  1. `topic(slug:"ted+ed").videos` の一覧に含まれるか確認
+  2. 含まれなければ「YouTube 限定 = 公式トランスクリプト無し = NEVER FABRICATE 原則で除外」と説明
+  3. 例外運用(手動投入)を要望される場合は `docs/requirements_v3.md` の仕様変更を要する(VERBATIM 厳守の例外条項が必要)。
+- YouTube 自動字幕は D-016 で既に退役済み(公式 lesson 本文と乖離・固有名詞の破損)のため、字幕からの再構成も選択肢に含めない。
