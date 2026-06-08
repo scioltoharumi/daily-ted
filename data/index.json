@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-06-01T06:00:00+09:00",
+  "updated_at": "2026-06-08T00:09:19+00:00",
   "talks": [
+    {
+      "id": "talk_2026-06-04",
+      "date": "2026-06-04",
+      "source": "ted-ed",
+      "primary_topic": "Biology",
+      "tags": [
+        "cats",
+        "catnip",
+        "biology",
+        "evolution",
+        "insect-repellent",
+        "neurochemistry"
+      ],
+      "difficulty": "medium",
+      "title": "Why does catnip make cats go crazy?",
+      "speaker": "Jaap de Roode",
+      "duration_sec": 286,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_179430/a9cc353a-54ae-465b-968d-5e500065611a/catnip_Textless.jpg",
+      "published_at": "2026-06-04T15:03:34Z"
+    },
+    {
+      "id": "talk_2026-06-02",
+      "date": "2026-06-02",
+      "source": "ted-ed",
+      "primary_topic": "Literature",
+      "tags": [
+        "fairy-tales",
+        "brothers-grimm",
+        "folklore",
+        "germany",
+        "romanticism",
+        "literary-history"
+      ],
+      "difficulty": "hard",
+      "title": "The dark origins of Disney fairy tales",
+      "speaker": "Claudia Schwabe",
+      "duration_sec": 314,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_179431/fef054bf-35a9-4c67-b226-3d38d1ff233e/textless_brothersgrimm.jpg",
+      "published_at": "2026-06-02T15:01:26Z"
+    },
     {
       "id": "talk_2026-05-30",
       "date": "2026-05-30",
@@ -234,6 +274,10 @@
     "2026-05-28",
     "2026-05-29",
     "2026-05-31",
-    "2026-06-01"
+    "2026-06-01",
+    "2026-06-03",
+    "2026-06-05",
+    "2026-06-06",
+    "2026-06-07"
   ]
 }
