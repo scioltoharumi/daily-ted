@@ -1,0 +1,4334 @@
+{
+  "id": "talk_2026-06-04",
+  "date": "2026-06-04",
+  "source": "ted-ed",
+  "primary_topic": "Biology",
+  "tags": [
+    "cats",
+    "catnip",
+    "biology",
+    "evolution",
+    "insect-repellent",
+    "neurochemistry"
+  ],
+  "difficulty": "medium",
+  "slug": "jaap_de_roode_why_does_catnip_make_cats_go_crazy",
+  "video_id": "179430",
+  "title": "Why does catnip make cats go crazy?",
+  "speaker": "Jaap de Roode",
+  "duration_sec": 286,
+  "published_at": "2026-06-04T15:03:34Z",
+  "video_url": "https://www.ted.com/talks/jaap_de_roode_why_does_catnip_make_cats_go_crazy",
+  "embed_url": "https://embed.ted.com/talks/jaap_de_roode_why_does_catnip_make_cats_go_crazy",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_179430/a9cc353a-54ae-465b-968d-5e500065611a/catnip_Textless.jpg",
+  "background": {
+    "summary": "猫がマタタビとキャットニップに熱狂する謎を、2013年の宮崎雅雄チーム(岩手大・名古屋大)が解明。両植物の活性化合物 nepetalactol/nepetalactone がエンドルフィン放出を誘導し、同時に虫よけ効果を発揮する ── 数百万年来の進化的形質という結論。",
+    "details": [
+      "Masao Miyazaki(岩手大学・猫行動学): キャットニップとマタタビ研究の第一人者。Toshio Nishikawa(名古屋大学・化学)、学生 Reiko Uenoyama らと共同研究。",
+      "Nepetalactol(マタタビ由来) / Nepetalactone(キャットニップ由来): どちらも iridoid に分類される自然化合物で、昆虫忌避特性を持つことで知られる。",
+      "進化的視点: ライオン・ヒョウ・ジャガーなど大型ネコ科も同様の反応を示すため、数百万年遡る共通形質と推定される。",
+      "実証実験: ネペタラクトール処理した紙に頭を突っ込んだ猫は、対照群より蚊に刺されにくくなった。植物を噛むと忌避化学物質の産出が増えることも確認。",
+      "他種の類似行動: 類人猿はざらつき・毛深い葉を飲んで寄生虫を腸から落とし、羊はタンニン豊富な植物で腸内寄生虫を殺し、オオカバマダラは有毒乳草で寄生虫を駆除する。"
+    ]
+  },
+  "paragraph_summaries_ja": [
+    {
+      "paragraph_id": "p1",
+      "summary": "猫の不可解な行動の中で最も奇妙なのが特定植物への執着。ひと嗅ぎで冷静な猫も恍惚状態に。2013年宮崎雅雄(岩手大)と西川俊夫(名大)がマタタビから始めて化合物 nepetalactol を特定、血中エンドルフィン急増を確認した。キャットニップの nepetalactone も同じ機序だ。"
+    },
+    {
+      "paragraph_id": "p2",
+      "summary": "効果は小型ネコだけではない。動物園のヒョウ・オオヤマネコ・ジャガーも反応した。化学的に両物質は iridoid に分類され、昆虫忌避特性で知られる。つまり猫の植物擦り行動は「古代版の虫よけスプレー」だった可能性が浮上した。"
+    },
+    {
+      "paragraph_id": "p3",
+      "summary": "蚊のケージに頭を入れる実験で、ネペタラクトール処理した猫は対照群より蚊に刺されにくいことが実証 ── 共に腕を出した科学者も同じ効果を得た。これが現状最良の説明。だが恍惚で噛みつき・舐め・擦りつける必要は本当にあるのか?"
+    },
+    {
+      "paragraph_id": "p4",
+      "summary": "微量でも紙は抗いがたい魅力だった ── 擦るだけで微量転移が可能。さらに猫が葉を傷つけると忌避化学物質の産出量が増えることも判明。袋を引き裂く行動は嫌がらせではなく、より多くの虫よけを得ようとする進化的本能。"
+    },
+    {
+      "paragraph_id": "p5",
+      "summary": "植物を医薬的に使う動物は猫だけではない。類人猿はざらつき葉で寄生虫を腸から落とし、羊はタンニン植物で腸内虫を殺し、オオカバマダラは有毒乳草で寄生虫を駆除。猫の例同様、これらの行動は人間にとっても有用植物発見の手がかりとなる。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.961,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Of the many bewildering behaviors cats display, one of the strangest is their obsession with a specific species of plant.",
+          "translation_ja": "猫が見せる数々の不可解な行動の中でも、最も奇妙なものの一つが特定の植物種への執着だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Of the many bewildering behaviors cats display"
+            },
+            {
+              "label": "S",
+              "content": "one of the strangest"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "their obsession with a specific species of plant"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Of the many "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "bewildering",
+              "ref": "bewildering",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "behaviors",
+              "ref": "behaviors",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " cats display, one of the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "strangest",
+              "ref": "strangest",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " is their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "obsession",
+              "ref": "obsession",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " with a "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "specific",
+              "ref": "specific",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "species",
+              "ref": "species",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " of plant."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "After just one whiff, even the most stoic cat can start pawing, drooling, biting, and wriggling in a state of pure feline euphoria.",
+          "translation_ja": "ほんの一嗅ぎで、最も冷静な猫ですら、純粋なネコ的恍惚の状態で前足を出し、よだれを垂らし、噛みつき、身をくねらせ始めることがある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "After just one whiff"
+            },
+            {
+              "label": "S",
+              "content": "even the most stoic cat"
+            },
+            {
+              "label": "V",
+              "content": "can start"
+            },
+            {
+              "label": "O",
+              "content": "pawing, drooling, biting, and wriggling"
+            },
+            {
+              "label": "M",
+              "content": "in a state of pure feline euphoria"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "After just one "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "whiff",
+              "ref": "whiff",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", even the most "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "stoic",
+              "ref": "stoic",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " cat can start "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "pawing",
+              "ref": "pawing",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "drooling",
+              "ref": "drooling",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "biting",
+              "ref": "biting",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "wriggling",
+              "ref": "wriggling",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " in a state of pure "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "feline",
+              "ref": "feline",
+              "tier": "key"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "euphoria",
+              "ref": "euphoria",
+              "tier": "key"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "So, why do cats go crazy for catnip?",
+          "translation_ja": "では、なぜ猫はキャットニップに熱狂するのか?",
+          "structure": [
+            {
+              "label": "M",
+              "content": "So"
+            },
+            {
+              "label": "S",
+              "content": "cats"
+            },
+            {
+              "label": "V",
+              "content": "go"
+            },
+            {
+              "label": "C",
+              "content": "crazy for catnip"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So, why do cats "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "go crazy for",
+              "ref": "go_crazy_for"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "catnip",
+              "ref": "catnip",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "?"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This is the question cat behavior expert Masao Miyazaki and chemist Toshio Nishikawa set out to answer in 2013.",
+          "translation_ja": "これが、猫行動の専門家 宮崎雅雄と化学者 西川俊夫が2013年に答えようと乗り出した問いだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "the question cat behavior expert Masao Miyazaki and chemist Toshio Nishikawa set out to answer in 2013"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This is the question cat behavior "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "expert",
+              "ref": "expert",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Masao Miyazaki and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "chemist",
+              "ref": "chemist",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " Toshio Nishikawa "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "set out to",
+              "ref": "set_out_to"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " answer in 2013."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Along with their research teams from Iwate and Nagoya University, they began by studying silvervine— a plant that sparks a similar response to catnip.",
+          "translation_ja": "岩手大学と名古屋大学の研究チームと共に、彼らはマタタビ ── キャットニップに似た反応を引き起こす植物 ── の研究から始めた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Along with their research teams from Iwate and Nagoya University"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "began"
+            },
+            {
+              "label": "M",
+              "content": "by studying silvervine— a plant that sparks a similar response to catnip"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "Along with",
+              "ref": "along_with"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " their research "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "teams",
+              "ref": "teams",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " from Iwate and Nagoya University, they began by "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "studying",
+              "ref": "studying",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "silvervine",
+              "ref": "silvervine",
+              "tier": "key"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": "— a plant that "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "sparks",
+              "ref": "sparks",
+              "tier": "known"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "similar",
+              "ref": "similar",
+              "tier": "skip"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "response",
+              "ref": "response",
+              "tier": "skip"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": " to catnip."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "First, the researchers painstakingly extracted chemical compounds from the plant and dribbled various combinations of them onto filter papers.",
+          "translation_ja": "まず研究者は丹念に植物から化学化合物を抽出し、それらの様々な組み合わせを濾紙に滴下した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "First"
+            },
+            {
+              "label": "S",
+              "content": "the researchers"
+            },
+            {
+              "label": "V",
+              "content": "extracted / dribbled",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "chemical compounds from the plant / various combinations of them onto filter papers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "First, the researchers "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "painstakingly",
+              "ref": "painstakingly",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "extracted",
+              "ref": "extracted",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " chemical "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "compounds",
+              "ref": "compounds",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " from the plant and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "dribbled",
+              "ref": "dribbled",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " various "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "combinations",
+              "ref": "combinations",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " of them onto "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "filter papers",
+              "ref": "filter_papers"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Then they brought in some cats and studied which compounds they were drawn to.",
+          "translation_ja": "次に彼らは何匹かの猫を連れてきて、どの化合物に惹かれるかを調べた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "brought / studied",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "some cats / which compounds they were drawn to"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then they "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "brought in",
+              "ref": "bring_in"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " some cats and studied which compounds they were "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "drawn to",
+              "ref": "drawn_to"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "Overwhelmingly, their feline testers pounced on the papers containing nepetalactol.",
+          "translation_ja": "圧倒的多数で、ネコの被験者たちは nepetalactol を含む紙に飛びついた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Overwhelmingly"
+            },
+            {
+              "label": "S",
+              "content": "their feline testers"
+            },
+            {
+              "label": "V",
+              "content": "pounced"
+            },
+            {
+              "label": "M",
+              "content": "on the papers containing nepetalactol"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Overwhelmingly",
+              "ref": "overwhelmingly",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", their feline "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "testers",
+              "ref": "testers",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "pounced",
+              "ref": "pounced",
+              "tier": "key"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " on the papers "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "containing",
+              "ref": "containing",
+              "tier": "skip"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "nepetalactol",
+              "ref": "nepetalactol",
+              "tier": "key"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "And when Miyazaki and his student Reiko Uenoyama ran blood tests on the cats who'd interacted with nepetalactol, they found their systems were flooded with endorphins.",
+          "translation_ja": "そして宮崎と学生 上野山玲子がネペタラクトールと接触した猫の血液検査を行ったところ、体内がエンドルフィンで満たされていることが分かった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "when Miyazaki and his student Reiko Uenoyama ran blood tests on the cats who'd interacted with nepetalactol",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "found"
+            },
+            {
+              "label": "O",
+              "content": "their systems were flooded with endorphins"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And when Miyazaki and his student Reiko Uenoyama ran "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "blood tests",
+              "ref": "blood_tests"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " on the cats who'd "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "interacted",
+              "ref": "interacted",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with nepetalactol, they found their systems were "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "flooded with",
+              "ref": "flooded_with"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "endorphins",
+              "ref": "endorphins",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s10",
+          "text": "These hormones block pain signals, relieve stress, and generally create a happy, calming effect.",
+          "translation_ja": "これらのホルモンは痛みの信号をブロックし、ストレスを和らげ、概して幸福で落ち着いた効果を生む。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These hormones"
+            },
+            {
+              "label": "V",
+              "content": "block / relieve / create",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "pain signals / stress / a happy, calming effect"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "hormones",
+              "ref": "hormones",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " block "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "pain signals",
+              "ref": "pain_signals"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "relieve",
+              "ref": "relieve",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " stress, and generally create a happy, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "calming",
+              "ref": "calming",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " effect."
+            }
+          ]
+        },
+        {
+          "id": "s11",
+          "text": "And catnip triggers the same endorphin rush with a similar chemical called nepetalactone, and it's this flood of happy hormones that gives catnip and silvervine their signature drug-like response.",
+          "translation_ja": "そしてキャットニップは nepetalactone と呼ばれる類似化合物で同じエンドルフィンの奔流を引き起こす。この幸福ホルモンの洪水こそ、キャットニップとマタタビの代表的な薬物様反応を生むのだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "catnip"
+            },
+            {
+              "label": "V",
+              "content": "triggers"
+            },
+            {
+              "label": "O",
+              "content": "the same endorphin rush"
+            },
+            {
+              "label": "M",
+              "content": "with a similar chemical called nepetalactone"
+            },
+            {
+              "label": "M",
+              "content": "and it's this flood of happy hormones that gives catnip and silvervine their signature drug-like response",
+              "note": "強調 it…that 構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And catnip "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "triggers",
+              "ref": "triggers",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the same "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "endorphin rush",
+              "ref": "endorphin_rush"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with a similar "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "chemical",
+              "ref": "chemical",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " called "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "nepetalactone",
+              "ref": "nepetalactone",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and it's this "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "flood",
+              "ref": "flood",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " of happy hormones that gives catnip and silvervine their "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "signature",
+              "ref": "signature",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "expression",
+              "surface": "drug-like",
+              "ref": "drug_like"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": " response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 107.228,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "These compounds don't just trigger this effect in small cats.",
+          "translation_ja": "これらの化合物は、小型のネコ類だけに効果を引き起こすのではない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These compounds"
+            },
+            {
+              "label": "V",
+              "content": "don't just trigger"
+            },
+            {
+              "label": "O",
+              "content": "this effect in small cats"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These compounds don't just "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "trigger",
+              "ref": "trigger",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " this effect in small cats."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "When the researchers brought nepetalactol-treated filter papers to a few zoos, leopards, lynxes, and jaguars all dove face first into the compound.",
+          "translation_ja": "研究者がネペタラクトール処理した濾紙をいくつかの動物園に持ち込むと、ヒョウ、オオヤマネコ、ジャガーが揃って顔から化合物に突っ込んだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "When the researchers brought nepetalactol-treated filter papers to a few zoos",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "leopards, lynxes, and jaguars"
+            },
+            {
+              "label": "V",
+              "content": "dove"
+            },
+            {
+              "label": "M",
+              "content": "face first into the compound"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "When the researchers brought "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "nepetalactol-treated",
+              "ref": "nepetalactol_treated"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " filter papers to a few "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "zoos",
+              "ref": "zoos",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "leopards",
+              "ref": "leopards",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "lynxes",
+              "ref": "lynxes",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "jaguars",
+              "ref": "jaguars",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " all dove "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "face first",
+              "ref": "face_first"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " into the compound."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This was big news.",
+          "translation_ja": "これは大ニュースだった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "big news"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This was big news."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "If all these different cat species reacted to nepetalactol in the same way, the response was very likely a shared evolutionary trait— potentially something important to cat survival that stretched back millions of years.",
+          "translation_ja": "もしこれら異なるネコ種すべてが同じ仕方でネペタラクトールに反応するなら、その反応は共有された進化的形質である可能性が高い ── 数百万年前まで遡る、猫の生存に重要なものかもしれない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "If all these different cat species reacted to nepetalactol in the same way",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "the response"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "very likely a shared evolutionary trait— potentially something important to cat survival that stretched back millions of years"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "If all these different cat species "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "reacted",
+              "ref": "reacted",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to nepetalactol in the same way, the response was very likely a shared "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "evolutionary",
+              "ref": "evolutionary",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "trait",
+              "ref": "trait",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "— "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "potentially",
+              "ref": "potentially",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " something important to cat "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "survival",
+              "ref": "survival",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " that "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "stretched back",
+              "ref": "stretched_back"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " millions of years."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "When the silvervine researchers presented their work at a conference, one evolutionary biologist raised a compelling theory.",
+          "translation_ja": "マタタビ研究者たちが学会で成果を発表した際、ある進化生物学者が説得力ある仮説を提示した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "When the silvervine researchers presented their work at a conference",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "one evolutionary biologist"
+            },
+            {
+              "label": "V",
+              "content": "raised"
+            },
+            {
+              "label": "O",
+              "content": "a compelling theory"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "When the silvervine researchers "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "presented",
+              "ref": "presented",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their work at a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "conference",
+              "ref": "conference",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", one evolutionary "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "biologist",
+              "ref": "biologist",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " raised a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "compelling",
+              "ref": "compelling",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " theory."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "In chemical terms, both nepetalactol and nepetalactone are classified as an iridoid— a type of natural compound known to contain insect-repelling properties.",
+          "translation_ja": "化学的に言えば、ネペタラクトールもネペタラクトンも iridoid に分類される。これは昆虫忌避特性を持つことで知られる自然化合物の一種だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In chemical terms"
+            },
+            {
+              "label": "S",
+              "content": "both nepetalactol and nepetalactone"
+            },
+            {
+              "label": "V",
+              "content": "are classified"
+            },
+            {
+              "label": "M",
+              "content": "as an iridoid— a type of natural compound known to contain insect-repelling properties"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In chemical terms, both nepetalactol and nepetalactone are "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "classified",
+              "ref": "classified",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " as an "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "iridoid",
+              "ref": "iridoid",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "— a type of natural "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "compound",
+              "ref": "compound",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " known to contain "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "insect-repelling",
+              "ref": "insect_repelling"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " properties."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "So perhaps cats rubbing their faces in silvervine and catnip were applying an ancient form of bug spray.",
+          "translation_ja": "つまり、マタタビとキャットニップに顔をこすりつける猫たちは、古代版の虫よけスプレーを塗布していたのかもしれない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "So perhaps"
+            },
+            {
+              "label": "S",
+              "content": "cats rubbing their faces in silvervine and catnip"
+            },
+            {
+              "label": "V",
+              "content": "were applying"
+            },
+            {
+              "label": "O",
+              "content": "an ancient form of bug spray"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So perhaps cats "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rubbing",
+              "ref": "rubbing",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their faces in silvervine and catnip were "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "applying",
+              "ref": "applying",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "ancient",
+              "ref": "ancient",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " form of "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "bug spray",
+              "ref": "bug_spray"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 165.119,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "To test this, researchers set up cages of mosquitoes that cats could stick their heads into.",
+          "translation_ja": "これを検証するため、研究者は猫が頭を突っ込めるような蚊のケージを用意した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "To test this"
+            },
+            {
+              "label": "S",
+              "content": "researchers"
+            },
+            {
+              "label": "V",
+              "content": "set up"
+            },
+            {
+              "label": "O",
+              "content": "cages of mosquitoes that cats could stick their heads into"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "To test this, researchers "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "set up",
+              "ref": "set_up"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " cages of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "mosquitoes",
+              "ref": "mosquitoes",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " that cats could "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "stick … into",
+              "ref": "stick_into"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " their heads into."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "And sure enough, the cats that had been treated with nepetalactol got fewer mosquito bites than the cats in the control group.",
+          "translation_ja": "案の定、ネペタラクトールで処理された猫は対照群の猫より蚊に刺される回数が少なかった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "sure enough"
+            },
+            {
+              "label": "S",
+              "content": "the cats that had been treated with nepetalactol"
+            },
+            {
+              "label": "V",
+              "content": "got"
+            },
+            {
+              "label": "O",
+              "content": "fewer mosquito bites than the cats in the control group"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "sure enough",
+              "ref": "sure_enough"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", the cats that had been "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "treated",
+              "ref": "treated",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with nepetalactol got fewer mosquito "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "bites",
+              "ref": "bites",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " than the cats in the "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "control group",
+              "ref": "control_group"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "The same effect was true for the scientists who'd volunteered their arms in solidarity with their feline subjects.",
+          "translation_ja": "同じ効果は、ネコ被験者との連帯で腕を提供した科学者たちにも当てはまった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The same effect"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "true"
+            },
+            {
+              "label": "M",
+              "content": "for the scientists who'd volunteered their arms in solidarity with their feline subjects"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The same effect was true for the scientists who'd "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "volunteered",
+              "ref": "volunteered",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their arms "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "in solidarity with",
+              "ref": "in_solidarity_with"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " their feline subjects."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "These mosquito-repelling properties are currently our best explanation for why cats love silvervine and catnip.",
+          "translation_ja": "この蚊忌避特性が、猫がマタタビとキャットニップを愛する理由の現状最良の説明だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These mosquito-repelling properties"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "currently our best explanation for why cats love silvervine and catnip"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "mosquito-repelling",
+              "ref": "mosquito_repelling"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " properties are "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "currently",
+              "ref": "currently",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " our best "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "explanation",
+              "ref": "explanation",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " for why cats love silvervine and catnip."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "But researchers still had one more question: in their state of euphoria, cats tend to vigorously bite, lick, and rub against these plants.",
+          "translation_ja": "しかし研究者にはまだ一つ疑問が残った。恍惚状態の猫は、これらの植物に激しく噛みつき、舐め、こすりつけがちだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "researchers"
+            },
+            {
+              "label": "V",
+              "content": "had"
+            },
+            {
+              "label": "O",
+              "content": "one more question"
+            },
+            {
+              "label": "M",
+              "content": "in their state of euphoria, cats tend to vigorously bite, lick, and rub against these plants"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But researchers still had one more question: in their state of euphoria, cats "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "tend to",
+              "ref": "tend_to"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "vigorously",
+              "ref": "vigorously",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " bite, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "lick",
+              "ref": "lick",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "rub",
+              "ref": "rub",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " against these plants."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "But do cats really need to go this crazy to get their bug repelling effects?",
+          "translation_ja": "だが、虫よけ効果を得るために猫はこれほど狂う必要が本当にあるのか?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "cats"
+            },
+            {
+              "label": "V",
+              "content": "do need"
+            },
+            {
+              "label": "O",
+              "content": "to go this crazy to get their bug repelling effects"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But do cats really need to go this crazy to get their "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "bug repelling",
+              "ref": "bug_repelling"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " effects?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 209.413,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "To investigate rubbing, they provided cats with filter papers treated with microscopic amounts of nepetalactol.",
+          "translation_ja": "こすりつけ行動を調べるため、彼らは微量のネペタラクトールで処理した濾紙を猫に与えた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "To investigate rubbing"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "provided"
+            },
+            {
+              "label": "O",
+              "content": "cats with filter papers treated with microscopic amounts of nepetalactol"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "To "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "investigate",
+              "ref": "investigate",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " rubbing, they "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "provided",
+              "ref": "provided",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " cats with filter papers treated with "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "microscopic",
+              "ref": "microscopic",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " amounts of nepetalactol."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "And sure enough, even these tiny doses made the papers irresistible, suggesting that microscopic amounts of bug repellent can be transferred by rubbing alone.",
+          "translation_ja": "案の定、この極微量でも紙は抗いがたい魅力となり、こすりつけだけで微量の虫よけが移ることが示唆された。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "sure enough"
+            },
+            {
+              "label": "S",
+              "content": "even these tiny doses"
+            },
+            {
+              "label": "V",
+              "content": "made"
+            },
+            {
+              "label": "O",
+              "content": "the papers irresistible"
+            },
+            {
+              "label": "M",
+              "content": "suggesting that microscopic amounts of bug repellent can be transferred by rubbing alone",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And sure enough, even these "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "tiny",
+              "ref": "tiny",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "doses",
+              "ref": "doses",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " made the papers "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "irresistible",
+              "ref": "irresistible",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", suggesting that microscopic amounts of "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "bug repellent",
+              "ref": "bug_repellent"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " can be "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "transferred",
+              "ref": "transferred",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " by rubbing "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "alone",
+              "ref": "alone",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "As for biting and licking, the researchers found that when cats damage the plant, the leaves actually produce more mosquito-repellent chemicals.",
+          "translation_ja": "噛みつきと舐めについては、猫が植物を傷つけると、葉が実際により多くの蚊忌避化学物質を産生することを研究者は発見した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "As for biting and licking"
+            },
+            {
+              "label": "S",
+              "content": "the researchers"
+            },
+            {
+              "label": "V",
+              "content": "found"
+            },
+            {
+              "label": "O",
+              "content": "that when cats damage the plant, the leaves actually produce more mosquito-repellent chemicals"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "As for",
+              "ref": "as_for"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " biting and licking, the researchers found that when cats "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "damage",
+              "ref": "damage",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " the plant, the "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "leaves",
+              "ref": "leaves",
+              "tier": "skip"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " actually produce more "
+            },
+            {
+              "id": "t7",
+              "type": "expression",
+              "surface": "mosquito-repellent",
+              "ref": "mosquito_repellent_compound"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " chemicals."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "So your cat isn't just ripping open their bags of catnip to be annoying, their evolutionary instincts are just trying to get even more of that bug protection.",
+          "translation_ja": "つまり猫が嫌がらせでキャットニップの袋を引き裂いているのではなく、進化的本能がもっと多くの虫よけ防護を得ようとしているだけなのだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "your cat"
+            },
+            {
+              "label": "V",
+              "content": "isn't just ripping open"
+            },
+            {
+              "label": "O",
+              "content": "their bags of catnip to be annoying"
+            },
+            {
+              "label": "M",
+              "content": "their evolutionary instincts are just trying to get even more of that bug protection",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So your cat isn't just "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "ripping open",
+              "ref": "rip_open"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " their bags of catnip "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "to be annoying",
+              "ref": "to_be_annoying"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", their evolutionary "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "instincts",
+              "ref": "instincts",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " are just trying to get even more of that bug "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "protection",
+              "ref": "protection",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 247.243,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Cats are far from the only animal to use natural plants for purposes like this.",
+          "translation_ja": "猫はこのような目的で自然の植物を使う唯一の動物では決してない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Cats"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "far from the only animal to use natural plants for purposes like this"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Cats are "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "far from",
+              "ref": "far_from"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the only animal to use natural plants for purposes like this."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Apes swallow scratchy and hairy leaves to dislodge parasites from their guts.",
+          "translation_ja": "類人猿はざらつき毛深い葉を飲み込んで腸から寄生虫を追い出す。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Apes"
+            },
+            {
+              "label": "V",
+              "content": "swallow"
+            },
+            {
+              "label": "O",
+              "content": "scratchy and hairy leaves"
+            },
+            {
+              "label": "M",
+              "content": "to dislodge parasites from their guts"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Apes",
+              "ref": "apes",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "swallow",
+              "ref": "swallow",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "scratchy",
+              "ref": "scratchy",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "hairy",
+              "ref": "hairy",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " leaves to "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "dislodge",
+              "ref": "dislodge",
+              "tier": "key"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "parasites",
+              "ref": "parasites",
+              "tier": "known"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " from their "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "guts",
+              "ref": "guts",
+              "tier": "known"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Sheep munch on tannin-rich plants to kill intestinal worms, and monarch butterflies use toxic milkweed to kill parasites that normally impair their flight.",
+          "translation_ja": "羊はタンニン豊富な植物を食べて腸内寄生虫を殺し、オオカバマダラは普段なら飛行を妨げる寄生虫を駆除するため有毒な乳草を使う。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Sheep"
+            },
+            {
+              "label": "V",
+              "content": "munch"
+            },
+            {
+              "label": "M",
+              "content": "on tannin-rich plants to kill intestinal worms"
+            },
+            {
+              "label": "M",
+              "content": "and monarch butterflies use toxic milkweed to kill parasites that normally impair their flight",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Sheep",
+              "ref": "sheep",
+              "tier": "skip"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "munch",
+              "ref": "munch",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " on "
+            },
+            {
+              "id": "t5",
+              "type": "expression",
+              "surface": "tannin-rich",
+              "ref": "tannin_rich"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " plants to kill "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "intestinal",
+              "ref": "intestinal",
+              "tier": "known"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "worms",
+              "ref": "worms",
+              "tier": "known"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t11",
+              "type": "expression",
+              "surface": "monarch butterflies",
+              "ref": "monarch_butterflies"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " use "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "toxic",
+              "ref": "toxic",
+              "tier": "known"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t15",
+              "type": "word",
+              "surface": "milkweed",
+              "ref": "milkweed",
+              "tier": "key"
+            },
+            {
+              "id": "t16",
+              "type": "skip",
+              "surface": " to kill parasites that "
+            },
+            {
+              "id": "t17",
+              "type": "word",
+              "surface": "normally",
+              "ref": "normally",
+              "tier": "skip"
+            },
+            {
+              "id": "t18",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t19",
+              "type": "word",
+              "surface": "impair",
+              "ref": "impair",
+              "tier": "known"
+            },
+            {
+              "id": "t20",
+              "type": "skip",
+              "surface": " their flight."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Just like cats' ability to find mosquito repellent, these behaviors can help humans identify useful plants and ingredients in the natural world.",
+          "translation_ja": "蚊忌避剤を見つける猫の能力と同様に、これらの行動は人間が自然界で有用な植物や成分を特定する助けになりうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Just like cats' ability to find mosquito repellent"
+            },
+            {
+              "label": "S",
+              "content": "these behaviors"
+            },
+            {
+              "label": "V",
+              "content": "can help"
+            },
+            {
+              "label": "O",
+              "content": "humans identify useful plants and ingredients in the natural world"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Just like cats' "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "ability",
+              "ref": "ability",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to find "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "mosquito repellent",
+              "ref": "mosquito_repellent"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", these behaviors can help humans "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "identify",
+              "ref": "identify",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " useful plants and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "ingredients",
+              "ref": "ingredients",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " in the natural world."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "So, the next time you see your feline friend on catnip binge, don't worry— it's only medicinal.",
+          "translation_ja": "だから次回、ネコの友がキャットニップに耽溺しているのを見かけても心配無用 ── ただの薬用なのだから。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "the next time you see your feline friend on catnip binge",
+              "note": "時節"
+            },
+            {
+              "label": "V",
+              "content": "don't worry"
+            },
+            {
+              "label": "M",
+              "content": "it's only medicinal",
+              "note": "補足"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So, the next time you see your feline friend on catnip "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "binge",
+              "ref": "binge",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", don't worry— it's only "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "medicinal",
+              "ref": "medicinal",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "ability": {
+      "tier": "skip",
+      "surface": "ability",
+      "pos": "n · A2",
+      "pron": "/əˈbɪl.ə.ti/",
+      "meaning": "能力",
+      "example": {
+        "en": "Special ability.",
+        "ja": "特殊能力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alone": {
+      "tier": "skip",
+      "surface": "alone",
+      "pos": "adv · A2",
+      "pron": "/əˈloʊn/",
+      "meaning": "だけで",
+      "example": {
+        "en": "By rubbing alone.",
+        "ja": "こするだけで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ancient": {
+      "tier": "skip",
+      "surface": "ancient",
+      "pos": "adj · A2",
+      "pron": "/ˈeɪn.ʃənt/",
+      "meaning": "古代の",
+      "example": {
+        "en": "Ancient ruins.",
+        "ja": "古代遺跡。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "apes": {
+      "tier": "known",
+      "surface": "apes",
+      "pos": "n · B1",
+      "pron": "/eɪps/",
+      "meaning": "類人猿",
+      "example": {
+        "en": "Great apes.",
+        "ja": "大型類人猿。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "applying": {
+      "tier": "skip",
+      "surface": "applying",
+      "pos": "v · A2",
+      "pron": "/əˈplaɪ.ɪŋ/",
+      "meaning": "適用して",
+      "example": {
+        "en": "Applying cream.",
+        "ja": "クリームを塗って。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "behaviors": {
+      "tier": "known",
+      "surface": "behaviors",
+      "pos": "n · B1",
+      "pron": "/bɪˈheɪv.jəz/",
+      "meaning": "行動",
+      "example": {
+        "en": "Cat behaviors.",
+        "ja": "猫の行動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bewildering": {
+      "tier": "key",
+      "surface": "bewildering",
+      "pos": "adj · C1",
+      "pron": "/bɪˈwɪl.dər.ɪŋ/",
+      "meaning": "当惑させる",
+      "example": {
+        "en": "Bewildering array.",
+        "ja": "当惑させる多様性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "binge": {
+      "tier": "key",
+      "surface": "binge",
+      "pos": "n · B2",
+      "pron": "/bɪndʒ/",
+      "meaning": "耽溺、過度な熱中",
+      "example": {
+        "en": "Binge watching.",
+        "ja": "一気見。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "biologist": {
+      "tier": "known",
+      "surface": "biologist",
+      "pos": "n · B1",
+      "pron": "/baɪˈɒl.ə.dʒɪst/",
+      "meaning": "生物学者",
+      "example": {
+        "en": "Marine biologist.",
+        "ja": "海洋生物学者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bites": {
+      "tier": "known",
+      "surface": "bites",
+      "pos": "n · B1",
+      "pron": "/baɪts/",
+      "meaning": "刺し傷",
+      "example": {
+        "en": "Insect bites.",
+        "ja": "虫刺され。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "biting": {
+      "tier": "skip",
+      "surface": "biting",
+      "pos": "v · A2",
+      "pron": "/ˈbaɪ.tɪŋ/",
+      "meaning": "噛んで",
+      "example": {
+        "en": "Biting hard.",
+        "ja": "強く噛む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "calming": {
+      "tier": "known",
+      "surface": "calming",
+      "pos": "adj · B2",
+      "pron": "/ˈkɑː.mɪŋ/",
+      "meaning": "落ち着かせる",
+      "example": {
+        "en": "Calming voice.",
+        "ja": "落ち着いた声。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "catnip": {
+      "tier": "key",
+      "surface": "catnip",
+      "pos": "n · B2",
+      "pron": "/ˈkæt.nɪp/",
+      "meaning": "キャットニップ",
+      "example": {
+        "en": "Catnip toy.",
+        "ja": "キャットニップの玩具。"
+      },
+      "context": "シソ科の植物。猫を興奮させる。",
+      "collocations": []
+    },
+    "chemical": {
+      "tier": "skip",
+      "surface": "chemical",
+      "pos": "n · A2",
+      "pron": "/ˈkem.ɪ.kəl/",
+      "meaning": "化学物質",
+      "example": {
+        "en": "Toxic chemical.",
+        "ja": "有毒化学物質。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chemist": {
+      "tier": "known",
+      "surface": "chemist",
+      "pos": "n · B1",
+      "pron": "/ˈkem.ɪst/",
+      "meaning": "化学者",
+      "example": {
+        "en": "Senior chemist.",
+        "ja": "上級化学者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "classified": {
+      "tier": "known",
+      "surface": "classified",
+      "pos": "v · B2",
+      "pron": "/ˈklæs.ɪ.faɪd/",
+      "meaning": "分類された",
+      "example": {
+        "en": "Classified document.",
+        "ja": "機密文書。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "combinations": {
+      "tier": "skip",
+      "surface": "combinations",
+      "pos": "n · A2",
+      "pron": "/ˌkɒm.bɪˈneɪ.ʃənz/",
+      "meaning": "組み合わせ",
+      "example": {
+        "en": "Various combinations.",
+        "ja": "多様な組み合わせ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "compelling": {
+      "tier": "known",
+      "surface": "compelling",
+      "pos": "adj · B2",
+      "pron": "/kəmˈpel.ɪŋ/",
+      "meaning": "説得力ある",
+      "example": {
+        "en": "Compelling argument.",
+        "ja": "説得力ある議論。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "compound": {
+      "tier": "known",
+      "surface": "compound",
+      "pos": "n · B2",
+      "pron": "/ˈkɒm.paʊnd/",
+      "meaning": "化合物",
+      "example": {
+        "en": "Active compound.",
+        "ja": "活性化合物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "compounds": {
+      "tier": "known",
+      "surface": "compounds",
+      "pos": "n · B2",
+      "pron": "/ˈkɒm.paʊndz/",
+      "meaning": "化合物",
+      "example": {
+        "en": "Chemical compounds.",
+        "ja": "化学化合物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conference": {
+      "tier": "skip",
+      "surface": "conference",
+      "pos": "n · A2",
+      "pron": "/ˈkɒn.fər.əns/",
+      "meaning": "会議",
+      "example": {
+        "en": "Annual conference.",
+        "ja": "年次会議。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "containing": {
+      "tier": "skip",
+      "surface": "containing",
+      "pos": "v · A2",
+      "pron": "/kənˈteɪ.nɪŋ/",
+      "meaning": "含む",
+      "example": {
+        "en": "Containing sugar.",
+        "ja": "糖含有。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "currently": {
+      "tier": "skip",
+      "surface": "currently",
+      "pos": "adv · A2",
+      "pron": "/ˈkʌr.ənt.li/",
+      "meaning": "現在",
+      "example": {
+        "en": "Currently available.",
+        "ja": "現在利用可能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "damage": {
+      "tier": "skip",
+      "surface": "damage",
+      "pos": "v · A2",
+      "pron": "/ˈdæm.ɪdʒ/",
+      "meaning": "傷つける",
+      "example": {
+        "en": "Damage the goods.",
+        "ja": "商品を傷つける。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dislodge": {
+      "tier": "key",
+      "surface": "dislodge",
+      "pos": "v · C1",
+      "pron": "/dɪsˈlɒdʒ/",
+      "meaning": "追い出す、取り除く",
+      "example": {
+        "en": "Dislodge the stone.",
+        "ja": "石を取り除く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "doses": {
+      "tier": "known",
+      "surface": "doses",
+      "pos": "n · B2",
+      "pron": "/ˈdoʊ.sɪz/",
+      "meaning": "用量",
+      "example": {
+        "en": "Small doses.",
+        "ja": "少量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dribbled": {
+      "tier": "key",
+      "surface": "dribbled",
+      "pos": "v · C1",
+      "pron": "/ˈdrɪb.ld/",
+      "meaning": "滴下した",
+      "example": {
+        "en": "Dribbled water.",
+        "ja": "水を垂らした。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "drooling": {
+      "tier": "known",
+      "surface": "drooling",
+      "pos": "v · B2",
+      "pron": "/ˈdruː.lɪŋ/",
+      "meaning": "よだれを垂らして",
+      "example": {
+        "en": "Drooling dog.",
+        "ja": "よだれを垂らす犬。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "endorphins": {
+      "tier": "key",
+      "surface": "endorphins",
+      "pos": "n · C1",
+      "pron": "/enˈdɔː.fɪnz/",
+      "meaning": "エンドルフィン",
+      "example": {
+        "en": "Endorphin release.",
+        "ja": "エンドルフィン放出。"
+      },
+      "context": "脳内麻薬様物質。",
+      "collocations": []
+    },
+    "euphoria": {
+      "tier": "key",
+      "surface": "euphoria",
+      "pos": "n · C1",
+      "pron": "/juːˈfɔː.ri.ə/",
+      "meaning": "恍惚、多幸感",
+      "example": {
+        "en": "State of euphoria.",
+        "ja": "恍惚状態。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "evolutionary": {
+      "tier": "known",
+      "surface": "evolutionary",
+      "pos": "adj · B2",
+      "pron": "/ˌev.əˈluː.ʃən.ər.i/",
+      "meaning": "進化的",
+      "example": {
+        "en": "Evolutionary biology.",
+        "ja": "進化生物学。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expert": {
+      "tier": "skip",
+      "surface": "expert",
+      "pos": "n · A2",
+      "pron": "/ˈek.spɜːt/",
+      "meaning": "専門家",
+      "example": {
+        "en": "Cat expert.",
+        "ja": "猫の専門家。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "explanation": {
+      "tier": "skip",
+      "surface": "explanation",
+      "pos": "n · A2",
+      "pron": "/ˌek.spləˈneɪ.ʃən/",
+      "meaning": "説明",
+      "example": {
+        "en": "Best explanation.",
+        "ja": "最良の説明。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "extracted": {
+      "tier": "known",
+      "surface": "extracted",
+      "pos": "v · B2",
+      "pron": "/ɪkˈstræk.tɪd/",
+      "meaning": "抽出した",
+      "example": {
+        "en": "Extracted oil.",
+        "ja": "抽出油。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "feline": {
+      "tier": "key",
+      "surface": "feline",
+      "pos": "adj · C1",
+      "pron": "/ˈfiː.laɪn/",
+      "meaning": "ネコの",
+      "example": {
+        "en": "Feline grace.",
+        "ja": "ネコの優雅さ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "flood": {
+      "tier": "known",
+      "surface": "flood",
+      "pos": "n · B1",
+      "pron": "/flʌd/",
+      "meaning": "氾濫、洪水",
+      "example": {
+        "en": "Flood of emails.",
+        "ja": "メールの洪水。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "guts": {
+      "tier": "known",
+      "surface": "guts",
+      "pos": "n · B2",
+      "pron": "/ɡʌts/",
+      "meaning": "腸、内臓",
+      "example": {
+        "en": "Gut feeling.",
+        "ja": "直感。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hairy": {
+      "tier": "known",
+      "surface": "hairy",
+      "pos": "adj · B1",
+      "pron": "/ˈheə.ri/",
+      "meaning": "毛深い",
+      "example": {
+        "en": "Hairy arms.",
+        "ja": "毛深い腕。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hormones": {
+      "tier": "known",
+      "surface": "hormones",
+      "pos": "n · B2",
+      "pron": "/ˈhɔː.moʊnz/",
+      "meaning": "ホルモン",
+      "example": {
+        "en": "Stress hormones.",
+        "ja": "ストレスホルモン。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "identify": {
+      "tier": "skip",
+      "surface": "identify",
+      "pos": "v · A2",
+      "pron": "/aɪˈden.tɪ.faɪ/",
+      "meaning": "特定する",
+      "example": {
+        "en": "Identify the cause.",
+        "ja": "原因特定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impair": {
+      "tier": "known",
+      "surface": "impair",
+      "pos": "v · B2",
+      "pron": "/ɪmˈpeər/",
+      "meaning": "損なう",
+      "example": {
+        "en": "Impair judgment.",
+        "ja": "判断を損なう。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ingredients": {
+      "tier": "known",
+      "surface": "ingredients",
+      "pos": "n · B1",
+      "pron": "/ɪnˈɡriː.di.ənts/",
+      "meaning": "成分、材料",
+      "example": {
+        "en": "Active ingredients.",
+        "ja": "有効成分。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "instincts": {
+      "tier": "known",
+      "surface": "instincts",
+      "pos": "n · B2",
+      "pron": "/ˈɪn.stɪŋkts/",
+      "meaning": "本能",
+      "example": {
+        "en": "Animal instincts.",
+        "ja": "動物的本能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "interacted": {
+      "tier": "known",
+      "surface": "interacted",
+      "pos": "v · B2",
+      "pron": "/ˌɪn.tərˈæk.tɪd/",
+      "meaning": "相互作用した",
+      "example": {
+        "en": "Interacted with the drug.",
+        "ja": "薬と相互作用した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intestinal": {
+      "tier": "known",
+      "surface": "intestinal",
+      "pos": "adj · C1",
+      "pron": "/ɪnˈtes.tɪ.nəl/",
+      "meaning": "腸の",
+      "example": {
+        "en": "Intestinal flora.",
+        "ja": "腸内細菌叢。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigate": {
+      "tier": "known",
+      "surface": "investigate",
+      "pos": "v · B1",
+      "pron": "/ɪnˈves.tɪ.ɡeɪt/",
+      "meaning": "調査する",
+      "example": {
+        "en": "Investigate the cause.",
+        "ja": "原因を調査。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "iridoid": {
+      "tier": "key",
+      "surface": "iridoid",
+      "pos": "n · C2",
+      "pron": "/ˈɪr.ɪ.dɔɪd/",
+      "meaning": "イリドイド",
+      "example": {
+        "en": "Iridoid compounds.",
+        "ja": "イリドイド化合物。"
+      },
+      "context": "植物が産生する一群の単環テルペン化合物。",
+      "collocations": []
+    },
+    "irresistible": {
+      "tier": "known",
+      "surface": "irresistible",
+      "pos": "adj · B2",
+      "pron": "/ˌɪr.ɪˈzɪs.tə.bl/",
+      "meaning": "抗いがたい",
+      "example": {
+        "en": "Irresistible offer.",
+        "ja": "抗いがたい申し出。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "jaguars": {
+      "tier": "known",
+      "surface": "jaguars",
+      "pos": "n · B2",
+      "pron": "/ˈdʒæɡ.wɑːz/",
+      "meaning": "ジャガー",
+      "example": {
+        "en": "Spotted jaguars.",
+        "ja": "斑点のジャガー。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "leaves": {
+      "tier": "skip",
+      "surface": "leaves",
+      "pos": "n · A1",
+      "pron": "/liːvz/",
+      "meaning": "葉",
+      "example": {
+        "en": "Green leaves.",
+        "ja": "緑の葉。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "leopards": {
+      "tier": "known",
+      "surface": "leopards",
+      "pos": "n · B2",
+      "pron": "/ˈlep.ədz/",
+      "meaning": "ヒョウ",
+      "example": {
+        "en": "Wild leopards.",
+        "ja": "野生のヒョウ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lick": {
+      "tier": "known",
+      "surface": "lick",
+      "pos": "v · B1",
+      "pron": "/lɪk/",
+      "meaning": "舐める",
+      "example": {
+        "en": "Lick the spoon.",
+        "ja": "スプーンを舐める。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lynxes": {
+      "tier": "key",
+      "surface": "lynxes",
+      "pos": "n · C1",
+      "pron": "/ˈlɪŋk.sɪz/",
+      "meaning": "オオヤマネコ",
+      "example": {
+        "en": "Eurasian lynxes.",
+        "ja": "ユーラシアオオヤマネコ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "medicinal": {
+      "tier": "known",
+      "surface": "medicinal",
+      "pos": "adj · B2",
+      "pron": "/məˈdɪs.ɪ.nəl/",
+      "meaning": "薬用の",
+      "example": {
+        "en": "Medicinal herbs.",
+        "ja": "薬用ハーブ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "microscopic": {
+      "tier": "key",
+      "surface": "microscopic",
+      "pos": "adj · C1",
+      "pron": "/ˌmaɪ.krəˈskɒp.ɪk/",
+      "meaning": "微視的、極微量の",
+      "example": {
+        "en": "Microscopic amounts.",
+        "ja": "微量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "milkweed": {
+      "tier": "key",
+      "surface": "milkweed",
+      "pos": "n · C2",
+      "pron": "/ˈmɪlk.wiːd/",
+      "meaning": "乳草、トウワタ",
+      "example": {
+        "en": "Toxic milkweed.",
+        "ja": "有毒なトウワタ。"
+      },
+      "context": "Asclepias 属の植物。オオカバマダラ幼虫の食草。",
+      "collocations": []
+    },
+    "mosquitoes": {
+      "tier": "known",
+      "surface": "mosquitoes",
+      "pos": "n · B1",
+      "pron": "/məˈskiː.toʊz/",
+      "meaning": "蚊",
+      "example": {
+        "en": "Mosquito bites.",
+        "ja": "蚊に刺される。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "munch": {
+      "tier": "known",
+      "surface": "munch",
+      "pos": "v · B2",
+      "pron": "/mʌntʃ/",
+      "meaning": "もぐもぐ食べる",
+      "example": {
+        "en": "Munch on snacks.",
+        "ja": "スナックをむしゃむしゃ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nepetalactol": {
+      "tier": "key",
+      "surface": "nepetalactol",
+      "pos": "n · C2",
+      "pron": "/nəˌpet.əˈlæk.tɒl/",
+      "meaning": "ネペタラクトール",
+      "example": {
+        "en": "Nepetalactol study.",
+        "ja": "ネペタラクトール研究。"
+      },
+      "context": "マタタビの活性物質。",
+      "collocations": []
+    },
+    "nepetalactone": {
+      "tier": "key",
+      "surface": "nepetalactone",
+      "pos": "n · C2",
+      "pron": "/nəˌpet.əˈlæk.toʊn/",
+      "meaning": "ネペタラクトン",
+      "example": {
+        "en": "Nepetalactone in catnip.",
+        "ja": "キャットニップ中のネペタラクトン。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "normally": {
+      "tier": "skip",
+      "surface": "normally",
+      "pos": "adv · A2",
+      "pron": "/ˈnɔː.mə.li/",
+      "meaning": "普通は",
+      "example": {
+        "en": "Normally available.",
+        "ja": "通常入手可能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "obsession": {
+      "tier": "known",
+      "surface": "obsession",
+      "pos": "n · B2",
+      "pron": "/əbˈseʃ.ən/",
+      "meaning": "執着",
+      "example": {
+        "en": "Strong obsession.",
+        "ja": "強い執着。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "overwhelmingly": {
+      "tier": "known",
+      "surface": "Overwhelmingly",
+      "pos": "adv · B2",
+      "pron": "/ˌoʊ.vəˈwel.mɪŋ.li/",
+      "meaning": "圧倒的に",
+      "example": {
+        "en": "Overwhelmingly positive.",
+        "ja": "圧倒的に肯定的。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "painstakingly": {
+      "tier": "known",
+      "surface": "painstakingly",
+      "pos": "adv · C1",
+      "pron": "/ˈpeɪnzˌteɪ.kɪŋ.li/",
+      "meaning": "丹念に",
+      "example": {
+        "en": "Painstakingly crafted.",
+        "ja": "丹念に作られた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "parasites": {
+      "tier": "known",
+      "surface": "parasites",
+      "pos": "n · B2",
+      "pron": "/ˈpær.ə.saɪts/",
+      "meaning": "寄生虫",
+      "example": {
+        "en": "Intestinal parasites.",
+        "ja": "腸内寄生虫。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pawing": {
+      "tier": "known",
+      "surface": "pawing",
+      "pos": "v · B2",
+      "pron": "/ˈpɔː.ɪŋ/",
+      "meaning": "前足で触れて",
+      "example": {
+        "en": "Pawing the ground.",
+        "ja": "地面を前足でかく。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "potentially": {
+      "tier": "known",
+      "surface": "potentially",
+      "pos": "adv · B2",
+      "pron": "/pəˈten.ʃəl.i/",
+      "meaning": "潜在的に",
+      "example": {
+        "en": "Potentially harmful.",
+        "ja": "潜在的に有害。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pounced": {
+      "tier": "key",
+      "surface": "pounced",
+      "pos": "v · C1",
+      "pron": "/paʊnst/",
+      "meaning": "飛びかかった",
+      "example": {
+        "en": "Pounced on prey.",
+        "ja": "獲物に飛びかかった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "presented": {
+      "tier": "skip",
+      "surface": "presented",
+      "pos": "v · A2",
+      "pron": "/prɪˈzen.tɪd/",
+      "meaning": "発表した",
+      "example": {
+        "en": "Presented findings.",
+        "ja": "発見を発表。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "protection": {
+      "tier": "skip",
+      "surface": "protection",
+      "pos": "n · A2",
+      "pron": "/prəˈtek.ʃən/",
+      "meaning": "保護",
+      "example": {
+        "en": "Skin protection.",
+        "ja": "皮膚保護。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "provided": {
+      "tier": "skip",
+      "surface": "provided",
+      "pos": "v · A2",
+      "pron": "/prəˈvaɪ.dɪd/",
+      "meaning": "与えた",
+      "example": {
+        "en": "Provided information.",
+        "ja": "情報を提供。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reacted": {
+      "tier": "known",
+      "surface": "reacted",
+      "pos": "v · B1",
+      "pron": "/riˈæk.tɪd/",
+      "meaning": "反応した",
+      "example": {
+        "en": "Reacted strongly.",
+        "ja": "強く反応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "relieve": {
+      "tier": "known",
+      "surface": "relieve",
+      "pos": "v · B2",
+      "pron": "/rɪˈliːv/",
+      "meaning": "和らげる",
+      "example": {
+        "en": "Relieve pain.",
+        "ja": "痛みを和らげる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "response": {
+      "tier": "skip",
+      "surface": "response",
+      "pos": "n · A2",
+      "pron": "/rɪˈspɒns/",
+      "meaning": "反応",
+      "example": {
+        "en": "Quick response.",
+        "ja": "素早い反応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rub": {
+      "tier": "known",
+      "surface": "rub",
+      "pos": "v · B1",
+      "pron": "/rʌb/",
+      "meaning": "こする",
+      "example": {
+        "en": "Rub your eyes.",
+        "ja": "目をこする。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rubbing": {
+      "tier": "known",
+      "surface": "rubbing",
+      "pos": "v · B2",
+      "pron": "/ˈrʌb.ɪŋ/",
+      "meaning": "こすって",
+      "example": {
+        "en": "Rubbing alcohol.",
+        "ja": "消毒用アルコール。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scratchy": {
+      "tier": "known",
+      "surface": "scratchy",
+      "pos": "adj · B2",
+      "pron": "/ˈskrætʃ.i/",
+      "meaning": "ざらざらした",
+      "example": {
+        "en": "Scratchy fabric.",
+        "ja": "ざらざらした布。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sheep": {
+      "tier": "skip",
+      "surface": "sheep",
+      "pos": "n · A1",
+      "pron": "/ʃiːp/",
+      "meaning": "羊",
+      "example": {
+        "en": "Flock of sheep.",
+        "ja": "羊の群れ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "signature": {
+      "tier": "known",
+      "surface": "signature",
+      "pos": "adj · B2",
+      "pron": "/ˈsɪɡ.nə.tʃər/",
+      "meaning": "代表的な",
+      "example": {
+        "en": "Signature dish.",
+        "ja": "看板料理。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "silvervine": {
+      "tier": "key",
+      "surface": "silvervine",
+      "pos": "n · C2",
+      "pron": "/ˈsɪl.və.vaɪn/",
+      "meaning": "マタタビ",
+      "example": {
+        "en": "Silvervine sticks.",
+        "ja": "マタタビ棒。"
+      },
+      "context": "Actinidia polygama。猫がキャットニップ以上に反応。",
+      "collocations": []
+    },
+    "similar": {
+      "tier": "skip",
+      "surface": "similar",
+      "pos": "adj · A2",
+      "pron": "/ˈsɪm.ə.lər/",
+      "meaning": "似た",
+      "example": {
+        "en": "Similar effect.",
+        "ja": "類似効果。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sparks": {
+      "tier": "known",
+      "surface": "sparks",
+      "pos": "v · B2",
+      "pron": "/spɑːks/",
+      "meaning": "引き起こす",
+      "example": {
+        "en": "Sparks interest.",
+        "ja": "関心を引き起こす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "species": {
+      "tier": "known",
+      "surface": "species",
+      "pos": "n · B1",
+      "pron": "/ˈspiː.ʃiːz/",
+      "meaning": "種",
+      "example": {
+        "en": "Endangered species.",
+        "ja": "絶滅危惧種。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "specific": {
+      "tier": "skip",
+      "surface": "specific",
+      "pos": "adj · A2",
+      "pron": "/spəˈsɪf.ɪk/",
+      "meaning": "特定の",
+      "example": {
+        "en": "Specific case.",
+        "ja": "特定の事例。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stoic": {
+      "tier": "known",
+      "surface": "stoic",
+      "pos": "adj · C1",
+      "pron": "/ˈstoʊ.ɪk/",
+      "meaning": "平然とした",
+      "example": {
+        "en": "Stoic silence.",
+        "ja": "平然たる沈黙。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strangest": {
+      "tier": "skip",
+      "surface": "strangest",
+      "pos": "adj · A2",
+      "pron": "/ˈstreɪn.dʒəst/",
+      "meaning": "最も奇妙な",
+      "example": {
+        "en": "Strangest thing.",
+        "ja": "最も奇妙な。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "studying": {
+      "tier": "skip",
+      "surface": "studying",
+      "pos": "v · A1",
+      "pron": "/ˈstʌd.i.ɪŋ/",
+      "meaning": "研究して",
+      "example": {
+        "en": "Studying hard.",
+        "ja": "必死に勉強。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "survival": {
+      "tier": "known",
+      "surface": "survival",
+      "pos": "n · B2",
+      "pron": "/səˈvaɪ.vəl/",
+      "meaning": "生存",
+      "example": {
+        "en": "Survival skills.",
+        "ja": "生存技能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "swallow": {
+      "tier": "known",
+      "surface": "swallow",
+      "pos": "v · B1",
+      "pron": "/ˈswɒl.oʊ/",
+      "meaning": "飲み込む",
+      "example": {
+        "en": "Swallow the pill.",
+        "ja": "薬を飲む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "teams": {
+      "tier": "skip",
+      "surface": "teams",
+      "pos": "n · A2",
+      "pron": "/tiːmz/",
+      "meaning": "チーム",
+      "example": {
+        "en": "Research teams.",
+        "ja": "研究チーム。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "testers": {
+      "tier": "known",
+      "surface": "testers",
+      "pos": "n · B2",
+      "pron": "/ˈtes.təz/",
+      "meaning": "検査者、被験者",
+      "example": {
+        "en": "Beta testers.",
+        "ja": "ベータテスター。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tiny": {
+      "tier": "skip",
+      "surface": "tiny",
+      "pos": "adj · A2",
+      "pron": "/ˈtaɪ.ni/",
+      "meaning": "とても小さい",
+      "example": {
+        "en": "Tiny baby.",
+        "ja": "小さな赤ん坊。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "toxic": {
+      "tier": "known",
+      "surface": "toxic",
+      "pos": "adj · B2",
+      "pron": "/ˈtɒk.sɪk/",
+      "meaning": "有毒な",
+      "example": {
+        "en": "Toxic chemicals.",
+        "ja": "有毒化学物質。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trait": {
+      "tier": "known",
+      "surface": "trait",
+      "pos": "n · B2",
+      "pron": "/treɪt/",
+      "meaning": "形質、特性",
+      "example": {
+        "en": "Inherited trait.",
+        "ja": "遺伝形質。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "transferred": {
+      "tier": "known",
+      "surface": "transferred",
+      "pos": "v · B2",
+      "pron": "/trænsˈfɜːd/",
+      "meaning": "移された",
+      "example": {
+        "en": "Transferred funds.",
+        "ja": "資金移動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "treated": {
+      "tier": "known",
+      "surface": "treated",
+      "pos": "v · B1",
+      "pron": "/ˈtriː.tɪd/",
+      "meaning": "処理された",
+      "example": {
+        "en": "Treated water.",
+        "ja": "処理水。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trigger": {
+      "tier": "known",
+      "surface": "trigger",
+      "pos": "v · B1",
+      "pron": "/ˈtrɪɡ.ər/",
+      "meaning": "引き起こす",
+      "example": {
+        "en": "Trigger alarm.",
+        "ja": "警報作動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "triggers": {
+      "tier": "known",
+      "surface": "triggers",
+      "pos": "v · B2",
+      "pron": "/ˈtrɪɡ.əz/",
+      "meaning": "引き起こす",
+      "example": {
+        "en": "Triggers a memory.",
+        "ja": "記憶を呼び起こす。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "vigorously": {
+      "tier": "known",
+      "surface": "vigorously",
+      "pos": "adv · B2",
+      "pron": "/ˈvɪɡ.ər.əs.li/",
+      "meaning": "激しく",
+      "example": {
+        "en": "Vigorously denied.",
+        "ja": "激しく否定。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "volunteered": {
+      "tier": "known",
+      "surface": "volunteered",
+      "pos": "v · B2",
+      "pron": "/ˌvɒl.ənˈtɪəd/",
+      "meaning": "志願した",
+      "example": {
+        "en": "Volunteered help.",
+        "ja": "志願して手伝った。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "whiff": {
+      "tier": "key",
+      "surface": "whiff",
+      "pos": "n · C2",
+      "pron": "/wɪf/",
+      "meaning": "ひと嗅ぎ",
+      "example": {
+        "en": "A whiff of perfume.",
+        "ja": "香水のひと嗅ぎ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "worms": {
+      "tier": "known",
+      "surface": "worms",
+      "pos": "n · B1",
+      "pron": "/wɜːmz/",
+      "meaning": "虫、線虫",
+      "example": {
+        "en": "Earth worms.",
+        "ja": "ミミズ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wriggling": {
+      "tier": "known",
+      "surface": "wriggling",
+      "pos": "v · B2",
+      "pron": "/ˈrɪɡ.lɪŋ/",
+      "meaning": "身をくねらせて",
+      "example": {
+        "en": "Wriggling worm.",
+        "ja": "くねる虫。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "zoos": {
+      "tier": "skip",
+      "surface": "zoos",
+      "pos": "n · A1",
+      "pron": "/zuːz/",
+      "meaning": "動物園",
+      "example": {
+        "en": "Local zoos.",
+        "ja": "地元の動物園。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "along_with": {
+      "tier": "known",
+      "surface": "Along with",
+      "pos": "phrase · B1",
+      "pron": "/əˈlɒŋ wɪð/",
+      "literal": "〜と共に",
+      "meaning": "〜と共に",
+      "context": "",
+      "collocations": []
+    },
+    "as_for": {
+      "tier": "known",
+      "surface": "As for",
+      "pos": "phrase · B1",
+      "pron": "/əz fɔː/",
+      "literal": "〜について言えば",
+      "meaning": "〜について言えば",
+      "context": "",
+      "collocations": []
+    },
+    "blood_tests": {
+      "tier": "known",
+      "surface": "blood tests",
+      "pos": "n phrase · B1",
+      "pron": "/blʌd tests/",
+      "literal": "血液検査",
+      "meaning": "血液検査",
+      "context": "",
+      "collocations": []
+    },
+    "bring_in": {
+      "tier": "known",
+      "surface": "brought in",
+      "pos": "phrasal v · B2",
+      "pron": "/brɔːt ɪn/",
+      "literal": "連れてきた",
+      "meaning": "連れてきた",
+      "context": "",
+      "collocations": []
+    },
+    "bug_repellent": {
+      "tier": "known",
+      "surface": "bug repellent",
+      "pos": "n phrase · B2",
+      "pron": "/bʌɡ rɪˈpel.ənt/",
+      "literal": "虫よけ剤",
+      "meaning": "虫よけ剤",
+      "context": "",
+      "collocations": []
+    },
+    "bug_repelling": {
+      "tier": "known",
+      "surface": "bug repelling",
+      "pos": "adj phrase · B2",
+      "pron": "/bʌɡ rɪˈpel.ɪŋ/",
+      "literal": "虫よけの",
+      "meaning": "虫よけの",
+      "context": "",
+      "collocations": []
+    },
+    "bug_spray": {
+      "tier": "known",
+      "surface": "bug spray",
+      "pos": "n phrase · B1",
+      "pron": "/bʌɡ spreɪ/",
+      "literal": "虫よけスプレー",
+      "meaning": "虫よけスプレー",
+      "context": "",
+      "collocations": []
+    },
+    "control_group": {
+      "tier": "known",
+      "surface": "control group",
+      "pos": "n phrase · B2",
+      "pron": "/kənˈtroʊl ɡruːp/",
+      "literal": "対照群",
+      "meaning": "実験デザイン用語",
+      "context": "",
+      "collocations": []
+    },
+    "drawn_to": {
+      "tier": "known",
+      "surface": "drawn to",
+      "pos": "phrase · B2",
+      "pron": "/drɔːn tə/",
+      "literal": "〜に惹かれて",
+      "meaning": "〜に惹かれて",
+      "context": "",
+      "collocations": []
+    },
+    "drug_like": {
+      "tier": "known",
+      "surface": "drug-like",
+      "pos": "adj phrase · C1",
+      "pron": "/drʌɡ laɪk/",
+      "literal": "薬物様の",
+      "meaning": "薬物様の",
+      "context": "",
+      "collocations": []
+    },
+    "endorphin_rush": {
+      "tier": "key",
+      "surface": "endorphin rush",
+      "pos": "n phrase · C1",
+      "pron": "/enˈdɔː.fɪn rʌʃ/",
+      "literal": "エンドルフィンの奔流",
+      "meaning": "エンドルフィンの奔流",
+      "context": "",
+      "collocations": []
+    },
+    "face_first": {
+      "tier": "known",
+      "surface": "face first",
+      "pos": "phrase · B2",
+      "pron": "/feɪs fɜːst/",
+      "literal": "顔から",
+      "meaning": "顔から",
+      "context": "",
+      "collocations": []
+    },
+    "far_from": {
+      "tier": "known",
+      "surface": "far from",
+      "pos": "phrase · B1",
+      "pron": "/fɑː frɒm/",
+      "literal": "決して〜ない",
+      "meaning": "決して〜ない",
+      "context": "",
+      "collocations": []
+    },
+    "filter_papers": {
+      "tier": "known",
+      "surface": "filter papers",
+      "pos": "n phrase · B2",
+      "pron": "/ˈfɪl.tər ˈpeɪ.pəz/",
+      "literal": "濾紙",
+      "meaning": "濾紙",
+      "context": "",
+      "collocations": []
+    },
+    "flooded_with": {
+      "tier": "known",
+      "surface": "flooded with",
+      "pos": "phrase · B2",
+      "pron": "/ˈflʌd.ɪd wɪð/",
+      "literal": "〜で満たされた",
+      "meaning": "〜で満たされた",
+      "context": "",
+      "collocations": []
+    },
+    "go_crazy_for": {
+      "tier": "known",
+      "surface": "go crazy for",
+      "pos": "phrase · B2",
+      "pron": "/ɡoʊ ˈkreɪ.zi fɔː/",
+      "literal": "〜に熱狂する",
+      "meaning": "〜に熱狂する",
+      "context": "",
+      "collocations": []
+    },
+    "in_solidarity_with": {
+      "tier": "known",
+      "surface": "in solidarity with",
+      "pos": "phrase · C1",
+      "pron": "/ɪn ˌsɒl.ɪˈdær.ə.ti wɪð/",
+      "literal": "〜との連帯で",
+      "meaning": "〜との連帯で",
+      "context": "",
+      "collocations": []
+    },
+    "insect_repelling": {
+      "tier": "known",
+      "surface": "insect-repelling",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈɪn.sekt rɪˈpel.ɪŋ/",
+      "literal": "昆虫忌避の",
+      "meaning": "昆虫忌避の",
+      "context": "",
+      "collocations": []
+    },
+    "monarch_butterflies": {
+      "tier": "key",
+      "surface": "monarch butterflies",
+      "pos": "n phrase · C1",
+      "pron": "/ˈmɒn.ək ˈbʌt.ə.flaɪz/",
+      "literal": "オオカバマダラ",
+      "meaning": "オオカバマダラ",
+      "context": "",
+      "collocations": []
+    },
+    "mosquito_repellent": {
+      "tier": "known",
+      "surface": "mosquito repellent",
+      "pos": "n phrase · B2",
+      "pron": "/məˈskiː.toʊ rɪˈpel.ənt/",
+      "literal": "蚊忌避剤",
+      "meaning": "蚊忌避剤",
+      "context": "",
+      "collocations": []
+    },
+    "mosquito_repellent_compound": {
+      "tier": "known",
+      "surface": "mosquito-repellent",
+      "pos": "adj phrase · B2",
+      "pron": "/məˈskiː.toʊ rɪˈpel.ənt/",
+      "literal": "蚊忌避の",
+      "meaning": "蚊忌避の",
+      "context": "",
+      "collocations": []
+    },
+    "mosquito_repelling": {
+      "tier": "known",
+      "surface": "mosquito-repelling",
+      "pos": "adj phrase · C1",
+      "pron": "/məˈskiː.toʊ rɪˈpel.ɪŋ/",
+      "literal": "蚊忌避の",
+      "meaning": "蚊忌避の",
+      "context": "",
+      "collocations": []
+    },
+    "nepetalactol_treated": {
+      "tier": "known",
+      "surface": "nepetalactol-treated",
+      "pos": "adj phrase · C2",
+      "pron": "/nəˌpet.əˈlæk.tɒl ˈtriː.tɪd/",
+      "literal": "ネペタラクトール処理された",
+      "meaning": "ネペタラクトール処理された",
+      "context": "",
+      "collocations": []
+    },
+    "pain_signals": {
+      "tier": "known",
+      "surface": "pain signals",
+      "pos": "n phrase · B2",
+      "pron": "/peɪn ˈsɪɡ.nəlz/",
+      "literal": "痛みの信号",
+      "meaning": "痛みの信号",
+      "context": "",
+      "collocations": []
+    },
+    "rip_open": {
+      "tier": "known",
+      "surface": "ripping open",
+      "pos": "phrasal v · B2",
+      "pron": "/ˈrɪp.ɪŋ ˈoʊ.pən/",
+      "literal": "引き裂いて開ける",
+      "meaning": "引き裂いて開ける",
+      "context": "",
+      "collocations": []
+    },
+    "set_out_to": {
+      "tier": "known",
+      "surface": "set out to",
+      "pos": "phrasal v · B2",
+      "pron": "/set aʊt tə/",
+      "literal": "〜しようと乗り出す",
+      "meaning": "〜しようと乗り出す",
+      "context": "",
+      "collocations": []
+    },
+    "set_up": {
+      "tier": "known",
+      "surface": "set up",
+      "pos": "phrasal v · A2",
+      "pron": "/set ʌp/",
+      "literal": "用意する",
+      "meaning": "用意する",
+      "context": "",
+      "collocations": []
+    },
+    "stick_into": {
+      "tier": "known",
+      "surface": "stick … into",
+      "pos": "v pattern · B2",
+      "pron": "/stɪk ˈɪn.tə/",
+      "literal": "〜に突っ込む",
+      "meaning": "〜に突っ込む",
+      "context": "",
+      "collocations": []
+    },
+    "stretched_back": {
+      "tier": "known",
+      "surface": "stretched back",
+      "pos": "phrasal v · C1",
+      "pron": "/stretʃt bæk/",
+      "literal": "遡る",
+      "meaning": "遡る",
+      "context": "",
+      "collocations": []
+    },
+    "sure_enough": {
+      "tier": "known",
+      "surface": "sure enough",
+      "pos": "phrase · B2",
+      "pron": "/ʃʊər ɪˈnʌf/",
+      "literal": "案の定",
+      "meaning": "案の定",
+      "context": "",
+      "collocations": []
+    },
+    "tannin_rich": {
+      "tier": "known",
+      "surface": "tannin-rich",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈtæn.ɪn rɪtʃ/",
+      "literal": "タンニン豊富な",
+      "meaning": "タンニン豊富な",
+      "context": "",
+      "collocations": []
+    },
+    "tend_to": {
+      "tier": "known",
+      "surface": "tend to",
+      "pos": "phrase · B1",
+      "pron": "/tend tə/",
+      "literal": "〜しがちな",
+      "meaning": "〜しがちな",
+      "context": "",
+      "collocations": []
+    },
+    "to_be_annoying": {
+      "tier": "known",
+      "surface": "to be annoying",
+      "pos": "phrase · B1",
+      "pron": "/tə bi əˈnɔɪ.ɪŋ/",
+      "literal": "嫌がらせのために",
+      "meaning": "嫌がらせのために",
+      "context": "",
+      "collocations": []
+    }
+  }
+}
