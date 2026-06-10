@@ -9,7 +9,7 @@
 // CACHE_NAME を変更すると activate で旧キャッシュを破棄する。
 // アプリ本体(index.html)を cache-first にすると更新が永久に反映されないため禁止。
 
-const CACHE_NAME = 'daily-ted-v5';
+const CACHE_NAME = 'daily-ted-v6';
 const APP_SHELL = [
   './',
   './index.html',

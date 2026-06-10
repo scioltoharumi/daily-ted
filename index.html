@@ -1370,11 +1370,11 @@ function paragraphHTML(p, talk) {
   return `<div class="paragraph" data-pid="${p.id}">
     <div class="para-time">[${formatDuration(Math.floor(p.start_sec))}]</div>
     <div>
-      ${p.sentences.map(s => sentenceHTML(s, talk)).join(' ')}
+      ${p.sentences.map(s => sentenceHTML(s, talk, p.id)).join(' ')}
     </div>
   </div>`;
 }
-function sentenceHTML(s, talk) {
+function sentenceHTML(s, talk, paraId) {
   let html = `<span class="sentence">`;
   s.tokens.forEach(tok => {
     if (tok.type === 'skip') {
@@ -1393,7 +1393,7 @@ function sentenceHTML(s, talk) {
       html += `<span class="expr expr-normal" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${sf}">${tok.surface}</span>`;
     }
   });
-  html += `<span class="sentence-marker" data-sent="${s.id}" title="構文解析">⌘</span></span>`;
+  html += `<span class="sentence-marker" data-sent="${paraId}.${s.id}" title="構文解析">⌘</span></span>`;
   return html;
 }
 
@@ -1472,23 +1472,33 @@ function openTokenModal(talkId, ref, type, surface) {
   document.getElementById('modal').classList.add('open');
   document.getElementById('modalBackdrop').classList.add('open');
 }
-function openSentenceModal(talkId, sentId) {
+function openSentenceModal(talkId, sentRef) {
   currentModalTalkId = talkId;
   const t = Object.values(TALKS).find(x => x.id === talkId);
+  if (!t) return;
+  // sentRef は新形式 "p1.s2"(段落付き複合キー)または旧形式 "s2"(レガシー)。
+  // 旧形式は段落間で id が重複するため、最初に見つかった段落の文を返す + canonical 表記へ昇格。
   let sent = null;
-  for (const p of t.transcript) {
-    sent = p.sentences.find(s => s.id === sentId);
-    if (sent) break;
+  let canonicalRef = sentRef;
+  if (sentRef.includes('.')) {
+    const [paraPart, sidPart] = sentRef.split('.');
+    const p = t.transcript.find(x => x.id === paraPart);
+    if (p) sent = p.sentences.find(s => s.id === sidPart);
+  } else {
+    for (const p of t.transcript) {
+      const found = p.sentences.find(s => s.id === sentRef);
+      if (found) { sent = found; canonicalRef = `${p.id}.${found.id}`; break; }
+    }
   }
   if (!sent) return;
-  const fav = isFavorite('sentence', sent.id, talkId);
+  const fav = isFavorite('sentence', canonicalRef, talkId);
   document.getElementById('modalContent').innerHTML = `
     <div class="modal-tier">⌘ sentence · 構文解析</div>
     <div class="modal-surface-row">
       <div class="modal-surface" style="font-size:22px;line-height:1.4;">${sent.text}</div>
-      <button class="modal-fav-btn ${fav ? 'active' : ''}" onclick="modalToggleFav('sentence','${sent.id}','${sent.text.replace(/'/g,"\\'")}','${sent.translation_ja.replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</button>
+      <button class="modal-fav-btn ${fav ? 'active' : ''}" onclick="modalToggleFav('sentence','${canonicalRef}','${sent.text.replace(/'/g,"\\'")}','${sent.translation_ja.replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</button>
     </div>
-    <div class="modal-pos-pron">sentence id: ${sent.id}</div>
+    <div class="modal-pos-pron">sentence id: ${canonicalRef}</div>
     <div class="modal-section">
       <div class="modal-section-label">日本語訳</div>
       <div class="modal-meaning">${sent.translation_ja}</div>
