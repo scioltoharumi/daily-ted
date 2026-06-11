@@ -1,0 +1,4864 @@
+{
+  "id": "talk_2026-06-11",
+  "date": "2026-06-11",
+  "source": "ted-ed",
+  "primary_topic": "History",
+  "tags": [
+    "sumo-wrestling",
+    "japan",
+    "history",
+    "martial-arts",
+    "tradition",
+    "invented-tradition"
+  ],
+  "difficulty": "medium",
+  "slug": "lee_thompson_a_brief_history_of_sumo_wrestling",
+  "video_id": "179640",
+  "title": "A brief history of sumo wrestling",
+  "speaker": "Lee Thompson",
+  "duration_sec": 323,
+  "published_at": "2026-06-09T15:01:44Z",
+  "video_url": "https://www.ted.com/talks/lee_thompson_a_brief_history_of_sumo_wrestling",
+  "embed_url": "https://embed.ted.com/talks/lee_thompson_a_brief_history_of_sumo_wrestling",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_179640/c0d1892f-d969-4ef2-ba3e-7a552b03e9f2/sumo_textless.jpg",
+  "background": {
+    "summary": "相撲は世界的に愛される格闘スポーツだが、その「古来からの伝統」の多くは実は近代の創作だった。本Talkは8世紀から現代までの相撲の変遷を追いながら、「伝統の発明」がいかにしてスポーツに文化的正当性をもたらしたかを解説する。",
+    "details": [
+      "ナレーター: Jack Cutmore-Scott (英国出身の俳優・声優。明瞭で聞き取りやすい英国英語)",
+      "アニメーション: Masayoshi Nakamura / Good General",
+      "関連分野: 日本史 / スポーツ史 / 文化人類学 / ホブズボウム「伝統の発明」理論",
+      "キー概念: 横綱(yokozuna) — 相撲の最高位。1789年に東京の相撲部屋が土俵入り儀式で横縄を導入し、将軍の御前公演で正当性を獲得した",
+      "現在の大相撲: 年6場所(各15日)、東京・大阪・名古屋・福岡を巡回、NHKが世界中に中継"
+    ]
+  },
+  "paragraph_summaries_ja": [
+    {
+      "paragraph_id": "p1",
+      "summary": "1772年、新潟の素人力士たちが寺院資金調達の公演を行っていると、東京の相撲部屋プロが乱入。「入場料徴収の権利は我々だけ」と主張した一人が殺害される事件に。裁判官は「古来の慣習を守る唯一の部屋」というプロ側の主張を認めたが、その「古来の慣習」は実は近年の発明だった。"
+    },
+    {
+      "paragraph_id": "p2",
+      "summary": "相撲の信頼できる記録は8世紀、天皇の宮廷宴で行われた娯楽に遡る。当初は殴打・引っかき・組み付けが混在したが、やがて組み技と足技中心に進化。1174年に宮廷相撲は廃止されるも、武士の軍事訓練として存続した。"
+    },
+    {
+      "paragraph_id": "p3",
+      "summary": "1400年代、寺社が修繕費調達のために相撲興行を始めた。評判の高い力士ほど観客を集めるため、興行師が一流の力士を確保しようと競い、それが最初の相撲部屋(ギルド)誕生につながった。"
+    },
+    {
+      "paragraph_id": "p4",
+      "summary": "プロ化した力士が収益最大化を狙うと、路上で俄相撲を催す若者も出現。秩序のない興行は観客を含む傷害事件を多発させ、武士当局が大都市での相撲を断続的に禁止した。"
+    },
+    {
+      "paragraph_id": "p5",
+      "summary": "禁止令を回避するため、観客と競技者を分ける境界を設けた。17世紀を通じてその境界が「土俵(dohyō)」として標準化され、「土俵外への押し出し」という新ルールが登場。これにより重い力士が有利になった。"
+    },
+    {
+      "paragraph_id": "p6",
+      "summary": "相撲の品格を高めるため、興行師たちは「古来の伝統」に見せかける儀式を導入。試合前の塩まき・口濯ぎが宗教的権威を付与。1789年に横綱の土俵入りが考案され、将軍の御前公演を経て公的な正当性を獲得した。"
+    },
+    {
+      "paragraph_id": "p7",
+      "summary": "1868年明治維新で幕府が倒れると相撲は一時衰退したが、近代スポーツとして再生。現在は年6場所、世界中に中継される。過去100年で上位力士の平均体重は60kg以上増加。変化を重ねながらも、娯楽・強さ・伝統への賛歌としての地位を保ち続けている。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 7.17,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In 1772, amateur sumo wrestlers in present-day Niigata were performing to raise money for a local temple when a pair of sumo pros crashed their event.",
+          "translation_ja": "1772年、現在の新潟で素人の相撲力士たちが地元寺院のために資金を集める公演を行っていると、東京の相撲プロ二人組が乗り込んできた。",
+          "structure": [
+            {
+              "label": "前置詞句(時)",
+              "content": "In 1772",
+              "note": "年号で時間軸を設定"
+            },
+            {
+              "label": "S",
+              "content": "amateur sumo wrestlers in present-day Niigata",
+              "note": "前置詞句を伴う長い主語"
+            },
+            {
+              "label": "V",
+              "content": "were performing",
+              "note": "過去進行形：継続動作を表す"
+            },
+            {
+              "label": "目的",
+              "content": "to raise money for a local temple",
+              "note": "不定詞句で目的を示す"
+            },
+            {
+              "label": "when節",
+              "content": "when a pair of sumo pros crashed their event",
+              "note": "突発的出来事を導入するwhen"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "In 1772, ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "amateur",
+              "type": "word",
+              "tier": "normal",
+              "ref": "amateur"
+            },
+            {
+              "id": "t3",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "sumo",
+              "type": "word",
+              "tier": "normal",
+              "ref": "sumo"
+            },
+            {
+              "id": "t5",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "wrestlers",
+              "type": "word",
+              "tier": "normal",
+              "ref": "wrestler"
+            },
+            {
+              "id": "t7",
+              "surface": " in ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "present-day",
+              "type": "word",
+              "tier": "normal",
+              "ref": "present_day"
+            },
+            {
+              "id": "t9",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "Niigata",
+              "type": "word",
+              "tier": "basic",
+              "ref": "niigata"
+            },
+            {
+              "id": "t11",
+              "surface": " were ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "performing",
+              "type": "word",
+              "tier": "normal",
+              "ref": "perform"
+            },
+            {
+              "id": "t13",
+              "surface": " to raise ",
+              "type": "skip"
+            },
+            {
+              "id": "t14",
+              "surface": "money",
+              "type": "word",
+              "tier": "normal",
+              "ref": "money"
+            },
+            {
+              "id": "t15",
+              "surface": " for a local ",
+              "type": "skip"
+            },
+            {
+              "id": "t16",
+              "surface": "temple",
+              "type": "word",
+              "tier": "normal",
+              "ref": "temple"
+            },
+            {
+              "id": "t17",
+              "surface": " when a pair of ",
+              "type": "skip"
+            },
+            {
+              "id": "t18",
+              "surface": "sumo",
+              "type": "word",
+              "tier": "normal",
+              "ref": "sumo"
+            },
+            {
+              "id": "t19",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t20",
+              "surface": "pros",
+              "type": "word",
+              "tier": "normal",
+              "ref": "pro"
+            },
+            {
+              "id": "t21",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t22",
+              "surface": "crashed",
+              "type": "word",
+              "tier": "key",
+              "ref": "crash_event"
+            },
+            {
+              "id": "t23",
+              "surface": " their event.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "These wrestlers from the Tokyo sumo guild claimed that only their guild had the right to charge audiences admission.",
+          "translation_ja": "東京の相撲部屋に属するこれらの力士たちは、入場料を観客から取れるのは自分たちの部屋だけだと主張した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These wrestlers from the Tokyo sumo guild"
+            },
+            {
+              "label": "V",
+              "content": "claimed"
+            },
+            {
+              "label": "that節(O)",
+              "content": "that only their guild had the right to charge audiences admission"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "These ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "wrestlers",
+              "type": "word",
+              "tier": "normal",
+              "ref": "wrestler"
+            },
+            {
+              "id": "t3",
+              "surface": " from the ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "Tokyo",
+              "type": "word",
+              "tier": "basic",
+              "ref": "tokyo"
+            },
+            {
+              "id": "t5",
+              "surface": " sumo ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "guild",
+              "type": "word",
+              "tier": "key",
+              "ref": "guild"
+            },
+            {
+              "id": "t7",
+              "surface": " claimed that only their ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "guild",
+              "type": "word",
+              "tier": "key",
+              "ref": "guild"
+            },
+            {
+              "id": "t9",
+              "surface": " had the right to ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "charge",
+              "type": "word",
+              "tier": "normal",
+              "ref": "charge"
+            },
+            {
+              "id": "t11",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "audiences",
+              "type": "word",
+              "tier": "normal",
+              "ref": "audience"
+            },
+            {
+              "id": "t13",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t14",
+              "surface": "admission",
+              "type": "word",
+              "tier": "normal",
+              "ref": "admission"
+            },
+            {
+              "id": "t15",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But when the pros tried making off with the ticket money, one was killed and the other barely escaped alive.",
+          "translation_ja": "しかし、そのプロたちが入場料の金を持ち逃げしようとしたとき、一人は殺され、もう一人はかろうじて命からがら逃げ出した。",
+          "structure": [
+            {
+              "label": "接続詞",
+              "content": "But"
+            },
+            {
+              "label": "when節(時)",
+              "content": "when the pros tried making off with the ticket money"
+            },
+            {
+              "label": "S1+V1",
+              "content": "one was killed",
+              "note": "受動態"
+            },
+            {
+              "label": "S2+V2",
+              "content": "the other barely escaped alive"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But when the pros tried ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "making off with",
+              "type": "expression",
+              "ref": "make_off_with"
+            },
+            {
+              "id": "t3",
+              "surface": " the ticket money, one was killed and the other ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "barely",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "barely"
+            },
+            {
+              "id": "t5",
+              "surface": " escaped alive.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Back in Tokyo, the guild took their case to a magistrate.",
+          "translation_ja": "東京に戻った部屋は、この件を裁判官のもとへ持ち込んだ。",
+          "structure": [
+            {
+              "label": "M(場所)",
+              "content": "Back in Tokyo"
+            },
+            {
+              "label": "S",
+              "content": "the guild"
+            },
+            {
+              "label": "V+O",
+              "content": "took their case to a magistrate",
+              "note": "take ~ to a magistrate = 裁判官に訴える"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Back in ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "Tokyo",
+              "type": "word",
+              "tier": "basic",
+              "ref": "tokyo"
+            },
+            {
+              "id": "t3",
+              "surface": ", the ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "guild",
+              "type": "word",
+              "tier": "key",
+              "ref": "guild"
+            },
+            {
+              "id": "t5",
+              "surface": " took their case to a ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "magistrate",
+              "type": "word",
+              "tier": "key",
+              "ref": "magistrate"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "They argued that because they were the only guild that adhered to sumo's most “ancient practices,” no other performers in the country were legitimate.",
+          "translation_ja": "相撲の「古来の慣習」に唯一従っている部屋は自分たちだけだから、国内の他のどの演者も正当ではないと彼らは主張した。",
+          "structure": [
+            {
+              "label": "S+V",
+              "content": "They argued"
+            },
+            {
+              "label": "that節",
+              "content": "that ... no other performers in the country were legitimate",
+              "note": "because節がthat節の中に埋め込まれた複雑構造"
+            },
+            {
+              "label": "because節",
+              "content": "because they were the only guild that adhered to sumo's most \"ancient practices\""
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "They argued that because they were the only ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "guild",
+              "type": "word",
+              "tier": "key",
+              "ref": "guild"
+            },
+            {
+              "id": "t3",
+              "surface": " that ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "adhered",
+              "type": "word",
+              "tier": "key",
+              "ref": "adhere"
+            },
+            {
+              "id": "t5",
+              "surface": " to sumo's most “ancient practices,” no other ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "performers",
+              "type": "word",
+              "tier": "normal",
+              "ref": "performer"
+            },
+            {
+              "id": "t7",
+              "surface": " in the country were ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "legitimate",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "legitimate"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "The magistrate accepted this claim.",
+          "translation_ja": "裁判官はこの主張を認めた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The magistrate"
+            },
+            {
+              "label": "V+O",
+              "content": "accepted this claim"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "The ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "magistrate",
+              "type": "word",
+              "tier": "key",
+              "ref": "magistrate"
+            },
+            {
+              "id": "t3",
+              "surface": " accepted this ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "claim",
+              "type": "word",
+              "tier": "normal",
+              "ref": "claim"
+            },
+            {
+              "id": "t5",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "But surprisingly, these so-called “ancient practices” were actually recent inventions.",
+          "translation_ja": "しかし驚いたことに、「古来の慣習」と称されるこれらは、実は最近の発明だったのだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But surprisingly"
+            },
+            {
+              "label": "S",
+              "content": "these so-called “ancient practices”"
+            },
+            {
+              "label": "V+C",
+              "content": "were actually recent inventions"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "surprisingly",
+              "type": "word",
+              "tier": "normal",
+              "ref": "surprisingly"
+            },
+            {
+              "id": "t3",
+              "surface": ", these so-called “ancient practices” were actually recent ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "inventions",
+              "type": "word",
+              "tier": "normal",
+              "ref": "invention"
+            },
+            {
+              "id": "t5",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "So, what were these fabricated traditions, and how do they relate to sumo's true history?",
+          "translation_ja": "では、これらの捏造された伝統とは何であり、本来の相撲の歴史とどう関係するのか？",
+          "structure": [
+            {
+              "label": "問1",
+              "content": "what were these fabricated traditions"
+            },
+            {
+              "label": "問2",
+              "content": "how do they relate to sumo's true history",
+              "note": "二重疑問文で講義の問いを提示"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "So, what were these ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "fabricated",
+              "type": "word",
+              "tier": "key",
+              "ref": "fabricated"
+            },
+            {
+              "id": "t3",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "traditions",
+              "type": "word",
+              "tier": "normal",
+              "ref": "tradition"
+            },
+            {
+              "id": "t5",
+              "surface": ", and how do they relate to sumo's true ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "history",
+              "type": "word",
+              "tier": "normal",
+              "ref": "history"
+            },
+            {
+              "id": "t7",
+              "surface": "?",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 67.021,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Our earliest reliable records of sumo come from the 8th century, when performances were held as entertainment for annual court banquets.",
+          "translation_ja": "相撲に関する最古の信頼できる記録は8世紀に遡り、宮廷の年次宴会の娯楽として公演が催されていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Our earliest reliable records of sumo"
+            },
+            {
+              "label": "V+M(時)",
+              "content": "come from the 8th century"
+            },
+            {
+              "label": "when節(補足)",
+              "content": "when performances were held as entertainment for annual court banquets"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Our earliest ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "reliable",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "reliable"
+            },
+            {
+              "id": "t3",
+              "surface": " records of sumo come from the 8th century, when ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "performances",
+              "type": "word",
+              "tier": "normal",
+              "ref": "performance"
+            },
+            {
+              "id": "t5",
+              "surface": " were held as ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "entertainment",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "entertainment"
+            },
+            {
+              "id": "t7",
+              "surface": " for ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "annual",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "annual"
+            },
+            {
+              "id": "t9",
+              "surface": " court ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "banquets",
+              "type": "word",
+              "tier": "key",
+              "ref": "banquet"
+            },
+            {
+              "id": "t11",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "During these events, wrestlers were summoned from across Japan as a demonstration of the emperor's influence.",
+          "translation_ja": "これらの行事では、天皇の影響力を示すため、日本各地から力士たちが召集された。",
+          "structure": [
+            {
+              "label": "M(時)",
+              "content": "During these events"
+            },
+            {
+              "label": "S+V",
+              "content": "wrestlers were summoned",
+              "note": "受動態"
+            },
+            {
+              "label": "M(目的)",
+              "content": "as a demonstration of the emperor's influence"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "During these events, wrestlers were ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "summoned",
+              "type": "word",
+              "tier": "key",
+              "ref": "summon"
+            },
+            {
+              "id": "t3",
+              "surface": " from across ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "Japan",
+              "type": "word",
+              "tier": "basic",
+              "ref": "japan"
+            },
+            {
+              "id": "t5",
+              "surface": " as a ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "demonstration",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "demonstration"
+            },
+            {
+              "id": "t7",
+              "surface": " of the emperor's ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "influence",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "influence"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Initially, these wrestlers would punch, scratch, and grab their opponents, claiming victory by forcing their hands or knees to the ground.",
+          "translation_ja": "当初、これらの力士たちは相手を殴り、引っかき、掴みかかり、相手の手や膝を地面に着かせることで勝利を主張した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Initially"
+            },
+            {
+              "label": "S+V(群)",
+              "content": "these wrestlers would punch, scratch, and grab their opponents",
+              "note": "wouldで過去の習慣"
+            },
+            {
+              "label": "分詞構文",
+              "content": "claiming victory by forcing their hands or knees to the ground"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "Initially",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "initially"
+            },
+            {
+              "id": "t3",
+              "surface": ", these wrestlers would ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "punch",
+              "type": "word",
+              "tier": "normal",
+              "ref": "punch"
+            },
+            {
+              "id": "t5",
+              "surface": ", ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "scratch",
+              "type": "word",
+              "tier": "normal",
+              "ref": "scratch"
+            },
+            {
+              "id": "t7",
+              "surface": ", and ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "grab",
+              "type": "word",
+              "tier": "normal",
+              "ref": "grab"
+            },
+            {
+              "id": "t9",
+              "surface": " their ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "opponents",
+              "type": "word",
+              "tier": "normal",
+              "ref": "opponent"
+            },
+            {
+              "id": "t11",
+              "surface": ", claiming ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "victory",
+              "type": "word",
+              "tier": "normal",
+              "ref": "victory"
+            },
+            {
+              "id": "t13",
+              "surface": " by forcing their hands or knees to the ground.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "But eventually, matches began focusing on grappling and tripping techniques.",
+          "translation_ja": "しかしやがて、試合は組み技と足技に焦点を当てるようになった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But eventually"
+            },
+            {
+              "label": "S+V",
+              "content": "matches began focusing on grappling and tripping techniques"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "eventually",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "eventually"
+            },
+            {
+              "id": "t3",
+              "surface": ", matches began focusing on ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "grappling",
+              "type": "word",
+              "tier": "key",
+              "ref": "grappling"
+            },
+            {
+              "id": "t5",
+              "surface": " and ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "tripping",
+              "type": "word",
+              "tier": "normal",
+              "ref": "tripping"
+            },
+            {
+              "id": "t7",
+              "surface": " techniques.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Over time, power shifted from the emperor and his court to their hired soldiers, the samurai, and official court sumo ended in 1174.",
+          "translation_ja": "やがて権力が天皇とその宮廷から雇われた武士たちへと移り、宮廷の公式相撲は1174年に終焉を迎えた。",
+          "structure": [
+            {
+              "label": "M(時)",
+              "content": "Over time"
+            },
+            {
+              "label": "S1+V1",
+              "content": "power shifted from the emperor and his court to their hired soldiers, the samurai"
+            },
+            {
+              "label": "S2+V2",
+              "content": "official court sumo ended in 1174"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Over time, power ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "shifted",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "shift"
+            },
+            {
+              "id": "t3",
+              "surface": " from the emperor and his court to their ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "hired",
+              "type": "word",
+              "tier": "normal",
+              "ref": "hired"
+            },
+            {
+              "id": "t5",
+              "surface": " soldiers, the ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "samurai",
+              "type": "word",
+              "tier": "basic",
+              "ref": "samurai"
+            },
+            {
+              "id": "t7",
+              "surface": ", and official court sumo ended in 1174.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "However, samurai leaders still had soldiers perform less formal sumo bouts for exercise and entertainment.",
+          "translation_ja": "しかし武士の指導者たちは、訓練と娯楽のために、兵士たちに非公式な相撲の取り組みを引き続き行わせた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "However"
+            },
+            {
+              "label": "S+V+O+C",
+              "content": "samurai leaders still had soldiers perform less formal sumo bouts",
+              "note": "使役動詞have + O + 動詞原形"
+            },
+            {
+              "label": "目的",
+              "content": "for exercise and entertainment"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "However, ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "samurai",
+              "type": "word",
+              "tier": "basic",
+              "ref": "samurai"
+            },
+            {
+              "id": "t3",
+              "surface": " leaders still had soldiers perform less ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "formal",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "formal"
+            },
+            {
+              "id": "t5",
+              "surface": " sumo ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "bouts",
+              "type": "word",
+              "tier": "key",
+              "ref": "bout"
+            },
+            {
+              "id": "t7",
+              "surface": " for exercise and entertainment.",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 114.777,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Throughout imperial and samurai rule, sumo was performed across Japan for sport, spectacle, and martial training.",
+          "translation_ja": "天皇と武士の統治を通じて、相撲はスポーツ・見世物・武術の訓練として日本全国で行われた。",
+          "structure": [
+            {
+              "label": "M(時期)",
+              "content": "Throughout imperial and samurai rule"
+            },
+            {
+              "label": "S+V",
+              "content": "sumo was performed across Japan",
+              "note": "受動態"
+            },
+            {
+              "label": "目的M",
+              "content": "for sport, spectacle, and martial training"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Throughout ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "imperial",
+              "type": "word",
+              "tier": "key",
+              "ref": "imperial"
+            },
+            {
+              "id": "t3",
+              "surface": " and ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "samurai",
+              "type": "word",
+              "tier": "basic",
+              "ref": "samurai"
+            },
+            {
+              "id": "t5",
+              "surface": " rule, sumo was performed across ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "Japan",
+              "type": "word",
+              "tier": "basic",
+              "ref": "japan"
+            },
+            {
+              "id": "t7",
+              "surface": " for sport, ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "spectacle",
+              "type": "word",
+              "tier": "key",
+              "ref": "spectacle"
+            },
+            {
+              "id": "t9",
+              "surface": ", and ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "martial",
+              "type": "word",
+              "tier": "key",
+              "ref": "martial"
+            },
+            {
+              "id": "t11",
+              "surface": " training.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But in the 1400s, it took on a new function: fundraising.",
+          "translation_ja": "しかし1400年代、相撲は新たな機能を担うようになった。それが資金調達だ。",
+          "structure": [
+            {
+              "label": "M(時)",
+              "content": "But in the 1400s"
+            },
+            {
+              "label": "S+V+O",
+              "content": "it took on a new function: fundraising",
+              "note": "take on = 引き受ける、担う"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But in the 1400s, it ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "took on",
+              "type": "expression",
+              "ref": "take_on"
+            },
+            {
+              "id": "t3",
+              "surface": " a new ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "function",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "function"
+            },
+            {
+              "id": "t5",
+              "surface": ": ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "fundraising",
+              "type": "word",
+              "tier": "normal",
+              "ref": "fundraising"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Shrines and temples began hosting performances to raise money for construction and repairs.",
+          "translation_ja": "神社や寺院が建設と修繕のための資金調達に、公演の主催を始めた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Shrines and temples"
+            },
+            {
+              "label": "V+O",
+              "content": "began hosting performances"
+            },
+            {
+              "label": "目的",
+              "content": "to raise money for construction and repairs"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "Shrines",
+              "type": "word",
+              "tier": "normal",
+              "ref": "shrine"
+            },
+            {
+              "id": "t3",
+              "surface": " and ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "temples",
+              "type": "word",
+              "tier": "normal",
+              "ref": "temple"
+            },
+            {
+              "id": "t5",
+              "surface": " began hosting ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "performances",
+              "type": "word",
+              "tier": "normal",
+              "ref": "performance"
+            },
+            {
+              "id": "t7",
+              "surface": " to raise money for ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "construction",
+              "type": "word",
+              "tier": "normal",
+              "ref": "construction"
+            },
+            {
+              "id": "t9",
+              "surface": " and repairs.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "And since skilled performers brought in more customers, event promoters were eager to enlist the best wrestlers.",
+          "translation_ja": "技量の高い演者ほど多くの客を呼び込むため、興行主は最高の力士を勧誘しようと躍起になった。",
+          "structure": [
+            {
+              "label": "since節(理由)",
+              "content": "since skilled performers brought in more customers"
+            },
+            {
+              "label": "S+V+C",
+              "content": "event promoters were eager to enlist the best wrestlers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "And since ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "skilled",
+              "type": "word",
+              "tier": "normal",
+              "ref": "skilled"
+            },
+            {
+              "id": "t3",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "performers",
+              "type": "word",
+              "tier": "normal",
+              "ref": "performer"
+            },
+            {
+              "id": "t5",
+              "surface": " brought in more customers, event ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "promoters",
+              "type": "word",
+              "tier": "normal",
+              "ref": "promoter"
+            },
+            {
+              "id": "t7",
+              "surface": " were eager to ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "enlist",
+              "type": "word",
+              "tier": "key",
+              "ref": "enlist"
+            },
+            {
+              "id": "t9",
+              "surface": " the best wrestlers.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "This led performers to create the first sumo guilds, ensuring steady employment and improving their working conditions.",
+          "translation_ja": "これにより演者たちは初めての相撲部屋を作るようになり、安定した雇用を確保し、労働条件を改善した。",
+          "structure": [
+            {
+              "label": "S+V+O+C",
+              "content": "This led performers to create the first sumo guilds",
+              "note": "lead O to do = Oに~させる"
+            },
+            {
+              "label": "分詞構文",
+              "content": "ensuring steady employment and improving their working conditions"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "This led performers to create the first sumo ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "guilds",
+              "type": "word",
+              "tier": "key",
+              "ref": "guild"
+            },
+            {
+              "id": "t3",
+              "surface": ", ensuring ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "steady",
+              "type": "word",
+              "tier": "normal",
+              "ref": "steady"
+            },
+            {
+              "id": "t5",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "employment",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "employment"
+            },
+            {
+              "id": "t7",
+              "surface": " and improving their working conditions.",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 147.602,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Once wrestlers could reliably make money through sumo, they became eager to perform for as many paying customers as possible.",
+          "translation_ja": "力士たちが相撲で安定して稼げるようになると、できる限り多くの有料客に向けて公演しようと意欲的になった。",
+          "structure": [
+            {
+              "label": "once節(時/条件)",
+              "content": "Once wrestlers could reliably make money through sumo"
+            },
+            {
+              "label": "S+V+C",
+              "content": "they became eager to perform for as many paying customers as possible"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Once wrestlers could ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "reliably",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "reliably"
+            },
+            {
+              "id": "t3",
+              "surface": " make money through sumo, they became eager to perform for as many paying customers as possible.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Enterprising young men put on rowdy street corner sumo performances, hoping to attract the donations of passersby.",
+          "translation_ja": "進取の気性に富んだ若者たちが、通りすがりの人の寄付を集めようと、路上の角で騒がしい相撲の興行を催した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Enterprising young men"
+            },
+            {
+              "label": "V+O",
+              "content": "put on rowdy street corner sumo performances"
+            },
+            {
+              "label": "分詞構文(目的)",
+              "content": "hoping to attract the donations of passersby"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "Enterprising",
+              "type": "word",
+              "tier": "key",
+              "ref": "enterprising"
+            },
+            {
+              "id": "t3",
+              "surface": " young men put on ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "rowdy",
+              "type": "word",
+              "tier": "key",
+              "ref": "rowdy"
+            },
+            {
+              "id": "t5",
+              "surface": " street corner sumo performances, hoping to attract the donations of ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "passersby",
+              "type": "word",
+              "tier": "key",
+              "ref": "passersby"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Lacking the organization of formal performances, these bouts often resulted in fights and injuries among both participants and spectators.",
+          "translation_ja": "正式な公演のような秩序を欠いていたため、これらの取り組みはしばしば参加者と観客の双方を巻き込む乱闘や負傷に発展した。",
+          "structure": [
+            {
+              "label": "分詞構文(理由)",
+              "content": "Lacking the organization of formal performances"
+            },
+            {
+              "label": "S+V+M",
+              "content": "these bouts often resulted in fights and injuries among both participants and spectators"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Lacking the ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "organization",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "organization"
+            },
+            {
+              "id": "t3",
+              "surface": " of ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "formal",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "formal"
+            },
+            {
+              "id": "t5",
+              "surface": " performances, these ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "bouts",
+              "type": "word",
+              "tier": "key",
+              "ref": "bout"
+            },
+            {
+              "id": "t7",
+              "surface": " often resulted in fights and injuries among both ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "participants",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "participant"
+            },
+            {
+              "id": "t9",
+              "surface": " and ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "spectators",
+              "type": "word",
+              "tier": "normal",
+              "ref": "spectator"
+            },
+            {
+              "id": "t11",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "So it didn’t take long for samurai authorities to crack down, periodically banning all forms of sumo in larger cities.",
+          "translation_ja": "そのため武士の当局がすぐに取り締まりを強化し、大都市での全形式の相撲を定期的に禁止するようになった。",
+          "structure": [
+            {
+              "label": "S+V",
+              "content": "it didn't take long for samurai authorities to crack down",
+              "note": "it takes long for ~ to ... の否定形"
+            },
+            {
+              "label": "分詞構文",
+              "content": "periodically banning all forms of sumo in larger cities"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "So it didn’t take long for samurai ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "authorities",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "authority"
+            },
+            {
+              "id": "t3",
+              "surface": " to ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "crack down",
+              "type": "expression",
+              "ref": "crack_down"
+            },
+            {
+              "id": "t5",
+              "surface": ", ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "periodically",
+              "type": "word",
+              "tier": "key",
+              "ref": "periodically"
+            },
+            {
+              "id": "t7",
+              "surface": " banning all forms of sumo in larger cities.",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 179.926,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Wrestlers and organizers knew they needed to make changes to overcome these bans.",
+          "translation_ja": "力士と主催者たちは、これらの禁止令を乗り越えるために変化が必要だと理解していた。",
+          "structure": [
+            {
+              "label": "S+V+O",
+              "content": "Wrestlers and organizers knew they needed to make changes"
+            },
+            {
+              "label": "目的",
+              "content": "to overcome these bans"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Wrestlers and ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "organizers",
+              "type": "word",
+              "tier": "normal",
+              "ref": "organizer"
+            },
+            {
+              "id": "t3",
+              "surface": " knew they needed to make changes to ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "overcome",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "overcome"
+            },
+            {
+              "id": "t5",
+              "surface": " these bans.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "First, they established a boundary to separate spectators from participants.",
+          "translation_ja": "まず彼らは、観客と競技者を分けるための境界を設けた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "First"
+            },
+            {
+              "label": "S+V+O",
+              "content": "they established a boundary"
+            },
+            {
+              "label": "目的",
+              "content": "to separate spectators from participants"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "First, they ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "established",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "establish"
+            },
+            {
+              "id": "t3",
+              "surface": " a ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "boundary",
+              "type": "word",
+              "tier": "key",
+              "ref": "boundary"
+            },
+            {
+              "id": "t5",
+              "surface": " to separate ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "spectators",
+              "type": "word",
+              "tier": "normal",
+              "ref": "spectator"
+            },
+            {
+              "id": "t7",
+              "surface": " from ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "participants",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "participant"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This boundary took many forms, but over the 17th century it morphed into a standard ring called the dohȳō.",
+          "translation_ja": "この境界は様々な形をとったが、17世紀を通じて「土俵(dohyō)」と呼ばれる標準的な土台へと変容していった。",
+          "structure": [
+            {
+              "label": "S1+V1",
+              "content": "This boundary took many forms"
+            },
+            {
+              "label": "but S2+V2",
+              "content": "over the 17th century it morphed into a standard ring called the dohyō"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "This boundary took many forms, but over the 17th century it ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "morphed",
+              "type": "word",
+              "tier": "key",
+              "ref": "morph"
+            },
+            {
+              "id": "t3",
+              "surface": " into a standard ring called the ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "dohyō",
+              "type": "foreign",
+              "ref": "dohyo"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "This ring outlined the field of play, introducing a pivotal new rule: now matches could also be won by pushing one’s opponent out of the dohȳō.",
+          "translation_ja": "この土俵は競技フィールドを規定し、重要な新ルールをもたらした。試合は相手を土俵の外に押し出すことでも勝てるようになったのだ。",
+          "structure": [
+            {
+              "label": "S+V+O",
+              "content": "This ring outlined the field of play"
+            },
+            {
+              "label": "分詞構文",
+              "content": "introducing a pivotal new rule"
+            },
+            {
+              "label": "コロン以下(ルール内容)",
+              "content": "now matches could also be won by pushing one's opponent out of the dohyō"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "This ring outlined the field of play, introducing a ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "pivotal",
+              "type": "word",
+              "tier": "key",
+              "ref": "pivotal"
+            },
+            {
+              "id": "t3",
+              "surface": " new rule: now matches could also be won by pushing one’s ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "opponent",
+              "type": "word",
+              "tier": "normal",
+              "ref": "opponent"
+            },
+            {
+              "id": "t5",
+              "surface": " out of the ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "dohyō",
+              "type": "foreign",
+              "ref": "dohyo"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "This innovation increased the advantage of heavier wrestlers, whose weight already helped them topple their opponents.",
+          "translation_ja": "このイノベーションにより、体重の重い力士の優位性が増した。彼らの体重はすでに相手を倒す助けになっていたのだから。",
+          "structure": [
+            {
+              "label": "S+V+O",
+              "content": "This innovation increased the advantage of heavier wrestlers"
+            },
+            {
+              "label": "関係節",
+              "content": "whose weight already helped them topple their opponents",
+              "note": "非制限用法の関係節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "This ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "innovation",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "innovation"
+            },
+            {
+              "id": "t3",
+              "surface": " increased the ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "advantage",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "advantage"
+            },
+            {
+              "id": "t5",
+              "surface": " of heavier wrestlers, whose weight already helped them ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "topple",
+              "type": "word",
+              "tier": "key",
+              "ref": "topple"
+            },
+            {
+              "id": "t7",
+              "surface": " their opponents.",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 215.294,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "But sumo’s journey to become a respectable sport really took off when promoters began introducing rituals to associate sumo with Japan’s ancient past.",
+          "translation_ja": "しかし相撲が立派なスポーツになるための旅が本格的に始まったのは、興行師たちが相撲を日本の古代の過去と結びつけるための儀式を導入し始めたときだった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "sumo's journey to become a respectable sport"
+            },
+            {
+              "label": "V",
+              "content": "really took off"
+            },
+            {
+              "label": "when節",
+              "content": "when promoters began introducing rituals to associate sumo with Japan's ancient past"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But sumo’s journey to become a ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "respectable",
+              "type": "word",
+              "tier": "key",
+              "ref": "respectable"
+            },
+            {
+              "id": "t3",
+              "surface": " sport really ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "took off",
+              "type": "expression",
+              "ref": "take_off"
+            },
+            {
+              "id": "t5",
+              "surface": " when ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "promoters",
+              "type": "word",
+              "tier": "normal",
+              "ref": "promoter"
+            },
+            {
+              "id": "t7",
+              "surface": " began introducing ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "rituals",
+              "type": "word",
+              "tier": "key",
+              "ref": "ritual"
+            },
+            {
+              "id": "t9",
+              "surface": " to associate sumo with ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "Japan",
+              "type": "word",
+              "tier": "basic",
+              "ref": "japan"
+            },
+            {
+              "id": "t11",
+              "surface": "’s ancient past.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Wrestlers threw salt in the ring and rinsed their mouths with water before matches— actions that evoked ancient religious ceremonies.",
+          "translation_ja": "力士たちは試合前に土俵に塩をまき、水で口を濯いだ。これらの行為は古代の宗教儀式を想起させた。",
+          "structure": [
+            {
+              "label": "S+V",
+              "content": "Wrestlers threw salt in the ring and rinsed their mouths with water before matches"
+            },
+            {
+              "label": "ダッシュ以下(補足)",
+              "content": "actions that evoked ancient religious ceremonies",
+              "note": "ダッシュで前文の行為全体を指示"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "Wrestlers threw salt in the ring and ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "rinsed",
+              "type": "word",
+              "tier": "normal",
+              "ref": "rinse"
+            },
+            {
+              "id": "t3",
+              "surface": " their mouths with water before matches— actions that ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "evoked",
+              "type": "word",
+              "tier": "key",
+              "ref": "evoke"
+            },
+            {
+              "id": "t5",
+              "surface": " ancient religious ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "ceremonies",
+              "type": "word",
+              "tier": "normal",
+              "ref": "ceremony"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "These invented traditions imbued the sport with cultural legitimacy, convincing authorities that sumo was above board.",
+          "translation_ja": "これらの「発明された伝統」はスポーツに文化的正当性を付与し、相撲が誠実なものであると当局を納得させた。",
+          "structure": [
+            {
+              "label": "S+V+O+M",
+              "content": "These invented traditions imbued the sport with cultural legitimacy",
+              "note": "imbue A with B = AにBを吹き込む"
+            },
+            {
+              "label": "分詞構文",
+              "content": "convincing authorities that sumo was above board"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "These invented traditions ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "imbued",
+              "type": "word",
+              "tier": "key",
+              "ref": "imbue"
+            },
+            {
+              "id": "t3",
+              "surface": " the sport with ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "cultural",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "cultural"
+            },
+            {
+              "id": "t5",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "legitimacy",
+              "type": "word",
+              "tier": "key",
+              "ref": "legitimacy"
+            },
+            {
+              "id": "t7",
+              "surface": ", convincing ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "authorities",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "authority"
+            },
+            {
+              "id": "t9",
+              "surface": " that sumo was ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "above board",
+              "type": "expression",
+              "ref": "above_board"
+            },
+            {
+              "id": "t11",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "One notable ritual emerged in 1789, when the Tokyo guild began having their top-ranked wrestlers perform a ring-entering ceremony wearing a sacred rope called the yokozuna.",
+          "translation_ja": "1789年に一つの注目すべき儀式が登場した。東京の相撲部屋が、最上位の力士たちに、横綱と呼ばれる神聖な縄をつけた土俵入り式を行わせ始めたのだ。",
+          "structure": [
+            {
+              "label": "S+V+M(時)",
+              "content": "One notable ritual emerged in 1789"
+            },
+            {
+              "label": "when節",
+              "content": "when the Tokyo guild began having their top-ranked wrestlers perform a ring-entering ceremony",
+              "note": "使役have + O + 動詞原形"
+            },
+            {
+              "label": "分詞構文",
+              "content": "wearing a sacred rope called the yokozuna"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "One ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "notable",
+              "type": "word",
+              "tier": "key",
+              "ref": "notable"
+            },
+            {
+              "id": "t3",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "ritual",
+              "type": "word",
+              "tier": "key",
+              "ref": "ritual"
+            },
+            {
+              "id": "t5",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "emerged",
+              "type": "word",
+              "tier": "key",
+              "ref": "emerge"
+            },
+            {
+              "id": "t7",
+              "surface": " in 1789, when the ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "Tokyo",
+              "type": "word",
+              "tier": "basic",
+              "ref": "tokyo"
+            },
+            {
+              "id": "t9",
+              "surface": " guild began having their top-ranked wrestlers perform a ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "ring-entering ceremony",
+              "type": "expression",
+              "ref": "ring_entering_ceremony"
+            },
+            {
+              "id": "t11",
+              "surface": " wearing a ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "sacred",
+              "type": "word",
+              "tier": "key",
+              "ref": "sacred"
+            },
+            {
+              "id": "t13",
+              "surface": " rope called the ",
+              "type": "skip"
+            },
+            {
+              "id": "t14",
+              "surface": "yokozuna",
+              "type": "foreign",
+              "ref": "yokozuna"
+            },
+            {
+              "id": "t15",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "This innovation became so popular, the shōgun himself summoned the troupe for a performance— giving legitimacy not just to the Tokyo guild, but specifically to their invented traditions.",
+          "translation_ja": "この革新はあまりにも人気を博したため、将軍自身が一座を御前公演に召喚した。それは東京の相撲部屋だけでなく、発明された伝統そのものに正当性を与えることになった。",
+          "structure": [
+            {
+              "label": "S+V+C",
+              "content": "This innovation became so popular"
+            },
+            {
+              "label": "結果節",
+              "content": "the shōgun himself summoned the troupe for a performance",
+              "note": "so ... that省略の口語的結果節"
+            },
+            {
+              "label": "ダッシュ以下(補足)",
+              "content": "giving legitimacy not just to the Tokyo guild, but specifically to their invented traditions"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "This ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "innovation",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "innovation"
+            },
+            {
+              "id": "t3",
+              "surface": " became so popular, the ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "shōgun",
+              "type": "word",
+              "tier": "basic",
+              "ref": "shogun"
+            },
+            {
+              "id": "t5",
+              "surface": " himself ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "summoned",
+              "type": "word",
+              "tier": "key",
+              "ref": "summon"
+            },
+            {
+              "id": "t7",
+              "surface": " the ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "troupe",
+              "type": "word",
+              "tier": "key",
+              "ref": "troupe"
+            },
+            {
+              "id": "t9",
+              "surface": " for a performance— giving ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "legitimacy",
+              "type": "word",
+              "tier": "key",
+              "ref": "legitimacy"
+            },
+            {
+              "id": "t11",
+              "surface": " not just to the ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "Tokyo",
+              "type": "word",
+              "tier": "basic",
+              "ref": "tokyo"
+            },
+            {
+              "id": "t13",
+              "surface": " guild, but ",
+              "type": "skip"
+            },
+            {
+              "id": "t14",
+              "surface": "specifically",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "specifically"
+            },
+            {
+              "id": "t15",
+              "surface": " to their invented traditions.",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 269.724,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "After the shogunate was overthrown in 1868, sumo was seen as a dated relic and briefly fell out of fashion.",
+          "translation_ja": "1868年に幕府が倒されると、相撲は時代遅れの遺物と見なされ、一時的に流行から外れた。",
+          "structure": [
+            {
+              "label": "after節(時)",
+              "content": "After the shogunate was overthrown in 1868"
+            },
+            {
+              "label": "S+V+C",
+              "content": "sumo was seen as a dated relic"
+            },
+            {
+              "label": "V2",
+              "content": "briefly fell out of fashion"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "After the ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "shogunate",
+              "type": "word",
+              "tier": "key",
+              "ref": "shogunate"
+            },
+            {
+              "id": "t3",
+              "surface": " was ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "overthrown",
+              "type": "word",
+              "tier": "key",
+              "ref": "overthrow"
+            },
+            {
+              "id": "t5",
+              "surface": " in 1868, sumo was seen as a dated ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "relic",
+              "type": "word",
+              "tier": "key",
+              "ref": "relic"
+            },
+            {
+              "id": "t7",
+              "surface": " and briefly ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "fell out of fashion",
+              "type": "expression",
+              "ref": "fall_out_of_fashion"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But the sport gradually remade itself for the modern era, and today, Japan holds six 15-day tournaments every year, all of which are broadcast worldwide.",
+          "translation_ja": "しかしそのスポーツは徐々に現代に合わせて自己変革を遂げ、今日では日本が毎年6回の15日間トーナメントを開催し、そのすべてが世界中に放映されている。",
+          "structure": [
+            {
+              "label": "S1+V1",
+              "content": "the sport gradually remade itself for the modern era"
+            },
+            {
+              "label": "S2+V2+O",
+              "content": "Japan holds six 15-day tournaments every year"
+            },
+            {
+              "label": "関係節",
+              "content": "all of which are broadcast worldwide"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But the sport ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "gradually",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "gradually"
+            },
+            {
+              "id": "t3",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "remade",
+              "type": "word",
+              "tier": "key",
+              "ref": "remake"
+            },
+            {
+              "id": "t5",
+              "surface": " itself for the modern ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "era",
+              "type": "word",
+              "tier": "key",
+              "ref": "era"
+            },
+            {
+              "id": "t7",
+              "surface": ", and today, ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "Japan",
+              "type": "word",
+              "tier": "basic",
+              "ref": "japan"
+            },
+            {
+              "id": "t9",
+              "surface": " holds six 15-day ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "tournaments",
+              "type": "word",
+              "tier": "normal",
+              "ref": "tournament"
+            },
+            {
+              "id": "t11",
+              "surface": " every year, all of which are ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "broadcast",
+              "type": "word",
+              "tier": "key",
+              "ref": "broadcast"
+            },
+            {
+              "id": "t13",
+              "surface": " worldwide.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "New technology has brought advantages like instant replays, while other innovations were introduced to evoke the ancient past.",
+          "translation_ja": "新技術がインスタントリプレイのような利点をもたらす一方で、他の革新は古代の過去を想起させるために導入された。",
+          "structure": [
+            {
+              "label": "S+V+O",
+              "content": "New technology has brought advantages like instant replays"
+            },
+            {
+              "label": "while節(対比)",
+              "content": "while other innovations were introduced to evoke the ancient past"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "New technology has brought ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "advantages",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "advantage"
+            },
+            {
+              "id": "t3",
+              "surface": " like instant replays, while other ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "innovations",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "innovation"
+            },
+            {
+              "id": "t5",
+              "surface": " were introduced to ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "evoke",
+              "type": "word",
+              "tier": "key",
+              "ref": "evoke"
+            },
+            {
+              "id": "t7",
+              "surface": " the ancient past.",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "And over the last century, the average body weight in the upper division has increased by over 60 kilograms!",
+          "translation_ja": "そして過去100年で、上位階級の平均体重は60キログラム以上増加した！",
+          "structure": [
+            {
+              "label": "M(時)",
+              "content": "over the last century"
+            },
+            {
+              "label": "S+V",
+              "content": "the average body weight in the upper division has increased by over 60 kilograms",
+              "note": "現在完了形で過去から現在への変化を示す"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "And over the last century, the average body weight in the upper ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "division",
+              "type": "word",
+              "tier": "normal",
+              "ref": "division"
+            },
+            {
+              "id": "t3",
+              "surface": " has increased by over 60 kilograms!",
+              "type": "skip"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "But throughout its changes, sumo has sustained its status as a beloved form of entertainment, a grand display of strength, and an ode to national traditions— both real and invented.",
+          "translation_ja": "しかしすべての変化を通じて、相撲は娯楽の愛される形態、力の壮大な示威、そして国の伝統への賛歌という地位を維持してきた。それは現実のものも、発明されたものも含めて。",
+          "structure": [
+            {
+              "label": "M(譲歩)",
+              "content": "throughout its changes"
+            },
+            {
+              "label": "S+V+O",
+              "content": "sumo has sustained its status"
+            },
+            {
+              "label": "as句(補足)",
+              "content": "as a beloved form of entertainment, a grand display of strength, and an ode to national traditions— both real and invented"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "surface": "But throughout its changes, sumo has ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "sustained",
+              "type": "word",
+              "tier": "key",
+              "ref": "sustain"
+            },
+            {
+              "id": "t3",
+              "surface": " its ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "status",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "status"
+            },
+            {
+              "id": "t5",
+              "surface": " as a ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "beloved",
+              "type": "word",
+              "tier": "key",
+              "ref": "beloved"
+            },
+            {
+              "id": "t7",
+              "surface": " form of entertainment, a grand ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "display",
+              "type": "word",
+              "tier": "normal",
+              "ref": "display"
+            },
+            {
+              "id": "t9",
+              "surface": " of strength, and an ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "ode",
+              "type": "word",
+              "tier": "key",
+              "ref": "ode"
+            },
+            {
+              "id": "t11",
+              "surface": " to national traditions— both real and invented.",
+              "type": "skip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "niigata": {
+      "tier": "basic",
+      "surface": "Niigata",
+      "pos": "proper noun",
+      "pron": "/niːˈɡɑːtə/",
+      "meaning": "新潟(日本海側に位置する日本の都市・県)",
+      "example": {
+        "en": "<b>Niigata</b> is famous for its rice and sake.",
+        "ja": "新潟は米と酒で有名だ。"
+      },
+      "context": "本州日本海側の中部地方に位置。米どころ・酒どころとして名高い。人口約220万人の県。",
+      "collocations": [
+        "Niigata Prefecture",
+        "Niigata City"
+      ]
+    },
+    "tokyo": {
+      "tier": "basic",
+      "surface": "Tokyo",
+      "pos": "proper noun",
+      "pron": "/ˈtoʊ.ki.oʊ/",
+      "meaning": "東京(日本の首都)",
+      "example": {
+        "en": "<b>Tokyo</b> is one of the world's most populous cities.",
+        "ja": "東京は世界最大級の都市の一つだ。"
+      },
+      "context": "日本の政治・経済・文化の中心地。江戸時代は「江戸(Edo)」と称された。1869年に正式に首都となった。",
+      "collocations": [
+        "Tokyo Olympics",
+        "Greater Tokyo",
+        "downtown Tokyo"
+      ]
+    },
+    "japan": {
+      "tier": "basic",
+      "surface": "Japan",
+      "pos": "proper noun",
+      "pron": "/dʒəˈpæn/",
+      "meaning": "日本",
+      "example": {
+        "en": "<b>Japan</b> is an island nation in East Asia.",
+        "ja": "日本は東アジアの島国だ。"
+      },
+      "context": "正式名称 Nippon/Nihon。形容詞 Japanese、国民 the Japanese。太平洋に弧状に連なる島国。",
+      "collocations": [
+        "made in Japan",
+        "Japan Times",
+        "Bank of Japan"
+      ]
+    },
+    "samurai": {
+      "tier": "basic",
+      "surface": "samurai",
+      "pos": "noun (Japanese loanword)",
+      "pron": "/ˈsæm.ʊ.raɪ/",
+      "meaning": "武士、侍",
+      "example": {
+        "en": "The <b>samurai</b> served the feudal lords of Japan.",
+        "ja": "武士は日本の封建領主に仕えた。"
+      },
+      "context": "日本の封建時代の武士階級。英語では単複同形(samurai / samurai)が一般的。語源は日本語「さぶらひ(仕える者)」。",
+      "collocations": [
+        "samurai warrior",
+        "samurai sword",
+        "samurai culture"
+      ]
+    },
+    "shogun": {
+      "tier": "basic",
+      "surface": "shōgun",
+      "pos": "noun (Japanese loanword)",
+      "pron": "/ˈʃoʊ.ɡʌn/",
+      "meaning": "将軍(江戸時代の日本の実質的最高権力者)",
+      "example": {
+        "en": "The <b>shōgun</b> held more power than the emperor.",
+        "ja": "将軍は天皇よりも実質的な権力を握っていた。"
+      },
+      "context": "英語では「shogun」とも綴る。徳川幕府の将軍が最も有名。源義朝が1192年初代征夷大将軍に任命されたのが起源。",
+      "collocations": [
+        "Tokugawa shogun",
+        "shogunate government"
+      ]
+    },
+    "sumo": {
+      "tier": "normal",
+      "surface": "sumo",
+      "pos": "noun (Japanese loanword) · A2",
+      "pron": "/ˈsuː.moʊ/",
+      "meaning": "相撲",
+      "example": {
+        "en": "<b>Sumo</b> wrestling originated in Japan.",
+        "ja": "相撲は日本で生まれた。"
+      },
+      "context": "日本の国技。力士が土俵の上で競い、相手を押し出すか倒すことで勝利する。国際的にも人気が高まっている。",
+      "collocations": [
+        "sumo wrestler",
+        "sumo tournament",
+        "sumo ring",
+        "sumo guild"
+      ]
+    },
+    "amateur": {
+      "tier": "normal",
+      "surface": "amateur",
+      "pos": "adj/noun · B1",
+      "pron": "/ˈæm.ə.tər/",
+      "meaning": "素人の、アマチュアの",
+      "example": {
+        "en": "He is an <b>amateur</b> photographer.",
+        "ja": "彼はアマチュアの写真家だ。"
+      },
+      "context": "対義語はprofessional/pro。スポーツ・芸術などで報酬なしに活動する人。否定的ニュアンス(粗末な)で使われることもある。",
+      "collocations": [
+        "amateur athlete",
+        "amateur photographer",
+        "amateur performance"
+      ]
+    },
+    "wrestler": {
+      "tier": "normal",
+      "surface": "wrestlers",
+      "pos": "noun · B1",
+      "pron": "/ˈres.lər/",
+      "meaning": "レスラー、格闘家、力士",
+      "example": {
+        "en": "The <b>wrestlers</b> trained every day.",
+        "ja": "レスラーたちは毎日練習した。"
+      },
+      "context": "wrestle(格闘する)の名詞形。相撲の文脈では力士を指す。bodyの大きさで有名なプロレスラー(pro wrestler)と区別することも多い。",
+      "collocations": [
+        "sumo wrestler",
+        "professional wrestler",
+        "wrestlers compete"
+      ]
+    },
+    "present_day": {
+      "tier": "normal",
+      "surface": "present-day",
+      "pos": "adj · B1",
+      "pron": "/ˈprez.ənt.deɪ/",
+      "meaning": "現在の、今日の",
+      "example": {
+        "en": "In <b>present-day</b> Tokyo, traffic is heavy.",
+        "ja": "現在の東京は交通が混雑している。"
+      },
+      "context": "current/modern と同義。歴史的文章で過去の地名・状況を現代との対比で説明するときによく使う。",
+      "collocations": [
+        "present-day society",
+        "present-day standards",
+        "present-day Japan"
+      ]
+    },
+    "perform": {
+      "tier": "normal",
+      "surface": "performing",
+      "pos": "verb · B1",
+      "pron": "/pərˈfɔːrm/",
+      "meaning": "公演する、演じる、実行する",
+      "example": {
+        "en": "The musicians were <b>performing</b> outdoors.",
+        "ja": "ミュージシャンたちが屋外で公演していた。"
+      },
+      "context": "舞台・音楽・スポーツなど幅広い「実演」に使う多義語。perform an operation(手術する)、perform well(好成績を残す)など。",
+      "collocations": [
+        "perform a concert",
+        "perform well",
+        "perform surgery"
+      ]
+    },
+    "money": {
+      "tier": "normal",
+      "surface": "money",
+      "pos": "noun · A1",
+      "pron": "/ˈmʌn.i/",
+      "meaning": "お金",
+      "example": {
+        "en": "They raised <b>money</b> for charity.",
+        "ja": "彼らは慈善事業のためにお金を集めた。"
+      },
+      "context": "不可算名詞。「お金を稼ぐ」make money、「お金を集める」raise money、「お金がかかる」cost money。",
+      "collocations": [
+        "make money",
+        "raise money",
+        "save money",
+        "spend money"
+      ]
+    },
+    "temple": {
+      "tier": "normal",
+      "surface": "temple",
+      "pos": "noun · B1",
+      "pron": "/ˈtem.pəl/",
+      "meaning": "寺院、神殿",
+      "example": {
+        "en": "They visited a Buddhist <b>temple</b>.",
+        "ja": "彼らは仏教寺院を訪れた。"
+      },
+      "context": "仏教(Buddhist temple)・ヒンドゥー教・ユダヤ教など様々な宗教の礼拝施設。キリスト教はchurch/cathedral。頭のこめかみもtemple。",
+      "collocations": [
+        "Buddhist temple",
+        "Shinto shrine",
+        "ancient temple"
+      ]
+    },
+    "pro": {
+      "tier": "normal",
+      "surface": "pros",
+      "pos": "noun (informal) · B1",
+      "pron": "/proʊ/",
+      "meaning": "プロ、専門家",
+      "example": {
+        "en": "She went from amateur to <b>pro</b> in one year.",
+        "ja": "彼女は1年でアマから プロになった。"
+      },
+      "context": "professionalの短縮形。口語的。pros and cons(賛否両論)のproとは別語。",
+      "collocations": [
+        "sumo pro",
+        "go pro",
+        "turn pro"
+      ]
+    },
+    "crash_event": {
+      "tier": "key",
+      "surface": "crashed",
+      "pos": "verb (slang) · B2",
+      "pron": "/kræʃt/",
+      "meaning": "（招かれざる客として）乗り込む、押しかける",
+      "example": {
+        "en": "They <b>crashed</b> the private party.",
+        "ja": "彼らはプライベートパーティーに乱入した。"
+      },
+      "context": "本来「衝突する/墜落する」だが、「crash a party/event」で「招待なしに押しかける」という口語表現。この意味はB2以上。",
+      "collocations": [
+        "crash a party",
+        "crash the gate",
+        "crash an event"
+      ]
+    },
+    "guild": {
+      "tier": "key",
+      "surface": "guild",
+      "pos": "noun · B2",
+      "pron": "/ɡɪld/",
+      "meaning": "ギルド、同業組合、部屋",
+      "example": {
+        "en": "The medieval <b>guild</b> controlled trade in the city.",
+        "ja": "中世のギルドは都市の交易を支配していた。"
+      },
+      "context": "中世ヨーロッパや日本の同業者集団。職人・商人が互いの利益を守るために結成。相撲の文脈では「部屋(stable)」に近い概念。",
+      "collocations": [
+        "trade guild",
+        "craftsmen's guild",
+        "sumo guild",
+        "guild member"
+      ]
+    },
+    "charge": {
+      "tier": "normal",
+      "surface": "charge",
+      "pos": "verb · B1",
+      "pron": "/tʃɑːrdʒ/",
+      "meaning": "料金を請求する、課金する",
+      "example": {
+        "en": "The hotel <b>charges</b> $200 per night.",
+        "ja": "そのホテルは1泊200ドルを請求する。"
+      },
+      "context": "「charge + 人 + 金額」または「charge + 金額 + for ~」。充電するcharge(a battery)、攻撃するcharge(an enemy)などの意味もある多義語。",
+      "collocations": [
+        "charge admission",
+        "charge a fee",
+        "free of charge"
+      ]
+    },
+    "audience": {
+      "tier": "normal",
+      "surface": "audiences",
+      "pos": "noun · B1",
+      "pron": "/ˈɔː.di.əns/",
+      "meaning": "観客、聴衆",
+      "example": {
+        "en": "The <b>audience</b> applauded loudly.",
+        "ja": "観客は大きな拍手を送った。"
+      },
+      "context": "劇場・映画・コンサートの観客。英米では集合名詞で単数扱い。spectator(主にスポーツ観戦者)と区別することも。",
+      "collocations": [
+        "target audience",
+        "live audience",
+        "audience applause"
+      ]
+    },
+    "admission": {
+      "tier": "normal",
+      "surface": "admission",
+      "pos": "noun · B1",
+      "pron": "/ədˈmɪʃ.ən/",
+      "meaning": "入場料、入学許可",
+      "example": {
+        "en": "<b>Admission</b> to the museum is free on Sundays.",
+        "ja": "その美術館の日曜日の入場は無料だ。"
+      },
+      "context": "「入場を許可すること」が原義。charge admission(入場料を取る)、admission fee(入場料)、gain admission(入学/入場を許可される)。",
+      "collocations": [
+        "charge admission",
+        "admission fee",
+        "college admission",
+        "gain admission"
+      ]
+    },
+    "magistrate": {
+      "tier": "key",
+      "surface": "magistrate",
+      "pos": "noun · C1",
+      "pron": "/ˈmæd͡ʒ.ɪ.streɪt/",
+      "meaning": "治安判事、裁判官",
+      "example": {
+        "en": "The case was heard before a <b>magistrate</b>.",
+        "ja": "その事件は治安判事の前で審理された。"
+      },
+      "context": "英米では下級裁判所の判事。日本語では「奉行」などに近い。judgeより権限が小さいことが多い。現代英語では magistrate's court で使われる。",
+      "collocations": [
+        "local magistrate",
+        "appear before a magistrate",
+        "magistrate's court"
+      ]
+    },
+    "claim": {
+      "tier": "normal",
+      "surface": "claim",
+      "pos": "noun/verb · B1",
+      "pron": "/kleɪm/",
+      "meaning": "主張、申し立て / 主張する",
+      "example": {
+        "en": "She made a bold <b>claim</b> about the results.",
+        "ja": "彼女は結果について大胆な主張をした。"
+      },
+      "context": "名詞(主張・要求・権利)と動詞(主張する・要求する)の両用法。insurance claim(保険請求)、claim responsibility(責任を認める)などの重要熟語あり。",
+      "collocations": [
+        "make a claim",
+        "claim responsibility",
+        "insurance claim",
+        "false claim"
+      ]
+    },
+    "adhere": {
+      "tier": "key",
+      "surface": "adhered",
+      "pos": "verb · C1",
+      "pron": "/ədˈhɪər/",
+      "meaning": "固守する、従う、くっつく",
+      "example": {
+        "en": "Athletes must <b>adhere</b> to the rules.",
+        "ja": "アスリートはルールを守らなければならない。"
+      },
+      "context": "adhere to ~(~に従う、守る)という句動詞が重要。follow/comply withより硬い表現で、規則・信念・伝統への厳守を示す。物理的にくっつく意味もある。",
+      "collocations": [
+        "adhere to the rules",
+        "adhere to a policy",
+        "adhere to principles"
+      ]
+    },
+    "performer": {
+      "tier": "normal",
+      "surface": "performers",
+      "pos": "noun · B1",
+      "pron": "/pərˈfɔːr.mər/",
+      "meaning": "演者、出演者、パフォーマー",
+      "example": {
+        "en": "The <b>performers</b> took their bows.",
+        "ja": "演者たちがお辞儀をした。"
+      },
+      "context": "perform の名詞形。舞台・音楽・スポーツなど広い文脈で使える。high performer(高成績者)のような比喩的用法も。",
+      "collocations": [
+        "street performer",
+        "top performer",
+        "skilled performer"
+      ]
+    },
+    "legitimate": {
+      "tier": "frequent",
+      "surface": "legitimate",
+      "pos": "adj · B2",
+      "pron": "/lɪˈdʒɪt.ɪ.mɪt/",
+      "meaning": "正当な、合法の",
+      "example": {
+        "en": "Is this a <b>legitimate</b> business?",
+        "ja": "これは正当なビジネスなのか？"
+      },
+      "context": "legal(合法的)よりも幅広く、「道徳的・論理的に正当な」意味もある。名詞形 legitimacy(正当性)。俗語「lit」は別語。",
+      "collocations": [
+        "legitimate concern",
+        "legitimate business",
+        "legitimate claim",
+        "legitimate authority"
+      ]
+    },
+    "surprisingly": {
+      "tier": "normal",
+      "surface": "surprisingly",
+      "pos": "adv · B1",
+      "pron": "/sərˈpraɪ.zɪŋ.li/",
+      "meaning": "驚くことに、意外にも",
+      "example": {
+        "en": "<b>Surprisingly</b>, he passed the exam.",
+        "ja": "驚くことに、彼は試験に合格した。"
+      },
+      "context": "文頭・文中で接続副詞的に使う。surpriseの副詞形。similar words: unexpectedly, remarkably, astonishingly。",
+      "collocations": [
+        "surprisingly easy",
+        "not surprisingly",
+        "somewhat surprisingly"
+      ]
+    },
+    "invention": {
+      "tier": "normal",
+      "surface": "inventions",
+      "pos": "noun · B1",
+      "pron": "/ɪnˈven.ʃən/",
+      "meaning": "発明、作り話",
+      "example": {
+        "en": "The wheel is one of humanity's greatest <b>inventions</b>.",
+        "ja": "車輪は人類最大の発明の一つだ。"
+      },
+      "context": "invent(発明する)の名詞形。「作り話・でたらめ」の意味もあり、本文では「捏造された伝統」という文脈で使われている。",
+      "collocations": [
+        "recent invention",
+        "revolutionary invention",
+        "pure invention",
+        "invention of tradition"
+      ]
+    },
+    "fabricated": {
+      "tier": "key",
+      "surface": "fabricated",
+      "pos": "adj/verb · C1",
+      "pron": "/ˈfæb.rɪ.keɪ.tɪd/",
+      "meaning": "でっち上げられた、捏造された",
+      "example": {
+        "en": "The alibi was completely <b>fabricated</b>.",
+        "ja": "アリバイは完全に捏造されていた。"
+      },
+      "context": "fabricate(製造する)が「証拠・話を捏造する」という否定的意味でも使われる。manufactured, invented, made up も類義語。",
+      "collocations": [
+        "fabricated evidence",
+        "fabricated story",
+        "completely fabricated"
+      ]
+    },
+    "tradition": {
+      "tier": "normal",
+      "surface": "traditions",
+      "pos": "noun · B1",
+      "pron": "/trəˈdɪʃ.ən/",
+      "meaning": "伝統、慣習",
+      "example": {
+        "en": "It's a family <b>tradition</b> to eat together on Sunday.",
+        "ja": "日曜日は家族で食事をするのが家族の伝統だ。"
+      },
+      "context": "「世代から世代へ受け継がれる慣習・信念」。形容詞 traditional、副詞 traditionally。本文の'invented traditions'はホブズボウム理論の中心概念。",
+      "collocations": [
+        "ancient tradition",
+        "cultural tradition",
+        "break with tradition",
+        "invented tradition"
+      ]
+    },
+    "history": {
+      "tier": "normal",
+      "surface": "history",
+      "pos": "noun · A2",
+      "pron": "/ˈhɪs.tər.i/",
+      "meaning": "歴史、経緯",
+      "example": {
+        "en": "She studied the <b>history</b> of art.",
+        "ja": "彼女は美術の歴史を学んだ。"
+      },
+      "context": "「記録された過去の出来事」。make history(歴史をつくる)、go down in history(歴史に残る)などの表現が重要。",
+      "collocations": [
+        "ancient history",
+        "make history",
+        "history lesson",
+        "true history"
+      ]
+    },
+    "reliable": {
+      "tier": "frequent",
+      "surface": "reliable",
+      "pos": "adj · B2",
+      "pron": "/rɪˈlaɪ.ə.bəl/",
+      "meaning": "信頼できる、確実な",
+      "example": {
+        "en": "She is a <b>reliable</b> source of information.",
+        "ja": "彼女は信頼できる情報源だ。"
+      },
+      "context": "「一貫して頼りになる」。名詞形 reliability。反意語 unreliable。TOEFL/IELTS でよく問われる重要語。dependable と同義だが書き言葉で多用。",
+      "collocations": [
+        "reliable source",
+        "reliable information",
+        "reliable records",
+        "highly reliable"
+      ]
+    },
+    "performance": {
+      "tier": "normal",
+      "surface": "performances",
+      "pos": "noun · B1",
+      "pron": "/pərˈfɔːr.məns/",
+      "meaning": "公演、パフォーマンス、成績",
+      "example": {
+        "en": "The <b>performance</b> received a standing ovation.",
+        "ja": "その公演はスタンディングオベーションを受けた。"
+      },
+      "context": "「実演・演技」と「(機械・人の)性能・成績」の両義がある多義語。job performance(業務成績)、engine performance(エンジン性能)など。",
+      "collocations": [
+        "live performance",
+        "outstanding performance",
+        "performance review",
+        "give a performance"
+      ]
+    },
+    "entertainment": {
+      "tier": "frequent",
+      "surface": "entertainment",
+      "pos": "noun · B1",
+      "pron": "/ˌen.tərˈteɪn.mənt/",
+      "meaning": "娯楽、エンターテインメント",
+      "example": {
+        "en": "Music is a form of <b>entertainment</b>.",
+        "ja": "音楽は娯楽の一形態だ。"
+      },
+      "context": "entertain(楽しませる)の名詞形。business entertainment(接待)という表現も重要。AWL収録語。",
+      "collocations": [
+        "form of entertainment",
+        "entertainment industry",
+        "live entertainment",
+        "popular entertainment"
+      ]
+    },
+    "annual": {
+      "tier": "frequent",
+      "surface": "annual",
+      "pos": "adj · B1",
+      "pron": "/ˈæn.ju.əl/",
+      "meaning": "年次の、毎年の",
+      "example": {
+        "en": "The company holds an <b>annual</b> conference.",
+        "ja": "その会社は毎年大会を開く。"
+      },
+      "context": "「1年に1回の」。副詞 annually(毎年)。biannual(年2回)・biennial(2年に1回)と混同しやすいので注意。",
+      "collocations": [
+        "annual meeting",
+        "annual report",
+        "annual salary",
+        "annual event"
+      ]
+    },
+    "banquet": {
+      "tier": "key",
+      "surface": "banquets",
+      "pos": "noun · C1",
+      "pron": "/ˈbæŋ.kwɪt/",
+      "meaning": "宴会、饗宴",
+      "example": {
+        "en": "The king hosted a royal <b>banquet</b>.",
+        "ja": "王様が王室の宴会を催した。"
+      },
+      "context": "formal dinnersより格式が高い。state banquet(国賓晩餐会)のような公式行事。dinner partyよりずっと大規模で儀礼的。",
+      "collocations": [
+        "royal banquet",
+        "state banquet",
+        "court banquet",
+        "hold a banquet"
+      ]
+    },
+    "summon": {
+      "tier": "key",
+      "surface": "summoned",
+      "pos": "verb · B2",
+      "pron": "/ˈsʌm.ən/",
+      "meaning": "召喚する、呼び出す",
+      "example": {
+        "en": "The king <b>summoned</b> his advisors.",
+        "ja": "王は顧問たちを召喚した。"
+      },
+      "context": "「権威をもって呼び出す」。summon up courage(勇気を奮い起こす)という慣用句も重要。call/invite よりずっと改まった・強制的な語感。",
+      "collocations": [
+        "summon to court",
+        "summon courage",
+        "summon a witness",
+        "be summoned"
+      ]
+    },
+    "demonstration": {
+      "tier": "frequent",
+      "surface": "demonstration",
+      "pos": "noun · B2",
+      "pron": "/ˌdem.ənˈstreɪ.ʃən/",
+      "meaning": "実演、示威、証明",
+      "example": {
+        "en": "She gave a cooking <b>demonstration</b>.",
+        "ja": "彼女は料理の実演を行った。"
+      },
+      "context": "demonstrate(実演する・証明する)の名詞形。demo とも略す。political demonstration(政治的デモ)という意味もある多義語。AWL収録。",
+      "collocations": [
+        "live demonstration",
+        "product demonstration",
+        "as a demonstration of",
+        "demonstration of power"
+      ]
+    },
+    "influence": {
+      "tier": "frequent",
+      "surface": "influence",
+      "pos": "noun/verb · B1",
+      "pron": "/ˈɪn.flu.əns/",
+      "meaning": "影響力、影響を与える",
+      "example": {
+        "en": "Her teacher had a big <b>influence</b> on her.",
+        "ja": "先生が彼女に大きな影響を与えた。"
+      },
+      "context": "名詞(影響力)と動詞(影響を与える)の両用法。under the influence of ~(~の影響下に)。AWL・TOEFL頻出。",
+      "collocations": [
+        "under the influence",
+        "have influence on",
+        "sphere of influence",
+        "political influence"
+      ]
+    },
+    "initially": {
+      "tier": "frequent",
+      "surface": "Initially",
+      "pos": "adv · B2",
+      "pron": "/ɪˈnɪʃ.ə.li/",
+      "meaning": "当初は、最初は",
+      "example": {
+        "en": "<b>Initially</b>, the plan seemed impossible.",
+        "ja": "当初、その計画は不可能に思えた。"
+      },
+      "context": "文頭に置いて「最初の状態と現在の対比」を示す接続副詞。at first よりフォーマル。TOEFL/IELTS で頻出。",
+      "collocations": [
+        "initially planned",
+        "initially designed",
+        "initially opposed"
+      ]
+    },
+    "punch": {
+      "tier": "normal",
+      "surface": "punch",
+      "pos": "verb/noun · B1",
+      "pron": "/pʌntʃ/",
+      "meaning": "殴る、パンチ",
+      "example": {
+        "en": "He <b>punched</b> the wall in frustration.",
+        "ja": "彼は腹立ちから壁を殴った。"
+      },
+      "context": "拳を使った打撃。punch above one's weight(実力以上の相手と張り合う)という慣用句も重要。",
+      "collocations": [
+        "throw a punch",
+        "punch in the face",
+        "punch line",
+        "punch above one's weight"
+      ]
+    },
+    "scratch": {
+      "tier": "normal",
+      "surface": "scratch",
+      "pos": "verb/noun · B1",
+      "pron": "/skrætʃ/",
+      "meaning": "引っ掻く、こする",
+      "example": {
+        "en": "The cat <b>scratched</b> the furniture.",
+        "ja": "猫が家具を引っ掻いた。"
+      },
+      "context": "from scratch(ゼロから)という重要熟語がある。scratch the surface(表面をなぞるだけ)も頻出表現。",
+      "collocations": [
+        "scratch the surface",
+        "start from scratch",
+        "scratch an itch"
+      ]
+    },
+    "grab": {
+      "tier": "normal",
+      "surface": "grab",
+      "pos": "verb · B1",
+      "pron": "/ɡræb/",
+      "meaning": "掴む、奪い取る",
+      "example": {
+        "en": "She <b>grabbed</b> her bag and ran.",
+        "ja": "彼女はバッグを掴んで走った。"
+      },
+      "context": "「素早く掴む」がコアイメージ。grab attention(注目を集める)、grab a bite(さっと食べる)などの口語表現も多い。",
+      "collocations": [
+        "grab attention",
+        "grab a bite",
+        "grab hold of",
+        "grab an opportunity"
+      ]
+    },
+    "opponent": {
+      "tier": "normal",
+      "surface": "opponents",
+      "pos": "noun · B1",
+      "pron": "/əˈpoʊ.nənt/",
+      "meaning": "対戦相手、反対者",
+      "example": {
+        "en": "He defeated his <b>opponent</b> in three sets.",
+        "ja": "彼は3セットで対戦相手を破った。"
+      },
+      "context": "スポーツの対戦相手、政治的な反対者の両義あり。rival(ライバル・宿敵)より中立的。",
+      "collocations": [
+        "defeat an opponent",
+        "political opponent",
+        "face an opponent"
+      ]
+    },
+    "victory": {
+      "tier": "normal",
+      "surface": "victory",
+      "pos": "noun · B1",
+      "pron": "/ˈvɪk.tər.i/",
+      "meaning": "勝利",
+      "example": {
+        "en": "They celebrated their <b>victory</b>.",
+        "ja": "彼らは勝利を祝った。"
+      },
+      "context": "win/winning より格式が高い語。political victory(政治的勝利)、moral victory(道義的勝利)などの組み合わせも重要。",
+      "collocations": [
+        "claim victory",
+        "decisive victory",
+        "victory celebration",
+        "moral victory"
+      ]
+    },
+    "eventually": {
+      "tier": "frequent",
+      "surface": "eventually",
+      "pos": "adv · B1",
+      "pron": "/ɪˈven.tʃu.ə.li/",
+      "meaning": "やがて、最終的に",
+      "example": {
+        "en": "She <b>eventually</b> found a solution.",
+        "ja": "彼女はやがて解決策を見つけた。"
+      },
+      "context": "「いくつかの段階・時間を経て最終的に」。finally より「紆余曲折を経て」というニュアンスが強い。TOEFL必須語。",
+      "collocations": [
+        "eventually succeed",
+        "eventually lead to",
+        "eventually become"
+      ]
+    },
+    "grappling": {
+      "tier": "key",
+      "surface": "grappling",
+      "pos": "noun/verb · C1",
+      "pron": "/ˈɡræp.lɪŋ/",
+      "meaning": "組み技、組み付き / 取り組む",
+      "example": {
+        "en": "<b>Grappling</b> techniques are essential in judo.",
+        "ja": "組み技の技術は柔道において不可欠だ。"
+      },
+      "context": "格闘技での「組み技」が元義。grapple with a problem(問題に取り組む)という比喩的用法が重要。",
+      "collocations": [
+        "grappling techniques",
+        "grapple with problems",
+        "grappling sport",
+        "MMA grappling"
+      ]
+    },
+    "tripping": {
+      "tier": "normal",
+      "surface": "tripping",
+      "pos": "noun/verb · B1",
+      "pron": "/ˈtrɪp.ɪŋ/",
+      "meaning": "足払い、躓き",
+      "example": {
+        "en": "The wrestler used a <b>tripping</b> technique.",
+        "ja": "力士は足払いの技を使った。"
+      },
+      "context": "trip(躓く、足を引っかける)の名詞/動詞形。格闘技ではleg trip(足払い)が重要技術。",
+      "collocations": [
+        "tripping technique",
+        "leg trip",
+        "trip over"
+      ]
+    },
+    "shift": {
+      "tier": "frequent",
+      "surface": "shifted",
+      "pos": "verb · B2",
+      "pron": "/ʃɪft/",
+      "meaning": "移行する、シフトする",
+      "example": {
+        "en": "Power <b>shifted</b> from rural to urban areas.",
+        "ja": "権力が農村部から都市部へ移行した。"
+      },
+      "context": "「位置・性質・状況が変わる」。paradigm shift(パラダイムシフト)はビジネス必須語。shift one's focus(焦点を移す)も頻出。AWL収録。",
+      "collocations": [
+        "power shift",
+        "paradigm shift",
+        "shift focus",
+        "shift responsibility"
+      ]
+    },
+    "hired": {
+      "tier": "normal",
+      "surface": "hired",
+      "pos": "adj/verb · B1",
+      "pron": "/haɪrd/",
+      "meaning": "雇われた、傭兵の",
+      "example": {
+        "en": "They were <b>hired</b> soldiers.",
+        "ja": "彼らは雇われた兵士たちだった。"
+      },
+      "context": "hire(雇う)の過去形・過去分詞。hired hand(雇われた人夫)、hired assassin(雇われた暗殺者)などの組み合わせ。",
+      "collocations": [
+        "hired soldier",
+        "hired help",
+        "for hire"
+      ]
+    },
+    "formal": {
+      "tier": "frequent",
+      "surface": "formal",
+      "pos": "adj · B1",
+      "pron": "/ˈfɔːr.məl/",
+      "meaning": "正式な、公式の、格式ある",
+      "example": {
+        "en": "Please wear <b>formal</b> attire.",
+        "ja": "フォーマルな服装でお越しください。"
+      },
+      "context": "informal(非公式)の対義語。formal education(正規教育)、formal language(格式ある言語)など幅広い使用。AWL収録。",
+      "collocations": [
+        "formal education",
+        "formal language",
+        "formal occasion",
+        "less formal"
+      ]
+    },
+    "bout": {
+      "tier": "key",
+      "surface": "bouts",
+      "pos": "noun · B2",
+      "pron": "/baʊt/",
+      "meaning": "取り組み、一戦、発作",
+      "example": {
+        "en": "The final <b>bout</b> lasted ten minutes.",
+        "ja": "決勝の一戦は10分続いた。"
+      },
+      "context": "ボクシング・相撲などの「一試合、一取り組み」。bout of illness(発病)、bout of anxiety(不安発作)という比喩的用法も。",
+      "collocations": [
+        "sumo bout",
+        "boxing bout",
+        "final bout",
+        "bout of illness"
+      ]
+    },
+    "imperial": {
+      "tier": "key",
+      "surface": "imperial",
+      "pos": "adj · B2",
+      "pron": "/ɪmˈpɪr.i.əl/",
+      "meaning": "帝国の、皇帝の",
+      "example": {
+        "en": "The <b>imperial</b> palace is open to the public.",
+        "ja": "皇居は一般に公開されている。"
+      },
+      "context": "empire(帝国)の形容詞形。imperial rule(帝政)、imperial Japan(帝国主義時代の日本)。Imperial(大文字)で特定の帝国を指す。",
+      "collocations": [
+        "imperial rule",
+        "imperial court",
+        "imperial palace",
+        "imperial Japan"
+      ]
+    },
+    "spectacle": {
+      "tier": "key",
+      "surface": "spectacle",
+      "pos": "noun · B2",
+      "pron": "/ˈspek.tə.kəl/",
+      "meaning": "見世物、壮観、派手なイベント",
+      "example": {
+        "en": "The fireworks were a magnificent <b>spectacle</b>.",
+        "ja": "花火は壮大な見世物だった。"
+      },
+      "context": "「目を引く派手なショー・光景」。make a spectacle of oneself(人目を引く醜態を演じる)という慣用句も重要。形容詞 spectacular。",
+      "collocations": [
+        "public spectacle",
+        "make a spectacle",
+        "spectacular show",
+        "grand spectacle"
+      ]
+    },
+    "martial": {
+      "tier": "key",
+      "surface": "martial",
+      "pos": "adj · B2",
+      "pron": "/ˈmɑːr.ʃəl/",
+      "meaning": "武術の、軍事の",
+      "example": {
+        "en": "He practices <b>martial</b> arts.",
+        "ja": "彼は武道を練習している。"
+      },
+      "context": "martial arts(武道)という熟語が最重要。martial law(戒厳令)も重要。Mars(軍神)に由来する語。marshal(元帥)と混同注意。",
+      "collocations": [
+        "martial arts",
+        "martial law",
+        "martial training",
+        "martial spirit"
+      ]
+    },
+    "shrine": {
+      "tier": "normal",
+      "surface": "Shrines",
+      "pos": "noun · B2",
+      "pron": "/ʃraɪn/",
+      "meaning": "神社、聖地",
+      "example": {
+        "en": "They prayed at the <b>shrine</b>.",
+        "ja": "彼らは神社でお参りした。"
+      },
+      "context": "日本の神道では「神社(Shinto shrine)」。キリスト教・カトリックでは聖人の遺物を祀る場所。temple(仏教)とは別。",
+      "collocations": [
+        "Shinto shrine",
+        "sacred shrine",
+        "visit a shrine",
+        "shrine maiden"
+      ]
+    },
+    "fundraising": {
+      "tier": "normal",
+      "surface": "fundraising",
+      "pos": "noun/adj · B1",
+      "pron": "/ˈfʌnd.reɪ.zɪŋ/",
+      "meaning": "資金調達",
+      "example": {
+        "en": "The school held a <b>fundraising</b> event.",
+        "ja": "学校は資金調達のイベントを開いた。"
+      },
+      "context": "fund(資金)+raising(集める)の複合語。charity fundraising(慈善資金調達)などNPOでよく使われる。",
+      "collocations": [
+        "fundraising event",
+        "fundraising campaign",
+        "hold a fundraiser",
+        "charitable fundraising"
+      ]
+    },
+    "construction": {
+      "tier": "normal",
+      "surface": "construction",
+      "pos": "noun · B1",
+      "pron": "/kənˈstrʌk.ʃən/",
+      "meaning": "建設、工事",
+      "example": {
+        "en": "The <b>construction</b> of the bridge took two years.",
+        "ja": "橋の建設に2年かかった。"
+      },
+      "context": "construct(建設する)の名詞形。under construction(工事中)は必須表現。文章中ではbuilding/structure と区別される。",
+      "collocations": [
+        "under construction",
+        "construction site",
+        "construction project",
+        "road construction"
+      ]
+    },
+    "skilled": {
+      "tier": "normal",
+      "surface": "skilled",
+      "pos": "adj · B1",
+      "pron": "/skɪld/",
+      "meaning": "熟練した、腕の良い",
+      "example": {
+        "en": "The company needs <b>skilled</b> workers.",
+        "ja": "その会社は熟練した労働者を必要としている。"
+      },
+      "context": "skill(技術)の過去分詞形の形容詞。unskilled(非熟練)の対義語。skilled labor(熟練労働)という経済用語でも使われる。",
+      "collocations": [
+        "skilled worker",
+        "highly skilled",
+        "skilled performer",
+        "skilled labor"
+      ]
+    },
+    "promoter": {
+      "tier": "normal",
+      "surface": "promoters",
+      "pos": "noun · B1",
+      "pron": "/prəˈmoʊ.tər/",
+      "meaning": "プロモーター、主催者、推進者",
+      "example": {
+        "en": "The concert <b>promoter</b> organized the event.",
+        "ja": "コンサートのプロモーターがイベントを企画した。"
+      },
+      "context": "promote(促進する・宣伝する)の名詞形。音楽・スポーツの興行主から、ビジネスの推進者まで幅広く使われる。",
+      "collocations": [
+        "event promoter",
+        "boxing promoter",
+        "sales promoter",
+        "health promoter"
+      ]
+    },
+    "enlist": {
+      "tier": "key",
+      "surface": "enlist",
+      "pos": "verb · C1",
+      "pron": "/ɪnˈlɪst/",
+      "meaning": "勧誘する、入隊させる、(支援を)取り付ける",
+      "example": {
+        "en": "They <b>enlisted</b> volunteers for the project.",
+        "ja": "彼らはプロジェクトのためにボランティアを集めた。"
+      },
+      "context": "本来「軍に入隊させる」。現在は「協力・参加を取り付ける」という一般的な意味でも使われる。enlist support/help が重要表現。",
+      "collocations": [
+        "enlist help",
+        "enlist support",
+        "enlist volunteers",
+        "military enlistment"
+      ]
+    },
+    "steady": {
+      "tier": "normal",
+      "surface": "steady",
+      "pos": "adj/verb · B1",
+      "pron": "/ˈsted.i/",
+      "meaning": "安定した、着実な",
+      "example": {
+        "en": "She made <b>steady</b> progress.",
+        "ja": "彼女は着実な進歩を遂げた。"
+      },
+      "context": "「揺れなく安定した」がコアイメージ。steady income(安定収入)、steady relationship(安定した関係)などで頻用。go steady with ~(~と定期的にデートする)も。",
+      "collocations": [
+        "steady income",
+        "steady progress",
+        "steady growth",
+        "steady employment"
+      ]
+    },
+    "employment": {
+      "tier": "frequent",
+      "surface": "employment",
+      "pos": "noun · B2",
+      "pron": "/ɪmˈplɔɪ.mənt/",
+      "meaning": "雇用、就業",
+      "example": {
+        "en": "The factory provides <b>employment</b> for 500 people.",
+        "ja": "その工場は500人の雇用を提供している。"
+      },
+      "context": "employ(雇用する)の名詞形。unemployment(失業)の対義語。AWL収録、TOEFL頻出。full employment(完全雇用)は経済学用語。",
+      "collocations": [
+        "full employment",
+        "employment rate",
+        "find employment",
+        "steady employment"
+      ]
+    },
+    "reliably": {
+      "tier": "frequent",
+      "surface": "reliably",
+      "pos": "adv · B2",
+      "pron": "/rɪˈlaɪ.ə.bli/",
+      "meaning": "確実に、信頼できるかたちで",
+      "example": {
+        "en": "The system works <b>reliably</b>.",
+        "ja": "そのシステムは確実に動作する。"
+      },
+      "context": "reliable の副詞形。「毎回同じ品質・結果で」というニュアンス。consistently に近い。",
+      "collocations": [
+        "work reliably",
+        "function reliably",
+        "reliably predict",
+        "reliably produce"
+      ]
+    },
+    "enterprising": {
+      "tier": "key",
+      "surface": "Enterprising",
+      "pos": "adj · C1",
+      "pron": "/ˈen.tər.praɪ.zɪŋ/",
+      "meaning": "進取の気性に富む、起業家精神旺盛な",
+      "example": {
+        "en": "The <b>enterprising</b> merchant found new markets.",
+        "ja": "進取の気性に富んだ商人は新しい市場を見つけた。"
+      },
+      "context": "enterprise(事業・企業)の形容詞形。「リスクを取って新しいことに挑戦する意欲」を表す肯定的な語。ambitious より行動力を強調。",
+      "collocations": [
+        "enterprising individual",
+        "enterprising spirit",
+        "enterprising young man"
+      ]
+    },
+    "rowdy": {
+      "tier": "key",
+      "surface": "rowdy",
+      "pos": "adj · B2",
+      "pron": "/ˈraʊ.di/",
+      "meaning": "騒々しい、無秩序な",
+      "example": {
+        "en": "The <b>rowdy</b> crowd was hard to control.",
+        "ja": "騒がしい群衆は制御が難しかった。"
+      },
+      "context": "「騒がしく無秩序な、荒れた」。rowdy behavior(乱暴な振る舞い)。boisterous(陽気でうるさい)より否定的なニュアンスが強い。",
+      "collocations": [
+        "rowdy crowd",
+        "rowdy behavior",
+        "rowdy party",
+        "rowdy spectators"
+      ]
+    },
+    "passersby": {
+      "tier": "key",
+      "surface": "passersby",
+      "pos": "noun · B2",
+      "pron": "/ˌpæs.ərzˈbaɪ/",
+      "meaning": "通りすがりの人々",
+      "example": {
+        "en": "The performer attracted the attention of <b>passersby</b>.",
+        "ja": "その演者は通りすがりの人々の注目を集めた。"
+      },
+      "context": "passerby の複数形(passersby / passers-by)。street performer に欠かせない語。道端で何かが起きたときに目撃する人を指す。",
+      "collocations": [
+        "attract passersby",
+        "donations of passersby",
+        "curious passersby"
+      ]
+    },
+    "organization": {
+      "tier": "frequent",
+      "surface": "organization",
+      "pos": "noun · B1",
+      "pron": "/ˌɔːr.ɡən.ɪˈzeɪ.ʃən/",
+      "meaning": "組織、組織化、秩序",
+      "example": {
+        "en": "The <b>organization</b> of the event went smoothly.",
+        "ja": "イベントの運営はスムーズに進んだ。"
+      },
+      "context": "「団体としての組織」と「事物の整理・体系化」の両義あり。AWL収録。organizational(形容詞)、organizer(名詞・人)。",
+      "collocations": [
+        "non-profit organization",
+        "organizational skills",
+        "lack of organization"
+      ]
+    },
+    "participant": {
+      "tier": "frequent",
+      "surface": "participants",
+      "pos": "noun · B2",
+      "pron": "/pɑːrˈtɪs.ɪ.pənt/",
+      "meaning": "参加者",
+      "example": {
+        "en": "<b>Participants</b> must register before the event.",
+        "ja": "参加者はイベント前に登録しなければならない。"
+      },
+      "context": "participate(参加する)の名詞形。AWL収録。spectator(観客)との対比で「実際に参加・競技する人」を指す。",
+      "collocations": [
+        "study participants",
+        "event participants",
+        "active participant",
+        "participants and spectators"
+      ]
+    },
+    "spectator": {
+      "tier": "normal",
+      "surface": "spectators",
+      "pos": "noun · B1",
+      "pron": "/spekˈteɪ.tər/",
+      "meaning": "観客、見物人",
+      "example": {
+        "en": "The <b>spectators</b> cheered loudly.",
+        "ja": "観客たちは大声で応援した。"
+      },
+      "context": "スポーツ・イベントの「観衆」。audience(劇場・音楽)との使い分けが重要。spectator sport(見て楽しむスポーツ)という表現も。",
+      "collocations": [
+        "spectator sport",
+        "thousands of spectators",
+        "spectators and participants"
+      ]
+    },
+    "authority": {
+      "tier": "frequent",
+      "surface": "authorities",
+      "pos": "noun · B2",
+      "pron": "/əˈθɔːr.ɪ.ti/",
+      "meaning": "権力、当局、権威",
+      "example": {
+        "en": "The <b>authorities</b> investigated the incident.",
+        "ja": "当局がその事件を調査した。"
+      },
+      "context": "複数形authorities で「当局」。AWL・TOEFL頻出語。have authority over ~(~に対して権限を持つ)、in authority(権力の座に)などの重要表現。",
+      "collocations": [
+        "local authorities",
+        "government authorities",
+        "have authority",
+        "challenge authority"
+      ]
+    },
+    "periodically": {
+      "tier": "key",
+      "surface": "periodically",
+      "pos": "adv · C1",
+      "pron": "/ˌpɪr.iˈɒd.ɪ.kl̩.i/",
+      "meaning": "定期的に、周期的に",
+      "example": {
+        "en": "The machine is <b>periodically</b> checked.",
+        "ja": "その機械は定期的に点検される。"
+      },
+      "context": "period(期間)の副詞形。regularly より「一定間隔で繰り返し」という周期性を強調。from time to time より規則的なニュアンス。",
+      "collocations": [
+        "periodically updated",
+        "periodically banned",
+        "periodically reviewed"
+      ]
+    },
+    "organizer": {
+      "tier": "normal",
+      "surface": "organizers",
+      "pos": "noun · B1",
+      "pron": "/ˈɔːr.ɡə.naɪ.zər/",
+      "meaning": "主催者、まとめ役",
+      "example": {
+        "en": "The <b>organizers</b> prepared everything in advance.",
+        "ja": "主催者たちは事前に全て準備した。"
+      },
+      "context": "organize の名詞形。event organizer(イベント主催者)。scheduler/planner の意味でも使われる。",
+      "collocations": [
+        "event organizer",
+        "chief organizer",
+        "community organizer"
+      ]
+    },
+    "overcome": {
+      "tier": "frequent",
+      "surface": "overcome",
+      "pos": "verb · B2",
+      "pron": "/ˌoʊ.vərˈkʌm/",
+      "meaning": "克服する、打ち勝つ",
+      "example": {
+        "en": "She <b>overcame</b> her fear of public speaking.",
+        "ja": "彼女は人前で話すことへの恐怖を克服した。"
+      },
+      "context": "「困難・障害に打ち勝つ」。overcome obstacles/challenges/barriers が頻出表現。感情的に「圧倒される」(be overcome by emotion)という用法も。",
+      "collocations": [
+        "overcome obstacles",
+        "overcome challenges",
+        "overcome fear",
+        "overcome a ban"
+      ]
+    },
+    "establish": {
+      "tier": "frequent",
+      "surface": "established",
+      "pos": "verb · B2",
+      "pron": "/ɪˈstæb.lɪʃ/",
+      "meaning": "確立する、設立する、設ける",
+      "example": {
+        "en": "They <b>established</b> a new company.",
+        "ja": "彼らは新会社を設立した。"
+      },
+      "context": "「永続的なものとして作り上げる」。established(形容詞)で「確立した・老舗の」。AWL収録。set up より改まった語。",
+      "collocations": [
+        "establish a rule",
+        "establish a boundary",
+        "well-established",
+        "establish contact"
+      ]
+    },
+    "boundary": {
+      "tier": "key",
+      "surface": "boundary",
+      "pos": "noun · B2",
+      "pron": "/ˈbaʊn.dri/",
+      "meaning": "境界線、限界",
+      "example": {
+        "en": "The river marks the <b>boundary</b> between the two countries.",
+        "ja": "その川は二国間の境界線を示している。"
+      },
+      "context": "物理的境界(国境・敷地)から比喩的境界(personal boundaries=個人的な一線)まで広く使う。push the boundaries(限界を押し広げる)も重要。",
+      "collocations": [
+        "set a boundary",
+        "push boundaries",
+        "national boundary",
+        "cross a boundary"
+      ]
+    },
+    "morph": {
+      "tier": "key",
+      "surface": "morphed",
+      "pos": "verb · C1",
+      "pron": "/mɔːrft/",
+      "meaning": "変容する、変化する",
+      "example": {
+        "en": "The small shop <b>morphed</b> into a global brand.",
+        "ja": "その小さな店が世界的なブランドに変容した。"
+      },
+      "context": "morph into ~(~へと変容する)という句動詞が重要。CGでの「形状変換」が元義だが、一般的に「徐々に別の形に変わる」で使われる。",
+      "collocations": [
+        "morph into",
+        "gradually morph",
+        "slowly morph",
+        "morph over time"
+      ]
+    },
+    "pivotal": {
+      "tier": "key",
+      "surface": "pivotal",
+      "pos": "adj · C1",
+      "pron": "/ˈpɪv.ə.tl/",
+      "meaning": "重要な、枢軸となる",
+      "example": {
+        "en": "This was a <b>pivotal</b> moment in history.",
+        "ja": "これは歴史の重要な転換点だった。"
+      },
+      "context": "pivot(軸・転換点)の形容詞形。crucial/critical と同義だが、「軸として他の全てが回る」という比喩的ニュアンスが強い。",
+      "collocations": [
+        "pivotal role",
+        "pivotal moment",
+        "pivotal decision",
+        "pivotal rule"
+      ]
+    },
+    "innovation": {
+      "tier": "frequent",
+      "surface": "innovation",
+      "pos": "noun · B2",
+      "pron": "/ˌɪn.əˈveɪ.ʃən/",
+      "meaning": "革新、イノベーション",
+      "example": {
+        "en": "<b>Innovation</b> drives economic growth.",
+        "ja": "イノベーションが経済成長を牽引する。"
+      },
+      "context": "innovate(革新する)の名詞形。AWL・TOEFL頻出。technological innovation(技術革新)、disruptive innovation(破壊的革新)などのコロケーションが重要。",
+      "collocations": [
+        "technological innovation",
+        "drive innovation",
+        "disruptive innovation",
+        "spirit of innovation"
+      ]
+    },
+    "advantage": {
+      "tier": "frequent",
+      "surface": "advantage",
+      "pos": "noun · B1",
+      "pron": "/ədˈvæn.tɪdʒ/",
+      "meaning": "優位性、利点",
+      "example": {
+        "en": "Height is an <b>advantage</b> in basketball.",
+        "ja": "身長はバスケットボールでは有利だ。"
+      },
+      "context": "take advantage of ~(~を利用する)は必須表現。competitive advantage(競争優位)はビジネス語。disadvantage が対義語。",
+      "collocations": [
+        "take advantage of",
+        "competitive advantage",
+        "give an advantage",
+        "unfair advantage"
+      ]
+    },
+    "topple": {
+      "tier": "key",
+      "surface": "topple",
+      "pos": "verb · C1",
+      "pron": "/ˈtɒp.əl/",
+      "meaning": "倒す、転倒させる",
+      "example": {
+        "en": "The wind <b>toppled</b> the tree.",
+        "ja": "風が木を倒した。"
+      },
+      "context": "「上から下へ倒れる・倒す」がコアイメージ。overthrow/bring down より物理的・視覚的なニュアンスが強い。政権転覆にも比喩的に使われる。",
+      "collocations": [
+        "topple a government",
+        "topple an opponent",
+        "topple over",
+        "nearly topple"
+      ]
+    },
+    "respectable": {
+      "tier": "key",
+      "surface": "respectable",
+      "pos": "adj · B2",
+      "pron": "/rɪˈspek.tə.bəl/",
+      "meaning": "立派な、品格ある、相当の",
+      "example": {
+        "en": "She built a <b>respectable</b> career.",
+        "ja": "彼女は立派なキャリアを築いた。"
+      },
+      "context": "respect(尊敬)の形容詞形。「社会的に認められた/品格ある」。ニュアンスの違い: respected(尊敬される), respectful(礼儀正しい), respectable(品格ある)。",
+      "collocations": [
+        "respectable sport",
+        "highly respectable",
+        "respectable career",
+        "respectable institution"
+      ]
+    },
+    "ritual": {
+      "tier": "key",
+      "surface": "rituals",
+      "pos": "noun/adj · B2",
+      "pron": "/ˈrɪtʃ.u.əl/",
+      "meaning": "儀式、慣例行事",
+      "example": {
+        "en": "The morning coffee is a daily <b>ritual</b> for him.",
+        "ja": "朝のコーヒーは彼の日課だ。"
+      },
+      "context": "宗教的儀式から日常の慣例まで幅広く使える。ritual(形容詞)で「儀式的な・形式的な」。corporate ritual(企業の慣習)などビジネスでも使われる。",
+      "collocations": [
+        "religious ritual",
+        "daily ritual",
+        "perform a ritual",
+        "ritual ceremony"
+      ]
+    },
+    "rinse": {
+      "tier": "normal",
+      "surface": "rinsed",
+      "pos": "verb · B1",
+      "pron": "/rɪnst/",
+      "meaning": "すすぐ、洗い流す",
+      "example": {
+        "en": "She <b>rinsed</b> her mouth with water.",
+        "ja": "彼女は水で口をすすいだ。"
+      },
+      "context": "「洗剤なしに水だけで洗い流す」。rinse out(すすぎ洗いする)、rinse off(洗い流す)という句動詞も。",
+      "collocations": [
+        "rinse one's mouth",
+        "rinse off",
+        "rinse out",
+        "final rinse"
+      ]
+    },
+    "evoke": {
+      "tier": "key",
+      "surface": "evoked",
+      "pos": "verb · C1",
+      "pron": "/ɪˈvoʊkt/",
+      "meaning": "呼び起こす、想起させる",
+      "example": {
+        "en": "The music <b>evokes</b> memories of childhood.",
+        "ja": "その音楽は幼少期の記憶を呼び起こす。"
+      },
+      "context": "「記憶・感情・イメージを心に喚起する」。invoke より感情的・感覚的な語感。evocative(形容詞)で「喚起力のある」。",
+      "collocations": [
+        "evoke memories",
+        "evoke emotions",
+        "evoke the past",
+        "evoke a response"
+      ]
+    },
+    "ceremony": {
+      "tier": "normal",
+      "surface": "ceremonies",
+      "pos": "noun · B1",
+      "pron": "/ˈser.ɪ.moʊ.ni/",
+      "meaning": "式典、儀式",
+      "example": {
+        "en": "The graduation <b>ceremony</b> was held outdoors.",
+        "ja": "卒業式は屋外で行われた。"
+      },
+      "context": "formal な公式行事。opening ceremony(開会式)、wedding ceremony(結婚式)。ceremonial(形容詞)は「儀礼的な」。",
+      "collocations": [
+        "opening ceremony",
+        "religious ceremony",
+        "graduation ceremony",
+        "awards ceremony"
+      ]
+    },
+    "imbue": {
+      "tier": "key",
+      "surface": "imbued",
+      "pos": "verb · C2",
+      "pron": "/ɪmˈbjuːd/",
+      "meaning": "吹き込む、染み込ませる",
+      "example": {
+        "en": "The speech was <b>imbued</b> with passion.",
+        "ja": "そのスピーチは情熱に満ちていた。"
+      },
+      "context": "imbue A with B(AにBを吹き込む・染み込ませる)という構文が基本。infuse と近いが文語的。「深く内部まで浸透させる」というイメージ。",
+      "collocations": [
+        "imbued with meaning",
+        "imbued with culture",
+        "imbue with spirit",
+        "imbued with legitimacy"
+      ]
+    },
+    "cultural": {
+      "tier": "frequent",
+      "surface": "cultural",
+      "pos": "adj · B1",
+      "pron": "/ˈkʌl.tʃər.əl/",
+      "meaning": "文化的な",
+      "example": {
+        "en": "There are many <b>cultural</b> differences between countries.",
+        "ja": "国家間には多くの文化的差異がある。"
+      },
+      "context": "culture(文化)の形容詞形。AWL収録。cross-cultural(異文化間の)、multicultural(多文化の)などの重要な複合語も派生する。",
+      "collocations": [
+        "cultural heritage",
+        "cultural differences",
+        "cultural exchange",
+        "cultural legitimacy"
+      ]
+    },
+    "legitimacy": {
+      "tier": "key",
+      "surface": "legitimacy",
+      "pos": "noun · C1",
+      "pron": "/lɪˈdʒɪt.ɪ.mə.si/",
+      "meaning": "正当性、合法性",
+      "example": {
+        "en": "The government questioned the <b>legitimacy</b> of the election.",
+        "ja": "政府は選挙の正当性に疑問を呈した。"
+      },
+      "context": "legitimate(正当な)の名詞形。AWL収録。政治・法律・ビジネスで「認められた権威・資格の有無」を論じる際に頻用される重要語。",
+      "collocations": [
+        "political legitimacy",
+        "cultural legitimacy",
+        "lack legitimacy",
+        "question legitimacy"
+      ]
+    },
+    "notable": {
+      "tier": "key",
+      "surface": "notable",
+      "pos": "adj · B2",
+      "pron": "/ˈnoʊ.tə.bəl/",
+      "meaning": "注目すべき、顕著な",
+      "example": {
+        "en": "One <b>notable</b> exception is Japan.",
+        "ja": "注目すべき例外が日本だ。"
+      },
+      "context": "note(注目する)の形容詞形。particularly/especially notable という表現が多い。notably(副詞)は文修飾副詞として頻用。",
+      "collocations": [
+        "notable exception",
+        "notable achievement",
+        "most notable",
+        "particularly notable"
+      ]
+    },
+    "emerge": {
+      "tier": "key",
+      "surface": "emerged",
+      "pos": "verb · B2",
+      "pron": "/ɪˈmɜːrdʒd/",
+      "meaning": "現れる、出現する、浮かび上がる",
+      "example": {
+        "en": "A new leader <b>emerged</b> from the chaos.",
+        "ja": "混乱の中から新しいリーダーが現れた。"
+      },
+      "context": "「内部・隠れた場所から外へ出てくる」のコアイメージ。emerging market(新興市場)、emergence(出現・台頭)など派生語も重要。AWL収録。",
+      "collocations": [
+        "emerge from",
+        "newly emerged",
+        "pattern emerges",
+        "emerge as a leader"
+      ]
+    },
+    "sacred": {
+      "tier": "key",
+      "surface": "sacred",
+      "pos": "adj · B2",
+      "pron": "/ˈseɪ.krɪd/",
+      "meaning": "神聖な、聖なる",
+      "example": {
+        "en": "The site is considered <b>sacred</b> by local people.",
+        "ja": "その場所は地元の人々に聖地と見なされている。"
+      },
+      "context": "holy と同義だが「特定の宗教・文化に帰属している」ニュアンスが強い。sacred cow(神聖な牛=批判できない慣習)という慣用句も。",
+      "collocations": [
+        "sacred site",
+        "sacred rope",
+        "sacred ceremony",
+        "sacred ground"
+      ]
+    },
+    "troupe": {
+      "tier": "key",
+      "surface": "troupe",
+      "pos": "noun · C1",
+      "pron": "/truːp/",
+      "meaning": "一座、劇団、(演者の)グループ",
+      "example": {
+        "en": "A travelling <b>troupe</b> performed in the village.",
+        "ja": "旅の一座が村で公演した。"
+      },
+      "context": "troop(軍隊・集団)と同音異義語(troop/troupe)。演劇・サーカス・ダンスの一団を指す。circus troupe(サーカス団)、theater troupe(劇団)。",
+      "collocations": [
+        "theater troupe",
+        "traveling troupe",
+        "dance troupe",
+        "troupe of performers"
+      ]
+    },
+    "specifically": {
+      "tier": "frequent",
+      "surface": "specifically",
+      "pos": "adv · B2",
+      "pron": "/spɪˈsɪf.ɪ.kl̩.i/",
+      "meaning": "特に、具体的に言うと",
+      "example": {
+        "en": "The rule applies <b>specifically</b> to first-year students.",
+        "ja": "そのルールは特に1年生に適用される。"
+      },
+      "context": "「他ではなくまさにこれ」を強調する副詞。more specifically(より具体的に)という表現も重要。AWL収録。",
+      "collocations": [
+        "more specifically",
+        "specifically designed",
+        "specifically for",
+        "stated specifically"
+      ]
+    },
+    "shogunate": {
+      "tier": "key",
+      "surface": "shogunate",
+      "pos": "noun · C1",
+      "pron": "/ˈʃoʊ.ɡʌ.nɪt/",
+      "meaning": "幕府",
+      "example": {
+        "en": "The <b>shogunate</b> controlled Japan for centuries.",
+        "ja": "幕府は何世紀もの間、日本を支配した。"
+      },
+      "context": "将軍制度/政府の総称。Tokugawa shogunate(徳川幕府)が最も有名。1868年の明治維新で終焉。英語では bakufu とも呼ばれる。",
+      "collocations": [
+        "Tokugawa shogunate",
+        "shogunate government",
+        "shogunate period",
+        "shogunate rule"
+      ]
+    },
+    "overthrow": {
+      "tier": "key",
+      "surface": "overthrown",
+      "pos": "verb · B2",
+      "pron": "/ˌoʊ.vərˈθroʊn/",
+      "meaning": "打倒する、覆す",
+      "example": {
+        "en": "The government was <b>overthrown</b> in a coup.",
+        "ja": "政府はクーデターで打倒された。"
+      },
+      "context": "「権力ある政府・体制を武力または革命で倒す」。topple より組織的・政治的ニュアンス。名詞 overthrow(政権転覆)も同形。",
+      "collocations": [
+        "overthrow a government",
+        "military overthrow",
+        "attempt to overthrow"
+      ]
+    },
+    "relic": {
+      "tier": "key",
+      "surface": "relic",
+      "pos": "noun · B2",
+      "pron": "/ˈrel.ɪk/",
+      "meaning": "遺物、時代遅れのもの",
+      "example": {
+        "en": "The old factory is a <b>relic</b> of the industrial age.",
+        "ja": "その古い工場は産業時代の遺物だ。"
+      },
+      "context": "「過去の時代のもので現在では時代遅れ」というニュアンス。宗教的文脈では「聖遺物」の意味もある。dated relic(時代遅れの遺物)は強調表現。",
+      "collocations": [
+        "dated relic",
+        "historical relic",
+        "cultural relic",
+        "relic of the past"
+      ]
+    },
+    "gradually": {
+      "tier": "frequent",
+      "surface": "gradually",
+      "pos": "adv · B1",
+      "pron": "/ˈɡræd.ju.ə.li/",
+      "meaning": "徐々に、少しずつ",
+      "example": {
+        "en": "The situation <b>gradually</b> improved.",
+        "ja": "状況は徐々に改善した。"
+      },
+      "context": "「一度に急変するのではなく、少しずつ」というプロセスを表す副詞。TOEFL必須語。slowly より「段階的な変化」を強調。",
+      "collocations": [
+        "gradually increase",
+        "gradually improve",
+        "gradually change",
+        "gradually become"
+      ]
+    },
+    "remake": {
+      "tier": "key",
+      "surface": "remade",
+      "pos": "verb · B2",
+      "pron": "/ˌriːˈmeɪd/",
+      "meaning": "作り直す、再生する",
+      "example": {
+        "en": "The film was <b>remade</b> with a new cast.",
+        "ja": "映画は新しいキャストでリメイクされた。"
+      },
+      "context": "re-(再び)+make(作る)の複合動詞。映画/音楽のリメイク以外に、「自己変革」(remake itself/oneself)という使い方も重要。",
+      "collocations": [
+        "remake a film",
+        "remake itself",
+        "total remake",
+        "remake the rules"
+      ]
+    },
+    "era": {
+      "tier": "key",
+      "surface": "era",
+      "pos": "noun · B2",
+      "pron": "/ˈɪr.ə/",
+      "meaning": "時代、年代",
+      "example": {
+        "en": "We are in the <b>era</b> of digital technology.",
+        "ja": "私たちはデジタル技術の時代に生きている。"
+      },
+      "context": "「特定の特徴を持つ歴史的時代区分」。period より長い時代のニュアンスがある。new era(新時代)、modern era(現代)は頻出表現。",
+      "collocations": [
+        "modern era",
+        "new era",
+        "digital era",
+        "golden era"
+      ]
+    },
+    "tournament": {
+      "tier": "normal",
+      "surface": "tournaments",
+      "pos": "noun · B1",
+      "pron": "/ˈtʊər.nə.mənt/",
+      "meaning": "トーナメント、大会",
+      "example": {
+        "en": "She won the chess <b>tournament</b>.",
+        "ja": "彼女はチェストーナメントで優勝した。"
+      },
+      "context": "「複数の試合からなる大会形式」。特に一対一の試合の勝ち抜き戦。日本語では「本場所」が相撲のtournamentにあたる。",
+      "collocations": [
+        "sumo tournament",
+        "chess tournament",
+        "annual tournament",
+        "host a tournament"
+      ]
+    },
+    "broadcast": {
+      "tier": "key",
+      "surface": "broadcast",
+      "pos": "verb/noun · B1",
+      "pron": "/ˈbrɔːd.kæst/",
+      "meaning": "放送する、中継する",
+      "example": {
+        "en": "The match was <b>broadcast</b> live.",
+        "ja": "試合は生放送された。"
+      },
+      "context": "broad(広い)+cast(投げる)の合成語。現在はテレビ・ラジオ・インターネット配信全般に使う。形動態同形(broadcast/broadcast/broadcast)。",
+      "collocations": [
+        "broadcast live",
+        "broadcast worldwide",
+        "live broadcast",
+        "broadcast rights"
+      ]
+    },
+    "sustain": {
+      "tier": "key",
+      "surface": "sustained",
+      "pos": "verb · B2",
+      "pron": "/səˈsteɪnd/",
+      "meaning": "維持する、持続させる",
+      "example": {
+        "en": "It's hard to <b>sustain</b> such rapid growth.",
+        "ja": "そのような急速な成長を維持することは難しい。"
+      },
+      "context": "「長期にわたって保ち続ける」。sustainable(持続可能な)はSDGsで必須語。sustain injuries(けがを負う)という意外な用法もある。",
+      "collocations": [
+        "sustain growth",
+        "sustain a status",
+        "sustainable development",
+        "sustain injuries"
+      ]
+    },
+    "status": {
+      "tier": "frequent",
+      "surface": "status",
+      "pos": "noun · B2",
+      "pron": "/ˈsteɪ.təs/",
+      "meaning": "地位、状態、ステータス",
+      "example": {
+        "en": "Her <b>status</b> in the company has risen.",
+        "ja": "会社での彼女の地位が上がった。"
+      },
+      "context": "AWL収録。social status(社会的地位)、legal status(法的状態)など多用途。status quo(現状)というラテン語借用表現も重要。",
+      "collocations": [
+        "social status",
+        "legal status",
+        "maintain status",
+        "status quo",
+        "celebrity status"
+      ]
+    },
+    "beloved": {
+      "tier": "key",
+      "surface": "beloved",
+      "pos": "adj · B2",
+      "pron": "/bɪˈlʌvd/",
+      "meaning": "愛された、最愛の",
+      "example": {
+        "en": "He was a <b>beloved</b> teacher.",
+        "ja": "彼は愛された先生だった。"
+      },
+      "context": "love の形容詞形として過去分詞形が定着した語。「深く愛されている」という強い意味。dearly beloved(最愛の)という宗教的表現も。",
+      "collocations": [
+        "beloved teacher",
+        "beloved tradition",
+        "dearly beloved",
+        "most beloved"
+      ]
+    },
+    "display": {
+      "tier": "normal",
+      "surface": "display",
+      "pos": "noun/verb · B1",
+      "pron": "/dɪˈspleɪ/",
+      "meaning": "展示、示威 / 見せる",
+      "example": {
+        "en": "The museum has a new <b>display</b> of ancient artifacts.",
+        "ja": "博物館に古代の工芸品の新しい展示がある。"
+      },
+      "context": "名詞(展示物・示威)と動詞(展示する・見せる)の両用法。display of strength/courage/emotion という「誇示・実演」の用法が本文の文脈。",
+      "collocations": [
+        "grand display",
+        "display of strength",
+        "on display",
+        "display emotion"
+      ]
+    },
+    "ode": {
+      "tier": "key",
+      "surface": "ode",
+      "pos": "noun · C1",
+      "pron": "/oʊd/",
+      "meaning": "頌歌(しょうか)、賛歌",
+      "example": {
+        "en": "Keats wrote an <b>ode</b> to autumn.",
+        "ja": "キーツは秋への頌歌を書いた。"
+      },
+      "context": "「特定のものへの賛美の詩・文章」。文語的・詩的表現。「an ode to X」で「Xへの賛歌/敬意の表れ」という比喩的用法が現代英語で広く使われる。",
+      "collocations": [
+        "ode to joy",
+        "ode to national traditions",
+        "written as an ode",
+        "an ode to friendship"
+      ]
+    },
+    "function": {
+      "tier": "frequent",
+      "surface": "function",
+      "pos": "noun/verb · B1",
+      "pron": "/ˈfʌŋk.ʃən/",
+      "meaning": "機能、役割 / 機能する",
+      "example": {
+        "en": "The liver has many important <b>functions</b>.",
+        "ja": "肝臓には多くの重要な機能がある。"
+      },
+      "context": "AWL収録。名詞(機能・役割)と動詞(機能する)の両用法。in a/its function as ~(~としての機能で)、functional(形容詞)。",
+      "collocations": [
+        "serve a function",
+        "take on a function",
+        "basic function",
+        "bodily function"
+      ]
+    },
+    "division": {
+      "tier": "normal",
+      "surface": "division",
+      "pos": "noun · B1",
+      "pron": "/dɪˈvɪʒ.ən/",
+      "meaning": "部門、部類、区分",
+      "example": {
+        "en": "He competes in the heavyweight <b>division</b>.",
+        "ja": "彼はヘビー級部門で競争している。"
+      },
+      "context": "divide(分割する)の名詞形。スポーツでは「階級」、ビジネスでは「部門」、数学では「割り算」。upper division(上位階級)は本文の文脈。",
+      "collocations": [
+        "upper division",
+        "sales division",
+        "heavy division",
+        "division of labor"
+      ]
+    },
+    "barely": {
+      "tier": "frequent",
+      "surface": "barely",
+      "pos": "adv · B2",
+      "pron": "/ˈber.li/",
+      "meaning": "かろうじて、ほとんど～ない",
+      "example": {
+        "en": "He <b>barely</b> passed the exam.",
+        "ja": "彼はかろうじて試験に合格した。"
+      },
+      "context": "「ほぼ達していないが一応」というギリギリ感を表す。hardly と同義だが「かろうじて」の意味ではbarely の方が多用される。",
+      "collocations": [
+        "barely escaped",
+        "barely survived",
+        "barely enough",
+        "barely noticeable"
+      ]
+    }
+  },
+  "expressions": {
+    "make_off_with": {
+      "tier": "frequent",
+      "surface": "making off with",
+      "pos": "phrasal verb",
+      "pron": "/ˈmeɪk.ɪŋ ɒf wɪð/",
+      "literal": "~を持って逃げ去る",
+      "meaning": "(金品を)盗んで逃走する、持ち逃げする",
+      "context": "make off(逃げ去る)+ with(~を持って)の複合句動詞。steal and run away という意味で口語・ニュース双方で使われる必修表現。",
+      "collocations": [
+        "make off with the money",
+        "make off with the goods",
+        "managed to make off with"
+      ]
+    },
+    "take_on": {
+      "tier": "frequent",
+      "surface": "took on",
+      "pos": "phrasal verb",
+      "pron": "/tʊk ɒn/",
+      "literal": "引き受けた",
+      "meaning": "（新たな役割・性質を）担う、引き受ける",
+      "context": "take on は多義の句動詞。本文では「新たな機能を担う」。他に「雇う」(take on staff)、「対戦する」(take on a challenger)の意味もある。",
+      "collocations": [
+        "take on a new function",
+        "take on a challenge",
+        "take on staff",
+        "take on meaning"
+      ]
+    },
+    "crack_down": {
+      "tier": "frequent",
+      "surface": "crack down",
+      "pos": "phrasal verb",
+      "pron": "/kræk daʊn/",
+      "literal": "厳しく締め付ける",
+      "meaning": "取り締まる、弾圧する",
+      "context": "crack down on ~(~を取り締まる)という形が基本。名詞形 crackdown(取り締まり強化)。政府・警察が問題行為に厳しく対処する文脈でニュースでも頻用。",
+      "collocations": [
+        "crack down on crime",
+        "crack down on illegal activity",
+        "government crackdown"
+      ]
+    },
+    "take_off": {
+      "tier": "frequent",
+      "surface": "took off",
+      "pos": "phrasal verb",
+      "pron": "/tʊk ɒf/",
+      "literal": "飛び立った",
+      "meaning": "（事業・活動が）急速に普及する、軌道に乗る",
+      "context": "take off の多義の一つ。「飛行機が離陸する」が元義だが、「ビジネス・キャリア・スポーツなどが急速に成長し始める」という比喩的用法が重要。",
+      "collocations": [
+        "business took off",
+        "career took off",
+        "popularity took off",
+        "really took off"
+      ]
+    },
+    "above_board": {
+      "tier": "frequent",
+      "surface": "above board",
+      "pos": "idiom",
+      "pron": "/əˌbʌv ˈbɔːrd/",
+      "literal": "板の上にある",
+      "meaning": "正直な、オープンな、後ろ暗いところのない",
+      "context": "カードゲームで「テーブルの上に手を見せている＝不正をしていない」が語源。everything is above board(全て正直にやっている)という表現が典型的。",
+      "collocations": [
+        "above board and legal",
+        "keep everything above board",
+        "completely above board"
+      ]
+    },
+    "fall_out_of_fashion": {
+      "tier": "frequent",
+      "surface": "fell out of fashion",
+      "pos": "idiom",
+      "pron": "/fel aʊt əv ˈfæʃ.ən/",
+      "literal": "流行から外れた",
+      "meaning": "廃れる、時代遅れになる",
+      "context": "fall out of fashion / go out of fashion どちらも使う。come into fashion(流行する)の対義表現。衣服・文化・思想など幅広いものに使える。",
+      "collocations": [
+        "fall out of fashion",
+        "go out of fashion",
+        "briefly fell out of fashion",
+        "come back into fashion"
+      ]
+    },
+    "ring_entering_ceremony": {
+      "tier": "normal",
+      "surface": "ring-entering ceremony",
+      "pos": "noun phrase",
+      "pron": "/rɪŋ ˈen.tər.ɪŋ ˈser.ɪ.moʊ.ni/",
+      "literal": "土俵入り式",
+      "meaning": "土俵入り(相撲の入場儀式)",
+      "context": "横綱が試合前に土俵に上がる際に行う格式ある儀式。1789年に東京の相撲部屋が導入。横綱の権威と神聖さを示す重要な文化的実践。",
+      "collocations": [
+        "perform a ring-entering ceremony",
+        "yokozuna ring-entering ceremony"
+      ]
+    },
+    "dohyo": {
+      "tier": "basic",
+      "surface": "dohyō",
+      "pos": "noun (Japanese)",
+      "pron": "/doʊˈjoʊ/",
+      "literal": "土俵",
+      "meaning": "(相撲の)土俵",
+      "context": "相撲の競技場となる土盛りの円形の台。直径約4.55m、高さ約34〜60cm。俵(straw bales)で縁取られた神聖な空間。17世紀に標準化された。",
+      "collocations": [
+        "pushed out of the dohyō",
+        "step into the dohyō",
+        "dohyō iri(土俵入り)"
+      ]
+    },
+    "yokozuna": {
+      "tier": "basic",
+      "surface": "yokozuna",
+      "pos": "noun (Japanese)",
+      "pron": "/ˌjoʊ.koʊˈzuː.nə/",
+      "literal": "横綱",
+      "meaning": "横綱(相撲の最高位)",
+      "context": "相撲の最高ランク。横(yoko=横)+ 綱(zuna=綱)で「横に張った太い縄」が語源。1789年に土俵入り儀式の綱として導入され、後に最高位の称号となった。",
+      "collocations": [
+        "yokozuna ceremony",
+        "grand yokozuna",
+        "become a yokozuna"
+      ]
+    }
+  }
+}
