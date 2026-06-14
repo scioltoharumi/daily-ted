@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-06-12T06:34:32+09:00",
+  "updated_at": "2026-06-15T06:56:21+09:00",
   "talks": [
+    {
+      "id": "talk_2026-06-14",
+      "date": "2026-06-14",
+      "source": "ted-ed",
+      "primary_topic": "Biology",
+      "tags": [
+        "slow-loris",
+        "primates",
+        "venom",
+        "southeast-asia",
+        "wildlife",
+        "conservation"
+      ],
+      "difficulty": "medium",
+      "title": "Meet the slow loris, the only venomous primate in existence",
+      "speaker": "Stephanie A. Poindexter",
+      "duration_sec": 339,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_181575/cab53e1d-0e8d-41a7-9158-b2fae4897427/slowloristextless.jpg",
+      "published_at": "2026-06-11T15:07:02Z"
+    },
     {
       "id": "talk_2026-06-11",
       "date": "2026-06-11",
@@ -278,6 +298,8 @@
     }
   ],
   "skipped_dates": [
+    "2026-06-12",
+    "2026-06-13",
     "2026-06-10",
     "2026-06-09",
     "2026-06-08",
