@@ -146,8 +146,10 @@ Step 6 で文に分割する処理のみ行う)。
 
 2. **全単語に tier 分類を付与**(`prompts/word_classification.md` の基準):
    - basic / normal / key / frequent
-   - 全ての単語(it, the 等の基本語を含む)に対して
-     meaning / pos / pronunciation / example(en+ja) / context / collocations を生成
+   - **key / frequent / normal tier**: meaning / pos / pronunciation / example(en+ja) / context / collocations を完全生成
+   - **basic / skip tier**(it, the, of 等の機能語): 短縮形 `Sk(surface, meaning)` で OK。
+     例:`"the": Sk("the", "その/それ")`。pos / pron / example / context / collocations は省略可。
+     これは出力トークン削減のための D-205 緩和規則(後述 Step 9.5 参照)。
 
 3. **全表現(イディオム・複合名詞)を識別**(2-tier 分類):
    - normal / frequent
@@ -175,6 +177,34 @@ Step 6 で文に分割する処理のみ行う)。
    - VERBATIM 訳ではなく「要約」: 段落の主旨・展開・キー固有名詞を簡潔に。
    - 詳細ページで背景情報とトランスクリプトの間に表示され、各項目クリックで該当段落へジャンプする UI 用。
    - 段落数と summaries 数が一致しないと PWA 側で番号ズレが起きるため厳守。
+
+### 出力ボリューム削減のため `scripts/talk_builder.py` を使うこと(D-205)
+
+per-talk 生成スクリプトは下記の極小テンプレで書く:
+
+```python
+from scripts.talk_builder import generate_talk, Wk, Sk, Ek
+
+META = {...}
+BACKGROUND = {...}   # details は string[]、"見出し: 本文" 形式
+P = [...]            # 段落 [{start_sec, sentences: [...]}]
+W = {                # 単語辞書 — basic/skip 語は Sk() 短縮形
+    "key_word": Wk("key", "key_word", "n · B2", "/kiː wɜːd/", "鍵となる語", "...", "..."),
+    "the": Sk("the", "その"),
+    "of": Sk("of"),
+}
+E = {                # 表現辞書
+    "in_fact": Ek("normal", "in fact", "phrase · B1", "/ɪn fækt/", "実際", "事実として"),
+}
+PSUM = [...]         # 段落要約(D-204)、P と同じ順序
+
+generate_talk(META, BACKGROUND, P, W, E, PSUM, "data/talks/YYYY-MM-DD.json")
+```
+
+talk_builder が自動で行うこと: token id 付与、structure オブジェクト化、未参照
+entry 除去、PSUM の段落 id 紐付け、E entry の空欄補完、出力 JSON の indent 化、stats 表示。
+**Wk/Sk/Ek を使うことで per-entry 出力サイズが ~60% 削減される。** これにより
+Claude セッションの per-message 出力上限到達を回避する(2026-06-28 lessons 参照)。
 
 ## Step 7: メタ情報
 
@@ -237,6 +267,37 @@ git push origin HEAD:main
 配信元)。単なる `git push` はセッション専用ブランチに送られ、サイトに
 反映されないため使わない。push がブランチ保護で拒否される場合は、PR を
 作成して auto-merge する運用に切り替えること。
+
+## Step 9.5: 失敗時の安全網(D-205 / 2026-06-28 教訓)
+
+セッション中で **以下のいずれか** が発生した場合、talk 生成を即座に中止し
+**skip コミットで打ち切る**(沈黙でセッション終了しない):
+
+- Write/Edit ツールが「レスポンスが出力制限を超えました」エラーを返した
+- transcript fetch が成功したが、その後の生成スクリプト記述中で出力上限に達した
+- 任意のステップで2回連続のリトライが失敗した
+
+具体的に行うこと:
+
+```bash
+# 1) data/index.json の skipped_dates に当日を追加(date 順ソート)
+# 2) updated_at を更新
+git add data/index.json
+git commit -m "daily: YYYY-MM-DD skip (generation deferred — manual backfill needed for <title>)"
+git push origin HEAD:main
+
+# 3) steering/lessons.md に backfill 候補として追記
+#    - 失敗日付 / 失敗 step / 該当 video_id と slug / 推定原因
+```
+
+この安全網により:
+- watchdog ワークフロー(`.github/workflows/agent-watchdog.yml`)が誤発火しない
+- サイトのタイムラインで該当日が "no new release" として表示される(沈黙ではない)
+- backfill 待ち talk が `lessons.md` に列挙される(後日 manual 補填の参照点)
+
+**重要**: 「NEVER FABRICATE」原則(D-019)はここでも適用される。skip コミットの
+理由として「生成省略」を記録するのは OK だが、トランスクリプトを再構成して
+誤魔化す skip 偽装は禁止。
 
 # エラーハンドリング
 

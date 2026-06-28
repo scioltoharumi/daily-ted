@@ -157,3 +157,53 @@ TED-Ed のコンテンツストリームは複数あり、(a) 従来型 TED-Ed L
   2. 含まれなければ「YouTube 限定 = 公式トランスクリプト無し = NEVER FABRICATE 原則で除外」と説明
   3. 例外運用(手動投入)を要望される場合は `docs/requirements_v3.md` の仕様変更を要する(VERBATIM 厳守の例外条項が必要)。
 - YouTube 自動字幕は D-016 で既に退役済み(公式 lesson 本文と乖離・固有名詞の破損)のため、字幕からの再構成も選択肢に含めない。
+
+---
+
+## 2026-06-28 Scheduled Agent が出力制限到達で12日連続失敗 → D-205 talk_builder 導入
+
+**問題**: 2026-06-15 以降、Scheduled Agent が毎日定刻に起動するも 12 日連続で失敗。
+サイトのタイムラインは castle (6/16), dishwasher (6/18), avalanches (6/23),
+broken heart (6/25) の 4 件、計 9 日分の skip 登録も漏れ、計 13 日間沈黙した。
+
+**原因**: Agent UI のログから根本原因を特定。失敗パターン:
+```
+Step 0-5: main 同期 / fetch_ted_ed_talks / fetch_ted_transcript すべて成功
+Step 6: 生成スクリプトを scratchpad に Write しようとした瞬間に
+        「レスポンスが出力制限を超えました」で session 終了
+```
+
+つまり Claude セッションの **per-message 出力トークン上限**に到達していた。
+原因の累積:
+
+1. D-204(段落要約)追加で 1 talk あたり 1-2KB 増加
+2. lessons.md 自体が肥大化し、Step 0-1 で読み込む doc が増えた
+3. castle のような 7 段落 / 100+ words / 30+ expressions の中ボリューム talk が
+   素の Python 生成スクリプト(boilerplate 含み ~50KB)では Write 一回に収まらない
+4. 過去 toys (5/30) が 327KB で成功した一方、より小さい castle (133KB) で失敗
+   = 出力制限はサイズ依存ではなく、その時の累積出力トークン依存
+
+**対応**:
+
+1. **`scripts/talk_builder.py` 新設**: Wk/Sk/Ek/generate_talk の共通ヘルパーを集約。
+   per-talk 生成スクリプトの boilerplate を ~30% 削減。さらに `Sk("the")` の
+   3 文字短縮形により basic/skip tier 単語 entry を ~75% 圧縮。
+2. **`prompts/daily_batch.md` Step 6 改訂(D-205)**: talk_builder.py の使用を必須化、
+   basic/skip 語の短縮形を明示的に許可。
+3. **`prompts/daily_batch.md` Step 9.5 安全網(D-205)**: 出力制限到達 / 任意の失敗時、
+   sessionn が沈黙終了せず必ず `skipped_dates` 追加 + commit で打ち切るよう指示。
+   "manual backfill needed" コメント付きで lessons.md にも追記する規約。
+4. **`.github/workflows/agent-watchdog.yml` (前 commit)**: 36時間以上 commit が無ければ
+   Issue を自動 open する再発防止策。Step 9.5 と組み合わせて多段防御。
+
+**教訓**:
+- Claude の per-message 出力上限は明示的に告知されないが、生成スクリプトを書く時
+  突然 fail する。プロンプトには **「単一の Write が大きすぎる場合の分割戦略」** か
+  **「失敗時の graceful skip」** を必ず仕込むこと。
+- 共有ヘルパーをスクリプト側に置くことで Agent の生成負担を構造的に下げられる。
+  Python boilerplate を毎回 LLM に出力させるのは tokens の無駄。
+- 失敗が *沈黙終了* で起きると watchdog も発火しない(commit が無いので「直近 X 時間
+  以内に commit あり」の判定で実は失敗もカウントされない)。Step 9.5 で必ず
+  skip commit を残すことで watchdog と運用記録両方が機能する。
+- Agent UI の run 履歴と git log の commit author date は **タイムゾーン換算で
+  ズレる**(UTC vs JST)。Diagnosis では両方を JST に揃えて突き合わせること。
