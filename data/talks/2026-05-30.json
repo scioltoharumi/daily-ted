@@ -6949,7 +6949,7 @@
     "julia_lucilla": {
       "tier": "basic",
       "surface": "Julia Lucilla",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈdʒuː.li.ə luːˈsɪl.ə/",
       "meaning": "ユリア・ルキッラ(架空のローマ人少女の名)",
       "example": {
@@ -6962,7 +6962,7 @@
     "pompeia": {
       "tier": "basic",
       "surface": "Pompeia",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/pɒmˈpeɪ.ə/",
       "meaning": "ポンペイア(少女の人形の名)",
       "example": {
@@ -6975,7 +6975,7 @@
     "trajan": {
       "tier": "basic",
       "surface": "Trajan",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈtreɪ.dʒən/",
       "meaning": "トラヤヌス(ローマ皇帝)",
       "example": {
@@ -6988,7 +6988,7 @@
     "aeneas": {
       "tier": "basic",
       "surface": "Aeneas",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ɪˈniː.əs/",
       "meaning": "アエネアス(トロイの英雄)",
       "example": {
@@ -7001,7 +7001,7 @@
     "troy": {
       "tier": "basic",
       "surface": "Troy",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/trɔɪ/",
       "meaning": "トロイ(古代都市)",
       "example": {
@@ -7014,7 +7014,7 @@
     "egypt": {
       "tier": "basic",
       "surface": "Egypt",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈiː.dʒɪpt/",
       "meaning": "エジプト",
       "example": {
@@ -7029,7 +7029,7 @@
     "anatolia": {
       "tier": "basic",
       "surface": "Anatolia",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˌæn.əˈtoʊ.li.ə/",
       "meaning": "アナトリア(小アジア)",
       "example": {
@@ -7042,7 +7042,7 @@
     "indus_valley": {
       "tier": "basic",
       "surface": "Indus Valley",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈɪn.dəs ˈvæl.i/",
       "meaning": "インダス渓谷(インダス文明)",
       "example": {
@@ -7055,7 +7055,7 @@
     "greece": {
       "tier": "basic",
       "surface": "Greece",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ɡriːs/",
       "meaning": "ギリシャ",
       "example": {
@@ -7070,7 +7070,7 @@
     "rome": {
       "tier": "basic",
       "surface": "Rome",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/roʊm/",
       "meaning": "ローマ",
       "example": {
@@ -7085,7 +7085,7 @@
     "roman": {
       "tier": "basic",
       "surface": "Roman",
-      "pos": "adj/proper noun",
+      "pos": "adj/proper n",
       "pron": "/ˈroʊ.mən/",
       "meaning": "ローマの、ローマ人",
       "example": {
@@ -7101,7 +7101,7 @@
     "china": {
       "tier": "basic",
       "surface": "China",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈtʃaɪ.nə/",
       "meaning": "中国",
       "example": {
@@ -7116,7 +7116,7 @@
     "mesoamerica": {
       "tier": "basic",
       "surface": "Mesoamerica",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˌmɛz.oʊ.əˈmɛr.ɪ.kə/",
       "meaning": "メソアメリカ",
       "example": {
@@ -7142,7 +7142,7 @@
     "arctic": {
       "tier": "basic",
       "surface": "Arctic",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈɑːrk.tɪk/",
       "meaning": "北極(圏)",
       "example": {
@@ -7157,7 +7157,7 @@
     "inuit": {
       "tier": "basic",
       "surface": "Inuit",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈɪn.u.ɪt/",
       "meaning": "イヌイット",
       "example": {
@@ -7170,7 +7170,7 @@
     "plato": {
       "tier": "basic",
       "surface": "Plato",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈpleɪ.toʊ/",
       "meaning": "プラトン(哲学者)",
       "example": {
@@ -7196,7 +7196,7 @@
     "spartan": {
       "tier": "basic",
       "surface": "Spartan",
-      "pos": "adj/proper noun",
+      "pos": "adj/proper n",
       "pron": "/ˈspɑːr.tn̩/",
       "meaning": "スパルタの、スパルタ人",
       "example": {
@@ -7209,7 +7209,7 @@
     "mediterranean": {
       "tier": "basic",
       "surface": "Mediterranean",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˌmɛd.ɪ.təˈreɪ.ni.ən/",
       "meaning": "地中海(の)",
       "example": {
@@ -7224,7 +7224,7 @@
     "mesopotamia": {
       "tier": "basic",
       "surface": "Mesopotamia",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˌmɛs.ə.pəˈteɪ.mi.ə/",
       "meaning": "メソポタミア",
       "example": {
@@ -7239,7 +7239,7 @@
     "afro_eurasia": {
       "tier": "basic",
       "surface": "Afro-Eurasia",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˌæf.roʊ.jʊˈreɪ.ʒə/",
       "meaning": "アフロ・ユーラシア",
       "example": {
@@ -7252,7 +7252,7 @@
     "go_game": {
       "tier": "basic",
       "surface": "Go",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ɡoʊ/",
       "meaning": "囲碁(ボードゲーム)",
       "example": {
@@ -7265,7 +7265,7 @@
     "senet": {
       "tier": "basic",
       "surface": "Senet",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈsɛn.ɛt/",
       "meaning": "セネト(古代エジプトの盤上遊戯)",
       "example": {
@@ -7278,7 +7278,7 @@
     "ur": {
       "tier": "basic",
       "surface": "Ur",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ɜːr/",
       "meaning": "ウル(古代都市)",
       "example": {
@@ -7476,7 +7476,7 @@
     "playing": {
       "tier": "basic",
       "surface": "playing",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/ˈpleɪ.ɪŋ/",
       "meaning": "遊んでいる",
       "example": {
@@ -7492,7 +7492,7 @@
     "play": {
       "tier": "normal",
       "surface": "play",
-      "pos": "noun/verb · A1",
+      "pos": "n/v · A1",
       "pron": "/pleɪ/",
       "meaning": "遊び、遊ぶ",
       "example": {
@@ -7509,7 +7509,7 @@
     "played": {
       "tier": "basic",
       "surface": "played",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/pleɪd/",
       "meaning": "遊んだ、(競技を)した",
       "example": {
@@ -7522,7 +7522,7 @@
     "playthings": {
       "tier": "normal",
       "surface": "playthings",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈpleɪ.θɪŋz/",
       "meaning": "遊び道具、玩具",
       "example": {
@@ -7537,7 +7537,7 @@
     "plaything": {
       "tier": "normal",
       "surface": "plaything",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈpleɪ.θɪŋ/",
       "meaning": "遊び道具、玩具",
       "example": {
@@ -7566,7 +7566,7 @@
     "toys": {
       "tier": "basic",
       "surface": "toys",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/tɔɪz/",
       "meaning": "玩具(複数)",
       "example": {
@@ -7581,7 +7581,7 @@
     "toy": {
       "tier": "basic",
       "surface": "toy",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/tɔɪ/",
       "meaning": "玩具",
       "example": {
@@ -7597,7 +7597,7 @@
     "doll": {
       "tier": "basic",
       "surface": "doll",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/dɒl/",
       "meaning": "人形",
       "example": {
@@ -7613,7 +7613,7 @@
     "dolls": {
       "tier": "basic",
       "surface": "dolls",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/dɒlz/",
       "meaning": "人形(複数)",
       "example": {
@@ -7626,7 +7626,7 @@
     "ball": {
       "tier": "basic",
       "surface": "ball",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/bɔːl/",
       "meaning": "ボール、球",
       "example": {
@@ -7642,7 +7642,7 @@
     "balls": {
       "tier": "basic",
       "surface": "balls",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/bɔːlz/",
       "meaning": "ボール(複数)",
       "example": {
@@ -7655,7 +7655,7 @@
     "kids": {
       "tier": "basic",
       "surface": "kids",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/kɪdz/",
       "meaning": "子どもたち",
       "example": {
@@ -7668,7 +7668,7 @@
     "children": {
       "tier": "basic",
       "surface": "children",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈtʃɪl.drən/",
       "meaning": "子どもたち",
       "example": {
@@ -7683,7 +7683,7 @@
     "childhood": {
       "tier": "normal",
       "surface": "childhood",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈtʃaɪld.hʊd/",
       "meaning": "子ども時代、幼少期",
       "example": {
@@ -7699,7 +7699,7 @@
     "childbearing": {
       "tier": "key",
       "surface": "childbearing",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈtʃaɪldˌbɛr.ɪŋ/",
       "meaning": "出産、子を産むこと",
       "example": {
@@ -7714,7 +7714,7 @@
     "girls": {
       "tier": "basic",
       "surface": "girls",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ɡɜːrlz/",
       "meaning": "少女たち、女子",
       "example": {
@@ -7729,7 +7729,7 @@
     "boys": {
       "tier": "basic",
       "surface": "boys",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/bɔɪz/",
       "meaning": "少年たち、男子",
       "example": {
@@ -7742,7 +7742,7 @@
     "toddler": {
       "tier": "normal",
       "surface": "toddler",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈtɒd.lər/",
       "meaning": "よちよち歩きの幼児",
       "example": {
@@ -7755,7 +7755,7 @@
     "youngsters": {
       "tier": "normal",
       "surface": "youngsters",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈjʌŋ.stərz/",
       "meaning": "若者たち、子どもたち",
       "example": {
@@ -7768,7 +7768,7 @@
     "adults": {
       "tier": "basic",
       "surface": "adults",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/əˈdʌlts/",
       "meaning": "大人(複数)",
       "example": {
@@ -7783,7 +7783,7 @@
     "adulthood": {
       "tier": "normal",
       "surface": "adulthood",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/əˈdʌlt.hʊd/",
       "meaning": "成人期、大人であること",
       "example": {
@@ -7799,7 +7799,7 @@
     "men": {
       "tier": "basic",
       "surface": "men",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/mɛn/",
       "meaning": "男性(複数)",
       "example": {
@@ -7812,7 +7812,7 @@
     "women": {
       "tier": "basic",
       "surface": "women",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈwɪm.ɪn/",
       "meaning": "女性(複数)",
       "example": {
@@ -7825,7 +7825,7 @@
     "year": {
       "tier": "normal",
       "surface": "year",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/jɪər/",
       "meaning": "年",
       "example": {
@@ -7841,7 +7841,7 @@
     "years": {
       "tier": "normal",
       "surface": "years",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/jɪərz/",
       "meaning": "年(複数)",
       "example": {
@@ -7874,7 +7874,7 @@
     "ivory": {
       "tier": "key",
       "surface": "ivory",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈaɪ.vər.i/",
       "meaning": "象牙、象牙色",
       "example": {
@@ -7890,7 +7890,7 @@
     "named": {
       "tier": "normal",
       "surface": "named",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/neɪmd/",
       "meaning": "名付けられた",
       "example": {
@@ -7905,7 +7905,7 @@
     "emperor": {
       "tier": "normal",
       "surface": "Emperor",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈɛm.pər.ər/",
       "meaning": "皇帝",
       "example": {
@@ -7920,7 +7920,7 @@
     "wife": {
       "tier": "basic",
       "surface": "wife",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/waɪf/",
       "meaning": "妻",
       "example": {
@@ -7933,7 +7933,7 @@
     "centimeters": {
       "tier": "normal",
       "surface": "centimeters",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈsɛn.tɪˌmiː.tərz/",
       "meaning": "センチメートル(複数)",
       "example": {
@@ -7961,7 +7961,7 @@
     "joints": {
       "tier": "normal",
       "surface": "joints",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/dʒɔɪnts/",
       "meaning": "関節、継ぎ目",
       "example": {
@@ -7977,7 +7977,7 @@
     "arms": {
       "tier": "basic",
       "surface": "arms",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ɑːrmz/",
       "meaning": "腕(複数)",
       "example": {
@@ -7990,7 +7990,7 @@
     "legs": {
       "tier": "basic",
       "surface": "legs",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/lɛɡz/",
       "meaning": "脚(複数)",
       "example": {
@@ -8003,7 +8003,7 @@
     "knees": {
       "tier": "normal",
       "surface": "knees",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/niːz/",
       "meaning": "膝(複数)",
       "example": {
@@ -8016,7 +8016,7 @@
     "elbows": {
       "tier": "normal",
       "surface": "elbows",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈɛl.boʊz/",
       "meaning": "肘(複数)",
       "example": {
@@ -8029,7 +8029,7 @@
     "bevy": {
       "tier": "key",
       "surface": "bevy",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈbɛv.i/",
       "meaning": "ひと群れ、多数",
       "example": {
@@ -8060,7 +8060,7 @@
     "clothes": {
       "tier": "basic",
       "surface": "clothes",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/kloʊðz/",
       "meaning": "衣服",
       "example": {
@@ -8073,7 +8073,7 @@
     "accessories": {
       "tier": "key",
       "surface": "accessories",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/əkˈsɛs.ər.iz/",
       "meaning": "付属品、装身具",
       "example": {
@@ -8088,7 +8088,7 @@
     "hand": {
       "tier": "basic",
       "surface": "hand",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/hænd/",
       "meaning": "手",
       "example": {
@@ -8104,7 +8104,7 @@
     "hosts": {
       "tier": "normal",
       "surface": "hosts",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/hoʊsts/",
       "meaning": "主催する、もてなす",
       "example": {
@@ -8135,7 +8135,7 @@
     "dinner": {
       "tier": "basic",
       "surface": "dinner",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈdɪn.ər/",
       "meaning": "夕食、晩餐",
       "example": {
@@ -8150,7 +8150,7 @@
     "parties": {
       "tier": "normal",
       "surface": "parties",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈpɑːr.tiz/",
       "meaning": "パーティー(複数)",
       "example": {
@@ -8165,7 +8165,7 @@
     "helps": {
       "tier": "basic",
       "surface": "helps",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/hɛlps/",
       "meaning": "助ける",
       "example": {
@@ -8178,7 +8178,7 @@
     "escape": {
       "tier": "normal",
       "surface": "escape",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ɪˈskeɪp/",
       "meaning": "逃れる、脱出する",
       "example": {
@@ -8194,7 +8194,7 @@
     "accompanies": {
       "tier": "key",
       "surface": "accompanies",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/əˈkʌm.pə.niz/",
       "meaning": "同行する、付き添う",
       "example": {
@@ -8209,7 +8209,7 @@
     "father": {
       "tier": "basic",
       "surface": "father",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈfɑː.ðər/",
       "meaning": "父",
       "example": {
@@ -8222,7 +8222,7 @@
     "work": {
       "tier": "basic",
       "surface": "work",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/wɜːrk/",
       "meaning": "仕事",
       "example": {
@@ -8238,7 +8238,7 @@
     "trips": {
       "tier": "normal",
       "surface": "trips",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/trɪps/",
       "meaning": "旅、出張(複数)",
       "example": {
@@ -8254,7 +8254,7 @@
     "scene": {
       "tier": "normal",
       "surface": "scene",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/siːn/",
       "meaning": "光景、場面",
       "example": {
@@ -8317,7 +8317,7 @@
     "parent": {
       "tier": "normal",
       "surface": "parent",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈpɛr.ənt/",
       "meaning": "親",
       "example": {
@@ -8346,7 +8346,7 @@
     "adventures": {
       "tier": "normal",
       "surface": "adventures",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ədˈvɛn.tʃərz/",
       "meaning": "冒険(複数)",
       "example": {
@@ -8361,7 +8361,7 @@
     "thousands": {
       "tier": "normal",
       "surface": "thousands",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈθaʊ.zəndz/",
       "meaning": "数千、何千もの",
       "example": {
@@ -8408,7 +8408,7 @@
     "sticks": {
       "tier": "normal",
       "surface": "sticks",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/stɪks/",
       "meaning": "棒、枝(複数)",
       "example": {
@@ -8421,7 +8421,7 @@
     "rocks": {
       "tier": "normal",
       "surface": "rocks",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/rɒks/",
       "meaning": "石、岩(複数)",
       "example": {
@@ -8434,7 +8434,7 @@
     "evidence": {
       "tier": "frequent",
       "surface": "evidence",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈɛv.ɪ.dəns/",
       "meaning": "証拠",
       "example": {
@@ -8450,7 +8450,7 @@
     "material": {
       "tier": "frequent",
       "surface": "material",
-      "pos": "adj/noun · B1",
+      "pos": "adj/n · B1",
       "pron": "/məˈtɪər.i.əl/",
       "meaning": "物質的な、素材の",
       "example": {
@@ -8482,7 +8482,7 @@
     "written": {
       "tier": "normal",
       "surface": "written",
-      "pos": "adj/verb · A2",
+      "pos": "adj/v · A2",
       "pron": "/ˈrɪt.n̩/",
       "meaning": "書かれた、文書の",
       "example": {
@@ -8525,7 +8525,7 @@
     "archaeologists": {
       "tier": "frequent",
       "surface": "archaeologists",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌɑːr.kiˈɒl.ə.dʒɪsts/",
       "meaning": "考古学者(複数)",
       "example": {
@@ -8538,7 +8538,7 @@
     "found": {
       "tier": "basic",
       "surface": "found",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/faʊnd/",
       "meaning": "見つけた",
       "example": {
@@ -8551,7 +8551,7 @@
     "world": {
       "tier": "basic",
       "surface": "world",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/wɜːrld/",
       "meaning": "世界",
       "example": {
@@ -8581,7 +8581,7 @@
     "carriages": {
       "tier": "normal",
       "surface": "carriages",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈkær.ɪdʒ.ɪz/",
       "meaning": "車、馬車(複数)",
       "example": {
@@ -8594,7 +8594,7 @@
     "raced": {
       "tier": "normal",
       "surface": "raced",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/reɪst/",
       "meaning": "疾走した、競走した",
       "example": {
@@ -8607,7 +8607,7 @@
     "dirt": {
       "tier": "normal",
       "surface": "dirt",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/dɜːrt/",
       "meaning": "土、泥",
       "example": {
@@ -8650,7 +8650,7 @@
     "giggled": {
       "tier": "normal",
       "surface": "giggled",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ˈɡɪɡ.l̩d/",
       "meaning": "くすくす笑った",
       "example": {
@@ -8676,7 +8676,7 @@
     "chirping": {
       "tier": "key",
       "surface": "chirping",
-      "pos": "adj/verb · B2",
+      "pos": "adj/v · B2",
       "pron": "/ˈtʃɜːr.pɪŋ/",
       "meaning": "チュンチュン鳴る",
       "example": {
@@ -8691,7 +8691,7 @@
     "sound": {
       "tier": "normal",
       "surface": "sound",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/saʊnd/",
       "meaning": "音",
       "example": {
@@ -8706,7 +8706,7 @@
     "created": {
       "tier": "normal",
       "surface": "created",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/kriˈeɪ.tɪd/",
       "meaning": "作り出した、生み出した",
       "example": {
@@ -8719,7 +8719,7 @@
     "terracotta": {
       "tier": "key",
       "surface": "terracotta",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌtɛr.əˈkɒt.ə/",
       "meaning": "テラコッタ、素焼きの陶土",
       "example": {
@@ -8734,7 +8734,7 @@
     "whistle": {
       "tier": "normal",
       "surface": "whistle",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈwɪs.l̩/",
       "meaning": "笛",
       "example": {
@@ -8747,7 +8747,7 @@
     "whistles": {
       "tier": "normal",
       "surface": "whistles",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈwɪs.l̩z/",
       "meaning": "笛(複数)",
       "example": {
@@ -8775,7 +8775,7 @@
     "identify": {
       "tier": "frequent",
       "surface": "identify",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/aɪˈdɛn.tɪ.faɪ/",
       "meaning": "特定する、見分ける",
       "example": {
@@ -8806,7 +8806,7 @@
     "figurines": {
       "tier": "key",
       "surface": "figurines",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˌfɪɡ.jəˈriːnz/",
       "meaning": "小立像、人形の像",
       "example": {
@@ -8835,7 +8835,7 @@
     "fertility": {
       "tier": "key",
       "surface": "fertility",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/fərˈtɪl.ə.ti/",
       "meaning": "豊穣、多産、肥沃さ",
       "example": {
@@ -8851,7 +8851,7 @@
     "idols": {
       "tier": "normal",
       "surface": "idols",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈaɪ.dl̩z/",
       "meaning": "偶像、崇拝の対象",
       "example": {
@@ -8880,7 +8880,7 @@
     "hair": {
       "tier": "basic",
       "surface": "hair",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/hɛr/",
       "meaning": "髪",
       "example": {
@@ -8893,7 +8893,7 @@
     "designed": {
       "tier": "frequent",
       "surface": "designed",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/dɪˈzaɪnd/",
       "meaning": "設計された、作られた",
       "example": {
@@ -8909,7 +8909,7 @@
     "reflect": {
       "tier": "frequent",
       "surface": "reflect",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/rɪˈflɛkt/",
       "meaning": "反映する、映す",
       "example": {
@@ -8938,7 +8938,7 @@
     "fashions": {
       "tier": "normal",
       "surface": "fashions",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈfæʃ.ənz/",
       "meaning": "流行(複数)",
       "example": {
@@ -8953,7 +8953,7 @@
     "carried": {
       "tier": "basic",
       "surface": "carried",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/ˈkær.id/",
       "meaning": "運んだ、持ち歩いた",
       "example": {
@@ -8966,7 +8966,7 @@
     "carved": {
       "tier": "normal",
       "surface": "carved",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/kɑːrvd/",
       "meaning": "彫られた",
       "example": {
@@ -8981,7 +8981,7 @@
     "wood": {
       "tier": "normal",
       "surface": "wood",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/wʊd/",
       "meaning": "木、木材",
       "example": {
@@ -8996,7 +8996,7 @@
     "walrus": {
       "tier": "key",
       "surface": "walrus",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈwɔːl.rəs/",
       "meaning": "セイウチ",
       "example": {
@@ -9011,7 +9011,7 @@
     "tusk": {
       "tier": "key",
       "surface": "tusk",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/tʌsk/",
       "meaning": "牙",
       "example": {
@@ -9054,7 +9054,7 @@
     "kicked": {
       "tier": "basic",
       "surface": "kicked",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/kɪkt/",
       "meaning": "蹴った",
       "example": {
@@ -9067,7 +9067,7 @@
     "threw": {
       "tier": "basic",
       "surface": "threw",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/θruː/",
       "meaning": "投げた",
       "example": {
@@ -9095,7 +9095,7 @@
     "leather": {
       "tier": "normal",
       "surface": "leather",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈlɛð.ər/",
       "meaning": "革、皮革",
       "example": {
@@ -9110,7 +9110,7 @@
     "linen": {
       "tier": "normal",
       "surface": "linen",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈlɪn.ɪn/",
       "meaning": "リネン、亜麻布",
       "example": {
@@ -9123,7 +9123,7 @@
     "papyrus": {
       "tier": "key",
       "surface": "papyrus",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/pəˈpaɪ.rəs/",
       "meaning": "パピルス",
       "example": {
@@ -9136,7 +9136,7 @@
     "palm": {
       "tier": "normal",
       "surface": "palm",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/pɑːm/",
       "meaning": "ヤシ、手のひら",
       "example": {
@@ -9151,7 +9151,7 @@
     "fiber": {
       "tier": "normal",
       "surface": "fiber",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈfaɪ.bər/",
       "meaning": "繊維",
       "example": {
@@ -9166,7 +9166,7 @@
     "rules": {
       "tier": "normal",
       "surface": "rules",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ruːlz/",
       "meaning": "規則、ルール(複数)",
       "example": {
@@ -9181,7 +9181,7 @@
     "games": {
       "tier": "basic",
       "surface": "games",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ɡeɪmz/",
       "meaning": "ゲーム、遊び(複数)",
       "example": {
@@ -9197,7 +9197,7 @@
     "game": {
       "tier": "basic",
       "surface": "game",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ɡeɪm/",
       "meaning": "ゲーム、遊び、競技",
       "example": {
@@ -9212,7 +9212,7 @@
     "imitated": {
       "tier": "key",
       "surface": "imitated",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ˈɪm.ɪ.teɪ.tɪd/",
       "meaning": "真似た、模倣した",
       "example": {
@@ -9227,7 +9227,7 @@
     "competed": {
       "tier": "normal",
       "surface": "competed",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/kəmˈpiː.tɪd/",
       "meaning": "競った",
       "example": {
@@ -9242,7 +9242,7 @@
     "team": {
       "tier": "normal",
       "surface": "team",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/tiːm/",
       "meaning": "チーム",
       "example": {
@@ -9258,7 +9258,7 @@
     "sport": {
       "tier": "normal",
       "surface": "sport",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/spɔːrt/",
       "meaning": "スポーツ、競技",
       "example": {
@@ -9273,7 +9273,7 @@
     "players": {
       "tier": "normal",
       "surface": "players",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈpleɪ.ərz/",
       "meaning": "選手、競技者(複数)",
       "example": {
@@ -9286,7 +9286,7 @@
     "push": {
       "tier": "normal",
       "surface": "push",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/pʊʃ/",
       "meaning": "押す、押しやる",
       "example": {
@@ -9302,7 +9302,7 @@
     "opponents": {
       "tier": "normal",
       "surface": "opponents",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/əˈpoʊ.nənts/",
       "meaning": "相手、対戦相手(複数)",
       "example": {
@@ -9315,7 +9315,7 @@
     "pitch": {
       "tier": "key",
       "surface": "pitch",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/pɪtʃ/",
       "meaning": "(競技用の)フィールド、ピッチ",
       "example": {
@@ -9330,7 +9330,7 @@
     "hurling": {
       "tier": "key",
       "surface": "hurling",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ˈhɜːr.lɪŋ/",
       "meaning": "力一杯投げること",
       "example": {
@@ -9345,7 +9345,7 @@
     "rubber": {
       "tier": "normal",
       "surface": "rubber",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈrʌb.ər/",
       "meaning": "ゴム",
       "example": {
@@ -9360,7 +9360,7 @@
     "hit": {
       "tier": "basic",
       "surface": "hit",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/hɪt/",
       "meaning": "打つ、当てる",
       "example": {
@@ -9373,7 +9373,7 @@
     "hoop": {
       "tier": "normal",
       "surface": "hoop",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/huːp/",
       "meaning": "輪、フープ",
       "example": {
@@ -9386,7 +9386,7 @@
     "hips": {
       "tier": "normal",
       "surface": "hips",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/hɪps/",
       "meaning": "腰、ヒップ(複数)",
       "example": {
@@ -9414,7 +9414,7 @@
     "significance": {
       "tier": "key",
       "surface": "significance",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/sɪɡˈnɪf.ɪ.kəns/",
       "meaning": "重要性、意義",
       "example": {
@@ -9445,7 +9445,7 @@
     "cultures": {
       "tier": "frequent",
       "surface": "cultures",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈkʌl.tʃərz/",
       "meaning": "文化(複数)",
       "example": {
@@ -9489,7 +9489,7 @@
     "limited": {
       "tier": "normal",
       "surface": "limited",
-      "pos": "verb/adj · B1",
+      "pos": "v/adj · B1",
       "pron": "/ˈlɪm.ɪ.tɪd/",
       "meaning": "制限された",
       "example": {
@@ -9504,7 +9504,7 @@
     "gender": {
       "tier": "normal",
       "surface": "gender",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈdʒɛn.dər/",
       "meaning": "性別、ジェンダー",
       "example": {
@@ -9520,7 +9520,7 @@
     "expectations": {
       "tier": "normal",
       "surface": "expectations",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˌɛk.spɛkˈteɪ.ʃənz/",
       "meaning": "期待、しきたり(複数)",
       "example": {
@@ -9548,7 +9548,7 @@
     "engage": {
       "tier": "frequent",
       "surface": "engage",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ɪnˈɡeɪdʒ/",
       "meaning": "従事する、参加する",
       "example": {
@@ -9580,7 +9580,7 @@
     "activities": {
       "tier": "normal",
       "surface": "activities",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ækˈtɪv.ɪ.tiz/",
       "meaning": "活動(複数)",
       "example": {
@@ -9610,7 +9610,7 @@
     "believed": {
       "tier": "normal",
       "surface": "believed",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/bɪˈliːvd/",
       "meaning": "信じた、考えた",
       "example": {
@@ -9623,7 +9623,7 @@
     "strengthen": {
       "tier": "normal",
       "surface": "strengthen",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ˈstrɛŋ.θən/",
       "meaning": "強くする、強化する",
       "example": {
@@ -9638,7 +9638,7 @@
     "bodies": {
       "tier": "normal",
       "surface": "bodies",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈbɒd.iz/",
       "meaning": "体(複数)",
       "example": {
@@ -9664,7 +9664,7 @@
     "reason": {
       "tier": "normal",
       "surface": "reason",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈriː.zən/",
       "meaning": "理由",
       "example": {
@@ -9679,7 +9679,7 @@
     "encouraged": {
       "tier": "frequent",
       "surface": "encouraged",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ɪnˈkɜːr.ɪdʒd/",
       "meaning": "奨励した、励ました",
       "example": {
@@ -9694,7 +9694,7 @@
     "philosopher": {
       "tier": "normal",
       "surface": "philosopher",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/fɪˈlɒs.ə.fər/",
       "meaning": "哲学者",
       "example": {
@@ -9707,7 +9707,7 @@
     "observed": {
       "tier": "frequent",
       "surface": "observed",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/əbˈzɜːrvd/",
       "meaning": "観察した、述べた",
       "example": {
@@ -9722,7 +9722,7 @@
     "farming": {
       "tier": "normal",
       "surface": "farming",
-      "pos": "noun/adj · A2",
+      "pos": "n/adj · A2",
       "pron": "/ˈfɑːr.mɪŋ/",
       "meaning": "農業の、耕作",
       "example": {
@@ -9737,7 +9737,7 @@
     "implements": {
       "tier": "key",
       "surface": "implements",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈɪm.plɪ.mənts/",
       "meaning": "道具、用具(複数)",
       "example": {
@@ -9767,7 +9767,7 @@
     "tools": {
       "tier": "normal",
       "surface": "tools",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/tuːlz/",
       "meaning": "道具、手段(複数)",
       "example": {
@@ -9782,7 +9782,7 @@
     "learning": {
       "tier": "normal",
       "surface": "learning",
-      "pos": "noun/verb · A2",
+      "pos": "n/v · A2",
       "pron": "/ˈlɜːr.nɪŋ/",
       "meaning": "学ぶこと、学習",
       "example": {
@@ -9797,7 +9797,7 @@
     "skills": {
       "tier": "normal",
       "surface": "skills",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/skɪlz/",
       "meaning": "技能、スキル(複数)",
       "example": {
@@ -9813,7 +9813,7 @@
     "needed": {
       "tier": "basic",
       "surface": "needed",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/ˈniː.dɪd/",
       "meaning": "必要とされる",
       "example": {
@@ -9826,7 +9826,7 @@
     "expected": {
       "tier": "normal",
       "surface": "expected",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/ɪkˈspɛk.tɪd/",
       "meaning": "期待した、求めた",
       "example": {
@@ -9841,7 +9841,7 @@
     "phrase": {
       "tier": "normal",
       "surface": "phrase",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/freɪz/",
       "meaning": "言い回し、語句",
       "example": {
@@ -9856,7 +9856,7 @@
     "described": {
       "tier": "normal",
       "surface": "described",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/dɪˈskraɪbd/",
       "meaning": "描写した、表した",
       "example": {
@@ -9869,7 +9869,7 @@
     "nuts": {
       "tier": "normal",
       "surface": "nuts",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/nʌts/",
       "meaning": "木の実、ナッツ(複数)",
       "example": {
@@ -9882,7 +9882,7 @@
     "responsibilities": {
       "tier": "normal",
       "surface": "responsibilities",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/rɪˌspɒn.sɪˈbɪl.ɪ.tiz/",
       "meaning": "責任、義務(複数)",
       "example": {
@@ -9912,7 +9912,7 @@
     "offerings": {
       "tier": "normal",
       "surface": "offerings",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈɒf.ər.ɪŋz/",
       "meaning": "供物、奉納品(複数)",
       "example": {
@@ -9927,7 +9927,7 @@
     "gods": {
       "tier": "basic",
       "surface": "gods",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ɡɒdz/",
       "meaning": "神々(複数)",
       "example": {
@@ -9940,7 +9940,7 @@
     "preparing": {
       "tier": "normal",
       "surface": "preparing",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/prɪˈpɛr.ɪŋ/",
       "meaning": "準備すること",
       "example": {
@@ -9955,7 +9955,7 @@
     "wedding": {
       "tier": "normal",
       "surface": "wedding",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈwɛd.ɪŋ/",
       "meaning": "結婚式",
       "example": {
@@ -9970,7 +9970,7 @@
     "resembled": {
       "tier": "key",
       "surface": "resembled",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/rɪˈzɛm.bl̩d/",
       "meaning": "似ていた",
       "example": {
@@ -9985,7 +9985,7 @@
     "continued": {
       "tier": "normal",
       "surface": "continued",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/kənˈtɪn.juːd/",
       "meaning": "続けた",
       "example": {
@@ -10000,7 +10000,7 @@
     "continue": {
       "tier": "normal",
       "surface": "continue",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/kənˈtɪn.juː/",
       "meaning": "続ける",
       "example": {
@@ -10015,7 +10015,7 @@
     "enjoy": {
       "tier": "basic",
       "surface": "enjoy",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/ɪnˈdʒɔɪ/",
       "meaning": "楽しむ",
       "example": {
@@ -10028,7 +10028,7 @@
     "knucklebones": {
       "tier": "key",
       "surface": "knucklebones",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈnʌk.l̩.boʊnz/",
       "meaning": "お手玉遊び、ナックルボーンズ",
       "example": {
@@ -10041,7 +10041,7 @@
     "crafted": {
       "tier": "normal",
       "surface": "crafted",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ˈkræf.tɪd/",
       "meaning": "作られた、こしらえた",
       "example": {
@@ -10056,7 +10056,7 @@
     "ankle": {
       "tier": "normal",
       "surface": "ankle",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈæŋ.kl̩/",
       "meaning": "足首",
       "example": {
@@ -10069,7 +10069,7 @@
     "bones": {
       "tier": "normal",
       "surface": "bones",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/boʊnz/",
       "meaning": "骨(複数)",
       "example": {
@@ -10082,7 +10082,7 @@
     "sheep": {
       "tier": "basic",
       "surface": "sheep",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ʃiːp/",
       "meaning": "羊",
       "example": {
@@ -10095,7 +10095,7 @@
     "pigs": {
       "tier": "basic",
       "surface": "pigs",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/pɪɡz/",
       "meaning": "豚(複数)",
       "example": {
@@ -10108,7 +10108,7 @@
     "jacks": {
       "tier": "normal",
       "surface": "jacks",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/dʒæks/",
       "meaning": "おはじき、ジャックス遊び",
       "example": {
@@ -10121,7 +10121,7 @@
     "dice": {
       "tier": "normal",
       "surface": "dice",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/daɪs/",
       "meaning": "サイコロ",
       "example": {
@@ -10136,7 +10136,7 @@
     "faces": {
       "tier": "normal",
       "surface": "faces",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈfeɪs.ɪz/",
       "meaning": "面、表面(複数)",
       "example": {
@@ -10149,7 +10149,7 @@
     "earning": {
       "tier": "normal",
       "surface": "earning",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/ˈɜːr.nɪŋ/",
       "meaning": "稼ぐこと、得ること",
       "example": {
@@ -10162,7 +10162,7 @@
     "values": {
       "tier": "normal",
       "surface": "values",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈvæl.juːz/",
       "meaning": "値、価値(複数)",
       "example": {
@@ -10192,7 +10192,7 @@
     "introduced": {
       "tier": "frequent",
       "surface": "introduced",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ˌɪn.trəˈduːst/",
       "meaning": "導入された、教えられた",
       "example": {
@@ -10222,7 +10222,7 @@
     "examples": {
       "tier": "normal",
       "surface": "examples",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ɪɡˈzæm.pl̩z/",
       "meaning": "例(複数)",
       "example": {
@@ -10252,7 +10252,7 @@
     "soldiers": {
       "tier": "normal",
       "surface": "Soldiers",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈsoʊl.dʒərz/",
       "meaning": "兵士(複数)",
       "example": {
@@ -10278,7 +10278,7 @@
     "follow": {
       "tier": "normal",
       "surface": "follow",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/ˈfɒl.oʊ/",
       "meaning": "従う、追う",
       "example": {
@@ -10293,7 +10293,7 @@
     "instincts": {
       "tier": "frequent",
       "surface": "instincts",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈɪn.stɪŋkts/",
       "meaning": "本能(複数)",
       "example": {
@@ -10309,7 +10309,7 @@
     "ancestors": {
       "tier": "normal",
       "surface": "ancestors",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈæn.sɛs.tərz/",
       "meaning": "祖先(複数)",
       "example": {
@@ -10322,7 +10322,7 @@
     "invent": {
       "tier": "normal",
       "surface": "invent",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ɪnˈvɛnt/",
       "meaning": "発明する、考え出す",
       "example": {
@@ -10337,7 +10337,7 @@
     "stories": {
       "tier": "normal",
       "surface": "stories",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈstɔːr.iz/",
       "meaning": "物語(複数)",
       "example": {
@@ -10363,7 +10363,7 @@
     "send": {
       "tier": "basic",
       "surface": "send",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/sɛnd/",
       "meaning": "送る、走らせる",
       "example": {
@@ -10376,7 +10376,7 @@
     "cars": {
       "tier": "basic",
       "surface": "cars",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/kɑːrz/",
       "meaning": "車(複数)",
       "example": {
@@ -10391,7 +10391,7 @@
     "skittering": {
       "tier": "key",
       "surface": "skittering",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ˈskɪt.ər.ɪŋ/",
       "meaning": "すばやく滑り走る",
       "example": {
@@ -10404,7 +10404,7 @@
     "floor": {
       "tier": "normal",
       "surface": "floor",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/flɔːr/",
       "meaning": "床",
       "example": {
@@ -10432,7 +10432,7 @@
     "kinds": {
       "tier": "normal",
       "surface": "kinds",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/kaɪndz/",
       "meaning": "種類(複数)",
       "example": {
@@ -10610,7 +10610,7 @@
     "child": {
       "tier": "basic",
       "surface": "child",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/tʃaɪld/",
       "meaning": "子ども",
       "example": {
@@ -10651,7 +10651,7 @@
     "variety": {
       "tier": "normal",
       "surface": "variety",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/vəˈraɪ.ə.ti/",
       "meaning": "多様性、いろいろ",
       "example": {
@@ -10679,7 +10679,7 @@
     "point": {
       "tier": "normal",
       "surface": "point",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/pɔɪnt/",
       "meaning": "点、得点",
       "example": {
@@ -10694,7 +10694,7 @@
     "include": {
       "tier": "normal",
       "surface": "include",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/ɪnˈkluːd/",
       "meaning": "含む",
       "example": {
@@ -10709,7 +10709,7 @@
     "know": {
       "tier": "basic",
       "surface": "know",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/noʊ/",
       "meaning": "知っている、分かる",
       "example": {
@@ -10722,7 +10722,7 @@
     "think": {
       "tier": "basic",
       "surface": "think",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/θɪŋk/",
       "meaning": "考える、思う",
       "example": {
@@ -10735,7 +10735,7 @@
     "believe": {
       "tier": "basic",
       "surface": "believe",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/bɪˈliːv/",
       "meaning": "信じる、考える",
       "example": {
@@ -10748,7 +10748,7 @@
     "use": {
       "tier": "normal",
       "surface": "use",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/juːs/",
       "meaning": "使用、用途",
       "example": {
@@ -10761,7 +10761,7 @@
     "used": {
       "tier": "basic",
       "surface": "used",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/juːzd/",
       "meaning": "使われた",
       "example": {
@@ -10776,7 +10776,7 @@
     "using": {
       "tier": "normal",
       "surface": "using",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/ˈjuː.zɪŋ/",
       "meaning": "使って",
       "example": {
@@ -10789,7 +10789,7 @@
     "going": {
       "tier": "basic",
       "surface": "going",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/ˈɡoʊ.ɪŋ/",
       "meaning": "行くこと",
       "example": {
@@ -10802,7 +10802,7 @@
     "get": {
       "tier": "basic",
       "surface": "get",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/ɡɛt/",
       "meaning": "得る、〜になる",
       "example": {
@@ -10817,7 +10817,7 @@
     "try": {
       "tier": "basic",
       "surface": "try",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/traɪ/",
       "meaning": "試みる、〜しようとする",
       "example": {
@@ -10830,7 +10830,7 @@
     "had": {
       "tier": "basic",
       "surface": "had",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/hæd/",
       "meaning": "持っていた、〜があった",
       "example": {
@@ -10843,7 +10843,7 @@
     "have": {
       "tier": "basic",
       "surface": "have",
-      "pos": "aux/verb · A1",
+      "pos": "aux/v · A1",
       "pron": "/hæv/",
       "meaning": "持つ、(完了の助動詞)",
       "example": {
@@ -10925,7 +10925,7 @@
     "left": {
       "tier": "basic",
       "surface": "left",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/lɛft/",
       "meaning": "残した、置いていった",
       "example": {
@@ -11208,7 +11208,7 @@
     "addition": {
       "tier": "normal",
       "surface": "addition",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/əˈdɪʃ.ən/",
       "meaning": "追加",
       "example": {
@@ -11223,7 +11223,7 @@
     "part": {
       "tier": "basic",
       "surface": "part",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/pɑːrt/",
       "meaning": "部分、一環",
       "example": {
@@ -11238,7 +11238,7 @@
     "hands": {
       "tier": "normal",
       "surface": "hands",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/hændz/",
       "meaning": "手(複数)",
       "example": {
@@ -11268,7 +11268,7 @@
     "example": {
       "tier": "normal",
       "surface": "example",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ɪɡˈzɑːm.pl̩/",
       "meaning": "例",
       "example": {
@@ -11365,7 +11365,7 @@
     "made": {
       "tier": "basic",
       "surface": "made",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/meɪd/",
       "meaning": "作られた",
       "example": {
@@ -11380,7 +11380,7 @@
     "called": {
       "tier": "normal",
       "surface": "called",
-      "pos": "verb · A1",
+      "pos": "v · A1",
       "pron": "/kɔːld/",
       "meaning": "〜と呼ばれる",
       "example": {
@@ -11406,7 +11406,7 @@
     "childrens": {
       "tier": "basic",
       "surface": "children's",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈtʃɪl.drənz/",
       "meaning": "子どもたちの",
       "example": {

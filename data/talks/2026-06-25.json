@@ -110,9 +110,33 @@
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " experiences of a person's life."
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "experiences",
+              "ref": "experiences",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " of a ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "person",
+              "ref": "person",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": "'s life.",
+              "id": "t9"
             }
           ]
         },
@@ -165,33 +189,69 @@
               "ref": "whole_host_of"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": " strong "
+              "surface": " ",
+              "id": "t6"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "strong",
+              "ref": "strong",
+              "tier": "basic",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "emotions",
               "ref": "emotions",
               "tier": "skip"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": " that "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "word",
               "surface": "impact",
               "ref": "impact",
               "tier": "skip"
             },
             {
-              "id": "t10",
               "type": "skip",
-              "surface": " both our mental and physical health."
+              "surface": " both our ",
+              "id": "t12"
+            },
+            {
+              "type": "word",
+              "surface": "mental",
+              "ref": "mental",
+              "tier": "normal",
+              "id": "t13"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t14"
+            },
+            {
+              "type": "word",
+              "surface": "physical",
+              "ref": "physical",
+              "tier": "normal",
+              "id": "t15"
+            },
+            {
+              "type": "skip",
+              "surface": " health.",
+              "id": "t16"
             }
           ]
         },
@@ -216,19 +276,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But is it possible for these powerful feelings to "
+              "surface": "But is it ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "possible",
+              "ref": "possible",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " for these ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "powerful",
+              "ref": "powerful",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "feelings",
+              "ref": "feelings",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "endanger",
               "ref": "endanger",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t9",
               "type": "skip",
               "surface": " your life?"
             }
@@ -264,18 +360,30 @@
               "ref": "in_other_words"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": ", can you actually die from a "
+              "surface": ", can you ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "actually",
+              "ref": "actually",
+              "tier": "normal",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " die from a ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "expression",
               "surface": "broken heart",
               "ref": "broken_heart"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": "?"
             }
@@ -331,30 +439,66 @@
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " medical "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "medical",
+              "ref": "medical",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "phenomena",
               "ref": "phenomena",
               "tier": "known"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " addressing this question is the "
+              "surface": " ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "addressing",
+              "ref": "addressing",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " this ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "question",
+              "ref": "question",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " is the ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "expression",
               "surface": "widowhood effect",
               "ref": "widowhood_effect"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -397,42 +541,138 @@
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " couples have found that a person's risk of dying can increase by up to 90% over the three months following their "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "couples",
+              "ref": "couples",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " have found that a ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "person",
+              "ref": "person",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": "'s risk of ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "dying",
+              "ref": "dying",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " can ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "increase",
+              "ref": "increase",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " by up to 90% over the three months ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "following",
+              "ref": "following",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " their ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "spouse",
               "ref": "spouse",
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": "'s death, leading a significant number of couples to "
+              "surface": "'s death, ",
+              "id": "t15"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "leading",
+              "ref": "leading",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " a ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "significant",
+              "ref": "significant",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " number of ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "couples",
+              "ref": "couples",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "expression",
               "surface": "pass away",
               "ref": "pass_away"
             },
             {
-              "id": "t7",
+              "id": "t23",
               "type": "skip",
               "surface": " months, weeks, or even days "
             },
             {
-              "id": "t8",
+              "id": "t24",
               "type": "word",
               "surface": "apart",
               "ref": "apart",
               "tier": "skip"
             },
             {
-              "id": "t9",
+              "id": "t25",
               "type": "skip",
               "surface": "."
             }
@@ -470,9 +710,21 @@
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " explaining this effect."
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "explaining",
+              "ref": "explaining",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " this effect.",
+              "id": "t5"
             }
           ]
         },
@@ -531,54 +783,90 @@
               "ref": "associated_with"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " higher levels of "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "higher",
+              "ref": "higher",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "levels",
+              "ref": "levels",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "inflammatory",
               "ref": "inflammatory",
               "tier": "known"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "proteins",
               "ref": "proteins",
               "tier": "known"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " in the blood, potentially "
+              "surface": " in the blood, ",
+              "id": "t15"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "potentially",
+              "ref": "potentially",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "impairing",
               "ref": "impairing",
               "tier": "known"
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "expression",
               "surface": "immune system",
               "ref": "immune_system"
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "skip",
               "surface": "."
             }
@@ -616,18 +904,54 @@
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " with the loss of a supporting partner, can make it hard for a person to "
+              "surface": " with the loss of a ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "supporting",
+              "ref": "supporting",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "partner",
+              "ref": "partner",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", can make it hard for a ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "person",
+              "ref": "person",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "keep up with",
               "ref": "keep_up_with"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": " their daily health needs."
             }
@@ -658,67 +982,98 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Similarly, "
+              "type": "word",
+              "surface": "Similarly",
+              "ref": "similarly",
+              "tier": "normal",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": ", ",
+              "id": "t2"
+            },
+            {
+              "id": "t3",
               "type": "word",
               "surface": "chronic",
               "ref": "chronic",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t4",
               "type": "skip",
               "surface": " stress can "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "alter",
               "ref": "alter",
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " hormone levels, "
+              "surface": " ",
+              "id": "t6"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "hormone",
+              "ref": "hormone",
+              "tier": "normal",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "levels",
+              "ref": "levels",
+              "tier": "normal",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "impair",
               "ref": "impair",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t13",
               "type": "word",
               "surface": "digestion",
               "ref": "digestion",
               "tier": "known"
             },
             {
-              "id": "t9",
+              "id": "t14",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t10",
+              "id": "t15",
               "type": "word",
               "surface": "dysregulate",
               "ref": "dysregulate",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t16",
               "type": "skip",
               "surface": " the immune system."
             }
@@ -760,29 +1115,101 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But while all these factors can reduce "
+              "surface": "But while all these ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "factors",
+              "ref": "factors",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " can ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "reduce",
+              "ref": "reduce",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "life expectancy",
               "ref": "life_expectancy"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", there's another condition where powerful emotions can directly endanger someone's life: "
+              "surface": ", there's another ",
+              "id": "t7"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "condition",
+              "ref": "condition",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " where ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "powerful",
+              "ref": "powerful",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " emotions can ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "directly",
+              "ref": "directly",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " endanger ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "someone",
+              "ref": "someone",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": "'s life: ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "takotsubo cardiomyopathy",
               "ref": "takotsubo_cardiomyopathy"
             },
             {
-              "id": "t5",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -820,54 +1247,102 @@
               "ref": "broken_heart_syndrome"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ",\" this was originally "
+              "surface": ",\" this was ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "originally",
+              "ref": "originally",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "labeled",
               "ref": "labeled",
               "tier": "skip"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " by Japanese doctors in 1990, who named the condition "
+              "surface": " by Japanese ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "doctors",
+              "ref": "doctors",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " in 1990, who ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "named",
+              "ref": "named",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "condition",
+              "ref": "condition",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "expression",
               "surface": "after",
               "ref": "after_word"
             },
             {
-              "id": "t7",
+              "id": "t15",
               "type": "skip",
               "surface": " the Japanese word for an "
             },
             {
-              "id": "t8",
+              "id": "t16",
               "type": "word",
               "surface": "octopus",
               "ref": "octopus",
               "tier": "known"
             },
             {
-              "id": "t9",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t18",
               "type": "word",
               "surface": "trap",
               "ref": "trap",
               "tier": "known"
             },
             {
-              "id": "t11",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1004,42 +1479,102 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And while most patients can recover over several weeks, "
+              "surface": "And while most ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "patients",
+              "ref": "patients",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " can ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "recover",
+              "ref": "recover",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " over ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "several",
+              "ref": "several",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " weeks, ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "roughly",
               "ref": "roughly",
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " 5% will experience a potentially "
+              "surface": " 5% will ",
+              "id": "t9"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "experience",
+              "ref": "experience",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " a ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "potentially",
+              "ref": "potentially",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "lethal",
               "ref": "lethal",
               "tier": "known"
             },
             {
-              "id": "t5",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t16",
               "type": "expression",
               "surface": "cardiac arrest",
               "ref": "cardiac_arrest"
             },
             {
-              "id": "t7",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1076,9 +1611,93 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "While the exact cause of takotsubo cardiomyopathy is still being studied, the condition often appears after a sudden traumatic event."
+              "surface": "While the ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "exact",
+              "ref": "exact",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "cause",
+              "ref": "cause",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " of takotsubo cardiomyopathy is still being ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "studied",
+              "ref": "studied",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "condition",
+              "ref": "condition",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " often ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "appears",
+              "ref": "appears",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " after a ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "sudden",
+              "ref": "sudden",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " traumatic ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "event",
+              "ref": "event",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         },
@@ -1120,31 +1739,103 @@
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " by both shocking grief and unexpected happiness, it's likely not the "
+              "surface": " by both ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "shocking",
+              "ref": "shocking",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " grief and ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "unexpected",
+              "ref": "unexpected",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "happiness",
+              "ref": "happiness",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", it's ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "likely",
+              "ref": "likely",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " not the ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "nature",
               "ref": "nature",
               "tier": "skip"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " of the emotion that matters, but the "
+              "surface": " of the ",
+              "id": "t13"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "emotion",
+              "ref": "emotion",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " that ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "matters",
+              "ref": "matters",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ", but the ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "intensity",
               "ref": "intensity",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1170,54 +1861,121 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Intense emotional events "
+              "type": "word",
+              "surface": "Intense",
+              "ref": "intense",
+              "tier": "normal",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "emotional",
+              "ref": "emotional",
+              "tier": "normal",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t4"
+            },
+            {
+              "type": "word",
+              "surface": "events",
+              "ref": "events",
+              "tier": "normal",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t6"
+            },
+            {
+              "id": "t7",
               "type": "expression",
               "surface": "lead to",
               "ref": "lead_to"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " a sudden increase in two hormones: "
+              "surface": " a ",
+              "id": "t8"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "sudden",
+              "ref": "sudden",
+              "tier": "normal",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t10"
+            },
+            {
+              "type": "word",
+              "surface": "increase",
+              "ref": "increase",
+              "tier": "normal",
+              "id": "t11"
+            },
+            {
+              "type": "skip",
+              "surface": " in two ",
+              "id": "t12"
+            },
+            {
+              "type": "word",
+              "surface": "hormones",
+              "ref": "hormones",
+              "tier": "normal",
+              "id": "t13"
+            },
+            {
+              "type": "skip",
+              "surface": ": ",
+              "id": "t14"
+            },
+            {
+              "id": "t15",
               "type": "word",
               "surface": "epinephrine",
               "ref": "epinephrine",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t16",
               "type": "skip",
               "surface": ", also known as "
             },
             {
-              "id": "t6",
+              "id": "t17",
               "type": "word",
               "surface": "adrenaline",
               "ref": "adrenaline",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t18",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t8",
+              "id": "t19",
               "type": "word",
               "surface": "norepinephrine",
               "ref": "norepinephrine",
               "tier": "key"
             },
             {
-              "id": "t9",
+              "id": "t20",
               "type": "skip",
               "surface": "."
             }
@@ -1243,42 +2001,54 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Both these hormones "
+              "surface": "Both these ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "hormones",
+              "ref": "hormones",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "interact",
               "ref": "interact",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " with "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "beta-adrenergic receptors",
               "ref": "beta_adrenergic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", which have a high "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "concentration",
               "ref": "concentration",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " in the left ventricle."
             }
@@ -1308,54 +2078,90 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "So during takotsubo cardiomyopathy, researchers believe epinephrine and norepinephrine "
+              "surface": "So during takotsubo cardiomyopathy, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "researchers",
+              "ref": "researchers",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "believe",
+              "ref": "believe",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " epinephrine and norepinephrine ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "flood",
               "ref": "flood_v"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " the left ventricle, triggering it to "
+              "surface": " the left ventricle, ",
+              "id": "t7"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "triggering",
+              "ref": "triggering",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " it to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "contract",
               "ref": "contract",
               "tier": "known"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t12",
               "type": "word",
               "surface": "rapidly",
               "ref": "rapidly",
               "tier": "skip"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "word",
               "surface": "repeatedly",
               "ref": "repeatedly",
               "tier": "known"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -1385,31 +2191,43 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Within minutes, this activity "
+              "surface": "Within minutes, this ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "activity",
+              "ref": "activity",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "exhausts",
               "ref": "exhausts",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "ventricle",
               "ref": "ventricle",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -1440,43 +2258,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And since it's unable to "
+              "surface": "And since it's ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "unable",
+              "ref": "unable",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "pump",
               "ref": "pump",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "effectively",
               "ref": "effectively",
               "tier": "skip"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", blood begins to "
+              "surface": ", blood ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "begins",
+              "ref": "begins",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "pool",
               "ref": "pool",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1526,42 +2368,78 @@
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " can also cause "
+              "surface": " can also ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "cause",
+              "ref": "cause",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "spasms",
               "ref": "spasms",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " in the "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "blood vessels",
               "ref": "blood_vessels"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " that supply the heart with oxygen and "
+              "surface": " that ",
+              "id": "t11"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "supply",
+              "ref": "supply",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " the heart with ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "oxygen",
+              "ref": "oxygen",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "nutrients",
               "ref": "nutrients",
               "tier": "known"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1591,31 +2469,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "So despite all the blood inside the heart, the muscle "
+              "surface": "So ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "despite",
+              "ref": "despite",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " all the blood inside the heart, the ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "muscle",
+              "ref": "muscle",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "tissue",
               "ref": "tissue",
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " itself may not be getting enough blood flow to "
+              "surface": " itself may not be getting ",
+              "id": "t7"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "enough",
+              "ref": "enough",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " blood flow to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "function",
               "ref": "function",
               "tier": "skip"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1647,20 +2561,44 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The result of all this is something that often feels like a "
+              "surface": "The ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "result",
+              "ref": "result",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of all this is something that often feels like a ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "heart attack",
               "ref": "heart_attack"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " without actually being one."
+              "surface": " without ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "actually",
+              "ref": "actually",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " being one.",
+              "id": "t7"
             }
           ]
         },
@@ -1701,53 +2639,77 @@
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " takotsubo cardiomyopathy often experience intense "
+              "surface": " takotsubo cardiomyopathy often ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "experience",
+              "ref": "experience",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "intense",
+              "ref": "intense",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "chest pain",
               "ref": "chest_pain"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "expression",
               "surface": "shortness of breath",
               "ref": "shortness_of_breath"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": ", even though their "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "arteries",
               "ref": "arteries",
               "tier": "known"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " aren't "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "blocked",
               "ref": "blocked",
               "tier": "skip"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " like they would be during a heart attack."
             }
@@ -1802,45 +2764,105 @@
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " also makes the condition difficult to "
+              "surface": " also makes the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "condition",
+              "ref": "condition",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "difficult",
+              "ref": "difficult",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "diagnose",
               "ref": "diagnose",
               "tier": "known"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", and it's easily "
+              "surface": ", and it's ",
+              "id": "t11"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "easily",
+              "ref": "easily",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "confused",
               "ref": "confused",
               "tier": "skip"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " for more common "
+              "surface": " for more ",
+              "id": "t15"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "common",
+              "ref": "common",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "cardiac",
               "ref": "cardiac",
               "tier": "known"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " conditions."
+              "surface": " ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "conditions",
+              "ref": "conditions",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t21"
             }
           ]
         },
@@ -1864,9 +2886,40 @@
           ],
           "tokens": [
             {
-              "id": "t1",
+              "type": "word",
+              "surface": "Fortunately",
+              "ref": "fortunately",
+              "tier": "normal",
+              "id": "t1"
+            },
+            {
               "type": "skip",
-              "surface": "Fortunately, the initial treatment for takotsubo cardiomyopathy and a heart attack is the same."
+              "surface": ", the ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "initial",
+              "ref": "initial",
+              "tier": "normal",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t4"
+            },
+            {
+              "type": "word",
+              "surface": "treatment",
+              "ref": "treatment",
+              "tier": "normal",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " for takotsubo cardiomyopathy and a heart attack is the same.",
+              "id": "t6"
             }
           ]
         },
@@ -1890,65 +2943,84 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Doctors may "
+              "type": "word",
+              "surface": "Doctors",
+              "ref": "doctors",
+              "tier": "basic",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " may ",
+              "id": "t2"
+            },
+            {
+              "id": "t3",
               "type": "word",
               "surface": "prescribe",
               "ref": "prescribe",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t4",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "expression",
               "surface": "blood thinners",
               "ref": "blood_thinners"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " to prevent "
+              "surface": " to ",
+              "id": "t6"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "prevent",
+              "ref": "prevent",
+              "tier": "normal",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "clotting",
               "ref": "clotting",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t10",
               "type": "skip",
               "surface": " in the heart and "
             },
             {
-              "id": "t8",
+              "id": "t11",
               "type": "expression",
               "surface": "beta blockers",
               "ref": "beta_blockers"
             },
             {
-              "id": "t9",
+              "id": "t12",
               "type": "skip",
               "surface": " to slow the heart's "
             },
             {
-              "id": "t10",
+              "id": "t13",
               "type": "word",
               "surface": "contractions",
               "ref": "contractions",
               "tier": "known"
             },
             {
-              "id": "t11",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -1982,41 +3054,65 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Beyond that, patients might take blood thinners and "
+              "surface": "Beyond that, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "patients",
+              "ref": "patients",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " might take blood thinners and ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "blood pressure",
               "ref": "blood_pressure"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "medications",
               "ref": "medications",
               "tier": "known"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " to protect their heart "
+              "surface": " to ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "protect",
+              "ref": "protect",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " their heart ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "in the long run",
               "ref": "in_the_long_run"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -2062,9 +3158,33 @@
               "tier": "skip"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " aren't any specific treatments for takotsubo cardiomyopathy."
+              "surface": " aren't any ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "specific",
+              "ref": "specific",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "treatments",
+              "ref": "treatments",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " for takotsubo cardiomyopathy.",
+              "id": "t7"
             }
           ]
         }
@@ -2094,19 +3214,31 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "We also don't know exactly when it will "
+              "surface": "We also don't know ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "exactly",
+              "ref": "exactly",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " when it will ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "strike",
               "ref": "strike",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": "."
             }
@@ -2136,68 +3268,152 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The population that appears most "
+              "surface": "The ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "population",
+              "ref": "population",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " that ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "appears",
+              "ref": "appears",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " most ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "at risk",
               "ref": "at_risk"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " is "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "postmenopausal",
               "ref": "postmenopausal",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " women, perhaps because "
+              "surface": " women, ",
+              "id": "t9"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "perhaps",
+              "ref": "perhaps",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " because ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "estrogen",
               "ref": "estrogen",
               "tier": "known"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " helps prevent "
+              "surface": " helps ",
+              "id": "t13"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "prevent",
+              "ref": "prevent",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "cardiovascular",
               "ref": "cardiovascular",
               "tier": "known"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " disease, and "
+              "surface": " ",
+              "id": "t17"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "disease",
+              "ref": "disease",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": ", and ",
+              "id": "t19"
+            },
+            {
+              "id": "t20",
               "type": "word",
               "surface": "menopause",
               "ref": "menopause",
               "tier": "known"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " decreases estrogen production."
+              "surface": " ",
+              "id": "t21"
+            },
+            {
+              "type": "word",
+              "surface": "decreases",
+              "ref": "decreases",
+              "tier": "normal",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": " estrogen ",
+              "id": "t23"
+            },
+            {
+              "type": "word",
+              "surface": "production",
+              "ref": "production",
+              "tier": "normal",
+              "id": "t24"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t25"
             }
           ]
         },
@@ -2233,9 +3449,33 @@
               "tier": "known"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " anyone can experience traumatic emotions."
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "anyone",
+              "ref": "anyone",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " can ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "experience",
+              "ref": "experience",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " traumatic emotions.",
+              "id": "t7"
             }
           ]
         }
@@ -2265,18 +3505,30 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The good news is that in most cases patients "
+              "surface": "The good news is that in most cases ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "patients",
+              "ref": "patients",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "make a full recovery",
               "ref": "make_full_recovery"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": "."
             }
@@ -2307,42 +3559,54 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Because while our bodies are "
+              "surface": "Because while our ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "bodies",
+              "ref": "bodies",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " are ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "sensitive",
               "ref": "sensitive",
               "tier": "known"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " to the "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "ups and downs",
               "ref": "ups_and_downs"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " of our emotions, they're also "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "resilient",
               "ref": "resilient",
               "tier": "known"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -3441,6 +4705,1111 @@
       "example": {
         "en": "Widely accepted.",
         "ja": "広く認められた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "experiences": {
+      "tier": "normal",
+      "surface": "experiences",
+      "pos": "n · B1",
+      "pron": "/ɪkˈspɪə.ri.ən.sɪz/",
+      "meaning": "経験",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "person": {
+      "tier": "basic",
+      "surface": "person",
+      "pos": "n · A1",
+      "pron": "/ˈpɜː.sən/",
+      "meaning": "人",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strong": {
+      "tier": "basic",
+      "surface": "strong",
+      "pos": "adj · A1",
+      "pron": "/strɒŋ/",
+      "meaning": "強い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mental": {
+      "tier": "normal",
+      "surface": "mental",
+      "pos": "adj · B1",
+      "pron": "/ˈmen.təl/",
+      "meaning": "精神の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "physical": {
+      "tier": "normal",
+      "surface": "physical",
+      "pos": "adj · A2",
+      "pron": "/ˈfɪz.ɪ.kəl/",
+      "meaning": "身体の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "possible": {
+      "tier": "normal",
+      "surface": "possible",
+      "pos": "adj · A2",
+      "pron": "/ˈpɒs.ə.bəl/",
+      "meaning": "可能な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "powerful": {
+      "tier": "normal",
+      "surface": "powerful",
+      "pos": "adj · B1",
+      "pron": "/ˈpaʊ.ə.fəl/",
+      "meaning": "強力な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "feelings": {
+      "tier": "normal",
+      "surface": "feelings",
+      "pos": "n · A2",
+      "pron": "/ˈfiː.lɪŋz/",
+      "meaning": "感情",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "actually": {
+      "tier": "normal",
+      "surface": "actually",
+      "pos": "adv · B1",
+      "pron": "/ˈæk.tʃu.ə.li/",
+      "meaning": "実際に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "medical": {
+      "tier": "normal",
+      "surface": "medical",
+      "pos": "adj · B1",
+      "pron": "/ˈmed.ɪ.kəl/",
+      "meaning": "医学の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "addressing": {
+      "tier": "normal",
+      "surface": "addressing",
+      "pos": "v · B2",
+      "pron": "/əˈdres.ɪŋ/",
+      "meaning": "取り組む、扱う",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "question": {
+      "tier": "basic",
+      "surface": "question",
+      "pos": "n · A1",
+      "pron": "/ˈkwes.tʃən/",
+      "meaning": "問い、疑問",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "couples": {
+      "tier": "normal",
+      "surface": "couples",
+      "pos": "n · A2",
+      "pron": "/ˈkʌp.əlz/",
+      "meaning": "夫婦、カップル",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dying": {
+      "tier": "basic",
+      "surface": "dying",
+      "pos": "v · A2",
+      "pron": "/ˈdaɪ.ɪŋ/",
+      "meaning": "死ぬこと",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "increase": {
+      "tier": "normal",
+      "surface": "increase",
+      "pos": "v · B1",
+      "pron": "/ɪnˈkriːs/",
+      "meaning": "増加する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "following": {
+      "tier": "normal",
+      "surface": "following",
+      "pos": "prep · B1",
+      "pron": "/ˈfɒl.əʊ.ɪŋ/",
+      "meaning": "〜に続く",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "leading": {
+      "tier": "normal",
+      "surface": "leading",
+      "pos": "v · B1",
+      "pron": "/ˈliː.dɪŋ/",
+      "meaning": "〜を導いて",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "significant": {
+      "tier": "normal",
+      "surface": "significant",
+      "pos": "adj · B2",
+      "pron": "/sɪɡˈnɪf.ɪ.kənt/",
+      "meaning": "著しい、相当の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "explaining": {
+      "tier": "normal",
+      "surface": "explaining",
+      "pos": "v · A2",
+      "pron": "/ɪkˈspleɪ.nɪŋ/",
+      "meaning": "説明する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "higher": {
+      "tier": "basic",
+      "surface": "higher",
+      "pos": "adj · A2",
+      "pron": "/ˈhaɪ.ər/",
+      "meaning": "より高い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "levels": {
+      "tier": "normal",
+      "surface": "levels",
+      "pos": "n · A2",
+      "pron": "/ˈlev.əlz/",
+      "meaning": "レベル、水準",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "potentially": {
+      "tier": "normal",
+      "surface": "potentially",
+      "pos": "adv · B2",
+      "pron": "/pəˈten.ʃəl.i/",
+      "meaning": "潜在的に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "supporting": {
+      "tier": "normal",
+      "surface": "supporting",
+      "pos": "v · B1",
+      "pron": "/səˈpɔː.tɪŋ/",
+      "meaning": "支える",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "partner": {
+      "tier": "normal",
+      "surface": "partner",
+      "pos": "n · A2",
+      "pron": "/ˈpɑːt.nər/",
+      "meaning": "パートナー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "similarly": {
+      "tier": "normal",
+      "surface": "similarly",
+      "pos": "adv · B2",
+      "pron": "/ˈsɪm.ɪ.lə.li/",
+      "meaning": "同様に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hormone": {
+      "tier": "normal",
+      "surface": "hormone",
+      "pos": "n · B2",
+      "pron": "/ˈhɔː.məʊn/",
+      "meaning": "ホルモン",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "factors": {
+      "tier": "normal",
+      "surface": "factors",
+      "pos": "n · B1",
+      "pron": "/ˈfæk.təz/",
+      "meaning": "要因",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reduce": {
+      "tier": "normal",
+      "surface": "reduce",
+      "pos": "v · B1",
+      "pron": "/rɪˈdjuːs/",
+      "meaning": "減らす",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "condition": {
+      "tier": "normal",
+      "surface": "condition",
+      "pos": "n · B1",
+      "pron": "/kənˈdɪʃ.ən/",
+      "meaning": "疾患、状態",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "directly": {
+      "tier": "normal",
+      "surface": "directly",
+      "pos": "adv · B1",
+      "pron": "/daɪˈrekt.li/",
+      "meaning": "直接に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "someone": {
+      "tier": "basic",
+      "surface": "someone",
+      "pos": "pron · A1",
+      "pron": "/ˈsʌm.wʌn/",
+      "meaning": "誰か",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "originally": {
+      "tier": "normal",
+      "surface": "originally",
+      "pos": "adv · B1",
+      "pron": "/əˈrɪdʒ.ən.əl.i/",
+      "meaning": "もともと、当初",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "doctors": {
+      "tier": "basic",
+      "surface": "doctors",
+      "pos": "n · A1",
+      "pron": "/ˈdɒk.təz/",
+      "meaning": "医師",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "named": {
+      "tier": "basic",
+      "surface": "named",
+      "pos": "v · A2",
+      "pron": "/neɪmd/",
+      "meaning": "名付けた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "patients": {
+      "tier": "normal",
+      "surface": "patients",
+      "pos": "n · B1",
+      "pron": "/ˈpeɪ.ʃənts/",
+      "meaning": "患者",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "recover": {
+      "tier": "normal",
+      "surface": "recover",
+      "pos": "v · B1",
+      "pron": "/rɪˈkʌv.ər/",
+      "meaning": "回復する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "several": {
+      "tier": "normal",
+      "surface": "several",
+      "pos": "adj · A2",
+      "pron": "/ˈsev.ər.əl/",
+      "meaning": "いくつかの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "experience": {
+      "tier": "normal",
+      "surface": "experience",
+      "pos": "v · B1",
+      "pron": "/ɪkˈspɪə.ri.əns/",
+      "meaning": "経験する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exact": {
+      "tier": "normal",
+      "surface": "exact",
+      "pos": "adj · B1",
+      "pron": "/ɪɡˈzækt/",
+      "meaning": "正確な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cause": {
+      "tier": "normal",
+      "surface": "cause",
+      "pos": "n · B1",
+      "pron": "/kɔːz/",
+      "meaning": "原因",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "studied": {
+      "tier": "normal",
+      "surface": "studied",
+      "pos": "v · A2",
+      "pron": "/ˈstʌd.id/",
+      "meaning": "研究された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "appears": {
+      "tier": "normal",
+      "surface": "appears",
+      "pos": "v · B1",
+      "pron": "/əˈpɪəz/",
+      "meaning": "現れる、発症する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sudden": {
+      "tier": "normal",
+      "surface": "sudden",
+      "pos": "adj · B1",
+      "pron": "/ˈsʌd.ən/",
+      "meaning": "突然の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "event": {
+      "tier": "normal",
+      "surface": "event",
+      "pos": "n · A2",
+      "pron": "/ɪˈvent/",
+      "meaning": "出来事",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shocking": {
+      "tier": "normal",
+      "surface": "shocking",
+      "pos": "adj · B1",
+      "pron": "/ˈʃɒk.ɪŋ/",
+      "meaning": "衝撃的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unexpected": {
+      "tier": "normal",
+      "surface": "unexpected",
+      "pos": "adj · B1",
+      "pron": "/ˌʌn.ɪkˈspek.tɪd/",
+      "meaning": "予期せぬ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "happiness": {
+      "tier": "normal",
+      "surface": "happiness",
+      "pos": "n · A2",
+      "pron": "/ˈhæp.i.nəs/",
+      "meaning": "幸福",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "likely": {
+      "tier": "normal",
+      "surface": "likely",
+      "pos": "adj · B1",
+      "pron": "/ˈlaɪk.li/",
+      "meaning": "ありそうな",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "emotion": {
+      "tier": "normal",
+      "surface": "emotion",
+      "pos": "n · B1",
+      "pron": "/ɪˈməʊ.ʃən/",
+      "meaning": "感情",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "matters": {
+      "tier": "normal",
+      "surface": "matters",
+      "pos": "v · B1",
+      "pron": "/ˈmæt.əz/",
+      "meaning": "重要である",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intense": {
+      "tier": "normal",
+      "surface": "intense",
+      "pos": "adj · B2",
+      "pron": "/ɪnˈtens/",
+      "meaning": "強烈な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "emotional": {
+      "tier": "normal",
+      "surface": "emotional",
+      "pos": "adj · B1",
+      "pron": "/ɪˈməʊ.ʃən.əl/",
+      "meaning": "感情的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "events": {
+      "tier": "normal",
+      "surface": "events",
+      "pos": "n · A2",
+      "pron": "/ɪˈvents/",
+      "meaning": "出来事",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hormones": {
+      "tier": "normal",
+      "surface": "hormones",
+      "pos": "n · B2",
+      "pron": "/ˈhɔː.məʊnz/",
+      "meaning": "ホルモン",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "researchers": {
+      "tier": "normal",
+      "surface": "researchers",
+      "pos": "n · B1",
+      "pron": "/rɪˈsɜː.tʃəz/",
+      "meaning": "研究者",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "believe": {
+      "tier": "basic",
+      "surface": "believe",
+      "pos": "v · A2",
+      "pron": "/bɪˈliːv/",
+      "meaning": "信じる、考える",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "triggering": {
+      "tier": "normal",
+      "surface": "triggering",
+      "pos": "v · B2",
+      "pron": "/ˈtrɪɡ.ər.ɪŋ/",
+      "meaning": "引き起こして",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "activity": {
+      "tier": "basic",
+      "surface": "activity",
+      "pos": "n · A2",
+      "pron": "/ækˈtɪv.ə.ti/",
+      "meaning": "活動",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unable": {
+      "tier": "normal",
+      "surface": "unable",
+      "pos": "adj · B1",
+      "pron": "/ʌnˈeɪ.bəl/",
+      "meaning": "〜できない",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "begins": {
+      "tier": "basic",
+      "surface": "begins",
+      "pos": "v · A1",
+      "pron": "/bɪˈɡɪnz/",
+      "meaning": "始まる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "supply": {
+      "tier": "normal",
+      "surface": "supply",
+      "pos": "v · B1",
+      "pron": "/səˈplaɪ/",
+      "meaning": "供給する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "oxygen": {
+      "tier": "normal",
+      "surface": "oxygen",
+      "pos": "n · B1",
+      "pron": "/ˈɒk.sɪ.dʒən/",
+      "meaning": "酸素",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "despite": {
+      "tier": "normal",
+      "surface": "despite",
+      "pos": "prep · B1",
+      "pron": "/dɪˈspaɪt/",
+      "meaning": "〜にもかかわらず",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "muscle": {
+      "tier": "normal",
+      "surface": "muscle",
+      "pos": "n · B1",
+      "pron": "/ˈmʌs.əl/",
+      "meaning": "筋肉",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enough": {
+      "tier": "basic",
+      "surface": "enough",
+      "pos": "det · A2",
+      "pron": "/ɪˈnʌf/",
+      "meaning": "十分な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "result": {
+      "tier": "normal",
+      "surface": "result",
+      "pos": "n · A2",
+      "pron": "/rɪˈzʌlt/",
+      "meaning": "結果",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "difficult": {
+      "tier": "basic",
+      "surface": "difficult",
+      "pos": "adj · A2",
+      "pron": "/ˈdɪf.ɪ.kəlt/",
+      "meaning": "難しい",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "easily": {
+      "tier": "normal",
+      "surface": "easily",
+      "pos": "adv · B1",
+      "pron": "/ˈiː.zəl.i/",
+      "meaning": "容易に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "common": {
+      "tier": "normal",
+      "surface": "common",
+      "pos": "adj · A2",
+      "pron": "/ˈkɒm.ən/",
+      "meaning": "一般的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conditions": {
+      "tier": "normal",
+      "surface": "conditions",
+      "pos": "n · B1",
+      "pron": "/kənˈdɪʃ.ənz/",
+      "meaning": "状態、疾患",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fortunately": {
+      "tier": "normal",
+      "surface": "fortunately",
+      "pos": "adv · B1",
+      "pron": "/ˈfɔː.tʃən.ət.li/",
+      "meaning": "幸いにも",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "initial": {
+      "tier": "normal",
+      "surface": "initial",
+      "pos": "adj · B1",
+      "pron": "/ɪˈnɪʃ.əl/",
+      "meaning": "初期の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "treatment": {
+      "tier": "normal",
+      "surface": "treatment",
+      "pos": "n · B1",
+      "pron": "/ˈtriːt.mənt/",
+      "meaning": "治療",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prevent": {
+      "tier": "normal",
+      "surface": "prevent",
+      "pos": "v · B1",
+      "pron": "/prɪˈvent/",
+      "meaning": "防ぐ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "protect": {
+      "tier": "normal",
+      "surface": "protect",
+      "pos": "v · B1",
+      "pron": "/prəˈtekt/",
+      "meaning": "守る",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "specific": {
+      "tier": "normal",
+      "surface": "specific",
+      "pos": "adj · B1",
+      "pron": "/spəˈsɪf.ɪk/",
+      "meaning": "特定の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "treatments": {
+      "tier": "normal",
+      "surface": "treatments",
+      "pos": "n · B1",
+      "pron": "/ˈtriːt.mənts/",
+      "meaning": "治療",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exactly": {
+      "tier": "normal",
+      "surface": "exactly",
+      "pos": "adv · B1",
+      "pron": "/ɪɡˈzækt.li/",
+      "meaning": "正確に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "population": {
+      "tier": "normal",
+      "surface": "population",
+      "pos": "n · B1",
+      "pron": "/ˌpɒp.jəˈleɪ.ʃən/",
+      "meaning": "集団、人口",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "perhaps": {
+      "tier": "normal",
+      "surface": "perhaps",
+      "pos": "adv · B1",
+      "pron": "/pəˈhæps/",
+      "meaning": "おそらく",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disease": {
+      "tier": "normal",
+      "surface": "disease",
+      "pos": "n · B1",
+      "pron": "/dɪˈziːz/",
+      "meaning": "疾患、病気",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "decreases": {
+      "tier": "normal",
+      "surface": "decreases",
+      "pos": "v · B1",
+      "pron": "/dɪˈkriːs.ɪz/",
+      "meaning": "減少させる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "production": {
+      "tier": "normal",
+      "surface": "production",
+      "pos": "n · B1",
+      "pron": "/prəˈdʌk.ʃən/",
+      "meaning": "産生、生産",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "anyone": {
+      "tier": "basic",
+      "surface": "anyone",
+      "pos": "pron · A1",
+      "pron": "/ˈen.i.wʌn/",
+      "meaning": "誰でも",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bodies": {
+      "tier": "basic",
+      "surface": "bodies",
+      "pos": "n · A2",
+      "pron": "/ˈbɒd.iz/",
+      "meaning": "身体",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []

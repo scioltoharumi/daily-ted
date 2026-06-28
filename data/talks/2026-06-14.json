@@ -74,21 +74,128 @@
           "text": "Deep in the jungles of southeast Asia lurks a deadly creature with sharp teeth and a venomous bite: a slow loris.",
           "translation_ja": "東南アジアの密林の奥深くに、鋭い歯と毒の咬傷を持つ危険な生物が潜んでいる。それがスローロリスだ。",
           "structure": [
-            { "label": "M(場所)", "content": "Deep in the jungles of southeast Asia", "note": "場所の副詞句が文頭に倒置" },
-            { "label": "V", "content": "lurks", "note": "倒置により動詞が主語の前に来る" },
-            { "label": "S", "content": "a deadly creature with sharp teeth and a venomous bite" },
-            { "label": "同格", "content": "a slow loris", "note": "コロン後に正体を明かす" }
+            {
+              "label": "M(場所)",
+              "content": "Deep in the jungles of southeast Asia",
+              "note": "場所の副詞句が文頭に倒置"
+            },
+            {
+              "label": "V",
+              "content": "lurks",
+              "note": "倒置により動詞が主語の前に来る"
+            },
+            {
+              "label": "S",
+              "content": "a deadly creature with sharp teeth and a venomous bite"
+            },
+            {
+              "label": "同格",
+              "content": "a slow loris",
+              "note": "コロン後に正体を明かす"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Deep in the jungles of southeast ", "type": "skip" },
-            { "id": "t2", "surface": "Asia", "type": "word", "tier": "basic", "ref": "asia" },
-            { "id": "t3", "surface": " ", "type": "skip" },
-            { "id": "t4", "surface": "lurks", "type": "word", "tier": "key", "ref": "lurk" },
-            { "id": "t5", "surface": " a ", "type": "skip" },
-            { "id": "t6", "surface": "deadly", "type": "word", "tier": "normal", "ref": "deadly" },
-            { "id": "t7", "surface": " creature with sharp teeth and a ", "type": "skip" },
-            { "id": "t8", "surface": "venomous", "type": "word", "tier": "key", "ref": "venomous" },
-            { "id": "t9", "surface": " bite: a slow loris.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Deep in the ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "jungles",
+              "ref": "jungles",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of southeast ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "Asia",
+              "type": "word",
+              "tier": "basic",
+              "ref": "asia"
+            },
+            {
+              "id": "t5",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "lurks",
+              "type": "word",
+              "tier": "key",
+              "ref": "lurk"
+            },
+            {
+              "id": "t7",
+              "surface": " a ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "deadly",
+              "type": "word",
+              "tier": "normal",
+              "ref": "deadly"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "creature",
+              "ref": "creature",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " with ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "sharp",
+              "ref": "sharp",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "teeth",
+              "ref": "teeth",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " and a ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
+              "surface": "venomous",
+              "type": "word",
+              "tier": "key",
+              "ref": "venomous"
+            },
+            {
+              "id": "t17",
+              "surface": " bite: a slow loris.",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -96,14 +203,49 @@
           "text": "Despite their wide-eyed looks, their story is much fiercer than you might imagine.",
           "translation_ja": "その大きな目の愛らしい見た目に反して、彼らの物語はあなたが想像するより遥かに過激だ。",
           "structure": [
-            { "label": "M(逆接)", "content": "Despite their wide-eyed looks" },
-            { "label": "S", "content": "their story" },
-            { "label": "V+C", "content": "is much fiercer than you might imagine" }
+            {
+              "label": "M(逆接)",
+              "content": "Despite their wide-eyed looks"
+            },
+            {
+              "label": "S",
+              "content": "their story"
+            },
+            {
+              "label": "V+C",
+              "content": "is much fiercer than you might imagine"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Despite their wide-eyed looks, their story is much ", "type": "skip" },
-            { "id": "t2", "surface": "fiercer", "type": "word", "tier": "normal", "ref": "fierce" },
-            { "id": "t3", "surface": " than you might imagine.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Despite their wide-eyed looks, their story is much ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "fiercer",
+              "type": "word",
+              "tier": "normal",
+              "ref": "fierce"
+            },
+            {
+              "type": "skip",
+              "surface": " than you might ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "imagine",
+              "ref": "imagine",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t5"
+            }
           ]
         }
       ]
@@ -117,18 +259,71 @@
           "text": "Lorises split off from other primates as far back as 70 million years ago, when T-rexes still roamed.",
           "translation_ja": "ロリスは7000万年もの昔、ティラノサウルスがまだ闊歩していた頃に他の霊長類から分岐した。",
           "structure": [
-            { "label": "S+V", "content": "Lorises split off from other primates" },
-            { "label": "M(時)", "content": "as far back as 70 million years ago" },
-            { "label": "when節", "content": "when T-rexes still roamed" }
+            {
+              "label": "S+V",
+              "content": "Lorises split off from other primates"
+            },
+            {
+              "label": "M(時)",
+              "content": "as far back as 70 million years ago"
+            },
+            {
+              "label": "when節",
+              "content": "when T-rexes still roamed"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Lorises ", "type": "skip" },
-            { "id": "t2", "surface": "split off from", "type": "expression", "ref": "split_off_from" },
-            { "id": "t3", "surface": " other ", "type": "skip" },
-            { "id": "t4", "surface": "primates", "type": "word", "tier": "key", "ref": "primate" },
-            { "id": "t5", "surface": " ", "type": "skip" },
-            { "id": "t6", "surface": "as far back as", "type": "expression", "ref": "as_far_back_as" },
-            { "id": "t7", "surface": " 70 million years ago, when T-rexes still roamed.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Lorises ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "split off from",
+              "type": "expression",
+              "ref": "split_off_from"
+            },
+            {
+              "id": "t3",
+              "surface": " other ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "primates",
+              "type": "word",
+              "tier": "key",
+              "ref": "primate"
+            },
+            {
+              "id": "t5",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "as far back as",
+              "type": "expression",
+              "ref": "as_far_back_as"
+            },
+            {
+              "type": "skip",
+              "surface": " 70 million years ago, when T-rexes still ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "roamed",
+              "ref": "roamed",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
+            }
           ]
         },
         {
@@ -136,17 +331,69 @@
           "text": "And they gradually migrated from Africa to Asia.",
           "translation_ja": "そして彼らはアフリカからアジアへと徐々に移動した。",
           "structure": [
-            { "label": "S+V", "content": "they gradually migrated" },
-            { "label": "M(方向)", "content": "from Africa to Asia" }
+            {
+              "label": "S+V",
+              "content": "they gradually migrated"
+            },
+            {
+              "label": "M(方向)",
+              "content": "from Africa to Asia"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "And they ", "type": "skip" },
-            { "id": "t2", "surface": "gradually", "type": "word", "tier": "frequent", "ref": "gradually" },
-            { "id": "t3", "surface": " migrated from ", "type": "skip" },
-            { "id": "t4", "surface": "Africa", "type": "word", "tier": "basic", "ref": "africa" },
-            { "id": "t5", "surface": " to ", "type": "skip" },
-            { "id": "t6", "surface": "Asia", "type": "word", "tier": "basic", "ref": "asia" },
-            { "id": "t7", "surface": ".", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "And they ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "gradually",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "gradually"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "migrated",
+              "ref": "migrated",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " from ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "Africa",
+              "type": "word",
+              "tier": "basic",
+              "ref": "africa"
+            },
+            {
+              "id": "t7",
+              "surface": " to ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "Asia",
+              "type": "word",
+              "tier": "basic",
+              "ref": "asia"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -154,16 +401,72 @@
           "text": "Around sunset each evening, lorises get active, moving slowly and deliberately through the trees in their home range.",
           "translation_ja": "毎夜日没頃になると、ロリスは活動を開始し、縄張りの木々の間をゆっくりと意図的に移動する。",
           "structure": [
-            { "label": "M(時)", "content": "Around sunset each evening" },
-            { "label": "S+V+C", "content": "lorises get active" },
-            { "label": "分詞構文", "content": "moving slowly and deliberately through the trees in their home range" }
+            {
+              "label": "M(時)",
+              "content": "Around sunset each evening"
+            },
+            {
+              "label": "S+V+C",
+              "content": "lorises get active"
+            },
+            {
+              "label": "分詞構文",
+              "content": "moving slowly and deliberately through the trees in their home range"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Around sunset each evening, lorises get active, moving slowly and ", "type": "skip" },
-            { "id": "t2", "surface": "deliberately", "type": "word", "tier": "frequent", "ref": "deliberately" },
-            { "id": "t3", "surface": " through the trees in their ", "type": "skip" },
-            { "id": "t4", "surface": "home range", "type": "expression", "ref": "home_range" },
-            { "id": "t5", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Around ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "sunset",
+              "ref": "sunset",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " each evening, lorises get ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "active",
+              "ref": "active",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", moving slowly and ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "deliberately",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "deliberately"
+            },
+            {
+              "id": "t7",
+              "surface": " through the trees in their ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "home range",
+              "type": "expression",
+              "ref": "home_range"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -171,13 +474,45 @@
           "text": "They use their large eyes to scan their surroundings for their next meal and take little time to rest.",
           "translation_ja": "彼らは大きな目を使って周囲をスキャンして次の食事を探し、ほとんど休もうとしない。",
           "structure": [
-            { "label": "S+V+O", "content": "They use their large eyes" },
-            { "label": "目的", "content": "to scan their surroundings for their next meal and take little time to rest" }
+            {
+              "label": "S+V+O",
+              "content": "They use their large eyes"
+            },
+            {
+              "label": "目的",
+              "content": "to scan their surroundings for their next meal and take little time to rest"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "They use their large eyes to ", "type": "skip" },
-            { "id": "t2", "surface": "scan", "type": "word", "tier": "normal", "ref": "scan" },
-            { "id": "t3", "surface": " their surroundings for their next meal and take little time to rest.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "They use their large eyes to ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "scan",
+              "type": "word",
+              "tier": "normal",
+              "ref": "scan"
+            },
+            {
+              "type": "skip",
+              "surface": " their ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "surroundings",
+              "ref": "surroundings",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " for their next meal and take little time to rest.",
+              "id": "t5"
+            }
           ]
         },
         {
@@ -185,14 +520,48 @@
           "text": "Pygmy lorises, for one, regularly pass their nights in near-constant motion.",
           "translation_ja": "ピグミーロリスは特に、ほぼ休みなく動き続けながら夜を過ごす。",
           "structure": [
-            { "label": "S", "content": "Pygmy lorises" },
-            { "label": "M", "content": "for one" },
-            { "label": "V+O+M", "content": "regularly pass their nights in near-constant motion" }
+            {
+              "label": "S",
+              "content": "Pygmy lorises"
+            },
+            {
+              "label": "M",
+              "content": "for one"
+            },
+            {
+              "label": "V+O+M",
+              "content": "regularly pass their nights in near-constant motion"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Pygmy lorises, for one, regularly pass their nights in ", "type": "skip" },
-            { "id": "t2", "surface": "near-constant motion", "type": "expression", "ref": "near_constant_motion" },
-            { "id": "t3", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Pygmy lorises, for one, ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "regularly",
+              "ref": "regularly",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " pass their nights in ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "near-constant motion",
+              "type": "expression",
+              "ref": "near_constant_motion"
+            },
+            {
+              "id": "t5",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -200,22 +569,96 @@
           "text": "Unlike many other primates, however, slow lorises have a higher proportion of slow-twitch muscle fibers, which are favored for long-winded exertion versus speedy spurts.",
           "translation_ja": "しかし他の多くの霊長類とは異なり、スローロリスは遅筋繊維の割合が高く、それは素早い瞬発力よりも持続的な力仕事に適している。",
           "structure": [
-            { "label": "M(対比)", "content": "Unlike many other primates" },
-            { "label": "S+V+O", "content": "slow lorises have a higher proportion of slow-twitch muscle fibers" },
-            { "label": "関係節", "content": "which are favored for long-winded exertion versus speedy spurts" }
+            {
+              "label": "M(対比)",
+              "content": "Unlike many other primates"
+            },
+            {
+              "label": "S+V+O",
+              "content": "slow lorises have a higher proportion of slow-twitch muscle fibers"
+            },
+            {
+              "label": "関係節",
+              "content": "which are favored for long-winded exertion versus speedy spurts"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Unlike many other ", "type": "skip" },
-            { "id": "t2", "surface": "primates", "type": "word", "tier": "key", "ref": "primate" },
-            { "id": "t3", "surface": ", however, slow lorises have a higher ", "type": "skip" },
-            { "id": "t4", "surface": "proportion", "type": "word", "tier": "frequent", "ref": "proportion" },
-            { "id": "t5", "surface": " of ", "type": "skip" },
-            { "id": "t6", "surface": "slow-twitch muscle fibers", "type": "expression", "ref": "slow_twitch_muscle_fibers" },
-            { "id": "t7", "surface": ", which are ", "type": "skip" },
-            { "id": "t8", "surface": "favored", "type": "word", "tier": "frequent", "ref": "favored" },
-            { "id": "t9", "surface": " for long-winded ", "type": "skip" },
-            { "id": "t10", "surface": "exertion", "type": "word", "tier": "frequent", "ref": "exertion" },
-            { "id": "t11", "surface": " versus speedy spurts.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Unlike many other ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "primates",
+              "type": "word",
+              "tier": "key",
+              "ref": "primate"
+            },
+            {
+              "id": "t3",
+              "surface": ", however, slow lorises have a higher ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "proportion",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "proportion"
+            },
+            {
+              "id": "t5",
+              "surface": " of ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "slow-twitch muscle fibers",
+              "type": "expression",
+              "ref": "slow_twitch_muscle_fibers"
+            },
+            {
+              "id": "t7",
+              "surface": ", which are ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "favored",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "favored"
+            },
+            {
+              "id": "t9",
+              "surface": " for long-winded ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "exertion",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "exertion"
+            },
+            {
+              "type": "skip",
+              "surface": " versus speedy ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "spurts",
+              "ref": "spurts",
+              "tier": "key",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t13"
+            }
           ]
         },
         {
@@ -223,15 +666,45 @@
           "text": "They also have extra vertebrae, making them especially flexible.",
           "translation_ja": "彼らにはさらに余分な椎骨もあり、特別に体が柔軟だ。",
           "structure": [
-            { "label": "S+V+O", "content": "They also have extra vertebrae" },
-            { "label": "分詞構文", "content": "making them especially flexible" }
+            {
+              "label": "S+V+O",
+              "content": "They also have extra vertebrae"
+            },
+            {
+              "label": "分詞構文",
+              "content": "making them especially flexible"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "They also have extra ", "type": "skip" },
-            { "id": "t2", "surface": "vertebrae", "type": "word", "tier": "key", "ref": "vertebrae" },
-            { "id": "t3", "surface": ", making them especially ", "type": "skip" },
-            { "id": "t4", "surface": "flexible", "type": "word", "tier": "frequent", "ref": "flexible" },
-            { "id": "t5", "surface": ".", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "They also have extra ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "vertebrae",
+              "type": "word",
+              "tier": "key",
+              "ref": "vertebrae"
+            },
+            {
+              "id": "t3",
+              "surface": ", making them especially ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "flexible",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "flexible"
+            },
+            {
+              "id": "t5",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -239,15 +712,112 @@
           "text": "When needed, slow lorises can stay still, gripped to one tree branch for hours, extra blood vessel networks in their limbs preventing them from weakening or becoming numb.",
           "translation_ja": "必要なときにはスローロリスは静止したまま何時間も一本の木の枝にしがみついていられる。手足の中の余分な血管網がしびれや衰弱を防いでくれるからだ。",
           "structure": [
-            { "label": "M(条件)", "content": "When needed" },
-            { "label": "S+V+C", "content": "slow lorises can stay still" },
-            { "label": "分詞構文", "content": "gripped to one tree branch for hours" },
-            { "label": "独立分詞構文", "content": "extra blood vessel networks in their limbs preventing them from weakening or becoming numb" }
+            {
+              "label": "M(条件)",
+              "content": "When needed"
+            },
+            {
+              "label": "S+V+C",
+              "content": "slow lorises can stay still"
+            },
+            {
+              "label": "分詞構文",
+              "content": "gripped to one tree branch for hours"
+            },
+            {
+              "label": "独立分詞構文",
+              "content": "extra blood vessel networks in their limbs preventing them from weakening or becoming numb"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "When needed, slow lorises can stay still, gripped to one tree branch for hours, extra ", "type": "skip" },
-            { "id": "t2", "surface": "blood vessel networks", "type": "expression", "ref": "blood_vessel_networks" },
-            { "id": "t3", "surface": " in their limbs preventing them from weakening or becoming numb.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "When needed, slow lorises can stay still, ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "gripped",
+              "ref": "gripped",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " to one tree ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "branch",
+              "ref": "branch",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " for hours, extra ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "blood vessel networks",
+              "type": "expression",
+              "ref": "blood_vessel_networks"
+            },
+            {
+              "type": "skip",
+              "surface": " in their ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "limbs",
+              "ref": "limbs",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "preventing",
+              "ref": "preventing",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " them from ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "weakening",
+              "ref": "weakening",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " or becoming ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "numb",
+              "ref": "numb",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
+            }
           ]
         },
         {
@@ -255,12 +825,40 @@
           "text": "Their slow movements help them go undetected.",
           "translation_ja": "ゆっくりした動きが彼らを気づかれずにいさせる助けとなる。",
           "structure": [
-            { "label": "S+V+O+C", "content": "Their slow movements help them go undetected" }
+            {
+              "label": "S+V+O+C",
+              "content": "Their slow movements help them go undetected"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Their slow movements help them ", "type": "skip" },
-            { "id": "t2", "surface": "go undetected", "type": "expression", "ref": "go_undetected" },
-            { "id": "t3", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Their slow ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "movements",
+              "ref": "movements",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " help them ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "go undetected",
+              "type": "expression",
+              "ref": "go_undetected"
+            },
+            {
+              "id": "t5",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -268,17 +866,124 @@
           "text": "And that way, they avoid threats, staying stealth around predators that tend to be on the lookout for motion; and they can better hunt unsuspecting prey.",
           "translation_ja": "そうすることで彼らは脅威を回避し、動くものを見張る捕食者の周囲でも隠れ続けられる。そして油断している獲物をより効果的に狩ることができる。",
           "structure": [
-            { "label": "M", "content": "And that way" },
-            { "label": "S+V+O", "content": "they avoid threats" },
-            { "label": "分詞構文", "content": "staying stealth around predators that tend to be on the lookout for motion" },
-            { "label": "S2+V2+O2", "content": "they can better hunt unsuspecting prey" }
+            {
+              "label": "M",
+              "content": "And that way"
+            },
+            {
+              "label": "S+V+O",
+              "content": "they avoid threats"
+            },
+            {
+              "label": "分詞構文",
+              "content": "staying stealth around predators that tend to be on the lookout for motion"
+            },
+            {
+              "label": "S2+V2+O2",
+              "content": "they can better hunt unsuspecting prey"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "And that way, they avoid threats, staying stealth around predators that tend to be ", "type": "skip" },
-            { "id": "t2", "surface": "on the lookout for", "type": "expression", "ref": "on_the_lookout_for" },
-            { "id": "t3", "surface": " motion; and they can better hunt ", "type": "skip" },
-            { "id": "t4", "surface": "unsuspecting", "type": "word", "tier": "key", "ref": "unsuspecting" },
-            { "id": "t5", "surface": " prey.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "And that way, they avoid ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "threats",
+              "ref": "threats",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", staying ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "stealth",
+              "ref": "stealth",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " around ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "predators",
+              "ref": "predators",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " that tend to be ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
+              "surface": "on the lookout for",
+              "type": "expression",
+              "ref": "on_the_lookout_for"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "motion",
+              "ref": "motion",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": "; and they can better ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "hunt",
+              "ref": "hunt",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
+              "surface": "unsuspecting",
+              "type": "word",
+              "tier": "key",
+              "ref": "unsuspecting"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "prey",
+              "ref": "prey",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
+            }
           ]
         }
       ]
@@ -292,17 +997,79 @@
           "text": "Slow lorises are omnivores that go after lots of insects and other small animals, as well as fruit and nectar.",
           "translation_ja": "スローロリスは雑食動物で、多くの昆虫や他の小動物、果実や花蜜も追い求める。",
           "structure": [
-            { "label": "S+V+C", "content": "Slow lorises are omnivores" },
-            { "label": "関係節", "content": "that go after lots of insects and other small animals, as well as fruit and nectar" }
+            {
+              "label": "S+V+C",
+              "content": "Slow lorises are omnivores"
+            },
+            {
+              "label": "関係節",
+              "content": "that go after lots of insects and other small animals, as well as fruit and nectar"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Slow lorises are ", "type": "skip" },
-            { "id": "t2", "surface": "omnivores", "type": "word", "tier": "key", "ref": "omnivore" },
-            { "id": "t3", "surface": " that ", "type": "skip" },
-            { "id": "t4", "surface": "go after", "type": "expression", "ref": "go_after" },
-            { "id": "t5", "surface": " lots of insects and other small animals, ", "type": "skip" },
-            { "id": "t6", "surface": "as well as", "type": "expression", "ref": "as_well_as" },
-            { "id": "t7", "surface": " fruit and nectar.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Slow lorises are ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "omnivores",
+              "type": "word",
+              "tier": "key",
+              "ref": "omnivore"
+            },
+            {
+              "id": "t3",
+              "surface": " that ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "go after",
+              "type": "expression",
+              "ref": "go_after"
+            },
+            {
+              "type": "skip",
+              "surface": " lots of ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "insects",
+              "ref": "insects",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " and other small animals, ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
+              "surface": "as well as",
+              "type": "expression",
+              "ref": "as_well_as"
+            },
+            {
+              "type": "skip",
+              "surface": " fruit and ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "nectar",
+              "ref": "nectar",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t11"
+            }
           ]
         },
         {
@@ -310,16 +1077,97 @@
           "text": "Interestingly, they also consume a lot of tree gum and sap, scratching at tree bark with a row of specialized teeth called a “toothcomb.”",
           "translation_ja": "興味深いことに、彼らは樹木のゴムや樹液も多く摂取し、「トゥースコーム」と呼ばれる専用の歯の列で木の皮を削り取る。",
           "structure": [
-            { "label": "M", "content": "Interestingly" },
-            { "label": "S+V+O", "content": "they also consume a lot of tree gum and sap" },
-            { "label": "分詞構文", "content": "scratching at tree bark with a row of specialized teeth called a “toothcomb”" }
+            {
+              "label": "M",
+              "content": "Interestingly"
+            },
+            {
+              "label": "S+V+O",
+              "content": "they also consume a lot of tree gum and sap"
+            },
+            {
+              "label": "分詞構文",
+              "content": "scratching at tree bark with a row of specialized teeth called a “toothcomb”"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Interestingly, they also ", "type": "skip" },
-            { "id": "t2", "surface": "consume", "type": "word", "tier": "frequent", "ref": "consume" },
-            { "id": "t3", "surface": " a lot of tree gum and sap, scratching at tree bark with a row of ", "type": "skip" },
-            { "id": "t4", "surface": "specialized", "type": "word", "tier": "normal", "ref": "specialized" },
-            { "id": "t5", "surface": " teeth called a “toothcomb.”", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Interestingly, they also ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "consume",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "consume"
+            },
+            {
+              "type": "skip",
+              "surface": " a lot of tree gum and ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "sap",
+              "ref": "sap",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "scratching",
+              "ref": "scratching",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " at tree ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "bark",
+              "ref": "bark",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " with a row of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "surface": "specialized",
+              "type": "word",
+              "tier": "normal",
+              "ref": "specialized"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "teeth",
+              "ref": "teeth",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " called a “toothcomb.”",
+              "id": "t13"
+            }
           ]
         },
         {
@@ -327,15 +1175,57 @@
           "text": "Though these plant substances are tough to digest, slow lorises seem to be well-equipped to detoxify them.",
           "translation_ja": "これらの植物性物質は消化が難しいが、スローロリスはそれらを解毒するのに十分な装備を備えているようだ。",
           "structure": [
-            { "label": "though節(逆接)", "content": "Though these plant substances are tough to digest" },
-            { "label": "S+V+C", "content": "slow lorises seem to be well-equipped to detoxify them" }
+            {
+              "label": "though節(逆接)",
+              "content": "Though these plant substances are tough to digest"
+            },
+            {
+              "label": "S+V+C",
+              "content": "slow lorises seem to be well-equipped to detoxify them"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Though these plant ", "type": "skip" },
-            { "id": "t2", "surface": "substances", "type": "word", "tier": "frequent", "ref": "substances" },
-            { "id": "t3", "surface": " are tough to digest, slow lorises seem to be well-equipped to ", "type": "skip" },
-            { "id": "t4", "surface": "detoxify", "type": "word", "tier": "frequent", "ref": "detoxify" },
-            { "id": "t5", "surface": " them.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Though these plant ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "substances",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "substances"
+            },
+            {
+              "type": "skip",
+              "surface": " are tough to ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "digest",
+              "ref": "digest",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", slow lorises seem to be well-equipped to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "detoxify",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "detoxify"
+            },
+            {
+              "id": "t7",
+              "surface": " them.",
+              "type": "skip"
+            }
           ]
         }
       ]
@@ -349,17 +1239,104 @@
           "text": "Some scientists even suspect that they sequester the toxins from the tree gum they devour because slow lorises are, in fact, toxic themselves.",
           "translation_ja": "スローロリスは実際に毒を持っているため、彼らが食べる樹木のゴムから毒素を蓄積しているとさえ疑う科学者もいる。",
           "structure": [
-            { "label": "S+V+that節", "content": "Some scientists even suspect that they sequester the toxins from the tree gum they devour" },
-            { "label": "because節(理由)", "content": "because slow lorises are, in fact, toxic themselves" }
+            {
+              "label": "S+V+that節",
+              "content": "Some scientists even suspect that they sequester the toxins from the tree gum they devour"
+            },
+            {
+              "label": "because節(理由)",
+              "content": "because slow lorises are, in fact, toxic themselves"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Some scientists even ", "type": "skip" },
-            { "id": "t2", "surface": "suspect", "type": "word", "tier": "frequent", "ref": "suspect" },
-            { "id": "t3", "surface": " that they ", "type": "skip" },
-            { "id": "t4", "surface": "sequester", "type": "word", "tier": "key", "ref": "sequester" },
-            { "id": "t5", "surface": " the toxins from the tree gum they devour because slow lorises are, ", "type": "skip" },
-            { "id": "t6", "surface": "in fact", "type": "expression", "ref": "in_fact" },
-            { "id": "t7", "surface": ", toxic themselves.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Some ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "scientists",
+              "ref": "scientists",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " even ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "suspect",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "suspect"
+            },
+            {
+              "id": "t5",
+              "surface": " that they ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "sequester",
+              "type": "word",
+              "tier": "key",
+              "ref": "sequester"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "toxins",
+              "ref": "toxins",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " from the tree gum they ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "devour",
+              "ref": "devour",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " because slow lorises are, ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "surface": "in fact",
+              "type": "expression",
+              "ref": "in_fact"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "toxic",
+              "ref": "toxic",
+              "tier": "frequent",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " themselves.",
+              "id": "t15"
+            }
           ]
         },
         {
@@ -367,17 +1344,69 @@
           "text": "They're the only venomous primates, and one of only a few venomous mammals.",
           "translation_ja": "彼らは唯一の毒を持つ霊長類であり、数少ない毒を持つ哺乳類の一つだ。",
           "structure": [
-            { "label": "S+V+C1", "content": "They're the only venomous primates" },
-            { "label": "C2", "content": "one of only a few venomous mammals" }
+            {
+              "label": "S+V+C1",
+              "content": "They're the only venomous primates"
+            },
+            {
+              "label": "C2",
+              "content": "one of only a few venomous mammals"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "They're the only ", "type": "skip" },
-            { "id": "t2", "surface": "venomous", "type": "word", "tier": "key", "ref": "venomous" },
-            { "id": "t3", "surface": " ", "type": "skip" },
-            { "id": "t4", "surface": "primates", "type": "word", "tier": "key", "ref": "primate" },
-            { "id": "t5", "surface": ", and one of only a few ", "type": "skip" },
-            { "id": "t6", "surface": "venomous", "type": "word", "tier": "key", "ref": "venomous" },
-            { "id": "t7", "surface": " mammals.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "They're the only ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "venomous",
+              "type": "word",
+              "tier": "key",
+              "ref": "venomous"
+            },
+            {
+              "id": "t3",
+              "surface": " ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "primates",
+              "type": "word",
+              "tier": "key",
+              "ref": "primate"
+            },
+            {
+              "id": "t5",
+              "surface": ", and one of only a few ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "venomous",
+              "type": "word",
+              "tier": "key",
+              "ref": "venomous"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "mammals",
+              "ref": "mammals",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
+            }
           ]
         },
         {
@@ -385,13 +1414,32 @@
           "text": "And their venom system is thought to be one of the most complex in the animal kingdom.",
           "translation_ja": "そして彼らの毒システムは動物界で最も複雑なものの一つと考えられている。",
           "structure": [
-            { "label": "S+V+C", "content": "their venom system is thought to be one of the most complex" },
-            { "label": "M(場所)", "content": "in the animal kingdom" }
+            {
+              "label": "S+V+C",
+              "content": "their venom system is thought to be one of the most complex"
+            },
+            {
+              "label": "M(場所)",
+              "content": "in the animal kingdom"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "And their venom system is thought to be one of the most complex in the ", "type": "skip" },
-            { "id": "t2", "surface": "animal kingdom", "type": "expression", "ref": "animal_kingdom" },
-            { "id": "t3", "surface": ".", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "And their venom system is thought to be one of the most complex in the ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "animal kingdom",
+              "type": "expression",
+              "ref": "animal_kingdom"
+            },
+            {
+              "id": "t3",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -399,13 +1447,57 @@
           "text": "It works in two parts, with the combination of two separate secretions.",
           "translation_ja": "それは二つの別々の分泌物の組み合わせで、二段階で機能する。",
           "structure": [
-            { "label": "S+V+M", "content": "It works in two parts" },
-            { "label": "M(手段)", "content": "with the combination of two separate secretions" }
+            {
+              "label": "S+V+M",
+              "content": "It works in two parts"
+            },
+            {
+              "label": "M(手段)",
+              "content": "with the combination of two separate secretions"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "It works in two parts, with the combination of two separate ", "type": "skip" },
-            { "id": "t2", "surface": "secretions", "type": "word", "tier": "key", "ref": "secretion" },
-            { "id": "t3", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "It works in two parts, with the ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "combination",
+              "ref": "combination",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of two ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "separate",
+              "ref": "separate",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "secretions",
+              "type": "word",
+              "tier": "key",
+              "ref": "secretion"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -413,18 +1505,96 @@
           "text": "When threatened, slow lorises may assume their venom pose, raising their arms so they can easily access glands near their armpits that secrete a toxic oil.",
           "translation_ja": "脅かされると、スローロリスは毒のポーズをとって腕を上げ、脇の下近くの毒性オイルを分泌する腺に簡単にアクセスできるようにする。",
           "structure": [
-            { "label": "M(条件)", "content": "When threatened" },
-            { "label": "S+V+O", "content": "slow lorises may assume their venom pose" },
-            { "label": "分詞構文", "content": "raising their arms so they can easily access glands near their armpits that secrete a toxic oil" }
+            {
+              "label": "M(条件)",
+              "content": "When threatened"
+            },
+            {
+              "label": "S+V+O",
+              "content": "slow lorises may assume their venom pose"
+            },
+            {
+              "label": "分詞構文",
+              "content": "raising their arms so they can easily access glands near their armpits that secrete a toxic oil"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "When threatened, slow lorises may assume their ", "type": "skip" },
-            { "id": "t2", "surface": "venom pose", "type": "expression", "ref": "venom_pose" },
-            { "id": "t3", "surface": ", raising their arms so they can easily access glands near their ", "type": "skip" },
-            { "id": "t4", "surface": "armpits", "type": "word", "tier": "key", "ref": "armpits" },
-            { "id": "t5", "surface": " that ", "type": "skip" },
-            { "id": "t6", "surface": "secrete", "type": "word", "tier": "key", "ref": "secrete" },
-            { "id": "t7", "surface": " a toxic oil.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "When threatened, slow lorises may ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "assume",
+              "ref": "assume",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " their ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "venom pose",
+              "type": "expression",
+              "ref": "venom_pose"
+            },
+            {
+              "type": "skip",
+              "surface": ", raising their arms so they can easily access ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "glands",
+              "ref": "glands",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " near their ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
+              "surface": "armpits",
+              "type": "word",
+              "tier": "key",
+              "ref": "armpits"
+            },
+            {
+              "id": "t9",
+              "surface": " that ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "secrete",
+              "type": "word",
+              "tier": "key",
+              "ref": "secrete"
+            },
+            {
+              "type": "skip",
+              "surface": " a ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "toxic",
+              "ref": "toxic",
+              "tier": "frequent",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " oil.",
+              "id": "t13"
+            }
           ]
         },
         {
@@ -432,18 +1602,84 @@
           "text": "When they lick at the glands, the oil combines with their saliva to form their formidable, flesh-rotting venom.",
           "translation_ja": "腺を舐めると、オイルは唾液と混合して強力な肉を腐らせる毒液を形成する。",
           "structure": [
-            { "label": "when節(時)", "content": "When they lick at the glands" },
-            { "label": "S+V+M", "content": "the oil combines with their saliva" },
-            { "label": "目的", "content": "to form their formidable, flesh-rotting venom" }
+            {
+              "label": "when節(時)",
+              "content": "When they lick at the glands"
+            },
+            {
+              "label": "S+V+M",
+              "content": "the oil combines with their saliva"
+            },
+            {
+              "label": "目的",
+              "content": "to form their formidable, flesh-rotting venom"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "When they lick at the glands, the oil combines with their ", "type": "skip" },
-            { "id": "t2", "surface": "saliva", "type": "word", "tier": "key", "ref": "saliva" },
-            { "id": "t3", "surface": " to form their ", "type": "skip" },
-            { "id": "t4", "surface": "formidable", "type": "word", "tier": "frequent", "ref": "formidable" },
-            { "id": "t5", "surface": ", ", "type": "skip" },
-            { "id": "t6", "surface": "flesh-rotting", "type": "expression", "ref": "flesh_rotting" },
-            { "id": "t7", "surface": " venom.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "When they ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "lick",
+              "ref": "lick",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " at the ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "glands",
+              "ref": "glands",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", the oil combines with their ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "saliva",
+              "type": "word",
+              "tier": "key",
+              "ref": "saliva"
+            },
+            {
+              "id": "t7",
+              "surface": " to form their ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "formidable",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "formidable"
+            },
+            {
+              "id": "t9",
+              "surface": ", ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "flesh-rotting",
+              "type": "expression",
+              "ref": "flesh_rotting"
+            },
+            {
+              "id": "t11",
+              "surface": " venom.",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -451,13 +1687,93 @@
           "text": "They store the mixture on their sharp toothcomb, to be deployed with a bite capable of causing intense pain, tissue damage, anaphylaxis, and, in small animals, even death.",
           "translation_ja": "彼らはその混合物を鋭いトゥースコームに蓄え、激しい痛み、組織損傷、アナフィラキシーショック、そして小型動物には死さえも引き起こすことができる咬傷によって展開される。",
           "structure": [
-            { "label": "S+V+O", "content": "They store the mixture on their sharp toothcomb" },
-            { "label": "不定詞句", "content": "to be deployed with a bite capable of causing intense pain, tissue damage, anaphylaxis, and, in small animals, even death" }
+            {
+              "label": "S+V+O",
+              "content": "They store the mixture on their sharp toothcomb"
+            },
+            {
+              "label": "不定詞句",
+              "content": "to be deployed with a bite capable of causing intense pain, tissue damage, anaphylaxis, and, in small animals, even death"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "They store the mixture on their sharp toothcomb, to be deployed with a bite capable of causing intense pain, tissue damage, ", "type": "skip" },
-            { "id": "t2", "surface": "anaphylaxis", "type": "word", "tier": "key", "ref": "anaphylaxis" },
-            { "id": "t3", "surface": ", and, in small animals, even death.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "They store the ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "mixture",
+              "ref": "mixture",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " on their ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "sharp",
+              "ref": "sharp",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " toothcomb, to be ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "deployed",
+              "ref": "deployed",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " with a bite capable of causing ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "intense",
+              "ref": "intense",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " pain, ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "tissue",
+              "ref": "tissue",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " damage, ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "surface": "anaphylaxis",
+              "type": "word",
+              "tier": "key",
+              "ref": "anaphylaxis"
+            },
+            {
+              "id": "t13",
+              "surface": ", and, in small animals, even death.",
+              "type": "skip"
+            }
           ]
         }
       ]
@@ -471,13 +1787,45 @@
           "text": "Slow lorises spread the oil over their coats where it can kill parasites on contact.",
           "translation_ja": "スローロリスはオイルを体の毛皮に塗り広げ、そこに触れた寄生虫を殺すことができる。",
           "structure": [
-            { "label": "S+V+O", "content": "Slow lorises spread the oil over their coats" },
-            { "label": "関係節", "content": "where it can kill parasites on contact" }
+            {
+              "label": "S+V+O",
+              "content": "Slow lorises spread the oil over their coats"
+            },
+            {
+              "label": "関係節",
+              "content": "where it can kill parasites on contact"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Slow lorises spread the oil over their coats where it can kill ", "type": "skip" },
-            { "id": "t2", "surface": "parasites", "type": "word", "tier": "key", "ref": "parasite" },
-            { "id": "t3", "surface": " on contact.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Slow lorises ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "spread",
+              "ref": "spread",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " the oil over their coats where it can kill ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "parasites",
+              "type": "word",
+              "tier": "key",
+              "ref": "parasite"
+            },
+            {
+              "id": "t5",
+              "surface": " on contact.",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -485,20 +1833,72 @@
           "text": "In fact, the number of parasites they carry on their skin and fur is remarkably low relative to other primates.",
           "translation_ja": "実際、皮膚や毛皮に持つ寄生虫の数は他の霊長類と比べて際立って少ない。",
           "structure": [
-            { "label": "M", "content": "In fact" },
-            { "label": "S", "content": "the number of parasites they carry on their skin and fur" },
-            { "label": "V+C", "content": "is remarkably low relative to other primates" }
+            {
+              "label": "M",
+              "content": "In fact"
+            },
+            {
+              "label": "S",
+              "content": "the number of parasites they carry on their skin and fur"
+            },
+            {
+              "label": "V+C",
+              "content": "is remarkably low relative to other primates"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "", "type": "skip" },
-            { "id": "t2", "surface": "In fact", "type": "expression", "ref": "in_fact" },
-            { "id": "t3", "surface": ", the number of ", "type": "skip" },
-            { "id": "t4", "surface": "parasites", "type": "word", "tier": "key", "ref": "parasite" },
-            { "id": "t5", "surface": " they carry on their skin and fur is ", "type": "skip" },
-            { "id": "t6", "surface": "remarkably", "type": "word", "tier": "frequent", "ref": "remarkably" },
-            { "id": "t7", "surface": " low relative to other ", "type": "skip" },
-            { "id": "t8", "surface": "primates", "type": "word", "tier": "key", "ref": "primate" },
-            { "id": "t9", "surface": ".", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "In fact",
+              "type": "expression",
+              "ref": "in_fact"
+            },
+            {
+              "id": "t3",
+              "surface": ", the number of ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "parasites",
+              "type": "word",
+              "tier": "key",
+              "ref": "parasite"
+            },
+            {
+              "id": "t5",
+              "surface": " they carry on their skin and fur is ",
+              "type": "skip"
+            },
+            {
+              "id": "t6",
+              "surface": "remarkably",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "remarkably"
+            },
+            {
+              "id": "t7",
+              "surface": " low relative to other ",
+              "type": "skip"
+            },
+            {
+              "id": "t8",
+              "surface": "primates",
+              "type": "word",
+              "tier": "key",
+              "ref": "primate"
+            },
+            {
+              "id": "t9",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -506,12 +1906,41 @@
           "text": "And it may also be protective against bigger threats.",
           "translation_ja": "またそれはより大きな脅威に対しても防御的な効果があるかもしれない。",
           "structure": [
-            { "label": "S+V+C", "content": "it may also be protective against bigger threats" }
+            {
+              "label": "S+V+C",
+              "content": "it may also be protective against bigger threats"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "And it may also be ", "type": "skip" },
-            { "id": "t2", "surface": "protective", "type": "word", "tier": "frequent", "ref": "protective" },
-            { "id": "t3", "surface": " against bigger threats.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "And it may also be ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "protective",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "protective"
+            },
+            {
+              "type": "skip",
+              "surface": " against bigger ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "threats",
+              "ref": "threats",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t5"
+            }
           ]
         },
         {
@@ -519,15 +1948,77 @@
           "text": "When slow lorises sleep, they curl into little balls, toxic coats exposed, perhaps to help deter predators.",
           "translation_ja": "スローロリスが眠るとき、小さな球状に丸くなり、毒の塗られた毛皮をさらして捕食者を遠ざける助けとなるかもしれない。",
           "structure": [
-            { "label": "when節(時)", "content": "When slow lorises sleep" },
-            { "label": "S+V+M", "content": "they curl into little balls" },
-            { "label": "独立分詞構文", "content": "toxic coats exposed" },
-            { "label": "目的", "content": "perhaps to help deter predators" }
+            {
+              "label": "when節(時)",
+              "content": "When slow lorises sleep"
+            },
+            {
+              "label": "S+V+M",
+              "content": "they curl into little balls"
+            },
+            {
+              "label": "独立分詞構文",
+              "content": "toxic coats exposed"
+            },
+            {
+              "label": "目的",
+              "content": "perhaps to help deter predators"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "When slow lorises sleep, they curl into little balls, toxic coats exposed, perhaps to help ", "type": "skip" },
-            { "id": "t2", "surface": "deter", "type": "word", "tier": "key", "ref": "deter" },
-            { "id": "t3", "surface": " predators.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "When slow lorises sleep, they curl into little balls, ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "toxic",
+              "ref": "toxic",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " coats ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "exposed",
+              "ref": "exposed",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", perhaps to help ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "deter",
+              "type": "word",
+              "tier": "key",
+              "ref": "deter"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "predators",
+              "ref": "predators",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
+            }
           ]
         },
         {
@@ -535,22 +2026,96 @@
           "text": "Cats, sun bears, and civets are repelled by just the scent of slow loris saliva— though orangutans seem to have found a way around it.",
           "translation_ja": "ネコ、マレーグマ、ジャコウネコはスローロリスの唾液の臭いだけで遠ざかる――ただしオランウータンはその回避法を見つけたようだ。",
           "structure": [
-            { "label": "S", "content": "Cats, sun bears, and civets" },
-            { "label": "V+M", "content": "are repelled by just the scent of slow loris saliva" },
-            { "label": "though節(逆接)", "content": "though orangutans seem to have found a way around it" }
+            {
+              "label": "S",
+              "content": "Cats, sun bears, and civets"
+            },
+            {
+              "label": "V+M",
+              "content": "are repelled by just the scent of slow loris saliva"
+            },
+            {
+              "label": "though節(逆接)",
+              "content": "though orangutans seem to have found a way around it"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Cats, sun bears, and ", "type": "skip" },
-            { "id": "t2", "surface": "civets", "type": "word", "tier": "key", "ref": "civet" },
-            { "id": "t3", "surface": " are ", "type": "skip" },
-            { "id": "t4", "surface": "repelled", "type": "word", "tier": "frequent", "ref": "repel" },
-            { "id": "t5", "surface": " by just the scent of slow loris ", "type": "skip" },
-            { "id": "t6", "surface": "saliva", "type": "word", "tier": "key", "ref": "saliva" },
-            { "id": "t7", "surface": "— though ", "type": "skip" },
-            { "id": "t8", "surface": "orangutans", "type": "word", "tier": "key", "ref": "orangutan" },
-            { "id": "t9", "surface": " seem to have found ", "type": "skip" },
-            { "id": "t10", "surface": "a way around it", "type": "expression", "ref": "a_way_around_it" },
-            { "id": "t11", "surface": ".", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "Cats, sun bears, and ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "civets",
+              "type": "word",
+              "tier": "key",
+              "ref": "civet"
+            },
+            {
+              "id": "t3",
+              "surface": " are ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "repelled",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "repel"
+            },
+            {
+              "type": "skip",
+              "surface": " by just the ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "scent",
+              "ref": "scent",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " of slow loris ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
+              "surface": "saliva",
+              "type": "word",
+              "tier": "key",
+              "ref": "saliva"
+            },
+            {
+              "id": "t9",
+              "surface": "— though ",
+              "type": "skip"
+            },
+            {
+              "id": "t10",
+              "surface": "orangutans",
+              "type": "word",
+              "tier": "key",
+              "ref": "orangutan"
+            },
+            {
+              "id": "t11",
+              "surface": " seem to have found ",
+              "type": "skip"
+            },
+            {
+              "id": "t12",
+              "surface": "a way around it",
+              "type": "expression",
+              "ref": "a_way_around_it"
+            },
+            {
+              "id": "t13",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         }
       ]
@@ -564,14 +2129,37 @@
           "text": "The most common victims of slow loris bites, however, are other slow lorises.",
           "translation_ja": "しかし、スローロリスの咬傷の最も一般的な被害者は実は他のスローロリスだ。",
           "structure": [
-            { "label": "S", "content": "The most common victims of slow loris bites" },
-            { "label": "M", "content": "however" },
-            { "label": "V+C", "content": "are other slow lorises" }
+            {
+              "label": "S",
+              "content": "The most common victims of slow loris bites"
+            },
+            {
+              "label": "M",
+              "content": "however"
+            },
+            {
+              "label": "V+C",
+              "content": "are other slow lorises"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "The most common ", "type": "skip" },
-            { "id": "t2", "surface": "victims", "type": "word", "tier": "normal", "ref": "victim" },
-            { "id": "t3", "surface": " of slow loris bites, however, are other slow lorises.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "The most common ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "victims",
+              "type": "word",
+              "tier": "normal",
+              "ref": "victim"
+            },
+            {
+              "id": "t3",
+              "surface": " of slow loris bites, however, are other slow lorises.",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -579,15 +2167,80 @@
           "text": "Tracking one population over the course of eight years, scientists only recorded one slow loris dying from natural predation.",
           "translation_ja": "8年間にわたって一つの個体群を追跡した科学者たちは、自然の捕食により死んだスローロリスをたった一匹しか記録しなかった。",
           "structure": [
-            { "label": "分詞構文(手段)", "content": "Tracking one population over the course of eight years" },
-            { "label": "S+V+O", "content": "scientists only recorded one slow loris dying from natural predation" }
+            {
+              "label": "分詞構文(手段)",
+              "content": "Tracking one population over the course of eight years"
+            },
+            {
+              "label": "S+V+O",
+              "content": "scientists only recorded one slow loris dying from natural predation"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Tracking one population ", "type": "skip" },
-            { "id": "t2", "surface": "over the course of", "type": "expression", "ref": "over_the_course_of" },
-            { "id": "t3", "surface": " eight years, scientists only recorded one slow loris dying from natural ", "type": "skip" },
-            { "id": "t4", "surface": "predation", "type": "word", "tier": "key", "ref": "predation" },
-            { "id": "t5", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Tracking one ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "population",
+              "ref": "population",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "over the course of",
+              "type": "expression",
+              "ref": "over_the_course_of"
+            },
+            {
+              "type": "skip",
+              "surface": " eight years, ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "scientists",
+              "ref": "scientists",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " only ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "recorded",
+              "ref": "recorded",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " one slow loris dying from natural ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "surface": "predation",
+              "type": "word",
+              "tier": "key",
+              "ref": "predation"
+            },
+            {
+              "id": "t11",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -595,13 +2248,57 @@
           "text": "But 20% of them got bitten by other slow lorises, perhaps in fights over limited territory.",
           "translation_ja": "しかし彼らの20%が他のスローロリスに咬まれており、おそらく限られた縄張りをめぐる争いからだろう。",
           "structure": [
-            { "label": "S+V+C", "content": "20% of them got bitten by other slow lorises" },
-            { "label": "M(理由・推測)", "content": "perhaps in fights over limited territory" }
+            {
+              "label": "S+V+C",
+              "content": "20% of them got bitten by other slow lorises"
+            },
+            {
+              "label": "M(理由・推測)",
+              "content": "perhaps in fights over limited territory"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "But 20% of them got bitten by other slow lorises, perhaps in fights over limited ", "type": "skip" },
-            { "id": "t2", "surface": "territory", "type": "word", "tier": "normal", "ref": "territory" },
-            { "id": "t3", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "But 20% of them got ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "bitten",
+              "ref": "bitten",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " by other slow lorises, perhaps in ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "fights",
+              "ref": "fights",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " over limited ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "territory",
+              "type": "word",
+              "tier": "normal",
+              "ref": "territory"
+            },
+            {
+              "id": "t7",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         }
       ]
@@ -615,11 +2312,57 @@
           "text": "And while they may look cute to us, those same features might send a very different message to predators at dusk.",
           "translation_ja": "そして私たちには可愛く見えるかもしれないが、あの同じ特徴が夕暮れ時に捕食者にはまったく異なるメッセージを送っているかもしれない。",
           "structure": [
-            { "label": "while節(逆接)", "content": "while they may look cute to us" },
-            { "label": "S+V+O", "content": "those same features might send a very different message to predators at dusk" }
+            {
+              "label": "while節(逆接)",
+              "content": "while they may look cute to us"
+            },
+            {
+              "label": "S+V+O",
+              "content": "those same features might send a very different message to predators at dusk"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "And while they may look cute to us, those same features might send a very different message to predators at dusk.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "And while they may look cute to us, those same ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "features",
+              "ref": "features",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " might send a very different message to ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "predators",
+              "ref": "predators",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " at ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "dusk",
+              "ref": "dusk",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t7"
+            }
           ]
         },
         {
@@ -627,13 +2370,68 @@
           "text": "When in danger, slow lorises may assume their venom pose, sway, and make a raspy noise.",
           "translation_ja": "危険なときに、スローロリスは毒のポーズをとり、揺れて、嗄れた音を出すかもしれない。",
           "structure": [
-            { "label": "M(条件)", "content": "When in danger" },
-            { "label": "S+V群", "content": "slow lorises may assume their venom pose, sway, and make a raspy noise" }
+            {
+              "label": "M(条件)",
+              "content": "When in danger"
+            },
+            {
+              "label": "S+V群",
+              "content": "slow lorises may assume their venom pose, sway, and make a raspy noise"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "When in danger, slow lorises may assume their ", "type": "skip" },
-            { "id": "t2", "surface": "venom pose", "type": "expression", "ref": "venom_pose" },
-            { "id": "t3", "surface": ", sway, and make a raspy noise.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "When in danger, slow lorises may ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "assume",
+              "ref": "assume",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " their ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "venom pose",
+              "type": "expression",
+              "ref": "venom_pose"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "sway",
+              "ref": "sway",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", and make a ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "raspy",
+              "ref": "raspy",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " noise.",
+              "id": "t9"
+            }
           ]
         },
         {
@@ -641,14 +2439,89 @@
           "text": "Some scientists think these behaviors and their markings might help them effectively mimic spectacled cobras.",
           "translation_ja": "これらの行動や斑紋がメガネコブラを効果的に模倣するのに役立つかもしれないと考える科学者もいる。",
           "structure": [
-            { "label": "S+V+that節", "content": "Some scientists think these behaviors and their markings might help them effectively mimic spectacled cobras" }
+            {
+              "label": "S+V+that節",
+              "content": "Some scientists think these behaviors and their markings might help them effectively mimic spectacled cobras"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Some scientists think these behaviors and their markings might help them ", "type": "skip" },
-            { "id": "t2", "surface": "effectively", "type": "word", "tier": "frequent", "ref": "effectively" },
-            { "id": "t3", "surface": " mimic ", "type": "skip" },
-            { "id": "t4", "surface": "spectacled cobras", "type": "word", "tier": "key", "ref": "spectacled_cobra" },
-            { "id": "t5", "surface": ".", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Some ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "scientists",
+              "ref": "scientists",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " think these ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "behaviors",
+              "ref": "behaviors",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " and their ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "markings",
+              "ref": "markings",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " might help them ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
+              "surface": "effectively",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "effectively"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "mimic",
+              "ref": "mimic",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "surface": "spectacled cobras",
+              "type": "word",
+              "tier": "key",
+              "ref": "spectacled_cobra"
+            },
+            {
+              "id": "t13",
+              "surface": ".",
+              "type": "skip"
+            }
           ]
         },
         {
@@ -656,15 +2529,69 @@
           "text": "This could be an example of Müllerian mimicry, where one dangerous species benefits from sharing certain characteristics with another, helping warn other creatures to stay away.",
           "translation_ja": "これはミュラー型擬態の例である可能性がある。ある危険な種が別の種と一定の特徴を共有することで利益を得て、他の生物に近づかないよう警告する助けとなる現象だ。",
           "structure": [
-            { "label": "S+V+C", "content": "This could be an example of Müllerian mimicry" },
-            { "label": "関係節(定義)", "content": "where one dangerous species benefits from sharing certain characteristics with another, helping warn other creatures to stay away" }
+            {
+              "label": "S+V+C",
+              "content": "This could be an example of Müllerian mimicry"
+            },
+            {
+              "label": "関係節(定義)",
+              "content": "where one dangerous species benefits from sharing certain characteristics with another, helping warn other creatures to stay away"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "This could be an example of ", "type": "skip" },
-            { "id": "t2", "surface": "Müllerian mimicry", "type": "word", "tier": "key", "ref": "mullerian_mimicry" },
-            { "id": "t3", "surface": ", where one dangerous species benefits from sharing certain ", "type": "skip" },
-            { "id": "t4", "surface": "characteristics", "type": "word", "tier": "frequent", "ref": "characteristics" },
-            { "id": "t5", "surface": " with another, helping warn other creatures to stay away.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "This could be an example of ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "Müllerian mimicry",
+              "type": "word",
+              "tier": "key",
+              "ref": "mullerian_mimicry"
+            },
+            {
+              "type": "skip",
+              "surface": ", where one dangerous ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "species",
+              "ref": "species",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " benefits from sharing certain ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
+              "surface": "characteristics",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "characteristics"
+            },
+            {
+              "type": "skip",
+              "surface": " with another, helping warn other ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "creatures",
+              "ref": "creatures",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to stay away.",
+              "id": "t9"
+            }
           ]
         }
       ]
@@ -678,11 +2605,45 @@
           "text": "But if slow lorises evolved to look like cobras, we don't seem to be getting the memo.",
           "translation_ja": "しかしスローロリスがコブラに似るよう進化したとしても、私たちはそのメッセージを受け取れていないようだ。",
           "structure": [
-            { "label": "if節(仮定)", "content": "if slow lorises evolved to look like cobras" },
-            { "label": "S+V", "content": "we don't seem to be getting the memo" }
+            {
+              "label": "if節(仮定)",
+              "content": "if slow lorises evolved to look like cobras"
+            },
+            {
+              "label": "S+V",
+              "content": "we don't seem to be getting the memo"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "But if slow lorises evolved to look like cobras, we don't seem to be getting the memo.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "But if slow lorises ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "evolved",
+              "ref": "evolved",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " to look like ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "cobras",
+              "ref": "cobras",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", we don't seem to be getting the memo.",
+              "id": "t5"
+            }
           ]
         },
         {
@@ -690,16 +2651,109 @@
           "text": "Though every species of slow loris is threatened, humans continue to illegally trade them as pets, stripped of their natural defenses, their teeth cut or pulled.",
           "translation_ja": "スローロリスの全種が脅威にさらされているにもかかわらず、人間は自然の防衛手段を奪われ歯を切られたり引き抜かれたりしたペットとして違法に取引し続けている。",
           "structure": [
-            { "label": "though節(逆接)", "content": "Though every species of slow loris is threatened" },
-            { "label": "S+V+O+M", "content": "humans continue to illegally trade them as pets" },
-            { "label": "分詞構文", "content": "stripped of their natural defenses, their teeth cut or pulled" }
+            {
+              "label": "though節(逆接)",
+              "content": "Though every species of slow loris is threatened"
+            },
+            {
+              "label": "S+V+O+M",
+              "content": "humans continue to illegally trade them as pets"
+            },
+            {
+              "label": "分詞構文",
+              "content": "stripped of their natural defenses, their teeth cut or pulled"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "Though every species of slow loris is ", "type": "skip" },
-            { "id": "t2", "surface": "threatened", "type": "word", "tier": "frequent", "ref": "threatened" },
-            { "id": "t3", "surface": ", humans continue to ", "type": "skip" },
-            { "id": "t4", "surface": "illegally", "type": "word", "tier": "frequent", "ref": "illegally" },
-            { "id": "t5", "surface": " trade them as pets, stripped of their natural defenses, their teeth cut or pulled.", "type": "skip" }
+            {
+              "type": "skip",
+              "surface": "Though every ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "species",
+              "ref": "species",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of slow loris is ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
+              "surface": "threatened",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "threatened"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "humans",
+              "ref": "humans",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " continue to ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
+              "surface": "illegally",
+              "type": "word",
+              "tier": "frequent",
+              "ref": "illegally"
+            },
+            {
+              "type": "skip",
+              "surface": " trade them as pets, ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "stripped",
+              "ref": "stripped",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " of their natural ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "defenses",
+              "ref": "defenses",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ", their ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "teeth",
+              "ref": "teeth",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " cut or pulled.",
+              "id": "t15"
+            }
           ]
         },
         {
@@ -707,16 +2761,83 @@
           "text": "It's well past time to pick up on the signals they've been sending and leave the fierce slow loris— and their forests— alone.",
           "translation_ja": "今こそ彼らが送り続けてきたシグナルを読み取り、激しいスローロリスを――そしてその森ごと――そっとしておく時だ。",
           "structure": [
-            { "label": "S+V+C", "content": "It's well past time" },
-            { "label": "不定詞句", "content": "to pick up on the signals they've been sending" },
-            { "label": "V2+O2", "content": "and leave the fierce slow loris— and their forests— alone" }
+            {
+              "label": "S+V+C",
+              "content": "It's well past time"
+            },
+            {
+              "label": "不定詞句",
+              "content": "to pick up on the signals they've been sending"
+            },
+            {
+              "label": "V2+O2",
+              "content": "and leave the fierce slow loris— and their forests— alone"
+            }
           ],
           "tokens": [
-            { "id": "t1", "surface": "It's ", "type": "skip" },
-            { "id": "t2", "surface": "well past time", "type": "expression", "ref": "well_past_time" },
-            { "id": "t3", "surface": " to ", "type": "skip" },
-            { "id": "t4", "surface": "pick up on", "type": "expression", "ref": "pick_up_on" },
-            { "id": "t5", "surface": " the signals they've been sending and leave the fierce slow loris— and their forests— alone.", "type": "skip" }
+            {
+              "id": "t1",
+              "surface": "It's ",
+              "type": "skip"
+            },
+            {
+              "id": "t2",
+              "surface": "well past time",
+              "type": "expression",
+              "ref": "well_past_time"
+            },
+            {
+              "id": "t3",
+              "surface": " to ",
+              "type": "skip"
+            },
+            {
+              "id": "t4",
+              "surface": "pick up on",
+              "type": "expression",
+              "ref": "pick_up_on"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "signals",
+              "ref": "signals",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " they've been sending and leave the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "fierce",
+              "ref": "fierce",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " slow loris— and their ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "forests",
+              "ref": "forests",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": "— alone.",
+              "id": "t11"
+            }
           ]
         }
       ]
@@ -726,7 +2847,7 @@
     "asia": {
       "tier": "basic",
       "surface": "Asia",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈeɪ.ʒə/",
       "meaning": "アジア(大陸)",
       "example": {
@@ -734,12 +2855,16 @@
         "ja": "多くの珍しい動物はアジアにしか生息していない。"
       },
       "context": "世界最大の大陸。東アジア・東南アジア・南アジア・中央アジアなどに細分される。形容詞形はAsian。",
-      "collocations": ["southeast Asia", "South Asia", "across Asia"]
+      "collocations": [
+        "southeast Asia",
+        "South Asia",
+        "across Asia"
+      ]
     },
     "africa": {
       "tier": "basic",
       "surface": "Africa",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈæf.rɪ.kə/",
       "meaning": "アフリカ(大陸)",
       "example": {
@@ -747,12 +2872,16 @@
         "ja": "多くの霊長類はアフリカで生まれた。"
       },
       "context": "世界第2位の大陸。形容詞形はAfrican。霊長類の多様性が高い地域として知られる。",
-      "collocations": ["sub-Saharan Africa", "from Africa to Asia", "native to Africa"]
+      "collocations": [
+        "sub-Saharan Africa",
+        "from Africa to Asia",
+        "native to Africa"
+      ]
     },
     "lurk": {
       "tier": "key",
       "surface": "lurks",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/lɜːrk/",
       "meaning": "潜む、ひそむ",
       "example": {
@@ -760,7 +2889,11 @@
         "ja": "捕食者が影の中で潜み、獲物を待つ。"
       },
       "context": "危険なものや不気味なものが隠れてじっと待つイメージ。小説・ドラマでサスペンスを演出する語。lurker(潜伏者)という名詞形もある。",
-      "collocations": ["lurk in the shadows", "danger lurks", "lurk around"]
+      "collocations": [
+        "lurk in the shadows",
+        "danger lurks",
+        "lurk around"
+      ]
     },
     "deadly": {
       "tier": "normal",
@@ -773,7 +2906,11 @@
         "ja": "このヘビの毒は小型哺乳類にとって致命的だ。"
       },
       "context": "deadの形容詞形。mortal(致死の)より日常的。deadly weaponで「凶器」の意にもなる。",
-      "collocations": ["deadly creature", "deadly weapon", "deadly disease"]
+      "collocations": [
+        "deadly creature",
+        "deadly weapon",
+        "deadly disease"
+      ]
     },
     "venomous": {
       "tier": "key",
@@ -786,7 +2923,11 @@
         "ja": "スローロリスは唯一の毒を持つ霊長類だ。"
       },
       "context": "venomは「毒液」(動物が注入するもの)。poisonousは触れたり食べたりすることで毒となるもの。venomousは咬傷や刺傷で毒を注入する動物に使う。",
-      "collocations": ["venomous bite", "venomous snake", "venomous mammal"]
+      "collocations": [
+        "venomous bite",
+        "venomous snake",
+        "venomous mammal"
+      ]
     },
     "fierce": {
       "tier": "normal",
@@ -799,12 +2940,16 @@
         "ja": "競争は私たちが予想したより激しかった。"
       },
       "context": "fierceの比較級。野生動物の残忍さや競争の激しさを表す。fiercely(副詞)、ferocity(名詞)も関連語。",
-      "collocations": ["fierce competition", "fierce battle", "fiercer than expected"]
+      "collocations": [
+        "fierce competition",
+        "fierce battle",
+        "fiercer than expected"
+      ]
     },
     "primate": {
       "tier": "key",
       "surface": "primates",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈpraɪ.meɪt/",
       "meaning": "霊長類",
       "example": {
@@ -812,7 +2957,11 @@
         "ja": "人間、類人猿、サルはすべて霊長類だ。"
       },
       "context": "哺乳類の目の一つ。高度な脳と社会行動を特徴とする。複数形はprimates。プライメートともいう。",
-      "collocations": ["non-human primates", "primate behavior", "primate species"]
+      "collocations": [
+        "non-human primates",
+        "primate behavior",
+        "primate species"
+      ]
     },
     "gradually": {
       "tier": "frequent",
@@ -825,7 +2974,11 @@
         "ja": "気温は何百万年もかけて徐々に上昇した。"
       },
       "context": "gradual(徐々の)の副詞形。slowlyより「段階的に進行する」ニュアンスが強い。AWL収録語。",
-      "collocations": ["gradually increase", "gradually change", "gradually migrate"]
+      "collocations": [
+        "gradually increase",
+        "gradually change",
+        "gradually migrate"
+      ]
     },
     "deliberately": {
       "tier": "frequent",
@@ -838,12 +2991,16 @@
         "ja": "その動物は慎重に動き、一歩一歩丁寧に踏み出した。"
       },
       "context": "deliberate(意図的な、慎重な)の副詞形。意図性と慎重さの両方の意味を持つ。ここでは「意図的にゆっくりと」という意味で使われている。",
-      "collocations": ["move deliberately", "act deliberately", "speak deliberately"]
+      "collocations": [
+        "move deliberately",
+        "act deliberately",
+        "speak deliberately"
+      ]
     },
     "scan": {
       "tier": "normal",
       "surface": "scan",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/skæn/",
       "meaning": "じっくり見る、スキャンする",
       "example": {
@@ -851,12 +3008,16 @@
         "ja": "フクロウは小さな獲物を求めて地面を注意深く見渡す。"
       },
       "context": "広い範囲を素早く、または詳細に調べる動作。医療でのMRIスキャンや書類の電子化にも使われる。",
-      "collocations": ["scan the area", "scan surroundings", "scan for threats"]
+      "collocations": [
+        "scan the area",
+        "scan surroundings",
+        "scan for threats"
+      ]
     },
     "proportion": {
       "tier": "frequent",
       "surface": "proportion",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/prəˈpɔːr.ʃən/",
       "meaning": "割合、比率",
       "example": {
@@ -864,7 +3025,11 @@
         "ja": "遅筋繊維の割合が高いと持久力の向上に役立つ。"
       },
       "context": "部分と全体の比率を表す。in proportion to(~に比例して)、out of proportion(不釣り合いで)などの熟語も重要。AWL収録語。",
-      "collocations": ["higher proportion", "a large proportion", "in proportion to"]
+      "collocations": [
+        "higher proportion",
+        "a large proportion",
+        "in proportion to"
+      ]
     },
     "favored": {
       "tier": "frequent",
@@ -877,12 +3042,16 @@
         "ja": "遅筋繊維は持久力を必要とする活動に適している。"
       },
       "context": "favor(好む、有利にする)の過去分詞形。自然選択の文脈では「適応上有利な」という意味でよく使われる。",
-      "collocations": ["favored for", "highly favored", "naturally favored"]
+      "collocations": [
+        "favored for",
+        "highly favored",
+        "naturally favored"
+      ]
     },
     "exertion": {
       "tier": "frequent",
       "surface": "exertion",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ɪɡˈzɜːr.ʃən/",
       "meaning": "力を出すこと、努力、運動",
       "example": {
@@ -890,12 +3059,16 @@
         "ja": "長時間の力仕事には遅筋繊維が必要だ。"
       },
       "context": "exert(力を出す、発揮する)の名詞形。physical exertion(身体的努力)のように使う。TOEFLによく出る語。",
-      "collocations": ["physical exertion", "mental exertion", "long-winded exertion"]
+      "collocations": [
+        "physical exertion",
+        "mental exertion",
+        "long-winded exertion"
+      ]
     },
     "vertebrae": {
       "tier": "key",
       "surface": "vertebrae",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈvɜːr.tɪ.breɪ/",
       "meaning": "椎骨(脊椎の骨)",
       "example": {
@@ -903,7 +3076,11 @@
         "ja": "余分な椎骨がスローロリスを特別に柔軟にする。"
       },
       "context": "vertebra(椎骨)の複数形。脊椎動物(vertebrate)の語源にもなるラテン語由来の語。人間は通常33個の椎骨を持つ。",
-      "collocations": ["extra vertebrae", "lumbar vertebrae", "vertebrae in the spine"]
+      "collocations": [
+        "extra vertebrae",
+        "lumbar vertebrae",
+        "vertebrae in the spine"
+      ]
     },
     "flexible": {
       "tier": "frequent",
@@ -916,7 +3093,11 @@
         "ja": "余分な椎骨がスローロリスを特別に柔軟にする。"
       },
       "context": "身体的な柔軟性と、考え方・スケジュールなどの融通の利くという意味の両方で使われる。flexibility(名詞)、flex(動詞)も重要。",
-      "collocations": ["flexible spine", "flexible schedule", "especially flexible"]
+      "collocations": [
+        "flexible spine",
+        "flexible schedule",
+        "especially flexible"
+      ]
     },
     "unsuspecting": {
       "tier": "key",
@@ -929,12 +3110,16 @@
         "ja": "捕食者は油断している獲物にそっと近づいた。"
       },
       "context": "suspect(疑う)の否定形の現在分詞。unsuspectingは主に被害を受ける側の状態を表す。",
-      "collocations": ["unsuspecting prey", "unsuspecting victim", "unsuspecting passerby"]
+      "collocations": [
+        "unsuspecting prey",
+        "unsuspecting victim",
+        "unsuspecting passerby"
+      ]
     },
     "omnivore": {
       "tier": "key",
       "surface": "omnivores",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈɒm.nɪ.vɔːr/",
       "meaning": "雑食動物",
       "example": {
@@ -942,12 +3127,16 @@
         "ja": "クマは植物も動物も食べる雑食動物だ。"
       },
       "context": "ラテン語のomni-(全て)とvorare(食べる)から。carnivore(肉食動物)、herbivore(草食動物)と対比して覚えると良い。",
-      "collocations": ["opportunistic omnivore", "true omnivore", "omnivore diet"]
+      "collocations": [
+        "opportunistic omnivore",
+        "true omnivore",
+        "omnivore diet"
+      ]
     },
     "consume": {
       "tier": "frequent",
       "surface": "consume",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/kənˈsjuːm/",
       "meaning": "消費する、食べる、摂取する",
       "example": {
@@ -955,7 +3144,11 @@
         "ja": "スローロリスは大量の樹木のゴムを摂取する。"
       },
       "context": "eat/drinkより学術的・フォーマルな語。エネルギーや資源の消費にも使われる。consumer(消費者)、consumption(消費)も重要。AWL収録語。",
-      "collocations": ["consume food", "consume energy", "consume resources"]
+      "collocations": [
+        "consume food",
+        "consume energy",
+        "consume resources"
+      ]
     },
     "specialized": {
       "tier": "normal",
@@ -968,12 +3161,16 @@
         "ja": "トゥースコームはグルーミングと採食のための特化した歯の列だ。"
       },
       "context": "specialize(専門化する)の過去分詞形容詞。specialized knowledge(専門知識)のように使われる。",
-      "collocations": ["specialized teeth", "specialized knowledge", "highly specialized"]
+      "collocations": [
+        "specialized teeth",
+        "specialized knowledge",
+        "highly specialized"
+      ]
     },
     "substances": {
       "tier": "frequent",
       "surface": "substances",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈsʌb.stəns.ɪz/",
       "meaning": "物質、成分",
       "example": {
@@ -981,12 +3178,16 @@
         "ja": "植物性物質は消化が難しい。"
       },
       "context": "substance(物質)の複数形。化学・生物学分野でよく使われる。toxic substance(有毒物質)、controlled substance(規制薬物)なども重要。AWL収録語。",
-      "collocations": ["plant substances", "toxic substances", "chemical substances"]
+      "collocations": [
+        "plant substances",
+        "toxic substances",
+        "chemical substances"
+      ]
     },
     "detoxify": {
       "tier": "frequent",
       "surface": "detoxify",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/diːˈtɒk.sɪ.faɪ/",
       "meaning": "解毒する",
       "example": {
@@ -994,12 +3195,16 @@
         "ja": "肝臓は体内の有害物質を解毒するのに役立つ。"
       },
       "context": "de-(除去)+ toxin(毒素)+ -ify(〜にする)。detox(デトックス)は口語形。detoxification(解毒)が名詞形。",
-      "collocations": ["detoxify toxins", "detoxify substances", "well-equipped to detoxify"]
+      "collocations": [
+        "detoxify toxins",
+        "detoxify substances",
+        "well-equipped to detoxify"
+      ]
     },
     "suspect": {
       "tier": "frequent",
       "surface": "suspect",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/səˈspekt/",
       "meaning": "疑う、〜だと思う",
       "example": {
@@ -1007,12 +3212,16 @@
         "ja": "科学者はロリスが樹木のゴムから毒素を蓄積していると疑っている。"
       },
       "context": "推測や疑念を示す動詞。名詞・形容詞としてはsuspect(容疑者・怪しい)の意味にもなる。suspicion(疑い)、suspicious(疑わしい)も関連語。",
-      "collocations": ["strongly suspect", "scientists suspect", "suspect that"]
+      "collocations": [
+        "strongly suspect",
+        "scientists suspect",
+        "suspect that"
+      ]
     },
     "sequester": {
       "tier": "key",
       "surface": "sequester",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/sɪˈkwes.tər/",
       "meaning": "隔離する、蓄積する、封じ込める",
       "example": {
@@ -1020,12 +3229,16 @@
         "ja": "特定の昆虫は食べる植物から毒素を蓄積する。"
       },
       "context": "生物学では「食物から毒素や物質を取り込んで体内に蓄積する」意味で使われる。法律では「財産の仮差押え」も意味する。",
-      "collocations": ["sequester toxins", "sequester carbon", "sequester funds"]
+      "collocations": [
+        "sequester toxins",
+        "sequester carbon",
+        "sequester funds"
+      ]
     },
     "secretion": {
       "tier": "key",
       "surface": "secretions",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/sɪˈkriː.ʃənz/",
       "meaning": "分泌物、分泌",
       "example": {
@@ -1033,12 +3246,16 @@
         "ja": "毒液は2つの別々の分泌物を組み合わせることで形成される。"
       },
       "context": "secrete(分泌する)の名詞形。腺(gland)から分泌される液体や物質。secretion、secrete、secretoryが重要な関連語。",
-      "collocations": ["glandular secretion", "separate secretions", "toxic secretion"]
+      "collocations": [
+        "glandular secretion",
+        "separate secretions",
+        "toxic secretion"
+      ]
     },
     "armpits": {
       "tier": "key",
       "surface": "armpits",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈɑːrm.pɪts/",
       "meaning": "脇の下",
       "example": {
@@ -1046,12 +3263,16 @@
         "ja": "スローロリスは脇の下の近くにある腺にアクセスするために腕を上げる。"
       },
       "context": "armpit(脇の下)の複数形。口語ではunderarmとも言う。スローロリスの毒腺はこの部位の近くに位置する。",
-      "collocations": ["near the armpits", "underarm glands", "raise arms to expose armpits"]
+      "collocations": [
+        "near the armpits",
+        "underarm glands",
+        "raise arms to expose armpits"
+      ]
     },
     "secrete": {
       "tier": "key",
       "surface": "secrete",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/sɪˈkriːt/",
       "meaning": "分泌する",
       "example": {
@@ -1059,12 +3280,16 @@
         "ja": "腺は唾液と混ざる毒性オイルを分泌する。"
       },
       "context": "生物学用語。腺や器官から液体や物質を生成・放出すること。secretion(分泌物)、secretary(分泌腺のある)が関連語。",
-      "collocations": ["secrete hormones", "secrete oil", "secrete venom"]
+      "collocations": [
+        "secrete hormones",
+        "secrete oil",
+        "secrete venom"
+      ]
     },
     "saliva": {
       "tier": "key",
       "surface": "saliva",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/səˈlaɪ.və/",
       "meaning": "唾液",
       "example": {
@@ -1072,7 +3297,11 @@
         "ja": "毒性オイルは唾液と結合して毒液を形成する。"
       },
       "context": "口内で生成される液体。消化を助け、スローロリスの場合は毒液の成分にもなる。salivate(唾液を分泌する)も関連語。",
-      "collocations": ["saliva and venom", "saliva glands", "flow of saliva"]
+      "collocations": [
+        "saliva and venom",
+        "saliva glands",
+        "flow of saliva"
+      ]
     },
     "formidable": {
       "tier": "frequent",
@@ -1085,12 +3314,16 @@
         "ja": "スローロリスは死をもたらすことができる強力な毒を持つ。"
       },
       "context": "力強さや威圧感を表す語。formidable opponent(強敵)、formidable challenge(難題)のように使われる。TOEFLによく出る語。",
-      "collocations": ["formidable venom", "formidable opponent", "formidable challenge"]
+      "collocations": [
+        "formidable venom",
+        "formidable opponent",
+        "formidable challenge"
+      ]
     },
     "anaphylaxis": {
       "tier": "key",
       "surface": "anaphylaxis",
-      "pos": "noun · C2",
+      "pos": "n · C2",
       "pron": "/ˌæn.ə.fɪˈlæk.sɪs/",
       "meaning": "アナフィラキシーショック、過敏性ショック",
       "example": {
@@ -1098,12 +3331,16 @@
         "ja": "スローロリスの咬傷は激しい痛み、組織損傷、アナフィラキシーショックさえも引き起こすことがある。"
       },
       "context": "アレルゲンへの暴露による重篤な全身アレルギー反応。血圧低下、気道閉塞を引き起こし、エピネフリン(エピペン)で対応する。anaphylacticが形容詞形。",
-      "collocations": ["anaphylactic shock", "cause anaphylaxis", "severe anaphylaxis"]
+      "collocations": [
+        "anaphylactic shock",
+        "cause anaphylaxis",
+        "severe anaphylaxis"
+      ]
     },
     "parasite": {
       "tier": "key",
       "surface": "parasites",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈpær.ə.saɪts/",
       "meaning": "寄生虫、寄生生物",
       "example": {
@@ -1111,7 +3348,11 @@
         "ja": "毒性オイルがスローロリスの毛皮から寄生虫を遠ざける。"
       },
       "context": "宿主から栄養を得て生きる生物。parasitic(寄生性の)、parasitism(寄生関係)が関連語。ectoparasite(外部寄生虫)がこの文の文脈に当たる。",
-      "collocations": ["kill parasites", "external parasites", "parasite load"]
+      "collocations": [
+        "kill parasites",
+        "external parasites",
+        "parasite load"
+      ]
     },
     "remarkably": {
       "tier": "frequent",
@@ -1124,7 +3365,11 @@
         "ja": "寄生虫の数は他の霊長類と比べて著しく少ない。"
       },
       "context": "remark(注目する)の副詞形。exceptionallyよりも「驚くほど際立っている」というニュアンスが強い。",
-      "collocations": ["remarkably low", "remarkably high", "remarkably well"]
+      "collocations": [
+        "remarkably low",
+        "remarkably high",
+        "remarkably well"
+      ]
     },
     "protective": {
       "tier": "frequent",
@@ -1137,12 +3382,16 @@
         "ja": "毒の塗られた毛皮はより大きな捕食者に対して防御的効果があるかもしれない。"
       },
       "context": "protect(守る)の形容詞形。protective gear(防護具)、protective instinct(保護本能)のようにも使われる。",
-      "collocations": ["protective effect", "protective coating", "be protective against"]
+      "collocations": [
+        "protective effect",
+        "protective coating",
+        "be protective against"
+      ]
     },
     "deter": {
       "tier": "key",
       "surface": "deter",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/dɪˈtɜːr/",
       "meaning": "思いとどまらせる、抑止する",
       "example": {
@@ -1150,12 +3399,16 @@
         "ja": "毒の塗られた毛皮は捕食者を遠ざける助けになるかもしれない。"
       },
       "context": "deterrent(抑止力)の動詞形。軍事分野では核抑止力(nuclear deterrence)でも使われる。",
-      "collocations": ["deter predators", "deter crime", "act as a deterrent"]
+      "collocations": [
+        "deter predators",
+        "deter crime",
+        "act as a deterrent"
+      ]
     },
     "civet": {
       "tier": "key",
       "surface": "civets",
-      "pos": "noun · C2",
+      "pos": "n · C2",
       "pron": "/ˈsɪv.ɪts/",
       "meaning": "ジャコウネコ",
       "example": {
@@ -1163,12 +3416,16 @@
         "ja": "ネコ、マレーグマ、ジャコウネコはスローロリスの唾液の臭いで遠ざかる。"
       },
       "context": "東南アジアに生息するネコに似た肉食哺乳類。ジャコウ香料の原料にもなる。コピルアク(ジャコウネコが食べたコーヒー豆)で有名。",
-      "collocations": ["civets and other predators", "civet coffee", "palm civet"]
+      "collocations": [
+        "civets and other predators",
+        "civet coffee",
+        "palm civet"
+      ]
     },
     "repel": {
       "tier": "frequent",
       "surface": "repelled",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/rɪˈpeld/",
       "meaning": "撃退する、追い払う、不快にさせる",
       "example": {
@@ -1176,12 +3433,16 @@
         "ja": "捕食者はスローロリスの唾液の臭いだけで追い払われる。"
       },
       "context": "repel(撃退する)の過去分詞。虫除け剤(insect repellent)、磁石の反発など様々な文脈で使われる。",
-      "collocations": ["repel predators", "be repelled by", "insect repellent"]
+      "collocations": [
+        "repel predators",
+        "be repelled by",
+        "insect repellent"
+      ]
     },
     "orangutan": {
       "tier": "key",
       "surface": "orangutans",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/əˈræŋ.uː.tæn/",
       "meaning": "オランウータン",
       "example": {
@@ -1189,12 +3450,16 @@
         "ja": "他の捕食者と違い、オランウータンはスローロリスの毒の回避法を見つけたようだ。"
       },
       "context": "マレー語で「森の人」を意味する。ボルネオ島とスマトラ島に生息する大型類人猿。スローロリスと生息域が重なる。",
-      "collocations": ["Borneo orangutan", "Sumatran orangutan", "endangered orangutan"]
+      "collocations": [
+        "Borneo orangutan",
+        "Sumatran orangutan",
+        "endangered orangutan"
+      ]
     },
     "victim": {
       "tier": "normal",
       "surface": "victims",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈvɪk.tɪmz/",
       "meaning": "被害者、犠牲者",
       "example": {
@@ -1202,12 +3467,16 @@
         "ja": "スローロリスの咬傷の最も一般的な被害者は他のスローロリスだ。"
       },
       "context": "victim(被害者)の複数形。crime victim(犯罪被害者)、victim of circumstance(状況の被害者)などでも使われる。victimize(被害者にする)も関連語。",
-      "collocations": ["common victims", "victim of crime", "fall victim to"]
+      "collocations": [
+        "common victims",
+        "victim of crime",
+        "fall victim to"
+      ]
     },
     "predation": {
       "tier": "key",
       "surface": "predation",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/prɪˈdeɪ.ʃən/",
       "meaning": "捕食、肉食行動",
       "example": {
@@ -1215,12 +3484,16 @@
         "ja": "8年間で自然の捕食により死んだスローロリスはたった一匹だった。"
       },
       "context": "predator(捕食者)、prey(獲物)と関連する生物学用語。predatory(捕食性の)も重要。生態系の食物連鎖の基本概念。",
-      "collocations": ["natural predation", "predation pressure", "escape from predation"]
+      "collocations": [
+        "natural predation",
+        "predation pressure",
+        "escape from predation"
+      ]
     },
     "territory": {
       "tier": "normal",
       "surface": "territory",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈter.ɪ.tɔːr.i/",
       "meaning": "縄張り、領域、領土",
       "example": {
@@ -1228,7 +3501,11 @@
         "ja": "スローロリスは限られた縄張りをめぐる争いで互いに咬み合うかもしれない。"
       },
       "context": "地理的・生態的な「領域」の意味。動物行動学ではterritoriality(縄張り行動)が重要概念。国家の「領土」にも使われる。",
-      "collocations": ["limited territory", "territorial behavior", "defend territory"]
+      "collocations": [
+        "limited territory",
+        "territorial behavior",
+        "defend territory"
+      ]
     },
     "effectively": {
       "tier": "frequent",
@@ -1241,12 +3518,16 @@
         "ja": "スローロリスはメガネコブラを効果的に模倣するかもしれない。"
       },
       "context": "effective(効果的な)の副詞形。IELTSやTOEFLでよく使われる。effectiveness(有効性)、effect(効果)も重要。AWL収録語。",
-      "collocations": ["effectively mimic", "effectively communicate", "work effectively"]
+      "collocations": [
+        "effectively mimic",
+        "effectively communicate",
+        "work effectively"
+      ]
     },
     "spectacled_cobra": {
       "tier": "key",
       "surface": "spectacled cobras",
-      "pos": "noun phrase · C1",
+      "pos": "n phrase · C1",
       "pron": "/ˈspek.tə.kəld ˈkoʊ.brəz/",
       "meaning": "メガネコブラ",
       "example": {
@@ -1254,12 +3535,16 @@
         "ja": "スローロリスが捕食者を遠ざけるためにメガネコブラを模倣しているという科学者もいる。"
       },
       "context": "インドから東南アジアに生息するコブラの一種。首の後部に眼鏡のような模様があるのが特徴。毒を持つ非常に危険なヘビ。",
-      "collocations": ["Indian spectacled cobra", "cobra hood", "mimic spectacled cobras"]
+      "collocations": [
+        "Indian spectacled cobra",
+        "cobra hood",
+        "mimic spectacled cobras"
+      ]
     },
     "mullerian_mimicry": {
       "tier": "key",
       "surface": "Müllerian mimicry",
-      "pos": "noun phrase · C2",
+      "pos": "n phrase · C2",
       "pron": "/ˌmʊl.ɪər.i.ən ˈmɪm.ɪ.kri/",
       "meaning": "ミュラー型擬態",
       "example": {
@@ -1267,12 +3552,16 @@
         "ja": "ミュラー型擬態は複数の危険な種が警告シグナルを共有するときに起こる。"
       },
       "context": "19世紀ドイツの生物学者Fritz Müllerにちなむ。複数の有毒・危険な種が同じ警戒色を持つことで互いに利益を得る現象。ベイツ型擬態(Batesian mimicry)との区別が重要。",
-      "collocations": ["Müllerian mimicry complex", "example of Müllerian mimicry", "Batesian vs Müllerian"]
+      "collocations": [
+        "Müllerian mimicry complex",
+        "example of Müllerian mimicry",
+        "Batesian vs Müllerian"
+      ]
     },
     "characteristics": {
       "tier": "frequent",
       "surface": "characteristics",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌkær.ɪk.tərˈɪs.tɪks/",
       "meaning": "特徴、特性",
       "example": {
@@ -1280,7 +3569,11 @@
         "ja": "危険な種は互いに特徴を共有することで利益を得る。"
       },
       "context": "characteristic(特徴)の複数形。生物学では遺伝的・形態的・行動的特徴を指す。characterize(特徴づける)、characteristically(特徴的に)も重要。AWL収録語。",
-      "collocations": ["key characteristics", "physical characteristics", "share characteristics"]
+      "collocations": [
+        "key characteristics",
+        "physical characteristics",
+        "share characteristics"
+      ]
     },
     "threatened": {
       "tier": "frequent",
@@ -1293,7 +3586,11 @@
         "ja": "スローロリスの全種が違法取引により絶滅の危機にある。"
       },
       "context": "threaten(脅かす)の過去分詞。生物保全では「絶滅危惧」の意味。IUCNのレッドリストでEndangered(絶滅危惧)の上位分類。",
-      "collocations": ["threatened species", "critically threatened", "feel threatened"]
+      "collocations": [
+        "threatened species",
+        "critically threatened",
+        "feel threatened"
+      ]
     },
     "illegally": {
       "tier": "frequent",
@@ -1306,7 +3603,895 @@
         "ja": "スローロリスは世界中でペットとして違法に取引されている。"
       },
       "context": "illegal(違法の)の副詞形。法律に違反した行為を表す。legally(合法的に)の反対語。",
-      "collocations": ["illegally traded", "illegally obtained", "illegally sold"]
+      "collocations": [
+        "illegally traded",
+        "illegally obtained",
+        "illegally sold"
+      ]
+    },
+    "jungles": {
+      "tier": "normal",
+      "surface": "jungles",
+      "pos": "n · B1",
+      "pron": "/ˈdʒʌŋ.ɡəlz/",
+      "meaning": "ジャングル、密林",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "creature": {
+      "tier": "normal",
+      "surface": "creature",
+      "pos": "n · B1",
+      "pron": "/ˈkriː.tʃər/",
+      "meaning": "生き物、生物",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sharp": {
+      "tier": "basic",
+      "surface": "sharp",
+      "pos": "adj · A2",
+      "pron": "/ʃɑːrp/",
+      "meaning": "鋭い、尖った",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "teeth": {
+      "tier": "basic",
+      "surface": "teeth",
+      "pos": "n · A2",
+      "pron": "/tiːθ/",
+      "meaning": "歯(toothの複数形)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "imagine": {
+      "tier": "basic",
+      "surface": "imagine",
+      "pos": "v · A2",
+      "pron": "/ɪˈmædʒ.ɪn/",
+      "meaning": "想像する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roamed": {
+      "tier": "key",
+      "surface": "roamed",
+      "pos": "v · B2",
+      "pron": "/roʊmd/",
+      "meaning": "歩き回った、闊歩した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "migrated": {
+      "tier": "frequent",
+      "surface": "migrated",
+      "pos": "v · B2",
+      "pron": "/ˈmaɪ.ɡreɪ.tɪd/",
+      "meaning": "移動した、移住した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sunset": {
+      "tier": "basic",
+      "surface": "sunset",
+      "pos": "n · A2",
+      "pron": "/ˈsʌn.set/",
+      "meaning": "日没、夕暮れ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "active": {
+      "tier": "basic",
+      "surface": "active",
+      "pos": "adj · A2",
+      "pron": "/ˈæk.tɪv/",
+      "meaning": "活動的な、活発な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surroundings": {
+      "tier": "normal",
+      "surface": "surroundings",
+      "pos": "n · B1",
+      "pron": "/səˈraʊn.dɪŋz/",
+      "meaning": "周囲、環境",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "regularly": {
+      "tier": "normal",
+      "surface": "regularly",
+      "pos": "adv · B1",
+      "pron": "/ˈreɡ.jə.lər.li/",
+      "meaning": "定期的に、規則正しく",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spurts": {
+      "tier": "key",
+      "surface": "spurts",
+      "pos": "n · C1",
+      "pron": "/spɜːrts/",
+      "meaning": "ほとばしり、瞬発的な力",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "branch": {
+      "tier": "basic",
+      "surface": "branch",
+      "pos": "n · A2",
+      "pron": "/bræntʃ/",
+      "meaning": "枝",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "limbs": {
+      "tier": "normal",
+      "surface": "limbs",
+      "pos": "n · B1",
+      "pron": "/lɪmz/",
+      "meaning": "手足、四肢",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "preventing": {
+      "tier": "normal",
+      "surface": "preventing",
+      "pos": "v · B1",
+      "pron": "/prɪˈven.tɪŋ/",
+      "meaning": "妨げること、防ぐこと",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "weakening": {
+      "tier": "normal",
+      "surface": "weakening",
+      "pos": "v · B2",
+      "pron": "/ˈwiː.kən.ɪŋ/",
+      "meaning": "弱ること、衰弱",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "numb": {
+      "tier": "key",
+      "surface": "numb",
+      "pos": "adj · B2",
+      "pron": "/nʌm/",
+      "meaning": "感覚を失った、しびれた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "movements": {
+      "tier": "basic",
+      "surface": "movements",
+      "pos": "n · A2",
+      "pron": "/ˈmuːv.mənts/",
+      "meaning": "動き、運動",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "threats": {
+      "tier": "normal",
+      "surface": "threats",
+      "pos": "n · B1",
+      "pron": "/θrets/",
+      "meaning": "脅威",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stealth": {
+      "tier": "key",
+      "surface": "stealth",
+      "pos": "n · C1",
+      "pron": "/stelθ/",
+      "meaning": "隠密、こっそりした動き",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "predators": {
+      "tier": "normal",
+      "surface": "predators",
+      "pos": "n · B1",
+      "pron": "/ˈpred.ə.tərz/",
+      "meaning": "捕食者",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "motion": {
+      "tier": "normal",
+      "surface": "motion",
+      "pos": "n · B1",
+      "pron": "/ˈmoʊ.ʃən/",
+      "meaning": "動き、運動",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hunt": {
+      "tier": "basic",
+      "surface": "hunt",
+      "pos": "v · A2",
+      "pron": "/hʌnt/",
+      "meaning": "狩る、狩りをする",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prey": {
+      "tier": "normal",
+      "surface": "prey",
+      "pos": "n · B1",
+      "pron": "/preɪ/",
+      "meaning": "獲物、餌食",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "insects": {
+      "tier": "basic",
+      "surface": "insects",
+      "pos": "n · A2",
+      "pron": "/ˈɪn.sekts/",
+      "meaning": "昆虫",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nectar": {
+      "tier": "key",
+      "surface": "nectar",
+      "pos": "n · B2",
+      "pron": "/ˈnek.tər/",
+      "meaning": "花蜜",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sap": {
+      "tier": "key",
+      "surface": "sap",
+      "pos": "n · B2",
+      "pron": "/sæp/",
+      "meaning": "樹液",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scratching": {
+      "tier": "normal",
+      "surface": "scratching",
+      "pos": "v · B1",
+      "pron": "/ˈskrætʃ.ɪŋ/",
+      "meaning": "引っかくこと、削ること",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bark": {
+      "tier": "normal",
+      "surface": "bark",
+      "pos": "n · B1",
+      "pron": "/bɑːrk/",
+      "meaning": "木の皮、樹皮",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "digest": {
+      "tier": "frequent",
+      "surface": "digest",
+      "pos": "v · B2",
+      "pron": "/daɪˈdʒest/",
+      "meaning": "消化する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scientists": {
+      "tier": "basic",
+      "surface": "scientists",
+      "pos": "n · A2",
+      "pron": "/ˈsaɪ.ən.tɪsts/",
+      "meaning": "科学者",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "toxins": {
+      "tier": "key",
+      "surface": "toxins",
+      "pos": "n · B2",
+      "pron": "/ˈtɒk.sɪnz/",
+      "meaning": "毒素",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "devour": {
+      "tier": "key",
+      "surface": "devour",
+      "pos": "v · C1",
+      "pron": "/dɪˈvaʊər/",
+      "meaning": "むさぼり食う、貪り食う",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "toxic": {
+      "tier": "frequent",
+      "surface": "toxic",
+      "pos": "adj · B2",
+      "pron": "/ˈtɒk.sɪk/",
+      "meaning": "有毒な、毒性の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mammals": {
+      "tier": "normal",
+      "surface": "mammals",
+      "pos": "n · B1",
+      "pron": "/ˈmæm.əlz/",
+      "meaning": "哺乳類",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "combination": {
+      "tier": "frequent",
+      "surface": "combination",
+      "pos": "n · B2",
+      "pron": "/ˌkɒm.bɪˈneɪ.ʃən/",
+      "meaning": "組み合わせ、結合",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "separate": {
+      "tier": "normal",
+      "surface": "separate",
+      "pos": "adj · B1",
+      "pron": "/ˈsep.ər.ət/",
+      "meaning": "別々の、分かれた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "glands": {
+      "tier": "key",
+      "surface": "glands",
+      "pos": "n · B2",
+      "pron": "/ɡlændz/",
+      "meaning": "腺",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lick": {
+      "tier": "normal",
+      "surface": "lick",
+      "pos": "v · B1",
+      "pron": "/lɪk/",
+      "meaning": "舐める",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mixture": {
+      "tier": "normal",
+      "surface": "mixture",
+      "pos": "n · B1",
+      "pron": "/ˈmɪks.tʃər/",
+      "meaning": "混合物、混ぜ合わせたもの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deployed": {
+      "tier": "frequent",
+      "surface": "deployed",
+      "pos": "v · B2",
+      "pron": "/dɪˈplɔɪd/",
+      "meaning": "展開される、配備される",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intense": {
+      "tier": "normal",
+      "surface": "intense",
+      "pos": "adj · B2",
+      "pron": "/ɪnˈtens/",
+      "meaning": "激しい、強烈な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tissue": {
+      "tier": "normal",
+      "surface": "tissue",
+      "pos": "n · B2",
+      "pron": "/ˈtɪʃ.uː/",
+      "meaning": "組織(生体の)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scent": {
+      "tier": "normal",
+      "surface": "scent",
+      "pos": "n · B2",
+      "pron": "/sent/",
+      "meaning": "におい、香り",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "population": {
+      "tier": "normal",
+      "surface": "population",
+      "pos": "n · B1",
+      "pron": "/ˌpɒp.jəˈleɪ.ʃən/",
+      "meaning": "個体群、集団",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "recorded": {
+      "tier": "basic",
+      "surface": "recorded",
+      "pos": "v · A2",
+      "pron": "/rɪˈkɔːr.dɪd/",
+      "meaning": "記録した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bitten": {
+      "tier": "normal",
+      "surface": "bitten",
+      "pos": "v · B1",
+      "pron": "/ˈbɪt.ən/",
+      "meaning": "咬まれた(biteの過去分詞)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fights": {
+      "tier": "basic",
+      "surface": "fights",
+      "pos": "n · A2",
+      "pron": "/faɪts/",
+      "meaning": "争い、戦い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "features": {
+      "tier": "normal",
+      "surface": "features",
+      "pos": "n · B1",
+      "pron": "/ˈfiː.tʃərz/",
+      "meaning": "特徴、特性",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dusk": {
+      "tier": "key",
+      "surface": "dusk",
+      "pos": "n · B2",
+      "pron": "/dʌsk/",
+      "meaning": "夕暮れ、薄暮",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sway": {
+      "tier": "key",
+      "surface": "sway",
+      "pos": "v · B2",
+      "pron": "/sweɪ/",
+      "meaning": "揺れる、揺り動かす",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "raspy": {
+      "tier": "key",
+      "surface": "raspy",
+      "pos": "adj · C1",
+      "pron": "/ˈræs.pi/",
+      "meaning": "(声が)しわがれた、耳障りな",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "behaviors": {
+      "tier": "normal",
+      "surface": "behaviors",
+      "pos": "n · B1",
+      "pron": "/bɪˈheɪv.jərz/",
+      "meaning": "行動、振る舞い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "markings": {
+      "tier": "normal",
+      "surface": "markings",
+      "pos": "n · B2",
+      "pron": "/ˈmɑːr.kɪŋz/",
+      "meaning": "斑紋、模様",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mimic": {
+      "tier": "key",
+      "surface": "mimic",
+      "pos": "v · B2",
+      "pron": "/ˈmɪm.ɪk/",
+      "meaning": "模倣する、真似る",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "species": {
+      "tier": "normal",
+      "surface": "species",
+      "pos": "n · B1",
+      "pron": "/ˈspiː.ʃiːz/",
+      "meaning": "種(生物の)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "creatures": {
+      "tier": "normal",
+      "surface": "creatures",
+      "pos": "n · B1",
+      "pron": "/ˈkriː.tʃərz/",
+      "meaning": "生き物、生物",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "evolved": {
+      "tier": "frequent",
+      "surface": "evolved",
+      "pos": "v · B2",
+      "pron": "/ɪˈvɒlvd/",
+      "meaning": "進化した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cobras": {
+      "tier": "normal",
+      "surface": "cobras",
+      "pos": "n · B1",
+      "pron": "/ˈkoʊ.brəz/",
+      "meaning": "コブラ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "humans": {
+      "tier": "basic",
+      "surface": "humans",
+      "pos": "n · A2",
+      "pron": "/ˈhjuː.mənz/",
+      "meaning": "人間",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stripped": {
+      "tier": "key",
+      "surface": "stripped",
+      "pos": "v · B2",
+      "pron": "/strɪpt/",
+      "meaning": "剥ぎ取られた、奪われた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "defenses": {
+      "tier": "normal",
+      "surface": "defenses",
+      "pos": "n · B1",
+      "pron": "/dɪˈfens.ɪz/",
+      "meaning": "防御、防衛手段",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "signals": {
+      "tier": "normal",
+      "surface": "signals",
+      "pos": "n · B1",
+      "pron": "/ˈsɪɡ.nəlz/",
+      "meaning": "信号、シグナル",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "forests": {
+      "tier": "basic",
+      "surface": "forests",
+      "pos": "n · A2",
+      "pron": "/ˈfɔːr.ɪsts/",
+      "meaning": "森、森林",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "gripped": {
+      "tier": "normal",
+      "surface": "gripped",
+      "pos": "v · B1",
+      "pron": "/ɡrɪpt/",
+      "meaning": "しっかりつかんだ、握った",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "assume": {
+      "tier": "frequent",
+      "surface": "assume",
+      "pos": "v · B2",
+      "pron": "/əˈsjuːm/",
+      "meaning": "(姿勢を)とる、想定する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spread": {
+      "tier": "basic",
+      "surface": "spread",
+      "pos": "v · A2",
+      "pron": "/spred/",
+      "meaning": "塗り広げる、広げる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exposed": {
+      "tier": "normal",
+      "surface": "exposed",
+      "pos": "v · B2",
+      "pron": "/ɪkˈspoʊzd/",
+      "meaning": "さらされた、露出した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
     }
   },
   "expressions": {
@@ -1318,7 +4503,11 @@
       "literal": "〜から分かれる",
       "meaning": "〜から分岐する、分離する",
       "context": "生物学では種の分岐(speciation)を表す際によく使われる表現。split off from other lineages(他の系統から分岐する)などの形で使われる。",
-      "collocations": ["split off from a group", "split off from the main line", "split off from other primates"]
+      "collocations": [
+        "split off from a group",
+        "split off from the main line",
+        "split off from other primates"
+      ]
     },
     "as_far_back_as": {
       "tier": "frequent",
@@ -1328,7 +4517,11 @@
       "literal": "〜ほど遠く前まで",
       "meaning": "〜もの昔に、〜にまで遡って",
       "context": "時間軸を強調して「非常に古い時代まで遡れる」ことを示す表現。as far back as the Middle Ages(中世にまで遡って)などで使われる。",
-      "collocations": ["as far back as the 18th century", "as far back as recorded history", "as far back as 70 million years ago"]
+      "collocations": [
+        "as far back as the 18th century",
+        "as far back as recorded history",
+        "as far back as 70 million years ago"
+      ]
     },
     "home_range": {
       "tier": "normal",
@@ -1338,7 +4531,11 @@
       "literal": "生活圏、縄張り範囲",
       "meaning": "動物が日常的に活動する地理的範囲",
       "context": "生態学の専門用語。territoryとは異なり、防衛されない場合も含む。home rangeはより広い活動範囲全体を指す。",
-      "collocations": ["home range size", "within their home range", "home range overlap"]
+      "collocations": [
+        "home range size",
+        "within their home range",
+        "home range overlap"
+      ]
     },
     "near_constant_motion": {
       "tier": "normal",
@@ -1348,7 +4545,11 @@
       "literal": "ほぼ絶え間ない動き",
       "meaning": "ほとんど止まることなく動き続ける状態",
       "context": "near-(ほぼ)はハイフンで形容詞と結合する。near-constant(ほぼ絶え間ない)、near-perfect(ほぼ完璧な)などのパターンで使われる。",
-      "collocations": ["near-constant motion", "near-constant activity", "in near-constant use"]
+      "collocations": [
+        "near-constant motion",
+        "near-constant activity",
+        "in near-constant use"
+      ]
     },
     "slow_twitch_muscle_fibers": {
       "tier": "normal",
@@ -1358,7 +4559,11 @@
       "literal": "遅収縮筋繊維",
       "meaning": "持久力に優れた筋繊維。酸素を効率よく使い疲れにくい",
       "context": "fast-twitch muscle fibers(速筋繊維)と対比される。マラソン選手は遅筋繊維が多く、短距離選手は速筋繊維が多い傾向がある。",
-      "collocations": ["slow-twitch muscle fibers", "fast-twitch muscle fibers", "proportion of slow-twitch fibers"]
+      "collocations": [
+        "slow-twitch muscle fibers",
+        "fast-twitch muscle fibers",
+        "proportion of slow-twitch fibers"
+      ]
     },
     "blood_vessel_networks": {
       "tier": "normal",
@@ -1368,7 +4573,11 @@
       "literal": "血管網",
       "meaning": "血液を運ぶ管(動脈・静脈・毛細血管)が網目状に張り巡らされた構造",
       "context": "スローロリスの場合、網状奇静脈(rete mirabile)と呼ばれる特殊な血管網が四肢の血流を維持し、長時間の静止を可能にする。",
-      "collocations": ["blood vessel networks", "vascular network", "capillary network"]
+      "collocations": [
+        "blood vessel networks",
+        "vascular network",
+        "capillary network"
+      ]
     },
     "go_undetected": {
       "tier": "frequent",
@@ -1378,7 +4587,11 @@
       "literal": "気づかれないまま行く",
       "meaning": "気づかれないでいる、発見されずにいる",
       "context": "go + 形容詞(状態を表す)のパターン。go unnoticed(気づかれない)、go unpunished(罰せられない)、go unreported(報告されない)など同じパターンの表現が多い。",
-      "collocations": ["go undetected", "go unnoticed", "go unreported"]
+      "collocations": [
+        "go undetected",
+        "go unnoticed",
+        "go unreported"
+      ]
     },
     "on_the_lookout_for": {
       "tier": "frequent",
@@ -1388,7 +4601,11 @@
       "literal": "〜を見張っている",
       "meaning": "〜を警戒して探している",
       "context": "be on the lookout for(〜を警戒する)の形で使われる慣用句。ポジティブな意味(チャンスを探す)にもネガティブな意味(危険を警戒する)にも使われる。",
-      "collocations": ["be on the lookout for", "keep a lookout for", "on the lookout for danger"]
+      "collocations": [
+        "be on the lookout for",
+        "keep a lookout for",
+        "on the lookout for danger"
+      ]
     },
     "go_after": {
       "tier": "frequent",
@@ -1398,7 +4615,11 @@
       "literal": "〜の後を追う",
       "meaning": "〜を追いかける、〜を目指す、〜を獲得しようとする",
       "context": "pursue(追い求める)の口語的表現。獲物を追う、機会を狙う、夢を追いかける、など幅広い文脈で使える。",
-      "collocations": ["go after prey", "go after a goal", "go after opportunities"]
+      "collocations": [
+        "go after prey",
+        "go after a goal",
+        "go after opportunities"
+      ]
     },
     "as_well_as": {
       "tier": "frequent",
@@ -1408,7 +4629,11 @@
       "literal": "〜と同様に",
       "meaning": "〜だけでなく、〜に加えて",
       "context": "A as well as B(BだけでなくAも)の形で使われる。andより「追加」の意味が強い。学術論文でも頻出する表現。",
-      "collocations": ["fruit as well as insects", "X as well as Y", "as well as other things"]
+      "collocations": [
+        "fruit as well as insects",
+        "X as well as Y",
+        "as well as other things"
+      ]
     },
     "in_fact": {
       "tier": "frequent",
@@ -1418,7 +4643,11 @@
       "literal": "実際には",
       "meaning": "実は、実際のところ",
       "context": "予想に反する事実や、前述の内容を強調する際に使われる。actually(実際に)と似ているが、in factはより「驚きや強調」のニュアンスが強い。",
-      "collocations": ["in fact, it is", "in fact, they are", "as a matter of fact"]
+      "collocations": [
+        "in fact, it is",
+        "in fact, they are",
+        "as a matter of fact"
+      ]
     },
     "animal_kingdom": {
       "tier": "normal",
@@ -1428,7 +4657,11 @@
       "literal": "動物界",
       "meaning": "生物分類の「動物界」、または動物全般",
       "context": "生物分類学ではKingdom Animalia。日常英語では「動物の世界」全体を指す慣用的な表現としても使われる。",
-      "collocations": ["in the animal kingdom", "throughout the animal kingdom", "unique in the animal kingdom"]
+      "collocations": [
+        "in the animal kingdom",
+        "throughout the animal kingdom",
+        "unique in the animal kingdom"
+      ]
     },
     "venom_pose": {
       "tier": "normal",
@@ -1438,7 +4671,11 @@
       "literal": "毒のポーズ",
       "meaning": "スローロリスが脇腺にアクセスするために腕を上げる特徴的な姿勢",
       "context": "スローロリスの防衛行動として研究者が名付けた術語。腕を頭上に挙げて脇腺を露出させることで毒を口にしやすくする。",
-      "collocations": ["assume the venom pose", "adopt the venom pose", "slow loris venom pose"]
+      "collocations": [
+        "assume the venom pose",
+        "adopt the venom pose",
+        "slow loris venom pose"
+      ]
     },
     "flesh_rotting": {
       "tier": "normal",
@@ -1448,7 +4685,11 @@
       "literal": "肉を腐らせる",
       "meaning": "組織を壊死させる性質を持つ(毒などの表現)",
       "context": "ハイフンでつながれた複合形容詞。名詞を修飾する前置形容詞として機能する。rot(腐る)の現在分詞形とflesh(肉)の組み合わせで強烈なイメージを与える表現。",
-      "collocations": ["flesh-rotting venom", "flesh-eating bacteria", "tissue-destroying toxin"]
+      "collocations": [
+        "flesh-rotting venom",
+        "flesh-eating bacteria",
+        "tissue-destroying toxin"
+      ]
     },
     "a_way_around_it": {
       "tier": "frequent",
@@ -1458,7 +4699,11 @@
       "literal": "それを迂回する方法",
       "meaning": "問題や障害を回避する方法",
       "context": "find a way around(〜を回避する方法を見つける)の形で使われる慣用表現。障害や制限をうまく避ける方策を指す。",
-      "collocations": ["find a way around it", "there's always a way around", "a workaround"]
+      "collocations": [
+        "find a way around it",
+        "there's always a way around",
+        "a workaround"
+      ]
     },
     "over_the_course_of": {
       "tier": "frequent",
@@ -1468,7 +4713,11 @@
       "literal": "〜の過程にわたって",
       "meaning": "〜の期間を通じて、〜にわたって",
       "context": "時間の経過を表す表現。over the course of a lifetime(生涯にわたって)、over the course of history(歴史を通じて)などで使われる。学術文章でよく見られる。",
-      "collocations": ["over the course of eight years", "over the course of a lifetime", "over the course of history"]
+      "collocations": [
+        "over the course of eight years",
+        "over the course of a lifetime",
+        "over the course of history"
+      ]
     },
     "well_past_time": {
       "tier": "frequent",
@@ -1478,7 +4727,11 @@
       "literal": "もうとっくに時間が過ぎた",
       "meaning": "とっくに〜すべき時だ、もう〜しなければならない時間だ",
       "context": "It's high time(もう〜すべき時だ)と同様の表現。「well past」で「とっくに」という強調を加えている。緊急性や遅れを示す表現。",
-      "collocations": ["it's well past time", "well past time to act", "well past its prime"]
+      "collocations": [
+        "it's well past time",
+        "well past time to act",
+        "well past its prime"
+      ]
     },
     "pick_up_on": {
       "tier": "frequent",
@@ -1488,7 +4741,11 @@
       "literal": "〜を拾い上げる",
       "meaning": "〜に気づく、〜を読み取る、〜を察知する",
       "context": "信号、手がかり、雰囲気などを感知する意味でよく使われる。pick up on social cues(社会的合図を読み取る)、pick up on a signal(シグナルに気づく)などの形で使われる。",
-      "collocations": ["pick up on signals", "pick up on cues", "pick up on vibes"]
+      "collocations": [
+        "pick up on signals",
+        "pick up on cues",
+        "pick up on vibes"
+      ]
     }
   }
 }
