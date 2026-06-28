@@ -1,0 +1,119 @@
+name: Daily Agent Watchdog
+
+# Daily TED の Scheduled Agent が止まっていないか毎日チェックする再発防止策。
+# - 過去 36 時間以内に main へ daily commit が来ていない場合、Issue を立てる
+# - 既に Open の watchdog Issue があれば二重投稿しない(コメント追記のみ)
+# - API キーや外部秘密情報は不要、GITHUB_TOKEN だけで動く
+
+on:
+  schedule:
+    # JST 11:00 (UTC 02:00) と JST 23:00 (UTC 14:00) の 1日2回
+    # 朝バッチ(JST 06:00 ≒ UTC 21:00 前日)から 5 時間後 + 万一の二度目
+    - cron: '0 2,14 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-recent-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Diagnose agent health
+        id: diag
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # 直近の commit author date (ISO 8601, UTC)
+          last_iso=$(git log -1 --format='%aI' origin/main)
+          last_epoch=$(date -d "$last_iso" +%s)
+          now_epoch=$(date -u +%s)
+          age_h=$(( (now_epoch - last_epoch) / 3600 ))
+
+          # 直近 commit が daily batch 由来か手動か(参考情報)
+          last_msg=$(git log -1 --format='%s' origin/main)
+
+          # 過去 72h で main へ来た daily commit 数
+          daily_72h=$(git log --since='72 hours ago' --format='%s' origin/main | grep -c '^daily:' || true)
+
+          echo "last_iso=$last_iso" >> "$GITHUB_OUTPUT"
+          echo "age_h=$age_h" >> "$GITHUB_OUTPUT"
+          echo "last_msg=$last_msg" >> "$GITHUB_OUTPUT"
+          echo "daily_72h=$daily_72h" >> "$GITHUB_OUTPUT"
+          if [ "$age_h" -gt 36 ]; then
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "---"
+          echo "last commit:  $last_iso  ($age_h h ago)"
+          echo "last subject: $last_msg"
+          echo "daily commits in past 72h: $daily_72h"
+
+      - name: Open or update Watchdog Issue
+        if: steps.diag.outputs.stale == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          AGE_H: ${{ steps.diag.outputs.age_h }}
+          LAST_ISO: ${{ steps.diag.outputs.last_iso }}
+          LAST_MSG: ${{ steps.diag.outputs.last_msg }}
+          DAILY_72H: ${{ steps.diag.outputs.daily_72h }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TITLE="[watchdog] Daily Agent silent for ${AGE_H}h (no main commit since ${LAST_ISO})"
+          BODY=$(cat <<EOF
+          Scheduled Agent からの \`main\` への daily commit が **${AGE_H} 時間** 来ていません。
+
+          | 項目 | 値 |
+          |---|---|
+          | 最終 commit (UTC) | ${LAST_ISO} |
+          | 最終 commit subject | \`${LAST_MSG}\` |
+          | 過去 72h の daily commit 数 | ${DAILY_72H} |
+          | watchdog 起動 | \$(date -u '+%Y-%m-%dT%H:%M:%SZ') |
+
+          ## 推奨アクション
+
+          1. **Agent UI を確認**: claude.ai/agents で該当 Scheduled Agent が削除/停止/失敗していないか
+          2. **Anthropic クォータ確認**: 課金状況・API 残量
+          3. **prompts/daily_batch.md の Step 0** が main に取り込まれているか確認
+          4. 必要なら手動 backfill — \`scripts/fetch_ted_ed_talks.py\` で新着確認
+
+          ## 過去の停止事例(参考)
+
+          - 2026-06-01 → 2026-06-11 (10日間)
+          - 2026-06-15 → 2026-06-28+ (13日以上)
+
+          再開後はこの Issue を Close してください。次回の停止で自動的に新規 Issue が立ちます。
+          EOF
+          )
+
+          # 既存の open watchdog issue を探す(タイトル prefix で照合)
+          existing=$(gh issue list --repo "$REPO" --state open --label watchdog --json number,title --jq '.[0].number // empty' || true)
+          if [ -z "$existing" ]; then
+            # ラベル無しでも prefix で照合(初回はラベル未作成のため)
+            existing=$(gh issue list --repo "$REPO" --state open --search '[watchdog] in:title' --json number,title --jq '.[0].number // empty' || true)
+          fi
+
+          if [ -n "$existing" ]; then
+            echo "既存 Issue #$existing にコメント追記"
+            gh issue comment "$existing" --repo "$REPO" --body "$BODY"
+          else
+            # ラベルが無ければ作成(失敗しても無視)
+            gh label create watchdog --color "d73a4a" --description "Scheduled Agent health alerts" --repo "$REPO" 2>/dev/null || true
+            echo "新規 Issue を作成"
+            gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY" --label watchdog || gh issue create --repo "$REPO" --title "$TITLE" --body "$BODY"
+          fi
+
+      - name: All good
+        if: steps.diag.outputs.stale != 'true'
+        run: |
+          echo "OK: last commit was within 36h (${{ steps.diag.outputs.age_h }} h ago)"

@@ -1,0 +1,3876 @@
+{
+  "id": "talk_2026-06-18",
+  "date": "2026-06-18",
+  "source": "ted-ed",
+  "primary_topic": "Science",
+  "tags": [
+    "dishwasher",
+    "household",
+    "chemistry",
+    "detergent",
+    "everyday-science",
+    "appliance"
+  ],
+  "difficulty": "medium",
+  "slug": "rachel_yang_should_you_rinse_your_dishes_before_placing_them_in_the_dishwasher",
+  "video_id": "180869",
+  "title": "Should you rinse your dishes before placing them in the dishwasher?",
+  "speaker": "Rachel Yang",
+  "duration_sec": 285,
+  "published_at": "2026-06-18T15:20:47Z",
+  "video_url": "https://www.ted.com/talks/rachel_yang_should_you_rinse_your_dishes_before_placing_them_in_the_dishwasher",
+  "embed_url": "https://embed.ted.com/talks/rachel_yang_should_you_rinse_your_dishes_before_placing_them_in_the_dishwasher",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_180869/8354a369-7fe8-4026-8244-1f9c2936a102/dishwashers_textless.jpg",
+  "background": {
+    "summary": "1883年シカゴ万博で初披露されたコクラン式食洗機の原型から、現代食洗機の仕組み(混濁センサー・60→68℃の二段加熱・界面活性剤)、洗剤形態の優劣、そして「すすぎ過ぎは逆効果」というカウンタディクトな結論まで。手洗いが優位な場面も整理。",
+    "details": [
+      "Josephine Cochrane (1839-1913): 米国の社交界婦人。1883年に未亡人となり負債を抱える中、食洗機の試作機を製作。1893年シカゴ万博 World's Columbian Exposition で披露し成功。",
+      "現代食洗機の仕組み: 60℃で予洗 → 混濁センサーで汚れを測定 → 洗剤投入 → 68℃で除菌すすぎ。家庭の流し蛇口の最高温度より10℃以上高く、食品由来細菌を死滅させる。",
+      "界面活性剤 (surfactant): 二重末端分子で、片端を食べ物残渣に絡め、もう片端を水と引きつけて剥がす。食器用洗剤共通の主成分。",
+      "洗剤形態: 液体は漂白剤か酵素のどちらか(液中で漂白剤が酵素を分解)。粉末はワックスコーティング酵素で共存可能。ポッドはプラ膜で分離するため最も効果的だが環境負荷の議論あり。",
+      "リンス過剰は逆効果: 混濁センサーが「綺麗」と判断し短いサイクルが選択されるため、こびりついた汚れが落ちない。スクレープ程度に留めるのが最適。3-5ガロン/サイクルは流しを2.5分流す量に相当。"
+    ]
+  },
+  "paragraph_summaries_ja": [
+    {
+      "paragraph_id": "p1",
+      "summary": "1883年、未亡人となり負債を抱えた米社交界婦人 Josephine Cochrane が、豪華なディナーパーティでの食器破損経験から食洗機の試作機を作り、シカゴ万博で披露した。"
+    },
+    {
+      "paragraph_id": "p2",
+      "summary": "現代の食洗機の基本設計は今もコクラン式に驚くほど似ている。"
+    },
+    {
+      "paragraph_id": "p3",
+      "summary": "60℃で予洗 → 循環ポンプと回転スプレーアーム → 混濁センサーで汚れ度測定 → 洗剤投入後の本洗い → 68℃の除菌すすぎ → 任意の乾燥。68℃は食品由来細菌の死滅に十分な温度。"
+    },
+    {
+      "paragraph_id": "p4",
+      "summary": "洗浄性能を左右する要因の一つが洗剤の種類。液体・粉末・ポッドの3形態、共通主成分は界面活性剤。酵素は食べ物を細片化し、漂白剤は殺菌・染み抜きを担う。"
+    },
+    {
+      "paragraph_id": "p5",
+      "summary": "液体は漂白剤か酵素の片方しか入れられない(漂白剤が酵素を分解)。粉末はワックスコートで両者を共存させ、ポッドはプラ膜で完全分離 ── ただし環境負荷の議論は分かれる。"
+    },
+    {
+      "paragraph_id": "p6",
+      "summary": "扱い方や前処理の影響も大きい。汚れたフィルタはセンサーを誤作動させ無駄な長サイクルを呼び、逆に過度なすすぎはセンサーに「綺麗」と判断させ短サイクルで頑固汚れを残す。スクレープのみが最適。3-5ガロンの水量は流し2.5分相当。"
+    },
+    {
+      "paragraph_id": "p7",
+      "summary": "ただし高温水は木製品・特定プラを反らせ、タンブラーや容器のシールを傷める。包丁は刃が鈍るしフィルタを傷つける。エネルギーは1サイクル=TV12時間相当。"
+    },
+    {
+      "paragraph_id": "p8",
+      "summary": "明らかに手洗いが理にかなう場面はある。だがディナーパーティ分の食器を前にしたら、食洗機は歓迎すべき救いとなる。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.961,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In 1883, American socialite Josephine Cochrane was suddenly widowed and left with mounting debts.",
+          "translation_ja": "1883年、アメリカの社交界婦人ジョセフィン・コクランは突然夫を亡くし、膨れ上がる負債を抱えて取り残された。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In 1883"
+            },
+            {
+              "label": "S",
+              "content": "American socialite Josephine Cochrane"
+            },
+            {
+              "label": "V",
+              "content": "was widowed / was left",
+              "note": "受動態並列"
+            },
+            {
+              "label": "M",
+              "content": "suddenly / with mounting debts"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In 1883, American "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "socialite",
+              "ref": "socialite",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Josephine Cochrane was suddenly "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "widowed",
+              "ref": "widowed",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and left with "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "mounting",
+              "ref": "mounting",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "debts",
+              "ref": "debts",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But she had an idea she hoped would turn her fortunes around.",
+          "translation_ja": "しかし彼女には運命を好転させると望むアイデアがあった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "she"
+            },
+            {
+              "label": "V",
+              "content": "had"
+            },
+            {
+              "label": "O",
+              "content": "an idea she hoped would turn her fortunes around",
+              "note": "関係詞節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But she had an idea she hoped would "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "turn … around",
+              "ref": "turn_around"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " her "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "fortunes",
+              "ref": "fortunes",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Years of hosting lavish dinner parties and watching her dishware get chipped during handwashing convinced her the world needed a better way to clean dishes.",
+          "translation_ja": "豪華なディナーパーティを主催し、手洗いで食器が欠けていくのを見続けた何年もの経験が、世界にはもっと良い食器洗浄法が必要だと彼女を確信させた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Years of hosting lavish dinner parties and watching her dishware get chipped during handwashing"
+            },
+            {
+              "label": "V",
+              "content": "convinced"
+            },
+            {
+              "label": "O1",
+              "content": "her"
+            },
+            {
+              "label": "O2",
+              "content": "the world needed a better way to clean dishes",
+              "note": "that 節省略"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Years of "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "hosting",
+              "ref": "hosting",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "lavish",
+              "ref": "lavish",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " dinner parties and watching her "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "dishware",
+              "ref": "dishware",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " get "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "chipped",
+              "ref": "chipped",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " during "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "handwashing",
+              "ref": "handwashing",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "convinced",
+              "ref": "convinced",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " her the world needed a better way to clean dishes."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "So, she poured the little money she had left into building a prototype, eventually showcasing her dishwashing contraption at the Chicago World's Fair.",
+          "translation_ja": "そこで彼女は残されたわずかな金を試作機の製造に注ぎ込み、ついにはシカゴ万博で食器洗いの仕掛けを披露するに至った。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "she"
+            },
+            {
+              "label": "V",
+              "content": "poured"
+            },
+            {
+              "label": "O",
+              "content": "the little money she had left"
+            },
+            {
+              "label": "M",
+              "content": "into building a prototype, eventually showcasing her dishwashing contraption at the Chicago World's Fair"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So, she "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "poured … into",
+              "ref": "pour_into"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the little money she had left into building a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "prototype",
+              "ref": "prototype",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", eventually "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "showcasing",
+              "ref": "showcasing",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " her dishwashing "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "contraption",
+              "ref": "contraption",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " at the "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "Chicago World's Fair",
+              "ref": "chicago_worlds_fair"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 45.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "This was the first step towards the modern dishwasher, whose basic design remains remarkably similar to Cochrane's.",
+          "translation_ja": "これが現代食洗機への第一歩であり、その基本設計はコクラン式に驚くほど似たままだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "the first step towards the modern dishwasher"
+            },
+            {
+              "label": "M",
+              "content": "whose basic design remains remarkably similar to Cochrane's",
+              "note": "非制限関係詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This was the first step towards the modern "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "dishwasher",
+              "ref": "dishwasher",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", whose basic design remains "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "remarkably",
+              "ref": "remarkably",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " similar to Cochrane's."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 55.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "When you press start on a dishwasher, it fills a small basin with water that's heated up to 60°C.",
+          "translation_ja": "食洗機のスタートを押すと、小さな水槽に60℃まで加熱された水が満たされる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "When you press start on a dishwasher",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "fills"
+            },
+            {
+              "label": "O",
+              "content": "a small basin with water that's heated up to 60°C"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "When you press start on a dishwasher, it fills a small "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "basin",
+              "ref": "basin",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " with water that's "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "heated",
+              "ref": "heated",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " up to 60°C."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Then the pre-wash cycle begins.",
+          "translation_ja": "次に予洗いサイクルが始まる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "the pre-wash cycle"
+            },
+            {
+              "label": "V",
+              "content": "begins"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then the "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "pre-wash cycle",
+              "ref": "pre_wash_cycle"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " begins."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "A circulation pump sends high-pressure water up into spray arms, where it shoots out of angled nozzles, propelling the arms to spin.",
+          "translation_ja": "循環ポンプが高圧水をスプレーアームへ送り、傾斜したノズルから噴出して、アーム自身を回転させる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "A circulation pump"
+            },
+            {
+              "label": "V",
+              "content": "sends"
+            },
+            {
+              "label": "O",
+              "content": "high-pressure water up into spray arms"
+            },
+            {
+              "label": "M",
+              "content": "where it shoots out of angled nozzles, propelling the arms to spin",
+              "note": "関係副詞節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "A "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "circulation",
+              "ref": "circulation",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " pump sends high-pressure water up into "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "spray arms",
+              "ref": "spray_arms"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", where it "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "shoots",
+              "ref": "shoots",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " out of "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "angled",
+              "ref": "angled",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "nozzles",
+              "ref": "nozzles",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "propelling",
+              "ref": "propelling",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " the arms to spin."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "The water recollects in the basin, where, in most modern models, a turbidity sensor measures the water's dirtiness by seeing how much light passes through it.",
+          "translation_ja": "水は水槽に戻り、現代型の多くではそこで混濁センサーが、どれだけ光が通るかを見て水の汚れ度を測る。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The water"
+            },
+            {
+              "label": "V",
+              "content": "recollects"
+            },
+            {
+              "label": "M",
+              "content": "in the basin"
+            },
+            {
+              "label": "M",
+              "content": "where, in most modern models, a turbidity sensor measures the water's dirtiness by seeing how much light passes through it",
+              "note": "関係副詞節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The water "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "recollects",
+              "ref": "recollects",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in the basin, where, in most modern models, a "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "turbidity sensor",
+              "ref": "turbidity_sensor"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " measures the water's "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "dirtiness",
+              "ref": "dirtiness",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " by seeing how much light passes through it."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "The dishwasher then adjusts the wash time and water temperature accordingly and transitions to the wash cycle.",
+          "translation_ja": "食洗機はそれに応じて洗浄時間と水温を調節し、本洗いサイクルへ移行する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The dishwasher"
+            },
+            {
+              "label": "V",
+              "content": "adjusts / transitions",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "the wash time and water temperature accordingly / to the wash cycle"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The dishwasher then "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "adjusts",
+              "ref": "adjusts",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the wash time and water temperature "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "accordingly",
+              "ref": "accordingly",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "transitions",
+              "ref": "transitions",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to the wash cycle."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Detergent is released and the dishwasher cycles the now-detergent-filled water.",
+          "translation_ja": "洗剤が放出され、食洗機は洗剤を含んだ水を循環させる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Detergent"
+            },
+            {
+              "label": "V",
+              "content": "is released",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "and the dishwasher cycles the now-detergent-filled water",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Detergent",
+              "ref": "detergent",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "released",
+              "ref": "released",
+              "tier": "skip"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " and the dishwasher cycles the now-detergent-filled water."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "This dirty water drains and clean water, heated to an even hotter 68°C, is circulated for a final sanitizing rinse.",
+          "translation_ja": "この汚水は排出され、さらに高温の68℃に加熱された清水が、最終の除菌すすぎのために循環される。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This dirty water / clean water, heated to an even hotter 68°C",
+              "note": "並列"
+            },
+            {
+              "label": "V",
+              "content": "drains / is circulated"
+            },
+            {
+              "label": "M",
+              "content": "for a final sanitizing rinse"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This dirty water "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "drains",
+              "ref": "drains",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and clean water, heated to an even hotter 68°C, is "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "circulated",
+              "ref": "circulated",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " for a final "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "sanitizing",
+              "ref": "sanitizing",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "rinse",
+              "ref": "rinse",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "This is at least 10 degrees warmer than a typical sink's hottest water, and hot enough to eliminate most foodborne bacteria.",
+          "translation_ja": "これは普通の流しの最高水温より少なくとも10℃高く、ほとんどの食品由来細菌を死滅させるに十分な温度だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "at least 10 degrees warmer than a typical sink's hottest water, and hot enough to eliminate most foodborne bacteria"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This is at least 10 degrees warmer than a typical "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "sink",
+              "ref": "sink",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "'s hottest water, and hot enough to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "eliminate",
+              "ref": "eliminate",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " most "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "foodborne",
+              "ref": "foodborne",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "bacteria",
+              "ref": "bacteria",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "Finally, the dishwasher may enter an optional drying cycle.",
+          "translation_ja": "最後に、食洗機はオプションの乾燥サイクルに入ることもある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Finally"
+            },
+            {
+              "label": "S",
+              "content": "the dishwasher"
+            },
+            {
+              "label": "V",
+              "content": "may enter"
+            },
+            {
+              "label": "O",
+              "content": "an optional drying cycle"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Finally, the dishwasher may enter an "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "optional",
+              "ref": "optional",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " drying cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 130.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "While that's how most dishwashers work, how well they actually clean depends on several factors— the first being the type of detergent you use.",
+          "translation_ja": "それが大半の食洗機の働きだが、実際にどれほど綺麗に洗えるかは複数の要因に依存する ── まず洗剤の種類だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While that's how most dishwashers work",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "how well they actually clean"
+            },
+            {
+              "label": "V",
+              "content": "depends"
+            },
+            {
+              "label": "M",
+              "content": "on several factors— the first being the type of detergent you use"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While that's how most dishwashers work, how well they actually clean depends on several "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "factors",
+              "ref": "factors",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— the first being the type of detergent you use."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Detergent comes in three forms: liquid, powder, and pods.",
+          "translation_ja": "洗剤は液体・粉末・ポッドの3形態がある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Detergent"
+            },
+            {
+              "label": "V",
+              "content": "comes"
+            },
+            {
+              "label": "M",
+              "content": "in three forms: liquid, powder, and pods"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Detergent comes in three forms: "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "liquid",
+              "ref": "liquid",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "powder",
+              "ref": "powder",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "pods",
+              "ref": "pods",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "The main ingredient in all three is the surfactant.",
+          "translation_ja": "3形態すべての主成分が界面活性剤だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The main ingredient in all three"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "the surfactant"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The main "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "ingredient",
+              "ref": "ingredient",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in all three is the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "surfactant",
+              "ref": "surfactant",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "These special dual-ended molecules remove food residues by latching onto them with one end and pulling towards the water with the other.",
+          "translation_ja": "この特殊な両端分子は、片端で食物残渣に絡みつき、もう片端で水のほうへ引っ張ることで残渣を除去する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These special dual-ended molecules"
+            },
+            {
+              "label": "V",
+              "content": "remove"
+            },
+            {
+              "label": "O",
+              "content": "food residues"
+            },
+            {
+              "label": "M",
+              "content": "by latching onto them with one end and pulling towards the water with the other"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These special "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "dual-ended",
+              "ref": "dual_ended"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "molecules",
+              "ref": "molecules",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " remove "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "food residues",
+              "ref": "food_residues"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " by "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "latching onto",
+              "ref": "latch_onto"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " them with one end and pulling towards the water with the other."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "You'll also find surfactants in regular dish soap, but detergents go further.",
+          "translation_ja": "界面活性剤は普通の食器用石鹸にも入っているが、食洗機用洗剤はさらに先まで行く。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "You"
+            },
+            {
+              "label": "V",
+              "content": "will find"
+            },
+            {
+              "label": "O",
+              "content": "surfactants in regular dish soap"
+            },
+            {
+              "label": "M",
+              "content": "but detergents go further",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "You'll also find surfactants in regular "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "dish",
+              "ref": "dish",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "soap",
+              "ref": "soap",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", but detergents go further."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "They often contain enzymes that break down food into smaller pieces that surfactants can easily tug away, and bleach, which disinfects and removes stains.",
+          "translation_ja": "酵素が食べ物を小片に分解して界面活性剤が容易に引き剥がせる形にし、漂白剤が殺菌して汚れを落とす ── そうした成分をしばしば含む。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "They"
+            },
+            {
+              "label": "V",
+              "content": "contain"
+            },
+            {
+              "label": "O",
+              "content": "enzymes that break down food into smaller pieces that surfactants can easily tug away, and bleach, which disinfects and removes stains"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "They often contain "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "enzymes",
+              "ref": "enzymes",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " that "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "break down",
+              "ref": "break_down"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " food into smaller pieces that surfactants can easily "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "tug",
+              "ref": "tug",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " away, and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "bleach",
+              "ref": "bleach",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", which "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "disinfects",
+              "ref": "disinfects",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " and removes "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "stains",
+              "ref": "stains",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 175.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "So, which detergent form is best?",
+          "translation_ja": "では、どの洗剤形態が最良なのか?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "which detergent form"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "best"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So, which detergent form is best?"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Liquid detergent can only contain bleach or enzymes, since bleach breaks down enzymes in liquid form.",
+          "translation_ja": "液体洗剤は漂白剤か酵素のいずれか一方しか入れられない。液体中では漂白剤が酵素を分解してしまうからだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Liquid detergent"
+            },
+            {
+              "label": "V",
+              "content": "can contain"
+            },
+            {
+              "label": "O",
+              "content": "bleach or enzymes"
+            },
+            {
+              "label": "M",
+              "content": "since bleach breaks down enzymes in liquid form",
+              "note": "理由"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Liquid detergent can only contain bleach or enzymes, since bleach "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "breaks down",
+              "ref": "break_down"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " enzymes in liquid form."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Powder detergents solve this problem by coating powdered enzymes with a protective wax, allowing them to work alongside powdered bleach.",
+          "translation_ja": "粉末洗剤はこの問題を、粉末酵素を保護用ワックスで被覆することで解決し、粉末漂白剤と並存させる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Powder detergents"
+            },
+            {
+              "label": "V",
+              "content": "solve"
+            },
+            {
+              "label": "O",
+              "content": "this problem"
+            },
+            {
+              "label": "M",
+              "content": "by coating powdered enzymes with a protective wax, allowing them to work alongside powdered bleach"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Powder detergents solve this problem by "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "coating",
+              "ref": "coating",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " powdered enzymes with a protective "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "wax",
+              "ref": "wax",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", allowing them to work alongside powdered bleach."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "But even more effective are dishwasher pods that separate components using a plastic film.",
+          "translation_ja": "しかし更に効果的なのは、プラスチック膜で成分を分離する食洗機ポッドだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "dishwasher pods that separate components using a plastic film"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "even more effective",
+              "note": "倒置"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But even more effective are dishwasher pods that "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "separate",
+              "ref": "separate",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "components",
+              "ref": "components",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " using a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "plastic",
+              "ref": "plastic",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "film",
+              "ref": "film",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Though, pods may have environmental impacts— some studies claim the plastic biodegrades in a couple of months, while others find it persists for much longer.",
+          "translation_ja": "ただしポッドには環境への影響があるかもしれない ── プラスチックが数か月で生分解するとする研究もあれば、もっと長く残ると指摘する研究もある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Though"
+            },
+            {
+              "label": "S",
+              "content": "pods"
+            },
+            {
+              "label": "V",
+              "content": "may have"
+            },
+            {
+              "label": "O",
+              "content": "environmental impacts"
+            },
+            {
+              "label": "M",
+              "content": "some studies claim the plastic biodegrades in a couple of months, while others find it persists for much longer",
+              "note": "補足"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Though, pods may have "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "environmental",
+              "ref": "environmental",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "impacts",
+              "ref": "impacts",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "— some studies claim the plastic "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "biodegrades",
+              "ref": "biodegrades",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in a couple of months, while others find it "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "persists",
+              "ref": "persists",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " for much longer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 215.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "How you treat your dishwasher, and the dishes you put in, can also affect performance.",
+          "translation_ja": "食洗機の扱い方や入れる食器も性能に影響しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "How you treat your dishwasher, and the dishes you put in"
+            },
+            {
+              "label": "V",
+              "content": "can affect"
+            },
+            {
+              "label": "O",
+              "content": "performance"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "How you treat your dishwasher, and the dishes you put in, can also affect "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "performance",
+              "ref": "performance",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "A dirty dishwasher or filter can trick the turbidity sensor into thinking dishes are dirtier than they are, prompting an unnecessarily long wash cycle.",
+          "translation_ja": "汚れた食洗機やフィルターは混濁センサーに「実際より食器が汚い」と誤認させ、不必要に長い洗浄サイクルを呼び起こす。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "A dirty dishwasher or filter"
+            },
+            {
+              "label": "V",
+              "content": "can trick"
+            },
+            {
+              "label": "O",
+              "content": "the turbidity sensor into thinking dishes are dirtier than they are"
+            },
+            {
+              "label": "M",
+              "content": "prompting an unnecessarily long wash cycle",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "A dirty dishwasher or "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "filter",
+              "ref": "filter",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " can trick the turbidity sensor into thinking dishes are dirtier than they are, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "prompting",
+              "ref": "prompting",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "unnecessarily",
+              "ref": "unnecessarily",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " long wash cycle."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And while it might seem counterintuitive, rinsing dishes beforehand can also cause problems.",
+          "translation_ja": "直感に反するかもしれないが、事前にすすぐことも問題を起こしうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while it might seem counterintuitive",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "rinsing dishes beforehand"
+            },
+            {
+              "label": "V",
+              "content": "can cause"
+            },
+            {
+              "label": "O",
+              "content": "problems"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And while it might seem "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "counterintuitive",
+              "ref": "counterintuitive",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", rinsing dishes "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "beforehand",
+              "ref": "beforehand",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " can also cause problems."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "If dishes are well rinsed, the turbidity sensor will detect minimal grime and trigger a short wash cycle, which may not be enough to break down any stubborn stuck-on crust.",
+          "translation_ja": "食器がよくすすがれていると、混濁センサーは最小限の汚れしか検知せず短い洗浄サイクルを発動するが、これでは頑固なこびりつきを分解しきれないかもしれない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "If dishes are well rinsed",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "the turbidity sensor"
+            },
+            {
+              "label": "V",
+              "content": "will detect / trigger",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "minimal grime / a short wash cycle"
+            },
+            {
+              "label": "M",
+              "content": "which may not be enough to break down any stubborn stuck-on crust",
+              "note": "関係詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "If dishes are well "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rinsed",
+              "ref": "rinsed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", the turbidity sensor will detect "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "minimal",
+              "ref": "minimal",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "grime",
+              "ref": "grime",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and trigger a short wash cycle, which may not be enough to break down any "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "stubborn",
+              "ref": "stubborn",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "stuck-on",
+              "ref": "stuck_on"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "crust",
+              "ref": "crust",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Further, the enzymes in detergent are designed to latch onto food residue, so the best practice is to simply scrape your dishes before loading.",
+          "translation_ja": "さらに、洗剤中の酵素は食物残渣に絡みつくよう設計されているので、最善はただ食器をスクレープしてから入れることだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "the enzymes in detergent"
+            },
+            {
+              "label": "V",
+              "content": "are designed"
+            },
+            {
+              "label": "M",
+              "content": "to latch onto food residue, so the best practice is to simply scrape your dishes before loading"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Further, the enzymes in detergent are designed to "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "latch onto",
+              "ref": "latch_onto"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " food "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "residue",
+              "ref": "residue",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", so the best practice is to simply "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "scrape",
+              "ref": "scrape",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " your dishes before "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "loading",
+              "ref": "loading",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "What's more, by letting the dishwasher do all the work, you'll also save water.",
+          "translation_ja": "加えて、食洗機にすべて任せれば水も節約できる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "What's more"
+            },
+            {
+              "label": "M",
+              "content": "by letting the dishwasher do all the work"
+            },
+            {
+              "label": "S",
+              "content": "you"
+            },
+            {
+              "label": "V",
+              "content": "will save"
+            },
+            {
+              "label": "O",
+              "content": "water"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "What's more",
+              "ref": "whats_more"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", by letting the dishwasher do all the work, you'll also save water."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "Dishwashers recycle water during the wash cycle, so they only use 3 to 5 gallons.",
+          "translation_ja": "食洗機は洗浄サイクル中に水を再利用するため、3〜5ガロンしか使わない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Dishwashers"
+            },
+            {
+              "label": "V",
+              "content": "recycle / use",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "water / 3 to 5 gallons"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Dishwashers "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "recycle",
+              "ref": "recycle",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " water during the wash cycle, so they only use 3 to 5 "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "gallons",
+              "ref": "gallons",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "That's equivalent to running a kitchen sink for up to 2.5 minutes.",
+          "translation_ja": "これは台所の流しを最大2.5分間流すのと同等だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "That"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "equivalent to running a kitchen sink for up to 2.5 minutes"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "That's "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "equivalent to",
+              "ref": "equivalent_to"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " running a kitchen sink for up to 2.5 minutes."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "So if you think handwashing your dishes might take longer than that, it might be worth just running a load.",
+          "translation_ja": "だから手洗いがそれより長くかかりそうなら、一回まわす価値があるかもしれない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "if you think handwashing your dishes might take longer than that",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "might be"
+            },
+            {
+              "label": "C",
+              "content": "worth just running a load"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So if you think handwashing your dishes might take longer than that, it might be "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "worth doing",
+              "ref": "worth_doing"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " just running a load."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 270.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Of course, there are reasons to not throw in the towel on handwashing altogether.",
+          "translation_ja": "もちろん、手洗いをまったく諦める必要のない理由もある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "reasons to not throw in the towel on handwashing altogether"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Of course, there are reasons to not "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "throw in the towel",
+              "ref": "throw_in_towel"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " on handwashing "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "altogether",
+              "ref": "altogether",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Since dishwashers use very hot water, they can warp wooden items and certain plastics, damaging seals in travel mugs or storage containers.",
+          "translation_ja": "食洗機は高温水を使うため、木製品や特定のプラスチックを反らせ、タンブラーや保存容器のシールを傷めることがある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Since dishwashers use very hot water",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "can warp / damaging",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "wooden items and certain plastics / seals in travel mugs or storage containers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Since dishwashers use very hot water, they can "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "warp",
+              "ref": "warp",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " wooden items and certain plastics, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "damaging",
+              "ref": "damaging",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "seals",
+              "ref": "seals",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in travel mugs or storage containers."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Sharp knives can also be dulled by detergents, or they can even damage the dishwasher itself.",
+          "translation_ja": "鋭利な包丁も洗剤で切れ味が鈍るし、逆に食洗機を傷つけることもある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Sharp knives"
+            },
+            {
+              "label": "V",
+              "content": "can be dulled",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "by detergents"
+            },
+            {
+              "label": "M",
+              "content": "or they can even damage the dishwasher itself",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Sharp "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "knives",
+              "ref": "knives",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " can also be "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "dulled",
+              "ref": "dulled",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " by detergents, or they can even damage the dishwasher itself."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "And there's also an energy consideration.",
+          "translation_ja": "そしてエネルギー面の考慮もある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "an energy consideration"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And there's also an energy "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "consideration",
+              "ref": "consideration",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "On average, a standard dishwasher cycle uses about the same amount of energy as leaving your TV on for 12 hours.",
+          "translation_ja": "平均すると、標準的な食洗機1サイクルはテレビを12時間つけっぱなしにするのと同程度のエネルギーを使う。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "On average"
+            },
+            {
+              "label": "S",
+              "content": "a standard dishwasher cycle"
+            },
+            {
+              "label": "V",
+              "content": "uses"
+            },
+            {
+              "label": "O",
+              "content": "about the same amount of energy as leaving your TV on for 12 hours"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "On average",
+              "ref": "on_average"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", a standard dishwasher cycle uses about the same amount of energy as leaving your TV on for 12 hours."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start_sec": 308.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Clearly, there are situations when handwashing makes more sense.",
+          "translation_ja": "明らかに、手洗いの方が理にかなう場面もある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "situations when handwashing makes more sense"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Clearly, there are situations when handwashing "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "makes more sense",
+              "ref": "makes_sense"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But if you're faced with a dinner party's worth of dishes, a dishwasher can be a welcome reprieve.",
+          "translation_ja": "だがディナーパーティ分の食器を前にしたなら、食洗機は歓迎すべき救いとなる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "if you're faced with a dinner party's worth of dishes",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "a dishwasher"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "a welcome reprieve"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But if you're "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "faced with",
+              "ref": "faced_with"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a dinner party's worth of dishes, a dishwasher can be a welcome "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "reprieve",
+              "ref": "reprieve",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "accordingly": {
+      "tier": "known",
+      "surface": "accordingly",
+      "pos": "adv · B2",
+      "pron": "/əˈkɔː.dɪŋ.li/",
+      "meaning": "それに応じて",
+      "example": {
+        "en": "Act accordingly.",
+        "ja": "それに応じて行動。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adjusts": {
+      "tier": "known",
+      "surface": "adjusts",
+      "pos": "v · B1",
+      "pron": "/əˈdʒʌsts/",
+      "meaning": "調節する",
+      "example": {
+        "en": "Adjusts the temperature.",
+        "ja": "温度調節。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "altogether": {
+      "tier": "known",
+      "surface": "altogether",
+      "pos": "adv · B2",
+      "pron": "/ˌɔːl.təˈɡeð.ər/",
+      "meaning": "まったく",
+      "example": {
+        "en": "Stop altogether.",
+        "ja": "完全に止める。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "angled": {
+      "tier": "known",
+      "surface": "angled",
+      "pos": "adj · B2",
+      "pron": "/ˈæŋ.ɡəld/",
+      "meaning": "角度を付けた",
+      "example": {
+        "en": "Angled nozzle.",
+        "ja": "角度付きノズル。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bacteria": {
+      "tier": "known",
+      "surface": "bacteria",
+      "pos": "n · B1",
+      "pron": "/bækˈtɪə.ri.ə/",
+      "meaning": "細菌",
+      "example": {
+        "en": "Harmful bacteria.",
+        "ja": "有害細菌。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "basin": {
+      "tier": "known",
+      "surface": "basin",
+      "pos": "n · B2",
+      "pron": "/ˈbeɪ.sən/",
+      "meaning": "水槽",
+      "example": {
+        "en": "Wash basin.",
+        "ja": "洗面台。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "beforehand": {
+      "tier": "known",
+      "surface": "beforehand",
+      "pos": "adv · B2",
+      "pron": "/bɪˈfɔː.hænd/",
+      "meaning": "事前に",
+      "example": {
+        "en": "Done beforehand.",
+        "ja": "事前に完了。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "biodegrades": {
+      "tier": "key",
+      "surface": "biodegrades",
+      "pos": "v · C1",
+      "pron": "/ˌbaɪ.oʊ.dɪˈɡreɪdz/",
+      "meaning": "生分解する",
+      "example": {
+        "en": "Biodegrades quickly.",
+        "ja": "急速に生分解。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bleach": {
+      "tier": "known",
+      "surface": "bleach",
+      "pos": "n · B2",
+      "pron": "/bliːtʃ/",
+      "meaning": "漂白剤",
+      "example": {
+        "en": "Diluted bleach.",
+        "ja": "希釈漂白剤。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chipped": {
+      "tier": "known",
+      "surface": "chipped",
+      "pos": "v · B2",
+      "pron": "/tʃɪpt/",
+      "meaning": "欠けた",
+      "example": {
+        "en": "Chipped cup.",
+        "ja": "欠けたカップ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "circulated": {
+      "tier": "known",
+      "surface": "circulated",
+      "pos": "v · B2",
+      "pron": "/ˈsɜː.kjə.leɪ.tɪd/",
+      "meaning": "循環された",
+      "example": {
+        "en": "Circulated air.",
+        "ja": "循環空気。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "circulation": {
+      "tier": "known",
+      "surface": "circulation",
+      "pos": "n · B2",
+      "pron": "/ˌsɜː.kjəˈleɪ.ʃən/",
+      "meaning": "循環",
+      "example": {
+        "en": "Blood circulation.",
+        "ja": "血液循環。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "coating": {
+      "tier": "known",
+      "surface": "coating",
+      "pos": "v · B2",
+      "pron": "/ˈkoʊ.tɪŋ/",
+      "meaning": "被覆して",
+      "example": {
+        "en": "Coating the surface.",
+        "ja": "表面を被覆。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "components": {
+      "tier": "known",
+      "surface": "components",
+      "pos": "n · B2",
+      "pron": "/kəmˈpoʊ.nənts/",
+      "meaning": "成分、部品",
+      "example": {
+        "en": "Electronic components.",
+        "ja": "電子部品。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "consideration": {
+      "tier": "known",
+      "surface": "consideration",
+      "pos": "n · B1",
+      "pron": "/kənˌsɪd.əˈreɪ.ʃən/",
+      "meaning": "考慮",
+      "example": {
+        "en": "Take into consideration.",
+        "ja": "考慮に入れる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "contraption": {
+      "tier": "key",
+      "surface": "contraption",
+      "pos": "n · C1",
+      "pron": "/kənˈtræp.ʃən/",
+      "meaning": "奇妙な仕掛け、装置",
+      "example": {
+        "en": "Strange contraption.",
+        "ja": "奇妙な装置。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "convinced": {
+      "tier": "known",
+      "surface": "convinced",
+      "pos": "v · B1",
+      "pron": "/kənˈvɪnst/",
+      "meaning": "確信させた",
+      "example": {
+        "en": "Convinced him.",
+        "ja": "彼を確信させた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "counterintuitive": {
+      "tier": "key",
+      "surface": "counterintuitive",
+      "pos": "adj · C1",
+      "pron": "/ˌkaʊn.tər.ɪnˈtuː.ɪ.tɪv/",
+      "meaning": "直感に反する",
+      "example": {
+        "en": "Counterintuitive result.",
+        "ja": "直感に反する結果。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crust": {
+      "tier": "known",
+      "surface": "crust",
+      "pos": "n · B2",
+      "pron": "/krʌst/",
+      "meaning": "こびりつき、皮",
+      "example": {
+        "en": "Crusty bread.",
+        "ja": "皮の硬いパン。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "damaging": {
+      "tier": "skip",
+      "surface": "damaging",
+      "pos": "v · A2",
+      "pron": "/ˈdæm.ɪ.dʒɪŋ/",
+      "meaning": "傷つけて",
+      "example": {
+        "en": "Damaging effects.",
+        "ja": "損傷効果。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "debts": {
+      "tier": "known",
+      "surface": "debts",
+      "pos": "n · B1",
+      "pron": "/dets/",
+      "meaning": "負債",
+      "example": {
+        "en": "Pay off debts.",
+        "ja": "負債返済。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "detergent": {
+      "tier": "known",
+      "surface": "Detergent",
+      "pos": "n · B1",
+      "pron": "/dɪˈtɜː.dʒənt/",
+      "meaning": "洗剤",
+      "example": {
+        "en": "Liquid detergent.",
+        "ja": "液体洗剤。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dirtiness": {
+      "tier": "known",
+      "surface": "dirtiness",
+      "pos": "n · B2",
+      "pron": "/ˈdɜː.ti.nəs/",
+      "meaning": "汚れ度",
+      "example": {
+        "en": "Surface dirtiness.",
+        "ja": "表面の汚れ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dish": {
+      "tier": "skip",
+      "surface": "dish",
+      "pos": "n · A1",
+      "pron": "/dɪʃ/",
+      "meaning": "皿",
+      "example": {
+        "en": "Main dish.",
+        "ja": "メインディッシュ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dishware": {
+      "tier": "key",
+      "surface": "dishware",
+      "pos": "n · C1",
+      "pron": "/ˈdɪʃ.weər/",
+      "meaning": "食器類",
+      "example": {
+        "en": "Fine dishware.",
+        "ja": "上等な食器。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dishwasher": {
+      "tier": "known",
+      "surface": "dishwasher",
+      "pos": "n · B1",
+      "pron": "/ˈdɪʃ.wɒʃ.ər/",
+      "meaning": "食洗機",
+      "example": {
+        "en": "Built-in dishwasher.",
+        "ja": "ビルトイン食洗機。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disinfects": {
+      "tier": "known",
+      "surface": "disinfects",
+      "pos": "v · B2",
+      "pron": "/ˌdɪs.ɪnˈfekts/",
+      "meaning": "殺菌する",
+      "example": {
+        "en": "Disinfects the area.",
+        "ja": "領域を殺菌。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "drains": {
+      "tier": "known",
+      "surface": "drains",
+      "pos": "v · B2",
+      "pron": "/dreɪnz/",
+      "meaning": "排出する",
+      "example": {
+        "en": "Water drains.",
+        "ja": "水が排出される。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dulled": {
+      "tier": "known",
+      "surface": "dulled",
+      "pos": "v · B2",
+      "pron": "/dʌld/",
+      "meaning": "鈍くされた",
+      "example": {
+        "en": "Dulled blade.",
+        "ja": "鈍った刃。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eliminate": {
+      "tier": "known",
+      "surface": "eliminate",
+      "pos": "v · B2",
+      "pron": "/ɪˈlɪm.ɪ.neɪt/",
+      "meaning": "除去する",
+      "example": {
+        "en": "Eliminate waste.",
+        "ja": "廃棄物除去。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "environmental": {
+      "tier": "known",
+      "surface": "environmental",
+      "pos": "adj · B1",
+      "pron": "/ɪnˌvaɪə.rənˈmen.təl/",
+      "meaning": "環境の",
+      "example": {
+        "en": "Environmental impact.",
+        "ja": "環境影響。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enzymes": {
+      "tier": "known",
+      "surface": "enzymes",
+      "pos": "n · B2",
+      "pron": "/ˈen.zaɪmz/",
+      "meaning": "酵素",
+      "example": {
+        "en": "Digestive enzymes.",
+        "ja": "消化酵素。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "factors": {
+      "tier": "known",
+      "surface": "factors",
+      "pos": "n · B1",
+      "pron": "/ˈfæk.təz/",
+      "meaning": "要因",
+      "example": {
+        "en": "Key factors.",
+        "ja": "主要因。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "film": {
+      "tier": "skip",
+      "surface": "film",
+      "pos": "n · A2",
+      "pron": "/fɪlm/",
+      "meaning": "膜",
+      "example": {
+        "en": "Plastic film.",
+        "ja": "プラスチック膜。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "filter": {
+      "tier": "known",
+      "surface": "filter",
+      "pos": "n · B1",
+      "pron": "/ˈfɪl.tər/",
+      "meaning": "フィルタ",
+      "example": {
+        "en": "Air filter.",
+        "ja": "エアフィルタ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "foodborne": {
+      "tier": "known",
+      "surface": "foodborne",
+      "pos": "adj · B2",
+      "pron": "/ˈfuːd.bɔːn/",
+      "meaning": "食品由来の",
+      "example": {
+        "en": "Foodborne illness.",
+        "ja": "食中毒。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fortunes": {
+      "tier": "known",
+      "surface": "fortunes",
+      "pos": "n · B2",
+      "pron": "/ˈfɔː.tʃənz/",
+      "meaning": "運勢、財運",
+      "example": {
+        "en": "Reversal of fortunes.",
+        "ja": "運勢の逆転。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "gallons": {
+      "tier": "known",
+      "surface": "gallons",
+      "pos": "n · B2",
+      "pron": "/ˈɡæl.ənz/",
+      "meaning": "ガロン",
+      "example": {
+        "en": "Two gallons.",
+        "ja": "2ガロン。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grime": {
+      "tier": "known",
+      "surface": "grime",
+      "pos": "n · B2",
+      "pron": "/ɡraɪm/",
+      "meaning": "汚れ",
+      "example": {
+        "en": "Layer of grime.",
+        "ja": "汚れの層。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "handwashing": {
+      "tier": "known",
+      "surface": "handwashing",
+      "pos": "n · B1",
+      "pron": "/ˈhænd.wɒʃ.ɪŋ/",
+      "meaning": "手洗い",
+      "example": {
+        "en": "Hand washing dishes.",
+        "ja": "食器の手洗い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "heated": {
+      "tier": "skip",
+      "surface": "heated",
+      "pos": "v · A2",
+      "pron": "/ˈhiː.tɪd/",
+      "meaning": "加熱された",
+      "example": {
+        "en": "Heated water.",
+        "ja": "加熱水。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hosting": {
+      "tier": "known",
+      "surface": "hosting",
+      "pos": "v · B1",
+      "pron": "/ˈhoʊs.tɪŋ/",
+      "meaning": "主催して",
+      "example": {
+        "en": "Hosting parties.",
+        "ja": "パーティを主催。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impacts": {
+      "tier": "known",
+      "surface": "impacts",
+      "pos": "n · B1",
+      "pron": "/ˈɪm.pækts/",
+      "meaning": "影響",
+      "example": {
+        "en": "Health impacts.",
+        "ja": "健康影響。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ingredient": {
+      "tier": "known",
+      "surface": "ingredient",
+      "pos": "n · B1",
+      "pron": "/ɪnˈɡriː.di.ənt/",
+      "meaning": "成分",
+      "example": {
+        "en": "Main ingredient.",
+        "ja": "主成分。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "knives": {
+      "tier": "skip",
+      "surface": "knives",
+      "pos": "n · A2",
+      "pron": "/naɪvz/",
+      "meaning": "包丁",
+      "example": {
+        "en": "Sharp knives.",
+        "ja": "鋭利な包丁。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lavish": {
+      "tier": "known",
+      "surface": "lavish",
+      "pos": "adj · B2",
+      "pron": "/ˈlæv.ɪʃ/",
+      "meaning": "豪華な",
+      "example": {
+        "en": "Lavish dinner.",
+        "ja": "豪華な晩餐。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "liquid": {
+      "tier": "known",
+      "surface": "liquid",
+      "pos": "n · B1",
+      "pron": "/ˈlɪk.wɪd/",
+      "meaning": "液体",
+      "example": {
+        "en": "Clear liquid.",
+        "ja": "透明な液体。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "loading": {
+      "tier": "skip",
+      "surface": "loading",
+      "pos": "v · A2",
+      "pron": "/ˈloʊ.dɪŋ/",
+      "meaning": "入れること",
+      "example": {
+        "en": "Loading the truck.",
+        "ja": "トラック積載。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "minimal": {
+      "tier": "known",
+      "surface": "minimal",
+      "pos": "adj · B2",
+      "pron": "/ˈmɪn.ɪ.məl/",
+      "meaning": "最小限の",
+      "example": {
+        "en": "Minimal effort.",
+        "ja": "最小限の努力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "molecules": {
+      "tier": "known",
+      "surface": "molecules",
+      "pos": "n · B2",
+      "pron": "/ˈmɒl.ɪ.kjuːlz/",
+      "meaning": "分子",
+      "example": {
+        "en": "Water molecules.",
+        "ja": "水分子。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mounting": {
+      "tier": "known",
+      "surface": "mounting",
+      "pos": "adj · B2",
+      "pron": "/ˈmaʊn.tɪŋ/",
+      "meaning": "増大する",
+      "example": {
+        "en": "Mounting pressure.",
+        "ja": "増大する圧力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nozzles": {
+      "tier": "known",
+      "surface": "nozzles",
+      "pos": "n · B2",
+      "pron": "/ˈnɒz.əlz/",
+      "meaning": "ノズル",
+      "example": {
+        "en": "Spray nozzles.",
+        "ja": "噴霧ノズル。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "optional": {
+      "tier": "known",
+      "surface": "optional",
+      "pos": "adj · B1",
+      "pron": "/ˈɒp.ʃən.əl/",
+      "meaning": "任意の",
+      "example": {
+        "en": "Optional feature.",
+        "ja": "任意機能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "performance": {
+      "tier": "skip",
+      "surface": "performance",
+      "pos": "n · A2",
+      "pron": "/pəˈfɔː.məns/",
+      "meaning": "性能",
+      "example": {
+        "en": "Top performance.",
+        "ja": "最高性能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "persists": {
+      "tier": "known",
+      "surface": "persists",
+      "pos": "v · B2",
+      "pron": "/pəˈsɪsts/",
+      "meaning": "残存する",
+      "example": {
+        "en": "Pain persists.",
+        "ja": "痛みが続く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "plastic": {
+      "tier": "skip",
+      "surface": "plastic",
+      "pos": "n · A2",
+      "pron": "/ˈplæs.tɪk/",
+      "meaning": "プラスチック",
+      "example": {
+        "en": "Plastic bottle.",
+        "ja": "プラ瓶。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pods": {
+      "tier": "known",
+      "surface": "pods",
+      "pos": "n · B2",
+      "pron": "/pɒdz/",
+      "meaning": "ポッド、莢",
+      "example": {
+        "en": "Coffee pods.",
+        "ja": "コーヒーポッド。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "powder": {
+      "tier": "known",
+      "surface": "powder",
+      "pos": "n · B1",
+      "pron": "/ˈpaʊ.dər/",
+      "meaning": "粉末",
+      "example": {
+        "en": "White powder.",
+        "ja": "白い粉。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prompting": {
+      "tier": "known",
+      "surface": "prompting",
+      "pos": "v · B2",
+      "pron": "/ˈprɒmp.tɪŋ/",
+      "meaning": "促して",
+      "example": {
+        "en": "Prompting action.",
+        "ja": "行動を促して。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "propelling": {
+      "tier": "known",
+      "surface": "propelling",
+      "pos": "v · B2",
+      "pron": "/prəˈpel.ɪŋ/",
+      "meaning": "推進して",
+      "example": {
+        "en": "Propelling forward.",
+        "ja": "前進させて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prototype": {
+      "tier": "known",
+      "surface": "prototype",
+      "pos": "n · B2",
+      "pron": "/ˈproʊ.tə.taɪp/",
+      "meaning": "試作機",
+      "example": {
+        "en": "Working prototype.",
+        "ja": "動作する試作。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "recollects": {
+      "tier": "known",
+      "surface": "recollects",
+      "pos": "v · C1",
+      "pron": "/ˌriː.kəˈlekts/",
+      "meaning": "再び集まる",
+      "example": {
+        "en": "Water recollects.",
+        "ja": "水が再び集まる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "recycle": {
+      "tier": "known",
+      "surface": "recycle",
+      "pos": "v · B1",
+      "pron": "/ˌriːˈsaɪ.kl/",
+      "meaning": "再利用する",
+      "example": {
+        "en": "Recycle bottles.",
+        "ja": "瓶を再利用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "released": {
+      "tier": "skip",
+      "surface": "released",
+      "pos": "v · A2",
+      "pron": "/rɪˈliːst/",
+      "meaning": "放出された",
+      "example": {
+        "en": "Released into.",
+        "ja": "〜へ放出。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "remarkably": {
+      "tier": "known",
+      "surface": "remarkably",
+      "pos": "adv · B2",
+      "pron": "/rɪˈmɑːk.ə.bli/",
+      "meaning": "驚くほど",
+      "example": {
+        "en": "Remarkably similar.",
+        "ja": "驚くほど似ている。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reprieve": {
+      "tier": "key",
+      "surface": "reprieve",
+      "pos": "n · C1",
+      "pron": "/rɪˈpriːv/",
+      "meaning": "救済、執行猶予",
+      "example": {
+        "en": "Welcome reprieve.",
+        "ja": "歓迎すべき救済。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "residue": {
+      "tier": "known",
+      "surface": "residue",
+      "pos": "n · B2",
+      "pron": "/ˈrez.ɪ.djuː/",
+      "meaning": "残渣",
+      "example": {
+        "en": "Food residue.",
+        "ja": "食物残渣。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rinse": {
+      "tier": "known",
+      "surface": "rinse",
+      "pos": "n · B1",
+      "pron": "/rɪns/",
+      "meaning": "すすぎ",
+      "example": {
+        "en": "Final rinse.",
+        "ja": "最終すすぎ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rinsed": {
+      "tier": "known",
+      "surface": "rinsed",
+      "pos": "v · B1",
+      "pron": "/rɪnst/",
+      "meaning": "すすがれた",
+      "example": {
+        "en": "Well rinsed.",
+        "ja": "よくすすがれた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sanitizing": {
+      "tier": "known",
+      "surface": "sanitizing",
+      "pos": "adj · B2",
+      "pron": "/ˈsæn.ɪ.taɪ.zɪŋ/",
+      "meaning": "除菌の",
+      "example": {
+        "en": "Sanitizing wipes.",
+        "ja": "除菌ウェットティッシュ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scrape": {
+      "tier": "known",
+      "surface": "scrape",
+      "pos": "v · B1",
+      "pron": "/skreɪp/",
+      "meaning": "削り取る",
+      "example": {
+        "en": "Scrape clean.",
+        "ja": "綺麗にこそげる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "seals": {
+      "tier": "known",
+      "surface": "seals",
+      "pos": "n · B2",
+      "pron": "/siːlz/",
+      "meaning": "シール、封",
+      "example": {
+        "en": "Tight seals.",
+        "ja": "密閉シール。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "separate": {
+      "tier": "skip",
+      "surface": "separate",
+      "pos": "v · A2",
+      "pron": "/ˈsep.ə.reɪt/",
+      "meaning": "分離する",
+      "example": {
+        "en": "Separate items.",
+        "ja": "項目分離。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shoots": {
+      "tier": "skip",
+      "surface": "shoots",
+      "pos": "v · A2",
+      "pron": "/ʃuːts/",
+      "meaning": "噴出する",
+      "example": {
+        "en": "Shoots out.",
+        "ja": "噴出する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "showcasing": {
+      "tier": "known",
+      "surface": "showcasing",
+      "pos": "v · B2",
+      "pron": "/ˈʃoʊ.keɪ.sɪŋ/",
+      "meaning": "披露して",
+      "example": {
+        "en": "Showcasing talent.",
+        "ja": "才能を披露。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sink": {
+      "tier": "skip",
+      "surface": "sink",
+      "pos": "n · A2",
+      "pron": "/sɪŋk/",
+      "meaning": "流し",
+      "example": {
+        "en": "Kitchen sink.",
+        "ja": "台所の流し。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "soap": {
+      "tier": "skip",
+      "surface": "soap",
+      "pos": "n · A2",
+      "pron": "/soʊp/",
+      "meaning": "石鹸",
+      "example": {
+        "en": "Bar of soap.",
+        "ja": "石鹸一個。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "socialite": {
+      "tier": "key",
+      "surface": "socialite",
+      "pos": "n · C1",
+      "pron": "/ˈsoʊ.ʃəl.aɪt/",
+      "meaning": "社交界の人",
+      "example": {
+        "en": "NY socialite.",
+        "ja": "NYの社交界婦人。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stains": {
+      "tier": "known",
+      "surface": "stains",
+      "pos": "n · B1",
+      "pron": "/steɪnz/",
+      "meaning": "染み",
+      "example": {
+        "en": "Tough stains.",
+        "ja": "頑固な染み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stubborn": {
+      "tier": "known",
+      "surface": "stubborn",
+      "pos": "adj · B2",
+      "pron": "/ˈstʌb.ən/",
+      "meaning": "頑固な",
+      "example": {
+        "en": "Stubborn stain.",
+        "ja": "頑固な染み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surfactant": {
+      "tier": "key",
+      "surface": "surfactant",
+      "pos": "n · C2",
+      "pron": "/səˈfæk.tənt/",
+      "meaning": "界面活性剤",
+      "example": {
+        "en": "Anionic surfactant.",
+        "ja": "陰イオン界面活性剤。"
+      },
+      "context": "水と油の境界の表面張力を下げる物質。",
+      "collocations": []
+    },
+    "transitions": {
+      "tier": "known",
+      "surface": "transitions",
+      "pos": "v · B2",
+      "pron": "/trænˈzɪʃ.ənz/",
+      "meaning": "移行する",
+      "example": {
+        "en": "Transitions to.",
+        "ja": "〜に移行。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tug": {
+      "tier": "known",
+      "surface": "tug",
+      "pos": "v · B2",
+      "pron": "/tʌɡ/",
+      "meaning": "引っ張る",
+      "example": {
+        "en": "Tug at the rope.",
+        "ja": "ロープを引く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unnecessarily": {
+      "tier": "known",
+      "surface": "unnecessarily",
+      "pos": "adv · B2",
+      "pron": "/ʌnˈnes.ə.ser.ə.li/",
+      "meaning": "不必要に",
+      "example": {
+        "en": "Unnecessarily long.",
+        "ja": "不必要に長い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "warp": {
+      "tier": "known",
+      "surface": "warp",
+      "pos": "v · B2",
+      "pron": "/wɔːp/",
+      "meaning": "反らせる",
+      "example": {
+        "en": "Warp the wood.",
+        "ja": "木を反らせる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wax": {
+      "tier": "known",
+      "surface": "wax",
+      "pos": "n · B1",
+      "pron": "/wæks/",
+      "meaning": "ワックス、蝋",
+      "example": {
+        "en": "Car wax.",
+        "ja": "車用ワックス。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "widowed": {
+      "tier": "known",
+      "surface": "widowed",
+      "pos": "v · B2",
+      "pron": "/ˈwɪd.oʊd/",
+      "meaning": "未亡人になった",
+      "example": {
+        "en": "Recently widowed.",
+        "ja": "最近未亡人に。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "break_down": {
+      "tier": "known",
+      "surface": "break down",
+      "pos": "phrasal v · B1",
+      "pron": "/breɪk daʊn/",
+      "literal": "分解する",
+      "meaning": "分解する",
+      "context": "",
+      "collocations": []
+    },
+    "chicago_worlds_fair": {
+      "tier": "known",
+      "surface": "Chicago World's Fair",
+      "pos": "n phrase · proper",
+      "pron": "/ʃɪˈkɑː.ɡoʊ wɜːldz feər/",
+      "literal": "シカゴ万博",
+      "meaning": "1893年 World's Columbian Exposition",
+      "context": "",
+      "collocations": []
+    },
+    "dual_ended": {
+      "tier": "known",
+      "surface": "dual-ended",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈdjuː.əl ˈen.dɪd/",
+      "literal": "両端を持つ",
+      "meaning": "両端を持つ",
+      "context": "",
+      "collocations": []
+    },
+    "equivalent_to": {
+      "tier": "known",
+      "surface": "equivalent to",
+      "pos": "phrase · B1",
+      "pron": "/ɪˈkwɪv.əl.ənt tə/",
+      "literal": "〜と同等",
+      "meaning": "〜と同等",
+      "context": "",
+      "collocations": []
+    },
+    "faced_with": {
+      "tier": "known",
+      "surface": "faced with",
+      "pos": "phrase · B2",
+      "pron": "/feɪst wɪð/",
+      "literal": "〜に直面して",
+      "meaning": "〜に直面して",
+      "context": "",
+      "collocations": []
+    },
+    "food_residues": {
+      "tier": "known",
+      "surface": "food residues",
+      "pos": "n phrase · B2",
+      "pron": "/fuːd ˈrez.ɪ.djuːz/",
+      "literal": "食物残渣",
+      "meaning": "食物残渣",
+      "context": "",
+      "collocations": []
+    },
+    "latch_onto": {
+      "tier": "known",
+      "surface": "latching onto",
+      "pos": "phrasal v · B2",
+      "pron": "/ˈlætʃ.ɪŋ ˈɒn.tə/",
+      "literal": "〜に絡みつく",
+      "meaning": "〜に絡みつく",
+      "context": "",
+      "collocations": []
+    },
+    "makes_sense": {
+      "tier": "known",
+      "surface": "makes more sense",
+      "pos": "phrase · B1",
+      "pron": "/meɪks mɔː sens/",
+      "literal": "より理にかなう",
+      "meaning": "より理にかなう",
+      "context": "",
+      "collocations": []
+    },
+    "on_average": {
+      "tier": "known",
+      "surface": "On average",
+      "pos": "phrase · B1",
+      "pron": "/ɒn ˈæv.ər.ɪdʒ/",
+      "literal": "平均すると",
+      "meaning": "平均すると",
+      "context": "",
+      "collocations": []
+    },
+    "pour_into": {
+      "tier": "known",
+      "surface": "poured … into",
+      "pos": "v phrase · B2",
+      "pron": "/pɔːd ˈɪn.tə/",
+      "literal": "〜に注ぎ込んだ",
+      "meaning": "〜に注ぎ込んだ",
+      "context": "",
+      "collocations": []
+    },
+    "pre_wash_cycle": {
+      "tier": "known",
+      "surface": "pre-wash cycle",
+      "pos": "n phrase · B2",
+      "pron": "/priː wɒʃ ˈsaɪ.kl/",
+      "literal": "予洗いサイクル",
+      "meaning": "予洗いサイクル",
+      "context": "",
+      "collocations": []
+    },
+    "spray_arms": {
+      "tier": "known",
+      "surface": "spray arms",
+      "pos": "n phrase · B2",
+      "pron": "/spreɪ ɑːmz/",
+      "literal": "スプレーアーム",
+      "meaning": "スプレーアーム",
+      "context": "",
+      "collocations": []
+    },
+    "stuck_on": {
+      "tier": "known",
+      "surface": "stuck-on",
+      "pos": "adj phrase · B2",
+      "pron": "/stʌk ɒn/",
+      "literal": "こびりついた",
+      "meaning": "こびりついた",
+      "context": "",
+      "collocations": []
+    },
+    "throw_in_towel": {
+      "tier": "key",
+      "surface": "throw in the towel",
+      "pos": "phrase · C1",
+      "pron": "/θroʊ ɪn ðə ˈtaʊ.əl/",
+      "literal": "諦める、降参する",
+      "meaning": "ボクシングのタオル投入から",
+      "context": "",
+      "collocations": []
+    },
+    "turbidity_sensor": {
+      "tier": "key",
+      "surface": "turbidity sensor",
+      "pos": "n phrase · C2",
+      "pron": "/tɜːˈbɪd.ə.ti ˈsen.sər/",
+      "literal": "混濁センサー",
+      "meaning": "水の濁度を測る食洗機センサー",
+      "context": "",
+      "collocations": []
+    },
+    "turn_around": {
+      "tier": "known",
+      "surface": "turn … around",
+      "pos": "v phrase · B2",
+      "pron": "/tɜːn əˈraʊnd/",
+      "literal": "好転させる",
+      "meaning": "好転させる",
+      "context": "",
+      "collocations": []
+    },
+    "whats_more": {
+      "tier": "known",
+      "surface": "What's more",
+      "pos": "phrase · B2",
+      "pron": "/wɒts mɔː/",
+      "literal": "加えて",
+      "meaning": "加えて",
+      "context": "",
+      "collocations": []
+    },
+    "worth_doing": {
+      "tier": "known",
+      "surface": "worth doing",
+      "pos": "phrase · B1",
+      "pron": "/wɜːθ ˈduː.ɪŋ/",
+      "literal": "〜する価値がある",
+      "meaning": "〜する価値がある",
+      "context": "",
+      "collocations": []
+    }
+  }
+}
