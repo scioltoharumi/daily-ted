@@ -1,0 +1,4325 @@
+{
+  "id": "talk_2026-06-23",
+  "date": "2026-06-23",
+  "source": "ted-ed",
+  "primary_topic": "Earth Science",
+  "tags": [
+    "avalanche",
+    "snow",
+    "natural-disaster",
+    "mountain-safety",
+    "alpine",
+    "rescue"
+  ],
+  "difficulty": "medium",
+  "slug": "simon_trautman_what_causes_avalanches_and_can_you_survive_them",
+  "video_id": "182227",
+  "title": "What causes avalanches, and can you survive them?",
+  "speaker": "Simon Trautman",
+  "duration_sec": 314,
+  "published_at": "2026-06-23T15:01:11Z",
+  "video_url": "https://www.ted.com/talks/simon_trautman_what_causes_avalanches_and_can_you_survive_them",
+  "embed_url": "https://embed.ted.com/talks/simon_trautman_what_causes_avalanches_and_can_you_survive_them",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_182227/bd11fa0f-8d50-4841-a7c9-d762629ace2c/Avalanches_textless.jpg",
+  "background": {
+    "summary": "2012年カスケード山脈で雪崩に巻き込まれたプロスキーヤー Elyse Saugstad の生還を導入に、雪崩の発生条件3つ(斜度・弱層・トリガー)、速度を決める要因、史上最悪の1970年ペルー雪崩、生還を高める対策と装備までを解説する。",
+    "details": [
+      "Elyse Saugstad: 2012年2月カスケード山脈での雪崩で airbag を展開して生還したプロスキーヤー。同行者3名は死亡。",
+      "雪崩発生3条件: (1) 斜度 30〜45° (積もる十分な緩さと動く十分な急さ)、(2) 強い層が弱層(surface hoar など)の上に積もる「something over nothing」、(3) 自然または人為のトリガー。",
+      "速度を左右する要因: 斜度・植生・地形粗さ・雪質。乾いた粉雪は粉塵雲を伴い高速、湿った雪雪崩は遅いがはるかに密で破壊的。大型は時速160km超。",
+      "Huascarán 雪崩 (1970年, ペルー): 氷河氷・雪・泥・岩 50〜100百万 m³ が時速300km超で町を埋め、18,000人が死亡 ── 史上最悪。",
+      "対策: スキー場・公園・幹線道路では avalanche worker が気象・積雪安定性・人間活動を常時監視、必要なら爆薬で人為的に発生させて制御。backcountry では個人責任で予報確認・訓練・救助装備携行。"
+    ]
+  },
+  "paragraph_summaries_ja": [
+    {
+      "paragraph_id": "p1",
+      "summary": "2012年2月、プロスキーヤー Elyse Saugstad がカスケード山脈で5,000トンの雪壁に呑み込まれた。「雪崩!」の声を間一髪で聞き、命を救う動作で反応した。"
+    },
+    {
+      "paragraph_id": "p2",
+      "summary": "雪崩とは雪・氷・岩などが斜面を急降下する現象。米国だけで年平均27人を殺す自然災害かつ個人的悲劇。"
+    },
+    {
+      "paragraph_id": "p3",
+      "summary": "雪崩発生の3条件、第一は適切な斜度 ── 通常30〜45度。積もるには十分緩く、動くには十分急。"
+    },
+    {
+      "paragraph_id": "p4",
+      "summary": "第二は強固な雪層が弱層の上に積もる「something over nothing」構造。カスケードでは新雪1mスラブの下に薄い surface hoar(表面霜)があった。"
+    },
+    {
+      "paragraph_id": "p5",
+      "summary": "最後にトリガー。豪雪・強風・降雨・他の雪崩などの自然要因、スキーヤーやスノーモービル乗りの地表衝撃などの人為要因。破断は雪塊中を伝播するので数百m離れた地点からも起こせる。"
+    },
+    {
+      "paragraph_id": "p6",
+      "summary": "速さは斜度・植生・地形粗さ・雪質に依存。乾いた粉雪は高速で粉塵雲を伴い、湿った雪は遅いが密で破壊的。1970年ペルーの大雪崩は5,000万〜1億m³が時速300km超で町を埋め18,000人を殺した史上最悪例。"
+    },
+    {
+      "paragraph_id": "p7",
+      "summary": "小さくても巻き込まれれば危険。雪は固体と液体両方のように振る舞い、前線では表層が下層より速く動いて犠牲者を深部に引き込む。停止すると圧縮で身動き不能になる。"
+    },
+    {
+      "paragraph_id": "p8",
+      "summary": "最善は巻き込まれないこと。スキー場や幹線道路では雪崩担当者が気象・安定性・人間活動を常時監視。脅威検知時は地形閉鎖や爆薬・砲撃による制御発生も行う。"
+    },
+    {
+      "paragraph_id": "p9",
+      "summary": "管理外の backcountry は自己責任。地元雪崩センターの予報を理解し、訓練を受け、救助装備を携行する。"
+    },
+    {
+      "paragraph_id": "p10",
+      "summary": "高リスク地形でリスクをゼロにはできない。カスケードの一行は経験豊富だったが、嵐後の高危険予報下、3人が死亡。Elyse は膨張式エアバッグを展開して生還 ── 不完全だが最後の防衛線として、犠牲者を表面に近く保つ装置。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.961,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In February 2012, pro skier Elyse Saugstad was carving through the slopes of the Cascade Mountains when a crack formed in the snowpack above her.",
+          "translation_ja": "2012年2月、プロスキーヤー Elyse Saugstad がカスケード山脈の斜面をターンしながら滑り降りていたとき、頭上の雪塊に亀裂が走った。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In February 2012"
+            },
+            {
+              "label": "S",
+              "content": "pro skier Elyse Saugstad"
+            },
+            {
+              "label": "V",
+              "content": "was carving",
+              "note": "過去進行"
+            },
+            {
+              "label": "M",
+              "content": "through the slopes of the Cascade Mountains"
+            },
+            {
+              "label": "M",
+              "content": "when a crack formed in the snowpack above her",
+              "note": "時節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In February 2012, pro "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "skier",
+              "ref": "skier",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " Elyse Saugstad was "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "carving",
+              "ref": "carving",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " through the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "slopes",
+              "ref": "slopes",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of the "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "Cascade Mountains",
+              "ref": "cascade_mountains"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " when a "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "crack",
+              "ref": "crack",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " formed in the "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "snowpack",
+              "ref": "snowpack",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " above her."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Before she was fully engulfed by a 5,000-ton wall of snow, Elyse heard \"AVALANCHE!\" just in time to react with a lifesaving maneuver.",
+          "translation_ja": "5,000トンの雪の壁に完全に呑み込まれる直前、Elyse は「雪崩!」の声を間一髪で聞き、命を救う動作で反応した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Before she was fully engulfed by a 5,000-ton wall of snow",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "Elyse"
+            },
+            {
+              "label": "V",
+              "content": "heard"
+            },
+            {
+              "label": "O",
+              "content": "\"AVALANCHE!\""
+            },
+            {
+              "label": "M",
+              "content": "just in time to react with a lifesaving maneuver"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Before she was fully "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "engulfed",
+              "ref": "engulfed",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " by a 5,000-ton wall of snow, Elyse heard \""
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "AVALANCHE",
+              "ref": "avalanche",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "!\" "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "just in time",
+              "ref": "just_in_time"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " to react with a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "lifesaving",
+              "ref": "lifesaving",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "maneuver",
+              "ref": "maneuver",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "So, how could she survive this crushing snow surge?",
+          "translation_ja": "では、彼女はどうやってこの押し潰すような雪のうねりを生き延びたのか?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "she"
+            },
+            {
+              "label": "V",
+              "content": "could survive"
+            },
+            {
+              "label": "O",
+              "content": "this crushing snow surge"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So, how could she "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "survive",
+              "ref": "survive",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " this "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "crushing",
+              "ref": "crushing",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " snow "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "surge",
+              "ref": "surge",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 40.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Avalanches are the rapid descension of snow, ice, rock, or a combination of these down a slope.",
+          "translation_ja": "雪崩とは、雪・氷・岩、またはそれらの組み合わせが斜面を急降下する現象である。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Avalanches"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "the rapid descension of snow, ice, rock, or a combination of these down a slope"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Avalanches are the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rapid",
+              "ref": "rapid",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "descension",
+              "ref": "descension",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of snow, ice, rock, or a combination of these down a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "slope",
+              "ref": "slope",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "They can be destructive natural disasters and personal tragedies: in the United States alone, avalanches kill an average of 27 people annually.",
+          "translation_ja": "それらは破壊的な自然災害であり個人的悲劇でもある。米国だけでも、雪崩は年平均27人を死に至らしめる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "They"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "destructive natural disasters and personal tragedies"
+            },
+            {
+              "label": "M",
+              "content": "in the United States alone, avalanches kill an average of 27 people annually"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "They can be "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "destructive",
+              "ref": "destructive",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " natural "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "disasters",
+              "ref": "disasters",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and personal "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "tragedies",
+              "ref": "tragedies",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ": in the United States "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "alone",
+              "ref": "alone",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", avalanches kill an average of 27 people "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "annually",
+              "ref": "annually",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 60.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "These alpine nightmares don't just awaken out of nowhere; they need three specific conditions.",
+          "translation_ja": "これらアルプスの悪夢は何もないところから突然目覚めるわけではない。3つの特定条件を必要とする。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These alpine nightmares"
+            },
+            {
+              "label": "V",
+              "content": "don't awaken"
+            },
+            {
+              "label": "M",
+              "content": "out of nowhere"
+            },
+            {
+              "label": "M",
+              "content": "they need three specific conditions",
+              "note": "補足節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "alpine",
+              "ref": "alpine",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "nightmares",
+              "ref": "nightmares",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " don't just "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "awaken",
+              "ref": "awaken",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "out of nowhere",
+              "ref": "out_of_nowhere"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "; they need three specific conditions."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "First, the mountain needs to have the right slope, typically between 30 and 45 degrees.",
+          "translation_ja": "第一に、山が適切な斜度を持つ必要があり、通常は30〜45度の間だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "First"
+            },
+            {
+              "label": "S",
+              "content": "the mountain"
+            },
+            {
+              "label": "V",
+              "content": "needs to have"
+            },
+            {
+              "label": "O",
+              "content": "the right slope, typically between 30 and 45 degrees"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "First, the mountain needs to have the right slope, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "typically",
+              "ref": "typically",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " between 30 and 45 degrees."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This is shallow enough to allow snow to build up on the slope, yet steep enough to provide enough potential energy for movement.",
+          "translation_ja": "これは雪が斜面に積もるには十分に緩やかであり、かつ移動するに十分な位置エネルギーを与える急さでもある。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "shallow enough to allow snow to build up on the slope, yet steep enough to provide enough potential energy for movement"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This is "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "shallow",
+              "ref": "shallow",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " enough to allow snow to "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "build up",
+              "ref": "build_up"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " on the slope, yet "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "steep",
+              "ref": "steep",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " enough to provide enough "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "potential energy",
+              "ref": "potential_energy"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " for "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "movement",
+              "ref": "movement",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 90.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Second, they typically need a layer of sturdy snow deposited over a weak or unstable layer, or what's sometimes called \"something over nothing.\"",
+          "translation_ja": "第二に、強固な雪の層が弱いまたは不安定な層の上に積もる構造 ── 通称「something over nothing」 ── が通常必要となる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Second"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "need"
+            },
+            {
+              "label": "O",
+              "content": "a layer of sturdy snow deposited over a weak or unstable layer, or what's sometimes called \"something over nothing\""
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Second, they typically need a layer of "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "sturdy",
+              "ref": "sturdy",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " snow "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "deposited",
+              "ref": "deposited",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " over a weak or "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "unstable",
+              "ref": "unstable",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " layer, or what's sometimes called \""
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "something over nothing",
+              "ref": "something_over_nothing"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ".\""
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Take the Cascade Mountain avalanche, where recent heavy storms deposited a nearly 1-meter-deep slab of fresh snow.",
+          "translation_ja": "カスケード山の雪崩を例にとると、直前の豪雪が約1メートル厚の新雪スラブを堆積させていた。",
+          "structure": [
+            {
+              "label": "V",
+              "content": "Take"
+            },
+            {
+              "label": "O",
+              "content": "the Cascade Mountain avalanche"
+            },
+            {
+              "label": "M",
+              "content": "where recent heavy storms deposited a nearly 1-meter-deep slab of fresh snow",
+              "note": "関係副詞"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Take the Cascade Mountain avalanche, where recent heavy storms deposited a nearly 1-meter-deep "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "slab",
+              "ref": "slab",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "fresh",
+              "ref": "fresh",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " snow."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Below this sat a thin layer of surface hoar.",
+          "translation_ja": "この下には薄い表面霜(サーフェスホーア)の層があった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Below this"
+            },
+            {
+              "label": "V",
+              "content": "sat"
+            },
+            {
+              "label": "S",
+              "content": "a thin layer of surface hoar",
+              "note": "倒置"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Below this sat a thin layer of "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "surface hoar",
+              "ref": "surface_hoar"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "These are delicate, feathery ice crystals that form when water vapor in the air rapidly freezes on the surface of snow, almost like dew in the wintertime.",
+          "translation_ja": "これらは繊細で羽毛状の氷結晶で、大気中の水蒸気が雪面で急速に凍結することで形成される ── 言わば冬の露のような存在だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "delicate, feathery ice crystals that form when water vapor in the air rapidly freezes on the surface of snow, almost like dew in the wintertime"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These are "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "delicate",
+              "ref": "delicate",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "feathery",
+              "ref": "feathery",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " ice "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "crystals",
+              "ref": "crystals",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " that form when "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "water vapor",
+              "ref": "water_vapor"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " in the air rapidly "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "freezes",
+              "ref": "freezes",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " on the surface of snow, almost like "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "dew",
+              "ref": "dew",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " in the wintertime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 120.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Finally, avalanches need a trigger, something to collapse the weak layer and put the snow in motion.",
+          "translation_ja": "最後に、雪崩には引き金 ── 弱層を崩し雪を動かす何か ── が必要だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Finally"
+            },
+            {
+              "label": "S",
+              "content": "avalanches"
+            },
+            {
+              "label": "V",
+              "content": "need"
+            },
+            {
+              "label": "O",
+              "content": "a trigger, something to collapse the weak layer and put the snow in motion"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Finally, avalanches need a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "trigger",
+              "ref": "trigger",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", something to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "collapse",
+              "ref": "collapse",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the weak layer and put the snow "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "in motion",
+              "ref": "in_motion"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "A trigger can be natural, such as heavy snowfall, strong winds, rainfall, or even other avalanches.",
+          "translation_ja": "引き金は自然なものでもあり得る ── 豪雪・強風・降雨、または別の雪崩でさえ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "A trigger"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "natural, such as heavy snowfall, strong winds, rainfall, or even other avalanches"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "A trigger can be "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "natural",
+              "ref": "natural",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", such as heavy "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "snowfall",
+              "ref": "snowfall",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", strong winds, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "rainfall",
+              "ref": "rainfall",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", or even other avalanches."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Or they can be human-caused, like the surface impact of skiers or snowmobilers.",
+          "translation_ja": "あるいは人為的でもあり得る ── スキーヤーやスノーモービル乗りの地表衝撃のように。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "human-caused, like the surface impact of skiers or snowmobilers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Or they can be "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "human-caused",
+              "ref": "human_caused"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", like the surface "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "impact",
+              "ref": "impact",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of skiers or "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "snowmobilers",
+              "ref": "snowmobilers",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Since fractures can propagate quickly through the snowpack, triggers can originate hundreds of meters away— upstream, downstream, or even adjacent to the avalanche's path.",
+          "translation_ja": "破断は雪塊中を急速に伝播しうるため、引き金は数百メートル離れた地点から発生することもある ── 上流・下流、さらには雪崩の進路の隣からさえも。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Since fractures can propagate quickly through the snowpack",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "triggers"
+            },
+            {
+              "label": "V",
+              "content": "can originate"
+            },
+            {
+              "label": "M",
+              "content": "hundreds of meters away— upstream, downstream, or even adjacent to the avalanche's path"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Since "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "fractures",
+              "ref": "fractures",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " can "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "propagate",
+              "ref": "propagate",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " quickly through the snowpack, triggers can "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "originate",
+              "ref": "originate",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " hundreds of meters away— "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "upstream",
+              "ref": "upstream",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "downstream",
+              "ref": "downstream",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", or even "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "adjacent",
+              "ref": "adjacent",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " to the avalanche's path."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 160.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Once in motion, how quickly an avalanche moves depends on the slope's steepness, its exposure or vegetation cover, terrain roughness, and the type and amount of snow involved.",
+          "translation_ja": "ひとたび動き出すと、雪崩の速さは斜度・露出度や植生被覆・地形の粗さ・関与する雪の種類と量に依存する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once in motion",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "how quickly an avalanche moves"
+            },
+            {
+              "label": "V",
+              "content": "depends"
+            },
+            {
+              "label": "M",
+              "content": "on the slope's steepness, its exposure or vegetation cover, terrain roughness, and the type and amount of snow involved"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "in motion",
+              "ref": "in_motion"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", how quickly an avalanche moves depends on the slope's "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "steepness",
+              "ref": "steepness",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", its "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "exposure",
+              "ref": "exposure",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "vegetation",
+              "ref": "vegetation",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " cover, "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "terrain",
+              "ref": "terrain",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "roughness",
+              "ref": "roughness",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", and the type and amount of snow involved."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "For example, dry, light, and loosely bonded snow tends to travel fast, forming a powder cloud as it moves.",
+          "translation_ja": "例えば乾いた軽い緩く結合した雪は高速で進む傾向があり、動くにつれて粉塵雲を形成する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "dry, light, and loosely bonded snow"
+            },
+            {
+              "label": "V",
+              "content": "tends to travel"
+            },
+            {
+              "label": "M",
+              "content": "fast, forming a powder cloud as it moves",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For example, dry, light, and "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "loosely",
+              "ref": "loosely",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "bonded",
+              "ref": "bonded",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " snow "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "tends to",
+              "ref": "tends_to"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " travel fast, forming a "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "powder cloud",
+              "ref": "powder_cloud"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " as it moves."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "In contrast, wet snow avalanches, caused by water moving through the snowpack, travel more slowly but are much denser and can be particularly destructive.",
+          "translation_ja": "対照的に湿った雪雪崩は、雪塊中を水が移動することで生じ、進行は遅いが密度がずっと高く、特に破壊的になりうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In contrast"
+            },
+            {
+              "label": "S",
+              "content": "wet snow avalanches, caused by water moving through the snowpack"
+            },
+            {
+              "label": "V",
+              "content": "travel / are / can be",
+              "note": "並列"
+            },
+            {
+              "label": "C",
+              "content": "more slowly but are much denser and can be particularly destructive"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In contrast, wet snow avalanches, caused by water moving through the snowpack, travel more slowly but are much "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "denser",
+              "ref": "denser",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and can be particularly destructive."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Larger avalanches can travel more than 160 kilometers per hour, breaking trees, destroying buildings, and burying roadways.",
+          "translation_ja": "より大きな雪崩は時速160kmを超え、木をなぎ倒し、建物を破壊し、道路を埋め尽くす。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Larger avalanches"
+            },
+            {
+              "label": "V",
+              "content": "can travel"
+            },
+            {
+              "label": "M",
+              "content": "more than 160 kilometers per hour, breaking trees, destroying buildings, and burying roadways"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Larger avalanches can travel more than 160 kilometers per hour, breaking trees, destroying buildings, and "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "burying",
+              "ref": "burying",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "roadways",
+              "ref": "roadways",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "In 1970, one particularly massive avalanche consisting of 50 to 100 million cubic meters of glacial ice, snow, mud, and rock reached speeds of over 300 kilometers per hour.",
+          "translation_ja": "1970年、5,000万〜1億立方メートルの氷河氷・雪・泥・岩から成る特に巨大な雪崩は、時速300kmを超えた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In 1970"
+            },
+            {
+              "label": "S",
+              "content": "one particularly massive avalanche consisting of 50 to 100 million cubic meters of glacial ice, snow, mud, and rock"
+            },
+            {
+              "label": "V",
+              "content": "reached"
+            },
+            {
+              "label": "O",
+              "content": "speeds of over 300 kilometers per hour"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In 1970, one particularly "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "massive",
+              "ref": "massive",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " avalanche "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "consisting",
+              "ref": "consisting",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of 50 to 100 million cubic meters of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "glacial",
+              "ref": "glacial",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " ice, snow, mud, and rock reached speeds of over 300 kilometers per hour."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "This avalanche proved to be the deadliest in history, engulfing an entire Peruvian town and killing 18,000 people.",
+          "translation_ja": "この雪崩は史上最も致命的なものとなり、ペルーの一町を丸ごと呑み込み18,000人を殺した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This avalanche"
+            },
+            {
+              "label": "V",
+              "content": "proved to be"
+            },
+            {
+              "label": "C",
+              "content": "the deadliest in history"
+            },
+            {
+              "label": "M",
+              "content": "engulfing an entire Peruvian town and killing 18,000 people",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This avalanche proved to be the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "deadliest",
+              "ref": "deadliest",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in history, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "engulfing",
+              "ref": "engulfing",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " an entire "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "Peruvian",
+              "ref": "peruvian",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " town and killing 18,000 people."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 220.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Avalanches aren't always this large, but even smaller ones can be dangerous for anyone caught in their path.",
+          "translation_ja": "雪崩は常にこれほど大きいわけではないが、小さなものでも進路に巻き込まれた者には危険となる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Avalanches"
+            },
+            {
+              "label": "V",
+              "content": "aren't"
+            },
+            {
+              "label": "C",
+              "content": "always this large"
+            },
+            {
+              "label": "M",
+              "content": "but even smaller ones can be dangerous for anyone caught in their path",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Avalanches aren't always this large, but even smaller ones can be dangerous for anyone caught in their "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "path",
+              "ref": "path",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "As snow rushes downhill, it can behave like both a solid and a liquid, making its movement difficult to predict.",
+          "translation_ja": "雪が斜面を駆け下りるとき、固体と液体の両方のように振る舞いうるため、動きの予測が難しくなる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "As snow rushes downhill",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "can behave"
+            },
+            {
+              "label": "C",
+              "content": "like both a solid and a liquid"
+            },
+            {
+              "label": "M",
+              "content": "making its movement difficult to predict",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "As snow rushes "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "downhill",
+              "ref": "downhill",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", it can "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "behave",
+              "ref": "behave",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " like both a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "solid",
+              "ref": "solid",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and a liquid, making its movement difficult to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "predict",
+              "ref": "predict",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "At the fastest-moving front, surface snow moves faster than the snow beneath, pulling victims deep into the snowpack and scattering them across wide areas, making rescue difficult.",
+          "translation_ja": "最速の前線では表層雪が下層より速く動き、犠牲者を雪塊深部へ引き込み広範囲にまき散らすため、救助が難しくなる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "At the fastest-moving front"
+            },
+            {
+              "label": "S",
+              "content": "surface snow"
+            },
+            {
+              "label": "V",
+              "content": "moves"
+            },
+            {
+              "label": "M",
+              "content": "faster than the snow beneath, pulling victims deep into the snowpack and scattering them across wide areas, making rescue difficult"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "At the fastest-moving front, surface snow moves faster than the snow "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "beneath",
+              "ref": "beneath",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", pulling "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "victims",
+              "ref": "victims",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " deep into the snowpack and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "scattering",
+              "ref": "scattering",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " them across wide areas, making "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "rescue",
+              "ref": "rescue",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " difficult."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Once an avalanche slows, the snow loses its fluid-like properties and compacts, leaving victims immobilized and unable to escape on their own.",
+          "translation_ja": "雪崩が遅くなると、雪は流体的性質を失い圧縮され、犠牲者は身動きできず自力脱出不能となる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Once an avalanche slows",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "the snow"
+            },
+            {
+              "label": "V",
+              "content": "loses / compacts",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "its fluid-like properties"
+            },
+            {
+              "label": "M",
+              "content": "leaving victims immobilized and unable to escape on their own",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Once an avalanche slows, the snow loses its "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "fluid-like",
+              "ref": "fluid_like"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "properties",
+              "ref": "properties",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "compacts",
+              "ref": "compacts",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", leaving victims "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "immobilized",
+              "ref": "immobilized",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and unable to escape "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "on their own",
+              "ref": "on_their_own"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "start_sec": 260.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "For these reasons, the best way to survive an avalanche is to avoid one altogether.",
+          "translation_ja": "これらの理由から、雪崩を生き延びる最善策は、そもそも巻き込まれないことだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "For these reasons"
+            },
+            {
+              "label": "S",
+              "content": "the best way to survive an avalanche"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "to avoid one altogether"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "For these reasons, the best way to survive an avalanche is to avoid one "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "altogether",
+              "ref": "altogether",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Thankfully, at most ski resorts, parks, and even highways, avalanche workers mitigate risk by continuously monitoring the weather, stability of the snowpack, and human activity.",
+          "translation_ja": "幸い、ほとんどのスキー場・公園・幹線道路で、雪崩担当者が気象・雪塊安定性・人間活動を常時監視してリスクを軽減している。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Thankfully, at most ski resorts, parks, and even highways"
+            },
+            {
+              "label": "S",
+              "content": "avalanche workers"
+            },
+            {
+              "label": "V",
+              "content": "mitigate"
+            },
+            {
+              "label": "O",
+              "content": "risk"
+            },
+            {
+              "label": "M",
+              "content": "by continuously monitoring the weather, stability of the snowpack, and human activity"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Thankfully, at most ski "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "resorts",
+              "ref": "resorts",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", parks, and even highways, avalanche workers "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "mitigate",
+              "ref": "mitigate",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " risk by "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "continuously",
+              "ref": "continuously",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " monitoring the weather, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "stability",
+              "ref": "stability",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " of the snowpack, and human activity."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "If a threat is detected, they'll close terrain and may even intentionally trigger a controlled avalanche with explosives or artillery.",
+          "translation_ja": "脅威が検知されれば、地形を閉鎖し、爆薬や砲撃で制御下の雪崩を意図的に発生させることもある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "If a threat is detected",
+              "note": "条件"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "will close / may trigger",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "terrain / a controlled avalanche"
+            },
+            {
+              "label": "M",
+              "content": "with explosives or artillery"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "If a threat is detected, they'll close "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "terrain",
+              "ref": "terrain",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and may even "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "intentionally",
+              "ref": "intentionally",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " trigger a "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "controlled avalanche",
+              "ref": "controlled_avalanche"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "explosives",
+              "ref": "explosives",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "artillery",
+              "ref": "artillery",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "start_sec": 285.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "However, there are regions where avalanche risk is not actively mitigated, known as the backcountry.",
+          "translation_ja": "しかし、雪崩リスクが積極的には軽減されていない地域があり、それは backcountry(バックカントリー)と呼ばれる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "However"
+            },
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "regions where avalanche risk is not actively mitigated, known as the backcountry"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "However, there are regions where avalanche risk is not "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "actively",
+              "ref": "actively",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " mitigated, known as the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "backcountry",
+              "ref": "backcountry",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Here, you are responsible for managing your own risk.",
+          "translation_ja": "ここでは、自分でリスクを管理する責任を負う。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Here"
+            },
+            {
+              "label": "S",
+              "content": "you"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "responsible for managing your own risk"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Here, you are "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "responsible for",
+              "ref": "responsible_for"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " managing your own risk."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Local avalanche centers provide avalanche forecasts, and anyone entering the backcountry should understand them, be properly trained, and carry essential rescue gear.",
+          "translation_ja": "地元の雪崩センターが雪崩予報を提供しており、backcountry に入る者は予報を理解し、適切に訓練を受け、必須の救助装備を携行すべきだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Local avalanche centers / anyone entering the backcountry",
+              "note": "並列"
+            },
+            {
+              "label": "V",
+              "content": "provide / should understand … be trained … carry",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "avalanche forecasts / them, essential rescue gear"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Local avalanche centers provide avalanche "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "forecasts",
+              "ref": "forecasts",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", and anyone entering the backcountry should understand them, be "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "properly",
+              "ref": "properly",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "trained",
+              "ref": "trained",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and carry "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "essential",
+              "ref": "essential",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "rescue gear",
+              "ref": "rescue_gear"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "start_sec": 305.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "And ultimately, in high-hazard terrain, there's no way to completely eliminate risk.",
+          "translation_ja": "そして究極的に、高リスクの地形ではリスクを完全に排除する手段はない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "ultimately, in high-hazard terrain"
+            },
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "no way to completely eliminate risk"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "ultimately",
+              "ref": "ultimately",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", in "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "high-hazard",
+              "ref": "high_hazard"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " terrain, there's no way to completely eliminate risk."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The group at the Cascade Mountains consisted of highly experienced skiers.",
+          "translation_ja": "カスケード山脈のグループは、極めて経験豊富なスキーヤーから成っていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The group at the Cascade Mountains"
+            },
+            {
+              "label": "V",
+              "content": "consisted"
+            },
+            {
+              "label": "M",
+              "content": "of highly experienced skiers"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The group at the Cascade Mountains "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "consisted",
+              "ref": "consisted",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "highly",
+              "ref": "highly",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "experienced",
+              "ref": "experienced",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " skiers."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Yet the area was very exposed, and following a large storm, the avalanche danger forecast was elevated.",
+          "translation_ja": "しかし地域は極めて露出していて、大きな嵐の後で雪崩危険度の予報は上がっていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "the area"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "very exposed"
+            },
+            {
+              "label": "M",
+              "content": "and following a large storm, the avalanche danger forecast was elevated",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Yet the area was very "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "exposed",
+              "ref": "exposed",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", and following a large storm, the avalanche danger forecast was "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "elevated",
+              "ref": "elevated",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "In the end, three skiers lost their lives.",
+          "translation_ja": "結局、3人のスキーヤーが命を落とした。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In the end"
+            },
+            {
+              "label": "S",
+              "content": "three skiers"
+            },
+            {
+              "label": "V",
+              "content": "lost"
+            },
+            {
+              "label": "O",
+              "content": "their lives"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "In the end",
+              "ref": "in_the_end"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", three skiers "
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "lost their lives",
+              "ref": "lose_lives"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "But not Elyse, as she was able to deploy an inflatable airbag.",
+          "translation_ja": "しかし Elyse は別だった。膨張式エアバッグを展開できたからだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But not Elyse"
+            },
+            {
+              "label": "M",
+              "content": "as she was able to deploy an inflatable airbag",
+              "note": "理由"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But not Elyse, as she was able to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "deploy",
+              "ref": "deploy",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " an "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "inflatable",
+              "ref": "inflatable",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "airbag",
+              "ref": "airbag"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "These devices are imperfect and a last line of defense, yet can keep a victim closer to the surface, improving their chance of rescue should disaster strike.",
+          "translation_ja": "これらの装置は不完全で最後の防衛線だが、犠牲者を表面に近く保ち、災害発生時の救助機会を高めうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These devices"
+            },
+            {
+              "label": "V",
+              "content": "are / can keep",
+              "note": "並列"
+            },
+            {
+              "label": "C",
+              "content": "imperfect and a last line of defense / a victim closer to the surface"
+            },
+            {
+              "label": "M",
+              "content": "improving their chance of rescue should disaster strike"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These devices are "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "imperfect",
+              "ref": "imperfect",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and a "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "last line of defense",
+              "ref": "last_line_of_defense"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", yet can keep a victim closer to the surface, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "improving",
+              "ref": "improving",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " their chance of rescue "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "should disaster strike",
+              "ref": "should_disaster_strike"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "actively": {
+      "tier": "known",
+      "surface": "actively",
+      "pos": "adv · B1",
+      "pron": "/ˈæk.tɪv.li/",
+      "meaning": "積極的に",
+      "example": {
+        "en": "Actively managed.",
+        "ja": "積極的に管理された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adjacent": {
+      "tier": "known",
+      "surface": "adjacent",
+      "pos": "adj · B2",
+      "pron": "/əˈdʒeɪ.sənt/",
+      "meaning": "隣接した",
+      "example": {
+        "en": "Adjacent room.",
+        "ja": "隣室。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alone": {
+      "tier": "skip",
+      "surface": "alone",
+      "pos": "adv · A2",
+      "pron": "/əˈloʊn/",
+      "meaning": "だけで",
+      "example": {
+        "en": "US alone.",
+        "ja": "米国だけで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alpine": {
+      "tier": "known",
+      "surface": "alpine",
+      "pos": "adj · B2",
+      "pron": "/ˈæl.paɪn/",
+      "meaning": "アルプスの、高山の",
+      "example": {
+        "en": "Alpine resort.",
+        "ja": "アルプス保養地。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "altogether": {
+      "tier": "known",
+      "surface": "altogether",
+      "pos": "adv · B2",
+      "pron": "/ˌɔːl.təˈɡeð.ər/",
+      "meaning": "完全に",
+      "example": {
+        "en": "Avoid altogether.",
+        "ja": "完全に避ける。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "annually": {
+      "tier": "known",
+      "surface": "annually",
+      "pos": "adv · B2",
+      "pron": "/ˈæn.ju.ə.li/",
+      "meaning": "年に1回",
+      "example": {
+        "en": "Held annually.",
+        "ja": "年次開催。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "artillery": {
+      "tier": "known",
+      "surface": "artillery",
+      "pos": "n · B2",
+      "pron": "/ɑːˈtɪl.ər.i/",
+      "meaning": "砲撃、大砲",
+      "example": {
+        "en": "Heavy artillery.",
+        "ja": "重砲。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "avalanche": {
+      "tier": "key",
+      "surface": "AVALANCHE",
+      "pos": "n · B2",
+      "pron": "/ˈæv.ə.lɑːntʃ/",
+      "meaning": "雪崩",
+      "example": {
+        "en": "Snow avalanche.",
+        "ja": "雪の雪崩。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "awaken": {
+      "tier": "known",
+      "surface": "awaken",
+      "pos": "v · B2",
+      "pron": "/əˈweɪ.kən/",
+      "meaning": "目覚める",
+      "example": {
+        "en": "Awaken from sleep.",
+        "ja": "眠りから覚める。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "backcountry": {
+      "tier": "key",
+      "surface": "backcountry",
+      "pos": "n · C1",
+      "pron": "/ˈbæk.kʌn.tri/",
+      "meaning": "バックカントリー",
+      "example": {
+        "en": "Skiing the backcountry.",
+        "ja": "バックカントリーを滑る。"
+      },
+      "context": "管理外の自然斜面・登山域。",
+      "collocations": []
+    },
+    "behave": {
+      "tier": "skip",
+      "surface": "behave",
+      "pos": "v · A2",
+      "pron": "/bɪˈheɪv/",
+      "meaning": "振る舞う",
+      "example": {
+        "en": "Behave well.",
+        "ja": "行儀よく。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "beneath": {
+      "tier": "known",
+      "surface": "beneath",
+      "pos": "prep · B1",
+      "pron": "/bɪˈniːθ/",
+      "meaning": "下に",
+      "example": {
+        "en": "Beneath the surface.",
+        "ja": "表面の下に。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bonded": {
+      "tier": "known",
+      "surface": "bonded",
+      "pos": "adj · B2",
+      "pron": "/ˈbɒn.dɪd/",
+      "meaning": "結合した",
+      "example": {
+        "en": "Tightly bonded.",
+        "ja": "強く結合した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "burying": {
+      "tier": "known",
+      "surface": "burying",
+      "pos": "v · B2",
+      "pron": "/ˈber.i.ɪŋ/",
+      "meaning": "埋めて",
+      "example": {
+        "en": "Burying roads.",
+        "ja": "道路を埋めて。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "carving": {
+      "tier": "known",
+      "surface": "carving",
+      "pos": "v · B2",
+      "pron": "/ˈkɑː.vɪŋ/",
+      "meaning": "ターンを切って",
+      "example": {
+        "en": "Carving turns.",
+        "ja": "ターンを刻む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "collapse": {
+      "tier": "known",
+      "surface": "collapse",
+      "pos": "v · B1",
+      "pron": "/kəˈlæps/",
+      "meaning": "崩す、崩壊",
+      "example": {
+        "en": "Collapse under weight.",
+        "ja": "重みで崩落。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "compacts": {
+      "tier": "known",
+      "surface": "compacts",
+      "pos": "v · B2",
+      "pron": "/kəmˈpækts/",
+      "meaning": "圧縮する",
+      "example": {
+        "en": "Snow compacts.",
+        "ja": "雪が圧縮される。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "consisted": {
+      "tier": "known",
+      "surface": "consisted",
+      "pos": "v · B2",
+      "pron": "/kənˈsɪs.tɪd/",
+      "meaning": "成っていた",
+      "example": {
+        "en": "Consisted of.",
+        "ja": "〜から成る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "consisting": {
+      "tier": "known",
+      "surface": "consisting",
+      "pos": "v · B2",
+      "pron": "/kənˈsɪs.tɪŋ/",
+      "meaning": "成る",
+      "example": {
+        "en": "Consisting of.",
+        "ja": "〜から成る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "continuously": {
+      "tier": "known",
+      "surface": "continuously",
+      "pos": "adv · B2",
+      "pron": "/kənˈtɪn.ju.əs.li/",
+      "meaning": "継続的に",
+      "example": {
+        "en": "Continuously monitored.",
+        "ja": "継続監視。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crack": {
+      "tier": "known",
+      "surface": "crack",
+      "pos": "n · B1",
+      "pron": "/kræk/",
+      "meaning": "亀裂",
+      "example": {
+        "en": "Loud crack.",
+        "ja": "大きな亀裂音。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crushing": {
+      "tier": "known",
+      "surface": "crushing",
+      "pos": "adj · B2",
+      "pron": "/ˈkrʌʃ.ɪŋ/",
+      "meaning": "押し潰すような",
+      "example": {
+        "en": "Crushing defeat.",
+        "ja": "壊滅的敗北。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crystals": {
+      "tier": "known",
+      "surface": "crystals",
+      "pos": "n · B2",
+      "pron": "/ˈkrɪs.təlz/",
+      "meaning": "結晶",
+      "example": {
+        "en": "Ice crystals.",
+        "ja": "氷結晶。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deadliest": {
+      "tier": "known",
+      "surface": "deadliest",
+      "pos": "adj · B2",
+      "pron": "/ˈded.li.əst/",
+      "meaning": "最も致死的な",
+      "example": {
+        "en": "Deadliest disease.",
+        "ja": "最も致死的な病気。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "delicate": {
+      "tier": "known",
+      "surface": "delicate",
+      "pos": "adj · B2",
+      "pron": "/ˈdel.ɪ.kət/",
+      "meaning": "繊細な",
+      "example": {
+        "en": "Delicate flower.",
+        "ja": "繊細な花。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "denser": {
+      "tier": "known",
+      "surface": "denser",
+      "pos": "adj · B2",
+      "pron": "/ˈden.sər/",
+      "meaning": "より密な",
+      "example": {
+        "en": "Much denser.",
+        "ja": "ずっと密。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deploy": {
+      "tier": "known",
+      "surface": "deploy",
+      "pos": "v · B2",
+      "pron": "/dɪˈplɔɪ/",
+      "meaning": "展開する",
+      "example": {
+        "en": "Deploy airbag.",
+        "ja": "エアバッグ展開。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "deposited": {
+      "tier": "known",
+      "surface": "deposited",
+      "pos": "v · B2",
+      "pron": "/dɪˈpɒz.ɪ.tɪd/",
+      "meaning": "堆積した",
+      "example": {
+        "en": "Deposited layer.",
+        "ja": "堆積層。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "descension": {
+      "tier": "key",
+      "surface": "descension",
+      "pos": "n · C2",
+      "pron": "/dɪˈsen.ʃən/",
+      "meaning": "降下",
+      "example": {
+        "en": "Rapid descension.",
+        "ja": "急降下。"
+      },
+      "context": "descent と同義の古風語。",
+      "collocations": []
+    },
+    "destructive": {
+      "tier": "known",
+      "surface": "destructive",
+      "pos": "adj · B2",
+      "pron": "/dɪˈstrʌk.tɪv/",
+      "meaning": "破壊的な",
+      "example": {
+        "en": "Destructive force.",
+        "ja": "破壊力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dew": {
+      "tier": "known",
+      "surface": "dew",
+      "pos": "n · B2",
+      "pron": "/djuː/",
+      "meaning": "露",
+      "example": {
+        "en": "Morning dew.",
+        "ja": "朝露。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disasters": {
+      "tier": "known",
+      "surface": "disasters",
+      "pos": "n · B1",
+      "pron": "/dɪˈzɑːs.təz/",
+      "meaning": "災害",
+      "example": {
+        "en": "Natural disasters.",
+        "ja": "自然災害。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "downhill": {
+      "tier": "known",
+      "surface": "downhill",
+      "pos": "adv · B1",
+      "pron": "/ˌdaʊnˈhɪl/",
+      "meaning": "坂を下って",
+      "example": {
+        "en": "Roll downhill.",
+        "ja": "坂を転がる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "downstream": {
+      "tier": "known",
+      "surface": "downstream",
+      "pos": "adv · B2",
+      "pron": "/ˌdaʊnˈstriːm/",
+      "meaning": "下流に",
+      "example": {
+        "en": "Travel downstream.",
+        "ja": "下流に旅する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "elevated": {
+      "tier": "known",
+      "surface": "elevated",
+      "pos": "adj · B2",
+      "pron": "/ˈel.ə.veɪ.tɪd/",
+      "meaning": "上昇した",
+      "example": {
+        "en": "Elevated risk.",
+        "ja": "高まったリスク。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "engulfed": {
+      "tier": "known",
+      "surface": "engulfed",
+      "pos": "v · B2",
+      "pron": "/ɪnˈɡʌlft/",
+      "meaning": "呑み込まれた",
+      "example": {
+        "en": "Engulfed in flames.",
+        "ja": "炎に呑まれた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "engulfing": {
+      "tier": "known",
+      "surface": "engulfing",
+      "pos": "v · B2",
+      "pron": "/ɪnˈɡʌl.fɪŋ/",
+      "meaning": "呑み込んで",
+      "example": {
+        "en": "Engulfing flames.",
+        "ja": "呑み込む炎。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "essential": {
+      "tier": "known",
+      "surface": "essential",
+      "pos": "adj · B1",
+      "pron": "/ɪˈsen.ʃəl/",
+      "meaning": "不可欠な",
+      "example": {
+        "en": "Essential gear.",
+        "ja": "必須装備。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "experienced": {
+      "tier": "skip",
+      "surface": "experienced",
+      "pos": "adj · A2",
+      "pron": "/ɪkˈspɪə.ri.ənst/",
+      "meaning": "経験豊富な",
+      "example": {
+        "en": "Experienced staff.",
+        "ja": "経験豊富なスタッフ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "explosives": {
+      "tier": "known",
+      "surface": "explosives",
+      "pos": "n · B2",
+      "pron": "/ɪkˈsploʊ.sɪvz/",
+      "meaning": "爆薬",
+      "example": {
+        "en": "Plastic explosives.",
+        "ja": "プラスチック爆薬。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exposed": {
+      "tier": "skip",
+      "surface": "exposed",
+      "pos": "adj · A2",
+      "pron": "/ɪkˈspoʊzd/",
+      "meaning": "露出した",
+      "example": {
+        "en": "Exposed area.",
+        "ja": "露出地域。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exposure": {
+      "tier": "known",
+      "surface": "exposure",
+      "pos": "n · B2",
+      "pron": "/ɪkˈspoʊ.ʒər/",
+      "meaning": "露出",
+      "example": {
+        "en": "Sun exposure.",
+        "ja": "日光暴露。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "feathery": {
+      "tier": "known",
+      "surface": "feathery",
+      "pos": "adj · B2",
+      "pron": "/ˈfeð.ər.i/",
+      "meaning": "羽毛状の",
+      "example": {
+        "en": "Feathery snow.",
+        "ja": "羽のような雪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "forecasts": {
+      "tier": "skip",
+      "surface": "forecasts",
+      "pos": "n · A2",
+      "pron": "/ˈfɔː.kɑːsts/",
+      "meaning": "予報",
+      "example": {
+        "en": "Weather forecasts.",
+        "ja": "天気予報。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fractures": {
+      "tier": "known",
+      "surface": "fractures",
+      "pos": "n · B2",
+      "pron": "/ˈfræk.tʃəz/",
+      "meaning": "破断、骨折",
+      "example": {
+        "en": "Stress fractures.",
+        "ja": "疲労骨折。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "freezes": {
+      "tier": "known",
+      "surface": "freezes",
+      "pos": "v · B1",
+      "pron": "/ˈfriː.zɪz/",
+      "meaning": "凍結する",
+      "example": {
+        "en": "Water freezes.",
+        "ja": "水が凍る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fresh": {
+      "tier": "skip",
+      "surface": "fresh",
+      "pos": "adj · A2",
+      "pron": "/freʃ/",
+      "meaning": "新しい",
+      "example": {
+        "en": "Fresh snow.",
+        "ja": "新雪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "glacial": {
+      "tier": "known",
+      "surface": "glacial",
+      "pos": "adj · B2",
+      "pron": "/ˈɡleɪ.ʃəl/",
+      "meaning": "氷河の",
+      "example": {
+        "en": "Glacial ice.",
+        "ja": "氷河氷。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "highly": {
+      "tier": "skip",
+      "surface": "highly",
+      "pos": "adv · A2",
+      "pron": "/ˈhaɪ.li/",
+      "meaning": "非常に",
+      "example": {
+        "en": "Highly skilled.",
+        "ja": "熟練した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "immobilized": {
+      "tier": "known",
+      "surface": "immobilized",
+      "pos": "adj · C1",
+      "pron": "/ɪˈmoʊ.bɪ.laɪzd/",
+      "meaning": "身動きできない",
+      "example": {
+        "en": "Immobilized victims.",
+        "ja": "動けない犠牲者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impact": {
+      "tier": "known",
+      "surface": "impact",
+      "pos": "n · B1",
+      "pron": "/ˈɪm.pækt/",
+      "meaning": "衝撃",
+      "example": {
+        "en": "Surface impact.",
+        "ja": "表面衝撃。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "imperfect": {
+      "tier": "known",
+      "surface": "imperfect",
+      "pos": "adj · B2",
+      "pron": "/ɪmˈpɜː.fekt/",
+      "meaning": "不完全な",
+      "example": {
+        "en": "Imperfect solution.",
+        "ja": "不完全な解。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "improving": {
+      "tier": "skip",
+      "surface": "improving",
+      "pos": "v · A2",
+      "pron": "/ɪmˈpruː.vɪŋ/",
+      "meaning": "改善して",
+      "example": {
+        "en": "Improving rapidly.",
+        "ja": "急速に改善。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inflatable": {
+      "tier": "known",
+      "surface": "inflatable",
+      "pos": "adj · B2",
+      "pron": "/ɪnˈfleɪ.tə.bl/",
+      "meaning": "膨張式の",
+      "example": {
+        "en": "Inflatable boat.",
+        "ja": "膨張式ボート。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intentionally": {
+      "tier": "known",
+      "surface": "intentionally",
+      "pos": "adv · B2",
+      "pron": "/ɪnˈten.ʃən.əl.i/",
+      "meaning": "意図的に",
+      "example": {
+        "en": "Intentionally caused.",
+        "ja": "意図的に起こされた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lifesaving": {
+      "tier": "known",
+      "surface": "lifesaving",
+      "pos": "adj · B2",
+      "pron": "/ˈlaɪfˌseɪ.vɪŋ/",
+      "meaning": "命を救う",
+      "example": {
+        "en": "Lifesaving skill.",
+        "ja": "救命技能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "loosely": {
+      "tier": "known",
+      "surface": "loosely",
+      "pos": "adv · B2",
+      "pron": "/ˈluːs.li/",
+      "meaning": "緩く",
+      "example": {
+        "en": "Loosely bonded.",
+        "ja": "緩く結合した。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "maneuver": {
+      "tier": "known",
+      "surface": "maneuver",
+      "pos": "n · B2",
+      "pron": "/məˈnuː.vər/",
+      "meaning": "動作、策略",
+      "example": {
+        "en": "Skillful maneuver.",
+        "ja": "巧みな動作。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "massive": {
+      "tier": "skip",
+      "surface": "massive",
+      "pos": "adj · A2",
+      "pron": "/ˈmæs.ɪv/",
+      "meaning": "巨大な",
+      "example": {
+        "en": "Massive event.",
+        "ja": "巨大なイベント。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mitigate": {
+      "tier": "known",
+      "surface": "mitigate",
+      "pos": "v · C1",
+      "pron": "/ˈmɪt.ɪ.ɡeɪt/",
+      "meaning": "軽減する",
+      "example": {
+        "en": "Mitigate risk.",
+        "ja": "リスク軽減。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "movement": {
+      "tier": "known",
+      "surface": "movement",
+      "pos": "n · B1",
+      "pron": "/ˈmuːv.mənt/",
+      "meaning": "動き",
+      "example": {
+        "en": "Slow movement.",
+        "ja": "ゆっくりした動き。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "natural": {
+      "tier": "skip",
+      "surface": "natural",
+      "pos": "adj · A2",
+      "pron": "/ˈnætʃ.ər.əl/",
+      "meaning": "自然な",
+      "example": {
+        "en": "Natural cause.",
+        "ja": "自然原因。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nightmares": {
+      "tier": "known",
+      "surface": "nightmares",
+      "pos": "n · B1",
+      "pron": "/ˈnaɪt.meəz/",
+      "meaning": "悪夢",
+      "example": {
+        "en": "Recurring nightmares.",
+        "ja": "繰り返す悪夢。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "originate": {
+      "tier": "known",
+      "surface": "originate",
+      "pos": "v · B2",
+      "pron": "/əˈrɪdʒ.ɪ.neɪt/",
+      "meaning": "発生する",
+      "example": {
+        "en": "Originate from.",
+        "ja": "〜から発生。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "path": {
+      "tier": "skip",
+      "surface": "path",
+      "pos": "n · A2",
+      "pron": "/pɑːθ/",
+      "meaning": "経路",
+      "example": {
+        "en": "Avalanche path.",
+        "ja": "雪崩の経路。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "peruvian": {
+      "tier": "known",
+      "surface": "Peruvian",
+      "pos": "adj · B2",
+      "pron": "/pəˈruː.vi.ən/",
+      "meaning": "ペルーの",
+      "example": {
+        "en": "Peruvian town.",
+        "ja": "ペルーの町。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "predict": {
+      "tier": "known",
+      "surface": "predict",
+      "pos": "v · B1",
+      "pron": "/prɪˈdɪkt/",
+      "meaning": "予測する",
+      "example": {
+        "en": "Predict the weather.",
+        "ja": "天気を予測。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "propagate": {
+      "tier": "known",
+      "surface": "propagate",
+      "pos": "v · B2",
+      "pron": "/ˈprɒp.ə.ɡeɪt/",
+      "meaning": "伝播する",
+      "example": {
+        "en": "Waves propagate.",
+        "ja": "波が伝播。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "properly": {
+      "tier": "skip",
+      "surface": "properly",
+      "pos": "adv · A2",
+      "pron": "/ˈprɒp.ə.li/",
+      "meaning": "適切に",
+      "example": {
+        "en": "Properly trained.",
+        "ja": "適切に訓練。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "properties": {
+      "tier": "known",
+      "surface": "properties",
+      "pos": "n · B2",
+      "pron": "/ˈprɒp.ə.tiz/",
+      "meaning": "性質",
+      "example": {
+        "en": "Chemical properties.",
+        "ja": "化学的性質。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rainfall": {
+      "tier": "known",
+      "surface": "rainfall",
+      "pos": "n · B2",
+      "pron": "/ˈreɪn.fɔːl/",
+      "meaning": "降雨",
+      "example": {
+        "en": "Annual rainfall.",
+        "ja": "年間降雨量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rapid": {
+      "tier": "known",
+      "surface": "rapid",
+      "pos": "adj · B1",
+      "pron": "/ˈræp.ɪd/",
+      "meaning": "急速な",
+      "example": {
+        "en": "Rapid growth.",
+        "ja": "急速な成長。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rescue": {
+      "tier": "known",
+      "surface": "rescue",
+      "pos": "n · B1",
+      "pron": "/ˈres.kjuː/",
+      "meaning": "救助",
+      "example": {
+        "en": "Mountain rescue.",
+        "ja": "山岳救助。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "resorts": {
+      "tier": "known",
+      "surface": "resorts",
+      "pos": "n · B1",
+      "pron": "/rɪˈzɔːts/",
+      "meaning": "リゾート",
+      "example": {
+        "en": "Ski resorts.",
+        "ja": "スキー場。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roadways": {
+      "tier": "known",
+      "surface": "roadways",
+      "pos": "n · B2",
+      "pron": "/ˈroʊd.weɪz/",
+      "meaning": "道路",
+      "example": {
+        "en": "Wet roadways.",
+        "ja": "濡れた道路。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roughness": {
+      "tier": "known",
+      "surface": "roughness",
+      "pos": "n · B2",
+      "pron": "/ˈrʌf.nəs/",
+      "meaning": "粗さ",
+      "example": {
+        "en": "Surface roughness.",
+        "ja": "表面粗さ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scattering": {
+      "tier": "known",
+      "surface": "scattering",
+      "pos": "v · B2",
+      "pron": "/ˈskæt.ər.ɪŋ/",
+      "meaning": "散らばらせて",
+      "example": {
+        "en": "Scattering debris.",
+        "ja": "瓦礫を散布。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shallow": {
+      "tier": "known",
+      "surface": "shallow",
+      "pos": "adj · B1",
+      "pron": "/ˈʃæl.oʊ/",
+      "meaning": "浅い、緩やかな",
+      "example": {
+        "en": "Shallow water.",
+        "ja": "浅瀬。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "skier": {
+      "tier": "known",
+      "surface": "skier",
+      "pos": "n · B1",
+      "pron": "/ˈskiː.ər/",
+      "meaning": "スキーヤー",
+      "example": {
+        "en": "Pro skier.",
+        "ja": "プロスキーヤー。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "slab": {
+      "tier": "known",
+      "surface": "slab",
+      "pos": "n · B2",
+      "pron": "/slæb/",
+      "meaning": "スラブ、平板",
+      "example": {
+        "en": "Snow slab.",
+        "ja": "雪のスラブ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "slope": {
+      "tier": "known",
+      "surface": "slope",
+      "pos": "n · B1",
+      "pron": "/sloʊp/",
+      "meaning": "斜面",
+      "example": {
+        "en": "Mountain slope.",
+        "ja": "山の斜面。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "slopes": {
+      "tier": "known",
+      "surface": "slopes",
+      "pos": "n · B1",
+      "pron": "/sloʊps/",
+      "meaning": "斜面",
+      "example": {
+        "en": "Steep slopes.",
+        "ja": "急斜面。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "snowfall": {
+      "tier": "known",
+      "surface": "snowfall",
+      "pos": "n · B2",
+      "pron": "/ˈsnoʊ.fɔːl/",
+      "meaning": "降雪",
+      "example": {
+        "en": "Heavy snowfall.",
+        "ja": "豪雪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "snowmobilers": {
+      "tier": "known",
+      "surface": "snowmobilers",
+      "pos": "n · C1",
+      "pron": "/ˈsnoʊ.məˌboʊ.ləz/",
+      "meaning": "スノーモービル乗り",
+      "example": {
+        "en": "Reckless snowmobilers.",
+        "ja": "無謀なスノーモービラー。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "snowpack": {
+      "tier": "key",
+      "surface": "snowpack",
+      "pos": "n · C1",
+      "pron": "/ˈsnoʊ.pæk/",
+      "meaning": "積雪層",
+      "example": {
+        "en": "Stable snowpack.",
+        "ja": "安定した積雪。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "solid": {
+      "tier": "known",
+      "surface": "solid",
+      "pos": "n · B1",
+      "pron": "/ˈsɒl.ɪd/",
+      "meaning": "固体",
+      "example": {
+        "en": "Solid form.",
+        "ja": "固体形。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stability": {
+      "tier": "known",
+      "surface": "stability",
+      "pos": "n · B2",
+      "pron": "/stəˈbɪl.ə.ti/",
+      "meaning": "安定性",
+      "example": {
+        "en": "Slope stability.",
+        "ja": "斜面安定性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "steep": {
+      "tier": "known",
+      "surface": "steep",
+      "pos": "adj · B1",
+      "pron": "/stiːp/",
+      "meaning": "急な",
+      "example": {
+        "en": "Steep hill.",
+        "ja": "急な丘。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "steepness": {
+      "tier": "known",
+      "surface": "steepness",
+      "pos": "n · B2",
+      "pron": "/ˈstiːp.nəs/",
+      "meaning": "急峻さ",
+      "example": {
+        "en": "Slope steepness.",
+        "ja": "斜度。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sturdy": {
+      "tier": "known",
+      "surface": "sturdy",
+      "pos": "adj · B2",
+      "pron": "/ˈstɜː.di/",
+      "meaning": "頑丈な、強固な",
+      "example": {
+        "en": "Sturdy build.",
+        "ja": "頑丈な造り。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surge": {
+      "tier": "known",
+      "surface": "surge",
+      "pos": "n · B2",
+      "pron": "/sɜːdʒ/",
+      "meaning": "うねり",
+      "example": {
+        "en": "Power surge.",
+        "ja": "電力サージ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "survive": {
+      "tier": "skip",
+      "surface": "survive",
+      "pos": "v · A2",
+      "pron": "/səˈvaɪv/",
+      "meaning": "生き延びる",
+      "example": {
+        "en": "Survive the storm.",
+        "ja": "嵐を生き延びる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "terrain": {
+      "tier": "known",
+      "surface": "terrain",
+      "pos": "n · B2",
+      "pron": "/təˈreɪn/",
+      "meaning": "地形",
+      "example": {
+        "en": "Rough terrain.",
+        "ja": "険しい地形。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tragedies": {
+      "tier": "known",
+      "surface": "tragedies",
+      "pos": "n · B2",
+      "pron": "/ˈtrædʒ.ə.diz/",
+      "meaning": "悲劇",
+      "example": {
+        "en": "Personal tragedies.",
+        "ja": "個人的悲劇。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trained": {
+      "tier": "skip",
+      "surface": "trained",
+      "pos": "adj · A2",
+      "pron": "/treɪnd/",
+      "meaning": "訓練された",
+      "example": {
+        "en": "Highly trained.",
+        "ja": "高度に訓練。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trigger": {
+      "tier": "known",
+      "surface": "trigger",
+      "pos": "n · B1",
+      "pron": "/ˈtrɪɡ.ər/",
+      "meaning": "引き金",
+      "example": {
+        "en": "Pull the trigger.",
+        "ja": "引き金を引く。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "typically": {
+      "tier": "skip",
+      "surface": "typically",
+      "pos": "adv · A2",
+      "pron": "/ˈtɪp.ɪk.li/",
+      "meaning": "通常",
+      "example": {
+        "en": "Typically used.",
+        "ja": "通常使用される。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ultimately": {
+      "tier": "known",
+      "surface": "ultimately",
+      "pos": "adv · B2",
+      "pron": "/ˈʌl.tɪ.mət.li/",
+      "meaning": "究極的に",
+      "example": {
+        "en": "Ultimately failed.",
+        "ja": "結局失敗。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unstable": {
+      "tier": "known",
+      "surface": "unstable",
+      "pos": "adj · B2",
+      "pron": "/ʌnˈsteɪ.bl/",
+      "meaning": "不安定な",
+      "example": {
+        "en": "Unstable structure.",
+        "ja": "不安定な構造。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "upstream": {
+      "tier": "known",
+      "surface": "upstream",
+      "pos": "adv · B2",
+      "pron": "/ˌʌpˈstriːm/",
+      "meaning": "上流に",
+      "example": {
+        "en": "Move upstream.",
+        "ja": "上流に進む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "vegetation": {
+      "tier": "known",
+      "surface": "vegetation",
+      "pos": "n · B2",
+      "pron": "/ˌvedʒ.əˈteɪ.ʃən/",
+      "meaning": "植生",
+      "example": {
+        "en": "Dense vegetation.",
+        "ja": "密な植生。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "victims": {
+      "tier": "known",
+      "surface": "victims",
+      "pos": "n · B1",
+      "pron": "/ˈvɪk.tɪmz/",
+      "meaning": "犠牲者",
+      "example": {
+        "en": "Avalanche victims.",
+        "ja": "雪崩犠牲者。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "airbag": {
+      "tier": "known",
+      "surface": "airbag",
+      "pos": "n · B2",
+      "pron": "/ˈeə.bæɡ/",
+      "literal": "エアバッグ",
+      "meaning": "エアバッグ",
+      "context": "",
+      "collocations": []
+    },
+    "build_up": {
+      "tier": "known",
+      "surface": "build up",
+      "pos": "phrasal v · B1",
+      "pron": "/bɪld ʌp/",
+      "literal": "積もる",
+      "meaning": "積もる",
+      "context": "",
+      "collocations": []
+    },
+    "cascade_mountains": {
+      "tier": "known",
+      "surface": "Cascade Mountains",
+      "pos": "n phrase · proper",
+      "pron": "/kæsˈkeɪd ˈmaʊn.tənz/",
+      "literal": "カスケード山脈",
+      "meaning": "米国北西部の山脈",
+      "context": "",
+      "collocations": []
+    },
+    "controlled_avalanche": {
+      "tier": "known",
+      "surface": "controlled avalanche",
+      "pos": "n phrase · C1",
+      "pron": "/kənˈtroʊld ˈæv.ə.lɑːntʃ/",
+      "literal": "制御下の雪崩",
+      "meaning": "制御下の雪崩",
+      "context": "",
+      "collocations": []
+    },
+    "fluid_like": {
+      "tier": "known",
+      "surface": "fluid-like",
+      "pos": "adj phrase · C1",
+      "pron": "/ˈfluː.ɪd laɪk/",
+      "literal": "流体的な",
+      "meaning": "流体的な",
+      "context": "",
+      "collocations": []
+    },
+    "high_hazard": {
+      "tier": "known",
+      "surface": "high-hazard",
+      "pos": "adj phrase · C1",
+      "pron": "/haɪ ˈhæz.əd/",
+      "literal": "高リスクの",
+      "meaning": "高リスクの",
+      "context": "",
+      "collocations": []
+    },
+    "human_caused": {
+      "tier": "known",
+      "surface": "human-caused",
+      "pos": "adj phrase · B2",
+      "pron": "/ˈhjuː.mən kɔːzd/",
+      "literal": "人為的な",
+      "meaning": "人為的な",
+      "context": "",
+      "collocations": []
+    },
+    "in_motion": {
+      "tier": "known",
+      "surface": "in motion",
+      "pos": "phrase · B2",
+      "pron": "/ɪn ˈmoʊ.ʃən/",
+      "literal": "動いて",
+      "meaning": "動いて",
+      "context": "",
+      "collocations": []
+    },
+    "in_the_end": {
+      "tier": "known",
+      "surface": "In the end",
+      "pos": "phrase · B1",
+      "pron": "/ɪn ði end/",
+      "literal": "結局",
+      "meaning": "結局",
+      "context": "",
+      "collocations": []
+    },
+    "just_in_time": {
+      "tier": "known",
+      "surface": "just in time",
+      "pos": "phrase · B1",
+      "pron": "/dʒʌst ɪn taɪm/",
+      "literal": "間一髪で",
+      "meaning": "間一髪で",
+      "context": "",
+      "collocations": []
+    },
+    "last_line_of_defense": {
+      "tier": "known",
+      "surface": "last line of defense",
+      "pos": "phrase · C1",
+      "pron": "/lɑːst laɪn əv dɪˈfens/",
+      "literal": "最後の防衛線",
+      "meaning": "最後の防衛線",
+      "context": "",
+      "collocations": []
+    },
+    "lose_lives": {
+      "tier": "known",
+      "surface": "lost their lives",
+      "pos": "v phrase · B2",
+      "pron": "/lɒst ðeə laɪvz/",
+      "literal": "命を落とした",
+      "meaning": "命を落とした",
+      "context": "",
+      "collocations": []
+    },
+    "on_their_own": {
+      "tier": "known",
+      "surface": "on their own",
+      "pos": "phrase · B1",
+      "pron": "/ɒn ðeə oʊn/",
+      "literal": "自力で",
+      "meaning": "自力で",
+      "context": "",
+      "collocations": []
+    },
+    "out_of_nowhere": {
+      "tier": "known",
+      "surface": "out of nowhere",
+      "pos": "phrase · B2",
+      "pron": "/aʊt əv ˈnoʊ.weər/",
+      "literal": "何もないところから",
+      "meaning": "何もないところから",
+      "context": "",
+      "collocations": []
+    },
+    "potential_energy": {
+      "tier": "known",
+      "surface": "potential energy",
+      "pos": "n phrase · B2",
+      "pron": "/pəˈten.ʃəl ˈen.ə.dʒi/",
+      "literal": "位置エネルギー",
+      "meaning": "位置エネルギー",
+      "context": "",
+      "collocations": []
+    },
+    "powder_cloud": {
+      "tier": "known",
+      "surface": "powder cloud",
+      "pos": "n phrase · B2",
+      "pron": "/ˈpaʊ.dər klaʊd/",
+      "literal": "粉塵雲",
+      "meaning": "粉塵雲",
+      "context": "",
+      "collocations": []
+    },
+    "rescue_gear": {
+      "tier": "known",
+      "surface": "rescue gear",
+      "pos": "n phrase · B2",
+      "pron": "/ˈres.kjuː ɡɪər/",
+      "literal": "救助装備",
+      "meaning": "救助装備",
+      "context": "",
+      "collocations": []
+    },
+    "responsible_for": {
+      "tier": "known",
+      "surface": "responsible for",
+      "pos": "phrase · B1",
+      "pron": "/rɪˈspɒn.sə.bl fɔː/",
+      "literal": "〜に責任を負う",
+      "meaning": "〜に責任を負う",
+      "context": "",
+      "collocations": []
+    },
+    "should_disaster_strike": {
+      "tier": "known",
+      "surface": "should disaster strike",
+      "pos": "phrase · C1",
+      "pron": "/ʃʊd dɪˈzɑːs.tər straɪk/",
+      "literal": "災害が起きた場合は",
+      "meaning": "倒置による条件節",
+      "context": "",
+      "collocations": []
+    },
+    "something_over_nothing": {
+      "tier": "key",
+      "surface": "something over nothing",
+      "pos": "phrase · C2",
+      "pron": "/ˈsʌm.θɪŋ ˈoʊ.vər ˈnʌθ.ɪŋ/",
+      "literal": "強い層が弱い層の上",
+      "meaning": "雪崩研究での専門慣用句",
+      "context": "",
+      "collocations": []
+    },
+    "surface_hoar": {
+      "tier": "key",
+      "surface": "surface hoar",
+      "pos": "n phrase · C2",
+      "pron": "/ˈsɜː.fɪs hɔː/",
+      "literal": "表面霜",
+      "meaning": "雪面に形成される羽毛状霜",
+      "context": "",
+      "collocations": []
+    },
+    "tends_to": {
+      "tier": "known",
+      "surface": "tends to",
+      "pos": "phrase · B1",
+      "pron": "/tendz tə/",
+      "literal": "〜しがちな",
+      "meaning": "〜しがちな",
+      "context": "",
+      "collocations": []
+    },
+    "water_vapor": {
+      "tier": "known",
+      "surface": "water vapor",
+      "pos": "n phrase · B2",
+      "pron": "/ˈwɔː.tər ˈveɪ.pər/",
+      "literal": "水蒸気",
+      "meaning": "水蒸気",
+      "context": "",
+      "collocations": []
+    }
+  }
+}

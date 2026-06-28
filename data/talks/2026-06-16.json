@@ -1,0 +1,4814 @@
+{
+  "id": "talk_2026-06-16",
+  "date": "2026-06-16",
+  "source": "ted-ed",
+  "primary_topic": "History",
+  "tags": [
+    "castle",
+    "medieval",
+    "siege",
+    "military-history",
+    "fortification",
+    "europe"
+  ],
+  "difficulty": "hard",
+  "slug": "connor_c_wilson_how_to_attack_and_defend_a_medieval_castle",
+  "video_id": "181576",
+  "title": "How to attack (and defend) a medieval castle",
+  "speaker": "Connor C. Wilson",
+  "duration_sec": 318,
+  "published_at": "2026-06-16T15:02:43Z",
+  "video_url": "https://www.ted.com/talks/connor_c_wilson_how_to_attack_and_defend_a_medieval_castle",
+  "embed_url": "https://embed.ted.com/talks/connor_c_wilson_how_to_attack_and_defend_a_medieval_castle",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_181576/afd5c88e-34a7-498c-90ac-e6904737903a/MedievalCastle_textless.jpg",
+  "background": {
+    "summary": "1315年のカーライル城包囲を導入に、中世ヨーロッパの城が単なる防御施設ではなく権力の象徴・住居・統治拠点であった事実を辿る。木造モット&ベイリーから石造同心円城へ、攻城兵器の進化、15世紀の大砲で終焉を迎えるまでの500年史。",
+    "details": [
+      "Robert the Bruce (1274-1329) のカーライル城包囲(1315): 豪雨と泥濘、英軍の弓矢に阻まれ11日で撤退。当時の城防衛力を象徴。",
+      "Motte and bailey: 9世紀後半のカロリング朝崩壊期、貴族が地方権力を固めるために築いた木造城の様式。中央の塔と壁で囲まれた庭から成る。",
+      "Concentric castle: 十字軍が中東から持ち帰った同心円状の防御構造。複数層の壁で囲み、13世紀以降の主流に。",
+      "攻城兵器: 破城槌(battering ram)、攻城塔、トレビュシェット(最大130kg の石を投擲)、坑道工法など。長方形塔は角の構造的弱さで脆弱だった。",
+      "城時代の終焉: 15世紀の強力な大砲で高塔が標的化。城壁を3m 厚に増強する建築は維持費が高騰し、地方貴族は中央集権君主への依存を強めた。"
+    ]
+  },
+  "paragraph_summaries_ja": [
+    {
+      "paragraph_id": "p1",
+      "summary": "1315年スコットランド王ロバート・ブルースが英カーライル城を包囲。豪雨と泥、英軍の弓矢、攻城塔への木製足場対応に阻まれ、わずか11日で撤退。当時の城防衛力を象徴する事例。"
+    },
+    {
+      "paragraph_id": "p2",
+      "summary": "城は受動防御だけでなく、権力の象徴・私邸・統治拠点として機能。攻撃発進基地や、庇護と暴力の脅しで地域住民を支配する道具にもなった。"
+    },
+    {
+      "paragraph_id": "p3",
+      "summary": "城塞自体は紀元前8世紀から存在したが、9世紀末カロリング朝崩壊期に貴族が地方権力を固めるべく大量建設。木造の motte and bailey(中央塔+壁で囲まれた庭)が初期様式。"
+    },
+    {
+      "paragraph_id": "p4",
+      "summary": "12世紀には石造化が進み、カーテンウォール+門楼が登場。石灰水塗装で色彩を持たせ、視覚的美しさで権力を投射。カーナーヴォン城や中東の十字軍城はイスラム・ビザンチン建築を取り入れた。"
+    },
+    {
+      "paragraph_id": "p5",
+      "summary": "城が広まると攻城技術も進化。火・破城槌・攻城塔・坑道戦・130kg投擲のトレビュシェットが城を脅かす。長方形塔は角の弱さで脆弱。十字軍が中東から持ち帰った同心円城が解決策となる。"
+    },
+    {
+      "paragraph_id": "p6",
+      "summary": "13世紀以降、同心円城が君臨し小型大砲にも耐えた。だが15世紀、強力な大砲で高塔は格好の標的に。3m厚壁化は法外に高価で、地方貴族は中央集権君主への依存を強めた。"
+    },
+    {
+      "paragraph_id": "p7",
+      "summary": "財政・政治圧力と火薬兵器の進歩で城の軍事的優位は終焉。多くは住居・行政施設・刑務所へ転用され、今日は観光名所・私邸として、なお壮麗さと権威を投影している。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.961,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "In 1315, Scotland's King Robert the Bruce decided to lay siege to England's Carlisle Castle.",
+          "translation_ja": "1315年、スコットランド王ロバート・ブルースは英国のカーライル城に対する包囲戦を決行した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In 1315"
+            },
+            {
+              "label": "S",
+              "content": "Scotland's King Robert the Bruce"
+            },
+            {
+              "label": "V",
+              "content": "decided"
+            },
+            {
+              "label": "O",
+              "content": "to lay siege to England's Carlisle Castle",
+              "note": "lay siege to = 包囲する"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In 1315, Scotland's King Robert the Bruce decided to "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "lay siege to",
+              "ref": "lay_siege_to"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " England's "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "Carlisle",
+              "ref": "carlisle",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "Castle",
+              "ref": "castle",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Robert expected a swift victory, but his men arrived to find a relentless downpour.",
+          "translation_ja": "ロバートは素早い勝利を期待したが、兵たちが到着すると容赦ない豪雨が待っていた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Robert"
+            },
+            {
+              "label": "V",
+              "content": "expected"
+            },
+            {
+              "label": "O",
+              "content": "a swift victory"
+            },
+            {
+              "label": "M",
+              "content": "but his men arrived to find a relentless downpour",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Robert "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "expected",
+              "ref": "expected",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "swift",
+              "ref": "swift",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "victory",
+              "ref": "victory",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", but his men arrived to find a "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "relentless",
+              "ref": "relentless",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "downpour",
+              "ref": "downpour",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Struggling against muck and mud, they tried to fill the moat with corn husks only for the husks to float away.",
+          "translation_ja": "汚泥と泥に苦闘しながら、彼らはトウモロコシの皮で堀を埋めようとしたが、皮は浮いて流れ去ってしまった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Struggling against muck and mud",
+              "note": "分詞構文"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "tried"
+            },
+            {
+              "label": "O",
+              "content": "to fill the moat with corn husks"
+            },
+            {
+              "label": "M",
+              "content": "only for the husks to float away",
+              "note": "only to 構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Struggling",
+              "ref": "struggling",
+              "tier": "skip"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " against "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "muck",
+              "ref": "muck",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "mud",
+              "ref": "mud",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": ", they tried to "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "fill",
+              "ref": "fill",
+              "tier": "skip"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "moat",
+              "ref": "moat",
+              "tier": "key"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "corn",
+              "ref": "corn",
+              "tier": "skip"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "husks",
+              "ref": "husks",
+              "tier": "known"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t15",
+              "type": "expression",
+              "surface": "only for … to",
+              "ref": "only_for_to"
+            },
+            {
+              "id": "t16",
+              "type": "skip",
+              "surface": " the husks to "
+            },
+            {
+              "id": "t17",
+              "type": "expression",
+              "surface": "float away",
+              "ref": "float_away"
+            },
+            {
+              "id": "t18",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Then Robert ordered the construction of a massive siege tower, but the English responded with wooden scaffolds that heightened the castle walls.",
+          "translation_ja": "次にロバートは巨大な攻城塔の建設を命じたが、英軍は城壁を高くする木製の足場で応じた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Robert"
+            },
+            {
+              "label": "V",
+              "content": "ordered"
+            },
+            {
+              "label": "O",
+              "content": "the construction of a massive siege tower"
+            },
+            {
+              "label": "M",
+              "content": "but the English responded with wooden scaffolds that heightened the castle walls",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Then Robert "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "ordered",
+              "ref": "ordered",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "construction",
+              "ref": "construction",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "massive",
+              "ref": "massive",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "siege tower",
+              "ref": "siege_tower"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", but the English "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "responded",
+              "ref": "responded",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " with wooden "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "scaffolds",
+              "ref": "scaffolds",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " that "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "heightened",
+              "ref": "heightened",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " the castle walls."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Their final push to scale those walls ended with English arrows raining down on the sodden Scots.",
+          "translation_ja": "壁を登ろうとする最後の試みは、ずぶ濡れのスコット兵たちに英軍の矢が降り注ぐ形で終わった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Their final push to scale those walls"
+            },
+            {
+              "label": "V",
+              "content": "ended"
+            },
+            {
+              "label": "M",
+              "content": "with English arrows raining down on the sodden Scots"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Their final push to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "scale",
+              "ref": "scale",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " those walls "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "ended",
+              "ref": "ended",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " with English "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "arrows",
+              "ref": "arrows",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "raining down",
+              "ref": "rain_down"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " on the "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "sodden",
+              "ref": "sodden",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "Scots",
+              "ref": "scots",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "At a time when sieges could last months or even years, Robert retreated after just 11 days.",
+          "translation_ja": "包囲戦が数か月、ときには数年に及ぶ時代に、ロバートはわずか11日で撤退した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "At a time when sieges could last months or even years",
+              "note": "関係副詞"
+            },
+            {
+              "label": "S",
+              "content": "Robert"
+            },
+            {
+              "label": "V",
+              "content": "retreated"
+            },
+            {
+              "label": "M",
+              "content": "after just 11 days"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "At a time when "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "sieges",
+              "ref": "sieges",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " could last months or even years, Robert "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "retreated",
+              "ref": "retreated",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " after just 11 days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 65.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "This siege is a prime example of how medieval European castles could stand firm against enemy onslaughts.",
+          "translation_ja": "この包囲戦は、中世ヨーロッパの城が敵の猛攻に対していかに堅く立ちはだかれたかの代表例だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This siege"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "a prime example of how medieval European castles could stand firm against enemy onslaughts"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This siege is a "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "prime example",
+              "ref": "prime_example"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " of how "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "medieval",
+              "ref": "medieval",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " European castles could "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "stand firm",
+              "ref": "stand_firm"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " against "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "enemy",
+              "ref": "enemy",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "onslaughts",
+              "ref": "onslaughts",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But castles weren't just for passive defense; they were symbols of power, private residences, and hubs of governance intended to impress and intimidate.",
+          "translation_ja": "しかし城は受動的防御のためだけではなかった。それらは権力の象徴、私邸、統治拠点であり、相手を圧倒し威圧するために設計された。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "castles"
+            },
+            {
+              "label": "V",
+              "content": "were"
+            },
+            {
+              "label": "C",
+              "content": "symbols of power, private residences, and hubs of governance intended to impress and intimidate"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But castles weren't just for "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "passive",
+              "ref": "passive",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "defense",
+              "ref": "defense",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "; they were "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "symbols",
+              "ref": "symbols",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of power, "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "private",
+              "ref": "private",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "residences",
+              "ref": "residences",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "hubs",
+              "ref": "hubs",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "governance",
+              "ref": "governance",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "intended",
+              "ref": "intended",
+              "tier": "known"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "impress",
+              "ref": "impress",
+              "tier": "known"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "intimidate",
+              "ref": "intimidate",
+              "tier": "known"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "In fact, they were just as likely to be used for offensive military tactics.",
+          "translation_ja": "実際、攻撃的な軍事戦術にも同じくらい使われ得た。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "were"
+            },
+            {
+              "label": "C",
+              "content": "just as likely to be used for offensive military tactics"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In fact, they were "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "just as likely",
+              "ref": "just_as_likely"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to be used for "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "offensive",
+              "ref": "offensive",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " military "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "tactics",
+              "ref": "tactics",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Castles regularly served as bases for launching attacks and as a way to control local populations with promises of shelter or threats of violence.",
+          "translation_ja": "城は攻撃の発進基地として、また地域住民を庇護の約束や暴力の脅しで支配する手段として、定期的に機能した。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Castles"
+            },
+            {
+              "label": "V",
+              "content": "served"
+            },
+            {
+              "label": "M",
+              "content": "as bases for launching attacks and as a way to control local populations with promises of shelter or threats of violence"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Castles "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "regularly",
+              "ref": "regularly",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "served",
+              "ref": "served",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " as bases for "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "launching",
+              "ref": "launching",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " attacks and as a way to "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "control",
+              "ref": "control",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " local "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "populations",
+              "ref": "populations",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "promises",
+              "ref": "promises",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "shelter",
+              "ref": "shelter",
+              "tier": "known"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "threats",
+              "ref": "threats",
+              "tier": "known"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "violence",
+              "ref": "violence",
+              "tier": "skip"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 110.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "While citadels and fortified palaces could be found as early as the 8th century BCE, European castles as we think of them started appearing in large numbers in the late 9th century CE.",
+          "translation_ja": "城塞や要塞化された宮殿は紀元前8世紀には既にあったが、我々が思い浮かべる形のヨーロッパ式城は9世紀末から大量に現れ始めた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While citadels and fortified palaces could be found as early as the 8th century BCE",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "European castles as we think of them"
+            },
+            {
+              "label": "V",
+              "content": "started"
+            },
+            {
+              "label": "O",
+              "content": "appearing in large numbers in the late 9th century CE"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "citadels",
+              "ref": "citadels",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "fortified",
+              "ref": "fortified",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "palaces",
+              "ref": "palaces",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " could be found "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "as early as",
+              "ref": "as_early_as"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " the 8th century BCE, European castles as we think of them started appearing in large numbers in the late 9th century CE."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "At this time, the ruling Carolingian Empire was breaking down.",
+          "translation_ja": "当時、支配していたカロリング朝が崩壊しつつあった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "At this time"
+            },
+            {
+              "label": "S",
+              "content": "the ruling Carolingian Empire"
+            },
+            {
+              "label": "V",
+              "content": "was breaking down"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "At this time, the ruling "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Carolingian",
+              "ref": "carolingian",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "Empire",
+              "ref": "empire",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " was "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "breaking down",
+              "ref": "break_down"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And as the monarch's control over his 1 million square kilometer realm disintegrated, nobles began building castles to solidify their regional power.",
+          "translation_ja": "そして君主の100万平方キロにわたる領土への支配が崩壊するにつれ、貴族たちは地方権力を固めるため城を建て始めた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "as the monarch's control over his 1 million square kilometer realm disintegrated",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "nobles"
+            },
+            {
+              "label": "V",
+              "content": "began"
+            },
+            {
+              "label": "O",
+              "content": "building castles to solidify their regional power"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And as the "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "monarch",
+              "ref": "monarch",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "'s control over his 1 million square kilometer "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "realm",
+              "ref": "realm",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "disintegrated",
+              "ref": "disintegrated",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "nobles",
+              "ref": "nobles",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " began building castles to "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "solidify",
+              "ref": "solidify",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "regional",
+              "ref": "regional",
+              "tier": "skip"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " power."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "These early wooden castles followed the motte and bailey design, featuring a central tower built atop a steep mound with a walled yard at the base.",
+          "translation_ja": "これら初期の木造城はモット&ベイリー様式に従い、急な土塁の上に中央塔を据え、その下に壁で囲まれた庭を持つ構造だった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "These early wooden castles"
+            },
+            {
+              "label": "V",
+              "content": "followed"
+            },
+            {
+              "label": "O",
+              "content": "the motte and bailey design"
+            },
+            {
+              "label": "M",
+              "content": "featuring a central tower built atop a steep mound with a walled yard at the base",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "These early wooden castles followed the "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "motte and bailey",
+              "ref": "motte_and_bailey"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " design, featuring a central tower built "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "atop",
+              "ref": "atop",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "steep",
+              "ref": "steep",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "mound",
+              "ref": "mound",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " with a walled "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "yard",
+              "ref": "yard",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " at the base."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "But over the following centuries, as castles became centers of social, cultural, military, and political life, their designs grew more varied and complex.",
+          "translation_ja": "しかし続く数世紀のうちに、城が社会・文化・軍事・政治生活の中心となるにつれ、その設計はより多様で複雑になっていった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "over the following centuries"
+            },
+            {
+              "label": "M",
+              "content": "as castles became centers of social, cultural, military, and political life",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "their designs"
+            },
+            {
+              "label": "V",
+              "content": "grew"
+            },
+            {
+              "label": "C",
+              "content": "more varied and complex"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But over the following centuries, as castles became centers of social, cultural, military, and political life, their designs grew more "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "varied",
+              "ref": "varied",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "complex",
+              "ref": "complex",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 170.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "By the 12th century, many wooden motte and baileys had been rebuilt with stone, increasing their defense and longevity.",
+          "translation_ja": "12世紀までに、多くの木造モット&ベイリーは石で建て直され、防御力と耐久性が向上した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "By the 12th century"
+            },
+            {
+              "label": "S",
+              "content": "many wooden motte and baileys"
+            },
+            {
+              "label": "V",
+              "content": "had been rebuilt",
+              "note": "過去完了受動"
+            },
+            {
+              "label": "M",
+              "content": "with stone, increasing their defense and longevity"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "By the 12th century, many wooden motte and baileys had been "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "rebuilt",
+              "ref": "rebuilt",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " with stone, increasing their defense and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "longevity",
+              "ref": "longevity",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Subsequent castles built in stone from the start used curtain walls and gatehouses to enclose the castle yard.",
+          "translation_ja": "最初から石で建てられた後続の城は、カーテンウォールと門楼で城庭を囲んだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Subsequent castles built in stone from the start"
+            },
+            {
+              "label": "V",
+              "content": "used"
+            },
+            {
+              "label": "O",
+              "content": "curtain walls and gatehouses"
+            },
+            {
+              "label": "M",
+              "content": "to enclose the castle yard"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Subsequent castles built in stone from the start used "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "curtain walls",
+              "ref": "curtain_walls"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "gatehouses",
+              "ref": "gatehouses",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "enclose",
+              "ref": "enclose",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the castle yard."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And their walls and towers were often coated in a layer of protective limewash, covering their stony grey with a range of colorful tones.",
+          "translation_ja": "そして壁や塔はしばしば保護用の石灰水塗装で覆われ、灰色の石肌が様々な色合いで覆われた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "their walls and towers"
+            },
+            {
+              "label": "V",
+              "content": "were coated",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "in a layer of protective limewash, covering their stony grey with a range of colorful tones"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And their walls and towers were often "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "coated",
+              "ref": "coated",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in a layer of protective "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "limewash",
+              "ref": "limewash",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", covering their stony grey with a range of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "colorful",
+              "ref": "colorful",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "tones",
+              "ref": "tones",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Alongside their scale, visual beauty was a way for castles to project power.",
+          "translation_ja": "規模に加えて、視覚的な美しさも城が権力を投影する手段だった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Alongside their scale"
+            },
+            {
+              "label": "S",
+              "content": "visual beauty"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "a way for castles to project power"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Alongside",
+              "ref": "alongside",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "scale",
+              "ref": "scale",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "visual",
+              "ref": "visual",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "beauty",
+              "ref": "beauty",
+              "tier": "skip"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " was a way for castles to "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "project",
+              "ref": "project",
+              "tier": "skip"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " power."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Castle Caernarfon in northern Wales was built with bands of different colored stone.",
+          "translation_ja": "ウェールズ北部のカーナーヴォン城は、異なる色の石の帯で築かれた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Castle Caernarfon in northern Wales"
+            },
+            {
+              "label": "V",
+              "content": "was built",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "with bands of different colored stone"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Castle "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Caernarfon",
+              "ref": "caernarfon",
+              "tier": "key"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in northern Wales was built with "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "bands",
+              "ref": "bands",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of different colored stone."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "And Crusader armies building castles in the Middle East often incorporated elements of intricate Islamic and Byzantine architecture.",
+          "translation_ja": "中東で城を建てた十字軍は、しばしば精緻なイスラム式・ビザンチン式建築の要素を取り入れた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Crusader armies building castles in the Middle East"
+            },
+            {
+              "label": "V",
+              "content": "incorporated"
+            },
+            {
+              "label": "O",
+              "content": "elements of intricate Islamic and Byzantine architecture"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "Crusader",
+              "ref": "crusader",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " armies building castles in the Middle East often "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "incorporated",
+              "ref": "incorporated",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " elements of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "intricate",
+              "ref": "intricate",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " Islamic and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "Byzantine",
+              "ref": "byzantine",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "architecture",
+              "ref": "architecture",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 220.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "But as European castles became more widespread, so did technologies to defeat them.",
+          "translation_ja": "しかしヨーロッパの城が広まるにつれ、それらを打ち破る技術も広まった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "as European castles became more widespread",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "so did technologies to defeat them",
+              "note": "倒置"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But as European castles became more "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "widespread",
+              "ref": "widespread",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", so did "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "technologies",
+              "ref": "technologies",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "defeat",
+              "ref": "defeat",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " them."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Fire had long threatened wooden motte and baileys, and while their stone counterparts were more resistant, their underlying wooden structure was still vulnerable to arson.",
+          "translation_ja": "火は長らく木造モット&ベイリーを脅かし、石造の同種は耐性があったものの、基盤の木造構造は放火に依然弱かった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Fire"
+            },
+            {
+              "label": "V",
+              "content": "had threatened",
+              "note": "過去完了"
+            },
+            {
+              "label": "O",
+              "content": "wooden motte and baileys"
+            },
+            {
+              "label": "M",
+              "content": "while their stone counterparts were more resistant, their underlying wooden structure was still vulnerable to arson",
+              "note": "対比"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Fire had long "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "threatened",
+              "ref": "threatened",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " wooden motte and baileys, and while their stone "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "counterparts",
+              "ref": "counterparts",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " were more "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "resistant",
+              "ref": "resistant",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "underlying",
+              "ref": "underlying",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " wooden structure was still "
+            },
+            {
+              "id": "t10",
+              "type": "expression",
+              "surface": "vulnerable to",
+              "ref": "vulnerable_to"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "arson",
+              "ref": "arson",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Battering rams cracked castle doors, siege towers and mining operations thwarted castle walls, and trebuchets launching stones up to 130 kilograms endangered entire structures.",
+          "translation_ja": "破城槌は城門を砕き、攻城塔と坑道工法は城壁を破り、最大130kgの石を投擲するトレビュシェットは構造物全体を脅かした。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Battering rams / siege towers and mining operations / trebuchets launching stones up to 130 kilograms",
+              "note": "三項並列"
+            },
+            {
+              "label": "V",
+              "content": "cracked / thwarted / endangered"
+            },
+            {
+              "label": "O",
+              "content": "castle doors / castle walls / entire structures"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "Battering rams",
+              "ref": "battering_rams"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " cracked castle doors, siege towers and "
+            },
+            {
+              "id": "t3",
+              "type": "word",
+              "surface": "mining",
+              "ref": "mining",
+              "tier": "known"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " operations "
+            },
+            {
+              "id": "t5",
+              "type": "word",
+              "surface": "thwarted",
+              "ref": "thwarted",
+              "tier": "known"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " castle walls, and "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "trebuchets",
+              "ref": "trebuchets",
+              "tier": "key"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "launching",
+              "ref": "launching",
+              "tier": "known"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " stones up to 130 kilograms "
+            },
+            {
+              "id": "t11",
+              "type": "word",
+              "surface": "endangered",
+              "ref": "endangered",
+              "tier": "known"
+            },
+            {
+              "id": "t12",
+              "type": "skip",
+              "surface": " entire "
+            },
+            {
+              "id": "t13",
+              "type": "word",
+              "surface": "structures",
+              "ref": "structures",
+              "tier": "skip"
+            },
+            {
+              "id": "t14",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Rectangular castle towers were especially vulnerable since their square corners had fewer load bearing stones.",
+          "translation_ja": "長方形の城塔は角の構造的弱さで耐荷重の石が少なく、特に脆弱だった。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Rectangular castle towers"
+            },
+            {
+              "label": "V",
+              "content": "were"
+            },
+            {
+              "label": "C",
+              "content": "especially vulnerable since their square corners had fewer load bearing stones"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Rectangular",
+              "ref": "rectangular",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " castle towers were especially vulnerable since their square corners had fewer "
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "load bearing",
+              "ref": "load_bearing"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " stones."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Fortunately, when the Crusaders returned to Europe from the Middle East, they brought home architectural innovations, including the design for concentric castles.",
+          "translation_ja": "幸い、十字軍が中東から欧州に戻った際、彼らは建築上の革新を持ち帰った。同心円城の設計もそこに含まれていた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "when the Crusaders returned to Europe from the Middle East",
+              "note": "時節"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "brought"
+            },
+            {
+              "label": "O",
+              "content": "home architectural innovations, including the design for concentric castles"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Fortunately, when the Crusaders returned to Europe from the Middle East, they brought home "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "architectural",
+              "ref": "architectural",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "innovations",
+              "ref": "innovations",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", including the design for "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "concentric castles",
+              "ref": "concentric_castles"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Featuring numerous rings of defensive walls around a central tower, this approach created a circular fortress with multiple layers of siege security.",
+          "translation_ja": "中央塔を取り巻く複数の防御壁の輪を特徴とするこの様式は、複数層の包囲対策を備えた円形要塞を生み出した。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Featuring numerous rings of defensive walls around a central tower",
+              "note": "分詞構文"
+            },
+            {
+              "label": "S",
+              "content": "this approach"
+            },
+            {
+              "label": "V",
+              "content": "created"
+            },
+            {
+              "label": "O",
+              "content": "a circular fortress with multiple layers of siege security"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Featuring "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "numerous",
+              "ref": "numerous",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " rings of "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "defensive",
+              "ref": "defensive",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " walls around a central tower, this approach created a "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "circular",
+              "ref": "circular",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "fortress",
+              "ref": "fortress",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " with multiple layers of siege security."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 270.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "From the 13th century onward, this design reigned supreme, even standing up to the small cannons that had begun spreading across Europe.",
+          "translation_ja": "13世紀以降この設計が君臨し、欧州中に広まりつつあった小型大砲にも耐えた。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "From the 13th century onward"
+            },
+            {
+              "label": "S",
+              "content": "this design"
+            },
+            {
+              "label": "V",
+              "content": "reigned"
+            },
+            {
+              "label": "C",
+              "content": "supreme"
+            },
+            {
+              "label": "M",
+              "content": "even standing up to the small cannons that had begun spreading across Europe",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "From the 13th century onward, this design "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "reigned supreme",
+              "ref": "reign_supreme"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", even "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "standing up to",
+              "ref": "stand_up_to"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " the small "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "cannons",
+              "ref": "cannons",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " that had begun spreading across Europe."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "But by the 15th century, the high towers that once rained arrows on attackers became easy targets for powerful new cannons.",
+          "translation_ja": "しかし15世紀までに、かつて攻撃者に矢を降らせていた高塔は、強力な新型大砲の格好の標的となった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "by the 15th century"
+            },
+            {
+              "label": "S",
+              "content": "the high towers that once rained arrows on attackers"
+            },
+            {
+              "label": "V",
+              "content": "became"
+            },
+            {
+              "label": "C",
+              "content": "easy targets for powerful new cannons"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But by the 15th century, the high towers that once rained "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "arrows",
+              "ref": "arrows",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " on "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "attackers",
+              "ref": "attackers",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " became easy "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "targets",
+              "ref": "targets",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " for powerful new cannons."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "While castle builders adapted by making squatter structures with walls up to three meters thick, this kind of construction was prohibitively expensive.",
+          "translation_ja": "城の建設者たちは壁の厚さ3mに達する低く太い構造で適応したが、この種の建築は法外に高価だった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While castle builders adapted by making squatter structures with walls up to three meters thick",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "this kind of construction"
+            },
+            {
+              "label": "V",
+              "content": "was"
+            },
+            {
+              "label": "C",
+              "content": "prohibitively expensive"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While castle builders "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "adapted",
+              "ref": "adapted",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " by making "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "squatter",
+              "ref": "squatter",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " structures with walls up to three meters thick, this kind of construction was "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "prohibitively",
+              "ref": "prohibitively",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "expensive",
+              "ref": "expensive",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "By the early 16th century, most local nobles couldn't keep up with the costs, and became reliant on strong centralized rulers who could afford to support modern defenses and large standing armies.",
+          "translation_ja": "16世紀初頭までに、地方の貴族の多くは費用に追いつけず、近代防御と大規模常備軍を支えられる強力な中央集権君主に依存するようになった。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "By the early 16th century"
+            },
+            {
+              "label": "S",
+              "content": "most local nobles"
+            },
+            {
+              "label": "V",
+              "content": "couldn't keep up"
+            },
+            {
+              "label": "M",
+              "content": "with the costs"
+            },
+            {
+              "label": "M",
+              "content": "and became reliant on strong centralized rulers who could afford to support modern defenses and large standing armies",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "By the early 16th century, most local nobles couldn't "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "keep up with",
+              "ref": "keep_up_with"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the costs, and became "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "reliant on",
+              "ref": "reliant_on"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " strong "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "centralized",
+              "ref": "centralized",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "rulers",
+              "ref": "rulers",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " who could "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "afford",
+              "ref": "afford",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " to support modern defenses and large "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "standing armies",
+              "ref": "standing_armies"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 295.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "This financial and political pressure, alongside advances in gunpowder weapons, put an end to castles' military dominance.",
+          "translation_ja": "この財政的・政治的圧力と火薬兵器の進歩によって、城の軍事的優位は終焉を迎えた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This financial and political pressure, alongside advances in gunpowder weapons"
+            },
+            {
+              "label": "V",
+              "content": "put"
+            },
+            {
+              "label": "O",
+              "content": "an end to castles' military dominance",
+              "note": "put an end to = 〜を終わらせる"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This financial and political pressure, alongside advances in "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "gunpowder",
+              "ref": "gunpowder"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " weapons, "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "put an end to",
+              "ref": "put_end_to"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " castles' military "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "dominance",
+              "ref": "dominance",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Most of these fortresses were converted to residences, administrative centers, or prisons, and today many still serve as tourist attractions and private estates.",
+          "translation_ja": "これらの要塞の大半は住居・行政施設・刑務所に転用され、今日も多くは観光名所や私有邸宅として機能している。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Most of these fortresses"
+            },
+            {
+              "label": "V",
+              "content": "were converted",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "to residences, administrative centers, or prisons"
+            },
+            {
+              "label": "M",
+              "content": "and today many still serve as tourist attractions and private estates",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Most of these fortresses were "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "converted",
+              "ref": "converted",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to residences, "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "administrative",
+              "ref": "administrative",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " centers, or "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "prisons",
+              "ref": "prisons",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and today many still serve as tourist "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "attractions",
+              "ref": "attractions",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and private "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "estates",
+              "ref": "estates",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But while they no longer protect their inhabitants from sieging armies, they still project the grandeur and authority that made medieval castles so effective for centuries.",
+          "translation_ja": "もはや包囲軍から住人を守ることはないが、城は今も中世の城を何世紀にもわたって有効たらしめた壮麗さと権威を投影している。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while they no longer protect their inhabitants from sieging armies",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "project"
+            },
+            {
+              "label": "O",
+              "content": "the grandeur and authority that made medieval castles so effective for centuries"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But while they "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "no longer",
+              "ref": "no_longer"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " protect their "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "inhabitants",
+              "ref": "inhabitants",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " from "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "sieging",
+              "ref": "sieging",
+              "tier": "key"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " armies, they still project the "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "grandeur",
+              "ref": "grandeur",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "authority",
+              "ref": "authority",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " that made medieval castles so effective for centuries."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "adapted": {
+      "tier": "known",
+      "surface": "adapted",
+      "pos": "v · B2",
+      "pron": "/əˈdæp.tɪd/",
+      "meaning": "適応した",
+      "example": {
+        "en": "Adapted to change.",
+        "ja": "変化に適応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "administrative": {
+      "tier": "known",
+      "surface": "administrative",
+      "pos": "adj · B2",
+      "pron": "/ədˈmɪn.ɪ.strə.tɪv/",
+      "meaning": "行政の",
+      "example": {
+        "en": "Administrative tasks.",
+        "ja": "行政業務。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "afford": {
+      "tier": "skip",
+      "surface": "afford",
+      "pos": "v · A2",
+      "pron": "/əˈfɔːd/",
+      "meaning": "余裕がある",
+      "example": {
+        "en": "Can't afford it.",
+        "ja": "それは買えない。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alongside": {
+      "tier": "known",
+      "surface": "Alongside",
+      "pos": "prep · B2",
+      "pron": "/əˈlɒŋ.saɪd/",
+      "meaning": "〜と並んで",
+      "example": {
+        "en": "Alongside others.",
+        "ja": "他と並んで。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "architectural": {
+      "tier": "known",
+      "surface": "architectural",
+      "pos": "adj · B2",
+      "pron": "/ˌɑː.kɪˈtek.tʃər.əl/",
+      "meaning": "建築上の",
+      "example": {
+        "en": "Architectural design.",
+        "ja": "建築設計。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "architecture": {
+      "tier": "skip",
+      "surface": "architecture",
+      "pos": "n · A2",
+      "pron": "/ˈɑː.kɪ.tek.tʃər/",
+      "meaning": "建築",
+      "example": {
+        "en": "Modern architecture.",
+        "ja": "現代建築。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "arrows": {
+      "tier": "known",
+      "surface": "arrows",
+      "pos": "n · A2",
+      "pron": "/ˈær.oʊz/",
+      "meaning": "矢",
+      "example": {
+        "en": "Sharp arrows.",
+        "ja": "鋭い矢。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "arson": {
+      "tier": "key",
+      "surface": "arson",
+      "pos": "n · C2",
+      "pron": "/ˈɑː.sən/",
+      "meaning": "放火",
+      "example": {
+        "en": "Arson attack.",
+        "ja": "放火攻撃。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "atop": {
+      "tier": "known",
+      "surface": "atop",
+      "pos": "prep · C1",
+      "pron": "/əˈtɒp/",
+      "meaning": "〜の頂上に",
+      "example": {
+        "en": "Atop the hill.",
+        "ja": "丘の上に。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attackers": {
+      "tier": "known",
+      "surface": "attackers",
+      "pos": "n · B2",
+      "pron": "/əˈtæk.əz/",
+      "meaning": "攻撃者",
+      "example": {
+        "en": "Unknown attackers.",
+        "ja": "正体不明の攻撃者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attractions": {
+      "tier": "known",
+      "surface": "attractions",
+      "pos": "n · B2",
+      "pron": "/əˈtræk.ʃənz/",
+      "meaning": "名所",
+      "example": {
+        "en": "Tourist attractions.",
+        "ja": "観光名所。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "authority": {
+      "tier": "known",
+      "surface": "authority",
+      "pos": "n · B1",
+      "pron": "/ɔːˈθɒr.ə.ti/",
+      "meaning": "権威",
+      "example": {
+        "en": "Local authority.",
+        "ja": "地方当局。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bands": {
+      "tier": "known",
+      "surface": "bands",
+      "pos": "n · B1",
+      "pron": "/bændz/",
+      "meaning": "帯",
+      "example": {
+        "en": "Color bands.",
+        "ja": "色帯。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "beauty": {
+      "tier": "skip",
+      "surface": "beauty",
+      "pos": "n · A2",
+      "pron": "/ˈbjuː.ti/",
+      "meaning": "美",
+      "example": {
+        "en": "Natural beauty.",
+        "ja": "自然美。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "byzantine": {
+      "tier": "known",
+      "surface": "Byzantine",
+      "pos": "adj · C1",
+      "pron": "/bɪˈzæn.taɪn/",
+      "meaning": "ビザンチン式の",
+      "example": {
+        "en": "Byzantine architecture.",
+        "ja": "ビザンチン建築。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "caernarfon": {
+      "tier": "key",
+      "surface": "Caernarfon",
+      "pos": "n · proper",
+      "pron": "/kərˈnɑːr.vən/",
+      "meaning": "カーナーヴォン",
+      "example": {
+        "en": "Caernarfon Castle.",
+        "ja": "カーナーヴォン城。"
+      },
+      "context": "ウェールズ北部の世界遺産城。",
+      "collocations": []
+    },
+    "cannons": {
+      "tier": "known",
+      "surface": "cannons",
+      "pos": "n · B2",
+      "pron": "/ˈkæn.ənz/",
+      "meaning": "大砲",
+      "example": {
+        "en": "Bronze cannons.",
+        "ja": "青銅大砲。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "carlisle": {
+      "tier": "key",
+      "surface": "Carlisle",
+      "pos": "n · proper",
+      "pron": "/ˈkɑːr.laɪl/",
+      "meaning": "カーライル",
+      "example": {
+        "en": "Carlisle Castle.",
+        "ja": "カーライル城。"
+      },
+      "context": "スコットランド国境近くの英国の要塞都市。",
+      "collocations": []
+    },
+    "carolingian": {
+      "tier": "key",
+      "surface": "Carolingian",
+      "pos": "adj · proper",
+      "pron": "/ˌkær.əˈlɪn.dʒi.ən/",
+      "meaning": "カロリング朝の",
+      "example": {
+        "en": "Carolingian Empire.",
+        "ja": "カロリング朝。"
+      },
+      "context": "8〜9世紀フランク王国を支配した王朝。",
+      "collocations": []
+    },
+    "castle": {
+      "tier": "skip",
+      "surface": "Castle",
+      "pos": "n · A2",
+      "pron": "/ˈkɑː.səl/",
+      "meaning": "城",
+      "example": {
+        "en": "Old castle.",
+        "ja": "古城。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "centralized": {
+      "tier": "known",
+      "surface": "centralized",
+      "pos": "adj · B2",
+      "pron": "/ˈsen.trə.laɪzd/",
+      "meaning": "中央集権の",
+      "example": {
+        "en": "Centralized rule.",
+        "ja": "中央集権統治。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "circular": {
+      "tier": "known",
+      "surface": "circular",
+      "pos": "adj · B2",
+      "pron": "/ˈsɜː.kjə.lər/",
+      "meaning": "円形の",
+      "example": {
+        "en": "Circular shape.",
+        "ja": "円形。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "citadels": {
+      "tier": "key",
+      "surface": "citadels",
+      "pos": "n · C2",
+      "pron": "/ˈsɪt.ə.delz/",
+      "meaning": "城塞",
+      "example": {
+        "en": "Ancient citadels.",
+        "ja": "古代城塞。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "coated": {
+      "tier": "known",
+      "surface": "coated",
+      "pos": "v · B2",
+      "pron": "/ˈkoʊ.tɪd/",
+      "meaning": "塗装された",
+      "example": {
+        "en": "Coated with paint.",
+        "ja": "塗装された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "colorful": {
+      "tier": "known",
+      "surface": "colorful",
+      "pos": "adj · B1",
+      "pron": "/ˈkʌl.ə.fəl/",
+      "meaning": "色鮮やかな",
+      "example": {
+        "en": "Colorful banners.",
+        "ja": "色鮮やかな旗。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "complex": {
+      "tier": "skip",
+      "surface": "complex",
+      "pos": "adj · A2",
+      "pron": "/ˈkɒm.pleks/",
+      "meaning": "複雑な",
+      "example": {
+        "en": "Complex design.",
+        "ja": "複雑な設計。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "construction": {
+      "tier": "known",
+      "surface": "construction",
+      "pos": "n · B1",
+      "pron": "/kənˈstrʌk.ʃən/",
+      "meaning": "建設",
+      "example": {
+        "en": "Construction site.",
+        "ja": "建設現場。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "control": {
+      "tier": "skip",
+      "surface": "control",
+      "pos": "v · A2",
+      "pron": "/kənˈtroʊl/",
+      "meaning": "支配する",
+      "example": {
+        "en": "Control the area.",
+        "ja": "地域を制圧。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "converted": {
+      "tier": "known",
+      "surface": "converted",
+      "pos": "v · B2",
+      "pron": "/kənˈvɜː.tɪd/",
+      "meaning": "転換された",
+      "example": {
+        "en": "Converted to.",
+        "ja": "〜に転換。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "corn": {
+      "tier": "skip",
+      "surface": "corn",
+      "pos": "n · A2",
+      "pron": "/kɔːrn/",
+      "meaning": "トウモロコシ、穀物",
+      "example": {
+        "en": "Sweet corn.",
+        "ja": "スイートコーン。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "counterparts": {
+      "tier": "known",
+      "surface": "counterparts",
+      "pos": "n · B2",
+      "pron": "/ˈkaʊn.tə.pɑːts/",
+      "meaning": "対応するもの",
+      "example": {
+        "en": "Stone counterparts.",
+        "ja": "石製の同種。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crusader": {
+      "tier": "known",
+      "surface": "Crusader",
+      "pos": "n · B2",
+      "pron": "/kruːˈseɪ.dər/",
+      "meaning": "十字軍",
+      "example": {
+        "en": "Crusader armies.",
+        "ja": "十字軍。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "defeat": {
+      "tier": "known",
+      "surface": "defeat",
+      "pos": "v · B1",
+      "pron": "/dɪˈfiːt/",
+      "meaning": "打ち破る",
+      "example": {
+        "en": "Defeat the enemy.",
+        "ja": "敵を破る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "defense": {
+      "tier": "skip",
+      "surface": "defense",
+      "pos": "n · A2",
+      "pron": "/dɪˈfens/",
+      "meaning": "防御",
+      "example": {
+        "en": "Self defense.",
+        "ja": "自己防衛。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "defensive": {
+      "tier": "known",
+      "surface": "defensive",
+      "pos": "adj · B2",
+      "pron": "/dɪˈfen.sɪv/",
+      "meaning": "防御的な",
+      "example": {
+        "en": "Defensive walls.",
+        "ja": "防御壁。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "disintegrated": {
+      "tier": "key",
+      "surface": "disintegrated",
+      "pos": "v · C1",
+      "pron": "/dɪsˈɪn.tɪ.ɡreɪ.tɪd/",
+      "meaning": "崩壊した",
+      "example": {
+        "en": "Disintegrated rapidly.",
+        "ja": "急速に崩壊。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dominance": {
+      "tier": "known",
+      "surface": "dominance",
+      "pos": "n · B2",
+      "pron": "/ˈdɒm.ɪ.nəns/",
+      "meaning": "支配",
+      "example": {
+        "en": "Market dominance.",
+        "ja": "市場支配。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "downpour": {
+      "tier": "known",
+      "surface": "downpour",
+      "pos": "n · B2",
+      "pron": "/ˈdaʊn.pɔːr/",
+      "meaning": "土砂降り",
+      "example": {
+        "en": "Sudden downpour.",
+        "ja": "急な土砂降り。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "empire": {
+      "tier": "known",
+      "surface": "empire",
+      "pos": "n · B1",
+      "pron": "/ˈem.paɪər/",
+      "meaning": "帝国",
+      "example": {
+        "en": "Fallen empire.",
+        "ja": "没落帝国。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enclose": {
+      "tier": "known",
+      "surface": "enclose",
+      "pos": "v · B2",
+      "pron": "/ɪnˈkloʊz/",
+      "meaning": "囲む",
+      "example": {
+        "en": "Enclose the field.",
+        "ja": "畑を囲む。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "endangered": {
+      "tier": "known",
+      "surface": "endangered",
+      "pos": "v · B2",
+      "pron": "/ɪnˈdeɪn.dʒəd/",
+      "meaning": "危険に晒した",
+      "example": {
+        "en": "Endangered species.",
+        "ja": "絶滅危惧種。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ended": {
+      "tier": "skip",
+      "surface": "ended",
+      "pos": "v · A1",
+      "pron": "/ˈen.dɪd/",
+      "meaning": "終わった",
+      "example": {
+        "en": "Ended in failure.",
+        "ja": "失敗で終わった。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enemy": {
+      "tier": "skip",
+      "surface": "enemy",
+      "pos": "n · A2",
+      "pron": "/ˈen.ə.mi/",
+      "meaning": "敵",
+      "example": {
+        "en": "Common enemy.",
+        "ja": "共通の敵。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "estates": {
+      "tier": "known",
+      "surface": "estates",
+      "pos": "n · B2",
+      "pron": "/ɪˈsteɪts/",
+      "meaning": "邸宅、不動産",
+      "example": {
+        "en": "Country estates.",
+        "ja": "田舎邸宅。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expected": {
+      "tier": "skip",
+      "surface": "expected",
+      "pos": "v · A2",
+      "pron": "/ɪkˈspek.tɪd/",
+      "meaning": "期待した",
+      "example": {
+        "en": "Expected results.",
+        "ja": "期待された結果。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expensive": {
+      "tier": "skip",
+      "surface": "expensive",
+      "pos": "adj · A2",
+      "pron": "/ɪkˈspen.sɪv/",
+      "meaning": "高価な",
+      "example": {
+        "en": "Expensive car.",
+        "ja": "高い車。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fill": {
+      "tier": "skip",
+      "surface": "fill",
+      "pos": "v · A2",
+      "pron": "/fɪl/",
+      "meaning": "満たす",
+      "example": {
+        "en": "Fill the gap.",
+        "ja": "隙間を埋める。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fortified": {
+      "tier": "known",
+      "surface": "fortified",
+      "pos": "adj · B2",
+      "pron": "/ˈfɔː.tɪ.faɪd/",
+      "meaning": "要塞化された",
+      "example": {
+        "en": "Fortified city.",
+        "ja": "要塞都市。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "fortress": {
+      "tier": "known",
+      "surface": "fortress",
+      "pos": "n · B2",
+      "pron": "/ˈfɔː.trəs/",
+      "meaning": "要塞",
+      "example": {
+        "en": "Mountain fortress.",
+        "ja": "山の要塞。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "gatehouses": {
+      "tier": "key",
+      "surface": "gatehouses",
+      "pos": "n · C2",
+      "pron": "/ˈɡeɪt.haʊ.zɪz/",
+      "meaning": "門楼",
+      "example": {
+        "en": "Massive gatehouses.",
+        "ja": "巨大な門楼。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "governance": {
+      "tier": "known",
+      "surface": "governance",
+      "pos": "n · B2",
+      "pron": "/ˈɡʌv.ən.əns/",
+      "meaning": "統治",
+      "example": {
+        "en": "Good governance.",
+        "ja": "良き統治。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grandeur": {
+      "tier": "key",
+      "surface": "grandeur",
+      "pos": "n · C1",
+      "pron": "/ˈɡræn.dʒər/",
+      "meaning": "壮麗さ",
+      "example": {
+        "en": "Imperial grandeur.",
+        "ja": "帝国の壮麗さ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "heightened": {
+      "tier": "known",
+      "surface": "heightened",
+      "pos": "v · B2",
+      "pron": "/ˈhaɪ.tənd/",
+      "meaning": "高くした",
+      "example": {
+        "en": "Heightened awareness.",
+        "ja": "高まった意識。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hubs": {
+      "tier": "known",
+      "surface": "hubs",
+      "pos": "n · B2",
+      "pron": "/hʌbz/",
+      "meaning": "拠点",
+      "example": {
+        "en": "Trade hubs.",
+        "ja": "交易拠点。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "husks": {
+      "tier": "known",
+      "surface": "husks",
+      "pos": "n · C1",
+      "pron": "/hʌsks/",
+      "meaning": "殻、皮",
+      "example": {
+        "en": "Corn husks.",
+        "ja": "とうもろこしの皮。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impress": {
+      "tier": "known",
+      "surface": "impress",
+      "pos": "v · B1",
+      "pron": "/ɪmˈpres/",
+      "meaning": "感銘を与える、威圧する",
+      "example": {
+        "en": "Impress visitors.",
+        "ja": "訪問者を圧倒。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "incorporated": {
+      "tier": "known",
+      "surface": "incorporated",
+      "pos": "v · B2",
+      "pron": "/ɪnˈkɔː.pə.reɪ.tɪd/",
+      "meaning": "取り入れた",
+      "example": {
+        "en": "Incorporated features.",
+        "ja": "取り入れた機能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inhabitants": {
+      "tier": "known",
+      "surface": "inhabitants",
+      "pos": "n · B2",
+      "pron": "/ɪnˈhæb.ɪ.tənts/",
+      "meaning": "住民",
+      "example": {
+        "en": "Local inhabitants.",
+        "ja": "地元住民。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "innovations": {
+      "tier": "known",
+      "surface": "innovations",
+      "pos": "n · B2",
+      "pron": "/ˌɪn.əˈveɪ.ʃənz/",
+      "meaning": "革新",
+      "example": {
+        "en": "Tech innovations.",
+        "ja": "技術革新。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intended": {
+      "tier": "known",
+      "surface": "intended",
+      "pos": "v · B1",
+      "pron": "/ɪnˈten.dɪd/",
+      "meaning": "意図された",
+      "example": {
+        "en": "Intended use.",
+        "ja": "本来の用途。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intimidate": {
+      "tier": "known",
+      "surface": "intimidate",
+      "pos": "v · B2",
+      "pron": "/ɪnˈtɪm.ɪ.deɪt/",
+      "meaning": "威圧する",
+      "example": {
+        "en": "Intimidate enemies.",
+        "ja": "敵を威圧。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intricate": {
+      "tier": "known",
+      "surface": "intricate",
+      "pos": "adj · B2",
+      "pron": "/ˈɪn.trɪ.kət/",
+      "meaning": "精緻な",
+      "example": {
+        "en": "Intricate design.",
+        "ja": "精緻なデザイン。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "launching": {
+      "tier": "known",
+      "surface": "launching",
+      "pos": "v · B2",
+      "pron": "/ˈlɔːn.tʃɪŋ/",
+      "meaning": "発進、開始",
+      "example": {
+        "en": "Launching attacks.",
+        "ja": "攻撃発進。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "limewash": {
+      "tier": "key",
+      "surface": "limewash",
+      "pos": "n · C2",
+      "pron": "/ˈlaɪm.wɒʃ/",
+      "meaning": "石灰水塗装",
+      "example": {
+        "en": "Whitewash and limewash.",
+        "ja": "白色石灰塗装。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "longevity": {
+      "tier": "known",
+      "surface": "longevity",
+      "pos": "n · B2",
+      "pron": "/lɒnˈdʒev.ə.ti/",
+      "meaning": "長寿、耐久性",
+      "example": {
+        "en": "Building longevity.",
+        "ja": "建物の耐久性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "massive": {
+      "tier": "skip",
+      "surface": "massive",
+      "pos": "adj · A2",
+      "pron": "/ˈmæs.ɪv/",
+      "meaning": "巨大な",
+      "example": {
+        "en": "Massive structure.",
+        "ja": "巨大な構造物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "medieval": {
+      "tier": "known",
+      "surface": "medieval",
+      "pos": "adj · B1",
+      "pron": "/ˌmed.iˈiː.vəl/",
+      "meaning": "中世の",
+      "example": {
+        "en": "Medieval times.",
+        "ja": "中世期。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mining": {
+      "tier": "known",
+      "surface": "mining",
+      "pos": "n · B2",
+      "pron": "/ˈmaɪ.nɪŋ/",
+      "meaning": "採掘、坑道工法",
+      "example": {
+        "en": "Mining operations.",
+        "ja": "採掘作業。"
+      },
+      "context": "ここでは「坑道戦」(壁下に坑道を掘り崩落させる戦術)。",
+      "collocations": []
+    },
+    "moat": {
+      "tier": "key",
+      "surface": "moat",
+      "pos": "n · C1",
+      "pron": "/moʊt/",
+      "meaning": "堀",
+      "example": {
+        "en": "Castle moat.",
+        "ja": "城の堀。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "monarch": {
+      "tier": "known",
+      "surface": "monarch",
+      "pos": "n · B2",
+      "pron": "/ˈmɒn.ək/",
+      "meaning": "君主",
+      "example": {
+        "en": "Reigning monarch.",
+        "ja": "在位中の君主。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mound": {
+      "tier": "known",
+      "surface": "mound",
+      "pos": "n · B2",
+      "pron": "/maʊnd/",
+      "meaning": "塚、土塁",
+      "example": {
+        "en": "Earthen mound.",
+        "ja": "土塚。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "muck": {
+      "tier": "known",
+      "surface": "muck",
+      "pos": "n · C1",
+      "pron": "/mʌk/",
+      "meaning": "汚泥、泥",
+      "example": {
+        "en": "Muck and mire.",
+        "ja": "汚泥と泥沼。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mud": {
+      "tier": "known",
+      "surface": "mud",
+      "pos": "n · A2",
+      "pron": "/mʌd/",
+      "meaning": "泥",
+      "example": {
+        "en": "Thick mud.",
+        "ja": "深い泥。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nobles": {
+      "tier": "known",
+      "surface": "nobles",
+      "pos": "n · C1",
+      "pron": "/ˈnoʊ.blz/",
+      "meaning": "貴族",
+      "example": {
+        "en": "The nobles.",
+        "ja": "貴族たち。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "numerous": {
+      "tier": "known",
+      "surface": "numerous",
+      "pos": "adj · B2",
+      "pron": "/ˈnjuː.mər.əs/",
+      "meaning": "多数の",
+      "example": {
+        "en": "Numerous examples.",
+        "ja": "多数の例。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "offensive": {
+      "tier": "known",
+      "surface": "offensive",
+      "pos": "adj · B2",
+      "pron": "/əˈfen.sɪv/",
+      "meaning": "攻撃的な",
+      "example": {
+        "en": "Offensive strategy.",
+        "ja": "攻撃戦略。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "onslaughts": {
+      "tier": "key",
+      "surface": "onslaughts",
+      "pos": "n · C1",
+      "pron": "/ˈɒn.slɔːts/",
+      "meaning": "猛攻",
+      "example": {
+        "en": "Repeated onslaughts.",
+        "ja": "繰り返される猛攻。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ordered": {
+      "tier": "skip",
+      "surface": "ordered",
+      "pos": "v · A2",
+      "pron": "/ˈɔːr.dəd/",
+      "meaning": "命じた",
+      "example": {
+        "en": "Ordered the troops.",
+        "ja": "部隊に命令。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "palaces": {
+      "tier": "known",
+      "surface": "palaces",
+      "pos": "n · B1",
+      "pron": "/ˈpæl.ə.sɪz/",
+      "meaning": "宮殿",
+      "example": {
+        "en": "Royal palaces.",
+        "ja": "王宮。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "passive": {
+      "tier": "known",
+      "surface": "passive",
+      "pos": "adj · B2",
+      "pron": "/ˈpæs.ɪv/",
+      "meaning": "受動的な",
+      "example": {
+        "en": "Passive defense.",
+        "ja": "受動的防御。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "populations": {
+      "tier": "known",
+      "surface": "populations",
+      "pos": "n · B1",
+      "pron": "/ˌpɒp.jəˈleɪ.ʃənz/",
+      "meaning": "住民",
+      "example": {
+        "en": "Local populations.",
+        "ja": "地元住民。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prisons": {
+      "tier": "known",
+      "surface": "prisons",
+      "pos": "n · B1",
+      "pron": "/ˈprɪz.ənz/",
+      "meaning": "刑務所",
+      "example": {
+        "en": "Local prisons.",
+        "ja": "地方刑務所。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "private": {
+      "tier": "skip",
+      "surface": "private",
+      "pos": "adj · A2",
+      "pron": "/ˈpraɪ.vət/",
+      "meaning": "私的な",
+      "example": {
+        "en": "Private property.",
+        "ja": "私有財産。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prohibitively": {
+      "tier": "key",
+      "surface": "prohibitively",
+      "pos": "adv · C2",
+      "pron": "/prəˈhɪb.ɪ.tɪv.li/",
+      "meaning": "法外に",
+      "example": {
+        "en": "Prohibitively expensive.",
+        "ja": "法外に高価。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "project": {
+      "tier": "skip",
+      "surface": "project",
+      "pos": "v · A2",
+      "pron": "/prəˈdʒekt/",
+      "meaning": "投影する",
+      "example": {
+        "en": "Project power.",
+        "ja": "権力を投射。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "promises": {
+      "tier": "skip",
+      "surface": "promises",
+      "pos": "n · A2",
+      "pron": "/ˈprɒm.ɪs.ɪz/",
+      "meaning": "約束",
+      "example": {
+        "en": "Empty promises.",
+        "ja": "空約束。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "realm": {
+      "tier": "known",
+      "surface": "realm",
+      "pos": "n · B2",
+      "pron": "/relm/",
+      "meaning": "領域、王国",
+      "example": {
+        "en": "Vast realm.",
+        "ja": "広大な領域。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rebuilt": {
+      "tier": "known",
+      "surface": "rebuilt",
+      "pos": "v · B2",
+      "pron": "/ˌriːˈbɪlt/",
+      "meaning": "再建した",
+      "example": {
+        "en": "Rebuilt from scratch.",
+        "ja": "ゼロから再建。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rectangular": {
+      "tier": "known",
+      "surface": "Rectangular",
+      "pos": "adj · B1",
+      "pron": "/rekˈtæŋ.ɡjə.lər/",
+      "meaning": "長方形の",
+      "example": {
+        "en": "Rectangular box.",
+        "ja": "長方形の箱。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "regional": {
+      "tier": "skip",
+      "surface": "regional",
+      "pos": "adj · A2",
+      "pron": "/ˈriː.dʒən.əl/",
+      "meaning": "地方の",
+      "example": {
+        "en": "Regional power.",
+        "ja": "地方権力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "regularly": {
+      "tier": "skip",
+      "surface": "regularly",
+      "pos": "adv · A2",
+      "pron": "/ˈreɡ.jə.lə.li/",
+      "meaning": "定期的に",
+      "example": {
+        "en": "Regularly used.",
+        "ja": "定期的に使用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "relentless": {
+      "tier": "known",
+      "surface": "relentless",
+      "pos": "adj · B2",
+      "pron": "/rɪˈlent.ləs/",
+      "meaning": "容赦ない",
+      "example": {
+        "en": "Relentless pursuit.",
+        "ja": "容赦ない追求。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "residences": {
+      "tier": "known",
+      "surface": "residences",
+      "pos": "n · B2",
+      "pron": "/ˈrez.ɪ.dən.sɪz/",
+      "meaning": "邸宅",
+      "example": {
+        "en": "Royal residences.",
+        "ja": "王族邸宅。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "resistant": {
+      "tier": "known",
+      "surface": "resistant",
+      "pos": "adj · B2",
+      "pron": "/rɪˈzɪs.tənt/",
+      "meaning": "耐性のある",
+      "example": {
+        "en": "Heat resistant.",
+        "ja": "耐熱性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "responded": {
+      "tier": "skip",
+      "surface": "responded",
+      "pos": "v · A2",
+      "pron": "/rɪˈspɒn.dɪd/",
+      "meaning": "応じた",
+      "example": {
+        "en": "Responded quickly.",
+        "ja": "素早く応じた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "retreated": {
+      "tier": "known",
+      "surface": "retreated",
+      "pos": "v · B2",
+      "pron": "/rɪˈtriː.tɪd/",
+      "meaning": "撤退した",
+      "example": {
+        "en": "Retreated north.",
+        "ja": "北へ撤退。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rulers": {
+      "tier": "known",
+      "surface": "rulers",
+      "pos": "n · B2",
+      "pron": "/ˈruː.ləz/",
+      "meaning": "支配者",
+      "example": {
+        "en": "Absolute rulers.",
+        "ja": "絶対権力者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scaffolds": {
+      "tier": "known",
+      "surface": "scaffolds",
+      "pos": "n · B2",
+      "pron": "/ˈskæf.oʊldz/",
+      "meaning": "足場",
+      "example": {
+        "en": "Wooden scaffolds.",
+        "ja": "木製足場。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scale": {
+      "tier": "known",
+      "surface": "scale",
+      "pos": "v · B2",
+      "pron": "/skeɪl/",
+      "meaning": "よじ登る、規模",
+      "example": {
+        "en": "Scale the wall.",
+        "ja": "壁をよじ登る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "scots": {
+      "tier": "key",
+      "surface": "Scots",
+      "pos": "n · proper",
+      "pron": "/skɒts/",
+      "meaning": "スコット人",
+      "example": {
+        "en": "The Scots.",
+        "ja": "スコット人。"
+      },
+      "context": "スコットランドの民族・人々。",
+      "collocations": []
+    },
+    "served": {
+      "tier": "skip",
+      "surface": "served",
+      "pos": "v · A2",
+      "pron": "/sɜːvd/",
+      "meaning": "役立った",
+      "example": {
+        "en": "Served as.",
+        "ja": "〜として機能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shelter": {
+      "tier": "known",
+      "surface": "shelter",
+      "pos": "n · B1",
+      "pron": "/ˈʃel.tər/",
+      "meaning": "庇護、避難所",
+      "example": {
+        "en": "Take shelter.",
+        "ja": "避難する。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sieges": {
+      "tier": "known",
+      "surface": "sieges",
+      "pos": "n · B2",
+      "pron": "/ˈsiː.dʒɪz/",
+      "meaning": "包囲戦",
+      "example": {
+        "en": "Long sieges.",
+        "ja": "長期包囲。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sieging": {
+      "tier": "key",
+      "surface": "sieging",
+      "pos": "v · C2",
+      "pron": "/ˈsiː.dʒɪŋ/",
+      "meaning": "包囲する",
+      "example": {
+        "en": "Sieging armies.",
+        "ja": "包囲軍。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sodden": {
+      "tier": "key",
+      "surface": "sodden",
+      "pos": "adj · C2",
+      "pron": "/ˈsɒd.ən/",
+      "meaning": "ずぶ濡れの、水浸しの",
+      "example": {
+        "en": "Sodden clothes.",
+        "ja": "ずぶ濡れの服。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "solidify": {
+      "tier": "known",
+      "surface": "solidify",
+      "pos": "v · B2",
+      "pron": "/səˈlɪd.ɪ.faɪ/",
+      "meaning": "固める",
+      "example": {
+        "en": "Solidify power.",
+        "ja": "権力を固める。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "squatter": {
+      "tier": "key",
+      "surface": "squatter",
+      "pos": "adj · C2",
+      "pron": "/ˈskwɒt.ər/",
+      "meaning": "ずんぐりした",
+      "example": {
+        "en": "Squatter structures.",
+        "ja": "ずんぐりした構造物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "steep": {
+      "tier": "known",
+      "surface": "steep",
+      "pos": "adj · B1",
+      "pron": "/stiːp/",
+      "meaning": "急な",
+      "example": {
+        "en": "Steep slope.",
+        "ja": "急斜面。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "structures": {
+      "tier": "skip",
+      "surface": "structures",
+      "pos": "n · A2",
+      "pron": "/ˈstrʌk.tʃəz/",
+      "meaning": "構造物",
+      "example": {
+        "en": "Tall structures.",
+        "ja": "高い構造物。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "struggling": {
+      "tier": "skip",
+      "surface": "Struggling",
+      "pos": "v · A2",
+      "pron": "/ˈstrʌɡ.lɪŋ/",
+      "meaning": "苦闘して",
+      "example": {
+        "en": "Struggling hard.",
+        "ja": "懸命に苦闘。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "swift": {
+      "tier": "known",
+      "surface": "swift",
+      "pos": "adj · B2",
+      "pron": "/swɪft/",
+      "meaning": "素早い",
+      "example": {
+        "en": "Swift response.",
+        "ja": "素早い対応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "symbols": {
+      "tier": "known",
+      "surface": "symbols",
+      "pos": "n · B1",
+      "pron": "/ˈsɪm.bəlz/",
+      "meaning": "象徴",
+      "example": {
+        "en": "National symbols.",
+        "ja": "国家の象徴。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tactics": {
+      "tier": "known",
+      "surface": "tactics",
+      "pos": "n · B2",
+      "pron": "/ˈtæk.tɪks/",
+      "meaning": "戦術",
+      "example": {
+        "en": "Military tactics.",
+        "ja": "軍事戦術。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "targets": {
+      "tier": "known",
+      "surface": "targets",
+      "pos": "n · B1",
+      "pron": "/ˈtɑː.ɡɪts/",
+      "meaning": "標的",
+      "example": {
+        "en": "Easy targets.",
+        "ja": "格好の標的。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "technologies": {
+      "tier": "skip",
+      "surface": "technologies",
+      "pos": "n · A2",
+      "pron": "/tekˈnɒl.ə.dʒiz/",
+      "meaning": "技術",
+      "example": {
+        "en": "New technologies.",
+        "ja": "新技術。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "threatened": {
+      "tier": "known",
+      "surface": "threatened",
+      "pos": "v · B2",
+      "pron": "/ˈθret.ənd/",
+      "meaning": "脅かした",
+      "example": {
+        "en": "Threatened with closure.",
+        "ja": "閉鎖の脅威。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "threats": {
+      "tier": "known",
+      "surface": "threats",
+      "pos": "n · B2",
+      "pron": "/θrets/",
+      "meaning": "脅し",
+      "example": {
+        "en": "Constant threats.",
+        "ja": "絶え間ない脅威。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "thwarted": {
+      "tier": "known",
+      "surface": "thwarted",
+      "pos": "v · C1",
+      "pron": "/θwɔː.tɪd/",
+      "meaning": "阻んだ、破った",
+      "example": {
+        "en": "Thwarted the plan.",
+        "ja": "計画を阻んだ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tones": {
+      "tier": "known",
+      "surface": "tones",
+      "pos": "n · B2",
+      "pron": "/toʊnz/",
+      "meaning": "色合い、調子",
+      "example": {
+        "en": "Warm tones.",
+        "ja": "暖色調。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trebuchets": {
+      "tier": "key",
+      "surface": "trebuchets",
+      "pos": "n · C2",
+      "pron": "/ˈtreb.jə.ʃets/",
+      "meaning": "トレビュシェット",
+      "example": {
+        "en": "Massive trebuchets.",
+        "ja": "巨大なトレビュシェット。"
+      },
+      "context": "中世の重量投擲機。",
+      "collocations": []
+    },
+    "underlying": {
+      "tier": "known",
+      "surface": "underlying",
+      "pos": "adj · B2",
+      "pron": "/ˌʌn.dəˈlaɪ.ɪŋ/",
+      "meaning": "基盤の",
+      "example": {
+        "en": "Underlying cause.",
+        "ja": "根本原因。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "varied": {
+      "tier": "known",
+      "surface": "varied",
+      "pos": "adj · B2",
+      "pron": "/ˈveə.rid/",
+      "meaning": "多様な",
+      "example": {
+        "en": "Varied selection.",
+        "ja": "多様な選択肢。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "victory": {
+      "tier": "known",
+      "surface": "victory",
+      "pos": "n · B1",
+      "pron": "/ˈvɪk.tə.ri/",
+      "meaning": "勝利",
+      "example": {
+        "en": "Sweet victory.",
+        "ja": "甘い勝利。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "violence": {
+      "tier": "skip",
+      "surface": "violence",
+      "pos": "n · A2",
+      "pron": "/ˈvaɪə.ləns/",
+      "meaning": "暴力",
+      "example": {
+        "en": "Acts of violence.",
+        "ja": "暴力行為。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "visual": {
+      "tier": "known",
+      "surface": "visual",
+      "pos": "adj · B1",
+      "pron": "/ˈvɪʒ.u.əl/",
+      "meaning": "視覚的な",
+      "example": {
+        "en": "Visual appeal.",
+        "ja": "視覚的魅力。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "widespread": {
+      "tier": "known",
+      "surface": "widespread",
+      "pos": "adj · B2",
+      "pron": "/ˈwaɪd.spred/",
+      "meaning": "広範な",
+      "example": {
+        "en": "Widespread use.",
+        "ja": "広範な使用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "yard": {
+      "tier": "skip",
+      "surface": "yard",
+      "pos": "n · A2",
+      "pron": "/jɑːd/",
+      "meaning": "庭",
+      "example": {
+        "en": "Back yard.",
+        "ja": "裏庭。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "as_early_as": {
+      "tier": "known",
+      "surface": "as early as",
+      "pos": "phrase · B2",
+      "pron": "/əz ˈɜː.li əz/",
+      "literal": "〜と早くも",
+      "meaning": "〜と早くも",
+      "context": "",
+      "collocations": []
+    },
+    "battering_rams": {
+      "tier": "key",
+      "surface": "Battering rams",
+      "pos": "n phrase · C1",
+      "pron": "/ˈbæt.ər.ɪŋ ræmz/",
+      "literal": "破城槌",
+      "meaning": "破城槌",
+      "context": "",
+      "collocations": []
+    },
+    "break_down": {
+      "tier": "known",
+      "surface": "breaking down",
+      "pos": "phrasal v · B1",
+      "pron": "/ˈbreɪk.ɪŋ daʊn/",
+      "literal": "崩壊する",
+      "meaning": "崩壊する",
+      "context": "",
+      "collocations": []
+    },
+    "concentric_castles": {
+      "tier": "key",
+      "surface": "concentric castles",
+      "pos": "n phrase · C2",
+      "pron": "/kənˈsen.trɪk ˈkɑː.səlz/",
+      "literal": "同心円城",
+      "meaning": "同心円城",
+      "context": "",
+      "collocations": []
+    },
+    "curtain_walls": {
+      "tier": "known",
+      "surface": "curtain walls",
+      "pos": "n phrase · B2",
+      "pron": "/ˈkɜː.tən wɔːlz/",
+      "literal": "カーテンウォール、外囲壁",
+      "meaning": "カーテンウォール、外囲壁",
+      "context": "",
+      "collocations": []
+    },
+    "float_away": {
+      "tier": "known",
+      "surface": "float away",
+      "pos": "phrasal v · B2",
+      "pron": "/floʊt əˈweɪ/",
+      "literal": "浮いて流れ去る",
+      "meaning": "浮いて流れ去る",
+      "context": "",
+      "collocations": []
+    },
+    "gunpowder": {
+      "tier": "known",
+      "surface": "gunpowder",
+      "pos": "n · B2",
+      "pron": "/ˈɡʌnˌpaʊ.dər/",
+      "literal": "火薬",
+      "meaning": "火薬",
+      "context": "",
+      "collocations": []
+    },
+    "just_as_likely": {
+      "tier": "known",
+      "surface": "just as likely",
+      "pos": "phrase · B2",
+      "pron": "/dʒʌst əz ˈlaɪk.li/",
+      "literal": "同じくらいあり得る",
+      "meaning": "同じくらいあり得る",
+      "context": "",
+      "collocations": []
+    },
+    "keep_up_with": {
+      "tier": "known",
+      "surface": "keep up with",
+      "pos": "phrasal v · B1",
+      "pron": "/kiːp ʌp wɪð/",
+      "literal": "〜に追いつく",
+      "meaning": "〜に追いつく",
+      "context": "",
+      "collocations": []
+    },
+    "lay_siege_to": {
+      "tier": "known",
+      "surface": "lay siege to",
+      "pos": "v phrase · C1",
+      "pron": "/leɪ siːdʒ tə/",
+      "literal": "〜を包囲する",
+      "meaning": "〜を包囲する",
+      "context": "",
+      "collocations": []
+    },
+    "load_bearing": {
+      "tier": "known",
+      "surface": "load bearing",
+      "pos": "adj phrase · B2",
+      "pron": "/loʊd ˈbeə.rɪŋ/",
+      "literal": "耐荷重の",
+      "meaning": "耐荷重の",
+      "context": "",
+      "collocations": []
+    },
+    "motte_and_bailey": {
+      "tier": "key",
+      "surface": "motte and bailey",
+      "pos": "n phrase · C2",
+      "pron": "/mɒt ənd ˈbeɪ.li/",
+      "literal": "モット・アンド・ベイリー",
+      "meaning": "初期中世の木造城様式。中央の塔(motte)と壁で囲まれた庭(bailey)から成る",
+      "context": "",
+      "collocations": []
+    },
+    "no_longer": {
+      "tier": "known",
+      "surface": "no longer",
+      "pos": "phrase · B1",
+      "pron": "/noʊ ˈlɒŋ.ɡər/",
+      "literal": "もはや〜ない",
+      "meaning": "もはや〜ない",
+      "context": "",
+      "collocations": []
+    },
+    "only_for_to": {
+      "tier": "known",
+      "surface": "only for … to",
+      "pos": "phrase · C1",
+      "pron": "/ˈoʊn.li fɔː tə/",
+      "literal": "結局〜することになる",
+      "meaning": "結局〜することになる",
+      "context": "",
+      "collocations": []
+    },
+    "prime_example": {
+      "tier": "known",
+      "surface": "prime example",
+      "pos": "n phrase · B2",
+      "pron": "/praɪm ɪɡˈzɑːm.pl/",
+      "literal": "好例",
+      "meaning": "好例",
+      "context": "",
+      "collocations": []
+    },
+    "put_end_to": {
+      "tier": "known",
+      "surface": "put an end to",
+      "pos": "v phrase · B2",
+      "pron": "/pʊt ən end tə/",
+      "literal": "〜を終わらせる",
+      "meaning": "〜を終わらせる",
+      "context": "",
+      "collocations": []
+    },
+    "rain_down": {
+      "tier": "known",
+      "surface": "raining down",
+      "pos": "phrasal v · B2",
+      "pron": "/ˈreɪ.nɪŋ daʊn/",
+      "literal": "降り注ぐ",
+      "meaning": "降り注ぐ",
+      "context": "",
+      "collocations": []
+    },
+    "reign_supreme": {
+      "tier": "known",
+      "surface": "reigned supreme",
+      "pos": "v phrase · C1",
+      "pron": "/reɪnd suˈpriːm/",
+      "literal": "君臨した",
+      "meaning": "君臨した",
+      "context": "",
+      "collocations": []
+    },
+    "reliant_on": {
+      "tier": "known",
+      "surface": "reliant on",
+      "pos": "phrase · B2",
+      "pron": "/rɪˈlaɪ.ənt ɒn/",
+      "literal": "〜に依存した",
+      "meaning": "〜に依存した",
+      "context": "",
+      "collocations": []
+    },
+    "siege_tower": {
+      "tier": "key",
+      "surface": "siege tower",
+      "pos": "n phrase · C1",
+      "pron": "/siːdʒ ˈtaʊ.ər/",
+      "literal": "攻城塔",
+      "meaning": "攻城塔",
+      "context": "",
+      "collocations": []
+    },
+    "stand_firm": {
+      "tier": "known",
+      "surface": "stand firm",
+      "pos": "v phrase · B2",
+      "pron": "/stænd fɜːm/",
+      "literal": "堅く立つ",
+      "meaning": "堅く立つ",
+      "context": "",
+      "collocations": []
+    },
+    "stand_up_to": {
+      "tier": "known",
+      "surface": "standing up to",
+      "pos": "phrasal v · B2",
+      "pron": "/ˈstæn.dɪŋ ʌp tə/",
+      "literal": "〜に耐える",
+      "meaning": "〜に耐える",
+      "context": "",
+      "collocations": []
+    },
+    "standing_armies": {
+      "tier": "known",
+      "surface": "standing armies",
+      "pos": "n phrase · C1",
+      "pron": "/ˈstæn.dɪŋ ˈɑː.miz/",
+      "literal": "常備軍",
+      "meaning": "常備軍",
+      "context": "",
+      "collocations": []
+    },
+    "vulnerable_to": {
+      "tier": "known",
+      "surface": "vulnerable to",
+      "pos": "phrase · B2",
+      "pron": "/ˈvʌl.nər.ə.bl tə/",
+      "literal": "〜に弱い",
+      "meaning": "〜に弱い",
+      "context": "",
+      "collocations": []
+    }
+  }
+}

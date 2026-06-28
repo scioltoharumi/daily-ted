@@ -1,0 +1,3751 @@
+{
+  "id": "talk_2026-06-25",
+  "date": "2026-06-25",
+  "source": "ted-ed",
+  "primary_topic": "Health",
+  "tags": [
+    "grief",
+    "cardiomyopathy",
+    "stress",
+    "psychology",
+    "physiology",
+    "takotsubo"
+  ],
+  "difficulty": "hard",
+  "slug": "roni_shanoada_how_a_broken_heart_affects_your_body",
+  "video_id": "183139",
+  "title": "How a broken heart affects your body",
+  "speaker": "Roni Shanoada",
+  "duration_sec": 298,
+  "published_at": "2026-06-25T15:02:31Z",
+  "video_url": "https://www.ted.com/talks/roni_shanoada_how_a_broken_heart_affects_your_body",
+  "embed_url": "https://embed.ted.com/talks/roni_shanoada_how_a_broken_heart_affects_your_body",
+  "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_183139/69b06cf1-2865-4c31-9b62-4d153d224085/brokenheart_textless.jpg",
+  "background": {
+    "summary": "「悲しみで死ぬ」は実在するか。広く知られる widowhood effect、たこつぼ型心筋症(takotsubo cardiomyopathy)の機序、診断難度、治療法を整理。閉経後女性に多い理由とエストロゲンの役割、最終的な回復可能性まで。",
+    "details": [
+      "Widowhood effect: 高齢配偶者の死後3か月で残された方の死亡リスクが最大90%上昇する現象。慢性ストレスのホルモン・免疫・消化への影響、抑うつによるセルフケア低下などが要因と仮説される。",
+      "Takotsubo cardiomyopathy(たこつぼ型心筋症): 1990年に日本人医師が命名。「たこつぼ」のような左室の形状変化が名前の由来。「Broken heart syndrome」とも呼ばれる。",
+      "発症機序: 突然のショックや過度の喜びでアドレナリン・ノルアドレナリンが急増 → β-アドレナリン受容体が密集する左室が急速に繰り返し収縮 → 数分で疲弊し血液が滞留。冠動脈の痙攣も併発。",
+      "症状と診断: 心臓発作に酷似した胸痛・呼吸困難。動脈閉塞が無い点で異なるが、症状の類似から診断が困難。初期治療は血液希釈剤・β遮断薬で心臓発作と同じ。",
+      "好発: 閉経後女性。エストロゲンが心血管疾患予防に働き、閉経でその産生が低下するためと推定。約5%が致死的心停止に至るが、大半は数週間で回復。"
+    ]
+  },
+  "paragraph_summaries_ja": [
+    {
+      "paragraph_id": "p1",
+      "summary": "愛する人を失うことは人生最大級のトラウマ。悲しみは数多の強い感情を呼び、精神・身体双方の健康に影響する。これらの感情が命を脅かしうるか ── つまり傷心で死ねるか?"
+    },
+    {
+      "paragraph_id": "p2",
+      "summary": "最も広く記録された医学現象が「widowhood effect」 ── 高齢夫婦で配偶者死後3か月で残った側の死亡リスクが最大90%上昇する。激しい悲しみとうつが炎症性タンパクと免疫低下に結びつき、慢性ストレスがホルモン・消化・免疫を狂わせる。"
+    },
+    {
+      "paragraph_id": "p3",
+      "summary": "ただし強い感情が直接命を脅かすもう一つの疾患が「たこつぼ型心筋症」。1990年に日本人医師が命名、左室がたこつぼ状に膨らむ形状から。大半は数週で回復するが、約5%は致死的心停止に至る。"
+    },
+    {
+      "paragraph_id": "p4",
+      "summary": "発症機序: 突然のショックや過度の喜びでアドレナリンとノルアドレナリンが急増、β受容体密集の左室を急速反復収縮させて数分で疲弊。冠動脈の痙攣も併発し、心臓内に血液はあっても筋組織は血流不足に陥る。"
+    },
+    {
+      "paragraph_id": "p5",
+      "summary": "症状は心臓発作に酷似 ── 激しい胸痛と息切れ、ただし動脈閉塞なし。診断は困難で他の心疾患と混同されやすい。初期治療は心臓発作と同じく血液希釈剤・β遮断薬、長期は血圧薬。たこつぼ専用治療は未だ無い。"
+    },
+    {
+      "paragraph_id": "p6",
+      "summary": "いつ起きるかも未解明。最もリスクが高いのは閉経後女性で、エストロゲンの心血管保護作用が閉経で低下するためと推定。だが誰もがトラウマ的感情を経験しうる。"
+    },
+    {
+      "paragraph_id": "p7",
+      "summary": "幸い、ほとんどの場合患者は完全回復。身体は感情の浮き沈みに敏感だが回復力もまた備える。折れた骨と同様、傷心も時と労りで癒える。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "p1",
+      "start_sec": 6.961,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "Losing a loved one can be one of the most traumatic experiences of a person's life.",
+          "translation_ja": "愛する人を失うことは、人生で最もトラウマ的な経験の一つになりうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Losing a loved one"
+            },
+            {
+              "label": "V",
+              "content": "can be"
+            },
+            {
+              "label": "C",
+              "content": "one of the most traumatic experiences of a person's life"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Losing a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "loved",
+              "ref": "loved",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " one can be one of the most "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "traumatic",
+              "ref": "traumatic",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " experiences of a person's life."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Grief brings on a whole host of strong emotions that impact both our mental and physical health.",
+          "translation_ja": "悲しみは数多くの強い感情を呼び起こし、精神面と身体面の健康双方に影響する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Grief"
+            },
+            {
+              "label": "V",
+              "content": "brings on"
+            },
+            {
+              "label": "O",
+              "content": "a whole host of strong emotions that impact both our mental and physical health"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "word",
+              "surface": "Grief",
+              "ref": "grief",
+              "tier": "known"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "brings on",
+              "ref": "bring_on"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t5",
+              "type": "expression",
+              "surface": "a whole host of",
+              "ref": "whole_host_of"
+            },
+            {
+              "id": "t6",
+              "type": "skip",
+              "surface": " strong "
+            },
+            {
+              "id": "t7",
+              "type": "word",
+              "surface": "emotions",
+              "ref": "emotions",
+              "tier": "skip"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " that "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "impact",
+              "ref": "impact",
+              "tier": "skip"
+            },
+            {
+              "id": "t10",
+              "type": "skip",
+              "surface": " both our mental and physical health."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But is it possible for these powerful feelings to endanger your life?",
+          "translation_ja": "しかしこれらの強い感情があなたの命を脅かすことはあり得るのか?",
+          "structure": [
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "possible for these powerful feelings to endanger your life",
+              "note": "形式主語"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But is it possible for these powerful feelings to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "endanger",
+              "ref": "endanger",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " your life?"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "In other words, can you actually die from a broken heart?",
+          "translation_ja": "言い換えれば、傷心が原因で本当に死ぬことはあるのか?",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In other words"
+            },
+            {
+              "label": "S",
+              "content": "you"
+            },
+            {
+              "label": "V",
+              "content": "can die"
+            },
+            {
+              "label": "M",
+              "content": "from a broken heart"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "expression",
+              "surface": "In other words",
+              "ref": "in_other_words"
+            },
+            {
+              "id": "t2",
+              "type": "skip",
+              "surface": ", can you actually die from a "
+            },
+            {
+              "id": "t3",
+              "type": "expression",
+              "surface": "broken heart",
+              "ref": "broken_heart"
+            },
+            {
+              "id": "t4",
+              "type": "skip",
+              "surface": "?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "start_sec": 35.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "One of the most widely documented medical phenomena addressing this question is the widowhood effect.",
+          "translation_ja": "この問いに答える、最も広く記録された医学的現象の一つが「widowhood effect(配偶者死別効果)」だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "One of the most widely documented medical phenomena addressing this question"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "the widowhood effect"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "One of the most "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "widely",
+              "ref": "widely",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "documented",
+              "ref": "documented",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " medical "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "phenomena",
+              "ref": "phenomena",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " addressing this question is the "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "widowhood effect",
+              "ref": "widowhood_effect"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Studies of elderly couples have found that a person's risk of dying can increase by up to 90% over the three months following their spouse's death, leading a significant number of couples to pass away months, weeks, or even days apart.",
+          "translation_ja": "高齢夫婦の研究では、配偶者の死後3か月で死亡リスクが最大90%上昇し、相当数の夫婦が数か月・数週・時には数日違いで亡くなることが分かっている。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Studies of elderly couples"
+            },
+            {
+              "label": "V",
+              "content": "have found"
+            },
+            {
+              "label": "O",
+              "content": "that a person's risk of dying can increase by up to 90% over the three months following their spouse's death"
+            },
+            {
+              "label": "M",
+              "content": "leading a significant number of couples to pass away months, weeks, or even days apart",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Studies of "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "elderly",
+              "ref": "elderly",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " couples have found that a person's risk of dying can increase by up to 90% over the three months following their "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "spouse",
+              "ref": "spouse",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "'s death, leading a significant number of couples to "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "pass away",
+              "ref": "pass_away"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " months, weeks, or even days "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "apart",
+              "ref": "apart",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "There are a lot of theories explaining this effect.",
+          "translation_ja": "この効果を説明する理論は多い。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "There"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "a lot of theories explaining this effect"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "There are a lot of "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "theories",
+              "ref": "theories",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " explaining this effect."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "One study found that severe grief and depression were associated with higher levels of inflammatory proteins in the blood, potentially impairing the immune system.",
+          "translation_ja": "ある研究では、激しい悲しみと抑うつは血中の炎症性タンパクのレベル上昇と結びつき、免疫系を損なう可能性が示された。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "One study"
+            },
+            {
+              "label": "V",
+              "content": "found"
+            },
+            {
+              "label": "O",
+              "content": "that severe grief and depression were associated with higher levels of inflammatory proteins in the blood, potentially impairing the immune system"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "One study found that "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "severe",
+              "ref": "severe",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " grief and "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "depression",
+              "ref": "depression",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " were "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "associated with",
+              "ref": "associated_with"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " higher levels of "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "inflammatory",
+              "ref": "inflammatory",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "proteins",
+              "ref": "proteins",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " in the blood, potentially "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "impairing",
+              "ref": "impairing",
+              "tier": "known"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t14",
+              "type": "expression",
+              "surface": "immune system",
+              "ref": "immune_system"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "And depression, combined with the loss of a supporting partner, can make it hard for a person to keep up with their daily health needs.",
+          "translation_ja": "また抑うつは、支えとなるパートナーの喪失と組み合わさって、日々の健康管理を続けるのを困難にしうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "depression, combined with the loss of a supporting partner"
+            },
+            {
+              "label": "V",
+              "content": "can make"
+            },
+            {
+              "label": "O",
+              "content": "it hard for a person to keep up with their daily health needs"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And depression, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "combined",
+              "ref": "combined",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " with the loss of a supporting partner, can make it hard for a person to "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "keep up with",
+              "ref": "keep_up_with"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " their daily health needs."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Similarly, chronic stress can alter hormone levels, impair digestion, and dysregulate the immune system.",
+          "translation_ja": "同様に慢性的ストレスはホルモンレベルを変化させ、消化を損ない、免疫系の調節を狂わせうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Similarly"
+            },
+            {
+              "label": "S",
+              "content": "chronic stress"
+            },
+            {
+              "label": "V",
+              "content": "can alter / impair / dysregulate",
+              "note": "並列"
+            },
+            {
+              "label": "O",
+              "content": "hormone levels / digestion / the immune system"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Similarly, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "chronic",
+              "ref": "chronic",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " stress can "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "alter",
+              "ref": "alter",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " hormone levels, "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "impair",
+              "ref": "impair",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "digestion",
+              "ref": "digestion",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "dysregulate",
+              "ref": "dysregulate",
+              "tier": "key"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " the immune system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "start_sec": 90.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "But while all these factors can reduce life expectancy, there's another condition where powerful emotions can directly endanger someone's life: takotsubo cardiomyopathy.",
+          "translation_ja": "しかしこれらの要因はすべて寿命を縮め得るとはいえ、強い感情が直接命を脅かすもう一つの疾患がある ── たこつぼ型心筋症だ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while all these factors can reduce life expectancy",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "another condition where powerful emotions can directly endanger someone's life"
+            },
+            {
+              "label": "M",
+              "content": "takotsubo cardiomyopathy",
+              "note": "同格"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But while all these factors can reduce "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "life expectancy",
+              "ref": "life_expectancy"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ", there's another condition where powerful emotions can directly endanger someone's life: "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "takotsubo cardiomyopathy",
+              "ref": "takotsubo_cardiomyopathy"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Also known as stress cardiomyopathy, or \"broken heart syndrome,\" this was originally labeled by Japanese doctors in 1990, who named the condition after the Japanese word for an octopus trap.",
+          "translation_ja": "「ストレス心筋症」または「broken heart syndrome」とも呼ばれるこの疾患は、1990年に日本人医師が初めて命名した。「たこつぼ」という日本語にちなんで名付けられた。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "this"
+            },
+            {
+              "label": "V",
+              "content": "was labeled",
+              "note": "受動態"
+            },
+            {
+              "label": "M",
+              "content": "originally by Japanese doctors in 1990, who named the condition after the Japanese word for an octopus trap"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Also known as stress cardiomyopathy, or \""
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "broken heart syndrome",
+              "ref": "broken_heart_syndrome"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": ",\" this was originally "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "labeled",
+              "ref": "labeled",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " by Japanese doctors in 1990, who named the condition "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "after",
+              "ref": "after_word"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " the Japanese word for an "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "octopus",
+              "ref": "octopus",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "trap",
+              "ref": "trap",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "In takotsubo cardiomyopathy, the left ventricle— one of the heart's four chambers— pools with blood and balloons outward, giving it a distinctively takotsubo-like shape.",
+          "translation_ja": "たこつぼ型心筋症では、心臓の4つの部屋の一つである左室が血液で満たされて外側に膨らみ、特徴的なたこつぼ状の形になる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "In takotsubo cardiomyopathy"
+            },
+            {
+              "label": "S",
+              "content": "the left ventricle"
+            },
+            {
+              "label": "V",
+              "content": "pools / balloons",
+              "note": "並列"
+            },
+            {
+              "label": "M",
+              "content": "with blood / outward"
+            },
+            {
+              "label": "M",
+              "content": "giving it a distinctively takotsubo-like shape",
+              "note": "分詞構文"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "In takotsubo cardiomyopathy, the "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "left ventricle",
+              "ref": "left_ventricle"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "— one of the heart's four "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "chambers",
+              "ref": "chambers",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "— pools with blood and "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "balloons",
+              "ref": "balloons",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "outward",
+              "ref": "outward",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": ", giving it a "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "distinctively",
+              "ref": "distinctively",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "expression",
+              "surface": "takotsubo-like",
+              "ref": "takotsubo_like"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " shape."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "And while most patients can recover over several weeks, roughly 5% will experience a potentially lethal cardiac arrest.",
+          "translation_ja": "ほとんどの患者は数週間で回復しうるが、約5%は致命的になりうる心停止を経験する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while most patients can recover over several weeks",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "roughly 5%"
+            },
+            {
+              "label": "V",
+              "content": "will experience"
+            },
+            {
+              "label": "O",
+              "content": "a potentially lethal cardiac arrest"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And while most patients can recover over several weeks, "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "roughly",
+              "ref": "roughly",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " 5% will experience a potentially "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "lethal",
+              "ref": "lethal",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "cardiac arrest",
+              "ref": "cardiac_arrest"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "start_sec": 145.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "While the exact cause of takotsubo cardiomyopathy is still being studied, the condition often appears after a sudden traumatic event.",
+          "translation_ja": "たこつぼ型心筋症の正確な原因はまだ研究中だが、しばしば突然のトラウマ的出来事の後に発症する。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "While the exact cause of takotsubo cardiomyopathy is still being studied",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "the condition"
+            },
+            {
+              "label": "V",
+              "content": "appears"
+            },
+            {
+              "label": "M",
+              "content": "after a sudden traumatic event"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "While the exact cause of takotsubo cardiomyopathy is still being studied, the condition often appears after a sudden traumatic event."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "And since cases have been triggered by both shocking grief and unexpected happiness, it's likely not the nature of the emotion that matters, but the intensity.",
+          "translation_ja": "衝撃的な悲しみと予期せぬ喜びの両方で発症例があることから、重要なのは感情の性質ではなく、その強度であるらしい。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "since cases have been triggered by both shocking grief and unexpected happiness",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "it"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "likely not the nature of the emotion that matters, but the intensity",
+              "note": "強調 it…that"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And since cases have been "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "triggered",
+              "ref": "triggered",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " by both shocking grief and unexpected happiness, it's likely not the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "nature",
+              "ref": "nature",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of the emotion that matters, but the "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "intensity",
+              "ref": "intensity",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "Intense emotional events lead to a sudden increase in two hormones: epinephrine, also known as adrenaline, and norepinephrine.",
+          "translation_ja": "強烈な感情的出来事は、エピネフリン(別名アドレナリン)とノルエピネフリンという2つのホルモンの急増をもたらす。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Intense emotional events"
+            },
+            {
+              "label": "V",
+              "content": "lead"
+            },
+            {
+              "label": "O",
+              "content": "to a sudden increase in two hormones: epinephrine, also known as adrenaline, and norepinephrine"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Intense emotional events "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "lead to",
+              "ref": "lead_to"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " a sudden increase in two hormones: "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "epinephrine",
+              "ref": "epinephrine",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", also known as "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "adrenaline",
+              "ref": "adrenaline",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "norepinephrine",
+              "ref": "norepinephrine",
+              "tier": "key"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Both these hormones interact with beta-adrenergic receptors, which have a high concentration in the left ventricle.",
+          "translation_ja": "両ホルモンはβアドレナリン受容体と相互作用し、これら受容体は左室に高密度で存在する。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Both these hormones"
+            },
+            {
+              "label": "V",
+              "content": "interact"
+            },
+            {
+              "label": "M",
+              "content": "with beta-adrenergic receptors, which have a high concentration in the left ventricle"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Both these hormones "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "interact",
+              "ref": "interact",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " with "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "beta-adrenergic receptors",
+              "ref": "beta_adrenergic"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", which have a high "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "concentration",
+              "ref": "concentration",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in the left ventricle."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "So during takotsubo cardiomyopathy, researchers believe epinephrine and norepinephrine flood the left ventricle, triggering it to contract rapidly and repeatedly.",
+          "translation_ja": "そのため、たこつぼ型心筋症ではエピネフリンとノルエピネフリンが左室を満たし、急速かつ反復的な収縮を引き起こすと研究者は考えている。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "during takotsubo cardiomyopathy"
+            },
+            {
+              "label": "S",
+              "content": "researchers"
+            },
+            {
+              "label": "V",
+              "content": "believe"
+            },
+            {
+              "label": "O",
+              "content": "epinephrine and norepinephrine flood the left ventricle, triggering it to contract rapidly and repeatedly"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So during takotsubo cardiomyopathy, researchers believe epinephrine and norepinephrine "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "flood",
+              "ref": "flood_v"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the left ventricle, triggering it to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "contract",
+              "ref": "contract",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "rapidly",
+              "ref": "rapidly",
+              "tier": "skip"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "repeatedly",
+              "ref": "repeatedly",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Within minutes, this activity exhausts the ventricle.",
+          "translation_ja": "数分以内に、この活動は心室を疲弊させる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Within minutes"
+            },
+            {
+              "label": "S",
+              "content": "this activity"
+            },
+            {
+              "label": "V",
+              "content": "exhausts"
+            },
+            {
+              "label": "O",
+              "content": "the ventricle"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Within minutes, this activity "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "exhausts",
+              "ref": "exhausts",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "ventricle",
+              "ref": "ventricle",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "And since it's unable to pump effectively, blood begins to pool.",
+          "translation_ja": "そして効率よくポンプ機能を果たせなくなり、血液は滞留し始める。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "since it's unable to pump effectively",
+              "note": "理由"
+            },
+            {
+              "label": "S",
+              "content": "blood"
+            },
+            {
+              "label": "V",
+              "content": "begins"
+            },
+            {
+              "label": "O",
+              "content": "to pool"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And since it's unable to "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "pump",
+              "ref": "pump",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "effectively",
+              "ref": "effectively",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", blood begins to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "pool",
+              "ref": "pool",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s8",
+          "text": "This hormonal spike can also cause spasms in the blood vessels that supply the heart with oxygen and nutrients.",
+          "translation_ja": "このホルモンの急上昇は、心臓に酸素と栄養を供給する血管の痙攣も引き起こしうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This hormonal spike"
+            },
+            {
+              "label": "V",
+              "content": "can cause"
+            },
+            {
+              "label": "O",
+              "content": "spasms in the blood vessels that supply the heart with oxygen and nutrients"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "hormonal",
+              "ref": "hormonal",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "spike",
+              "ref": "spike",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " can also cause "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "spasms",
+              "ref": "spasms",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in the "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "blood vessels",
+              "ref": "blood_vessels"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " that supply the heart with oxygen and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "nutrients",
+              "ref": "nutrients",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s9",
+          "text": "So despite all the blood inside the heart, the muscle tissue itself may not be getting enough blood flow to function.",
+          "translation_ja": "ゆえに心臓内に血液はあっても、心筋組織自体は機能するに十分な血流を得られていないかもしれない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "despite all the blood inside the heart"
+            },
+            {
+              "label": "S",
+              "content": "the muscle tissue itself"
+            },
+            {
+              "label": "V",
+              "content": "may not be getting"
+            },
+            {
+              "label": "O",
+              "content": "enough blood flow to function"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "So despite all the blood inside the heart, the muscle "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "tissue",
+              "ref": "tissue",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " itself may not be getting enough blood flow to "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "function",
+              "ref": "function",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "start_sec": 215.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The result of all this is something that often feels like a heart attack without actually being one.",
+          "translation_ja": "この結果は、心臓発作のように感じられるが実際には心臓発作ではない、という現象だ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The result of all this"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "something that often feels like a heart attack without actually being one"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The result of all this is something that often feels like a "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "heart attack",
+              "ref": "heart_attack"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " without actually being one."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "People undergoing takotsubo cardiomyopathy often experience intense chest pain and shortness of breath, even though their arteries aren't blocked like they would be during a heart attack.",
+          "translation_ja": "たこつぼ型心筋症の人はしばしば激しい胸痛と息切れを経験するが、動脈は心臓発作時のように閉塞してはいない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "People undergoing takotsubo cardiomyopathy"
+            },
+            {
+              "label": "V",
+              "content": "experience"
+            },
+            {
+              "label": "O",
+              "content": "intense chest pain and shortness of breath"
+            },
+            {
+              "label": "M",
+              "content": "even though their arteries aren't blocked like they would be during a heart attack",
+              "note": "譲歩"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "People "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "undergoing",
+              "ref": "undergoing",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " takotsubo cardiomyopathy often experience intense "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "chest pain",
+              "ref": "chest_pain"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "shortness of breath",
+              "ref": "shortness_of_breath"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", even though their "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "arteries",
+              "ref": "arteries",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " aren't "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "blocked",
+              "ref": "blocked",
+              "tier": "skip"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " like they would be during a heart attack."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "This similarity in symptoms also makes the condition difficult to diagnose, and it's easily confused for more common cardiac conditions.",
+          "translation_ja": "症状の類似により、この疾患の診断は難しく、より一般的な心疾患と混同されやすい。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "This similarity in symptoms"
+            },
+            {
+              "label": "V",
+              "content": "makes"
+            },
+            {
+              "label": "O",
+              "content": "the condition difficult to diagnose"
+            },
+            {
+              "label": "M",
+              "content": "and it's easily confused for more common cardiac conditions",
+              "note": "等位節"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "This "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "similarity",
+              "ref": "similarity",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " in "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " also makes the condition difficult to "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "diagnose",
+              "ref": "diagnose",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": ", and it's easily "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "confused",
+              "ref": "confused",
+              "tier": "skip"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " for more common "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "cardiac",
+              "ref": "cardiac",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " conditions."
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "text": "Fortunately, the initial treatment for takotsubo cardiomyopathy and a heart attack is the same.",
+          "translation_ja": "幸い、たこつぼ型心筋症と心臓発作の初期治療は同じだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "the initial treatment for takotsubo cardiomyopathy and a heart attack"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "the same"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Fortunately, the initial treatment for takotsubo cardiomyopathy and a heart attack is the same."
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "text": "Doctors may prescribe blood thinners to prevent clotting in the heart and beta blockers to slow the heart's contractions.",
+          "translation_ja": "医師は心臓内での凝固を防ぐ血液希釈剤と、心拍を遅くするβ遮断薬を処方しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "Doctors"
+            },
+            {
+              "label": "V",
+              "content": "may prescribe"
+            },
+            {
+              "label": "O",
+              "content": "blood thinners to prevent clotting in the heart and beta blockers to slow the heart's contractions"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Doctors may "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "prescribe",
+              "ref": "prescribe",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "blood thinners",
+              "ref": "blood_thinners"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to prevent "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "clotting",
+              "ref": "clotting",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " in the heart and "
+            },
+            {
+              "id": "t8",
+              "type": "expression",
+              "surface": "beta blockers",
+              "ref": "beta_blockers"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " to slow the heart's "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "contractions",
+              "ref": "contractions",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s6",
+          "text": "Beyond that, patients might take blood thinners and blood pressure medications to protect their heart in the long run.",
+          "translation_ja": "それを超えて、患者は長期的に心臓を守るため血液希釈剤や血圧薬を服用することもある。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "Beyond that"
+            },
+            {
+              "label": "S",
+              "content": "patients"
+            },
+            {
+              "label": "V",
+              "content": "might take"
+            },
+            {
+              "label": "O",
+              "content": "blood thinners and blood pressure medications"
+            },
+            {
+              "label": "M",
+              "content": "to protect their heart in the long run"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Beyond that, patients might take blood thinners and "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "blood pressure",
+              "ref": "blood_pressure"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "medications",
+              "ref": "medications",
+              "tier": "known"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " to protect their heart "
+            },
+            {
+              "id": "t6",
+              "type": "expression",
+              "surface": "in the long run",
+              "ref": "in_the_long_run"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s7",
+          "text": "But there currently aren't any specific treatments for takotsubo cardiomyopathy.",
+          "translation_ja": "ただし現状、たこつぼ型心筋症に特化した治療法はない。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "But"
+            },
+            {
+              "label": "S",
+              "content": "there"
+            },
+            {
+              "label": "V",
+              "content": "aren't"
+            },
+            {
+              "label": "C",
+              "content": "any specific treatments for takotsubo cardiomyopathy"
+            },
+            {
+              "label": "M",
+              "content": "currently"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But there "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "currently",
+              "ref": "currently",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " aren't any specific treatments for takotsubo cardiomyopathy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "start_sec": 265.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "We also don't know exactly when it will strike.",
+          "translation_ja": "また、いつ発症するかも正確には分かっていない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "We"
+            },
+            {
+              "label": "V",
+              "content": "don't know"
+            },
+            {
+              "label": "O",
+              "content": "exactly when it will strike"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "We also don't know exactly when it will "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "strike",
+              "ref": "strike",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "The population that appears most at risk is postmenopausal women, perhaps because estrogen helps prevent cardiovascular disease, and menopause decreases estrogen production.",
+          "translation_ja": "最もリスクが高いとされるのは閉経後女性で、エストロゲンが心血管疾患予防に働き、閉経でその産生が低下するためかもしれない。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The population that appears most at risk"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "postmenopausal women"
+            },
+            {
+              "label": "M",
+              "content": "perhaps because estrogen helps prevent cardiovascular disease, and menopause decreases estrogen production"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The population that appears most "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "at risk",
+              "ref": "at_risk"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " is "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "postmenopausal",
+              "ref": "postmenopausal",
+              "tier": "key"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " women, perhaps because "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "estrogen",
+              "ref": "estrogen",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " helps prevent "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "cardiovascular",
+              "ref": "cardiovascular",
+              "tier": "known"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " disease, and "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "menopause",
+              "ref": "menopause",
+              "tier": "known"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " decreases estrogen production."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "But obviously anyone can experience traumatic emotions.",
+          "translation_ja": "しかし当然、誰もがトラウマ的感情を経験しうる。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "anyone"
+            },
+            {
+              "label": "V",
+              "content": "can experience"
+            },
+            {
+              "label": "O",
+              "content": "traumatic emotions"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "But "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "obviously",
+              "ref": "obviously",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " anyone can experience traumatic emotions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "start_sec": 285.0,
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "The good news is that in most cases patients make a full recovery.",
+          "translation_ja": "良い知らせは、ほとんどの場合、患者は完全に回復することだ。",
+          "structure": [
+            {
+              "label": "S",
+              "content": "The good news"
+            },
+            {
+              "label": "V",
+              "content": "is"
+            },
+            {
+              "label": "C",
+              "content": "that in most cases patients make a full recovery"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "The good news is that in most cases patients "
+            },
+            {
+              "id": "t2",
+              "type": "expression",
+              "surface": "make a full recovery",
+              "ref": "make_full_recovery"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "text": "Because while our bodies are sensitive to the ups and downs of our emotions, they're also resilient.",
+          "translation_ja": "なぜなら、私たちの身体は感情の浮き沈みに敏感ではあるが、回復力もまた備えているからだ。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "while our bodies are sensitive to the ups and downs of our emotions",
+              "note": "譲歩"
+            },
+            {
+              "label": "S",
+              "content": "they"
+            },
+            {
+              "label": "V",
+              "content": "are"
+            },
+            {
+              "label": "C",
+              "content": "also resilient"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "Because while our bodies are "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "sensitive",
+              "ref": "sensitive",
+              "tier": "known"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " to the "
+            },
+            {
+              "id": "t4",
+              "type": "expression",
+              "surface": "ups and downs",
+              "ref": "ups_and_downs"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": " of our emotions, they're also "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "resilient",
+              "ref": "resilient",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": "."
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "text": "And much like a broken bone, even a broken heart can heal with time and care.",
+          "translation_ja": "そして折れた骨と同じく、傷ついた心も時間と労りで癒えうる。",
+          "structure": [
+            {
+              "label": "M",
+              "content": "much like a broken bone"
+            },
+            {
+              "label": "S",
+              "content": "even a broken heart"
+            },
+            {
+              "label": "V",
+              "content": "can heal"
+            },
+            {
+              "label": "M",
+              "content": "with time and care"
+            }
+          ],
+          "tokens": [
+            {
+              "id": "t1",
+              "type": "skip",
+              "surface": "And much like a "
+            },
+            {
+              "id": "t2",
+              "type": "word",
+              "surface": "broken",
+              "ref": "broken",
+              "tier": "skip"
+            },
+            {
+              "id": "t3",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t4",
+              "type": "word",
+              "surface": "bone",
+              "ref": "bone",
+              "tier": "skip"
+            },
+            {
+              "id": "t5",
+              "type": "skip",
+              "surface": ", even a broken heart can "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "heal",
+              "ref": "heal",
+              "tier": "known"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " with time and care."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "words": {
+    "adrenaline": {
+      "tier": "known",
+      "surface": "adrenaline",
+      "pos": "n · B2",
+      "pron": "/əˈdren.əl.ɪn/",
+      "meaning": "アドレナリン",
+      "example": {
+        "en": "Adrenaline rush.",
+        "ja": "アドレナリンの奔流。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alter": {
+      "tier": "known",
+      "surface": "alter",
+      "pos": "v · B2",
+      "pron": "/ˈɔːl.tər/",
+      "meaning": "変える",
+      "example": {
+        "en": "Alter the plan.",
+        "ja": "計画変更。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "apart": {
+      "tier": "skip",
+      "surface": "apart",
+      "pos": "adv · A2",
+      "pron": "/əˈpɑːt/",
+      "meaning": "離れて",
+      "example": {
+        "en": "Days apart.",
+        "ja": "数日違い。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "arteries": {
+      "tier": "known",
+      "surface": "arteries",
+      "pos": "n · B2",
+      "pron": "/ˈɑː.tə.riz/",
+      "meaning": "動脈",
+      "example": {
+        "en": "Clogged arteries.",
+        "ja": "詰まった動脈。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "balloons": {
+      "tier": "known",
+      "surface": "balloons",
+      "pos": "v · B2",
+      "pron": "/bəˈluːnz/",
+      "meaning": "風船のように膨らむ",
+      "example": {
+        "en": "Balloons outward.",
+        "ja": "外側に膨張。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "blocked": {
+      "tier": "skip",
+      "surface": "blocked",
+      "pos": "adj · A2",
+      "pron": "/blɒkt/",
+      "meaning": "閉塞した",
+      "example": {
+        "en": "Blocked road.",
+        "ja": "通行止め。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bone": {
+      "tier": "skip",
+      "surface": "bone",
+      "pos": "n · A2",
+      "pron": "/boʊn/",
+      "meaning": "骨",
+      "example": {
+        "en": "Broken bone.",
+        "ja": "骨折。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "broken": {
+      "tier": "skip",
+      "surface": "broken",
+      "pos": "adj · A2",
+      "pron": "/ˈbroʊ.kən/",
+      "meaning": "折れた",
+      "example": {
+        "en": "Broken arm.",
+        "ja": "折れた腕。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cardiac": {
+      "tier": "known",
+      "surface": "cardiac",
+      "pos": "adj · B2",
+      "pron": "/ˈkɑː.di.æk/",
+      "meaning": "心臓の",
+      "example": {
+        "en": "Cardiac arrest.",
+        "ja": "心停止。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cardiovascular": {
+      "tier": "known",
+      "surface": "cardiovascular",
+      "pos": "adj · B2",
+      "pron": "/ˌkɑː.di.oʊˈvæs.kjə.lər/",
+      "meaning": "心血管の",
+      "example": {
+        "en": "Cardiovascular health.",
+        "ja": "心血管健康。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chambers": {
+      "tier": "known",
+      "surface": "chambers",
+      "pos": "n · B2",
+      "pron": "/ˈtʃeɪm.bəz/",
+      "meaning": "部屋、室",
+      "example": {
+        "en": "Heart chambers.",
+        "ja": "心臓の部屋。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chronic": {
+      "tier": "known",
+      "surface": "chronic",
+      "pos": "adj · B2",
+      "pron": "/ˈkrɒn.ɪk/",
+      "meaning": "慢性の",
+      "example": {
+        "en": "Chronic illness.",
+        "ja": "慢性疾患。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "clotting": {
+      "tier": "known",
+      "surface": "clotting",
+      "pos": "n · B2",
+      "pron": "/ˈklɒt.ɪŋ/",
+      "meaning": "凝固",
+      "example": {
+        "en": "Blood clotting.",
+        "ja": "血液凝固。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "combined": {
+      "tier": "known",
+      "surface": "combined",
+      "pos": "v · B1",
+      "pron": "/kəmˈbaɪnd/",
+      "meaning": "組み合わさった",
+      "example": {
+        "en": "Combined with.",
+        "ja": "〜と組み合わさり。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "concentration": {
+      "tier": "known",
+      "surface": "concentration",
+      "pos": "n · B1",
+      "pron": "/ˌkɒn.sənˈtreɪ.ʃən/",
+      "meaning": "濃度、集中",
+      "example": {
+        "en": "High concentration.",
+        "ja": "高濃度。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "confused": {
+      "tier": "skip",
+      "surface": "confused",
+      "pos": "v · A2",
+      "pron": "/kənˈfjuːzd/",
+      "meaning": "混同された",
+      "example": {
+        "en": "Confused with.",
+        "ja": "〜と混同。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "contract": {
+      "tier": "known",
+      "surface": "contract",
+      "pos": "v · B2",
+      "pron": "/kənˈtrækt/",
+      "meaning": "収縮する",
+      "example": {
+        "en": "Muscles contract.",
+        "ja": "筋肉が収縮。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "contractions": {
+      "tier": "known",
+      "surface": "contractions",
+      "pos": "n · B2",
+      "pron": "/kənˈtræk.ʃənz/",
+      "meaning": "収縮",
+      "example": {
+        "en": "Heart contractions.",
+        "ja": "心収縮。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "currently": {
+      "tier": "skip",
+      "surface": "currently",
+      "pos": "adv · A2",
+      "pron": "/ˈkʌr.ənt.li/",
+      "meaning": "現在",
+      "example": {
+        "en": "Currently available.",
+        "ja": "現在利用可能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "depression": {
+      "tier": "known",
+      "surface": "depression",
+      "pos": "n · B1",
+      "pron": "/dɪˈpreʃ.ən/",
+      "meaning": "抑うつ",
+      "example": {
+        "en": "Clinical depression.",
+        "ja": "臨床的うつ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "diagnose": {
+      "tier": "known",
+      "surface": "diagnose",
+      "pos": "v · B2",
+      "pron": "/ˈdaɪ.əɡ.noʊz/",
+      "meaning": "診断する",
+      "example": {
+        "en": "Diagnose the illness.",
+        "ja": "病気を診断。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "digestion": {
+      "tier": "known",
+      "surface": "digestion",
+      "pos": "n · B2",
+      "pron": "/daɪˈdʒes.tʃən/",
+      "meaning": "消化",
+      "example": {
+        "en": "Aid digestion.",
+        "ja": "消化助長。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "distinctively": {
+      "tier": "known",
+      "surface": "distinctively",
+      "pos": "adv · B2",
+      "pron": "/dɪˈstɪŋk.tɪv.li/",
+      "meaning": "明確に、特徴的に",
+      "example": {
+        "en": "Distinctively shaped.",
+        "ja": "特徴的な形。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "documented": {
+      "tier": "known",
+      "surface": "documented",
+      "pos": "adj · B2",
+      "pron": "/ˈdɒk.jə.men.tɪd/",
+      "meaning": "記録された",
+      "example": {
+        "en": "Well documented.",
+        "ja": "よく記録された。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dysregulate": {
+      "tier": "key",
+      "surface": "dysregulate",
+      "pos": "v · C2",
+      "pron": "/dɪsˈreɡ.jə.leɪt/",
+      "meaning": "調節異常を起こさせる",
+      "example": {
+        "en": "Dysregulate the system.",
+        "ja": "系の調節異常。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "effectively": {
+      "tier": "skip",
+      "surface": "effectively",
+      "pos": "adv · A2",
+      "pron": "/ɪˈfek.tɪv.li/",
+      "meaning": "効果的に",
+      "example": {
+        "en": "Effectively used.",
+        "ja": "効果的に使用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "elderly": {
+      "tier": "known",
+      "surface": "elderly",
+      "pos": "adj · B1",
+      "pron": "/ˈel.də.li/",
+      "meaning": "高齢の",
+      "example": {
+        "en": "Elderly couple.",
+        "ja": "老夫婦。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "emotions": {
+      "tier": "skip",
+      "surface": "emotions",
+      "pos": "n · A2",
+      "pron": "/ɪˈmoʊ.ʃənz/",
+      "meaning": "感情",
+      "example": {
+        "en": "Strong emotions.",
+        "ja": "強い感情。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "endanger": {
+      "tier": "known",
+      "surface": "endanger",
+      "pos": "v · B2",
+      "pron": "/ɪnˈdeɪn.dʒər/",
+      "meaning": "危険に晒す",
+      "example": {
+        "en": "Endanger lives.",
+        "ja": "命を危険に晒す。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "epinephrine": {
+      "tier": "key",
+      "surface": "epinephrine",
+      "pos": "n · C2",
+      "pron": "/ˌep.əˈnef.rɪn/",
+      "meaning": "エピネフリン",
+      "example": {
+        "en": "Epinephrine injection.",
+        "ja": "エピネフリン注射。"
+      },
+      "context": "アドレナリンの別名。",
+      "collocations": []
+    },
+    "estrogen": {
+      "tier": "known",
+      "surface": "estrogen",
+      "pos": "n · B2",
+      "pron": "/ˈes.trə.dʒən/",
+      "meaning": "エストロゲン",
+      "example": {
+        "en": "Estrogen levels.",
+        "ja": "エストロゲン量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exhausts": {
+      "tier": "known",
+      "surface": "exhausts",
+      "pos": "v · B2",
+      "pron": "/ɪɡˈzɔːsts/",
+      "meaning": "疲弊させる",
+      "example": {
+        "en": "Exhausts the body.",
+        "ja": "体を疲弊させる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "function": {
+      "tier": "skip",
+      "surface": "function",
+      "pos": "v · A2",
+      "pron": "/ˈfʌŋk.ʃən/",
+      "meaning": "機能する",
+      "example": {
+        "en": "Function properly.",
+        "ja": "正常に機能。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grief": {
+      "tier": "known",
+      "surface": "Grief",
+      "pos": "n · B1",
+      "pron": "/ɡriːf/",
+      "meaning": "悲しみ",
+      "example": {
+        "en": "Deep grief.",
+        "ja": "深い悲しみ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "heal": {
+      "tier": "known",
+      "surface": "heal",
+      "pos": "v · B1",
+      "pron": "/hiːl/",
+      "meaning": "癒える",
+      "example": {
+        "en": "Wounds heal.",
+        "ja": "傷が癒える。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hormonal": {
+      "tier": "known",
+      "surface": "hormonal",
+      "pos": "adj · B2",
+      "pron": "/hɔːˈmoʊ.nəl/",
+      "meaning": "ホルモンの",
+      "example": {
+        "en": "Hormonal change.",
+        "ja": "ホルモン変化。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impact": {
+      "tier": "skip",
+      "surface": "impact",
+      "pos": "v · A2",
+      "pron": "/ɪmˈpækt/",
+      "meaning": "影響する",
+      "example": {
+        "en": "Impact health.",
+        "ja": "健康に影響。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impair": {
+      "tier": "known",
+      "surface": "impair",
+      "pos": "v · B2",
+      "pron": "/ɪmˈpeər/",
+      "meaning": "損なう",
+      "example": {
+        "en": "Impair function.",
+        "ja": "機能を損なう。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impairing": {
+      "tier": "known",
+      "surface": "impairing",
+      "pos": "v · B2",
+      "pron": "/ɪmˈpeə.rɪŋ/",
+      "meaning": "損なって",
+      "example": {
+        "en": "Impairing function.",
+        "ja": "機能を損なって。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "inflammatory": {
+      "tier": "known",
+      "surface": "inflammatory",
+      "pos": "adj · B2",
+      "pron": "/ɪnˈflæm.ə.tər.i/",
+      "meaning": "炎症性の",
+      "example": {
+        "en": "Inflammatory response.",
+        "ja": "炎症反応。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "intensity": {
+      "tier": "known",
+      "surface": "intensity",
+      "pos": "n · B2",
+      "pron": "/ɪnˈten.sə.ti/",
+      "meaning": "強度",
+      "example": {
+        "en": "High intensity.",
+        "ja": "高強度。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "interact": {
+      "tier": "known",
+      "surface": "interact",
+      "pos": "v · B1",
+      "pron": "/ˌɪn.tərˈækt/",
+      "meaning": "相互作用する",
+      "example": {
+        "en": "Interact with.",
+        "ja": "〜と相互作用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "labeled": {
+      "tier": "skip",
+      "surface": "labeled",
+      "pos": "v · A2",
+      "pron": "/ˈleɪ.bld/",
+      "meaning": "名付けられた",
+      "example": {
+        "en": "Labeled new.",
+        "ja": "新と名付けた。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "lethal": {
+      "tier": "known",
+      "surface": "lethal",
+      "pos": "adj · B2",
+      "pron": "/ˈliː.θəl/",
+      "meaning": "致死的な",
+      "example": {
+        "en": "Lethal dose.",
+        "ja": "致死量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "loved": {
+      "tier": "skip",
+      "surface": "loved",
+      "pos": "v · A2",
+      "pron": "/lʌvd/",
+      "meaning": "愛された",
+      "example": {
+        "en": "Loved one.",
+        "ja": "愛する人。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "medications": {
+      "tier": "known",
+      "surface": "medications",
+      "pos": "n · B1",
+      "pron": "/ˌmed.ɪˈkeɪ.ʃənz/",
+      "meaning": "薬物治療",
+      "example": {
+        "en": "Take medications.",
+        "ja": "薬を服用。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "menopause": {
+      "tier": "known",
+      "surface": "menopause",
+      "pos": "n · B2",
+      "pron": "/ˈmen.ə.pɔːz/",
+      "meaning": "閉経",
+      "example": {
+        "en": "Reach menopause.",
+        "ja": "閉経を迎える。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nature": {
+      "tier": "skip",
+      "surface": "nature",
+      "pos": "n · A2",
+      "pron": "/ˈneɪ.tʃər/",
+      "meaning": "性質",
+      "example": {
+        "en": "Human nature.",
+        "ja": "人間の本性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "norepinephrine": {
+      "tier": "key",
+      "surface": "norepinephrine",
+      "pos": "n · C2",
+      "pron": "/ˌnɔːr.ep.əˈnef.rɪn/",
+      "meaning": "ノルエピネフリン",
+      "example": {
+        "en": "Norepinephrine levels.",
+        "ja": "ノルエピネフリン量。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nutrients": {
+      "tier": "known",
+      "surface": "nutrients",
+      "pos": "n · B2",
+      "pron": "/ˈnjuː.tri.ənts/",
+      "meaning": "栄養素",
+      "example": {
+        "en": "Essential nutrients.",
+        "ja": "必須栄養素。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "obviously": {
+      "tier": "known",
+      "surface": "obviously",
+      "pos": "adv · B1",
+      "pron": "/ˈɒb.vi.əs.li/",
+      "meaning": "明らかに",
+      "example": {
+        "en": "Obviously true.",
+        "ja": "明らかに真。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "octopus": {
+      "tier": "known",
+      "surface": "octopus",
+      "pos": "n · B1",
+      "pron": "/ˈɒk.tə.pəs/",
+      "meaning": "タコ",
+      "example": {
+        "en": "Giant octopus.",
+        "ja": "巨大ダコ。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "outward": {
+      "tier": "known",
+      "surface": "outward",
+      "pos": "adv · B2",
+      "pron": "/ˈaʊt.wəd/",
+      "meaning": "外側に",
+      "example": {
+        "en": "Outward growth.",
+        "ja": "外向きの成長。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "phenomena": {
+      "tier": "known",
+      "surface": "phenomena",
+      "pos": "n · B2",
+      "pron": "/fɪˈnɒm.ɪ.nə/",
+      "meaning": "現象",
+      "example": {
+        "en": "Natural phenomena.",
+        "ja": "自然現象。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pool": {
+      "tier": "known",
+      "surface": "pool",
+      "pos": "v · B2",
+      "pron": "/puːl/",
+      "meaning": "たまる",
+      "example": {
+        "en": "Blood pools.",
+        "ja": "血液が滞留。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "postmenopausal": {
+      "tier": "key",
+      "surface": "postmenopausal",
+      "pos": "adj · C1",
+      "pron": "/ˌpoʊst.men.əˈpɔː.zəl/",
+      "meaning": "閉経後の",
+      "example": {
+        "en": "Postmenopausal women.",
+        "ja": "閉経後女性。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "prescribe": {
+      "tier": "known",
+      "surface": "prescribe",
+      "pos": "v · B2",
+      "pron": "/prɪˈskraɪb/",
+      "meaning": "処方する",
+      "example": {
+        "en": "Prescribe drugs.",
+        "ja": "薬を処方。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "proteins": {
+      "tier": "known",
+      "surface": "proteins",
+      "pos": "n · B1",
+      "pron": "/ˈproʊ.tiːnz/",
+      "meaning": "タンパク質",
+      "example": {
+        "en": "Animal proteins.",
+        "ja": "動物性タンパク。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pump": {
+      "tier": "known",
+      "surface": "pump",
+      "pos": "v · B1",
+      "pron": "/pʌmp/",
+      "meaning": "ポンプ送りする",
+      "example": {
+        "en": "Pump blood.",
+        "ja": "血液を送る。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rapidly": {
+      "tier": "skip",
+      "surface": "rapidly",
+      "pos": "adv · A2",
+      "pron": "/ˈræp.ɪd.li/",
+      "meaning": "急速に",
+      "example": {
+        "en": "Rapidly growing.",
+        "ja": "急成長。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "repeatedly": {
+      "tier": "known",
+      "surface": "repeatedly",
+      "pos": "adv · B1",
+      "pron": "/rɪˈpiː.tɪd.li/",
+      "meaning": "反復的に",
+      "example": {
+        "en": "Repeatedly asked.",
+        "ja": "繰り返し尋ねる。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "resilient": {
+      "tier": "known",
+      "surface": "resilient",
+      "pos": "adj · B2",
+      "pron": "/rɪˈzɪl.i.ənt/",
+      "meaning": "回復力ある",
+      "example": {
+        "en": "Resilient material.",
+        "ja": "回復力ある素材。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "roughly": {
+      "tier": "known",
+      "surface": "roughly",
+      "pos": "adv · B1",
+      "pron": "/ˈrʌf.li/",
+      "meaning": "おおよそ",
+      "example": {
+        "en": "Roughly equal.",
+        "ja": "ほぼ同等。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sensitive": {
+      "tier": "known",
+      "surface": "sensitive",
+      "pos": "adj · B1",
+      "pron": "/ˈsen.sə.tɪv/",
+      "meaning": "敏感な",
+      "example": {
+        "en": "Sensitive skin.",
+        "ja": "敏感肌。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "severe": {
+      "tier": "known",
+      "surface": "severe",
+      "pos": "adj · B2",
+      "pron": "/sɪˈvɪər/",
+      "meaning": "厳しい、激しい",
+      "example": {
+        "en": "Severe pain.",
+        "ja": "激しい痛み。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "similarity": {
+      "tier": "known",
+      "surface": "similarity",
+      "pos": "n · B2",
+      "pron": "/ˌsɪm.ɪˈlær.ə.ti/",
+      "meaning": "類似性",
+      "example": {
+        "en": "Strong similarity.",
+        "ja": "強い類似。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spasms": {
+      "tier": "known",
+      "surface": "spasms",
+      "pos": "n · C1",
+      "pron": "/ˈspæz.mz/",
+      "meaning": "痙攣",
+      "example": {
+        "en": "Muscle spasms.",
+        "ja": "筋痙攣。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spike": {
+      "tier": "known",
+      "surface": "spike",
+      "pos": "n · B2",
+      "pron": "/spaɪk/",
+      "meaning": "急上昇",
+      "example": {
+        "en": "Sudden spike.",
+        "ja": "急上昇。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "spouse": {
+      "tier": "known",
+      "surface": "spouse",
+      "pos": "n · B2",
+      "pron": "/spaʊs/",
+      "meaning": "配偶者",
+      "example": {
+        "en": "Surviving spouse.",
+        "ja": "残された配偶者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strike": {
+      "tier": "known",
+      "surface": "strike",
+      "pos": "v · B2",
+      "pron": "/straɪk/",
+      "meaning": "襲う、起こる",
+      "example": {
+        "en": "Disaster strikes.",
+        "ja": "災害が襲う。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "symptoms": {
+      "tier": "known",
+      "surface": "symptoms",
+      "pos": "n · B1",
+      "pron": "/ˈsɪmp.təmz/",
+      "meaning": "症状",
+      "example": {
+        "en": "Flu symptoms.",
+        "ja": "インフル症状。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "theories": {
+      "tier": "known",
+      "surface": "theories",
+      "pos": "n · B2",
+      "pron": "/ˈθɪə.riz/",
+      "meaning": "理論",
+      "example": {
+        "en": "Various theories.",
+        "ja": "様々な理論。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "tissue": {
+      "tier": "known",
+      "surface": "tissue",
+      "pos": "n · B2",
+      "pron": "/ˈtɪʃ.uː/",
+      "meaning": "組織",
+      "example": {
+        "en": "Muscle tissue.",
+        "ja": "筋組織。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trap": {
+      "tier": "known",
+      "surface": "trap",
+      "pos": "n · B1",
+      "pron": "/træp/",
+      "meaning": "罠、つぼ",
+      "example": {
+        "en": "Set a trap.",
+        "ja": "罠を仕掛ける。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "traumatic": {
+      "tier": "known",
+      "surface": "traumatic",
+      "pos": "adj · B2",
+      "pron": "/trɔːˈmæt.ɪk/",
+      "meaning": "トラウマ的な",
+      "example": {
+        "en": "Traumatic event.",
+        "ja": "衝撃的出来事。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "triggered": {
+      "tier": "known",
+      "surface": "triggered",
+      "pos": "v · B2",
+      "pron": "/ˈtrɪɡ.əd/",
+      "meaning": "引き起こされた",
+      "example": {
+        "en": "Triggered by stress.",
+        "ja": "ストレスで誘発。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "undergoing": {
+      "tier": "known",
+      "surface": "undergoing",
+      "pos": "v · B2",
+      "pron": "/ˌʌn.dəˈɡoʊ.ɪŋ/",
+      "meaning": "経験して",
+      "example": {
+        "en": "Undergoing treatment.",
+        "ja": "治療中。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ventricle": {
+      "tier": "key",
+      "surface": "ventricle",
+      "pos": "n · C2",
+      "pron": "/ˈven.trɪ.kl/",
+      "meaning": "心室",
+      "example": {
+        "en": "Left ventricle.",
+        "ja": "左室。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "widely": {
+      "tier": "skip",
+      "surface": "widely",
+      "pos": "adv · A2",
+      "pron": "/ˈwaɪd.li/",
+      "meaning": "広く",
+      "example": {
+        "en": "Widely accepted.",
+        "ja": "広く認められた。"
+      },
+      "context": "",
+      "collocations": []
+    }
+  },
+  "expressions": {
+    "after_word": {
+      "tier": "known",
+      "surface": "after",
+      "pos": "prep · B1",
+      "pron": "/ˈæf.tər/",
+      "literal": "〜にちなんで",
+      "meaning": "name X after Y で「Y にちなんで X と名付ける」",
+      "context": "",
+      "collocations": []
+    },
+    "associated_with": {
+      "tier": "known",
+      "surface": "associated with",
+      "pos": "phrase · B2",
+      "pron": "/əˈsoʊ.ʃi.eɪ.tɪd wɪð/",
+      "literal": "〜と関連した",
+      "meaning": "〜と関連した",
+      "context": "",
+      "collocations": []
+    },
+    "at_risk": {
+      "tier": "known",
+      "surface": "at risk",
+      "pos": "phrase · B1",
+      "pron": "/ət rɪsk/",
+      "literal": "リスクのある",
+      "meaning": "リスクのある",
+      "context": "",
+      "collocations": []
+    },
+    "beta_adrenergic": {
+      "tier": "key",
+      "surface": "beta-adrenergic receptors",
+      "pos": "n phrase · C2",
+      "pron": "/ˈbeɪ.tə ˌæd.rəˈnɜː.dʒɪk rɪˈsep.təz/",
+      "literal": "βアドレナリン受容体",
+      "meaning": "βアドレナリン受容体",
+      "context": "",
+      "collocations": []
+    },
+    "beta_blockers": {
+      "tier": "known",
+      "surface": "beta blockers",
+      "pos": "n phrase · B2",
+      "pron": "/ˈbeɪ.tə ˈblɒk.əz/",
+      "literal": "β遮断薬",
+      "meaning": "β遮断薬",
+      "context": "",
+      "collocations": []
+    },
+    "blood_pressure": {
+      "tier": "known",
+      "surface": "blood pressure",
+      "pos": "n phrase · B1",
+      "pron": "/blʌd ˈpreʃ.ər/",
+      "literal": "血圧",
+      "meaning": "血圧",
+      "context": "",
+      "collocations": []
+    },
+    "blood_thinners": {
+      "tier": "known",
+      "surface": "blood thinners",
+      "pos": "n phrase · B2",
+      "pron": "/blʌd ˈθɪn.əz/",
+      "literal": "血液希釈剤",
+      "meaning": "血液希釈剤",
+      "context": "",
+      "collocations": []
+    },
+    "blood_vessels": {
+      "tier": "known",
+      "surface": "blood vessels",
+      "pos": "n phrase · B2",
+      "pron": "/blʌd ˈves.əlz/",
+      "literal": "血管",
+      "meaning": "血管",
+      "context": "",
+      "collocations": []
+    },
+    "bring_on": {
+      "tier": "known",
+      "surface": "brings on",
+      "pos": "phrasal v · B2",
+      "pron": "/brɪŋz ɒn/",
+      "literal": "引き起こす",
+      "meaning": "引き起こす",
+      "context": "",
+      "collocations": []
+    },
+    "broken_heart": {
+      "tier": "known",
+      "surface": "broken heart",
+      "pos": "n phrase · B2",
+      "pron": "/ˈbroʊ.kən hɑːt/",
+      "literal": "傷ついた心",
+      "meaning": "傷ついた心",
+      "context": "",
+      "collocations": []
+    },
+    "broken_heart_syndrome": {
+      "tier": "known",
+      "surface": "broken heart syndrome",
+      "pos": "n phrase · C1",
+      "pron": "/ˈbroʊ.kən hɑːt ˈsɪn.droʊm/",
+      "literal": "ブロークンハート症候群",
+      "meaning": "ブロークンハート症候群",
+      "context": "",
+      "collocations": []
+    },
+    "cardiac_arrest": {
+      "tier": "known",
+      "surface": "cardiac arrest",
+      "pos": "n phrase · B2",
+      "pron": "/ˈkɑː.di.æk əˈrest/",
+      "literal": "心停止",
+      "meaning": "心停止",
+      "context": "",
+      "collocations": []
+    },
+    "chest_pain": {
+      "tier": "known",
+      "surface": "chest pain",
+      "pos": "n phrase · B1",
+      "pron": "/tʃest peɪn/",
+      "literal": "胸痛",
+      "meaning": "胸痛",
+      "context": "",
+      "collocations": []
+    },
+    "flood_v": {
+      "tier": "known",
+      "surface": "flood",
+      "pos": "v · B2",
+      "pron": "/flʌd/",
+      "literal": "氾濫する、満たす",
+      "meaning": "氾濫する、満たす",
+      "context": "",
+      "collocations": []
+    },
+    "heart_attack": {
+      "tier": "known",
+      "surface": "heart attack",
+      "pos": "n phrase · A2",
+      "pron": "/hɑːt əˈtæk/",
+      "literal": "心臓発作",
+      "meaning": "心臓発作",
+      "context": "",
+      "collocations": []
+    },
+    "immune_system": {
+      "tier": "known",
+      "surface": "immune system",
+      "pos": "n phrase · B1",
+      "pron": "/ɪˈmjuːn ˈsɪs.təm/",
+      "literal": "免疫系",
+      "meaning": "免疫系",
+      "context": "",
+      "collocations": []
+    },
+    "in_other_words": {
+      "tier": "known",
+      "surface": "In other words",
+      "pos": "phrase · B1",
+      "pron": "/ɪn ˈʌð.ər wɜːdz/",
+      "literal": "言い換えれば",
+      "meaning": "言い換えれば",
+      "context": "",
+      "collocations": []
+    },
+    "in_the_long_run": {
+      "tier": "known",
+      "surface": "in the long run",
+      "pos": "phrase · B2",
+      "pron": "/ɪn ðə lɒŋ rʌn/",
+      "literal": "長期的に",
+      "meaning": "長期的に",
+      "context": "",
+      "collocations": []
+    },
+    "keep_up_with": {
+      "tier": "known",
+      "surface": "keep up with",
+      "pos": "phrasal v · B1",
+      "pron": "/kiːp ʌp wɪð/",
+      "literal": "〜に追いつく",
+      "meaning": "〜に追いつく",
+      "context": "",
+      "collocations": []
+    },
+    "lead_to": {
+      "tier": "known",
+      "surface": "lead to",
+      "pos": "phrase · B1",
+      "pron": "/liːd tə/",
+      "literal": "〜をもたらす",
+      "meaning": "〜をもたらす",
+      "context": "",
+      "collocations": []
+    },
+    "left_ventricle": {
+      "tier": "key",
+      "surface": "left ventricle",
+      "pos": "n phrase · C2",
+      "pron": "/left ˈven.trɪ.kl/",
+      "literal": "左室",
+      "meaning": "心臓の4室の一つ",
+      "context": "",
+      "collocations": []
+    },
+    "life_expectancy": {
+      "tier": "known",
+      "surface": "life expectancy",
+      "pos": "n phrase · B2",
+      "pron": "/laɪf ɪkˈspek.tən.si/",
+      "literal": "寿命、平均余命",
+      "meaning": "寿命、平均余命",
+      "context": "",
+      "collocations": []
+    },
+    "make_full_recovery": {
+      "tier": "known",
+      "surface": "make a full recovery",
+      "pos": "phrase · B2",
+      "pron": "/meɪk ə fʊl rɪˈkʌv.ər.i/",
+      "literal": "完全回復する",
+      "meaning": "完全回復する",
+      "context": "",
+      "collocations": []
+    },
+    "pass_away": {
+      "tier": "known",
+      "surface": "pass away",
+      "pos": "phrasal v · B1",
+      "pron": "/pɑːs əˈweɪ/",
+      "literal": "亡くなる",
+      "meaning": "亡くなる",
+      "context": "",
+      "collocations": []
+    },
+    "shortness_of_breath": {
+      "tier": "known",
+      "surface": "shortness of breath",
+      "pos": "n phrase · B2",
+      "pron": "/ˈʃɔːt.nəs əv breθ/",
+      "literal": "息切れ",
+      "meaning": "息切れ",
+      "context": "",
+      "collocations": []
+    },
+    "takotsubo_cardiomyopathy": {
+      "tier": "key",
+      "surface": "takotsubo cardiomyopathy",
+      "pos": "n phrase · C2",
+      "pron": "/tə.koʊˈtsuː.boʊ ˌkɑː.di.oʊ.maɪˈɒp.ə.θi/",
+      "literal": "たこつぼ型心筋症",
+      "meaning": "1990年日本人医師命名",
+      "context": "",
+      "collocations": []
+    },
+    "takotsubo_like": {
+      "tier": "known",
+      "surface": "takotsubo-like",
+      "pos": "adj phrase · C2",
+      "pron": "/tə.koʊˈtsuː.boʊ laɪk/",
+      "literal": "たこつぼ状の",
+      "meaning": "たこつぼ状の",
+      "context": "",
+      "collocations": []
+    },
+    "ups_and_downs": {
+      "tier": "known",
+      "surface": "ups and downs",
+      "pos": "phrase · B1",
+      "pron": "/ʌps ənd daʊnz/",
+      "literal": "浮き沈み",
+      "meaning": "浮き沈み",
+      "context": "",
+      "collocations": []
+    },
+    "whole_host_of": {
+      "tier": "known",
+      "surface": "a whole host of",
+      "pos": "phrase · C1",
+      "pron": "/ə hoʊl hoʊst əv/",
+      "literal": "数多くの",
+      "meaning": "数多くの",
+      "context": "",
+      "collocations": []
+    },
+    "widowhood_effect": {
+      "tier": "key",
+      "surface": "widowhood effect",
+      "pos": "n phrase · C2",
+      "pron": "/ˈwɪd.oʊ.hʊd ɪˈfekt/",
+      "literal": "配偶者死別効果",
+      "meaning": "配偶者死後の残された側の死亡率上昇現象",
+      "context": "",
+      "collocations": []
+    }
+  }
+}
