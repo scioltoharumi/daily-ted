@@ -301,9 +301,21 @@
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " included singing and dancing, gardening, painting, and playing."
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "included",
+              "ref": "included",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " singing and dancing, gardening, painting, and playing.",
+              "id": "t7"
             }
           ]
         },
@@ -376,30 +388,42 @@
               "tier": "key"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " classrooms and government-approved lessons that clearly "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "classrooms",
+              "ref": "classrooms",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " and government-approved lessons that clearly ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "separated",
               "ref": "separated",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " learning time from "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "expression",
               "surface": "play time",
               "ref": "play_time"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -439,28 +463,28 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And over the next century, the "
+              "surface": "And over the next ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "Prussian",
-              "ref": "prussian",
-              "tier": "basic"
+              "surface": "century",
+              "ref": "century",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": ", the ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "model",
-              "ref": "model",
-              "tier": "frequent"
+              "surface": "Prussian",
+              "ref": "prussian",
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -470,14 +494,38 @@
             {
               "id": "t6",
               "type": "word",
-              "surface": "inspired",
-              "ref": "inspired",
+              "surface": "model",
+              "ref": "model",
               "tier": "frequent"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " public school systems around the world."
+              "surface": " "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "inspired",
+              "ref": "inspired",
+              "tier": "frequent"
+            },
+            {
+              "type": "skip",
+              "surface": " public school ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "systems",
+              "ref": "systems",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " around the world.",
+              "id": "t11"
             }
           ]
         },
@@ -594,43 +642,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Before the last few centuries, children around the world spent most of their time learning through play: observing and "
+              "surface": "Before the last few ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "centuries",
+              "ref": "centuries",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", children around the world spent most of their time learning through play: ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "observing",
+              "ref": "observing",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "mimicking",
               "ref": "mimicking",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " adults, "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "roaming",
               "ref": "roaming",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " their "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "surroundings",
               "ref": "surroundings",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": ", and sharing what they learned with friends and family."
             }
@@ -700,18 +772,30 @@
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " of approaches to keep this kind of "
+              "surface": " of ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "approaches",
+              "ref": "approaches",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to keep this kind of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "self-directed learning",
               "ref": "self_directed_learning"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " alive."
             }
@@ -765,67 +849,79 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " specially designed toys to help kids learn "
+              "surface": " specially ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "designed",
+              "ref": "designed",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " toys to help kids learn ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "concepts",
               "ref": "concepts",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " like "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "volume",
               "ref": "volume",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "density",
               "ref": "density",
               "tier": "key"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": ", and even the "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "principles",
               "ref": "principles",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " of "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "geometry",
               "ref": "geometry",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -852,30 +948,42 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And today, Montessori schools continue to "
+              "surface": "And today, Montessori schools ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "continue",
+              "ref": "continue",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "embrace",
               "ref": "embrace",
               "tier": "frequent"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "toy-based learning",
               "ref": "toy_based_learning"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -932,43 +1040,55 @@
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " designed to "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "designed",
+              "ref": "designed",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "isolate",
               "ref": "isolate",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " and teach "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "specific",
               "ref": "specific",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "concepts",
               "ref": "concepts",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1036,32 +1156,68 @@
               "tier": "key"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " with fat wooden cylinders, then "
+              "surface": " with fat ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "wooden",
+              "ref": "wooden",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "cylinders",
+              "ref": "cylinders",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ", then ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "unlock",
               "ref": "unlock",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " more "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "expression",
               "surface": "spatial reasoning",
               "ref": "spatial_reasoning"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " with a set of pink, stackable blocks."
+              "surface": " with a set of pink, ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "stackable",
+              "ref": "stackable",
+              "tier": "key",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " blocks.",
+              "id": "t17"
             }
           ]
         },
@@ -1112,21 +1268,81 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " a set of brown stairs to learn about height, while a series of red rods "
+              "surface": " a set of brown ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "stairs",
+              "ref": "stairs",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " to learn about ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "height",
+              "ref": "height",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", while a ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "series",
+              "ref": "series",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " of red rods ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "reveals",
               "ref": "reveals",
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " the secrets of length and balance."
+              "surface": " the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "secrets",
+              "ref": "secrets",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " of length and ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "balance",
+              "ref": "balance",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         },
@@ -1195,9 +1411,45 @@
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " by asking students questions and suggesting material specific activities— like arranging the rods in order of size."
+              "surface": " by asking students questions and ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "suggesting",
+              "ref": "suggesting",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " material specific ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "activities",
+              "ref": "activities",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": "— like ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "arranging",
+              "ref": "arranging",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " the rods in order of size.",
+              "id": "t13"
             }
           ]
         },
@@ -1226,67 +1478,79 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But Montessori classrooms also have a "
+              "surface": "But Montessori ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "classrooms",
+              "ref": "classrooms",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " also have a ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "range",
               "ref": "variety",
               "tier": "frequent"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " of ages and low teacher to student "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "ratios",
               "ref": "ratios",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "encourage",
               "ref": "encourage",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " students to "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "explore",
               "ref": "explore",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "materials",
               "ref": "materials",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " together and learn from each other."
             }
@@ -1345,31 +1609,43 @@
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " objects to "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "objects",
+              "ref": "objects",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "explore",
               "ref": "explore",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " together, but they're especially "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "focused",
               "ref": "focused",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " on letting the students direct their learning."
             }
@@ -1402,67 +1678,103 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Every corner of a Reggio classroom is designed to "
+              "surface": "Every ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "corner",
+              "ref": "corner",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of a Reggio ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "classroom",
+              "ref": "classroom",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " is ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "designed",
+              "ref": "designed",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "reward",
               "ref": "reward",
               "tier": "frequent"
             },
             {
-              "id": "t3",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t10",
               "type": "word",
               "surface": "curiosity",
               "ref": "curiosity",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": ", allowing students to follow their "
             },
             {
-              "id": "t6",
+              "id": "t12",
               "type": "word",
               "surface": "interests",
               "ref": "interests",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "word",
               "surface": "express",
               "ref": "express",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": " themselves with a variety of "
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "word",
               "surface": "artistic",
               "ref": "artistic",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": " tools."
             }
@@ -1524,20 +1836,80 @@
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " projects, they start by asking students "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "projects",
+              "ref": "projects",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", they start by asking students ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "open-ended questions",
               "ref": "open_ended_questions"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": "— from how to make a model ship float or sink to how they should decorate an art studio."
+              "surface": "— from how to make a model ship ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "float",
+              "ref": "float",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " or ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "sink",
+              "ref": "sink",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " to how they should ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "decorate",
+              "ref": "decorate",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " an art ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "studio",
+              "ref": "studio",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         },
@@ -1704,18 +2076,42 @@
               "ref": "self_directed_learning"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " lets kids avoid the subjects they're not as interested in, leading some students to "
+              "surface": " lets kids ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "avoid",
+              "ref": "avoid",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "subjects",
+              "ref": "subjects",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " they're not as interested in, leading some students to ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "fall behind",
               "ref": "fall_behind"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1782,9 +2178,21 @@
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " no subject is left behind."
+              "surface": " no ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "subject",
+              "ref": "subject",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " is left behind.",
+              "id": "t9"
             }
           ]
         },
@@ -1830,21 +2238,45 @@
               "ref": "project_based"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " Laboratory Schools, the day might start by solving a number puzzle, then using the answers to "
+              "surface": " Laboratory Schools, the day might start by ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "solving",
+              "ref": "solving",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " a number puzzle, then using the answers to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "compose",
               "ref": "compose",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " a piece of music or three dimensional art."
+              "surface": " a piece of music or three ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "dimensional",
+              "ref": "dimensional",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " art.",
+              "id": "t9"
             }
           ]
         },
@@ -1914,55 +2346,67 @@
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " through multiple projects, teachers can show different "
+              "surface": " through multiple ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "projects",
+              "ref": "projects",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", teachers can show different ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "practical",
               "ref": "practical",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "applications",
               "ref": "applications",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " that make "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "abstract",
               "ref": "abstract",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " ideas feel "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "concrete",
               "ref": "concrete",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " and useful."
             }
@@ -2164,33 +2608,69 @@
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " attention, teachers need to respond to each student while "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "attention",
+              "ref": "attention",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", teachers need to ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "respond",
+              "ref": "respond",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to each student while ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "maintaining",
               "ref": "maintaining",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " a safe, "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "playful",
               "ref": "playful",
               "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " environment for all."
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "environment",
+              "ref": "environment",
+              "tier": "frequent",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " for all.",
+              "id": "t15"
             }
           ]
         },
@@ -2226,19 +2706,31 @@
               "ref": "emotional_intelligence"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", prep time, and trust from both parents and their school's "
+              "surface": ", prep time, and ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "trust",
+              "ref": "trust",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " from both parents and their school's ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "administration",
               "ref": "administration",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -2375,54 +2867,90 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of over 30 studies found that Montessori education "
+              "surface": " of over 30 ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "studies",
+              "ref": "studies",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " found that Montessori education ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "outperformed",
               "ref": "outperformed",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "traditional",
               "ref": "traditional",
               "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " schools in language and math learning, as well as in developing "
+              "surface": " schools in ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "language",
+              "ref": "language",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " and math learning, as well as in ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "developing",
+              "ref": "developing",
+              "tier": "frequent",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "creativity",
               "ref": "creativity",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "expression",
               "surface": "social skills",
               "ref": "social_skills"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -2513,18 +3041,30 @@
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " learning towards long-term projects and "
+              "surface": " learning towards long-term ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "projects",
+              "ref": "projects",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "roundtable discussions",
               "ref": "roundtable_discussions"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -4591,6 +5131,526 @@
         "key challenges",
         "unique challenges"
       ]
+    },
+    "included": {
+      "tier": "normal",
+      "surface": "included",
+      "pos": "v · A2",
+      "pron": "/ɪnˈkluː.dɪd/",
+      "meaning": "含んでいた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "classrooms": {
+      "tier": "normal",
+      "surface": "classrooms",
+      "pos": "n · A2",
+      "pron": "/ˈklɑːs.ruːmz/",
+      "meaning": "教室",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "century": {
+      "tier": "normal",
+      "surface": "century",
+      "pos": "n · B1",
+      "pron": "/ˈsen.tʃər.i/",
+      "meaning": "世紀、100年",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "systems": {
+      "tier": "normal",
+      "surface": "systems",
+      "pos": "n · B1",
+      "pron": "/ˈsɪs.təmz/",
+      "meaning": "システム、制度、体系",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "centuries": {
+      "tier": "key",
+      "surface": "centuries",
+      "pos": "n · B1",
+      "pron": "/ˈsen.tʃər.iz/",
+      "meaning": "(複数の)世紀",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "observing": {
+      "tier": "key",
+      "surface": "observing",
+      "pos": "v · B2",
+      "pron": "/əbˈzɜː.vɪŋ/",
+      "meaning": "観察する、見守る",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "approaches": {
+      "tier": "frequent",
+      "surface": "approaches",
+      "pos": "n · B1",
+      "pron": "/əˈprəʊ.tʃɪz/",
+      "meaning": "アプローチ、取り組み方",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "designed": {
+      "tier": "frequent",
+      "surface": "designed",
+      "pos": "v · B1",
+      "pron": "/dɪˈzaɪnd/",
+      "meaning": "設計された、デザインされた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "continue": {
+      "tier": "normal",
+      "surface": "continue",
+      "pos": "v · A2",
+      "pron": "/kənˈtɪn.juː/",
+      "meaning": "続ける、継続する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wooden": {
+      "tier": "normal",
+      "surface": "wooden",
+      "pos": "adj · A2",
+      "pron": "/ˈwʊd.ən/",
+      "meaning": "木製の、木の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cylinders": {
+      "tier": "key",
+      "surface": "cylinders",
+      "pos": "n · B2",
+      "pron": "/ˈsɪl.ɪn.dəz/",
+      "meaning": "円柱、シリンダー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stackable": {
+      "tier": "key",
+      "surface": "stackable",
+      "pos": "adj · C1",
+      "pron": "/ˈstæk.ə.bəl/",
+      "meaning": "積み重ねられる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stairs": {
+      "tier": "normal",
+      "surface": "stairs",
+      "pos": "n · A2",
+      "pron": "/steəz/",
+      "meaning": "階段",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "height": {
+      "tier": "normal",
+      "surface": "height",
+      "pos": "n · A2",
+      "pron": "/haɪt/",
+      "meaning": "高さ、身長",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "series": {
+      "tier": "normal",
+      "surface": "series",
+      "pos": "n · B1",
+      "pron": "/ˈsɪə.riːz/",
+      "meaning": "連続、シリーズ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "secrets": {
+      "tier": "normal",
+      "surface": "secrets",
+      "pos": "n · A2",
+      "pron": "/ˈsiː.krəts/",
+      "meaning": "秘密、秘訣",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "balance": {
+      "tier": "normal",
+      "surface": "balance",
+      "pos": "n · B1",
+      "pron": "/ˈbæl.əns/",
+      "meaning": "バランス、均衡",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suggesting": {
+      "tier": "frequent",
+      "surface": "suggesting",
+      "pos": "v · B1",
+      "pron": "/səˈdʒes.tɪŋ/",
+      "meaning": "提案する、示唆する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "activities": {
+      "tier": "normal",
+      "surface": "activities",
+      "pos": "n · A2",
+      "pron": "/ækˈtɪv.ə.tiz/",
+      "meaning": "活動、取り組み",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "arranging": {
+      "tier": "normal",
+      "surface": "arranging",
+      "pos": "v · B1",
+      "pron": "/əˈreɪn.dʒɪŋ/",
+      "meaning": "並べる、配置する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "objects": {
+      "tier": "normal",
+      "surface": "objects",
+      "pos": "n · A2",
+      "pron": "/ˈɒb.dʒɪkts/",
+      "meaning": "物体、物、対象",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "corner": {
+      "tier": "normal",
+      "surface": "corner",
+      "pos": "n · A2",
+      "pron": "/ˈkɔː.nər/",
+      "meaning": "隅、角、コーナー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "classroom": {
+      "tier": "normal",
+      "surface": "classroom",
+      "pos": "n · A2",
+      "pron": "/ˈklɑːs.ruːm/",
+      "meaning": "教室",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "projects": {
+      "tier": "frequent",
+      "surface": "projects",
+      "pos": "n · B1",
+      "pron": "/ˈprɒdʒ.ekts/",
+      "meaning": "プロジェクト、企画、課題",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "float": {
+      "tier": "normal",
+      "surface": "float",
+      "pos": "v · B1",
+      "pron": "/fləʊt/",
+      "meaning": "浮く、浮かぶ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sink": {
+      "tier": "normal",
+      "surface": "sink",
+      "pos": "v · B1",
+      "pron": "/sɪŋk/",
+      "meaning": "沈む、沈める",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "decorate": {
+      "tier": "normal",
+      "surface": "decorate",
+      "pos": "v · B1",
+      "pron": "/ˈdek.ə.reɪt/",
+      "meaning": "装飾する、飾る",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "studio": {
+      "tier": "normal",
+      "surface": "studio",
+      "pos": "n · B1",
+      "pron": "/ˈstjuː.di.əʊ/",
+      "meaning": "スタジオ、工房、アトリエ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "avoid": {
+      "tier": "frequent",
+      "surface": "avoid",
+      "pos": "v · B1",
+      "pron": "/əˈvɔɪd/",
+      "meaning": "避ける、回避する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "subjects": {
+      "tier": "normal",
+      "surface": "subjects",
+      "pos": "n · A2",
+      "pron": "/ˈsʌb.dʒɪkts/",
+      "meaning": "教科、科目；主題",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "subject": {
+      "tier": "normal",
+      "surface": "subject",
+      "pos": "n · A2",
+      "pron": "/ˈsʌb.dʒɪkt/",
+      "meaning": "教科、科目；主題",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "solving": {
+      "tier": "frequent",
+      "surface": "solving",
+      "pos": "v · B1",
+      "pron": "/ˈsɒl.vɪŋ/",
+      "meaning": "解決する、解く",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dimensional": {
+      "tier": "key",
+      "surface": "dimensional",
+      "pos": "adj · B2",
+      "pron": "/daɪˈmen.ʃən.əl/",
+      "meaning": "次元の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attention": {
+      "tier": "normal",
+      "surface": "attention",
+      "pos": "n · B1",
+      "pron": "/əˈten.ʃən/",
+      "meaning": "注意、注目、関心",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "respond": {
+      "tier": "frequent",
+      "surface": "respond",
+      "pos": "v · B1",
+      "pron": "/rɪˈspɒnd/",
+      "meaning": "応じる、対応する、反応する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "environment": {
+      "tier": "frequent",
+      "surface": "environment",
+      "pos": "n · B1",
+      "pron": "/ɪnˈvaɪ.rən.mənt/",
+      "meaning": "環境",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trust": {
+      "tier": "frequent",
+      "surface": "trust",
+      "pos": "n/v · B1",
+      "pron": "/trʌst/",
+      "meaning": "信頼、信用；信頼する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "studies": {
+      "tier": "normal",
+      "surface": "studies",
+      "pos": "n · B1",
+      "pron": "/ˈstʌd.iz/",
+      "meaning": "研究、調査",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "language": {
+      "tier": "normal",
+      "surface": "language",
+      "pos": "n · A2",
+      "pron": "/ˈlæŋ.ɡwɪdʒ/",
+      "meaning": "言語、言葉",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "developing": {
+      "tier": "frequent",
+      "surface": "developing",
+      "pos": "v · B1",
+      "pron": "/dɪˈvel.ə.pɪŋ/",
+      "meaning": "発達させる、育てる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
     }
   },
   "expressions": {

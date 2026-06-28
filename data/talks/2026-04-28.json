@@ -92,7 +92,7 @@
               "type": "word",
               "surface": "Winston",
               "ref": "winston",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -104,7 +104,7 @@
               "type": "word",
               "surface": "Cigarettes",
               "ref": "cigarettes",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -116,7 +116,7 @@
               "type": "word",
               "surface": "launched",
               "ref": "launched",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -128,7 +128,7 @@
               "type": "word",
               "surface": "ad",
               "ref": "ad",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -140,7 +140,7 @@
               "type": "word",
               "surface": "controversial",
               "ref": "controversial",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -152,7 +152,7 @@
               "type": "word",
               "surface": "broadcasters",
               "ref": "broadcasters",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -164,7 +164,7 @@
               "type": "word",
               "surface": "refused",
               "ref": "refused",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -241,7 +241,7 @@
               "type": "word",
               "surface": "dangerous",
               "ref": "dangerous",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -253,7 +253,7 @@
               "type": "word",
               "surface": "product",
               "ref": "product",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -265,7 +265,7 @@
               "type": "word",
               "surface": "advertised",
               "ref": "advertised",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -277,7 +277,7 @@
               "type": "word",
               "surface": "appalled",
               "ref": "appalled",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -289,7 +289,7 @@
               "type": "word",
               "surface": "grammar",
               "ref": "grammar",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -319,7 +319,7 @@
               "type": "word",
               "surface": "Specifically",
               "ref": "specifically",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t2",
@@ -331,7 +331,7 @@
               "type": "word",
               "surface": "using",
               "ref": "using",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t4",
@@ -392,7 +392,7 @@
               "type": "word",
               "surface": "Grammatical",
               "ref": "grammatical",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -404,7 +404,7 @@
               "type": "word",
               "surface": "incidents",
               "ref": "incidents",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t4",
@@ -416,7 +416,7 @@
               "type": "word",
               "surface": "outrage",
               "ref": "outrage",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t6",
@@ -428,7 +428,7 @@
               "type": "word",
               "surface": "centuries",
               "ref": "centuries",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t8",
@@ -482,7 +482,7 @@
               "type": "word",
               "surface": "clear",
               "ref": "clear",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -520,7 +520,7 @@
               "type": "word",
               "surface": "random",
               "ref": "random",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -569,7 +569,7 @@
               "type": "word",
               "surface": "matter",
               "ref": "matter",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -612,7 +612,7 @@
               "type": "word",
               "surface": "vary",
               "ref": "vary",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -624,7 +624,7 @@
               "type": "word",
               "surface": "particularly",
               "ref": "particularly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -671,7 +671,7 @@
               "type": "word",
               "surface": "idea",
               "ref": "idea",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t4",
@@ -683,7 +683,7 @@
               "type": "word",
               "surface": "sentence",
               "ref": "sentence",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t6",
@@ -733,7 +733,7 @@
               "type": "word",
               "surface": "common",
               "ref": "common",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -745,7 +745,7 @@
               "type": "word",
               "surface": "nouns",
               "ref": "nouns",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -800,7 +800,7 @@
               "type": "word",
               "surface": "incorrect",
               "ref": "incorrect",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -812,7 +812,7 @@
               "type": "word",
               "surface": "preferring",
               "ref": "preferring",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -851,7 +851,7 @@
               "type": "word",
               "surface": "etiquette",
               "ref": "etiquette",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -908,7 +908,7 @@
               "type": "word",
               "surface": "amidst",
               "ref": "amidst",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -920,7 +920,7 @@
               "type": "word",
               "surface": "countless",
               "ref": "countless",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -932,7 +932,7 @@
               "type": "word",
               "surface": "act",
               "ref": "act",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -944,7 +944,7 @@
               "type": "word",
               "surface": "properly",
               "ref": "properly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -1006,7 +1006,7 @@
               "type": "word",
               "surface": "Latin",
               "ref": "latin",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1018,7 +1018,7 @@
               "type": "word",
               "surface": "written",
               "ref": "written",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1030,7 +1030,7 @@
               "type": "word",
               "surface": "scholarship",
               "ref": "scholarship",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1073,7 +1073,7 @@
               "type": "word",
               "surface": "conversationally",
               "ref": "conversationally",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1085,7 +1085,7 @@
               "type": "word",
               "surface": "imposing",
               "ref": "imposing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1097,7 +1097,7 @@
               "type": "word",
               "surface": "awkward",
               "ref": "awkward",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1158,7 +1158,7 @@
               "type": "word",
               "surface": "revived",
               "ref": "revived",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1170,7 +1170,7 @@
               "type": "word",
               "surface": "relic",
               "ref": "relic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1217,7 +1217,7 @@
               "type": "word",
               "surface": "scholars",
               "ref": "scholars",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1229,7 +1229,7 @@
               "type": "word",
               "surface": "proposed",
               "ref": "proposed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1241,7 +1241,7 @@
               "type": "word",
               "surface": "stylistic",
               "ref": "stylistic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1253,7 +1253,7 @@
               "type": "word",
               "surface": "choice",
               "ref": "choice",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -1265,7 +1265,7 @@
               "type": "word",
               "surface": "subsequent",
               "ref": "subsequent",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -1288,7 +1288,7 @@
               "type": "word",
               "surface": "hard",
               "ref": "hard",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -1300,7 +1300,7 @@
               "type": "word",
               "surface": "rule",
               "ref": "rule",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t17",
@@ -1344,7 +1344,7 @@
               "type": "word",
               "surface": "origins",
               "ref": "origins",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1356,7 +1356,7 @@
               "type": "word",
               "surface": "arbitrary",
               "ref": "arbitrary",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1368,7 +1368,7 @@
               "type": "word",
               "surface": "petty",
               "ref": "petty",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1397,7 +1397,7 @@
               "type": "word",
               "surface": "Consider",
               "ref": "consider",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t2",
@@ -1409,7 +1409,7 @@
               "type": "word",
               "surface": "referring",
               "ref": "referring",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t4",
@@ -1470,7 +1470,7 @@
               "type": "word",
               "surface": "reasons",
               "ref": "reasons",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1482,7 +1482,7 @@
               "type": "word",
               "surface": "unknown",
               "ref": "unknown",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -1494,7 +1494,7 @@
               "type": "word",
               "surface": "inelegant",
               "ref": "inelegant",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1537,7 +1537,7 @@
               "type": "word",
               "surface": "strange",
               "ref": "strange",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1601,7 +1601,7 @@
               "type": "word",
               "surface": "preference",
               "ref": "preference",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1613,7 +1613,7 @@
               "type": "word",
               "surface": "craze",
               "ref": "craze",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1683,7 +1683,7 @@
               "type": "word",
               "surface": "nobility",
               "ref": "nobility",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1695,7 +1695,7 @@
               "type": "word",
               "surface": "commoners",
               "ref": "commoners",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1738,7 +1738,7 @@
               "type": "word",
               "surface": "reclaimed",
               "ref": "reclaimed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1750,7 +1750,7 @@
               "type": "word",
               "surface": "kingdom",
               "ref": "kingdom",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1762,7 +1762,7 @@
               "type": "word",
               "surface": "insecurity",
               "ref": "insecurity",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1774,7 +1774,7 @@
               "type": "word",
               "surface": "lingered",
               "ref": "lingered",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1786,7 +1786,7 @@
               "type": "word",
               "surface": "hearts",
               "ref": "hearts",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -1828,7 +1828,7 @@
               "type": "word",
               "surface": "establish",
               "ref": "establish",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1851,7 +1851,7 @@
               "type": "word",
               "surface": "officials",
               "ref": "officials",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1889,7 +1889,7 @@
               "type": "word",
               "surface": "employed",
               "ref": "employed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1944,7 +1944,7 @@
               "type": "word",
               "surface": "silly",
               "ref": "silly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1956,7 +1956,7 @@
               "type": "word",
               "surface": "efforts",
               "ref": "efforts",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1968,7 +1968,7 @@
               "type": "word",
               "surface": "distinguish",
               "ref": "distinguish",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1980,7 +1980,7 @@
               "type": "word",
               "surface": "attachment",
               "ref": "attachment",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1992,7 +1992,7 @@
               "type": "word",
               "surface": "plurals",
               "ref": "plurals",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -2004,7 +2004,7 @@
               "type": "word",
               "surface": "formulae",
               "ref": "formulae",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -2042,7 +2042,7 @@
               "type": "word",
               "surface": "stakes",
               "ref": "stakes",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2054,7 +2054,7 @@
               "type": "word",
               "surface": "debates",
               "ref": "debates",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2066,7 +2066,7 @@
               "type": "word",
               "surface": "mostly",
               "ref": "mostly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -2078,7 +2078,7 @@
               "type": "word",
               "surface": "academic",
               "ref": "academic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2117,7 +2117,7 @@
               "type": "word",
               "surface": "frequently",
               "ref": "frequently",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2140,7 +2140,7 @@
               "type": "word",
               "surface": "consequences",
               "ref": "consequences",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2183,7 +2183,7 @@
               "type": "word",
               "surface": "classic",
               "ref": "classic",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2195,7 +2195,7 @@
               "type": "word",
               "surface": "literature",
               "ref": "literature",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2207,7 +2207,7 @@
               "type": "word",
               "surface": "speech",
               "ref": "speech",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -2219,7 +2219,7 @@
               "type": "word",
               "surface": "plural",
               "ref": "plural",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2231,7 +2231,7 @@
               "type": "word",
               "surface": "singular",
               "ref": "singular",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -2296,7 +2296,7 @@
               "type": "word",
               "surface": "transgender",
               "ref": "transgender",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2308,7 +2308,7 @@
               "type": "word",
               "surface": "individuals",
               "ref": "individuals",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2357,7 +2357,7 @@
               "type": "word",
               "surface": "exclusively",
               "ref": "exclusively",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2399,7 +2399,7 @@
               "type": "word",
               "surface": "Furthermore",
               "ref": "furthermore",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -2411,7 +2411,7 @@
               "type": "word",
               "surface": "argued",
               "ref": "argued",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t4",
@@ -2423,7 +2423,7 @@
               "type": "word",
               "surface": "swapped",
               "ref": "swapped",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t6",
@@ -2435,7 +2435,7 @@
               "type": "word",
               "surface": "generic",
               "ref": "generic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t8",
@@ -2478,7 +2478,7 @@
               "type": "word",
               "surface": "obviously",
               "ref": "obviously",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2490,7 +2490,7 @@
               "type": "word",
               "surface": "patriarchal",
               "ref": "patriarchal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2502,7 +2502,7 @@
               "type": "word",
               "surface": "decision",
               "ref": "decision",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -2514,7 +2514,7 @@
               "type": "word",
               "surface": "activists",
               "ref": "activists",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2526,7 +2526,7 @@
               "type": "word",
               "surface": "convinced",
               "ref": "convinced",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -2596,7 +2596,7 @@
               "type": "word",
               "surface": "confusion",
               "ref": "confusion",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2699,7 +2699,7 @@
               "type": "word",
               "surface": "situations",
               "ref": "situations",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2753,7 +2753,7 @@
               "type": "word",
               "surface": "reflect",
               "ref": "reflect",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2796,7 +2796,7 @@
               "type": "word",
               "surface": "usage",
               "ref": "usage",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2808,7 +2808,7 @@
               "type": "word",
               "surface": "respect",
               "ref": "respect",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2833,7 +2833,7 @@
   ],
   "words": {
     "academic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "academic",
       "pos": "adj · B2",
       "pron": "/ˌæk.əˈdem.ɪk/",
@@ -2846,7 +2846,7 @@
       "collocations": []
     },
     "act": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "act",
       "pos": "v · A2",
       "pron": "/ækt/",
@@ -2859,7 +2859,7 @@
       "collocations": []
     },
     "activists": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "activists",
       "pos": "n · B2",
       "pron": "/ˈæk.tɪ.vɪsts/",
@@ -2872,7 +2872,7 @@
       "collocations": []
     },
     "ad": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "ad",
       "pos": "n · A2",
       "pron": "/æd/",
@@ -2885,7 +2885,7 @@
       "collocations": []
     },
     "advertised": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "advertised",
       "pos": "v · A2",
       "pron": "/ˈæd.və.taɪzd/",
@@ -2898,7 +2898,7 @@
       "collocations": []
     },
     "amidst": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "amidst",
       "pos": "prep · C1",
       "pron": "/əˈmɪdst/",
@@ -2911,7 +2911,7 @@
       "collocations": []
     },
     "appalled": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "appalled",
       "pos": "adj · C1",
       "pron": "/əˈpɔːld/",
@@ -2924,7 +2924,7 @@
       "collocations": []
     },
     "arbitrary": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "arbitrary",
       "pos": "adj · B2",
       "pron": "/ˈɑː.bɪ.trər.i/",
@@ -2937,7 +2937,7 @@
       "collocations": []
     },
     "argued": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "argued",
       "pos": "v · B1",
       "pron": "/ˈɑː.ɡjuːd/",
@@ -2950,7 +2950,7 @@
       "collocations": []
     },
     "attachment": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "attachment",
       "pos": "n · B2",
       "pron": "/əˈtætʃ.mənt/",
@@ -2963,7 +2963,7 @@
       "collocations": []
     },
     "awkward": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "awkward",
       "pos": "adj · B2",
       "pron": "/ˈɔːk.wəd/",
@@ -2976,7 +2976,7 @@
       "collocations": []
     },
     "broadcasters": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "broadcasters",
       "pos": "n · B2",
       "pron": "/ˈbrɔːd.kɑːs.təz/",
@@ -2989,7 +2989,7 @@
       "collocations": []
     },
     "centuries": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "centuries",
       "pos": "n · B1",
       "pron": "/ˈsen.tʃər.iz/",
@@ -3002,7 +3002,7 @@
       "collocations": []
     },
     "choice": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "choice",
       "pos": "n · A2",
       "pron": "/tʃɔɪs/",
@@ -3015,7 +3015,7 @@
       "collocations": []
     },
     "cigarettes": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Cigarettes",
       "pos": "n · A2",
       "pron": "/ˌsɪɡ.əˈrets/",
@@ -3028,7 +3028,7 @@
       "collocations": []
     },
     "classic": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "classic",
       "pos": "adj · A2",
       "pron": "/ˈklæs.ɪk/",
@@ -3041,7 +3041,7 @@
       "collocations": []
     },
     "clear": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "clear",
       "pos": "adj · A1",
       "pron": "/klɪər/",
@@ -3067,7 +3067,7 @@
       "collocations": []
     },
     "common": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "common",
       "pos": "adj · A1",
       "pron": "/ˈkɒm.ən/",
@@ -3080,7 +3080,7 @@
       "collocations": []
     },
     "commoners": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "commoners",
       "pos": "n · C1",
       "pron": "/ˈkɒm.ə.nəz/",
@@ -3093,7 +3093,7 @@
       "collocations": []
     },
     "confusion": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "confusion",
       "pos": "n · A2",
       "pron": "/kənˈfjuː.ʒən/",
@@ -3119,7 +3119,7 @@
       "collocations": []
     },
     "consequences": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "consequences",
       "pos": "n · B2",
       "pron": "/ˈkɒn.sɪ.kwən.sɪz/",
@@ -3132,7 +3132,7 @@
       "collocations": []
     },
     "consider": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "consider",
       "pos": "v · A2",
       "pron": "/kənˈsɪd.ər/",
@@ -3145,7 +3145,7 @@
       "collocations": []
     },
     "controversial": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "controversial",
       "pos": "adj · B2",
       "pron": "/ˌkɒn.trəˈvɜː.ʃəl/",
@@ -3158,7 +3158,7 @@
       "collocations": []
     },
     "conversationally": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "conversationally",
       "pos": "adv · C1",
       "pron": "/ˌkɒn.vəˈseɪ.ʃən.əl.i/",
@@ -3171,7 +3171,7 @@
       "collocations": []
     },
     "convinced": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "convinced",
       "pos": "v · B1",
       "pron": "/kənˈvɪnst/",
@@ -3184,7 +3184,7 @@
       "collocations": []
     },
     "countless": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "countless",
       "pos": "adj · B2",
       "pron": "/ˈkaʊnt.ləs/",
@@ -3197,7 +3197,7 @@
       "collocations": []
     },
     "craze": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "craze",
       "pos": "n · B2",
       "pron": "/kreɪz/",
@@ -3210,7 +3210,7 @@
       "collocations": []
     },
     "dangerous": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "dangerous",
       "pos": "adj · A2",
       "pron": "/ˈdeɪn.dʒə.rəs/",
@@ -3223,7 +3223,7 @@
       "collocations": []
     },
     "debates": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "debates",
       "pos": "n · B1",
       "pron": "/dɪˈbeɪts/",
@@ -3236,7 +3236,7 @@
       "collocations": []
     },
     "decision": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "decision",
       "pos": "n · A2",
       "pron": "/dɪˈsɪʒ.ən/",
@@ -3249,7 +3249,7 @@
       "collocations": []
     },
     "distinguish": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "distinguish",
       "pos": "v · B2",
       "pron": "/dɪˈstɪŋ.ɡwɪʃ/",
@@ -3262,7 +3262,7 @@
       "collocations": []
     },
     "efforts": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "efforts",
       "pos": "n · A2",
       "pron": "/ˈef.əts/",
@@ -3275,7 +3275,7 @@
       "collocations": []
     },
     "employed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "employed",
       "pos": "v · B1",
       "pron": "/ɪmˈplɔɪd/",
@@ -3288,7 +3288,7 @@
       "collocations": []
     },
     "establish": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "establish",
       "pos": "v · B1",
       "pron": "/ɪˈstæb.lɪʃ/",
@@ -3301,7 +3301,7 @@
       "collocations": []
     },
     "etiquette": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "etiquette",
       "pos": "n · B2",
       "pron": "/ˈet.ɪ.ket/",
@@ -3314,7 +3314,7 @@
       "collocations": []
     },
     "exclusively": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "exclusively",
       "pos": "adv · B2",
       "pron": "/ɪkˈskluː.sɪv.li/",
@@ -3327,7 +3327,7 @@
       "collocations": []
     },
     "formulae": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "formulae",
       "pos": "n · C1",
       "pron": "/ˈfɔː.mjə.liː/",
@@ -3340,7 +3340,7 @@
       "collocations": []
     },
     "frequently": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "frequently",
       "pos": "adv · B1",
       "pron": "/ˈfriː.kwənt.li/",
@@ -3353,7 +3353,7 @@
       "collocations": []
     },
     "furthermore": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "furthermore",
       "pos": "adv · B2",
       "pron": "/ˌfɜː.ðəˈmɔːr/",
@@ -3366,7 +3366,7 @@
       "collocations": []
     },
     "generic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "generic",
       "pos": "adj · B2",
       "pron": "/dʒəˈner.ɪk/",
@@ -3379,7 +3379,7 @@
       "collocations": []
     },
     "grammar": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "grammar",
       "pos": "n · B1",
       "pron": "/ˈɡræm.ər/",
@@ -3418,7 +3418,7 @@
       "collocations": []
     },
     "grammatical": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "grammatical",
       "pos": "adj · B2",
       "pron": "/ɡrəˈmæt.ɪ.kəl/",
@@ -3431,7 +3431,7 @@
       "collocations": []
     },
     "hard": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "hard",
       "pos": "adj · A1",
       "pron": "/hɑːd/",
@@ -3444,7 +3444,7 @@
       "collocations": []
     },
     "hearts": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "hearts",
       "pos": "n · A1",
       "pron": "/hɑːts/",
@@ -3457,7 +3457,7 @@
       "collocations": []
     },
     "idea": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "idea",
       "pos": "n · A1",
       "pron": "/aɪˈdɪə/",
@@ -3470,7 +3470,7 @@
       "collocations": []
     },
     "imposing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "imposing",
       "pos": "v · B2",
       "pron": "/ɪmˈpoʊ.zɪŋ/",
@@ -3483,7 +3483,7 @@
       "collocations": []
     },
     "incidents": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "incidents",
       "pos": "n · B2",
       "pron": "/ˈɪn.sɪ.dənts/",
@@ -3496,7 +3496,7 @@
       "collocations": []
     },
     "incorrect": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "incorrect",
       "pos": "adj · A2",
       "pron": "/ˌɪn.kərˈekt/",
@@ -3509,7 +3509,7 @@
       "collocations": []
     },
     "individuals": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "individuals",
       "pos": "n · B1",
       "pron": "/ˌɪn.dɪˈvɪdʒ.u.əlz/",
@@ -3522,7 +3522,7 @@
       "collocations": []
     },
     "inelegant": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "inelegant",
       "pos": "adj · C1",
       "pron": "/ɪnˈel.ɪ.ɡənt/",
@@ -3535,7 +3535,7 @@
       "collocations": []
     },
     "insecurity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "insecurity",
       "pos": "n · B2",
       "pron": "/ˌɪn.sɪˈkjʊə.rə.ti/",
@@ -3548,7 +3548,7 @@
       "collocations": []
     },
     "kingdom": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "kingdom",
       "pos": "n · B1",
       "pron": "/ˈkɪŋ.dəm/",
@@ -3561,7 +3561,7 @@
       "collocations": []
     },
     "latin": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Latin",
       "pos": "n · proper",
       "pron": "/ˈlæt.ɪn/",
@@ -3574,7 +3574,7 @@
       "collocations": []
     },
     "launched": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "launched",
       "pos": "v · B1",
       "pron": "/lɔːntʃt/",
@@ -3587,7 +3587,7 @@
       "collocations": []
     },
     "lingered": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "lingered",
       "pos": "v · B2",
       "pron": "/ˈlɪŋ.ɡəd/",
@@ -3600,7 +3600,7 @@
       "collocations": []
     },
     "literature": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "literature",
       "pos": "n · A2",
       "pron": "/ˈlɪt.rə.tʃər/",
@@ -3613,7 +3613,7 @@
       "collocations": []
     },
     "matter": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "matter",
       "pos": "v · A2",
       "pron": "/ˈmæt.ər/",
@@ -3626,7 +3626,7 @@
       "collocations": []
     },
     "mostly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "mostly",
       "pos": "adv · A2",
       "pron": "/ˈmoʊst.li/",
@@ -3639,7 +3639,7 @@
       "collocations": []
     },
     "nobility": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "nobility",
       "pos": "n · B2",
       "pron": "/noʊˈbɪl.ə.ti/",
@@ -3652,7 +3652,7 @@
       "collocations": []
     },
     "nouns": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "nouns",
       "pos": "n · B1",
       "pron": "/naʊnz/",
@@ -3665,7 +3665,7 @@
       "collocations": []
     },
     "obviously": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "obviously",
       "pos": "adv · B1",
       "pron": "/ˈɒb.vi.əs.li/",
@@ -3678,7 +3678,7 @@
       "collocations": []
     },
     "officials": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "officials",
       "pos": "n · B1",
       "pron": "/əˈfɪʃ.əlz/",
@@ -3691,7 +3691,7 @@
       "collocations": []
     },
     "origins": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "origins",
       "pos": "n · B1",
       "pron": "/ˈɒr.ɪ.dʒɪnz/",
@@ -3704,7 +3704,7 @@
       "collocations": []
     },
     "outrage": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "outrage",
       "pos": "n · B2",
       "pron": "/ˈaʊt.reɪdʒ/",
@@ -3717,7 +3717,7 @@
       "collocations": []
     },
     "particularly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "particularly",
       "pos": "adv · B1",
       "pron": "/pəˈtɪk.jə.lə.li/",
@@ -3730,7 +3730,7 @@
       "collocations": []
     },
     "patriarchal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "patriarchal",
       "pos": "adj · C1",
       "pron": "/ˌpeɪ.triˈɑː.kəl/",
@@ -3743,7 +3743,7 @@
       "collocations": []
     },
     "petty": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "petty",
       "pos": "adj · B2",
       "pron": "/ˈpet.i/",
@@ -3756,7 +3756,7 @@
       "collocations": []
     },
     "plural": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "plural",
       "pos": "n · B1",
       "pron": "/ˈplʊə.rəl/",
@@ -3769,7 +3769,7 @@
       "collocations": []
     },
     "plurals": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "plurals",
       "pos": "n · B2",
       "pron": "/ˈplʊə.rəlz/",
@@ -3795,7 +3795,7 @@
       "collocations": []
     },
     "preference": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "preference",
       "pos": "n · B1",
       "pron": "/ˈpref.ər.əns/",
@@ -3808,7 +3808,7 @@
       "collocations": []
     },
     "preferring": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "preferring",
       "pos": "v · B1",
       "pron": "/prɪˈfɜː.rɪŋ/",
@@ -3834,7 +3834,7 @@
       "collocations": []
     },
     "product": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "product",
       "pos": "n · A2",
       "pron": "/ˈprɒd.ʌkt/",
@@ -3860,7 +3860,7 @@
       "collocations": []
     },
     "properly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "properly",
       "pos": "adv · A2",
       "pron": "/ˈprɒp.ə.li/",
@@ -3873,7 +3873,7 @@
       "collocations": []
     },
     "proposed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "proposed",
       "pos": "v · B1",
       "pron": "/prəˈpoʊzd/",
@@ -3899,7 +3899,7 @@
       "collocations": []
     },
     "random": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "random",
       "pos": "adj · A2",
       "pron": "/ˈræn.dəm/",
@@ -3912,7 +3912,7 @@
       "collocations": []
     },
     "reasons": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "reasons",
       "pos": "n · A2",
       "pron": "/ˈriː.zənz/",
@@ -3925,7 +3925,7 @@
       "collocations": []
     },
     "reclaimed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "reclaimed",
       "pos": "v · B2",
       "pron": "/rɪˈkleɪmd/",
@@ -3938,7 +3938,7 @@
       "collocations": []
     },
     "referring": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "referring",
       "pos": "v · A2",
       "pron": "/rɪˈfɜː.rɪŋ/",
@@ -3951,7 +3951,7 @@
       "collocations": []
     },
     "reflect": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "reflect",
       "pos": "v · A2",
       "pron": "/rɪˈflekt/",
@@ -3964,7 +3964,7 @@
       "collocations": []
     },
     "refused": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "refused",
       "pos": "v · A2",
       "pron": "/rɪˈfjuːzd/",
@@ -3977,7 +3977,7 @@
       "collocations": []
     },
     "relic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "relic",
       "pos": "n · B2",
       "pron": "/ˈrel.ɪk/",
@@ -3990,7 +3990,7 @@
       "collocations": []
     },
     "respect": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "respect",
       "pos": "v · A2",
       "pron": "/rɪˈspekt/",
@@ -4003,7 +4003,7 @@
       "collocations": []
     },
     "revived": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "revived",
       "pos": "adj · B2",
       "pron": "/rɪˈvaɪvd/",
@@ -4016,7 +4016,7 @@
       "collocations": []
     },
     "rule": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "rule",
       "pos": "n · A2",
       "pron": "/ruːl/",
@@ -4029,7 +4029,7 @@
       "collocations": []
     },
     "scholars": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scholars",
       "pos": "n · B2",
       "pron": "/ˈskɒl.əz/",
@@ -4042,7 +4042,7 @@
       "collocations": []
     },
     "scholarship": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scholarship",
       "pos": "n · B2",
       "pron": "/ˈskɒl.ə.ʃɪp/",
@@ -4055,7 +4055,7 @@
       "collocations": []
     },
     "sentence": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "sentence",
       "pos": "n · A2",
       "pron": "/ˈsen.təns/",
@@ -4068,7 +4068,7 @@
       "collocations": []
     },
     "silly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "silly",
       "pos": "adj · A2",
       "pron": "/ˈsɪl.i/",
@@ -4081,7 +4081,7 @@
       "collocations": []
     },
     "singular": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "singular",
       "pos": "n · B1",
       "pron": "/ˈsɪŋ.ɡjə.lər/",
@@ -4094,7 +4094,7 @@
       "collocations": []
     },
     "situations": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "situations",
       "pos": "n · A2",
       "pron": "/ˌsɪtʃ.uˈeɪ.ʃənz/",
@@ -4107,7 +4107,7 @@
       "collocations": []
     },
     "specifically": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "specifically",
       "pos": "adv · A2",
       "pron": "/spəˈsɪf.ɪk.li/",
@@ -4120,7 +4120,7 @@
       "collocations": []
     },
     "speech": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "speech",
       "pos": "n · A2",
       "pron": "/spiːtʃ/",
@@ -4133,7 +4133,7 @@
       "collocations": []
     },
     "stakes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "stakes",
       "pos": "n · B2",
       "pron": "/steɪks/",
@@ -4174,7 +4174,7 @@
       "collocations": []
     },
     "strange": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "strange",
       "pos": "adj · A2",
       "pron": "/streɪndʒ/",
@@ -4187,7 +4187,7 @@
       "collocations": []
     },
     "stylistic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "stylistic",
       "pos": "adj · C1",
       "pron": "/staɪˈlɪs.tɪk/",
@@ -4200,7 +4200,7 @@
       "collocations": []
     },
     "subsequent": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "subsequent",
       "pos": "adj · B2",
       "pron": "/ˈsʌb.sɪ.kwənt/",
@@ -4213,7 +4213,7 @@
       "collocations": []
     },
     "swapped": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "swapped",
       "pos": "v · B2",
       "pron": "/swɒpt/",
@@ -4226,7 +4226,7 @@
       "collocations": []
     },
     "transgender": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "transgender",
       "pos": "adj · B2",
       "pron": "/trænzˈdʒen.dər/",
@@ -4239,7 +4239,7 @@
       "collocations": []
     },
     "unknown": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "unknown",
       "pos": "adj · A2",
       "pron": "/ʌnˈnoʊn/",
@@ -4265,7 +4265,7 @@
       "collocations": []
     },
     "usage": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "usage",
       "pos": "n · B2",
       "pron": "/ˈjuː.sɪdʒ/",
@@ -4278,7 +4278,7 @@
       "collocations": []
     },
     "using": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "using",
       "pos": "v · A1",
       "pron": "/ˈjuː.zɪŋ/",
@@ -4291,7 +4291,7 @@
       "collocations": []
     },
     "vary": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "vary",
       "pos": "v · B1",
       "pron": "/ˈveə.ri/",
@@ -4304,7 +4304,7 @@
       "collocations": []
     },
     "winston": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Winston",
       "pos": "n · proper",
       "pron": "/ˈwɪn.stən/",
@@ -4317,7 +4317,7 @@
       "collocations": []
     },
     "written": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "written",
       "pos": "adj · A2",
       "pron": "/ˈrɪt.n/",

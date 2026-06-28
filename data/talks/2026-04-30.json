@@ -133,7 +133,7 @@
               "type": "word",
               "surface": "Palestinians",
               "ref": "palestinians",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t2",
@@ -228,7 +228,7 @@
               "type": "word",
               "surface": "language",
               "ref": "language",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -240,7 +240,7 @@
               "type": "word",
               "surface": "response",
               "ref": "response",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -300,7 +300,7 @@
               "type": "word",
               "surface": "source",
               "ref": "source",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t6",
@@ -312,7 +312,7 @@
               "type": "word",
               "surface": "laughter",
               "ref": "laughter",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t8",
@@ -324,7 +324,7 @@
               "type": "word",
               "surface": "connection",
               "ref": "connection",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t10",
@@ -348,7 +348,7 @@
               "type": "word",
               "surface": "adults",
               "ref": "adults",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t14",
@@ -391,7 +391,7 @@
               "type": "word",
               "surface": "goofy",
               "ref": "goofy",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -403,7 +403,7 @@
               "type": "word",
               "surface": "babies",
               "ref": "babies",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -415,7 +415,7 @@
               "type": "word",
               "surface": "love",
               "ref": "love",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -464,7 +464,7 @@
               "type": "word",
               "surface": "develop",
               "ref": "develop",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -476,7 +476,7 @@
               "type": "word",
               "surface": "rates",
               "ref": "rates",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -488,7 +488,7 @@
               "type": "word",
               "surface": "cognitive",
               "ref": "cognitive",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -500,7 +500,7 @@
               "type": "word",
               "surface": "motor",
               "ref": "motor",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -512,7 +512,7 @@
               "type": "word",
               "surface": "abilities",
               "ref": "abilities",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -524,7 +524,7 @@
               "type": "word",
               "surface": "emerge",
               "ref": "emerge",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -536,7 +536,7 @@
               "type": "word",
               "surface": "order",
               "ref": "order",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -585,33 +585,81 @@
               "ref": "six_month_olds"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " can typically "
+              "surface": " can ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "grab",
-              "ref": "grab",
-              "tier": "known"
+              "surface": "typically",
+              "ref": "typically",
+              "tier": "key",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " things— and then "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "promptly",
-              "ref": "promptly",
-              "tier": "known"
+              "surface": "grab",
+              "ref": "grab",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " drop them— walking and talking generally begin around 12 months."
+              "surface": " things— and then "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "promptly",
+              "ref": "promptly",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " drop them— ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "walking",
+              "ref": "walking",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "talking",
+              "ref": "talking",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "generally",
+              "ref": "generally",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " begin around 12 months.",
+              "id": "t15"
             }
           ]
         },
@@ -645,34 +693,58 @@
               "type": "word",
               "surface": "timeline",
               "ref": "timeline",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " was first formally "
+              "surface": " was first ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "charted",
-              "ref": "charted",
-              "tier": "known"
+              "surface": "formally",
+              "ref": "formally",
+              "tier": "key",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " in 1936 by Swiss "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "psychologist",
-              "ref": "psychologist",
-              "tier": "known"
+              "surface": "charted",
+              "ref": "charted",
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "type": "skip",
+              "surface": " in 1936 by ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "Swiss",
+              "ref": "swiss",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "psychologist",
+              "ref": "psychologist",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": " Jean Piaget."
             }
@@ -703,93 +775,129 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And while most modern "
+              "surface": "And while most ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "researchers",
-              "ref": "researchers",
-              "tier": "skip"
+              "surface": "modern",
+              "ref": "modern",
+              "tier": "basic",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "agree",
-              "ref": "agree",
-              "tier": "skip"
+              "surface": "researchers",
+              "ref": "researchers",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " this process is more "
+              "surface": " "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "fluid",
-              "ref": "fluid",
-              "tier": "known"
+              "surface": "agree",
+              "ref": "agree",
+              "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " than Piaget "
+              "surface": " this ",
+              "id": "t7"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "believed",
-              "ref": "believed",
-              "tier": "skip"
+              "surface": "process",
+              "ref": "process",
+              "tier": "normal",
+              "id": "t8"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": ", the early "
+              "surface": " is more ",
+              "id": "t9"
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "developments",
-              "ref": "developments",
-              "tier": "skip"
+              "surface": "fluid",
+              "ref": "fluid",
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " he "
+              "surface": " than Piaget "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "identified",
-              "ref": "identified",
-              "tier": "skip"
+              "surface": "believed",
+              "ref": "believed",
+              "tier": "basic"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": " are "
+              "surface": ", the early "
             },
             {
               "id": "t14",
               "type": "word",
-              "surface": "key",
-              "ref": "key",
-              "tier": "skip"
+              "surface": "developments",
+              "ref": "developments",
+              "tier": "basic"
             },
             {
               "id": "t15",
               "type": "skip",
-              "surface": " for understanding peek-a-boo."
+              "surface": " he "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "identified",
+              "ref": "identified",
+              "tier": "basic"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " are "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "key",
+              "ref": "key",
+              "tier": "basic"
+            },
+            {
+              "type": "skip",
+              "surface": " for ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "understanding",
+              "ref": "understanding",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " peek-a-boo.",
+              "id": "t21"
             }
           ]
         }
@@ -870,7 +978,7 @@
               "type": "word",
               "surface": "immediately",
               "ref": "immediately",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -882,34 +990,46 @@
               "type": "word",
               "surface": "newborns",
               "ref": "newborns",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " as young as two days old can "
+              "surface": " as ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "recognize",
-              "ref": "recognize",
-              "tier": "skip"
+              "surface": "young",
+              "ref": "young",
+              "tier": "basic",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " their "
+              "surface": " as two days old can ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "caregivers",
-              "ref": "caregivers",
-              "tier": "known"
+              "surface": "recognize",
+              "ref": "recognize",
+              "tier": "basic"
             },
             {
               "id": "t9",
+              "type": "skip",
+              "surface": " their "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "caregivers",
+              "ref": "caregivers",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": "' faces."
             }
@@ -964,46 +1084,58 @@
               "type": "word",
               "surface": "notice",
               "ref": "notice",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " nearby "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "laughing",
-              "ref": "laughing",
-              "tier": "skip"
+              "surface": "nearby",
+              "ref": "nearby",
+              "tier": "normal",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " or "
+              "surface": " ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "smiling",
-              "ref": "smiling",
-              "tier": "skip"
+              "surface": "laughing",
+              "ref": "laughing",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " faces and start to "
+              "surface": " or "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "mimic",
-              "ref": "mimic",
-              "tier": "known"
+              "surface": "smiling",
+              "ref": "smiling",
+              "tier": "basic"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " faces and start to "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "mimic",
+              "ref": "mimic",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": " them."
             }
@@ -1042,7 +1174,7 @@
               "type": "word",
               "surface": "understand",
               "ref": "understand",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1140,34 +1272,58 @@
               "type": "word",
               "surface": "described",
               "ref": "described",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " this as the understanding that people and "
+              "surface": " this as the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "objects",
-              "ref": "objects",
-              "tier": "skip"
+              "surface": "understanding",
+              "ref": "understanding",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " continue to "
+              "surface": " that people and ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "exist",
-              "ref": "exist",
-              "tier": "skip"
+              "surface": "objects",
+              "ref": "objects",
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "continue",
+              "ref": "continue",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "exist",
+              "ref": "exist",
+              "tier": "basic"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": " even when you can't see them."
             }
@@ -1202,51 +1358,87 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "So before this period, \""
+              "surface": "So before this ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "period",
+              "ref": "period",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", \"",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "out of sight",
               "ref": "out_of_sight"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": "\" can literally mean \""
+              "surface": "\" can ",
+              "id": "t5"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "literally",
+              "ref": "literally",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " mean \"",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "out of mind",
               "ref": "out_of_mind"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": "\"— making hiding your face "
+              "surface": "\"— making ",
+              "id": "t9"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "hiding",
+              "ref": "hiding",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " your face ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "akin to",
               "ref": "akin_to"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "expression",
               "surface": "magic trick",
               "ref": "magic_trick"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -1282,39 +1474,40 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Before object permanence, this "
+              "surface": "Before ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "disappearing",
-              "ref": "disappearing",
-              "tier": "skip"
+              "surface": "object",
+              "ref": "object",
+              "tier": "basic",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "act",
-              "ref": "act",
-              "tier": "skip"
+              "surface": "permanence",
+              "ref": "permanence",
+              "tier": "key",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": ", this ",
+              "id": "t5"
             },
             {
               "id": "t6",
-              "type": "expression",
-              "surface": "can range from … to",
-              "ref": "range_from_to"
+              "type": "word",
+              "surface": "disappearing",
+              "ref": "disappearing",
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -1324,21 +1517,20 @@
             {
               "id": "t8",
               "type": "word",
-              "surface": "confusing",
-              "ref": "confusing",
-              "tier": "known"
+              "surface": "act",
+              "ref": "act",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " to "
+              "surface": " "
             },
             {
               "id": "t10",
-              "type": "word",
-              "surface": "pleasantly",
-              "ref": "pleasantly",
-              "tier": "known"
+              "type": "expression",
+              "surface": "can range from … to",
+              "ref": "range_from_to"
             },
             {
               "id": "t11",
@@ -1348,12 +1540,36 @@
             {
               "id": "t12",
               "type": "word",
-              "surface": "surprising",
-              "ref": "surprising",
-              "tier": "skip"
+              "surface": "confusing",
+              "ref": "confusing",
+              "tier": "normal"
             },
             {
               "id": "t13",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "pleasantly",
+              "ref": "pleasantly",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "surprising",
+              "ref": "surprising",
+              "tier": "basic"
+            },
+            {
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1393,22 +1609,34 @@
               "type": "word",
               "surface": "together",
               "ref": "together",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " for peak peek-a-boo "
+              "surface": " for ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "peak",
+              "ref": "peak",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " peek-a-boo ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "performance",
               "ref": "performance",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -1448,7 +1676,7 @@
               "type": "word",
               "surface": "focus",
               "ref": "focus",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1460,35 +1688,83 @@
               "type": "word",
               "surface": "predict",
               "ref": "predict",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " the timing of the "
+              "surface": " the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "timing",
+              "ref": "timing",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " of the ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "reveal",
               "ref": "reveal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": ", and even "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "look for",
               "ref": "look_for"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " the hidden object or person."
+              "surface": " the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "hidden",
+              "ref": "hidden",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "object",
+              "ref": "object",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " or ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "person",
+              "ref": "person",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         },
@@ -1517,31 +1793,43 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And since infants learn about the world through "
+              "surface": "And since infants learn about the ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "play",
-              "ref": "play",
-              "tier": "skip"
+              "surface": "world",
+              "ref": "world",
+              "tier": "basic",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", peek-a-boo is one of their first "
+              "surface": " through ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "teachers",
-              "ref": "teachers",
-              "tier": "skip"
+              "surface": "play",
+              "ref": "play",
+              "tier": "basic"
             },
             {
               "id": "t5",
+              "type": "skip",
+              "surface": ", peek-a-boo is one of their first "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "teachers",
+              "ref": "teachers",
+              "tier": "basic"
+            },
+            {
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -1577,54 +1865,78 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "In one study, "
+              "surface": "In one ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "study",
+              "ref": "study",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "11-month-olds",
               "ref": "eleven_month_olds"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " were shown a "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "barrier",
               "ref": "barrier",
-              "tier": "known"
-            },
-            {
-              "id": "t5",
-              "type": "skip",
-              "surface": ", the "
-            },
-            {
-              "id": "t6",
-              "type": "word",
-              "surface": "bottom",
-              "ref": "bottom",
-              "tier": "skip"
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " of which was hidden behind a "
+              "surface": ", the "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "screen",
-              "ref": "screen",
-              "tier": "skip"
+              "surface": "bottom",
+              "ref": "bottom",
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "type": "skip",
+              "surface": " of which was ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "hidden",
+              "ref": "hidden",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " behind a ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "screen",
+              "ref": "screen",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1664,7 +1976,7 @@
               "type": "word",
               "surface": "rolled",
               "ref": "rolled",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1676,7 +1988,7 @@
               "type": "word",
               "surface": "balls",
               "ref": "balls",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1688,7 +2000,7 @@
               "type": "word",
               "surface": "removing",
               "ref": "removing",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -1700,7 +2012,7 @@
               "type": "word",
               "surface": "afterwards",
               "ref": "afterwards",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1712,22 +2024,34 @@
               "type": "word",
               "surface": "stopped",
               "ref": "stopped",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " at the barrier as expected, or, "
+              "surface": " at the barrier as ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "expected",
+              "ref": "expected",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ", or, ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "somehow",
               "ref": "somehow",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": ", gone through it."
             }
@@ -1768,7 +2092,7 @@
               "type": "word",
               "surface": "seemingly",
               "ref": "seemingly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1780,57 +2104,69 @@
               "type": "word",
               "surface": "magical",
               "ref": "magical",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " toys showed more interest in them afterwards— even "
+              "surface": " toys showed more ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "interest",
+              "ref": "interest",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " in them afterwards— even ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "ignoring",
               "ref": "ignoring",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " new objects "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "in favor of",
               "ref": "in_favor_of"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " toys that "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "challenged",
               "ref": "challenged",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " their "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "expectations",
               "ref": "expectations",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -1871,22 +2207,34 @@
               "type": "word",
               "surface": "social",
               "ref": "social",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " expectations peek-a-boo develops may be even more "
+              "surface": " expectations peek-a-boo ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "develops",
+              "ref": "develops",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " may be even more ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "important",
               "ref": "important",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -1926,7 +2274,7 @@
               "type": "word",
               "surface": "features",
               "ref": "features",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1938,7 +2286,7 @@
               "type": "word",
               "surface": "hallmarks",
               "ref": "hallmarks",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2025,7 +2373,7 @@
               "type": "word",
               "surface": "skills",
               "ref": "skills",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2037,34 +2385,58 @@
               "type": "word",
               "surface": "foundation",
               "ref": "foundation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " of human "
+              "surface": " of ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "conversation",
-              "ref": "conversation",
-              "tier": "skip"
+              "surface": "human",
+              "ref": "human",
+              "tier": "basic",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", and since it's a conversation, what the adult does "
+              "surface": " ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "matters",
-              "ref": "matters",
-              "tier": "skip"
+              "surface": "conversation",
+              "ref": "conversation",
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "type": "skip",
+              "surface": ", and since it's a conversation, what the ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "adult",
+              "ref": "adult",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " does ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "matters",
+              "ref": "matters",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2095,67 +2467,79 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Just as caregivers learn to read their infant's "
+              "surface": "Just as caregivers learn to read their ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "cries",
-              "ref": "cries",
-              "tier": "skip"
+              "surface": "infant",
+              "ref": "infant",
+              "tier": "key",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " and "
+              "surface": "'s ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "verbal",
-              "ref": "verbal",
-              "tier": "known"
+              "surface": "cries",
+              "ref": "cries",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": " and "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "cues",
-              "ref": "cues",
-              "tier": "known"
+              "surface": "verbal",
+              "ref": "verbal",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": ", babies learn how adults "
+              "surface": " "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "respond",
-              "ref": "respond",
-              "tier": "known"
+              "surface": "cues",
+              "ref": "cues",
+              "tier": "normal"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " to their "
+              "surface": ", babies learn how adults "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "behavior",
-              "ref": "behavior",
-              "tier": "skip"
+              "surface": "respond",
+              "ref": "respond",
+              "tier": "normal"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " to their "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "behavior",
+              "ref": "behavior",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2261,19 +2645,67 @@
               "ref": "call_and_response"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " structure is also why some psychologists describe peek-a-boo as a baby's first "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "structure",
+              "ref": "structure",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " is also why some ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "psychologists",
+              "ref": "psychologists",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "describe",
+              "ref": "describe",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " peek-a-boo as a ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "baby",
+              "ref": "baby",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": "'s first ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "joke",
               "ref": "joke",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2309,7 +2741,7 @@
               "type": "word",
               "surface": "interaction",
               "ref": "interaction",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2321,7 +2753,7 @@
               "type": "word",
               "surface": "format",
               "ref": "format",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2333,7 +2765,7 @@
               "type": "word",
               "surface": "reliable",
               "ref": "reliable",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2345,7 +2777,7 @@
               "type": "word",
               "surface": "content",
               "ref": "content",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -2357,7 +2789,7 @@
               "type": "word",
               "surface": "surprising",
               "ref": "surprising",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -2398,21 +2830,57 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "As other motor and cognitive abilities develop, this foundation of social skills and object permanence "
+              "surface": "As other motor and cognitive abilities develop, this foundation of social skills and ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "object",
+              "ref": "object",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "permanence",
+              "ref": "permanence",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "informs",
               "ref": "informs",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " various kinds of play."
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "various",
+              "ref": "various",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " kinds of play.",
+              "id": "t9"
             }
           ]
         },
@@ -2446,40 +2914,100 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Once kids begin walking and talking, peek-a-boo usually evolves into "
+              "surface": "Once kids begin ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "walking",
+              "ref": "walking",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "talking",
+              "ref": "talking",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", peek-a-boo usually ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "evolves",
+              "ref": "evolves",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " into ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "hide-and-seek",
               "ref": "hide_and_seek"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": "— though their hiding isn't usually very good at this age due to poor "
+              "surface": "— though their ",
+              "id": "t9"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "hiding",
+              "ref": "hiding",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " isn't usually very good at this age due to poor ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "impulse control",
               "ref": "impulse_control"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " and a lack of "
+              "surface": " and a ",
+              "id": "t13"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "lack",
+              "ref": "lack",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "theory of mind",
               "ref": "theory_of_mind"
             },
             {
-              "id": "t7",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -2514,7 +3042,7 @@
               "type": "word",
               "surface": "ability",
               "ref": "ability",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2526,7 +3054,7 @@
               "type": "word",
               "surface": "imagine",
               "ref": "imagine",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2575,54 +3103,90 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Without it, a child might think they're hidden simply by "
+              "surface": "Without it, a ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "child",
+              "ref": "child",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " might think they're ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "hidden",
+              "ref": "hidden",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "simply",
+              "ref": "simply",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " by ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "covering",
               "ref": "covering",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t9",
               "type": "skip",
               "surface": " their own "
             },
             {
-              "id": "t4",
+              "id": "t10",
               "type": "word",
               "surface": "eyes",
               "ref": "eyes",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": "— "
             },
             {
-              "id": "t6",
+              "id": "t12",
               "type": "expression",
               "surface": "after all",
               "ref": "after_all"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": ", if they can't see you, "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "word",
               "surface": "surely",
               "ref": "surely",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": " you can't see them."
             }
@@ -2658,44 +3222,92 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Once theory of mind develops around age 3 or 4, kids can begin "
+              "surface": "Once ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "theory",
+              "ref": "theory",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of mind ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "develops",
+              "ref": "develops",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " around age 3 or 4, kids can begin ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "playing pretend",
               "ref": "play_pretend"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " together, all "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "occupying",
               "ref": "occupying",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " a shared "
+              "surface": " a ",
+              "id": "t9"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "shared",
+              "ref": "shared",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "imaginary",
               "ref": "imaginary",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " world."
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "world",
+              "ref": "world",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         },
@@ -2733,33 +3345,45 @@
               "type": "word",
               "surface": "cooperative",
               "ref": "cooperative",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " pretend play is often "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "pretend",
+              "ref": "pretend",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " play is often ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "sprinkled with",
               "ref": "sprinkled_with"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " peek-a-boo style "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "surprises",
               "ref": "surprises",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -2798,7 +3422,7 @@
               "type": "word",
               "surface": "language",
               "ref": "language",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2810,7 +3434,7 @@
               "type": "word",
               "surface": "expands",
               "ref": "expands",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2822,7 +3446,7 @@
               "type": "word",
               "surface": "playful",
               "ref": "playful",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2834,7 +3458,7 @@
               "type": "word",
               "surface": "negotiation",
               "ref": "negotiation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2846,7 +3470,7 @@
               "type": "word",
               "surface": "complicated",
               "ref": "complicated",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -2858,7 +3482,7 @@
               "type": "word",
               "surface": "rules",
               "ref": "rules",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -2907,7 +3531,7 @@
               "type": "word",
               "surface": "favorite",
               "ref": "favorite",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2919,7 +3543,7 @@
               "type": "word",
               "surface": "determined",
               "ref": "determined",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2931,7 +3555,7 @@
               "type": "word",
               "surface": "personalities",
               "ref": "personalities",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2943,12 +3567,24 @@
               "type": "word",
               "surface": "interests",
               "ref": "interests",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " than their cognitive development."
+              "surface": " than their cognitive ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "development",
+              "ref": "development",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t11"
             }
           ]
         },
@@ -3001,7 +3637,7 @@
               "type": "word",
               "surface": "pursue",
               "ref": "pursue",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3024,7 +3660,7 @@
               "type": "word",
               "surface": "perspective",
               "ref": "perspective",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -3038,7 +3674,7 @@
   ],
   "words": {
     "abilities": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "abilities",
       "pos": "n · B1",
       "pron": "/əˈbɪl.ə.tiz/",
@@ -3051,7 +3687,7 @@
       "collocations": []
     },
     "ability": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "ability",
       "pos": "n · A2",
       "pron": "/əˈbɪl.ə.ti/",
@@ -3064,7 +3700,7 @@
       "collocations": []
     },
     "act": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "act",
       "pos": "n · A2",
       "pron": "/ækt/",
@@ -3077,7 +3713,7 @@
       "collocations": []
     },
     "adults": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "adults",
       "pos": "n · A2",
       "pron": "/ˈæd.ʌlts/",
@@ -3090,7 +3726,7 @@
       "collocations": []
     },
     "afterwards": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "afterwards",
       "pos": "adv · B1",
       "pron": "/ˈɑːf.tə.wədz/",
@@ -3103,7 +3739,7 @@
       "collocations": []
     },
     "agree": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "agree",
       "pos": "v · A2",
       "pron": "/əˈɡriː/",
@@ -3116,7 +3752,7 @@
       "collocations": []
     },
     "babies": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "babies",
       "pos": "n · A1",
       "pron": "/ˈbeɪ.biz/",
@@ -3129,7 +3765,7 @@
       "collocations": []
     },
     "balls": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "balls",
       "pos": "n · A1",
       "pron": "/bɔːlz/",
@@ -3142,7 +3778,7 @@
       "collocations": []
     },
     "barrier": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "barrier",
       "pos": "n · B1",
       "pron": "/ˈbær.i.ər/",
@@ -3155,7 +3791,7 @@
       "collocations": []
     },
     "behavior": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "behavior",
       "pos": "n · A2",
       "pron": "/bɪˈheɪv.jər/",
@@ -3168,7 +3804,7 @@
       "collocations": []
     },
     "believed": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "believed",
       "pos": "v · A2",
       "pron": "/bɪˈliːvd/",
@@ -3181,7 +3817,7 @@
       "collocations": []
     },
     "bottom": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "bottom",
       "pos": "n · A2",
       "pron": "/ˈbɒt.əm/",
@@ -3194,7 +3830,7 @@
       "collocations": []
     },
     "caregivers": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "caregivers",
       "pos": "n · B2",
       "pron": "/ˈkeə.ɡɪv.əz/",
@@ -3207,7 +3843,7 @@
       "collocations": []
     },
     "challenged": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "challenged",
       "pos": "v · B2",
       "pron": "/ˈtʃæl.ɪndʒd/",
@@ -3220,7 +3856,7 @@
       "collocations": []
     },
     "charted": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "charted",
       "pos": "v · B2",
       "pron": "/ˈtʃɑː.tɪd/",
@@ -3233,7 +3869,7 @@
       "collocations": []
     },
     "cognitive": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "cognitive",
       "pos": "adj · B2",
       "pron": "/ˈkɒɡ.nə.tɪv/",
@@ -3246,7 +3882,7 @@
       "collocations": []
     },
     "complicated": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "complicated",
       "pos": "adj · A2",
       "pron": "/ˈkɒm.plɪ.keɪ.tɪd/",
@@ -3259,7 +3895,7 @@
       "collocations": []
     },
     "confusing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "confusing",
       "pos": "adj · B1",
       "pron": "/kənˈfjuː.zɪŋ/",
@@ -3272,7 +3908,7 @@
       "collocations": []
     },
     "connection": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "connection",
       "pos": "n · A2",
       "pron": "/kəˈnek.ʃən/",
@@ -3285,7 +3921,7 @@
       "collocations": []
     },
     "content": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "content",
       "pos": "n · A2",
       "pron": "/ˈkɒn.tent/",
@@ -3298,7 +3934,7 @@
       "collocations": []
     },
     "conversation": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "conversation",
       "pos": "n · A2",
       "pron": "/ˌkɒn.vəˈseɪ.ʃən/",
@@ -3311,7 +3947,7 @@
       "collocations": []
     },
     "cooperative": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "cooperative",
       "pos": "adj · B2",
       "pron": "/koʊˈɒp.ər.ə.tɪv/",
@@ -3324,7 +3960,7 @@
       "collocations": []
     },
     "covering": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "covering",
       "pos": "v · A2",
       "pron": "/ˈkʌv.ər.ɪŋ/",
@@ -3337,7 +3973,7 @@
       "collocations": []
     },
     "cries": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "cries",
       "pos": "n · A2",
       "pron": "/kraɪz/",
@@ -3350,7 +3986,7 @@
       "collocations": []
     },
     "cues": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "cues",
       "pos": "n · B2",
       "pron": "/kjuːz/",
@@ -3363,7 +3999,7 @@
       "collocations": []
     },
     "described": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "described",
       "pos": "v · A2",
       "pron": "/dɪˈskraɪbd/",
@@ -3376,7 +4012,7 @@
       "collocations": []
     },
     "determined": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "determined",
       "pos": "v · A2",
       "pron": "/dɪˈtɜː.mɪnd/",
@@ -3389,7 +4025,7 @@
       "collocations": []
     },
     "develop": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "develop",
       "pos": "v · A2",
       "pron": "/dɪˈvel.əp/",
@@ -3402,7 +4038,7 @@
       "collocations": []
     },
     "developments": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "developments",
       "pos": "n · A2",
       "pron": "/dɪˈvel.əp.mənts/",
@@ -3415,7 +4051,7 @@
       "collocations": []
     },
     "disappearing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "disappearing",
       "pos": "v · A2",
       "pron": "/ˌdɪs.əˈpɪər.ɪŋ/",
@@ -3428,7 +4064,7 @@
       "collocations": []
     },
     "emerge": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "emerge",
       "pos": "v · B2",
       "pron": "/ɪˈmɜːdʒ/",
@@ -3441,7 +4077,7 @@
       "collocations": []
     },
     "exist": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "exist",
       "pos": "v · A2",
       "pron": "/ɪɡˈzɪst/",
@@ -3454,7 +4090,7 @@
       "collocations": []
     },
     "expands": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "expands",
       "pos": "v · B1",
       "pron": "/ɪkˈspændz/",
@@ -3467,7 +4103,7 @@
       "collocations": []
     },
     "expectations": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "expectations",
       "pos": "n · B1",
       "pron": "/ˌek.spekˈteɪ.ʃənz/",
@@ -3480,7 +4116,7 @@
       "collocations": []
     },
     "eyes": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "eyes",
       "pos": "n · A1",
       "pron": "/aɪz/",
@@ -3493,7 +4129,7 @@
       "collocations": []
     },
     "favorite": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "favorite",
       "pos": "adj · A1",
       "pron": "/ˈfeɪ.vrɪt/",
@@ -3506,7 +4142,7 @@
       "collocations": []
     },
     "features": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "features",
       "pos": "v · B1",
       "pron": "/ˈfiː.tʃəz/",
@@ -3519,7 +4155,7 @@
       "collocations": []
     },
     "fluid": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "fluid",
       "pos": "adj · B2",
       "pron": "/ˈfluː.ɪd/",
@@ -3532,7 +4168,7 @@
       "collocations": []
     },
     "focus": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "focus",
       "pos": "v · A2",
       "pron": "/ˈfoʊ.kəs/",
@@ -3545,7 +4181,7 @@
       "collocations": []
     },
     "format": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "format",
       "pos": "n · B1",
       "pron": "/ˈfɔː.mæt/",
@@ -3558,7 +4194,7 @@
       "collocations": []
     },
     "foundation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "foundation",
       "pos": "n · B1",
       "pron": "/faʊnˈdeɪ.ʃən/",
@@ -3571,7 +4207,7 @@
       "collocations": []
     },
     "goofy": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "goofy",
       "pos": "adj · B2",
       "pron": "/ˈɡuː.fi/",
@@ -3584,7 +4220,7 @@
       "collocations": []
     },
     "grab": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "grab",
       "pos": "v · B1",
       "pron": "/ɡræb/",
@@ -3597,7 +4233,7 @@
       "collocations": []
     },
     "hallmarks": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "hallmarks",
       "pos": "n · B2",
       "pron": "/ˈhɔːl.mɑːks/",
@@ -3610,7 +4246,7 @@
       "collocations": []
     },
     "identified": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "identified",
       "pos": "v · A2",
       "pron": "/aɪˈden.tɪ.faɪd/",
@@ -3623,7 +4259,7 @@
       "collocations": []
     },
     "ignoring": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "ignoring",
       "pos": "v · A2",
       "pron": "/ɪɡˈnɔː.rɪŋ/",
@@ -3636,7 +4272,7 @@
       "collocations": []
     },
     "imaginary": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "imaginary",
       "pos": "adj · B1",
       "pron": "/ɪˈmædʒ.ə.nər.i/",
@@ -3649,7 +4285,7 @@
       "collocations": []
     },
     "imagine": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "imagine",
       "pos": "v · A2",
       "pron": "/ɪˈmædʒ.ɪn/",
@@ -3662,7 +4298,7 @@
       "collocations": []
     },
     "immediately": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "immediately",
       "pos": "adv · A2",
       "pron": "/ɪˈmiː.di.ət.li/",
@@ -3675,7 +4311,7 @@
       "collocations": []
     },
     "important": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "important",
       "pos": "adj · A1",
       "pron": "/ɪmˈpɔː.tənt/",
@@ -3701,7 +4337,7 @@
       "collocations": []
     },
     "informs": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "informs",
       "pos": "v · B2",
       "pron": "/ɪnˈfɔːmz/",
@@ -3714,7 +4350,7 @@
       "collocations": []
     },
     "interaction": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "interaction",
       "pos": "n · B2",
       "pron": "/ˌɪn.tərˈæk.ʃən/",
@@ -3727,7 +4363,7 @@
       "collocations": []
     },
     "interests": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "interests",
       "pos": "n · A2",
       "pron": "/ˈɪn.trəsts/",
@@ -3740,7 +4376,7 @@
       "collocations": []
     },
     "joke": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "joke",
       "pos": "n · A2",
       "pron": "/dʒoʊk/",
@@ -3753,7 +4389,7 @@
       "collocations": []
     },
     "key": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "key",
       "pos": "adj · A2",
       "pron": "/kiː/",
@@ -3766,7 +4402,7 @@
       "collocations": []
     },
     "language": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "language",
       "pos": "n · A1",
       "pron": "/ˈlæŋ.ɡwɪdʒ/",
@@ -3779,7 +4415,7 @@
       "collocations": []
     },
     "laughing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "laughing",
       "pos": "v · A2",
       "pron": "/ˈlɑː.fɪŋ/",
@@ -3792,7 +4428,7 @@
       "collocations": []
     },
     "laughter": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "laughter",
       "pos": "n · B1",
       "pron": "/ˈlɑːf.tər/",
@@ -3805,7 +4441,7 @@
       "collocations": []
     },
     "love": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "love",
       "pos": "v · A1",
       "pron": "/lʌv/",
@@ -3818,7 +4454,7 @@
       "collocations": []
     },
     "magical": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "magical",
       "pos": "adj · B1",
       "pron": "/ˈmædʒ.ɪ.kəl/",
@@ -3831,7 +4467,7 @@
       "collocations": []
     },
     "matters": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "matters",
       "pos": "v · A2",
       "pron": "/ˈmæt.əz/",
@@ -3844,7 +4480,7 @@
       "collocations": []
     },
     "mimic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mimic",
       "pos": "v · B2",
       "pron": "/ˈmɪm.ɪk/",
@@ -3857,7 +4493,7 @@
       "collocations": []
     },
     "motor": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "motor",
       "pos": "adj · B1",
       "pron": "/ˈmoʊ.tər/",
@@ -3870,7 +4506,7 @@
       "collocations": []
     },
     "negotiation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "negotiation",
       "pos": "n · B2",
       "pron": "/nəˌɡoʊ.ʃiˈeɪ.ʃən/",
@@ -3883,7 +4519,7 @@
       "collocations": []
     },
     "newborns": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "newborns",
       "pos": "n · B2",
       "pron": "/ˈnjuː.bɔːnz/",
@@ -3896,7 +4532,7 @@
       "collocations": []
     },
     "notice": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "notice",
       "pos": "v · A2",
       "pron": "/ˈnoʊ.tɪs/",
@@ -3909,7 +4545,7 @@
       "collocations": []
     },
     "objects": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "objects",
       "pos": "n · A2",
       "pron": "/ˈɒb.dʒekts/",
@@ -3922,7 +4558,7 @@
       "collocations": []
     },
     "occupying": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "occupying",
       "pos": "v · B2",
       "pron": "/ˈɒk.jə.paɪ.ɪŋ/",
@@ -3935,7 +4571,7 @@
       "collocations": []
     },
     "order": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "order",
       "pos": "n · A1",
       "pron": "/ˈɔː.dər/",
@@ -3948,7 +4584,7 @@
       "collocations": []
     },
     "palestinians": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Palestinians",
       "pos": "n · proper",
       "pron": "/ˌpæl.ɪˈstɪn.i.ənz/",
@@ -3961,7 +4597,7 @@
       "collocations": []
     },
     "performance": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "performance",
       "pos": "n · A2",
       "pron": "/pəˈfɔː.məns/",
@@ -3974,7 +4610,7 @@
       "collocations": []
     },
     "personalities": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "personalities",
       "pos": "n · B1",
       "pron": "/ˌpɜː.səˈnæl.ə.tiz/",
@@ -3987,7 +4623,7 @@
       "collocations": []
     },
     "perspective": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "perspective",
       "pos": "n · B2",
       "pron": "/pəˈspek.tɪv/",
@@ -4000,7 +4636,7 @@
       "collocations": []
     },
     "play": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "play",
       "pos": "n · A1",
       "pron": "/pleɪ/",
@@ -4013,7 +4649,7 @@
       "collocations": []
     },
     "playful": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "playful",
       "pos": "adj · B1",
       "pron": "/ˈpleɪ.fəl/",
@@ -4026,7 +4662,7 @@
       "collocations": []
     },
     "pleasantly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "pleasantly",
       "pos": "adv · B2",
       "pron": "/ˈplez.ənt.li/",
@@ -4039,7 +4675,7 @@
       "collocations": []
     },
     "predict": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "predict",
       "pos": "v · B1",
       "pron": "/prɪˈdɪkt/",
@@ -4052,7 +4688,7 @@
       "collocations": []
     },
     "promptly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "promptly",
       "pos": "adv · B2",
       "pron": "/ˈprɒmpt.li/",
@@ -4065,7 +4701,7 @@
       "collocations": []
     },
     "psychologist": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "psychologist",
       "pos": "n · B1",
       "pron": "/saɪˈkɒl.ə.dʒɪst/",
@@ -4078,7 +4714,7 @@
       "collocations": []
     },
     "pursue": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "pursue",
       "pos": "v · B2",
       "pron": "/pəˈsjuː/",
@@ -4091,7 +4727,7 @@
       "collocations": []
     },
     "rates": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "rates",
       "pos": "n · A2",
       "pron": "/reɪts/",
@@ -4104,7 +4740,7 @@
       "collocations": []
     },
     "recognize": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "recognize",
       "pos": "v · A2",
       "pron": "/ˈrek.əɡ.naɪz/",
@@ -4117,7 +4753,7 @@
       "collocations": []
     },
     "reliable": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "reliable",
       "pos": "adj · B1",
       "pron": "/rɪˈlaɪə.bl/",
@@ -4130,7 +4766,7 @@
       "collocations": []
     },
     "removing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "removing",
       "pos": "v · A2",
       "pron": "/rɪˈmuː.vɪŋ/",
@@ -4143,7 +4779,7 @@
       "collocations": []
     },
     "researchers": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "researchers",
       "pos": "n · A2",
       "pron": "/rɪˈsɜː.tʃəz/",
@@ -4156,7 +4792,7 @@
       "collocations": []
     },
     "respond": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "respond",
       "pos": "v · B1",
       "pron": "/rɪˈspɒnd/",
@@ -4169,7 +4805,7 @@
       "collocations": []
     },
     "response": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "response",
       "pos": "n · A2",
       "pron": "/rɪˈspɒns/",
@@ -4182,7 +4818,7 @@
       "collocations": []
     },
     "reveal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "reveal",
       "pos": "n · B2",
       "pron": "/rɪˈviːl/",
@@ -4195,7 +4831,7 @@
       "collocations": []
     },
     "rolled": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rolled",
       "pos": "v · B1",
       "pron": "/roʊld/",
@@ -4208,7 +4844,7 @@
       "collocations": []
     },
     "rules": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "rules",
       "pos": "n · A1",
       "pron": "/ruːlz/",
@@ -4221,7 +4857,7 @@
       "collocations": []
     },
     "screen": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "screen",
       "pos": "n · A2",
       "pron": "/skriːn/",
@@ -4234,7 +4870,7 @@
       "collocations": []
     },
     "seemingly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "seemingly",
       "pos": "adv · B2",
       "pron": "/ˈsiː.mɪŋ.li/",
@@ -4247,7 +4883,7 @@
       "collocations": []
     },
     "skills": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "skills",
       "pos": "n · A2",
       "pron": "/skɪlz/",
@@ -4260,7 +4896,7 @@
       "collocations": []
     },
     "smiling": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "smiling",
       "pos": "v · A2",
       "pron": "/ˈsmaɪl.ɪŋ/",
@@ -4273,7 +4909,7 @@
       "collocations": []
     },
     "social": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "social",
       "pos": "adj · A2",
       "pron": "/ˈsoʊ.ʃəl/",
@@ -4286,7 +4922,7 @@
       "collocations": []
     },
     "somehow": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "somehow",
       "pos": "adv · B1",
       "pron": "/ˈsʌm.haʊ/",
@@ -4299,7 +4935,7 @@
       "collocations": []
     },
     "source": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "source",
       "pos": "n · A2",
       "pron": "/sɔːrs/",
@@ -4312,7 +4948,7 @@
       "collocations": []
     },
     "stopped": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "stopped",
       "pos": "v · A1",
       "pron": "/stɒpt/",
@@ -4325,7 +4961,7 @@
       "collocations": []
     },
     "surely": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "surely",
       "pos": "adv · B1",
       "pron": "/ˈʃʊə.li/",
@@ -4338,7 +4974,7 @@
       "collocations": []
     },
     "surprises": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "surprises",
       "pos": "n · A2",
       "pron": "/səˈpraɪ.zɪz/",
@@ -4351,7 +4987,7 @@
       "collocations": []
     },
     "surprising": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "surprising",
       "pos": "adj · A2",
       "pron": "/səˈpraɪ.zɪŋ/",
@@ -4364,7 +5000,7 @@
       "collocations": []
     },
     "teachers": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "teachers",
       "pos": "n · A1",
       "pron": "/ˈtiː.tʃəz/",
@@ -4377,7 +5013,7 @@
       "collocations": []
     },
     "timeline": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "timeline",
       "pos": "n · B1",
       "pron": "/ˈtaɪm.laɪn/",
@@ -4390,7 +5026,7 @@
       "collocations": []
     },
     "together": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "together",
       "pos": "adv · A1",
       "pron": "/təˈɡeð.ər/",
@@ -4403,7 +5039,7 @@
       "collocations": []
     },
     "understand": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "understand",
       "pos": "v · A2",
       "pron": "/ˌʌn.dəˈstænd/",
@@ -4416,7 +5052,7 @@
       "collocations": []
     },
     "verbal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "verbal",
       "pos": "adj · B2",
       "pron": "/ˈvɜː.bəl/",
@@ -4424,6 +5060,552 @@
       "example": {
         "en": "Verbal agreement.",
         "ja": "口頭合意。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "typically": {
+      "tier": "key",
+      "surface": "typically",
+      "pos": "adv · B2",
+      "pron": "/ˈtɪp.ɪ.kli/",
+      "meaning": "典型的に、通常は",
+      "example": {
+        "en": "Typically arrives late.",
+        "ja": "たいてい遅れて来る。"
+      },
+      "context": "typical(典型的な)の副詞",
+      "collocations": []
+    },
+    "walking": {
+      "tier": "basic",
+      "surface": "walking",
+      "pos": "v · A1",
+      "pron": "/ˈwɔː.kɪŋ/",
+      "meaning": "歩くこと",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "talking": {
+      "tier": "basic",
+      "surface": "talking",
+      "pos": "v · A1",
+      "pron": "/ˈtɔː.kɪŋ/",
+      "meaning": "話すこと",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "generally": {
+      "tier": "normal",
+      "surface": "generally",
+      "pos": "adv · B1",
+      "pron": "/ˈdʒen.ər.ə.li/",
+      "meaning": "一般に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "formally": {
+      "tier": "key",
+      "surface": "formally",
+      "pos": "adv · B2",
+      "pron": "/ˈfɔː.mə.li/",
+      "meaning": "正式に",
+      "example": {
+        "en": "Formally recognized.",
+        "ja": "正式に認められた。"
+      },
+      "context": "format ではなく formal「正式な」の副詞",
+      "collocations": []
+    },
+    "swiss": {
+      "tier": "basic",
+      "surface": "swiss",
+      "pos": "adj · proper",
+      "pron": "/swɪs/",
+      "meaning": "スイスの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "modern": {
+      "tier": "basic",
+      "surface": "modern",
+      "pos": "adj · A2",
+      "pron": "/ˈmɒd.ən/",
+      "meaning": "現代の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "process": {
+      "tier": "normal",
+      "surface": "process",
+      "pos": "n · B1",
+      "pron": "/ˈprəʊ.ses/",
+      "meaning": "過程、プロセス",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "understanding": {
+      "tier": "normal",
+      "surface": "understanding",
+      "pos": "n · B1",
+      "pron": "/ˌʌn.dəˈstæn.dɪŋ/",
+      "meaning": "理解",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "young": {
+      "tier": "basic",
+      "surface": "young",
+      "pos": "adj · A1",
+      "pron": "/jʌŋ/",
+      "meaning": "若い、幼い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nearby": {
+      "tier": "normal",
+      "surface": "nearby",
+      "pos": "adj · B1",
+      "pron": "/ˌnɪəˈbaɪ/",
+      "meaning": "近くの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "continue": {
+      "tier": "basic",
+      "surface": "continue",
+      "pos": "v · A2",
+      "pron": "/kənˈtɪn.juː/",
+      "meaning": "続く",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "period": {
+      "tier": "normal",
+      "surface": "period",
+      "pos": "n · B1",
+      "pron": "/ˈpɪə.ri.əd/",
+      "meaning": "時期、期間",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "literally": {
+      "tier": "key",
+      "surface": "literally",
+      "pos": "adv · B2",
+      "pron": "/ˈlɪt.ər.ə.li/",
+      "meaning": "文字通りに",
+      "example": {
+        "en": "Literally true.",
+        "ja": "文字通り本当だ。"
+      },
+      "context": "比喩でなく字義通りの意",
+      "collocations": []
+    },
+    "hiding": {
+      "tier": "normal",
+      "surface": "hiding",
+      "pos": "n · B1",
+      "pron": "/ˈhaɪ.dɪŋ/",
+      "meaning": "隠れること",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "object": {
+      "tier": "basic",
+      "surface": "object",
+      "pos": "n · A2",
+      "pron": "/ˈɒb.dʒekt/",
+      "meaning": "物体、対象",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "permanence": {
+      "tier": "key",
+      "surface": "permanence",
+      "pos": "n · C1",
+      "pron": "/ˈpɜː.mə.nəns/",
+      "meaning": "永続性",
+      "example": {
+        "en": "Object permanence.",
+        "ja": "対象の永続性。"
+      },
+      "context": "見えなくても存在し続けるという発達概念",
+      "collocations": []
+    },
+    "peak": {
+      "tier": "key",
+      "surface": "peak",
+      "pos": "n · B2",
+      "pron": "/piːk/",
+      "meaning": "ピーク、頂点",
+      "example": {
+        "en": "Peak performance.",
+        "ja": "最高潮の働き。"
+      },
+      "context": "peek(覗く)と同音異義語に注意",
+      "collocations": []
+    },
+    "timing": {
+      "tier": "normal",
+      "surface": "timing",
+      "pos": "n · B1",
+      "pron": "/ˈtaɪ.mɪŋ/",
+      "meaning": "タイミング、時機",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hidden": {
+      "tier": "normal",
+      "surface": "hidden",
+      "pos": "adj · B1",
+      "pron": "/ˈhɪd.ən/",
+      "meaning": "隠された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "person": {
+      "tier": "basic",
+      "surface": "person",
+      "pos": "n · A1",
+      "pron": "/ˈpɜː.sən/",
+      "meaning": "人",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "world": {
+      "tier": "basic",
+      "surface": "world",
+      "pos": "n · A1",
+      "pron": "/wɜːld/",
+      "meaning": "世界",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "study": {
+      "tier": "basic",
+      "surface": "study",
+      "pos": "n · A2",
+      "pron": "/ˈstʌd.i/",
+      "meaning": "研究",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "expected": {
+      "tier": "normal",
+      "surface": "expected",
+      "pos": "adj · B1",
+      "pron": "/ɪkˈspek.tɪd/",
+      "meaning": "予期された、期待通りの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "interest": {
+      "tier": "basic",
+      "surface": "interest",
+      "pos": "n · A2",
+      "pron": "/ˈɪn.trəst/",
+      "meaning": "関心、興味",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "develops": {
+      "tier": "basic",
+      "surface": "develops",
+      "pos": "v · A2",
+      "pron": "/dɪˈvel.əps/",
+      "meaning": "発達する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "human": {
+      "tier": "basic",
+      "surface": "human",
+      "pos": "adj · A2",
+      "pron": "/ˈhjuː.mən/",
+      "meaning": "人間の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adult": {
+      "tier": "basic",
+      "surface": "adult",
+      "pos": "n · A2",
+      "pron": "/ˈæd.ʌlt/",
+      "meaning": "大人",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "infant": {
+      "tier": "key",
+      "surface": "infant",
+      "pos": "n · B2",
+      "pron": "/ˈɪn.fənt/",
+      "meaning": "乳児",
+      "example": {
+        "en": "A sleeping infant.",
+        "ja": "眠る乳児。"
+      },
+      "context": "baby より学術的・医学的な語",
+      "collocations": []
+    },
+    "structure": {
+      "tier": "normal",
+      "surface": "structure",
+      "pos": "n · B1",
+      "pron": "/ˈstrʌk.tʃər/",
+      "meaning": "構造",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "psychologists": {
+      "tier": "key",
+      "surface": "psychologists",
+      "pos": "n · B1",
+      "pron": "/saɪˈkɒl.ə.dʒɪsts/",
+      "meaning": "心理学者",
+      "example": {
+        "en": "Child psychologists.",
+        "ja": "児童心理学者。"
+      },
+      "context": "psychology(心理学)の専門家",
+      "collocations": []
+    },
+    "describe": {
+      "tier": "basic",
+      "surface": "describe",
+      "pos": "v · A2",
+      "pron": "/dɪˈskraɪb/",
+      "meaning": "描写する、表現する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "baby": {
+      "tier": "basic",
+      "surface": "baby",
+      "pos": "n · A1",
+      "pron": "/ˈbeɪ.bi/",
+      "meaning": "赤ちゃん",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "various": {
+      "tier": "key",
+      "surface": "various",
+      "pos": "adj · B1",
+      "pron": "/ˈveə.ri.əs/",
+      "meaning": "様々な",
+      "example": {
+        "en": "Various kinds.",
+        "ja": "様々な種類。"
+      },
+      "context": "several より幅広い「多様な」",
+      "collocations": []
+    },
+    "evolves": {
+      "tier": "key",
+      "surface": "evolves",
+      "pos": "v · B2",
+      "pron": "/ɪˈvɒlvz/",
+      "meaning": "進化する、発展する",
+      "example": {
+        "en": "Peek-a-boo evolves into hide-and-seek.",
+        "ja": "いないいないばあはかくれんぼへ進化する。"
+      },
+      "context": "生物進化だけでなく「徐々に発展する」意でも使う",
+      "collocations": []
+    },
+    "lack": {
+      "tier": "key",
+      "surface": "lack",
+      "pos": "n · B2",
+      "pron": "/læk/",
+      "meaning": "欠如、不足",
+      "example": {
+        "en": "A lack of sleep.",
+        "ja": "睡眠不足。"
+      },
+      "context": "a lack of 〜 =〜の欠如",
+      "collocations": []
+    },
+    "child": {
+      "tier": "basic",
+      "surface": "child",
+      "pos": "n · A1",
+      "pron": "/tʃaɪld/",
+      "meaning": "子供",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "simply": {
+      "tier": "normal",
+      "surface": "simply",
+      "pos": "adv · B1",
+      "pron": "/ˈsɪm.pli/",
+      "meaning": "単に、ただ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "theory": {
+      "tier": "key",
+      "surface": "theory",
+      "pos": "n · B2",
+      "pron": "/ˈθɪə.ri/",
+      "meaning": "理論、学説",
+      "example": {
+        "en": "Theory of mind.",
+        "ja": "心の理論。"
+      },
+      "context": "theory of mind =他者の心を推測する力",
+      "collocations": []
+    },
+    "shared": {
+      "tier": "normal",
+      "surface": "shared",
+      "pos": "adj · B1",
+      "pron": "/ʃeəd/",
+      "meaning": "共有された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pretend": {
+      "tier": "key",
+      "surface": "pretend",
+      "pos": "v · B2",
+      "pron": "/prɪˈtend/",
+      "meaning": "ふりをする、ごっこの",
+      "example": {
+        "en": "Children pretend.",
+        "ja": "子供はごっこ遊びをする。"
+      },
+      "context": "pretend play =ごっこ遊び",
+      "collocations": []
+    },
+    "development": {
+      "tier": "normal",
+      "surface": "development",
+      "pos": "n · B1",
+      "pron": "/dɪˈvel.əp.mənt/",
+      "meaning": "発達、発育",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []

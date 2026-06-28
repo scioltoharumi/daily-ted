@@ -95,7 +95,7 @@
               "type": "word",
               "surface": "loved",
               "ref": "loved",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -107,7 +107,7 @@
               "type": "word",
               "surface": "traumatic",
               "ref": "traumatic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -164,7 +164,7 @@
               "type": "word",
               "surface": "Grief",
               "ref": "grief",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -210,7 +210,7 @@
               "type": "word",
               "surface": "emotions",
               "ref": "emotions",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t10",
@@ -222,7 +222,7 @@
               "type": "word",
               "surface": "impact",
               "ref": "impact",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "type": "skip",
@@ -321,7 +321,7 @@
               "type": "word",
               "surface": "endanger",
               "ref": "endanger",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -424,7 +424,7 @@
               "type": "word",
               "surface": "widely",
               "ref": "widely",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -436,7 +436,7 @@
               "type": "word",
               "surface": "documented",
               "ref": "documented",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -460,7 +460,7 @@
               "type": "word",
               "surface": "phenomena",
               "ref": "phenomena",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -538,7 +538,7 @@
               "type": "word",
               "surface": "elderly",
               "ref": "elderly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -610,7 +610,7 @@
               "type": "word",
               "surface": "spouse",
               "ref": "spouse",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -669,7 +669,7 @@
               "type": "word",
               "surface": "apart",
               "ref": "apart",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t25",
@@ -707,7 +707,7 @@
               "type": "word",
               "surface": "theories",
               "ref": "theories",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -757,7 +757,7 @@
               "type": "word",
               "surface": "severe",
               "ref": "severe",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -769,7 +769,7 @@
               "type": "word",
               "surface": "depression",
               "ref": "depression",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -816,7 +816,7 @@
               "type": "word",
               "surface": "inflammatory",
               "ref": "inflammatory",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -828,7 +828,7 @@
               "type": "word",
               "surface": "proteins",
               "ref": "proteins",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -852,7 +852,7 @@
               "type": "word",
               "surface": "impairing",
               "ref": "impairing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t19",
@@ -901,7 +901,7 @@
               "type": "word",
               "surface": "combined",
               "ref": "combined",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -998,7 +998,7 @@
               "type": "word",
               "surface": "chronic",
               "ref": "chronic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t4",
@@ -1010,7 +1010,7 @@
               "type": "word",
               "surface": "alter",
               "ref": "alter",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -1046,7 +1046,7 @@
               "type": "word",
               "surface": "impair",
               "ref": "impair",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t12",
@@ -1058,7 +1058,7 @@
               "type": "word",
               "surface": "digestion",
               "ref": "digestion",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t14",
@@ -1268,7 +1268,7 @@
               "type": "word",
               "surface": "labeled",
               "ref": "labeled",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "type": "skip",
@@ -1327,7 +1327,7 @@
               "type": "word",
               "surface": "octopus",
               "ref": "octopus",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t17",
@@ -1339,7 +1339,7 @@
               "type": "word",
               "surface": "trap",
               "ref": "trap",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t19",
@@ -1398,7 +1398,7 @@
               "type": "word",
               "surface": "chambers",
               "ref": "chambers",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1410,7 +1410,7 @@
               "type": "word",
               "surface": "balloons",
               "ref": "balloons",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1422,7 +1422,7 @@
               "type": "word",
               "surface": "outward",
               "ref": "outward",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1434,7 +1434,7 @@
               "type": "word",
               "surface": "distinctively",
               "ref": "distinctively",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -1524,7 +1524,7 @@
               "type": "word",
               "surface": "roughly",
               "ref": "roughly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -1560,7 +1560,7 @@
               "type": "word",
               "surface": "lethal",
               "ref": "lethal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -1736,7 +1736,7 @@
               "type": "word",
               "surface": "triggered",
               "ref": "triggered",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -1796,7 +1796,7 @@
               "type": "word",
               "surface": "nature",
               "ref": "nature",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "type": "skip",
@@ -1832,7 +1832,7 @@
               "type": "word",
               "surface": "intensity",
               "ref": "intensity",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t19",
@@ -1960,7 +1960,7 @@
               "type": "word",
               "surface": "adrenaline",
               "ref": "adrenaline",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t18",
@@ -2022,7 +2022,7 @@
               "type": "word",
               "surface": "interact",
               "ref": "interact",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2045,7 +2045,7 @@
               "type": "word",
               "surface": "concentration",
               "ref": "concentration",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2134,7 +2134,7 @@
               "type": "word",
               "surface": "contract",
               "ref": "contract",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -2146,7 +2146,7 @@
               "type": "word",
               "surface": "rapidly",
               "ref": "rapidly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -2158,7 +2158,7 @@
               "type": "word",
               "surface": "repeatedly",
               "ref": "repeatedly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -2212,7 +2212,7 @@
               "type": "word",
               "surface": "exhausts",
               "ref": "exhausts",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2279,7 +2279,7 @@
               "type": "word",
               "surface": "pump",
               "ref": "pump",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2291,7 +2291,7 @@
               "type": "word",
               "surface": "effectively",
               "ref": "effectively",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "type": "skip",
@@ -2315,7 +2315,7 @@
               "type": "word",
               "surface": "pool",
               "ref": "pool",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -2353,7 +2353,7 @@
               "type": "word",
               "surface": "hormonal",
               "ref": "hormonal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2365,7 +2365,7 @@
               "type": "word",
               "surface": "spike",
               "ref": "spike",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -2389,7 +2389,7 @@
               "type": "word",
               "surface": "spasms",
               "ref": "spasms",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2436,7 +2436,7 @@
               "type": "word",
               "surface": "nutrients",
               "ref": "nutrients",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t17",
@@ -2502,7 +2502,7 @@
               "type": "word",
               "surface": "tissue",
               "ref": "tissue",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -2526,7 +2526,7 @@
               "type": "word",
               "surface": "function",
               "ref": "function",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -2636,7 +2636,7 @@
               "type": "word",
               "surface": "undergoing",
               "ref": "undergoing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -2694,7 +2694,7 @@
               "type": "word",
               "surface": "arteries",
               "ref": "arteries",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -2706,7 +2706,7 @@
               "type": "word",
               "surface": "blocked",
               "ref": "blocked",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -2749,7 +2749,7 @@
               "type": "word",
               "surface": "similarity",
               "ref": "similarity",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2761,7 +2761,7 @@
               "type": "word",
               "surface": "symptoms",
               "ref": "symptoms",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -2797,7 +2797,7 @@
               "type": "word",
               "surface": "diagnose",
               "ref": "diagnose",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -2821,7 +2821,7 @@
               "type": "word",
               "surface": "confused",
               "ref": "confused",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "type": "skip",
@@ -2845,7 +2845,7 @@
               "type": "word",
               "surface": "cardiac",
               "ref": "cardiac",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -2959,7 +2959,7 @@
               "type": "word",
               "surface": "prescribe",
               "ref": "prescribe",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t4",
@@ -2994,7 +2994,7 @@
               "type": "word",
               "surface": "clotting",
               "ref": "clotting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t10",
@@ -3017,7 +3017,7 @@
               "type": "word",
               "surface": "contractions",
               "ref": "contractions",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t14",
@@ -3086,7 +3086,7 @@
               "type": "word",
               "surface": "medications",
               "ref": "medications",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -3155,7 +3155,7 @@
               "type": "word",
               "surface": "currently",
               "ref": "currently",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "type": "skip",
@@ -3235,7 +3235,7 @@
               "type": "word",
               "surface": "strike",
               "ref": "strike",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3336,7 +3336,7 @@
               "type": "word",
               "surface": "estrogen",
               "ref": "estrogen",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -3360,7 +3360,7 @@
               "type": "word",
               "surface": "cardiovascular",
               "ref": "cardiovascular",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -3384,7 +3384,7 @@
               "type": "word",
               "surface": "menopause",
               "ref": "menopause",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -3446,7 +3446,7 @@
               "type": "word",
               "surface": "obviously",
               "ref": "obviously",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "type": "skip",
@@ -3580,7 +3580,7 @@
               "type": "word",
               "surface": "sensitive",
               "ref": "sensitive",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3603,7 +3603,7 @@
               "type": "word",
               "surface": "resilient",
               "ref": "resilient",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -3645,7 +3645,7 @@
               "type": "word",
               "surface": "broken",
               "ref": "broken",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3657,7 +3657,7 @@
               "type": "word",
               "surface": "bone",
               "ref": "bone",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -3669,7 +3669,7 @@
               "type": "word",
               "surface": "heal",
               "ref": "heal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -3683,7 +3683,7 @@
   ],
   "words": {
     "adrenaline": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "adrenaline",
       "pos": "n · B2",
       "pron": "/əˈdren.əl.ɪn/",
@@ -3696,7 +3696,7 @@
       "collocations": []
     },
     "alter": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "alter",
       "pos": "v · B2",
       "pron": "/ˈɔːl.tər/",
@@ -3709,7 +3709,7 @@
       "collocations": []
     },
     "apart": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "apart",
       "pos": "adv · A2",
       "pron": "/əˈpɑːt/",
@@ -3722,7 +3722,7 @@
       "collocations": []
     },
     "arteries": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "arteries",
       "pos": "n · B2",
       "pron": "/ˈɑː.tə.riz/",
@@ -3735,7 +3735,7 @@
       "collocations": []
     },
     "balloons": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "balloons",
       "pos": "v · B2",
       "pron": "/bəˈluːnz/",
@@ -3748,7 +3748,7 @@
       "collocations": []
     },
     "blocked": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "blocked",
       "pos": "adj · A2",
       "pron": "/blɒkt/",
@@ -3761,7 +3761,7 @@
       "collocations": []
     },
     "bone": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "bone",
       "pos": "n · A2",
       "pron": "/boʊn/",
@@ -3774,7 +3774,7 @@
       "collocations": []
     },
     "broken": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "broken",
       "pos": "adj · A2",
       "pron": "/ˈbroʊ.kən/",
@@ -3787,7 +3787,7 @@
       "collocations": []
     },
     "cardiac": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "cardiac",
       "pos": "adj · B2",
       "pron": "/ˈkɑː.di.æk/",
@@ -3800,7 +3800,7 @@
       "collocations": []
     },
     "cardiovascular": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "cardiovascular",
       "pos": "adj · B2",
       "pron": "/ˌkɑː.di.oʊˈvæs.kjə.lər/",
@@ -3813,7 +3813,7 @@
       "collocations": []
     },
     "chambers": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "chambers",
       "pos": "n · B2",
       "pron": "/ˈtʃeɪm.bəz/",
@@ -3826,7 +3826,7 @@
       "collocations": []
     },
     "chronic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "chronic",
       "pos": "adj · B2",
       "pron": "/ˈkrɒn.ɪk/",
@@ -3839,7 +3839,7 @@
       "collocations": []
     },
     "clotting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "clotting",
       "pos": "n · B2",
       "pron": "/ˈklɒt.ɪŋ/",
@@ -3852,7 +3852,7 @@
       "collocations": []
     },
     "combined": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "combined",
       "pos": "v · B1",
       "pron": "/kəmˈbaɪnd/",
@@ -3865,7 +3865,7 @@
       "collocations": []
     },
     "concentration": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "concentration",
       "pos": "n · B1",
       "pron": "/ˌkɒn.sənˈtreɪ.ʃən/",
@@ -3878,7 +3878,7 @@
       "collocations": []
     },
     "confused": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "confused",
       "pos": "v · A2",
       "pron": "/kənˈfjuːzd/",
@@ -3891,7 +3891,7 @@
       "collocations": []
     },
     "contract": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "contract",
       "pos": "v · B2",
       "pron": "/kənˈtrækt/",
@@ -3904,7 +3904,7 @@
       "collocations": []
     },
     "contractions": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "contractions",
       "pos": "n · B2",
       "pron": "/kənˈtræk.ʃənz/",
@@ -3917,7 +3917,7 @@
       "collocations": []
     },
     "currently": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "currently",
       "pos": "adv · A2",
       "pron": "/ˈkʌr.ənt.li/",
@@ -3930,7 +3930,7 @@
       "collocations": []
     },
     "depression": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "depression",
       "pos": "n · B1",
       "pron": "/dɪˈpreʃ.ən/",
@@ -3943,7 +3943,7 @@
       "collocations": []
     },
     "diagnose": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "diagnose",
       "pos": "v · B2",
       "pron": "/ˈdaɪ.əɡ.noʊz/",
@@ -3956,7 +3956,7 @@
       "collocations": []
     },
     "digestion": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "digestion",
       "pos": "n · B2",
       "pron": "/daɪˈdʒes.tʃən/",
@@ -3969,7 +3969,7 @@
       "collocations": []
     },
     "distinctively": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "distinctively",
       "pos": "adv · B2",
       "pron": "/dɪˈstɪŋk.tɪv.li/",
@@ -3982,7 +3982,7 @@
       "collocations": []
     },
     "documented": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "documented",
       "pos": "adj · B2",
       "pron": "/ˈdɒk.jə.men.tɪd/",
@@ -4008,7 +4008,7 @@
       "collocations": []
     },
     "effectively": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "effectively",
       "pos": "adv · A2",
       "pron": "/ɪˈfek.tɪv.li/",
@@ -4021,7 +4021,7 @@
       "collocations": []
     },
     "elderly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "elderly",
       "pos": "adj · B1",
       "pron": "/ˈel.də.li/",
@@ -4034,7 +4034,7 @@
       "collocations": []
     },
     "emotions": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "emotions",
       "pos": "n · A2",
       "pron": "/ɪˈmoʊ.ʃənz/",
@@ -4047,7 +4047,7 @@
       "collocations": []
     },
     "endanger": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "endanger",
       "pos": "v · B2",
       "pron": "/ɪnˈdeɪn.dʒər/",
@@ -4073,7 +4073,7 @@
       "collocations": []
     },
     "estrogen": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "estrogen",
       "pos": "n · B2",
       "pron": "/ˈes.trə.dʒən/",
@@ -4086,7 +4086,7 @@
       "collocations": []
     },
     "exhausts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "exhausts",
       "pos": "v · B2",
       "pron": "/ɪɡˈzɔːsts/",
@@ -4099,7 +4099,7 @@
       "collocations": []
     },
     "function": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "function",
       "pos": "v · A2",
       "pron": "/ˈfʌŋk.ʃən/",
@@ -4112,7 +4112,7 @@
       "collocations": []
     },
     "grief": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "Grief",
       "pos": "n · B1",
       "pron": "/ɡriːf/",
@@ -4125,7 +4125,7 @@
       "collocations": []
     },
     "heal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "heal",
       "pos": "v · B1",
       "pron": "/hiːl/",
@@ -4138,7 +4138,7 @@
       "collocations": []
     },
     "hormonal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "hormonal",
       "pos": "adj · B2",
       "pron": "/hɔːˈmoʊ.nəl/",
@@ -4151,7 +4151,7 @@
       "collocations": []
     },
     "impact": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "impact",
       "pos": "v · A2",
       "pron": "/ɪmˈpækt/",
@@ -4164,7 +4164,7 @@
       "collocations": []
     },
     "impair": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "impair",
       "pos": "v · B2",
       "pron": "/ɪmˈpeər/",
@@ -4177,7 +4177,7 @@
       "collocations": []
     },
     "impairing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "impairing",
       "pos": "v · B2",
       "pron": "/ɪmˈpeə.rɪŋ/",
@@ -4190,7 +4190,7 @@
       "collocations": []
     },
     "inflammatory": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "inflammatory",
       "pos": "adj · B2",
       "pron": "/ɪnˈflæm.ə.tər.i/",
@@ -4203,7 +4203,7 @@
       "collocations": []
     },
     "intensity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "intensity",
       "pos": "n · B2",
       "pron": "/ɪnˈten.sə.ti/",
@@ -4216,7 +4216,7 @@
       "collocations": []
     },
     "interact": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "interact",
       "pos": "v · B1",
       "pron": "/ˌɪn.tərˈækt/",
@@ -4229,7 +4229,7 @@
       "collocations": []
     },
     "labeled": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "labeled",
       "pos": "v · A2",
       "pron": "/ˈleɪ.bld/",
@@ -4242,7 +4242,7 @@
       "collocations": []
     },
     "lethal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "lethal",
       "pos": "adj · B2",
       "pron": "/ˈliː.θəl/",
@@ -4255,7 +4255,7 @@
       "collocations": []
     },
     "loved": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "loved",
       "pos": "v · A2",
       "pron": "/lʌvd/",
@@ -4268,7 +4268,7 @@
       "collocations": []
     },
     "medications": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "medications",
       "pos": "n · B1",
       "pron": "/ˌmed.ɪˈkeɪ.ʃənz/",
@@ -4281,7 +4281,7 @@
       "collocations": []
     },
     "menopause": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "menopause",
       "pos": "n · B2",
       "pron": "/ˈmen.ə.pɔːz/",
@@ -4294,7 +4294,7 @@
       "collocations": []
     },
     "nature": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "nature",
       "pos": "n · A2",
       "pron": "/ˈneɪ.tʃər/",
@@ -4320,7 +4320,7 @@
       "collocations": []
     },
     "nutrients": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "nutrients",
       "pos": "n · B2",
       "pron": "/ˈnjuː.tri.ənts/",
@@ -4333,7 +4333,7 @@
       "collocations": []
     },
     "obviously": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "obviously",
       "pos": "adv · B1",
       "pron": "/ˈɒb.vi.əs.li/",
@@ -4346,7 +4346,7 @@
       "collocations": []
     },
     "octopus": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "octopus",
       "pos": "n · B1",
       "pron": "/ˈɒk.tə.pəs/",
@@ -4359,7 +4359,7 @@
       "collocations": []
     },
     "outward": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "outward",
       "pos": "adv · B2",
       "pron": "/ˈaʊt.wəd/",
@@ -4372,7 +4372,7 @@
       "collocations": []
     },
     "phenomena": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "phenomena",
       "pos": "n · B2",
       "pron": "/fɪˈnɒm.ɪ.nə/",
@@ -4385,7 +4385,7 @@
       "collocations": []
     },
     "pool": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "pool",
       "pos": "v · B2",
       "pron": "/puːl/",
@@ -4411,7 +4411,7 @@
       "collocations": []
     },
     "prescribe": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "prescribe",
       "pos": "v · B2",
       "pron": "/prɪˈskraɪb/",
@@ -4424,7 +4424,7 @@
       "collocations": []
     },
     "proteins": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "proteins",
       "pos": "n · B1",
       "pron": "/ˈproʊ.tiːnz/",
@@ -4437,7 +4437,7 @@
       "collocations": []
     },
     "pump": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "pump",
       "pos": "v · B1",
       "pron": "/pʌmp/",
@@ -4450,7 +4450,7 @@
       "collocations": []
     },
     "rapidly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "rapidly",
       "pos": "adv · A2",
       "pron": "/ˈræp.ɪd.li/",
@@ -4463,7 +4463,7 @@
       "collocations": []
     },
     "repeatedly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "repeatedly",
       "pos": "adv · B1",
       "pron": "/rɪˈpiː.tɪd.li/",
@@ -4476,7 +4476,7 @@
       "collocations": []
     },
     "resilient": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "resilient",
       "pos": "adj · B2",
       "pron": "/rɪˈzɪl.i.ənt/",
@@ -4489,7 +4489,7 @@
       "collocations": []
     },
     "roughly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "roughly",
       "pos": "adv · B1",
       "pron": "/ˈrʌf.li/",
@@ -4502,7 +4502,7 @@
       "collocations": []
     },
     "sensitive": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sensitive",
       "pos": "adj · B1",
       "pron": "/ˈsen.sə.tɪv/",
@@ -4515,7 +4515,7 @@
       "collocations": []
     },
     "severe": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "severe",
       "pos": "adj · B2",
       "pron": "/sɪˈvɪər/",
@@ -4528,7 +4528,7 @@
       "collocations": []
     },
     "similarity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "similarity",
       "pos": "n · B2",
       "pron": "/ˌsɪm.ɪˈlær.ə.ti/",
@@ -4541,7 +4541,7 @@
       "collocations": []
     },
     "spasms": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "spasms",
       "pos": "n · C1",
       "pron": "/ˈspæz.mz/",
@@ -4554,7 +4554,7 @@
       "collocations": []
     },
     "spike": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "spike",
       "pos": "n · B2",
       "pron": "/spaɪk/",
@@ -4567,7 +4567,7 @@
       "collocations": []
     },
     "spouse": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "spouse",
       "pos": "n · B2",
       "pron": "/spaʊs/",
@@ -4580,7 +4580,7 @@
       "collocations": []
     },
     "strike": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "strike",
       "pos": "v · B2",
       "pron": "/straɪk/",
@@ -4593,7 +4593,7 @@
       "collocations": []
     },
     "symptoms": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "symptoms",
       "pos": "n · B1",
       "pron": "/ˈsɪmp.təmz/",
@@ -4606,7 +4606,7 @@
       "collocations": []
     },
     "theories": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "theories",
       "pos": "n · B2",
       "pron": "/ˈθɪə.riz/",
@@ -4619,7 +4619,7 @@
       "collocations": []
     },
     "tissue": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tissue",
       "pos": "n · B2",
       "pron": "/ˈtɪʃ.uː/",
@@ -4632,7 +4632,7 @@
       "collocations": []
     },
     "trap": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "trap",
       "pos": "n · B1",
       "pron": "/træp/",
@@ -4645,7 +4645,7 @@
       "collocations": []
     },
     "traumatic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "traumatic",
       "pos": "adj · B2",
       "pron": "/trɔːˈmæt.ɪk/",
@@ -4658,7 +4658,7 @@
       "collocations": []
     },
     "triggered": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "triggered",
       "pos": "v · B2",
       "pron": "/ˈtrɪɡ.əd/",
@@ -4671,7 +4671,7 @@
       "collocations": []
     },
     "undergoing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "undergoing",
       "pos": "v · B2",
       "pron": "/ˌʌn.dəˈɡoʊ.ɪŋ/",
@@ -4697,7 +4697,7 @@
       "collocations": []
     },
     "widely": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "widely",
       "pos": "adv · A2",
       "pron": "/ˈwaɪd.li/",

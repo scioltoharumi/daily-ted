@@ -92,7 +92,7 @@
               "type": "word",
               "surface": "approaches",
               "ref": "approaches",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -115,7 +115,7 @@
               "type": "word",
               "surface": "motel",
               "ref": "motel",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -127,7 +127,7 @@
               "type": "word",
               "surface": "investigate",
               "ref": "investigate",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -177,55 +177,67 @@
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " windows and broken door, the motel "
+              "surface": " windows and ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "manager",
-              "ref": "manager",
-              "tier": "skip"
+              "surface": "broken",
+              "ref": "broken",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " tells him the room was "
+              "surface": " door, the motel ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "rented",
-              "ref": "rented",
-              "tier": "known"
+              "surface": "manager",
+              "ref": "manager",
+              "tier": "basic"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " to Frank Carter, who was last seen "
+              "surface": " tells him the room was "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "entering",
-              "ref": "entering",
-              "tier": "skip"
+              "surface": "rented",
+              "ref": "rented",
+              "tier": "normal"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " the motel three nights "
+              "surface": " to Frank Carter, who was last seen "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "earlier",
-              "ref": "earlier",
-              "tier": "skip"
+              "surface": "entering",
+              "ref": "entering",
+              "tier": "basic"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " the motel three nights "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "earlier",
+              "ref": "earlier",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -266,7 +278,7 @@
               "type": "word",
               "surface": "cleanest",
               "ref": "cleanest",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -278,7 +290,7 @@
               "type": "word",
               "surface": "record",
               "ref": "record",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -290,7 +302,7 @@
               "type": "word",
               "surface": "arrested",
               "ref": "arrested",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -302,7 +314,7 @@
               "type": "word",
               "surface": "violent",
               "ref": "violent",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -314,7 +326,7 @@
               "type": "word",
               "surface": "crime",
               "ref": "crime",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -326,7 +338,7 @@
               "type": "word",
               "surface": "before",
               "ref": "before",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -370,7 +382,7 @@
               "type": "word",
               "surface": "scans",
               "ref": "scans",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -393,7 +405,7 @@
               "type": "word",
               "surface": "disorderly",
               "ref": "disorderly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -405,7 +417,7 @@
               "type": "word",
               "surface": "visible",
               "ref": "visible",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -428,7 +440,7 @@
               "type": "word",
               "surface": "stains",
               "ref": "stains",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -440,7 +452,7 @@
               "type": "word",
               "surface": "partial",
               "ref": "partial",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -452,7 +464,7 @@
               "type": "word",
               "surface": "shoe",
               "ref": "shoe",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t17",
@@ -464,7 +476,7 @@
               "type": "word",
               "surface": "track",
               "ref": "track",
-              "tier": "skip"
+              "tier": "normal"
             },
             {
               "id": "t19",
@@ -508,7 +520,7 @@
               "type": "word",
               "surface": "details",
               "ref": "details",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -531,7 +543,7 @@
               "type": "word",
               "surface": "bloody",
               "ref": "bloody",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -543,7 +555,7 @@
               "type": "word",
               "surface": "struggle",
               "ref": "struggle",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -555,7 +567,7 @@
               "type": "word",
               "surface": "clues",
               "ref": "clues",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -567,7 +579,7 @@
               "type": "word",
               "surface": "happened",
               "ref": "happened",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -621,7 +633,7 @@
               "type": "word",
               "surface": "detective",
               "ref": "detective",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -633,7 +645,7 @@
               "type": "word",
               "surface": "investigation",
               "ref": "investigation",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -645,7 +657,7 @@
               "type": "word",
               "surface": "inspect",
               "ref": "inspect",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -657,7 +669,7 @@
               "type": "word",
               "surface": "photograph",
               "ref": "photograph",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -669,7 +681,7 @@
               "type": "word",
               "surface": "sketch",
               "ref": "sketch",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -681,7 +693,7 @@
               "type": "word",
               "surface": "measure",
               "ref": "measure",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -693,7 +705,7 @@
               "type": "word",
               "surface": "collect",
               "ref": "collect",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t17",
@@ -705,7 +717,7 @@
               "type": "word",
               "surface": "obvious",
               "ref": "obvious",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t19",
@@ -717,7 +729,7 @@
               "type": "word",
               "surface": "evidence",
               "ref": "evidence",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t21",
@@ -729,7 +741,7 @@
               "type": "word",
               "surface": "investigators",
               "ref": "investigators",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t23",
@@ -741,7 +753,7 @@
               "type": "word",
               "surface": "decide",
               "ref": "decide",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t25",
@@ -779,7 +791,7 @@
               "type": "word",
               "surface": "apply",
               "ref": "apply",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -837,7 +849,7 @@
               "type": "word",
               "surface": "introduced",
               "ref": "introduced",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -849,7 +861,7 @@
               "type": "word",
               "surface": "investigative",
               "ref": "investigative",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -861,7 +873,7 @@
               "type": "word",
               "surface": "tool",
               "ref": "tool",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -885,7 +897,7 @@
               "type": "word",
               "surface": "scientist",
               "ref": "scientist",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -928,140 +940,200 @@
               "type": "word",
               "surface": "decade",
               "ref": "decade",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " earlier, research found that when mixed in a "
+              "surface": " earlier, ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "research",
+              "ref": "research",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " found that when ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "mixed",
+              "ref": "mixed",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " in a ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "solution",
               "ref": "solution",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " with an "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "expression",
               "surface": "oxidizing agent",
               "ref": "oxidizing_agent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " and exposed to certain "
+              "surface": " and ",
+              "id": "t11"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "compounds",
-              "ref": "compounds",
-              "tier": "known"
+              "surface": "exposed",
+              "ref": "exposed",
+              "tier": "key",
+              "id": "t12"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": ", luminol "
+              "surface": " to ",
+              "id": "t13"
             },
             {
-              "id": "t10",
               "type": "word",
-              "surface": "molecules",
-              "ref": "molecules",
-              "tier": "known"
+              "surface": "certain",
+              "ref": "certain",
+              "tier": "normal",
+              "id": "t14"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " rapidly "
-            },
-            {
-              "id": "t12",
-              "type": "word",
-              "surface": "oxidize",
-              "ref": "oxidize",
-              "tier": "known"
-            },
-            {
-              "id": "t13",
-              "type": "skip",
-              "surface": ", become "
-            },
-            {
-              "id": "t14",
-              "type": "word",
-              "surface": "excited",
-              "ref": "excited",
-              "tier": "known"
-            },
-            {
-              "id": "t15",
-              "type": "skip",
-              "surface": ", and "
+              "surface": " ",
+              "id": "t15"
             },
             {
               "id": "t16",
               "type": "word",
-              "surface": "emit",
-              "ref": "emit",
-              "tier": "known"
+              "surface": "compounds",
+              "ref": "compounds",
+              "tier": "normal"
             },
             {
               "id": "t17",
               "type": "skip",
-              "surface": " a "
+              "surface": ", luminol "
             },
             {
               "id": "t18",
               "type": "word",
-              "surface": "faint",
-              "ref": "faint",
-              "tier": "known"
+              "surface": "molecules",
+              "ref": "molecules",
+              "tier": "normal"
             },
             {
-              "id": "t19",
+              "type": "skip",
+              "surface": " ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "rapidly",
+              "ref": "rapidly",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
+              "type": "word",
+              "surface": "oxidize",
+              "ref": "oxidize",
+              "tier": "normal"
+            },
+            {
+              "id": "t23",
+              "type": "skip",
+              "surface": ", become "
+            },
+            {
+              "id": "t24",
+              "type": "word",
+              "surface": "excited",
+              "ref": "excited",
+              "tier": "normal"
+            },
+            {
+              "id": "t25",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t26",
+              "type": "word",
+              "surface": "emit",
+              "ref": "emit",
+              "tier": "normal"
+            },
+            {
+              "id": "t27",
+              "type": "skip",
+              "surface": " a "
+            },
+            {
+              "id": "t28",
+              "type": "word",
+              "surface": "faint",
+              "ref": "faint",
+              "tier": "normal"
+            },
+            {
+              "id": "t29",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t20",
+              "id": "t30",
               "type": "expression",
               "surface": "blue-white",
               "ref": "blue_white"
             },
             {
-              "id": "t21",
+              "id": "t31",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t22",
+              "id": "t32",
               "type": "word",
               "surface": "glow",
               "ref": "glow",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t23",
+              "id": "t33",
               "type": "skip",
               "surface": " as they return to their normal "
             },
             {
-              "id": "t24",
+              "id": "t34",
               "type": "word",
               "surface": "state",
               "ref": "state",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t25",
+              "id": "t35",
               "type": "skip",
               "surface": "."
             }
@@ -1092,66 +1164,102 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "This process is called "
+              "surface": "This ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "process",
+              "ref": "process",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " is called ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "chemiluminescence",
               "ref": "chemiluminescence",
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", and Specht discovered he could "
+              "surface": ", and Specht ",
+              "id": "t5"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "discovered",
+              "ref": "discovered",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " he could ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "trigger",
               "ref": "trigger",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " it by exposing luminol to "
+              "surface": " it by ",
+              "id": "t9"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "exposing",
+              "ref": "exposing",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " luminol to ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "hemoglobin",
               "ref": "hemoglobin",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": ", a "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "word",
               "surface": "protein",
               "ref": "protein",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": " found in red "
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "expression",
               "surface": "blood cells",
               "ref": "blood_cells"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1191,7 +1299,7 @@
               "type": "word",
               "surface": "spraying",
               "ref": "spraying",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1203,7 +1311,7 @@
               "type": "word",
               "surface": "illuminate",
               "ref": "illuminate",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1215,7 +1323,7 @@
               "type": "word",
               "surface": "faintest",
               "ref": "faintest",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -1227,7 +1335,7 @@
               "type": "word",
               "surface": "traces",
               "ref": "traces",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1239,7 +1347,7 @@
               "type": "word",
               "surface": "blood",
               "ref": "blood",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -1284,7 +1392,7 @@
               "type": "word",
               "surface": "hoping",
               "ref": "hoping",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1339,7 +1447,7 @@
               "type": "word",
               "surface": "sprays",
               "ref": "sprays",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1351,7 +1459,7 @@
               "type": "word",
               "surface": "ceiling",
               "ref": "ceiling",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1394,7 +1502,7 @@
               "type": "word",
               "surface": "lasts",
               "ref": "lasts",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1417,7 +1525,7 @@
               "type": "word",
               "surface": "track",
               "ref": "track",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1461,7 +1569,7 @@
               "type": "word",
               "surface": "trail",
               "ref": "trail",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1473,7 +1581,7 @@
               "type": "word",
               "surface": "patterns",
               "ref": "patterns",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1485,7 +1593,7 @@
               "type": "word",
               "surface": "reconstruct",
               "ref": "reconstruct",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1527,7 +1635,7 @@
               "type": "word",
               "surface": "reveal",
               "ref": "reveal",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1539,7 +1647,7 @@
               "type": "word",
               "surface": "footprints",
               "ref": "footprints",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1588,7 +1696,7 @@
               "type": "word",
               "surface": "drips",
               "ref": "drips",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1611,7 +1719,7 @@
               "type": "word",
               "surface": "bleeding",
               "ref": "bleeding",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1623,7 +1731,7 @@
               "type": "word",
               "surface": "wounds",
               "ref": "wounds",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1635,7 +1743,7 @@
               "type": "word",
               "surface": "fine",
               "ref": "fine",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -1659,7 +1767,7 @@
               "type": "word",
               "surface": "suggesting",
               "ref": "suggesting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -1682,7 +1790,7 @@
               "type": "word",
               "surface": "firearms",
               "ref": "firearms",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t19",
@@ -1694,7 +1802,7 @@
               "type": "word",
               "surface": "motorized",
               "ref": "motorized",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t21",
@@ -1706,7 +1814,7 @@
               "type": "word",
               "surface": "tools",
               "ref": "tools",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t23",
@@ -1749,7 +1857,7 @@
               "type": "word",
               "surface": "absence",
               "ref": "absence",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1761,7 +1869,7 @@
               "type": "word",
               "surface": "reaction",
               "ref": "reaction",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1773,7 +1881,7 @@
               "type": "word",
               "surface": "informative",
               "ref": "informative",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1785,34 +1893,58 @@
               "type": "word",
               "surface": "indicating",
               "ref": "indicating",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " when people or objects "
+              "surface": " when people or ",
+              "id": "t9"
             },
             {
-              "id": "t10",
               "type": "word",
-              "surface": "blocked",
-              "ref": "blocked",
-              "tier": "skip"
+              "surface": "objects",
+              "ref": "objects",
+              "tier": "normal",
+              "id": "t10"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " blood from hitting a "
+              "surface": " ",
+              "id": "t11"
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "surface",
-              "ref": "surface",
-              "tier": "skip"
+              "surface": "blocked",
+              "ref": "blocked",
+              "tier": "basic"
             },
             {
-              "id": "t13",
+              "type": "skip",
+              "surface": " blood from ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "hitting",
+              "ref": "hitting",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " a ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "surface",
+              "ref": "surface",
+              "tier": "basic"
+            },
+            {
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1853,34 +1985,58 @@
               "type": "word",
               "surface": "react",
               "ref": "react",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " even if the blood is extremely "
+              "surface": " even if the blood is ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "diluted",
-              "ref": "diluted",
-              "tier": "known"
+              "surface": "extremely",
+              "ref": "extremely",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", it's almost impossible to clean a bloody crime scene well enough to "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "prevent",
-              "ref": "prevent",
-              "tier": "skip"
+              "surface": "diluted",
+              "ref": "diluted",
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "type": "skip",
+              "surface": ", it's almost ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "impossible",
+              "ref": "impossible",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " to clean a bloody crime scene well enough to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "prevent",
+              "ref": "prevent",
+              "tier": "basic"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": " chemiluminescence."
             }
@@ -1924,58 +2080,70 @@
               "type": "word",
               "surface": "skilled",
               "ref": "skilled",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " investigator can even use these "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "lingering",
-              "ref": "lingering",
-              "tier": "known"
+              "surface": "investigator",
+              "ref": "investigator",
+              "tier": "key",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " patterns to "
+              "surface": " can even use these ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "identify",
-              "ref": "identify",
-              "tier": "skip"
+              "surface": "lingering",
+              "ref": "lingering",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " "
+              "surface": " patterns to "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "attempts",
-              "ref": "attempts",
-              "tier": "skip"
+              "surface": "identify",
+              "ref": "identify",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " at blood "
+              "surface": " "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "removal",
-              "ref": "removal",
-              "tier": "known"
+              "surface": "attempts",
+              "ref": "attempts",
+              "tier": "basic"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " at blood "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "removal",
+              "ref": "removal",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2025,7 +2193,7 @@
               "type": "word",
               "surface": "spattered",
               "ref": "spattered",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2075,7 +2243,7 @@
               "type": "word",
               "surface": "impressions",
               "ref": "impressions",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2087,7 +2255,7 @@
               "type": "word",
               "surface": "glowing",
               "ref": "glowing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2099,7 +2267,7 @@
               "type": "word",
               "surface": "handprint",
               "ref": "handprint",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2202,7 +2370,7 @@
               "type": "word",
               "surface": "victim",
               "ref": "victim",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -2214,7 +2382,7 @@
               "type": "word",
               "surface": "vehicle",
               "ref": "vehicle",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -2273,7 +2441,7 @@
               "type": "word",
               "surface": "narrative",
               "ref": "narrative",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2316,33 +2484,45 @@
               "type": "word",
               "surface": "careful",
               "ref": "careful",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " since the chemical's high "
+              "surface": " since the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "chemical",
+              "ref": "chemical",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": "'s high ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "sensitivity",
               "ref": "sensitivity",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " is a "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "expression",
               "surface": "double-edged sword",
               "ref": "double_edged_sword"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -2386,57 +2566,117 @@
               "type": "word",
               "surface": "bloodstains",
               "ref": "bloodstains",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": ", with some cases showing chemoluminescence on objects thousands of years old, it can also react to "
+              "surface": ", with some cases ",
+              "id": "t4"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "showing",
+              "ref": "showing",
+              "tier": "normal",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t6"
+            },
+            {
+              "type": "word",
+              "surface": "chemoluminescence",
+              "ref": "chemoluminescence",
+              "tier": "key",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " on ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "objects",
+              "ref": "objects",
+              "tier": "normal",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t10"
+            },
+            {
+              "type": "word",
+              "surface": "thousands",
+              "ref": "thousands",
+              "tier": "normal",
+              "id": "t11"
+            },
+            {
+              "type": "skip",
+              "surface": " of years old, it can also react to ",
+              "id": "t12"
+            },
+            {
+              "id": "t13",
               "type": "expression",
               "surface": "cleaning agents",
               "ref": "cleaning_agents"
             },
             {
-              "id": "t6",
+              "id": "t14",
               "type": "skip",
               "surface": " like "
             },
             {
-              "id": "t7",
+              "id": "t15",
               "type": "word",
               "surface": "bleach",
               "ref": "bleach",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t8",
               "type": "skip",
-              "surface": " or materials "
+              "surface": " or ",
+              "id": "t16"
             },
             {
-              "id": "t9",
+              "type": "word",
+              "surface": "materials",
+              "ref": "materials",
+              "tier": "normal",
+              "id": "t17"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t18"
+            },
+            {
+              "id": "t19",
               "type": "word",
               "surface": "containing",
               "ref": "containing",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t10",
+              "id": "t20",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t11",
+              "id": "t21",
               "type": "word",
               "surface": "copper",
               "ref": "copper",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t12",
+              "id": "t22",
               "type": "skip",
               "surface": "."
             }
@@ -2514,7 +2754,7 @@
               "type": "word",
               "surface": "presence",
               "ref": "presence",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2529,19 +2769,31 @@
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " test with chemicals that only react to hemoglobin must be done to "
+              "surface": " test with ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "chemicals",
+              "ref": "chemicals",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " that only react to hemoglobin must be done to ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "prove",
               "ref": "prove",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " it."
             }
@@ -2587,7 +2839,7 @@
               "type": "word",
               "surface": "positive",
               "ref": "positive",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2599,7 +2851,7 @@
               "type": "word",
               "surface": "confirmed",
               "ref": "confirmed",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2611,7 +2863,7 @@
               "type": "word",
               "surface": "useful",
               "ref": "useful",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -2623,7 +2875,7 @@
               "type": "word",
               "surface": "identifying",
               "ref": "identifying",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -2635,22 +2887,34 @@
               "type": "word",
               "surface": "eliminating",
               "ref": "eliminating",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " potential "
+              "surface": " ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "potential",
+              "ref": "potential",
+              "tier": "key",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "suspects",
               "ref": "suspects",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2694,7 +2958,7 @@
               "type": "word",
               "surface": "submitted",
               "ref": "submitted",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2706,7 +2970,7 @@
               "type": "word",
               "surface": "sample",
               "ref": "sample",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2718,7 +2982,7 @@
               "type": "word",
               "surface": "exact",
               "ref": "exact",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -2730,7 +2994,7 @@
               "type": "word",
               "surface": "purpose",
               "ref": "purpose",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -2742,7 +3006,7 @@
               "type": "word",
               "surface": "clue",
               "ref": "clue",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -2796,7 +3060,7 @@
               "type": "word",
               "surface": "culprit",
               "ref": "culprit",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2903,7 +3167,7 @@
               "type": "word",
               "surface": "erratic",
               "ref": "erratic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2915,22 +3179,58 @@
               "type": "word",
               "surface": "driver",
               "ref": "driver",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", the trooper noticed what appeared to be bloodstains on the rear "
+              "surface": ", the trooper ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "noticed",
+              "ref": "noticed",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " what ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "appeared",
+              "ref": "appeared",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " to be bloodstains on the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "rear",
+              "ref": "rear",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "bumper",
               "ref": "bumper",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2970,7 +3270,7 @@
               "type": "word",
               "surface": "trunk",
               "ref": "trunk",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2982,7 +3282,7 @@
               "type": "word",
               "surface": "empty",
               "ref": "empty",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2994,7 +3294,7 @@
               "type": "word",
               "surface": "testing",
               "ref": "testing",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -3006,7 +3306,7 @@
               "type": "word",
               "surface": "throughout",
               "ref": "throughout",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -3049,7 +3349,7 @@
               "type": "word",
               "surface": "confirms",
               "ref": "confirms",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3061,7 +3361,7 @@
               "type": "word",
               "surface": "suspicions",
               "ref": "suspicions",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3115,7 +3415,7 @@
               "type": "word",
               "surface": "overwhelming",
               "ref": "overwhelming",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3127,7 +3427,7 @@
               "type": "word",
               "surface": "confessed",
               "ref": "confessed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -3141,7 +3441,7 @@
   ],
   "words": {
     "absence": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "absence",
       "pos": "n · B1",
       "pron": "/ˈæb.səns/",
@@ -3154,7 +3454,7 @@
       "collocations": []
     },
     "apply": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "apply",
       "pos": "v · A2",
       "pron": "/əˈplaɪ/",
@@ -3167,7 +3467,7 @@
       "collocations": []
     },
     "approaches": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "approaches",
       "pos": "v · A2",
       "pron": "/əˈproʊ.tʃɪz/",
@@ -3180,7 +3480,7 @@
       "collocations": []
     },
     "arrested": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "arrested",
       "pos": "v · B1",
       "pron": "/əˈres.tɪd/",
@@ -3193,7 +3493,7 @@
       "collocations": []
     },
     "attempts": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "attempts",
       "pos": "n · A2",
       "pron": "/əˈtempts/",
@@ -3206,7 +3506,7 @@
       "collocations": []
     },
     "before": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "before",
       "pos": "adv · A1",
       "pron": "/bɪˈfɔːr/",
@@ -3219,7 +3519,7 @@
       "collocations": []
     },
     "bleach": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bleach",
       "pos": "n · B2",
       "pron": "/bliːtʃ/",
@@ -3232,7 +3532,7 @@
       "collocations": []
     },
     "bleeding": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bleeding",
       "pos": "v · B1",
       "pron": "/ˈbliː.dɪŋ/",
@@ -3245,7 +3545,7 @@
       "collocations": []
     },
     "blocked": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "blocked",
       "pos": "v · A2",
       "pron": "/blɒkt/",
@@ -3258,7 +3558,7 @@
       "collocations": []
     },
     "blood": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "blood",
       "pos": "n · A2",
       "pron": "/blʌd/",
@@ -3271,7 +3571,7 @@
       "collocations": []
     },
     "bloodstains": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bloodstains",
       "pos": "n · C1",
       "pron": "/ˈblʌd.steɪnz/",
@@ -3284,7 +3584,7 @@
       "collocations": []
     },
     "bloody": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bloody",
       "pos": "adj · B1",
       "pron": "/ˈblʌd.i/",
@@ -3297,7 +3597,7 @@
       "collocations": []
     },
     "bumper": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bumper",
       "pos": "n · B2",
       "pron": "/ˈbʌm.pər/",
@@ -3310,7 +3610,7 @@
       "collocations": []
     },
     "careful": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "careful",
       "pos": "adj · A1",
       "pron": "/ˈkeə.fəl/",
@@ -3323,7 +3623,7 @@
       "collocations": []
     },
     "ceiling": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "ceiling",
       "pos": "n · B1",
       "pron": "/ˈsiː.lɪŋ/",
@@ -3349,7 +3649,7 @@
       "collocations": []
     },
     "cleanest": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "cleanest",
       "pos": "adj · A2",
       "pron": "/ˈkliː.nəst/",
@@ -3362,7 +3662,7 @@
       "collocations": []
     },
     "clue": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "clue",
       "pos": "n · B1",
       "pron": "/kluː/",
@@ -3375,7 +3675,7 @@
       "collocations": []
     },
     "clues": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "clues",
       "pos": "n · B1",
       "pron": "/kluːz/",
@@ -3388,7 +3688,7 @@
       "collocations": []
     },
     "collect": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "collect",
       "pos": "v · A2",
       "pron": "/kəˈlekt/",
@@ -3401,7 +3701,7 @@
       "collocations": []
     },
     "compounds": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "compounds",
       "pos": "n · B2",
       "pron": "/ˈkɒm.paʊndz/",
@@ -3414,7 +3714,7 @@
       "collocations": []
     },
     "confessed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "confessed",
       "pos": "v · B2",
       "pron": "/kənˈfest/",
@@ -3440,7 +3740,7 @@
       "collocations": []
     },
     "confirmed": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "confirmed",
       "pos": "v · A2",
       "pron": "/kənˈfɜːmd/",
@@ -3453,7 +3753,7 @@
       "collocations": []
     },
     "confirms": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "confirms",
       "pos": "v · A2",
       "pron": "/kənˈfɜːmz/",
@@ -3466,7 +3766,7 @@
       "collocations": []
     },
     "containing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "containing",
       "pos": "v · A2",
       "pron": "/kənˈteɪ.nɪŋ/",
@@ -3479,7 +3779,7 @@
       "collocations": []
     },
     "copper": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "copper",
       "pos": "n · B1",
       "pron": "/ˈkɒp.ər/",
@@ -3492,7 +3792,7 @@
       "collocations": []
     },
     "crime": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "crime",
       "pos": "n · B1",
       "pron": "/kraɪm/",
@@ -3505,7 +3805,7 @@
       "collocations": []
     },
     "culprit": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "culprit",
       "pos": "n · B2",
       "pron": "/ˈkʌl.prɪt/",
@@ -3518,7 +3818,7 @@
       "collocations": []
     },
     "decade": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "decade",
       "pos": "n · B1",
       "pron": "/ˈdek.eɪd/",
@@ -3531,7 +3831,7 @@
       "collocations": []
     },
     "decide": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "decide",
       "pos": "v · A2",
       "pron": "/dɪˈsaɪd/",
@@ -3544,7 +3844,7 @@
       "collocations": []
     },
     "details": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "details",
       "pos": "n · A2",
       "pron": "/ˈdiː.teɪlz/",
@@ -3557,7 +3857,7 @@
       "collocations": []
     },
     "detective": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "detective",
       "pos": "n · B1",
       "pron": "/dɪˈtek.tɪv/",
@@ -3570,7 +3870,7 @@
       "collocations": []
     },
     "diluted": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "diluted",
       "pos": "adj · B2",
       "pron": "/daɪˈluː.tɪd/",
@@ -3583,7 +3883,7 @@
       "collocations": []
     },
     "disorderly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "disorderly",
       "pos": "adj · B2",
       "pron": "/dɪˈsɔː.də.li/",
@@ -3596,7 +3896,7 @@
       "collocations": []
     },
     "drips": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "drips",
       "pos": "n · B2",
       "pron": "/drɪps/",
@@ -3609,7 +3909,7 @@
       "collocations": []
     },
     "driver": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "driver",
       "pos": "n · A1",
       "pron": "/ˈdraɪ.vər/",
@@ -3622,7 +3922,7 @@
       "collocations": []
     },
     "earlier": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "earlier",
       "pos": "adv · A2",
       "pron": "/ˈɜː.li.ər/",
@@ -3635,7 +3935,7 @@
       "collocations": []
     },
     "eliminating": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "eliminating",
       "pos": "v · B2",
       "pron": "/ɪˈlɪm.ɪ.neɪ.tɪŋ/",
@@ -3648,7 +3948,7 @@
       "collocations": []
     },
     "emit": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "emit",
       "pos": "v · B2",
       "pron": "/ɪˈmɪt/",
@@ -3661,7 +3961,7 @@
       "collocations": []
     },
     "empty": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "empty",
       "pos": "adj · A2",
       "pron": "/ˈemp.ti/",
@@ -3674,7 +3974,7 @@
       "collocations": []
     },
     "entering": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "entering",
       "pos": "v · A2",
       "pron": "/ˈen.tər.ɪŋ/",
@@ -3687,7 +3987,7 @@
       "collocations": []
     },
     "erratic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "erratic",
       "pos": "adj · B2",
       "pron": "/ɪˈræt.ɪk/",
@@ -3700,7 +4000,7 @@
       "collocations": []
     },
     "evidence": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "evidence",
       "pos": "n · B1",
       "pron": "/ˈev.ɪ.dəns/",
@@ -3713,7 +4013,7 @@
       "collocations": []
     },
     "exact": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "exact",
       "pos": "adj · A2",
       "pron": "/ɪɡˈzækt/",
@@ -3726,7 +4026,7 @@
       "collocations": []
     },
     "excited": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "excited",
       "pos": "adj · B2",
       "pron": "/ɪkˈsaɪ.tɪd/",
@@ -3739,7 +4039,7 @@
       "collocations": []
     },
     "faint": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "faint",
       "pos": "adj · B2",
       "pron": "/feɪnt/",
@@ -3752,7 +4052,7 @@
       "collocations": []
     },
     "faintest": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "faintest",
       "pos": "adj · A2",
       "pron": "/ˈfeɪn.təst/",
@@ -3765,7 +4065,7 @@
       "collocations": []
     },
     "fine": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "fine",
       "pos": "adj · A1",
       "pron": "/faɪn/",
@@ -3778,7 +4078,7 @@
       "collocations": []
     },
     "firearms": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "firearms",
       "pos": "n · B2",
       "pron": "/ˈfaɪər.ɑːmz/",
@@ -3791,7 +4091,7 @@
       "collocations": []
     },
     "footprints": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "footprints",
       "pos": "n · B1",
       "pron": "/ˈfʊt.prɪnts/",
@@ -3820,7 +4120,7 @@
       ]
     },
     "glow": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "glow",
       "pos": "n · B2",
       "pron": "/ɡloʊ/",
@@ -3833,7 +4133,7 @@
       "collocations": []
     },
     "glowing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "glowing",
       "pos": "adj · B2",
       "pron": "/ˈɡloʊ.ɪŋ/",
@@ -3846,7 +4146,7 @@
       "collocations": []
     },
     "handprint": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "handprint",
       "pos": "n · C1",
       "pron": "/ˈhænd.prɪnt/",
@@ -3859,7 +4159,7 @@
       "collocations": []
     },
     "happened": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "happened",
       "pos": "v · A1",
       "pron": "/ˈhæp.ənd/",
@@ -3885,7 +4185,7 @@
       "collocations": []
     },
     "hoping": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "hoping",
       "pos": "v · A2",
       "pron": "/ˈhoʊ.pɪŋ/",
@@ -3898,7 +4198,7 @@
       "collocations": []
     },
     "identify": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "identify",
       "pos": "v · A2",
       "pron": "/aɪˈden.tɪ.faɪ/",
@@ -3911,7 +4211,7 @@
       "collocations": []
     },
     "identifying": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "identifying",
       "pos": "v · A2",
       "pron": "/aɪˈden.tɪ.faɪ.ɪŋ/",
@@ -3924,7 +4224,7 @@
       "collocations": []
     },
     "illuminate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "illuminate",
       "pos": "v · B2",
       "pron": "/ɪˈluː.mɪ.neɪt/",
@@ -3937,7 +4237,7 @@
       "collocations": []
     },
     "impressions": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "impressions",
       "pos": "n · B2",
       "pron": "/ɪmˈpreʃ.ənz/",
@@ -3950,7 +4250,7 @@
       "collocations": []
     },
     "indicating": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "indicating",
       "pos": "v · B2",
       "pron": "/ˈɪn.dɪ.keɪ.tɪŋ/",
@@ -3963,7 +4263,7 @@
       "collocations": []
     },
     "informative": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "informative",
       "pos": "adj · B2",
       "pron": "/ɪnˈfɔː.mə.tɪv/",
@@ -3976,7 +4276,7 @@
       "collocations": []
     },
     "inspect": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "inspect",
       "pos": "v · B2",
       "pron": "/ɪnˈspekt/",
@@ -3989,7 +4289,7 @@
       "collocations": []
     },
     "introduced": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "introduced",
       "pos": "v · A2",
       "pron": "/ˌɪn.trəˈdjuːst/",
@@ -4002,7 +4302,7 @@
       "collocations": []
     },
     "investigate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "investigate",
       "pos": "v · B1",
       "pron": "/ɪnˈves.tɪ.ɡeɪt/",
@@ -4015,7 +4315,7 @@
       "collocations": []
     },
     "investigation": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "investigation",
       "pos": "n · A2",
       "pron": "/ɪnˌves.tɪˈɡeɪ.ʃən/",
@@ -4028,7 +4328,7 @@
       "collocations": []
     },
     "investigative": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "investigative",
       "pos": "adj · B2",
       "pron": "/ɪnˈves.tɪ.ɡeɪ.tɪv/",
@@ -4041,7 +4341,7 @@
       "collocations": []
     },
     "investigators": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "investigators",
       "pos": "n · B1",
       "pron": "/ɪnˈves.tɪ.ɡeɪ.təz/",
@@ -4054,7 +4354,7 @@
       "collocations": []
     },
     "lasts": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "lasts",
       "pos": "v · A2",
       "pron": "/lɑːsts/",
@@ -4067,7 +4367,7 @@
       "collocations": []
     },
     "lingering": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "lingering",
       "pos": "adj · B2",
       "pron": "/ˈlɪŋ.ɡər.ɪŋ/",
@@ -4095,7 +4395,7 @@
       ]
     },
     "manager": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "manager",
       "pos": "n · A2",
       "pron": "/ˈmæn.ɪ.dʒər/",
@@ -4108,7 +4408,7 @@
       "collocations": []
     },
     "measure": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "measure",
       "pos": "v · A2",
       "pron": "/ˈmeʒ.ər/",
@@ -4121,7 +4421,7 @@
       "collocations": []
     },
     "molecules": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "molecules",
       "pos": "n · B2",
       "pron": "/ˈmɒl.ɪ.kjuːlz/",
@@ -4134,7 +4434,7 @@
       "collocations": []
     },
     "motel": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "motel",
       "pos": "n · B1",
       "pron": "/moʊˈtel/",
@@ -4147,7 +4447,7 @@
       "collocations": []
     },
     "motorized": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "motorized",
       "pos": "adj · B2",
       "pron": "/ˈmoʊ.tə.raɪzd/",
@@ -4160,7 +4460,7 @@
       "collocations": []
     },
     "narrative": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "narrative",
       "pos": "n · B2",
       "pron": "/ˈnær.ə.tɪv/",
@@ -4173,7 +4473,7 @@
       "collocations": []
     },
     "obvious": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "obvious",
       "pos": "adj · A2",
       "pron": "/ˈɒb.vi.əs/",
@@ -4186,7 +4486,7 @@
       "collocations": []
     },
     "overwhelming": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "overwhelming",
       "pos": "adj · B2",
       "pron": "/ˌoʊ.vəˈwel.mɪŋ/",
@@ -4199,7 +4499,7 @@
       "collocations": []
     },
     "oxidize": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "oxidize",
       "pos": "v · C1",
       "pron": "/ˈɒk.sɪ.daɪz/",
@@ -4212,7 +4512,7 @@
       "collocations": []
     },
     "partial": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "partial",
       "pos": "adj · B2",
       "pron": "/ˈpɑː.ʃəl/",
@@ -4225,7 +4525,7 @@
       "collocations": []
     },
     "patterns": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "patterns",
       "pos": "n · A2",
       "pron": "/ˈpæt.ənz/",
@@ -4238,7 +4538,7 @@
       "collocations": []
     },
     "photograph": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "photograph",
       "pos": "v · A2",
       "pron": "/ˈfoʊ.tə.ɡrɑːf/",
@@ -4251,7 +4551,7 @@
       "collocations": []
     },
     "positive": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "positive",
       "pos": "adj · A2",
       "pron": "/ˈpɒz.ə.tɪv/",
@@ -4264,7 +4564,7 @@
       "collocations": []
     },
     "presence": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "presence",
       "pos": "n · B2",
       "pron": "/ˈprez.əns/",
@@ -4277,7 +4577,7 @@
       "collocations": []
     },
     "prevent": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "prevent",
       "pos": "v · A2",
       "pron": "/prɪˈvent/",
@@ -4290,7 +4590,7 @@
       "collocations": []
     },
     "protein": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "protein",
       "pos": "n · B1",
       "pron": "/ˈproʊ.tiːn/",
@@ -4303,7 +4603,7 @@
       "collocations": []
     },
     "prove": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "prove",
       "pos": "v · A2",
       "pron": "/pruːv/",
@@ -4316,7 +4616,7 @@
       "collocations": []
     },
     "purpose": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "purpose",
       "pos": "n · A2",
       "pron": "/ˈpɜː.pəs/",
@@ -4329,7 +4629,7 @@
       "collocations": []
     },
     "react": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "react",
       "pos": "v · B1",
       "pron": "/riˈækt/",
@@ -4342,7 +4642,7 @@
       "collocations": []
     },
     "reaction": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "reaction",
       "pos": "n · A2",
       "pron": "/riˈæk.ʃən/",
@@ -4355,7 +4655,7 @@
       "collocations": []
     },
     "reconstruct": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "reconstruct",
       "pos": "v · B2",
       "pron": "/ˌriː.kənˈstrʌkt/",
@@ -4368,7 +4668,7 @@
       "collocations": []
     },
     "record": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "record",
       "pos": "n · A2",
       "pron": "/ˈrek.ɔːd/",
@@ -4381,7 +4681,7 @@
       "collocations": []
     },
     "removal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "removal",
       "pos": "n · B2",
       "pron": "/rɪˈmuː.vəl/",
@@ -4394,7 +4694,7 @@
       "collocations": []
     },
     "rented": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rented",
       "pos": "v · B1",
       "pron": "/ˈren.tɪd/",
@@ -4407,7 +4707,7 @@
       "collocations": []
     },
     "reveal": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "reveal",
       "pos": "v · A2",
       "pron": "/rɪˈviːl/",
@@ -4420,7 +4720,7 @@
       "collocations": []
     },
     "sample": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "sample",
       "pos": "n · A2",
       "pron": "/ˈsɑːm.pl/",
@@ -4433,7 +4733,7 @@
       "collocations": []
     },
     "scans": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scans",
       "pos": "v · B2",
       "pron": "/skænz/",
@@ -4446,7 +4746,7 @@
       "collocations": []
     },
     "scientist": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "scientist",
       "pos": "n · A2",
       "pron": "/ˈsaɪ.ən.tɪst/",
@@ -4459,7 +4759,7 @@
       "collocations": []
     },
     "sensitivity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sensitivity",
       "pos": "n · B2",
       "pron": "/ˌsen.sɪˈtɪv.ə.ti/",
@@ -4485,7 +4785,7 @@
       "collocations": []
     },
     "shoe": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "shoe",
       "pos": "n · A1",
       "pron": "/ʃuː/",
@@ -4498,7 +4798,7 @@
       "collocations": []
     },
     "sketch": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sketch",
       "pos": "v · B1",
       "pron": "/sketʃ/",
@@ -4511,7 +4811,7 @@
       "collocations": []
     },
     "skilled": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "skilled",
       "pos": "adj · A2",
       "pron": "/skɪld/",
@@ -4524,7 +4824,7 @@
       "collocations": []
     },
     "solution": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "solution",
       "pos": "n · B1",
       "pron": "/səˈluː.ʃən/",
@@ -4552,7 +4852,7 @@
       ]
     },
     "spattered": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "spattered",
       "pos": "adj · C1",
       "pron": "/ˈspæt.əd/",
@@ -4565,7 +4865,7 @@
       "collocations": []
     },
     "spraying": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "spraying",
       "pos": "v · B1",
       "pron": "/ˈspreɪ.ɪŋ/",
@@ -4578,7 +4878,7 @@
       "collocations": []
     },
     "sprays": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sprays",
       "pos": "v · B1",
       "pron": "/spreɪz/",
@@ -4591,7 +4891,7 @@
       "collocations": []
     },
     "stains": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "stains",
       "pos": "n · B1",
       "pron": "/steɪnz/",
@@ -4604,7 +4904,7 @@
       "collocations": []
     },
     "state": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "state",
       "pos": "n · A2",
       "pron": "/steɪt/",
@@ -4617,7 +4917,7 @@
       "collocations": []
     },
     "struggle": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "struggle",
       "pos": "n · B1",
       "pron": "/ˈstrʌɡ.l/",
@@ -4630,7 +4930,7 @@
       "collocations": []
     },
     "submitted": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "submitted",
       "pos": "v · B1",
       "pron": "/səbˈmɪt.ɪd/",
@@ -4643,7 +4943,7 @@
       "collocations": []
     },
     "suggesting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "suggesting",
       "pos": "v · B1",
       "pron": "/səˈdʒes.tɪŋ/",
@@ -4656,7 +4956,7 @@
       "collocations": []
     },
     "surface": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "surface",
       "pos": "n · A2",
       "pron": "/ˈsɜː.fɪs/",
@@ -4669,7 +4969,7 @@
       "collocations": []
     },
     "suspects": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "suspects",
       "pos": "n · B1",
       "pron": "/ˈsʌs.pekts/",
@@ -4682,7 +4982,7 @@
       "collocations": []
     },
     "suspicions": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "suspicions",
       "pos": "n · B2",
       "pron": "/səˈspɪʃ.ənz/",
@@ -4695,7 +4995,7 @@
       "collocations": []
     },
     "testing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "testing",
       "pos": "n · A2",
       "pron": "/ˈtes.tɪŋ/",
@@ -4708,7 +5008,7 @@
       "collocations": []
     },
     "throughout": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "throughout",
       "pos": "prep · B1",
       "pron": "/θruːˈaʊt/",
@@ -4721,7 +5021,7 @@
       "collocations": []
     },
     "tool": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "tool",
       "pos": "n · A2",
       "pron": "/tuːl/",
@@ -4734,7 +5034,7 @@
       "collocations": []
     },
     "tools": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "tools",
       "pos": "n · A2",
       "pron": "/tuːlz/",
@@ -4747,7 +5047,7 @@
       "collocations": []
     },
     "traces": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "traces",
       "pos": "n · B2",
       "pron": "/ˈtreɪ.sɪz/",
@@ -4760,7 +5060,7 @@
       "collocations": []
     },
     "track": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "track",
       "pos": "n · B1",
       "pron": "/træk/",
@@ -4773,7 +5073,7 @@
       "collocations": []
     },
     "trail": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "trail",
       "pos": "n · B1",
       "pron": "/treɪl/",
@@ -4786,7 +5086,7 @@
       "collocations": []
     },
     "trigger": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "trigger",
       "pos": "v · B1",
       "pron": "/ˈtrɪɡ.ər/",
@@ -4799,7 +5099,7 @@
       "collocations": []
     },
     "trunk": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "trunk",
       "pos": "n · B1",
       "pron": "/trʌŋk/",
@@ -4812,7 +5112,7 @@
       "collocations": []
     },
     "useful": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "useful",
       "pos": "adj · A1",
       "pron": "/ˈjuːs.fəl/",
@@ -4825,7 +5125,7 @@
       "collocations": []
     },
     "vehicle": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "vehicle",
       "pos": "n · A2",
       "pron": "/ˈviː.ə.kəl/",
@@ -4838,7 +5138,7 @@
       "collocations": []
     },
     "victim": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "victim",
       "pos": "n · B1",
       "pron": "/ˈvɪk.tɪm/",
@@ -4851,7 +5151,7 @@
       "collocations": []
     },
     "violent": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "violent",
       "pos": "adj · B1",
       "pron": "/ˈvaɪə.lənt/",
@@ -4864,7 +5164,7 @@
       "collocations": []
     },
     "visible": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "visible",
       "pos": "adj · A2",
       "pron": "/ˈvɪz.ə.bl/",
@@ -4877,7 +5177,7 @@
       "collocations": []
     },
     "wounds": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "wounds",
       "pos": "n · B1",
       "pron": "/wuːndz/",
@@ -4885,6 +5185,318 @@
       "example": {
         "en": "Deep wounds.",
         "ja": "深い傷。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "broken": {
+      "tier": "normal",
+      "surface": "broken",
+      "pos": "adj · A2",
+      "pron": "/ˈbroʊ.kən/",
+      "meaning": "壊れた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "research": {
+      "tier": "normal",
+      "surface": "research",
+      "pos": "n · B1",
+      "pron": "/rɪˈsɜːtʃ/",
+      "meaning": "研究",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mixed": {
+      "tier": "normal",
+      "surface": "mixed",
+      "pos": "v · A2",
+      "pron": "/mɪkst/",
+      "meaning": "混ぜられた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exposed": {
+      "tier": "key",
+      "surface": "exposed",
+      "pos": "v · B2",
+      "pron": "/ɪkˈspoʊzd/",
+      "meaning": "曝された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "certain": {
+      "tier": "normal",
+      "surface": "certain",
+      "pos": "adj · B1",
+      "pron": "/ˈsɜː.tən/",
+      "meaning": "特定の、ある",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rapidly": {
+      "tier": "normal",
+      "surface": "rapidly",
+      "pos": "adv · B1",
+      "pron": "/ˈræp.ɪd.li/",
+      "meaning": "急速に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "process": {
+      "tier": "normal",
+      "surface": "process",
+      "pos": "n · B1",
+      "pron": "/ˈproʊ.ses/",
+      "meaning": "過程",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "discovered": {
+      "tier": "normal",
+      "surface": "discovered",
+      "pos": "v · A2",
+      "pron": "/dɪˈskʌv.əd/",
+      "meaning": "発見した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exposing": {
+      "tier": "key",
+      "surface": "exposing",
+      "pos": "v · B2",
+      "pron": "/ɪkˈspoʊ.zɪŋ/",
+      "meaning": "曝すこと",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "objects": {
+      "tier": "normal",
+      "surface": "objects",
+      "pos": "n · A2",
+      "pron": "/ˈɒb.dʒɪkts/",
+      "meaning": "物体",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hitting": {
+      "tier": "normal",
+      "surface": "hitting",
+      "pos": "v · A2",
+      "pron": "/ˈhɪt.ɪŋ/",
+      "meaning": "当たること",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "extremely": {
+      "tier": "normal",
+      "surface": "extremely",
+      "pos": "adv · B1",
+      "pron": "/ɪkˈstriːm.li/",
+      "meaning": "極めて",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impossible": {
+      "tier": "normal",
+      "surface": "impossible",
+      "pos": "adj · A2",
+      "pron": "/ɪmˈpɒs.ə.bəl/",
+      "meaning": "不可能な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "investigator": {
+      "tier": "key",
+      "surface": "investigator",
+      "pos": "n · B2",
+      "pron": "/ɪnˈves.tɪ.ɡeɪ.tər/",
+      "meaning": "捜査員",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chemical": {
+      "tier": "normal",
+      "surface": "chemical",
+      "pos": "n · B1",
+      "pron": "/ˈkem.ɪ.kəl/",
+      "meaning": "化学物質、化学の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "showing": {
+      "tier": "normal",
+      "surface": "showing",
+      "pos": "v · A2",
+      "pron": "/ˈʃoʊ.ɪŋ/",
+      "meaning": "示すこと",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chemoluminescence": {
+      "tier": "key",
+      "surface": "chemoluminescence",
+      "pos": "n · C2",
+      "pron": "/ˌkem.oʊˌluː.mɪˈnes.əns/",
+      "meaning": "化学発光(chemiluminescence の異綴り)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "thousands": {
+      "tier": "normal",
+      "surface": "thousands",
+      "pos": "n · A2",
+      "pron": "/ˈθaʊ.zəndz/",
+      "meaning": "何千もの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "materials": {
+      "tier": "normal",
+      "surface": "materials",
+      "pos": "n · B1",
+      "pron": "/məˈtɪə.ri.əlz/",
+      "meaning": "素材、材料",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "chemicals": {
+      "tier": "normal",
+      "surface": "chemicals",
+      "pos": "n · B1",
+      "pron": "/ˈkem.ɪ.kəlz/",
+      "meaning": "化学物質",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "potential": {
+      "tier": "key",
+      "surface": "potential",
+      "pos": "adj · B2",
+      "pron": "/pəˈten.ʃəl/",
+      "meaning": "潜在的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "noticed": {
+      "tier": "normal",
+      "surface": "noticed",
+      "pos": "v · A2",
+      "pron": "/ˈnoʊ.tɪst/",
+      "meaning": "気づいた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "appeared": {
+      "tier": "normal",
+      "surface": "appeared",
+      "pos": "v · A2",
+      "pron": "/əˈpɪəd/",
+      "meaning": "見えた、現れた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rear": {
+      "tier": "normal",
+      "surface": "rear",
+      "pos": "adj · B1",
+      "pron": "/rɪər/",
+      "meaning": "後部の",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []
