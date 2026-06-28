@@ -69,6 +69,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          NOW=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
           TITLE="[watchdog] Daily Agent silent for ${AGE_H}h (no main commit since ${LAST_ISO})"
           BODY=$(cat <<EOF
           Scheduled Agent からの \`main\` への daily commit が **${AGE_H} 時間** 来ていません。
@@ -78,7 +79,7 @@ jobs:
           | 最終 commit (UTC) | ${LAST_ISO} |
           | 最終 commit subject | \`${LAST_MSG}\` |
           | 過去 72h の daily commit 数 | ${DAILY_72H} |
-          | watchdog 起動 | \$(date -u '+%Y-%m-%dT%H:%M:%SZ') |
+          | watchdog 起動 | ${NOW} |
 
           ## 推奨アクション
 

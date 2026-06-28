@@ -213,7 +213,10 @@ def generate_talk(META, BACKGROUND, P, W, E, PSUM, out_path):
             for t in sd["tokens"]:
                 if t[0] == "w":
                     used_w.add(t[2])
-                elif t[0] == "e":
+                elif t[0] in ("e", "f"):
+                    # foreign("f")トークンもフロントでは expressions 辞書から
+                    # 引かれる(data-tok-type="expression")。両方を expressions
+                    # の参照として集めないと、外国語トークンのモーダルが空になる。
                     used_e.add(t[2])
     missing_w = used_w - set(W)
     missing_e = used_e - set(E)
@@ -227,7 +230,9 @@ def generate_talk(META, BACKGROUND, P, W, E, PSUM, out_path):
     talk["expressions"] = {k: _build_expr(E[k]) for k in sorted(used_e)
                            if k in E and len(E[k]) == 8}
 
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    out_dir = os.path.dirname(out_path)
+    if out_dir:
+        os.makedirs(out_dir, exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(talk, f, ensure_ascii=False, indent=2)
 

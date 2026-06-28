@@ -4331,6 +4331,18 @@
     }
   },
   "expressions": {
+    "academie_francaise": {
+      "tier": "key",
+      "surface": "L'Académie Française",
+      "pos": "n · proper (French)",
+      "pron": "/la.ka.de.mi fʁɑ̃.sɛz/",
+      "literal": "アカデミー・フランセーズ",
+      "meaning": "フランス語の規範を定める公的機関(1635年設立)",
+      "context": "フランス語の正書法・語彙を統制する権威機関。英語に同等の公的機関が無いことの対比で言及される。",
+      "collocations": [
+        "members of L'Académie Française"
+      ]
+    },
     "academy_of_letters": {
       "tier": "known",
       "surface": "Academy of Letters",

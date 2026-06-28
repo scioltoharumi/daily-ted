@@ -4460,6 +4460,16 @@
       "context": "",
       "collocations": []
     },
+    "baeno": {
+      "tier": "key",
+      "surface": "ba' 'éno",
+      "pos": "phrase · proper (Arabic)",
+      "pron": "/baʕ ˈʕeːno/",
+      "literal": "いないいないばあ",
+      "meaning": "peek-a-boo のパレスチナ・アラビア語表現",
+      "context": "パレスチナで乳児にする peek-a-boo の掛け声。文化を超えた普遍性を示す例。",
+      "collocations": []
+    },
     "call_and_response": {
       "tier": "known",
       "surface": "call and response",
@@ -4520,6 +4530,16 @@
       "context": "",
       "collocations": []
     },
+    "il_gioco": {
+      "tier": "key",
+      "surface": "il gioco del cucù",
+      "pos": "phrase · proper (Italian)",
+      "pron": "/il ˈdʒɔːko del kuˈku/",
+      "literal": "いないいないばあ(カッコウ遊び)",
+      "meaning": "peek-a-boo のイタリア語名",
+      "context": "直訳は「カッコウの遊び」。世界各地に同種の乳児向け遊びが存在することを示す例。",
+      "collocations": []
+    },
     "impulse_control": {
       "tier": "known",
       "surface": "impulse control",
@@ -4538,6 +4558,16 @@
       "literal": "〜を支持して、〜を優先して",
       "meaning": "〜を支持して、〜を優先して",
       "context": "",
+      "collocations": []
+    },
+    "inainaibaa": {
+      "tier": "key",
+      "surface": "inai-inai...ba!",
+      "pos": "phrase · proper (Japanese)",
+      "pron": "/i.naːi i.naːi baː/",
+      "literal": "いないいない…ばあ!",
+      "meaning": "peek-a-boo の日本語表現",
+      "context": "日本の「いないいないばあ」。顔を隠して「ばあ」で現す乳児遊び。",
       "collocations": []
     },
     "joint_attention": {
