@@ -15,6 +15,7 @@ Daily TED PWA リポジトリのエージェント向けエントリポイント
 - `scripts/` — Python ヘルパー
   - `fetch_ted_ed_talks.py` — ted.com GraphQL `topic(slug:"ted+ed").videos` で新着取得 (D-019)
   - `fetch_ted_transcript.py` — ted.com GraphQL `translation(language,videoId)` で公式トランスクリプト取得 (D-019)
+  - `talk_builder.py` — TalkJson 生成共通ヘルパー(Wk/Sk/Ek/generate_talk)。daily_batch.md Step 6 で必ず使用 (D-205)
 - `archive/` — 退役したスクリプト(D-019 で YouTube 直結フローを退役、その前 D-016 で旧 ted.com スクレイピングを退役)
 - `data/` — Cloud Task が生成する JSON(`index.json`, `talks/YYYY-MM-DD.json`)
 - `src/`, `public/` — Phase 2 で着手する PWA 実装ディレクトリ(現時点では未作成)
