@@ -5103,6 +5103,19 @@
       "context": "",
       "collocations": []
     },
+    "jianghu": {
+      "tier": "key",
+      "surface": "jianghu",
+      "pos": "n · proper (Chinese)",
+      "pron": "/dʒjɑːŋˈxuː/",
+      "literal": "江湖(川と湖)",
+      "meaning": "武侠世界。武芸者・侠客が生きる無法の社会を指す概念",
+      "context": "字義は「川と湖」。転じて、官の支配が及ばない武林・任侠の世界を表す武侠小説の中心概念。",
+      "collocations": [
+        "enter the jianghu",
+        "the world of jianghu"
+      ]
+    },
     "jin_dynasty": {
       "tier": "known",
       "surface": "Jin dynasty",

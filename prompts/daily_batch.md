@@ -178,33 +178,63 @@ Step 6 で文に分割する処理のみ行う)。
    - 詳細ページで背景情報とトランスクリプトの間に表示され、各項目クリックで該当段落へジャンプする UI 用。
    - 段落数と summaries 数が一致しないと PWA 側で番号ズレが起きるため厳守。
 
-### 出力ボリューム削減のため `scripts/talk_builder.py` を使うこと(D-205)
+### 生成は `scripts/talk_builder.py` を使い、**チャンク分割で書く**こと(D-205)
 
-per-talk 生成スクリプトは下記の極小テンプレで書く:
+> **2026-06-28 教訓**: 生成スクリプトを 1 回の Write で全部書こうとすると、
+> 1 talk あたり 30〜50KB になり Claude の **per-message 出力上限**を超えて失敗する
+> (Agent が 12 日連続でここで沈黙した)。talk_builder で boilerplate は減るが、
+> 本質的解決は **「単一のツール呼び出しに全データを載せない」= チャンク分割**である。
+
+#### 必須: import ブートストラップ
+
+生成スクリプトは scratchpad など repo 外に置かれ `python3 <path>` で実行される場合がある。
+その場合 `from scripts.talk_builder import ...` は ModuleNotFoundError になる
+(Python は CWD ではなくスクリプトのあるディレクトリを sys.path に置くため)。
+**必ず先頭で repo root を sys.path に追加する**:
 
 ```python
+import sys, subprocess
+sys.path.insert(0, subprocess.check_output(
+    ["git", "rev-parse", "--show-toplevel"], text=True).strip())
 from scripts.talk_builder import generate_talk, Wk, Sk, Ek
-
-META = {...}
-BACKGROUND = {...}   # details は string[]、"見出し: 本文" 形式
-P = [...]            # 段落 [{start_sec, sentences: [...]}]
-W = {                # 単語辞書 — basic/skip 語は Sk() 短縮形
-    "key_word": Wk("key", "key_word", "n · B2", "/kiː wɜːd/", "鍵となる語", "...", "..."),
-    "the": Sk("the", "その"),
-    "of": Sk("of"),
-}
-E = {                # 表現辞書
-    "in_fact": Ek("normal", "in fact", "phrase · B1", "/ɪn fækt/", "実際", "事実として"),
-}
-PSUM = [...]         # 段落要約(D-204)、P と同じ順序
-
-generate_talk(META, BACKGROUND, P, W, E, PSUM, "data/talks/YYYY-MM-DD.json")
 ```
 
-talk_builder が自動で行うこと: token id 付与、structure オブジェクト化、未参照
-entry 除去、PSUM の段落 id 紐付け、E entry の空欄補完、出力 JSON の indent 化、stats 表示。
-**Wk/Sk/Ek を使うことで per-entry 出力サイズが ~60% 削減される。** これにより
-Claude セッションの per-message 出力上限到達を回避する(2026-06-28 lessons 参照)。
+#### 必須: チャンク分割の手順(各ツール呼び出しを小さく保つ)
+
+talk が 5 段落 / 60 語を超える規模なら、以下のように **複数ステップに分けて** 構築する。
+各ステップは独立した Write/Edit 呼び出しとし、1 回の出力を小さく(目安 ≤ 8KB / ~25 entry)保つ:
+
+1. **Write**: スケルトン(import ブートストラップ + META + BACKGROUND + 空コンテナ + 末尾呼び出し)
+   ```python
+   # ...bootstrap import...
+   META = {...}
+   BACKGROUND = {...}            # details は string[]、"見出し: 本文" 形式
+   P = []
+   W = {}
+   E = {}
+   PSUM = []
+   generate_talk(META, BACKGROUND, P, W, E, PSUM, "data/talks/YYYY-MM-DD.json")
+   ```
+2. **Edit**(段落ごと、または2〜3段落ずつ): `P = []` 行の直後に `P.append({...})` を追記
+3. **Edit**(語彙を ~25 語ずつ複数回): `W.update({ "w1": Wk(...), ... })` を追記
+   - key/normal/frequent 語は `Wk(tier, surface, pos, pron, meaning, ex_en, ex_ja, ctx, coll)` 完全形
+   - basic/skip 語は `Sk(surface, meaning)` 短縮形(`"the": Sk("the","その")`)
+4. **Edit**: 表現を `E.update({ "in_fact": Ek("normal","in fact","phrase · B1","/ɪn fækt/","実際","事実として"), ... })`
+5. **Edit**: `PSUM = [...]`(段落要約、P と同じ順序・同数)
+6. **Bash**: `python3 <script>` 実行 → stats を確認
+
+各 Edit の後にツール結果(成功)を確認してから次へ進むこと。これにより
+**どの 1 呼び出しも出力上限に近づかない**。これが出力制限回避の本質的対策である。
+
+#### talk_builder が自動でやること
+
+token id 付与 / structure のオブジェクト化 / **未参照 entry の除去** /
+**foreign(`f`)・expression(`e`)両方の ref を expressions に集約** /
+PSUM の段落 id 紐付け / E entry の空欄補完 / 出力 JSON の indent 化 / stats 表示。
+
+> 補足: token は `("w",surface,ref,tier)` / `("e",surface,ref)` / `("f",surface,ref)` /
+> `("s",surface)`。foreign(`f`)の ref は **expressions 辞書(E)に定義**する
+> (フロントは foreign を expressions から引くため。E に無いとモーダルが空になる)。
 
 ## Step 7: メタ情報
 

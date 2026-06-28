@@ -9697,6 +9697,16 @@
       "context": "ナレーションで時系列を繋ぐ表現。",
       "collocations": []
     },
+    "basilica_di_san_marco": {
+      "tier": "key",
+      "surface": "Basilica di San Marco",
+      "pos": "n · proper (Italian)",
+      "pron": "/baˈziːlika di san ˈmarko/",
+      "literal": "サン・マルコ大聖堂",
+      "meaning": "ヴェネツィアを代表するビザンチン様式の大聖堂",
+      "context": "ヴェネツィアの象徴的建造物。海面上昇による浸水被害の文脈で言及される。",
+      "collocations": []
+    },
     "both_and": {
       "tier": "known",
       "surface": "both … and",
