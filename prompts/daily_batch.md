@@ -146,10 +146,18 @@ Step 6 で文に分割する処理のみ行う)。
 
 2. **全単語に tier 分類を付与**(`prompts/word_classification.md` の基準):
    - basic / normal / key / frequent
+   - **`skip` トークンは空白・句読点のみ**(D-206)。**内容語を skip に埋めてはならない**。
+     `data_schema.md` の正典例の通り、`In` / `Italy` / `it's` / `called` 等すべての語は
+     `word` トークン(F-19「全単語タップ可」)。冠詞・前置詞・代名詞も `basic` tier の
+     **word** であって skip ではない。skip にしてよいのは ` `(空白)`,`(カンマ)`.`(終止符)
+     `—` 等の **記号だけ**。
    - **key / frequent / normal tier**: meaning / pos / pronunciation / example(en+ja) / context / collocations を完全生成
-   - **basic / skip tier**(it, the, of 等の機能語): 短縮形 `Sk(surface, meaning)` で OK。
-     例:`"the": Sk("the", "その/それ")`。pos / pron / example / context / collocations は省略可。
-     これは出力トークン削減のための D-205 緩和規則(後述 Step 9.5 参照)。
+   - **basic tier**(it, the, of 等の機能語・固有名詞): 短縮形 `Sk(surface, meaning)` で OK
+     (`Sk` は tier=basic の word を生成する。pos/pron/example/context/collocations は省略可)。
+     例:`"the": Sk("the", "その/それ")`。**ただし内容語(名詞・動詞・形容詞・副詞)は
+     basic にせず必ず meaning を持つ word にすること**。難語に訳が無い状態は不可。
+
+   > 2026-06-28 教訓: 内容語を skip に埋めた結果、難語に訳が無いと苦情。skip は記号専用。
 
 3. **全表現(イディオム・複合名詞)を識別**(2-tier 分類):
    - normal / frequent
@@ -157,7 +165,7 @@ Step 6 で文に分割する処理のみ行う)。
 4. **全文に**:
    - 日本語訳(translation_ja)
    - 構文解析(structure: S/V/O/C ラベル + 解説)
-   - tokens 配列(word/expression/foreign/skip)
+   - tokens 配列(word/expression/foreign/skip)。**skip は記号のみ**(上記参照)
 
 5. **背景情報(Talk レベル)**:
    - summary(日本語、約150字)
@@ -218,7 +226,8 @@ talk が 5 段落 / 60 語を超える規模なら、以下のように **複数
 2. **Edit**(段落ごと、または2〜3段落ずつ): `P = []` 行の直後に `P.append({...})` を追記
 3. **Edit**(語彙を ~25 語ずつ複数回): `W.update({ "w1": Wk(...), ... })` を追記
    - key/normal/frequent 語は `Wk(tier, surface, pos, pron, meaning, ex_en, ex_ja, ctx, coll)` 完全形
-   - basic/skip 語は `Sk(surface, meaning)` 短縮形(`"the": Sk("the","その")`)
+   - basic tier の機能語・固有名詞のみ `Sk(surface, meaning)` 短縮形(`"the": Sk("the","その")`)
+   - **内容語(名詞/動詞/形容詞/副詞)は basic にせず meaning 付き word にする**(skip 禁止)
 4. **Edit**: 表現を `E.update({ "in_fact": Ek("normal","in fact","phrase · B1","/ɪn fækt/","実際","事実として"), ... })`
 5. **Edit**: `PSUM = [...]`(段落要約、P と同じ順序・同数)
 6. **Bash**: `python3 <script>` 実行 → stats を確認
