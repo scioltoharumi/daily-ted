@@ -359,81 +359,141 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "During the early 1800s, brothers Jacob and Wilhelm Grimm "
+              "surface": "During the early 1800s, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "Jacob",
+              "ref": "jacob",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "Wilhelm",
+              "ref": "wilhelm",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "Grimm",
+              "ref": "grimm",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "gathered",
               "ref": "gathered",
               "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t11",
               "type": "skip",
               "surface": " these "
             },
             {
-              "id": "t4",
+              "id": "t12",
               "type": "word",
               "surface": "unflinchingly",
               "ref": "unflinchingly",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t14",
               "type": "word",
               "surface": "gory",
               "ref": "gory",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t16",
               "type": "word",
               "surface": "details",
               "ref": "details",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t17",
               "type": "skip",
               "surface": " from "
             },
             {
-              "id": "t10",
+              "id": "t18",
               "type": "word",
               "surface": "stories",
               "ref": "stories",
               "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t20",
               "type": "word",
               "surface": "circulating",
               "ref": "circulating",
               "tier": "normal"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " around what's now Germany."
+              "surface": " around what's now ",
+              "id": "t21"
+            },
+            {
+              "type": "word",
+              "surface": "Germany",
+              "ref": "germany",
+              "tier": "basic",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t23"
             }
           ]
         },
@@ -683,43 +743,55 @@
               "ref": "nation_state"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " of Germany, but were instead "
+              "surface": " of ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "Germany",
+              "ref": "germany",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ", but were instead ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "divided",
               "ref": "divided",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " into small, "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "independent",
               "ref": "independent",
               "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "princedoms",
               "ref": "princedoms",
               "tier": "key"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -749,28 +821,28 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And French "
+              "surface": "And ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "forces",
-              "ref": "forces",
-              "tier": "normal"
+              "surface": "French",
+              "ref": "french",
+              "tier": "basic",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "exerted",
-              "ref": "exerted",
-              "tier": "key"
+              "surface": "forces",
+              "ref": "forces",
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -780,9 +852,9 @@
             {
               "id": "t6",
               "type": "word",
-              "surface": "significant",
-              "ref": "significant",
-              "tier": "basic"
+              "surface": "exerted",
+              "ref": "exerted",
+              "tier": "key"
             },
             {
               "id": "t7",
@@ -792,47 +864,83 @@
             {
               "id": "t8",
               "type": "word",
-              "surface": "control",
-              "ref": "control",
+              "surface": "significant",
+              "ref": "significant",
               "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " over the region "
+              "surface": " "
             },
             {
               "id": "t10",
+              "type": "word",
+              "surface": "control",
+              "ref": "control",
+              "tier": "basic"
+            },
+            {
+              "type": "skip",
+              "surface": " over the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "region",
+              "ref": "region",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "expression",
               "surface": "as a result of",
               "ref": "as_result_of"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " Napoleon's "
+              "surface": " ",
+              "id": "t15"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "Napoleon",
+              "ref": "napoleon",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "expansionist",
               "ref": "expansionist",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "word",
               "surface": "aims",
               "ref": "aims",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "skip",
               "surface": "."
             }
@@ -863,76 +971,76 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Meanwhile, European "
+              "surface": "Meanwhile, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "European",
+              "ref": "european",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "Romanticism",
               "ref": "romanticism",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " was beginning to "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "flourish",
               "ref": "flourish",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "accompanied",
               "ref": "accompanied",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " by "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "movements",
               "ref": "movements",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "preserve",
               "ref": "preserve",
               "tier": "normal"
-            },
-            {
-              "id": "t11",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t12",
-              "type": "word",
-              "surface": "national",
-              "ref": "national",
-              "tier": "basic"
             },
             {
               "id": "t13",
@@ -942,24 +1050,36 @@
             {
               "id": "t14",
               "type": "word",
-              "surface": "languages",
-              "ref": "languages",
+              "surface": "national",
+              "ref": "national",
               "tier": "basic"
             },
             {
               "id": "t15",
               "type": "skip",
-              "surface": " and "
+              "surface": " "
             },
             {
               "id": "t16",
+              "type": "word",
+              "surface": "languages",
+              "ref": "languages",
+              "tier": "basic"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "traditions",
               "ref": "traditions",
               "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1012,102 +1132,126 @@
               "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", the Brothers Grimm "
+              "surface": ", the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "Brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "Grimm",
+              "ref": "grimm",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "enrolled",
               "ref": "enrolled",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " to study "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "law",
               "ref": "law",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " at "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "university",
               "ref": "university",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": ", and soon became "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "interested",
               "ref": "interested",
               "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " in how local "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "rules",
               "ref": "rules",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "customs",
               "ref": "customs",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": " were "
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "word",
               "surface": "embedded",
               "ref": "embedded",
               "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t21",
               "type": "skip",
               "surface": " in "
             },
             {
-              "id": "t18",
+              "id": "t22",
               "type": "expression",
               "surface": "folk stories",
               "ref": "folk_stories"
             },
             {
-              "id": "t19",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -1212,79 +1356,91 @@
               "ref": "all_manner_of"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " German "
+              "surface": " ",
+              "id": "t13"
             },
             {
-              "id": "t14",
+              "type": "word",
+              "surface": "German",
+              "ref": "german",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "folklore",
               "ref": "folklore",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "striving",
               "ref": "striving",
               "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": ", they said, \"to "
             },
             {
-              "id": "t18",
+              "id": "t20",
               "type": "word",
               "surface": "penetrate",
               "ref": "penetrate",
               "tier": "normal"
             },
             {
-              "id": "t19",
+              "id": "t21",
               "type": "skip",
               "surface": " into the "
             },
             {
-              "id": "t20",
+              "id": "t22",
               "type": "word",
               "surface": "wild",
               "ref": "wild",
               "tier": "basic"
             },
             {
-              "id": "t21",
+              "id": "t23",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t22",
+              "id": "t24",
               "type": "word",
               "surface": "forests",
               "ref": "forests",
               "tier": "basic"
             },
             {
-              "id": "t23",
+              "id": "t25",
               "type": "skip",
               "surface": " of [their] "
             },
             {
-              "id": "t24",
+              "id": "t26",
               "type": "word",
               "surface": "ancestors",
               "ref": "ancestors",
               "tier": "normal"
             },
             {
-              "id": "t25",
+              "id": "t27",
               "type": "skip",
               "surface": "\"."
             }
@@ -1358,31 +1514,43 @@
               "tier": "basic"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " of German "
+              "surface": " of ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "German",
+              "ref": "german",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "cultural",
               "ref": "cultural",
               "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "identity",
               "ref": "identity",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -1572,40 +1740,40 @@
               "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", much of what they collected came from middle and upper class "
+              "surface": ", much of what they ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "collected",
+              "ref": "collected",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " came from middle and upper class ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "sources",
               "ref": "sources",
               "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", and some stories had "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "traceably",
               "ref": "traceably",
               "tier": "key"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "transnational",
-              "ref": "transnational",
-              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1615,12 +1783,24 @@
             {
               "id": "t10",
               "type": "word",
+              "surface": "transnational",
+              "ref": "transnational",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
               "surface": "origins",
               "ref": "origins",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1750,66 +1930,102 @@
               "ref": "fairy_tales"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": ", from books and "
+              "surface": ", from ",
+              "id": "t17"
             },
             {
-              "id": "t18",
+              "type": "word",
+              "surface": "books",
+              "ref": "books",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t19"
+            },
+            {
+              "id": "t20",
               "type": "word",
               "surface": "educated",
               "ref": "educated",
               "tier": "normal"
             },
             {
-              "id": "t19",
               "type": "skip",
-              "surface": " young women, "
+              "surface": " young ",
+              "id": "t21"
             },
             {
-              "id": "t20",
+              "type": "word",
+              "surface": "women",
+              "ref": "women",
+              "tier": "basic",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t23"
+            },
+            {
+              "id": "t24",
               "type": "expression",
               "surface": "as well as",
               "ref": "as_well_as"
             },
             {
-              "id": "t21",
+              "id": "t25",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t22",
+              "id": "t26",
               "type": "word",
               "surface": "painter",
               "ref": "painter",
               "tier": "normal"
             },
             {
-              "id": "t23",
+              "id": "t27",
               "type": "skip",
               "surface": " and a former "
             },
             {
-              "id": "t24",
+              "id": "t28",
               "type": "word",
               "surface": "soldier",
               "ref": "soldier",
               "tier": "basic"
             },
             {
-              "id": "t25",
               "type": "skip",
-              "surface": ", though they probably collected the most from the wife of a "
+              "surface": ", though they probably ",
+              "id": "t29"
             },
             {
-              "id": "t26",
+              "type": "word",
+              "surface": "collected",
+              "ref": "collected",
+              "tier": "normal",
+              "id": "t30"
+            },
+            {
+              "type": "skip",
+              "surface": " the most from the wife of a ",
+              "id": "t31"
+            },
+            {
+              "id": "t32",
               "type": "word",
               "surface": "tailor",
               "ref": "tailor",
               "tier": "normal"
             },
             {
-              "id": "t27",
+              "id": "t33",
               "type": "skip",
               "surface": "."
             }
@@ -1917,113 +2133,125 @@
               "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " her husband his own "
+              "surface": " her ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "husband",
+              "ref": "husband",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " his own ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "son",
               "ref": "son",
               "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " for "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "dinner",
               "ref": "dinner",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": ", to the man who "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "murders",
               "ref": "murders",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " his brother "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "expression",
               "surface": "in order to",
               "ref": "in_order_to"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " marry a "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "princess",
               "ref": "princess",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " and then gets "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "drowned",
               "ref": "drowned",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " in a "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "sack",
               "ref": "sack",
               "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": ", these stories were "
             },
             {
-              "id": "t18",
+              "id": "t20",
               "type": "expression",
               "surface": "far from",
               "ref": "far_from"
             },
             {
-              "id": "t19",
+              "id": "t21",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t20",
+              "id": "t22",
               "type": "word",
               "surface": "cozy",
               "ref": "cozy",
               "tier": "normal"
             },
             {
-              "id": "t21",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -2099,91 +2327,139 @@
               "ref": "deal_with"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " difficult "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "difficult",
+              "ref": "difficult",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "realities",
               "ref": "realities",
               "tier": "basic"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": ", like parents "
+              "surface": ", like ",
+              "id": "t11"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "parents",
+              "ref": "parents",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "abandoning",
               "ref": "abandoning",
               "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " their children in the woods due to "
+              "surface": " their ",
+              "id": "t15"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "children",
+              "ref": "children",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " in the ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "woods",
+              "ref": "woods",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " due to ",
+              "id": "t19"
+            },
+            {
+              "id": "t20",
               "type": "word",
               "surface": "poverty",
               "ref": "poverty",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t21",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t14",
+              "id": "t22",
               "type": "word",
               "surface": "weary",
               "ref": "weary",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t23",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t24",
               "type": "word",
               "surface": "soldiers",
               "ref": "soldiers",
               "tier": "basic"
             },
             {
-              "id": "t17",
+              "id": "t25",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t18",
+              "id": "t26",
               "type": "word",
               "surface": "deserting",
               "ref": "deserting",
               "tier": "key"
             },
             {
-              "id": "t19",
+              "id": "t27",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t20",
+              "id": "t28",
               "type": "word",
               "surface": "army",
               "ref": "army",
               "tier": "basic"
             },
             {
-              "id": "t21",
+              "id": "t29",
               "type": "skip",
               "surface": "."
             }
@@ -2322,54 +2598,66 @@
               "tier": "basic"
             },
             {
-              "id": "t19",
               "type": "skip",
-              "surface": " to marry against a wall, "
+              "surface": " to marry against a ",
+              "id": "t19"
             },
             {
-              "id": "t20",
+              "type": "word",
+              "surface": "wall",
+              "ref": "wall",
+              "tier": "basic",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "expression",
               "surface": "only to",
               "ref": "only_to"
             },
             {
-              "id": "t21",
+              "id": "t23",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t22",
+              "id": "t24",
               "type": "word",
               "surface": "reveal",
               "ref": "reveal",
               "tier": "basic"
             },
             {
-              "id": "t23",
+              "id": "t25",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t24",
+              "id": "t26",
               "type": "word",
               "surface": "dashing",
               "ref": "dashing",
               "tier": "normal"
             },
             {
-              "id": "t25",
+              "id": "t27",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t26",
+              "id": "t28",
               "type": "word",
               "surface": "prince",
               "ref": "prince",
               "tier": "normal"
             },
             {
-              "id": "t27",
+              "id": "t29",
               "type": "skip",
               "surface": "."
             }
@@ -2413,68 +2701,104 @@
               "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " the Brothers Grimm published "
+              "surface": " the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "Brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "Grimm",
+              "ref": "grimm",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " published ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "tended to",
               "ref": "tended_to"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "reflect",
               "ref": "reflect",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "horror",
               "ref": "horror",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "strangeness",
               "ref": "strangeness",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " of the tales they "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "originally",
               "ref": "originally",
               "tier": "normal"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " collected."
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "collected",
+              "ref": "collected",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t19"
             }
           ]
         },
@@ -2558,56 +2882,80 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "However, an English "
+              "surface": "However, an ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "English",
+              "ref": "english",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "version",
               "ref": "version",
               "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " that was "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "shorter",
               "ref": "shorter",
               "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", heavily "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "illustrated",
               "ref": "illustrated",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "geared towards",
               "ref": "geared_towards"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " children, did."
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "children",
+              "ref": "children",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ", did.",
+              "id": "t13"
             }
           ]
         },
@@ -2672,31 +3020,43 @@
               "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", the brothers began to "
+              "surface": ", the ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " began to ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "edit",
               "ref": "edit",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " more "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "actively",
               "ref": "actively",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2737,114 +3097,150 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "In 1825, the Brothers Grimm published a \""
+              "surface": "In 1825, the ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "Brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "Grimm",
+              "ref": "grimm",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " published a \"",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "Small Edition",
               "ref": "small_edition"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": "\" that "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "incorporated",
               "ref": "incorporated",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "illustrations",
               "ref": "illustrations",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " and was "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "intended",
               "ref": "intended",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "appeal",
               "ref": "appeal",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " to newer, Romantic "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "ideals",
               "ref": "ideals",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " of "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "childhood",
               "ref": "childhood",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": " and more "
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "word",
               "surface": "conservative",
               "ref": "conservative",
               "tier": "normal"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": ", middle and upper class Christian "
+              "surface": ", middle and upper class ",
+              "id": "t21"
             },
             {
-              "id": "t18",
+              "type": "word",
+              "surface": "Christian",
+              "ref": "christian",
+              "tier": "normal",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t23"
+            },
+            {
+              "id": "t24",
               "type": "word",
               "surface": "sensibilities",
               "ref": "sensibilities",
               "tier": "key"
             },
             {
-              "id": "t19",
+              "id": "t25",
               "type": "skip",
               "surface": "."
             }
@@ -2960,137 +3356,221 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Meanwhile, the original "
+              "surface": "Meanwhile, the ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "original",
+              "ref": "original",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "negligent",
               "ref": "negligent",
               "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "biological mothers",
               "ref": "biological_mothers"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " of \"Snow White\" and \"Hansel and Gretel\" "
+              "surface": " of \"Snow White\" and \"",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "Hansel",
+              "ref": "hansel",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "Gretel",
+              "ref": "gretel",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": "\" ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "transformed",
               "ref": "transformed",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " into "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "word",
               "surface": "wicked",
               "ref": "wicked",
               "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " stepmothers in later "
+              "surface": " ",
+              "id": "t15"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "stepmothers",
+              "ref": "stepmothers",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " in later ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "editions",
               "ref": "editions",
               "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t19",
               "type": "skip",
               "surface": ", helping "
             },
             {
-              "id": "t12",
+              "id": "t20",
               "type": "word",
               "surface": "reinforce",
               "ref": "reinforce",
               "tier": "normal"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " traditional "
+              "surface": " ",
+              "id": "t21"
             },
             {
-              "id": "t14",
+              "type": "word",
+              "surface": "traditional",
+              "ref": "traditional",
+              "tier": "normal",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t23"
+            },
+            {
+              "id": "t24",
               "type": "expression",
               "surface": "gender roles",
               "ref": "gender_roles"
             },
             {
-              "id": "t15",
+              "id": "t25",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t26",
               "type": "word",
               "surface": "framing",
               "ref": "framing",
               "tier": "normal"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": " biological mothers as "
+              "surface": " ",
+              "id": "t27"
             },
             {
-              "id": "t18",
+              "type": "word",
+              "surface": "biological",
+              "ref": "biological",
+              "tier": "normal",
+              "id": "t28"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t29"
+            },
+            {
+              "type": "word",
+              "surface": "mothers",
+              "ref": "mothers",
+              "tier": "basic",
+              "id": "t30"
+            },
+            {
+              "type": "skip",
+              "surface": " as ",
+              "id": "t31"
+            },
+            {
+              "id": "t32",
               "type": "word",
               "surface": "virtuous",
               "ref": "virtuous",
               "tier": "normal"
             },
             {
-              "id": "t19",
+              "id": "t33",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t20",
+              "id": "t34",
               "type": "word",
               "surface": "feminine",
               "ref": "feminine",
               "tier": "normal"
             },
             {
-              "id": "t21",
+              "id": "t35",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t22",
+              "id": "t36",
               "type": "word",
               "surface": "nurturing",
               "ref": "nurturing",
               "tier": "normal"
             },
             {
-              "id": "t23",
+              "id": "t37",
               "type": "skip",
               "surface": "."
             }
@@ -3270,55 +3750,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The brothers also "
+              "surface": "The ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " also ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "accentuated",
               "ref": "accentuated",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " some "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "retributive",
               "ref": "retributive",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "violence",
               "ref": "violence",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": ", making for more "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "cautionary",
               "ref": "cautionary",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " tales."
             }
@@ -3349,79 +3841,103 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "For example, the Grimms' earliest version of "
+              "surface": "For example, the Grimms' ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "earliest",
+              "ref": "earliest",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " version of ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "Cinderella",
               "ref": "cinderella",
               "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " ends after she is "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "whisked",
               "ref": "whisked",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " away in her prince's "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "carriage",
               "ref": "carriage",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": ", while their last version "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "concludes",
               "ref": "concludes",
               "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " with birds "
+              "surface": " with ",
+              "id": "t11"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "birds",
+              "ref": "birds",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "pecking",
               "ref": "pecking",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " out her "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "stepsisters",
               "ref": "stepsisters",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": "' eyes."
             }
@@ -3474,91 +3990,139 @@
               "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", the brothers published seven "
+              "surface": ", the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "brothers",
+              "ref": "brothers",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " published seven ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "editions",
               "ref": "editions",
               "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " of the tales, which became "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "increasingly",
               "ref": "increasingly",
               "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " popular as they "
+              "surface": " ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "popular",
+              "ref": "popular",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " as they ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "deleted",
               "ref": "deleted",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " and added stories while "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "intensively",
               "ref": "intensively",
               "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " editing them to fit more "
+              "surface": " ",
+              "id": "t15"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "editing",
+              "ref": "editing",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " them to fit more ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "puritanical",
               "ref": "puritanical",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "skip",
               "surface": " tastes and "
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "word",
               "surface": "amplifying",
               "ref": "amplifying",
               "tier": "key"
             },
             {
-              "id": "t15",
               "type": "skip",
-              "surface": " narrative and "
+              "surface": " ",
+              "id": "t21"
             },
             {
-              "id": "t16",
+              "type": "word",
+              "surface": "narrative",
+              "ref": "narrative",
+              "tier": "key",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t23"
+            },
+            {
+              "id": "t24",
               "type": "word",
               "surface": "descriptive",
               "ref": "descriptive",
               "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t25",
               "type": "skip",
               "surface": " details."
             }
@@ -3685,55 +4249,91 @@
               "tier": "key"
             },
             {
-              "id": "t8",
               "type": "skip",
-              "surface": ", but a prince's kiss, and "
+              "surface": ", but a prince's ",
+              "id": "t8"
             },
             {
-              "id": "t9",
+              "type": "word",
+              "surface": "kiss",
+              "ref": "kiss",
+              "tier": "basic",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": ", and ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "henceforth",
               "ref": "henceforth",
               "tier": "key"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": " her "
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "word",
               "surface": "witchy",
               "ref": "witchy",
               "tier": "key"
             },
             {
-              "id": "t12",
               "type": "skip",
-              "surface": " stepmother wouldn't dance herself to death in iron shoes on a "
+              "surface": " stepmother wouldn't dance herself to death in ",
+              "id": "t14"
             },
             {
-              "id": "t13",
+              "type": "word",
+              "surface": "iron",
+              "ref": "iron",
+              "tier": "basic",
+              "id": "t15"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t16"
+            },
+            {
+              "type": "word",
+              "surface": "shoes",
+              "ref": "shoes",
+              "tier": "basic",
+              "id": "t17"
+            },
+            {
+              "type": "skip",
+              "surface": " on a ",
+              "id": "t18"
+            },
+            {
+              "id": "t19",
               "type": "word",
               "surface": "scorching",
               "ref": "scorching",
               "tier": "normal"
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "skip",
               "surface": " bed of "
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "word",
               "surface": "coals",
               "ref": "coals",
               "tier": "normal"
             },
             {
-              "id": "t16",
+              "id": "t22",
               "type": "skip",
               "surface": "."
             }
@@ -6360,6 +6960,474 @@
       "example": {
         "en": "Big bad wolf.",
         "ja": "大きな悪い狼。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "brothers": {
+      "tier": "basic",
+      "surface": "brothers",
+      "pos": "n · A1",
+      "pron": "/ˈbrʌð.əz/",
+      "meaning": "兄弟",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "jacob": {
+      "tier": "basic",
+      "surface": "jacob",
+      "pos": "n · proper",
+      "pron": "/ˈdʒeɪ.kəb/",
+      "meaning": "ヤーコプ(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wilhelm": {
+      "tier": "basic",
+      "surface": "wilhelm",
+      "pos": "n · proper",
+      "pron": "/ˈvɪl.helm/",
+      "meaning": "ヴィルヘルム(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "grimm": {
+      "tier": "basic",
+      "surface": "grimm",
+      "pos": "n · proper",
+      "pron": "/ɡrɪm/",
+      "meaning": "グリム(姓)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "germany": {
+      "tier": "basic",
+      "surface": "germany",
+      "pos": "n · proper",
+      "pron": "/ˈdʒɜː.mə.ni/",
+      "meaning": "ドイツ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "french": {
+      "tier": "basic",
+      "surface": "french",
+      "pos": "adj · A2",
+      "pron": "/frentʃ/",
+      "meaning": "フランスの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "region": {
+      "tier": "normal",
+      "surface": "region",
+      "pos": "n · B1",
+      "pron": "/ˈriː.dʒən/",
+      "meaning": "地域",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "napoleon": {
+      "tier": "basic",
+      "surface": "napoleon",
+      "pos": "n · proper",
+      "pron": "/nəˈpoʊ.li.ən/",
+      "meaning": "ナポレオン",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "european": {
+      "tier": "normal",
+      "surface": "european",
+      "pos": "adj · B1",
+      "pron": "/ˌjʊə.rəˈpiː.ən/",
+      "meaning": "ヨーロッパの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "german": {
+      "tier": "basic",
+      "surface": "german",
+      "pos": "adj · A2",
+      "pron": "/ˈdʒɜː.mən/",
+      "meaning": "ドイツの、ドイツ語",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "collected": {
+      "tier": "normal",
+      "surface": "collected",
+      "pos": "v · B1",
+      "pron": "/kəˈlek.tɪd/",
+      "meaning": "収集した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "books": {
+      "tier": "basic",
+      "surface": "books",
+      "pos": "n · A1",
+      "pron": "/bʊks/",
+      "meaning": "本",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "women": {
+      "tier": "basic",
+      "surface": "women",
+      "pos": "n · A1",
+      "pron": "/ˈwɪm.ɪn/",
+      "meaning": "女性たち",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "husband": {
+      "tier": "basic",
+      "surface": "husband",
+      "pos": "n · A1",
+      "pron": "/ˈhʌz.bənd/",
+      "meaning": "夫",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "difficult": {
+      "tier": "basic",
+      "surface": "difficult",
+      "pos": "adj · A2",
+      "pron": "/ˈdɪf.ɪ.kəlt/",
+      "meaning": "難しい、厳しい",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "parents": {
+      "tier": "basic",
+      "surface": "parents",
+      "pos": "n · A1",
+      "pron": "/ˈpeə.rənts/",
+      "meaning": "親",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "children": {
+      "tier": "basic",
+      "surface": "children",
+      "pos": "n · A1",
+      "pron": "/ˈtʃɪl.drən/",
+      "meaning": "子供たち",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "woods": {
+      "tier": "normal",
+      "surface": "woods",
+      "pos": "n · B1",
+      "pron": "/wʊdz/",
+      "meaning": "森",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wall": {
+      "tier": "basic",
+      "surface": "wall",
+      "pos": "n · A1",
+      "pron": "/wɔːl/",
+      "meaning": "壁",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "english": {
+      "tier": "basic",
+      "surface": "english",
+      "pos": "adj · A1",
+      "pron": "/ˈɪŋ.ɡlɪʃ/",
+      "meaning": "英語の、英語",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "christian": {
+      "tier": "normal",
+      "surface": "christian",
+      "pos": "adj · B1",
+      "pron": "/ˈkrɪs.tʃən/",
+      "meaning": "キリスト教の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "original": {
+      "tier": "normal",
+      "surface": "original",
+      "pos": "adj · B1",
+      "pron": "/əˈrɪdʒ.ən.əl/",
+      "meaning": "本来の、元の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hansel": {
+      "tier": "basic",
+      "surface": "hansel",
+      "pos": "n · proper",
+      "pron": "/ˈhæn.səl/",
+      "meaning": "ヘンゼル(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "gretel": {
+      "tier": "basic",
+      "surface": "gretel",
+      "pos": "n · proper",
+      "pron": "/ˈɡret.əl/",
+      "meaning": "グレーテル(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stepmothers": {
+      "tier": "normal",
+      "surface": "stepmothers",
+      "pos": "n · B1",
+      "pron": "/ˈstepˌmʌð.əz/",
+      "meaning": "継母たち",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "traditional": {
+      "tier": "normal",
+      "surface": "traditional",
+      "pos": "adj · B1",
+      "pron": "/trəˈdɪʃ.ən.əl/",
+      "meaning": "伝統的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "biological": {
+      "tier": "normal",
+      "surface": "biological",
+      "pos": "adj · B2",
+      "pron": "/ˌbaɪ.əˈlɒdʒ.ɪ.kəl/",
+      "meaning": "生物学上の、実の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mothers": {
+      "tier": "basic",
+      "surface": "mothers",
+      "pos": "n · A1",
+      "pron": "/ˈmʌð.əz/",
+      "meaning": "母親たち",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "earliest": {
+      "tier": "normal",
+      "surface": "earliest",
+      "pos": "adj · B1",
+      "pron": "/ˈɜː.li.əst/",
+      "meaning": "最も初期の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "birds": {
+      "tier": "basic",
+      "surface": "birds",
+      "pos": "n · A1",
+      "pron": "/bɜːdz/",
+      "meaning": "鳥",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "popular": {
+      "tier": "basic",
+      "surface": "popular",
+      "pos": "adj · A2",
+      "pron": "/ˈpɒp.jə.lər/",
+      "meaning": "人気のある",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "editing": {
+      "tier": "normal",
+      "surface": "editing",
+      "pos": "v · B1",
+      "pron": "/ˈed.ɪt.ɪŋ/",
+      "meaning": "編集して",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "narrative": {
+      "tier": "key",
+      "surface": "narrative",
+      "pos": "n · C1",
+      "pron": "/ˈnær.ə.tɪv/",
+      "meaning": "物語、語り",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "kiss": {
+      "tier": "basic",
+      "surface": "kiss",
+      "pos": "n · A2",
+      "pron": "/kɪs/",
+      "meaning": "キス",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "iron": {
+      "tier": "basic",
+      "surface": "iron",
+      "pos": "n · A2",
+      "pron": "/ˈaɪ.ən/",
+      "meaning": "鉄",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "shoes": {
+      "tier": "basic",
+      "surface": "shoes",
+      "pos": "n · A1",
+      "pron": "/ʃuːz/",
+      "meaning": "靴",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []

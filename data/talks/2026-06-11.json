@@ -843,19 +843,31 @@
               "ref": "demonstration"
             },
             {
-              "id": "t7",
-              "surface": " of the emperor's ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " of the ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "emperor",
+              "ref": "emperor",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "influence",
               "type": "word",
               "tier": "frequent",
               "ref": "influence"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "surface": ".",
               "type": "skip"
             }
@@ -1012,9 +1024,21 @@
               "ref": "tripping"
             },
             {
-              "id": "t7",
-              "surface": " techniques.",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "techniques",
+              "ref": "techniques",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         },
@@ -1050,31 +1074,55 @@
               "ref": "shift"
             },
             {
-              "id": "t3",
-              "surface": " from the emperor and his court to their ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " from the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "emperor",
+              "ref": "emperor",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " and his court to their ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "surface": "hired",
               "type": "word",
               "tier": "normal",
               "ref": "hired"
             },
             {
-              "id": "t5",
-              "surface": " soldiers, the ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "soldiers",
+              "ref": "soldiers",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", the ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "samurai",
               "type": "word",
               "tier": "basic",
               "ref": "samurai"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "surface": ", and official court sumo ended in 1174.",
               "type": "skip"
             }
@@ -1113,33 +1161,69 @@
               "ref": "samurai"
             },
             {
-              "id": "t3",
-              "surface": " leaders still had soldiers perform less ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "leaders",
+              "ref": "leaders",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " still had ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "soldiers",
+              "ref": "soldiers",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " perform less ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "surface": "formal",
               "type": "word",
               "tier": "frequent",
               "ref": "formal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "surface": " sumo ",
               "type": "skip"
             },
             {
-              "id": "t6",
+              "id": "t10",
               "surface": "bouts",
               "type": "word",
               "tier": "key",
               "ref": "bout"
             },
             {
-              "id": "t7",
-              "surface": " for exercise and entertainment.",
-              "type": "skip"
+              "type": "skip",
+              "surface": " for ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "exercise",
+              "ref": "exercise",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " and entertainment.",
+              "id": "t13"
             }
           ]
         }
@@ -1491,9 +1575,21 @@
               "ref": "employment"
             },
             {
-              "id": "t7",
-              "surface": " and improving their working conditions.",
-              "type": "skip"
+              "type": "skip",
+              "surface": " and improving their working ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "conditions",
+              "ref": "conditions",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         }
@@ -1581,19 +1677,43 @@
               "ref": "rowdy"
             },
             {
-              "id": "t5",
-              "surface": " street corner sumo performances, hoping to attract the donations of ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " street corner sumo performances, hoping to ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "attract",
+              "ref": "attract",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "donations",
+              "ref": "donations",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "passersby",
               "type": "word",
               "tier": "key",
               "ref": "passersby"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "surface": ".",
               "type": "skip"
             }
@@ -1651,31 +1771,43 @@
               "ref": "bout"
             },
             {
-              "id": "t7",
-              "surface": " often resulted in fights and injuries among both ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " often resulted in fights and ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "injuries",
+              "ref": "injuries",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " among both ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "participants",
               "type": "word",
               "tier": "frequent",
               "ref": "participant"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "surface": " and ",
               "type": "skip"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "surface": "spectators",
               "type": "word",
               "tier": "normal",
               "ref": "spectator"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "surface": ".",
               "type": "skip"
             }
@@ -1835,31 +1967,43 @@
               "ref": "boundary"
             },
             {
-              "id": "t5",
-              "surface": " to separate ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "separate",
+              "ref": "separate",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "surface": "spectators",
               "type": "word",
               "tier": "normal",
               "ref": "spectator"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": " from ",
               "type": "skip"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "surface": "participants",
               "type": "word",
               "tier": "frequent",
               "ref": "participant"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "surface": ".",
               "type": "skip"
             }
@@ -1893,12 +2037,24 @@
               "ref": "morph"
             },
             {
-              "id": "t3",
-              "surface": " into a standard ring called the ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " into a ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "standard",
+              "ref": "standard",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ring called the ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "surface": "dohyō",
               "type": "foreign",
               "ref": "dohyo"
@@ -1925,42 +2081,54 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "surface": "This ring outlined the field of play, introducing a ",
-              "type": "skip"
+              "type": "skip",
+              "surface": "This ring ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "outlined",
+              "ref": "outlined",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " the field of play, introducing a ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "surface": "pivotal",
               "type": "word",
               "tier": "key",
               "ref": "pivotal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "surface": " new rule: now matches could also be won by pushing one’s ",
               "type": "skip"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "surface": "opponent",
               "type": "word",
               "tier": "normal",
               "ref": "opponent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "surface": " out of the ",
               "type": "skip"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "surface": "dohyō",
               "type": "foreign",
               "ref": "dohyo"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": ".",
               "type": "skip"
             }
@@ -2157,19 +2325,31 @@
               "ref": "evoke"
             },
             {
-              "id": "t5",
-              "surface": " ancient religious ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ancient ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "religious",
+              "ref": "religious",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "surface": "ceremonies",
               "type": "word",
               "tier": "normal",
               "ref": "ceremony"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": ".",
               "type": "skip"
             }
@@ -2670,43 +2850,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "surface": "New technology has brought ",
-              "type": "skip"
+              "type": "skip",
+              "surface": "New ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "technology",
+              "ref": "technology",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " has brought ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "surface": "advantages",
               "type": "word",
               "tier": "frequent",
               "ref": "advantage"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "surface": " like instant replays, while other ",
               "type": "skip"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "surface": "innovations",
               "type": "word",
               "tier": "frequent",
               "ref": "innovation"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "surface": " were introduced to ",
               "type": "skip"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "surface": "evoke",
               "type": "word",
               "tier": "key",
               "ref": "evoke"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": " the ancient past.",
               "type": "skip"
             }
@@ -2815,19 +3007,31 @@
               "ref": "display"
             },
             {
-              "id": "t9",
-              "surface": " of strength, and an ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " of ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "strength",
+              "ref": "strength",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ", and an ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "surface": "ode",
               "type": "word",
               "tier": "key",
               "ref": "ode"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "surface": " to national traditions— both real and invented.",
               "type": "skip"
             }
@@ -4729,6 +4933,201 @@
         "barely enough",
         "barely noticeable"
       ]
+    },
+    "emperor": {
+      "tier": "normal",
+      "surface": "emperor",
+      "pos": "n · B1",
+      "pron": "/ˈem.pər.ər/",
+      "meaning": "皇帝、天皇",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "techniques": {
+      "tier": "normal",
+      "surface": "techniques",
+      "pos": "n · B1",
+      "pron": "/tekˈniːks/",
+      "meaning": "技術、技法、技",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "soldiers": {
+      "tier": "normal",
+      "surface": "soldiers",
+      "pos": "n · A2",
+      "pron": "/ˈsoʊl.dʒərz/",
+      "meaning": "兵士、軍人",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "leaders": {
+      "tier": "normal",
+      "surface": "leaders",
+      "pos": "n · A2",
+      "pron": "/ˈliː.dərz/",
+      "meaning": "指導者、リーダー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exercise": {
+      "tier": "normal",
+      "surface": "exercise",
+      "pos": "n · A2",
+      "pron": "/ˈek.sər.saɪz/",
+      "meaning": "運動、訓練、練習",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conditions": {
+      "tier": "normal",
+      "surface": "conditions",
+      "pos": "n · B1",
+      "pron": "/kənˈdɪʃ.ənz/",
+      "meaning": "条件、状況、環境",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attract": {
+      "tier": "normal",
+      "surface": "attract",
+      "pos": "v · B1",
+      "pron": "/əˈtrækt/",
+      "meaning": "引き寄せる、魅了する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "donations": {
+      "tier": "normal",
+      "surface": "donations",
+      "pos": "n · B1",
+      "pron": "/doʊˈneɪ.ʃənz/",
+      "meaning": "寄付、寄付金",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "injuries": {
+      "tier": "normal",
+      "surface": "injuries",
+      "pos": "n · B1",
+      "pron": "/ˈɪn.dʒər.iz/",
+      "meaning": "負傷、けが",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "separate": {
+      "tier": "normal",
+      "surface": "separate",
+      "pos": "v · B1",
+      "pron": "/ˈsep.ə.reɪt/",
+      "meaning": "分ける、隔てる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "standard": {
+      "tier": "normal",
+      "surface": "standard",
+      "pos": "adj/n · B1",
+      "pron": "/ˈstæn.dərd/",
+      "meaning": "標準的な、基準",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "outlined": {
+      "tier": "key",
+      "surface": "outlined",
+      "pos": "v · B2",
+      "pron": "/ˈaʊt.laɪnd/",
+      "meaning": "輪郭を示す、概略を定める",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "religious": {
+      "tier": "normal",
+      "surface": "religious",
+      "pos": "adj · B1",
+      "pron": "/rɪˈlɪdʒ.əs/",
+      "meaning": "宗教の、信心深い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "technology": {
+      "tier": "normal",
+      "surface": "technology",
+      "pos": "n · A2",
+      "pron": "/tekˈnɒl.ə.dʒi/",
+      "meaning": "科学技術、テクノロジー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strength": {
+      "tier": "normal",
+      "surface": "strength",
+      "pos": "n · B1",
+      "pron": "/streŋθ/",
+      "meaning": "力、強さ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
     }
   },
   "expressions": {

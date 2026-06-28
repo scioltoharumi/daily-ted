@@ -1127,18 +1127,30 @@
               "tier": "basic"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": " Venice "
+              "surface": " ",
+              "id": "t6"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "expression",
               "surface": "to this very day",
               "ref": "to_this_very_day"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": "."
             }
@@ -1671,31 +1683,43 @@
               "tier": "basic"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " Venice 1,500 "
+              "surface": " ",
+              "id": "t13"
             },
             {
-              "id": "t14",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " 1,500 ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "years",
               "ref": "years",
               "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "later",
               "ref": "later",
               "tier": "basic"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1921,9 +1945,21 @@
               "tier": "normal"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " of Venice."
+              "surface": " of ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         }
@@ -2738,89 +2774,101 @@
               "tier": "normal"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": ", Venice's "
+              "surface": ", ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "location",
               "ref": "location",
               "tier": "basic"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "made",
               "ref": "made",
               "tier": "basic"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "skip",
               "surface": " it the "
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "word",
               "surface": "perfect",
               "ref": "perfect",
               "tier": "basic"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "expression",
               "surface": "port city",
               "ref": "port_city"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "word",
               "surface": "connect",
               "ref": "connect",
               "tier": "basic"
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "word",
               "surface": "markets",
               "ref": "markets",
               "tier": "basic"
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "skip",
               "surface": " from Europe to the "
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "expression",
               "surface": "Silk Road",
               "ref": "silk_road"
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "skip",
               "surface": "."
             }
@@ -3097,28 +3145,28 @@
               "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " Venice a "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "major",
-              "ref": "major",
-              "tier": "basic"
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t8"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " a ",
+              "id": "t9"
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "maritime",
-              "ref": "maritime",
-              "tier": "key"
+              "surface": "major",
+              "ref": "major",
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -3128,44 +3176,45 @@
             {
               "id": "t12",
               "type": "word",
+              "surface": "maritime",
+              "ref": "maritime",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
               "surface": "power",
               "ref": "power",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": ", and the 1200s "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "began",
               "ref": "began",
               "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " with their "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "biggest",
               "ref": "biggest",
               "tier": "basic"
-            },
-            {
-              "id": "t17",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t18",
-              "type": "expression",
-              "surface": "business deal",
-              "ref": "business_deal"
             },
             {
               "id": "t19",
@@ -3174,13 +3223,24 @@
             },
             {
               "id": "t20",
+              "type": "expression",
+              "surface": "business deal",
+              "ref": "business_deal"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "yet",
               "ref": "yet",
               "tier": "normal"
             },
             {
-              "id": "t21",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -3253,102 +3313,138 @@
               "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " with Venice's "
+              "surface": " with ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "elected",
               "ref": "elected",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "leader",
               "ref": "leader",
               "tier": "basic"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": ", Enrico Dandolo, to "
+              "surface": ", ",
+              "id": "t13"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "Enrico",
+              "ref": "enrico",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "Dandolo",
+              "ref": "dandolo",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ", to ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "produce",
               "ref": "produce",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "word",
               "surface": "ships",
               "ref": "ships",
               "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t16",
+              "id": "t22",
               "type": "word",
               "surface": "arms",
               "ref": "arms",
               "tier": "key"
             },
             {
-              "id": "t17",
+              "id": "t23",
               "type": "skip",
               "surface": " for the "
             },
             {
-              "id": "t18",
+              "id": "t24",
               "type": "expression",
               "surface": "Fourth Crusade",
               "ref": "fourth_crusade"
             },
             {
-              "id": "t19",
+              "id": "t25",
               "type": "skip",
               "surface": "'s "
             },
             {
-              "id": "t20",
+              "id": "t26",
               "type": "word",
               "surface": "anticipated",
               "ref": "anticipated",
               "tier": "normal"
             },
             {
-              "id": "t21",
+              "id": "t27",
               "type": "skip",
               "surface": " 33,000 "
             },
             {
-              "id": "t22",
+              "id": "t28",
               "type": "word",
               "surface": "soldiers",
               "ref": "soldiers",
               "tier": "basic"
             },
             {
-              "id": "t23",
+              "id": "t29",
               "type": "skip",
               "surface": "."
             }
@@ -3375,91 +3471,98 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Dandolo "
+              "type": "word",
+              "surface": "Dandolo",
+              "ref": "dandolo",
+              "tier": "basic",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "id": "t3",
               "type": "word",
               "surface": "agreed",
               "ref": "agreed",
               "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t4",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "investing",
               "ref": "investing",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t7",
               "type": "word",
               "surface": "huge",
               "ref": "huge",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t8",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t9",
               "type": "word",
               "surface": "amounts",
               "ref": "amounts",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t10",
               "type": "skip",
               "surface": " of the "
             },
             {
-              "id": "t10",
+              "id": "t11",
               "type": "word",
               "surface": "republic",
               "ref": "republic",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t12",
               "type": "skip",
               "surface": "'s "
             },
             {
-              "id": "t12",
+              "id": "t13",
               "type": "word",
               "surface": "money",
               "ref": "money",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t14",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t14",
+              "id": "t15",
               "type": "word",
               "surface": "resources",
               "ref": "resources",
               "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t16",
               "type": "skip",
               "surface": "."
             }
@@ -3616,75 +3719,75 @@
               "tier": "normal"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": ", Dandolo "
+              "surface": ", ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "Dandolo",
+              "ref": "dandolo",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "redirected",
               "ref": "redirected",
               "tier": "normal"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "crusading",
               "ref": "crusading",
               "tier": "key"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "word",
               "surface": "army",
               "ref": "army",
               "tier": "basic"
             },
             {
-              "id": "t8",
               "type": "skip",
-              "surface": " against Venice's "
+              "surface": " against ",
+              "id": "t10"
             },
             {
-              "id": "t9",
               "type": "word",
-              "surface": "Christian",
-              "ref": "christian",
-              "tier": "basic"
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t11"
             },
             {
-              "id": "t10",
               "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t11",
-              "type": "word",
-              "surface": "rivals",
-              "ref": "rivals",
-              "tier": "normal"
-            },
-            {
-              "id": "t12",
-              "type": "skip",
-              "surface": ", "
+              "surface": "'s ",
+              "id": "t12"
             },
             {
               "id": "t13",
               "type": "word",
-              "surface": "including",
-              "ref": "including",
+              "surface": "Christian",
+              "ref": "christian",
               "tier": "basic"
             },
             {
@@ -3695,12 +3798,36 @@
             {
               "id": "t15",
               "type": "word",
+              "surface": "rivals",
+              "ref": "rivals",
+              "tier": "normal"
+            },
+            {
+              "id": "t16",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t17",
+              "type": "word",
+              "surface": "including",
+              "ref": "including",
+              "tier": "basic"
+            },
+            {
+              "id": "t18",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t19",
+              "type": "word",
               "surface": "Constantinople",
               "ref": "constantinople",
               "tier": "key"
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "skip",
               "surface": "."
             }
@@ -3766,102 +3893,138 @@
               "ref": "lay_foundation_for"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " Venice's "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "overseas",
               "ref": "overseas",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "empire",
               "ref": "empire",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": ", and over the "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "following",
               "ref": "following",
               "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "centuries",
               "ref": "centuries",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": ", Venetian "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "merchants",
               "ref": "merchants",
               "tier": "normal"
             },
             {
-              "id": "t15",
               "type": "skip",
-              "surface": " like Marco Polo "
+              "surface": " like ",
+              "id": "t17"
             },
             {
-              "id": "t16",
+              "type": "word",
+              "surface": "Marco",
+              "ref": "marco",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "Polo",
+              "ref": "polo",
+              "tier": "basic",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "ventured",
               "ref": "ventured",
               "tier": "key"
             },
             {
-              "id": "t17",
+              "id": "t23",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t18",
+              "id": "t24",
               "type": "expression",
               "surface": "as far as",
               "ref": "as_far_as"
             },
             {
-              "id": "t19",
+              "id": "t25",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t20",
+              "id": "t26",
               "type": "word",
               "surface": "China",
               "ref": "china",
               "tier": "basic"
             },
             {
-              "id": "t21",
+              "id": "t27",
               "type": "skip",
               "surface": "."
             }
@@ -4169,40 +4332,40 @@
               "tier": "basic"
             },
             {
-              "id": "t27",
               "type": "skip",
-              "surface": " from the Ticino and Adige "
+              "surface": " from the ",
+              "id": "t27"
             },
             {
-              "id": "t28",
               "type": "word",
-              "surface": "rivers",
-              "ref": "rivers",
-              "tier": "basic"
+              "surface": "Ticino",
+              "ref": "ticino",
+              "tier": "basic",
+              "id": "t28"
             },
             {
-              "id": "t29",
               "type": "skip",
-              "surface": " "
+              "surface": " and ",
+              "id": "t29"
             },
             {
-              "id": "t30",
               "type": "word",
-              "surface": "fueled",
-              "ref": "fueled",
-              "tier": "normal"
+              "surface": "Adige",
+              "ref": "adige",
+              "tier": "basic",
+              "id": "t30"
             },
             {
-              "id": "t31",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t31"
             },
             {
               "id": "t32",
               "type": "word",
-              "surface": "extravagant",
-              "ref": "extravagant",
-              "tier": "key"
+              "surface": "rivers",
+              "ref": "rivers",
+              "tier": "basic"
             },
             {
               "id": "t33",
@@ -4212,12 +4375,36 @@
             {
               "id": "t34",
               "type": "word",
+              "surface": "fueled",
+              "ref": "fueled",
+              "tier": "normal"
+            },
+            {
+              "id": "t35",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t36",
+              "type": "word",
+              "surface": "extravagant",
+              "ref": "extravagant",
+              "tier": "key"
+            },
+            {
+              "id": "t37",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t38",
+              "type": "word",
               "surface": "glassworks",
               "ref": "glassworks",
               "tier": "key"
             },
             {
-              "id": "t35",
+              "id": "t39",
               "type": "skip",
               "surface": "."
             }
@@ -4531,91 +4718,98 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Venice's "
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t2"
+            },
+            {
+              "id": "t3",
               "type": "word",
               "surface": "dominance",
               "ref": "dominance",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t4",
               "type": "skip",
               "surface": " over the "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "Mediterranean",
               "ref": "mediterranean",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t7",
               "type": "word",
               "surface": "remained",
               "ref": "remained",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t8",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t9",
               "type": "word",
               "surface": "unchallenged",
               "ref": "unchallenged",
               "tier": "key"
             },
             {
-              "id": "t9",
+              "id": "t10",
               "type": "skip",
               "surface": " until the mid-15th "
             },
             {
-              "id": "t10",
+              "id": "t11",
               "type": "word",
               "surface": "century",
               "ref": "century",
               "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t12",
               "type": "skip",
               "surface": ", when the "
             },
             {
-              "id": "t12",
+              "id": "t13",
               "type": "word",
               "surface": "Ottomans",
               "ref": "ottomans",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t14",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t15",
               "type": "word",
               "surface": "conquered",
               "ref": "conquered",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t16",
               "type": "skip",
               "surface": " Constantinople."
             }
@@ -4690,50 +4884,51 @@
               "ref": "interfere_with"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " Venice's "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "business",
               "ref": "business",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "expression",
               "surface": "all while",
               "ref": "all_while"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " new "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "transoceanic",
               "ref": "transoceanic",
               "tier": "key"
-            },
-            {
-              "id": "t13",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t14",
-              "type": "expression",
-              "surface": "trade routes",
-              "ref": "trade_routes"
             },
             {
               "id": "t15",
@@ -4742,13 +4937,24 @@
             },
             {
               "id": "t16",
+              "type": "expression",
+              "surface": "trade routes",
+              "ref": "trade_routes"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "excluded",
               "ref": "excluded",
               "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": " Venetians."
             }
@@ -4792,77 +4998,125 @@
               "ref": "soldier_on"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " until French "
+              "surface": " until ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "French",
+              "ref": "french",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "attacks",
               "ref": "attacks",
               "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "forced",
               "ref": "forced",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " it to "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "dissolve",
               "ref": "dissolve",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " in 1797, "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "expression",
               "surface": "at which point",
               "ref": "at_which_point"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " Venice "
+              "surface": " ",
+              "id": "t13"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "traded hands",
               "ref": "trade_hands"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " between Austria and France several times before finally being "
+              "surface": " between ",
+              "id": "t17"
             },
             {
-              "id": "t14",
+              "type": "word",
+              "surface": "Austria",
+              "ref": "austria",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "France",
+              "ref": "france",
+              "tier": "basic",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " several times before finally being ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "ceded",
               "ref": "ceded",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t23",
               "type": "skip",
               "surface": " to Italy in 1866."
             }
@@ -4942,30 +5196,42 @@
               "tier": "normal"
             },
             {
-              "id": "t8",
               "type": "skip",
-              "surface": ", Venice was "
+              "surface": ", ",
+              "id": "t8"
             },
             {
-              "id": "t9",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " was ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "reinvented",
               "ref": "reinvented",
               "tier": "normal"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": " as a "
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "expression",
               "surface": "tourist destination",
               "ref": "tourist_destination"
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -5410,19 +5676,31 @@
               "tier": "basic"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": " Venice's "
+              "surface": " ",
+              "id": "t17"
             },
             {
-              "id": "t18",
+              "type": "word",
+              "surface": "Venice",
+              "ref": "venice",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t19"
+            },
+            {
+              "id": "t20",
               "type": "word",
               "surface": "foundations",
               "ref": "foundations",
               "tier": "normal"
             },
             {
-              "id": "t19",
+              "id": "t21",
               "type": "skip",
               "surface": "."
             }
@@ -5473,55 +5751,79 @@
               "tier": "key"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": ", these modern "
+              "surface": ", these ",
+              "id": "t4"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "modern",
+              "ref": "modern",
+              "tier": "normal",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t6"
+            },
+            {
+              "id": "t7",
               "type": "word",
               "surface": "advances",
               "ref": "advances",
               "tier": "normal"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "skip",
               "surface": " could "
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "word",
               "surface": "destroy",
               "ref": "destroy",
               "tier": "basic"
             },
             {
-              "id": "t8",
               "type": "skip",
-              "surface": " one of the world's most "
+              "surface": " one of the ",
+              "id": "t10"
             },
             {
-              "id": "t9",
+              "type": "word",
+              "surface": "world",
+              "ref": "world",
+              "tier": "normal",
+              "id": "t11"
+            },
+            {
+              "type": "skip",
+              "surface": "'s most ",
+              "id": "t12"
+            },
+            {
+              "id": "t13",
               "type": "word",
               "surface": "remarkable",
               "ref": "remarkable",
               "tier": "normal"
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "word",
               "surface": "cities",
               "ref": "cities",
               "tier": "basic"
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "skip",
               "surface": "."
             }
@@ -9659,6 +9961,162 @@
         "yet still",
         "and yet"
       ]
+    },
+    "venice": {
+      "tier": "basic",
+      "surface": "venice",
+      "pos": "n · 固有",
+      "pron": "/ˈven.ɪs/",
+      "meaning": "ヴェネツィア(伊の都市)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "enrico": {
+      "tier": "basic",
+      "surface": "enrico",
+      "pos": "n · 固有",
+      "pron": "/enˈriː.koʊ/",
+      "meaning": "エンリコ(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dandolo": {
+      "tier": "basic",
+      "surface": "dandolo",
+      "pos": "n · 固有",
+      "pron": "/ˈdæn.də.loʊ/",
+      "meaning": "ダンドロ(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "marco": {
+      "tier": "basic",
+      "surface": "marco",
+      "pos": "n · 固有",
+      "pron": "/ˈmɑːr.koʊ/",
+      "meaning": "マルコ(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "polo": {
+      "tier": "basic",
+      "surface": "polo",
+      "pos": "n · 固有",
+      "pron": "/ˈpoʊ.loʊ/",
+      "meaning": "ポーロ(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ticino": {
+      "tier": "basic",
+      "surface": "ticino",
+      "pos": "n · 固有",
+      "pron": "/tɪˈtʃiː.noʊ/",
+      "meaning": "ティチーノ川(伊の川)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "adige": {
+      "tier": "basic",
+      "surface": "adige",
+      "pos": "n · 固有",
+      "pron": "/ˈɑː.di.dʒeɪ/",
+      "meaning": "アディジェ川(伊の川)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "french": {
+      "tier": "normal",
+      "surface": "french",
+      "pos": "adj · A2",
+      "pron": "/frentʃ/",
+      "meaning": "フランスの、フランス軍の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "austria": {
+      "tier": "basic",
+      "surface": "austria",
+      "pos": "n · 固有",
+      "pron": "/ˈɒs.tri.ə/",
+      "meaning": "オーストリア(国名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "france": {
+      "tier": "basic",
+      "surface": "france",
+      "pos": "n · 固有",
+      "pron": "/frɑːns/",
+      "meaning": "フランス(国名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "modern": {
+      "tier": "normal",
+      "surface": "modern",
+      "pos": "adj · B1",
+      "pron": "/ˈmɒd.ən/",
+      "meaning": "現代の、近代の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "world": {
+      "tier": "normal",
+      "surface": "world",
+      "pos": "n · A2",
+      "pron": "/wɜːld/",
+      "meaning": "世界",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
     }
   },
   "expressions": {
