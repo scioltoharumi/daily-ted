@@ -108,7 +108,7 @@
               "type": "word",
               "surface": "citizens",
               "ref": "citizens",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -120,7 +120,7 @@
               "type": "word",
               "surface": "flocked",
               "ref": "flocked",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -132,7 +132,7 @@
               "type": "word",
               "surface": "newsstands",
               "ref": "newsstands",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -155,7 +155,7 @@
               "type": "word",
               "surface": "edition",
               "ref": "edition",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -215,7 +215,7 @@
               "type": "word",
               "surface": "readers",
               "ref": "readers",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -238,7 +238,7 @@
               "type": "word",
               "surface": "timely",
               "ref": "timely",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -276,7 +276,7 @@
               "type": "word",
               "surface": "following",
               "ref": "following",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -288,7 +288,7 @@
               "type": "word",
               "surface": "story",
               "ref": "story",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -300,7 +300,7 @@
               "type": "word",
               "surface": "set",
               "ref": "set",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -312,7 +312,7 @@
               "type": "word",
               "surface": "tale",
               "ref": "tale",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -324,7 +324,7 @@
               "type": "word",
               "surface": "adventure",
               "ref": "adventure",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -336,7 +336,7 @@
               "type": "word",
               "surface": "war",
               "ref": "war",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -348,7 +348,7 @@
               "type": "word",
               "surface": "romance",
               "ref": "romance",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -372,7 +372,7 @@
               "type": "word",
               "surface": "brotherhood",
               "ref": "brotherhood",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t19",
@@ -384,7 +384,7 @@
               "type": "word",
               "surface": "betrayal",
               "ref": "betrayal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t21",
@@ -425,41 +425,77 @@
               "tier": "key"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " from 1957 to 1959, Jin Yong's \""
+              "surface": " from 1957 to 1959, ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t4"
+            },
+            {
+              "type": "word",
+              "surface": "Yong",
+              "ref": "yong",
+              "tier": "basic",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": "'s \"",
+              "id": "t6"
+            },
+            {
+              "id": "t7",
               "type": "expression",
               "surface": "Legend of the Condor Heroes",
               "ref": "legend_condor"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": "\" is the first book in Jin's "
+              "surface": "\" is the first book in ",
+              "id": "t8"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "beloved",
               "ref": "beloved",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t6",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "expression",
               "surface": "Condor Trilogy",
               "ref": "condor_trilogy"
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -507,7 +543,7 @@
               "type": "word",
               "surface": "epic",
               "ref": "epic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -519,7 +555,7 @@
               "type": "word",
               "surface": "considered",
               "ref": "considered",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -531,7 +567,7 @@
               "type": "word",
               "surface": "fiction",
               "ref": "fiction",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -546,9 +582,21 @@
               "tier": "key"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " stories ever written."
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "stories",
+              "ref": "stories",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ever written.",
+              "id": "t13"
             }
           ]
         }
@@ -588,7 +636,7 @@
               "type": "word",
               "surface": "translated",
               "ref": "translated",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -602,43 +650,55 @@
               "ref": "martial_hero"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ",\" is a popular "
+              "surface": ",\" is a ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "genre",
-              "ref": "genre",
-              "tier": "known"
+              "surface": "popular",
+              "ref": "popular",
+              "tier": "normal",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " of Chinese fiction with "
+              "surface": " ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "roots",
-              "ref": "roots",
-              "tier": "known"
+              "surface": "genre",
+              "ref": "genre",
+              "tier": "normal"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " in "
+              "surface": " of Chinese fiction with "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "folktales",
-              "ref": "folktales",
-              "tier": "known"
+              "surface": "roots",
+              "ref": "roots",
+              "tier": "normal"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " in "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "folktales",
+              "ref": "folktales",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": " over 1,500 years old."
             }
@@ -664,27 +724,28 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Wuxia stories generally focus on "
+              "surface": "Wuxia ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "nomadic",
-              "ref": "nomadic",
-              "tier": "known"
+              "surface": "stories",
+              "ref": "stories",
+              "tier": "basic",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": " generally focus on ",
+              "id": "t3"
             },
             {
               "id": "t4",
-              "type": "expression",
-              "surface": "martial artists",
-              "ref": "martial_artists"
+              "type": "word",
+              "surface": "nomadic",
+              "ref": "nomadic",
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -693,36 +754,47 @@
             },
             {
               "id": "t6",
-              "type": "word",
-              "surface": "bound",
-              "ref": "bound",
-              "tier": "known"
+              "type": "expression",
+              "surface": "martial artists",
+              "ref": "martial_artists"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " to an "
+              "surface": " "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "honorable",
-              "ref": "honorable",
-              "tier": "known"
+              "surface": "bound",
+              "ref": "bound",
+              "tier": "normal"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " to an "
             },
             {
               "id": "t10",
+              "type": "word",
+              "surface": "honorable",
+              "ref": "honorable",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "code of chivalry",
               "ref": "code_chivalry"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -765,78 +837,114 @@
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " version of ancient China called "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "version",
+              "ref": "version",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "ancient",
+              "ref": "ancient",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " China called ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "foreign",
               "surface": "jianghu",
               "ref": "jianghu"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", full of powerful "
+              "surface": ", full of ",
+              "id": "t9"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "leaders",
-              "ref": "leaders",
-              "tier": "skip"
+              "surface": "powerful",
+              "ref": "powerful",
+              "tier": "normal",
+              "id": "t10"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "roaming",
-              "ref": "roaming",
-              "tier": "known"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t10",
-              "type": "word",
-              "surface": "bandits",
-              "ref": "bandits",
-              "tier": "known"
-            },
-            {
-              "id": "t11",
-              "type": "skip",
-              "surface": ", and "
+              "surface": " ",
+              "id": "t11"
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "mystical",
-              "ref": "mystical",
-              "tier": "known"
+              "surface": "leaders",
+              "ref": "leaders",
+              "tier": "basic"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": " "
+              "surface": ", "
             },
             {
               "id": "t14",
               "type": "word",
-              "surface": "artifacts",
-              "ref": "artifacts",
-              "tier": "known"
+              "surface": "roaming",
+              "ref": "roaming",
+              "tier": "normal"
             },
             {
               "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "bandits",
+              "ref": "bandits",
+              "tier": "normal"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "mystical",
+              "ref": "mystical",
+              "tier": "normal"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "artifacts",
+              "ref": "artifacts",
+              "tier": "normal"
+            },
+            {
+              "id": "t21",
               "type": "skip",
               "surface": "."
             }
@@ -867,90 +975,114 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "To face these challenges, wuxia heroes must learn "
+              "surface": "To face these ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "superhuman",
-              "ref": "superhuman",
-              "tier": "known"
+              "surface": "challenges",
+              "ref": "challenges",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": ", wuxia heroes must learn ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "feats",
-              "ref": "feats",
-              "tier": "known"
+              "surface": "superhuman",
+              "ref": "superhuman",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " of "
+              "surface": " "
             },
             {
               "id": "t6",
+              "type": "word",
+              "surface": "feats",
+              "ref": "feats",
+              "tier": "normal"
+            },
+            {
+              "id": "t7",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "martial arts",
               "ref": "martial_arts"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " from ancient "
+              "surface": " from ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "ancient",
+              "ref": "ancient",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "scrolls",
               "ref": "scrolls",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "reclusive",
               "ref": "reclusive",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "immortal",
               "ref": "immortal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "masters",
               "ref": "masters",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -992,7 +1124,7 @@
               "type": "word",
               "surface": "blends",
               "ref": "blends",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1004,7 +1136,7 @@
               "type": "word",
               "surface": "action",
               "ref": "action",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1016,7 +1148,7 @@
               "type": "word",
               "surface": "pivotal",
               "ref": "pivotal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1028,7 +1160,7 @@
               "type": "word",
               "surface": "history",
               "ref": "history",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -1077,7 +1209,7 @@
               "type": "word",
               "surface": "amidst",
               "ref": "amidst",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1183,7 +1315,7 @@
               "type": "word",
               "surface": "conflict",
               "ref": "conflict",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1195,7 +1327,7 @@
               "type": "word",
               "surface": "enemy",
               "ref": "enemy",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1261,57 +1393,81 @@
               "type": "word",
               "surface": "Mongols",
               "ref": "mongols",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " threaten to "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "threaten",
+              "ref": "threaten",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "topple",
               "ref": "topple",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " both empires, and "
+              "surface": " both ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "empires",
+              "ref": "empires",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", and ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "raids",
               "ref": "raids",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " by all parties "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "expression",
               "surface": "wreak havoc",
               "ref": "wreak_havoc"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " across the "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "continent",
               "ref": "continent",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -1353,7 +1509,7 @@
               "type": "word",
               "surface": "novel",
               "ref": "novel",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1365,7 +1521,7 @@
               "type": "word",
               "surface": "village",
               "ref": "village",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1377,7 +1533,7 @@
               "type": "word",
               "surface": "expecting",
               "ref": "expecting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1389,7 +1545,7 @@
               "type": "word",
               "surface": "binding",
               "ref": "binding",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1401,7 +1557,7 @@
               "type": "word",
               "surface": "unborn",
               "ref": "unborn",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -1442,31 +1598,79 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The children's names— Guo Jing and Yang Kang— were "
+              "surface": "The children's names— ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "Guo",
+              "ref": "guo",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "Jing",
+              "ref": "jing",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "Yang",
+              "ref": "yang",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "Kang",
+              "ref": "kang",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": "— were ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "engraved",
               "ref": "engraved",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t11",
               "type": "skip",
               "surface": " on a pair of "
             },
             {
-              "id": "t4",
+              "id": "t12",
               "type": "word",
               "surface": "daggers",
               "ref": "daggers",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1496,33 +1700,57 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But a sudden Jurchen "
+              "surface": "But a ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "raid",
-              "ref": "raid",
-              "tier": "known"
+              "surface": "sudden",
+              "ref": "sudden",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": " Jurchen ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "scatters",
-              "ref": "scatters",
-              "tier": "known"
+              "surface": "raid",
+              "ref": "raid",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " the families."
+              "surface": " "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "scatters",
+              "ref": "scatters",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "families",
+              "ref": "families",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         },
@@ -1551,54 +1779,73 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Guo Jing "
+              "type": "word",
+              "surface": "Guo",
+              "ref": "guo",
+              "tier": "basic",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "Jing",
+              "ref": "jing",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "expression",
               "surface": "grows up",
               "ref": "grow_up"
             },
             {
-              "id": "t3",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t7",
               "type": "word",
               "surface": "amongst",
               "ref": "amongst",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t8",
               "type": "skip",
               "surface": " the Mongols, yet remains "
             },
             {
-              "id": "t6",
+              "id": "t9",
               "type": "word",
               "surface": "loyal",
               "ref": "loyal",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t10",
               "type": "skip",
               "surface": " to his Han "
             },
             {
-              "id": "t8",
+              "id": "t11",
               "type": "word",
               "surface": "heritage",
               "ref": "heritage",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t12",
               "type": "skip",
               "surface": "."
             }
@@ -1646,7 +1893,7 @@
               "type": "word",
               "surface": "royalty",
               "ref": "royalty",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1658,69 +1905,93 @@
               "type": "word",
               "surface": "raise",
               "ref": "raise",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " Yang Kang as a "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "Yang",
+              "ref": "yang",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "Kang",
+              "ref": "kang",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " as a ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "scheming",
               "ref": "scheming",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "prince",
               "ref": "prince",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": "— "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "expression",
               "surface": "setting the stage for",
               "ref": "set_the_stage"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " the brothers' "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "tragic",
               "ref": "tragic",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "conflict",
               "ref": "conflict",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1752,44 +2023,99 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Jin's novel follows the "
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t1"
             },
             {
-              "id": "t2",
-              "type": "word",
-              "surface": "naive",
-              "ref": "naive",
-              "tier": "known"
+              "type": "skip",
+              "surface": "'s novel follows the ",
+              "id": "t2"
             },
             {
               "id": "t3",
+              "type": "word",
+              "surface": "naive",
+              "ref": "naive",
+              "tier": "normal"
+            },
+            {
+              "id": "t4",
               "type": "skip",
               "surface": " but "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "expression",
               "surface": "kind-hearted",
               "ref": "kind_hearted"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " Guo Jing and his "
+              "surface": " ",
+              "id": "t6"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "Guo",
+              "ref": "guo",
+              "tier": "basic",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "Jing",
+              "ref": "jing",
+              "tier": "basic",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " and his ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "clever",
               "ref": "clever",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " lover Huang Rong."
+              "surface": " lover ",
+              "id": "t12"
+            },
+            {
+              "type": "word",
+              "surface": "Huang",
+              "ref": "huang",
+              "tier": "basic",
+              "id": "t13"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t14"
+            },
+            {
+              "type": "word",
+              "surface": "Rong",
+              "ref": "rong",
+              "tier": "basic",
+              "id": "t15"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t16"
             }
           ]
         },
@@ -1826,7 +2152,7 @@
               "type": "word",
               "surface": "journey",
               "ref": "journey",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1838,70 +2164,94 @@
               "type": "word",
               "surface": "bustling",
               "ref": "bustling",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " Song capital of "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "Song",
+              "ref": "song",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "capital",
+              "ref": "capital",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "Hangzhou",
               "ref": "hangzhou",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "harsh",
               "ref": "harsh",
-              "tier": "known"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": " Mongol "
-            },
-            {
-              "id": "t10",
-              "type": "word",
-              "surface": "steppes",
-              "ref": "steppes",
-              "tier": "known"
-            },
-            {
-              "id": "t11",
-              "type": "skip",
-              "surface": ", and the "
-            },
-            {
-              "id": "t12",
-              "type": "word",
-              "surface": "fabled",
-              "ref": "fabled",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": " market city of "
+              "surface": " Mongol "
             },
             {
               "id": "t14",
+              "type": "word",
+              "surface": "steppes",
+              "ref": "steppes",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": ", and the "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "fabled",
+              "ref": "fabled",
+              "tier": "normal"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " market city of "
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "Samarkand",
               "ref": "samarkand",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1953,7 +2303,7 @@
               "type": "word",
               "surface": "encountering",
               "ref": "encountering",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1965,7 +2315,7 @@
               "type": "word",
               "surface": "colorful",
               "ref": "colorful",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1977,7 +2327,7 @@
               "type": "word",
               "surface": "characters",
               "ref": "characters",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -1989,12 +2339,36 @@
               "type": "word",
               "surface": "witnessing",
               "ref": "witnessing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " key historical events."
+              "surface": " key ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "historical",
+              "ref": "historical",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "events",
+              "ref": "events",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         },
@@ -2037,7 +2411,7 @@
               "type": "word",
               "surface": "battle",
               "ref": "battle",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2049,7 +2423,7 @@
               "type": "word",
               "surface": "enemies",
               "ref": "enemies",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2061,58 +2435,118 @@
               "type": "word",
               "surface": "treasure",
               "ref": "treasure",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", and help solve local crimes, their martial arts skills grow more "
+              "surface": ", and help ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "solve",
+              "ref": "solve",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " local ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "crimes",
+              "ref": "crimes",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ", their martial arts ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "skills",
+              "ref": "skills",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " grow more ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "legendary",
               "ref": "legendary",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "— "
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "word",
               "surface": "preparing",
               "ref": "preparing",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " Guo Jing for his "
+              "surface": " ",
+              "id": "t17"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "Guo",
+              "ref": "guo",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "Jing",
+              "ref": "jing",
+              "tier": "basic",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " for his ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "fated",
               "ref": "fated",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t23",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t24",
               "type": "word",
               "surface": "confrontation",
               "ref": "confrontation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t25",
               "type": "skip",
               "surface": "."
             }
@@ -2158,57 +2592,81 @@
               "type": "word",
               "surface": "showcases",
               "ref": "showcases",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " over 80 unique styles of martial arts, "
+              "surface": " over 80 ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "unique",
+              "ref": "unique",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "styles",
+              "ref": "styles",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " of martial arts, ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "ranging from … to",
               "ref": "range_from_to"
             },
             {
-              "id": "t5",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t6",
-              "type": "word",
-              "surface": "realistic",
-              "ref": "realistic",
-              "tier": "skip"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "techniques",
-              "ref": "techniques",
-              "tier": "skip"
-            },
-            {
               "id": "t9",
               "type": "skip",
-              "surface": " to almost mystical "
+              "surface": " "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "maneuvers",
-              "ref": "maneuvers",
-              "tier": "known"
+              "surface": "realistic",
+              "ref": "realistic",
+              "tier": "basic"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "techniques",
+              "ref": "techniques",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " to almost mystical "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "maneuvers",
+              "ref": "maneuvers",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2243,7 +2701,7 @@
               "type": "word",
               "surface": "seemingly",
               "ref": "seemingly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2255,22 +2713,34 @@
               "type": "word",
               "surface": "moves",
               "ref": "moves",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " have surprising "
+              "surface": " have ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "surprising",
+              "ref": "surprising",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "depth",
               "ref": "depth",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -2310,33 +2780,81 @@
               "type": "word",
               "surface": "master",
               "ref": "master",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " a technique that will allow him to perform two attacks "
+              "surface": " a ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "technique",
+              "ref": "technique",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " that will allow him to ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "perform",
+              "ref": "perform",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " two attacks ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "at once",
               "ref": "at_once"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " Guo Jing must first learn to "
+              "surface": " ",
+              "id": "t9"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "Guo",
+              "ref": "guo",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "Jing",
+              "ref": "jing",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " must first learn to ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "simultaneously",
               "ref": "simultaneously",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t15",
               "type": "skip",
               "surface": " draw a circle with one hand and a square with the other."
             }
@@ -2395,22 +2913,34 @@
               "type": "word",
               "surface": "torments",
               "ref": "torments",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " wuxia students and readers "
+              "surface": " wuxia ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "students",
+              "ref": "students",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " and readers ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "alike",
               "ref": "alike",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -2442,53 +2972,84 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Jin Yong was the "
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "Yong",
+              "ref": "yong",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " was the ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "expression",
               "surface": "pen name",
               "ref": "pen_name"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of Louis Cha, a "
+              "surface": " of Louis ",
+              "id": "t6"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "Cha",
+              "ref": "cha",
+              "tier": "basic",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": ", a ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "journalist",
               "ref": "journalist",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t10",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t6",
+              "id": "t11",
               "type": "word",
               "surface": "founder",
               "ref": "founder",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t12",
               "type": "skip",
               "surface": " of "
             },
             {
-              "id": "t8",
+              "id": "t13",
               "type": "expression",
               "surface": "Ming Pao Daily News",
               "ref": "ming_pao"
             },
             {
-              "id": "t9",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -2528,7 +3089,7 @@
               "type": "word",
               "surface": "banned",
               "ref": "banned",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2552,7 +3113,7 @@
               "type": "word",
               "surface": "associations",
               "ref": "associations",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -2600,32 +3161,44 @@
               "type": "word",
               "surface": "colony",
               "ref": "colony",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " at the time, Cha could write fiction and "
+              "surface": " at the time, ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "Cha",
+              "ref": "cha",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " could write fiction and ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "cover news",
               "ref": "cover_news"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " about the "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "expression",
               "surface": "Cultural Revolution",
               "ref": "cultural_revolution"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " freely."
             }
@@ -2661,7 +3234,7 @@
               "type": "word",
               "surface": "complexity",
               "ref": "complexity",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2728,7 +3301,7 @@
               "type": "word",
               "surface": "celebrates",
               "ref": "celebrates",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -2740,7 +3313,7 @@
               "type": "word",
               "surface": "identity",
               "ref": "identity",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2752,34 +3325,46 @@
               "type": "word",
               "surface": "exploring",
               "ref": "exploring",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " China's culture and history with "
+              "surface": " China's ",
+              "id": "t7"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "intimate",
-              "ref": "intimate",
-              "tier": "known"
+              "surface": "culture",
+              "ref": "culture",
+              "tier": "normal",
+              "id": "t8"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " and history with ",
+              "id": "t9"
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "humanity",
-              "ref": "humanity",
-              "tier": "known"
+              "surface": "intimate",
+              "ref": "intimate",
+              "tier": "normal"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "humanity",
+              "ref": "humanity",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2815,53 +3400,77 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Even though Jin's books were banned in China, his work still found Chinese readers "
+              "surface": "Even though ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": "'s books were banned in China, his work still found Chinese readers ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "around the globe",
               "ref": "around_globe"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "bootleg",
               "ref": "bootleg",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " versions even "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "versions",
+              "ref": "versions",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " even ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "made their way to",
               "ref": "make_way_to"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "mainland",
               "ref": "mainland",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2892,55 +3501,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "When the Chinese government "
+              "surface": "When the Chinese ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "relaxed",
-              "ref": "relaxed",
-              "tier": "known"
+              "surface": "government",
+              "ref": "government",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " its "
+              "surface": " ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "policies",
-              "ref": "policies",
-              "tier": "skip"
+              "surface": "relaxed",
+              "ref": "relaxed",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " in the 1980s, his novels found an "
+              "surface": " its "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "eager",
-              "ref": "eager",
-              "tier": "known"
+              "surface": "policies",
+              "ref": "policies",
+              "tier": "basic"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " "
+              "surface": " in the 1980s, his novels found an "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "audience",
-              "ref": "audience",
-              "tier": "skip"
+              "surface": "eager",
+              "ref": "eager",
+              "tier": "normal"
             },
             {
               "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "audience",
+              "ref": "audience",
+              "tier": "basic"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -2977,19 +3598,43 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Today, Jin Yong's works have been "
+              "surface": "Today, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "Yong",
+              "ref": "yong",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": "'s works have been ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "adapted",
               "ref": "adapted",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " into film, television, and video games."
             }
@@ -3016,9 +3661,33 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "His novels are so beloved it has been said, \"where there are Chinese people, there must be Jin Yong's fiction.\""
+              "surface": "His novels are so beloved it has been said, \"where there are Chinese people, there must be ",
+              "id": "t1"
+            },
+            {
+              "type": "word",
+              "surface": "Jin",
+              "ref": "jin",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "Yong",
+              "ref": "yong",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": "'s fiction.\"",
+              "id": "t5"
             }
           ]
         },
@@ -3059,7 +3728,7 @@
               "type": "word",
               "surface": "literary",
               "ref": "literary",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -3083,45 +3752,105 @@
               "type": "word",
               "surface": "remains",
               "ref": "remains",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " relatively unknown in the West, "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "relatively",
+              "ref": "relatively",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "unknown",
+              "ref": "unknown",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " in the West, ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "due to",
               "ref": "due_to"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " the difficulties of "
+              "surface": " the ",
+              "id": "t13"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "difficulties",
+              "ref": "difficulties",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "translation",
               "ref": "translation",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " and the high level of Chinese cultural knowledge his works "
+              "surface": " and the high level of Chinese ",
+              "id": "t17"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "cultural",
+              "ref": "cultural",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "knowledge",
+              "ref": "knowledge",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " his works ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "demand",
               "ref": "demand",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -3156,54 +3885,90 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Fortunately, recent English translations of the \"Legend of the Condor Heroes\" are helping a new "
+              "surface": "Fortunately, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "generation",
-              "ref": "generation",
-              "tier": "skip"
+              "surface": "recent",
+              "ref": "recent",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of readers experience the "
+              "surface": " English ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "sweeping",
-              "ref": "sweeping",
-              "tier": "known"
+              "surface": "translations",
+              "ref": "translations",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": " of the \"Legend of the Condor Heroes\" are helping a new ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "saga",
-              "ref": "saga",
-              "tier": "known"
+              "surface": "generation",
+              "ref": "generation",
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "type": "skip",
+              "surface": " of readers ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "experience",
+              "ref": "experience",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "sweeping",
+              "ref": "sweeping",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "saga",
+              "ref": "saga",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": " of the "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "expression",
               "surface": "rivers and lakes",
               "ref": "rivers_lakes"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -3214,7 +3979,7 @@
   ],
   "words": {
     "action": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "action",
       "pos": "n · A2",
       "pron": "/ˈæk.ʃən/",
@@ -3227,7 +3992,7 @@
       "collocations": []
     },
     "adapted": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "adapted",
       "pos": "v · B2",
       "pron": "/əˈdæp.tɪd/",
@@ -3240,7 +4005,7 @@
       "collocations": []
     },
     "adventure": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "adventure",
       "pos": "n · A2",
       "pron": "/ədˈven.tʃər/",
@@ -3253,7 +4018,7 @@
       "collocations": []
     },
     "alike": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "alike",
       "pos": "adv · B1",
       "pron": "/əˈlaɪk/",
@@ -3266,7 +4031,7 @@
       "collocations": []
     },
     "amidst": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "amidst",
       "pos": "prep · C1",
       "pron": "/əˈmɪdst/",
@@ -3279,7 +4044,7 @@
       "collocations": []
     },
     "amongst": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "amongst",
       "pos": "prep · B1",
       "pron": "/əˈmʌŋst/",
@@ -3292,7 +4057,7 @@
       "collocations": []
     },
     "artifacts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "artifacts",
       "pos": "n · B2",
       "pron": "/ˈɑː.tɪ.fækts/",
@@ -3305,7 +4070,7 @@
       "collocations": []
     },
     "associations": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "associations",
       "pos": "n · B2",
       "pron": "/əˌsoʊ.siˈeɪ.ʃənz/",
@@ -3318,7 +4083,7 @@
       "collocations": []
     },
     "audience": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "audience",
       "pos": "n · A2",
       "pron": "/ˈɔː.di.əns/",
@@ -3331,7 +4096,7 @@
       "collocations": []
     },
     "bandits": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bandits",
       "pos": "n · B2",
       "pron": "/ˈbæn.dɪts/",
@@ -3344,7 +4109,7 @@
       "collocations": []
     },
     "banned": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "banned",
       "pos": "v · B1",
       "pron": "/bænd/",
@@ -3357,7 +4122,7 @@
       "collocations": []
     },
     "battle": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "battle",
       "pos": "v · B2",
       "pron": "/ˈbæt.l/",
@@ -3370,7 +4135,7 @@
       "collocations": []
     },
     "beloved": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "beloved",
       "pos": "adj · B2",
       "pron": "/bɪˈlʌv.ɪd/",
@@ -3383,7 +4148,7 @@
       "collocations": []
     },
     "betrayal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "betrayal",
       "pos": "n · B2",
       "pron": "/bɪˈtreɪ.əl/",
@@ -3396,7 +4161,7 @@
       "collocations": []
     },
     "binding": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "binding",
       "pos": "v · B2",
       "pron": "/ˈbaɪn.dɪŋ/",
@@ -3409,7 +4174,7 @@
       "collocations": []
     },
     "blends": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "blends",
       "pos": "v · B2",
       "pron": "/blendz/",
@@ -3435,7 +4200,7 @@
       "collocations": []
     },
     "bound": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bound",
       "pos": "adj · B2",
       "pron": "/baʊnd/",
@@ -3448,7 +4213,7 @@
       "collocations": []
     },
     "brotherhood": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "brotherhood",
       "pos": "n · B2",
       "pron": "/ˈbrʌð.ə.hʊd/",
@@ -3461,7 +4226,7 @@
       "collocations": []
     },
     "bustling": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bustling",
       "pos": "adj · B2",
       "pron": "/ˈbʌs.l.ɪŋ/",
@@ -3474,7 +4239,7 @@
       "collocations": []
     },
     "celebrates": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "celebrates",
       "pos": "v · A2",
       "pron": "/ˈsel.ɪ.breɪts/",
@@ -3487,7 +4252,7 @@
       "collocations": []
     },
     "characters": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "characters",
       "pos": "n · A2",
       "pron": "/ˈkær.ək.təz/",
@@ -3500,7 +4265,7 @@
       "collocations": []
     },
     "citizens": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "citizens",
       "pos": "n · A2",
       "pron": "/ˈsɪt.ɪ.zənz/",
@@ -3513,7 +4278,7 @@
       "collocations": []
     },
     "clever": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "clever",
       "pos": "adj · A2",
       "pron": "/ˈklev.ər/",
@@ -3526,7 +4291,7 @@
       "collocations": []
     },
     "colony": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "colony",
       "pos": "n · B2",
       "pron": "/ˈkɒl.ə.ni/",
@@ -3539,7 +4304,7 @@
       "collocations": []
     },
     "colorful": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "colorful",
       "pos": "adj · B1",
       "pron": "/ˈkʌl.ə.fəl/",
@@ -3552,7 +4317,7 @@
       "collocations": []
     },
     "complexity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "complexity",
       "pos": "n · B2",
       "pron": "/kəmˈplek.sə.ti/",
@@ -3565,7 +4330,7 @@
       "collocations": []
     },
     "conflict": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "conflict",
       "pos": "n · B1",
       "pron": "/ˈkɒn.flɪkt/",
@@ -3578,7 +4343,7 @@
       "collocations": []
     },
     "confrontation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "confrontation",
       "pos": "n · B2",
       "pron": "/ˌkɒn.frənˈteɪ.ʃən/",
@@ -3591,7 +4356,7 @@
       "collocations": []
     },
     "considered": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "considered",
       "pos": "v · A2",
       "pron": "/kənˈsɪd.əd/",
@@ -3604,7 +4369,7 @@
       "collocations": []
     },
     "continent": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "continent",
       "pos": "n · A2",
       "pron": "/ˈkɒn.tɪ.nənt/",
@@ -3617,7 +4382,7 @@
       "collocations": []
     },
     "daggers": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "daggers",
       "pos": "n · B2",
       "pron": "/ˈdæɡ.əz/",
@@ -3643,7 +4408,7 @@
       "collocations": []
     },
     "demand": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "demand",
       "pos": "v · A2",
       "pron": "/dɪˈmɑːnd/",
@@ -3656,7 +4421,7 @@
       "collocations": []
     },
     "depth": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "depth",
       "pos": "n · A2",
       "pron": "/depθ/",
@@ -3669,7 +4434,7 @@
       "collocations": []
     },
     "eager": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "eager",
       "pos": "adj · B1",
       "pron": "/ˈiː.ɡər/",
@@ -3682,7 +4447,7 @@
       "collocations": []
     },
     "edition": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "edition",
       "pos": "n · B1",
       "pron": "/ɪˈdɪʃ.ən/",
@@ -3695,7 +4460,7 @@
       "collocations": []
     },
     "encountering": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "encountering",
       "pos": "v · B2",
       "pron": "/ɪnˈkaʊn.tər.ɪŋ/",
@@ -3708,7 +4473,7 @@
       "collocations": []
     },
     "enemies": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "enemies",
       "pos": "n · A2",
       "pron": "/ˈen.ə.miz/",
@@ -3721,7 +4486,7 @@
       "collocations": []
     },
     "enemy": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "enemy",
       "pos": "n · A2",
       "pron": "/ˈen.ə.mi/",
@@ -3734,7 +4499,7 @@
       "collocations": []
     },
     "engraved": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "engraved",
       "pos": "v · B2",
       "pron": "/ɪnˈɡreɪvd/",
@@ -3747,7 +4512,7 @@
       "collocations": []
     },
     "epic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "epic",
       "pos": "n · B2",
       "pron": "/ˈep.ɪk/",
@@ -3760,7 +4525,7 @@
       "collocations": []
     },
     "expecting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "expecting",
       "pos": "adj · B2",
       "pron": "/ɪkˈspek.tɪŋ/",
@@ -3773,7 +4538,7 @@
       "collocations": []
     },
     "exploring": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "exploring",
       "pos": "v · A2",
       "pron": "/ɪkˈsplɔː.rɪŋ/",
@@ -3786,7 +4551,7 @@
       "collocations": []
     },
     "fabled": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "fabled",
       "pos": "adj · C1",
       "pron": "/ˈfeɪ.bld/",
@@ -3812,7 +4577,7 @@
       "collocations": []
     },
     "feats": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "feats",
       "pos": "n · B2",
       "pron": "/fiːts/",
@@ -3838,7 +4603,7 @@
       "collocations": []
     },
     "fiction": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "fiction",
       "pos": "n · A2",
       "pron": "/ˈfɪk.ʃən/",
@@ -3851,7 +4616,7 @@
       "collocations": []
     },
     "flocked": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "flocked",
       "pos": "v · B2",
       "pron": "/flɒkt/",
@@ -3864,7 +4629,7 @@
       "collocations": []
     },
     "folktales": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "folktales",
       "pos": "n · C1",
       "pron": "/ˈfoʊk.teɪlz/",
@@ -3877,7 +4642,7 @@
       "collocations": []
     },
     "following": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "following",
       "pos": "v · A2",
       "pron": "/ˈfɒl.oʊ.ɪŋ/",
@@ -3903,7 +4668,7 @@
       "collocations": []
     },
     "founder": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "founder",
       "pos": "n · B2",
       "pron": "/ˈfaʊn.dər/",
@@ -3929,7 +4694,7 @@
       "collocations": []
     },
     "generation": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "generation",
       "pos": "n · A2",
       "pron": "/ˌdʒen.əˈreɪ.ʃən/",
@@ -3942,7 +4707,7 @@
       "collocations": []
     },
     "genre": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "genre",
       "pos": "n · B1",
       "pron": "/ˈʒɒn.rə/",
@@ -3981,7 +4746,7 @@
       "collocations": []
     },
     "harsh": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "harsh",
       "pos": "adj · B1",
       "pron": "/hɑːʃ/",
@@ -3994,7 +4759,7 @@
       "collocations": []
     },
     "heritage": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "heritage",
       "pos": "n · B2",
       "pron": "/ˈher.ɪ.tɪdʒ/",
@@ -4007,7 +4772,7 @@
       "collocations": []
     },
     "history": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "history",
       "pos": "n · A1",
       "pron": "/ˈhɪs.tər.i/",
@@ -4020,7 +4785,7 @@
       "collocations": []
     },
     "honorable": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "honorable",
       "pos": "adj · B2",
       "pron": "/ˈɒn.ə.rə.bl/",
@@ -4033,7 +4798,7 @@
       "collocations": []
     },
     "humanity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "humanity",
       "pos": "n · B2",
       "pron": "/hjuːˈmæn.ə.ti/",
@@ -4046,7 +4811,7 @@
       "collocations": []
     },
     "identity": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "identity",
       "pos": "n · B1",
       "pron": "/aɪˈden.tə.ti/",
@@ -4059,7 +4824,7 @@
       "collocations": []
     },
     "immortal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "immortal",
       "pos": "adj · B2",
       "pron": "/ɪˈmɔː.təl/",
@@ -4072,7 +4837,7 @@
       "collocations": []
     },
     "intimate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "intimate",
       "pos": "adj · B2",
       "pron": "/ˈɪn.tɪ.mət/",
@@ -4098,7 +4863,7 @@
       "collocations": []
     },
     "journalist": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "journalist",
       "pos": "n · A2",
       "pron": "/ˈdʒɜː.nə.lɪst/",
@@ -4111,7 +4876,7 @@
       "collocations": []
     },
     "journey": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "journey",
       "pos": "n · A2",
       "pron": "/ˈdʒɜː.ni/",
@@ -4137,7 +4902,7 @@
       "collocations": []
     },
     "leaders": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "leaders",
       "pos": "n · A2",
       "pron": "/ˈliː.dəz/",
@@ -4150,7 +4915,7 @@
       "collocations": []
     },
     "legendary": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "legendary",
       "pos": "adj · B2",
       "pron": "/ˈledʒ.ən.dər.i/",
@@ -4163,7 +4928,7 @@
       "collocations": []
     },
     "literary": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "literary",
       "pos": "adj · B2",
       "pron": "/ˈlɪt.ər.ər.i/",
@@ -4189,7 +4954,7 @@
       "collocations": []
     },
     "loyal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "loyal",
       "pos": "adj · B1",
       "pron": "/ˈlɔɪ.əl/",
@@ -4202,7 +4967,7 @@
       "collocations": []
     },
     "mainland": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mainland",
       "pos": "n · B2",
       "pron": "/ˈmeɪn.lənd/",
@@ -4215,7 +4980,7 @@
       "collocations": []
     },
     "maneuvers": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "maneuvers",
       "pos": "n · B2",
       "pron": "/məˈnuː.vəz/",
@@ -4228,7 +4993,7 @@
       "collocations": []
     },
     "master": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "master",
       "pos": "v · B1",
       "pron": "/ˈmɑːs.tər/",
@@ -4241,7 +5006,7 @@
       "collocations": []
     },
     "masters": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "masters",
       "pos": "n · A2",
       "pron": "/ˈmɑː.stəz/",
@@ -4254,7 +5019,7 @@
       "collocations": []
     },
     "mongols": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "Mongols",
       "pos": "n · proper",
       "pron": "/ˈmɒŋ.ɡəlz/",
@@ -4267,7 +5032,7 @@
       "collocations": []
     },
     "moves": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "moves",
       "pos": "n · A2",
       "pron": "/muːvz/",
@@ -4293,7 +5058,7 @@
       "collocations": []
     },
     "mystical": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mystical",
       "pos": "adj · B2",
       "pron": "/ˈmɪs.tɪ.kəl/",
@@ -4319,7 +5084,7 @@
       "collocations": []
     },
     "naive": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "naive",
       "pos": "adj · B2",
       "pron": "/naɪˈiːv/",
@@ -4332,7 +5097,7 @@
       "collocations": []
     },
     "newsstands": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "newsstands",
       "pos": "n · B2",
       "pron": "/ˈnjuːz.stændz/",
@@ -4345,7 +5110,7 @@
       "collocations": []
     },
     "nomadic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "nomadic",
       "pos": "adj · C1",
       "pron": "/noʊˈmæd.ɪk/",
@@ -4358,7 +5123,7 @@
       "collocations": []
     },
     "novel": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "novel",
       "pos": "n · A2",
       "pron": "/ˈnɒv.əl/",
@@ -4371,7 +5136,7 @@
       "collocations": []
     },
     "pivotal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "pivotal",
       "pos": "adj · B2",
       "pron": "/ˈpɪv.ə.təl/",
@@ -4384,7 +5149,7 @@
       "collocations": []
     },
     "policies": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "policies",
       "pos": "n · A2",
       "pron": "/ˈpɒl.ə.siz/",
@@ -4397,7 +5162,7 @@
       "collocations": []
     },
     "preparing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "preparing",
       "pos": "v · A2",
       "pron": "/prɪˈpeə.rɪŋ/",
@@ -4410,7 +5175,7 @@
       "collocations": []
     },
     "prince": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "prince",
       "pos": "n · A2",
       "pron": "/prɪns/",
@@ -4423,7 +5188,7 @@
       "collocations": []
     },
     "raid": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "raid",
       "pos": "n · B2",
       "pron": "/reɪd/",
@@ -4436,7 +5201,7 @@
       "collocations": []
     },
     "raids": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "raids",
       "pos": "n · B2",
       "pron": "/reɪdz/",
@@ -4449,7 +5214,7 @@
       "collocations": []
     },
     "raise": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "raise",
       "pos": "v · A2",
       "pron": "/reɪz/",
@@ -4462,7 +5227,7 @@
       "collocations": []
     },
     "readers": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "readers",
       "pos": "n · A2",
       "pron": "/ˈriː.dəz/",
@@ -4475,7 +5240,7 @@
       "collocations": []
     },
     "realistic": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "realistic",
       "pos": "adj · A2",
       "pron": "/ˌrɪəˈlɪs.tɪk/",
@@ -4501,7 +5266,7 @@
       "collocations": []
     },
     "relaxed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "relaxed",
       "pos": "v · B1",
       "pron": "/rɪˈlækst/",
@@ -4514,7 +5279,7 @@
       "collocations": []
     },
     "remains": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "remains",
       "pos": "v · A2",
       "pron": "/rɪˈmeɪnz/",
@@ -4527,7 +5292,7 @@
       "collocations": []
     },
     "roaming": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "roaming",
       "pos": "v · B2",
       "pron": "/ˈroʊ.mɪŋ/",
@@ -4540,7 +5305,7 @@
       "collocations": []
     },
     "romance": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "romance",
       "pos": "n · B1",
       "pron": "/roʊˈmæns/",
@@ -4553,7 +5318,7 @@
       "collocations": []
     },
     "roots": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "roots",
       "pos": "n · B1",
       "pron": "/ruːts/",
@@ -4566,7 +5331,7 @@
       "collocations": []
     },
     "royalty": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "royalty",
       "pos": "n · B2",
       "pron": "/ˈrɔɪ.əl.ti/",
@@ -4579,7 +5344,7 @@
       "collocations": []
     },
     "saga": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "saga",
       "pos": "n · B2",
       "pron": "/ˈsɑː.ɡə/",
@@ -4605,7 +5370,7 @@
       "collocations": []
     },
     "scatters": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scatters",
       "pos": "v · B2",
       "pron": "/ˈskæt.əz/",
@@ -4618,7 +5383,7 @@
       "collocations": []
     },
     "scheming": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scheming",
       "pos": "adj · C1",
       "pron": "/ˈskiː.mɪŋ/",
@@ -4631,7 +5396,7 @@
       "collocations": []
     },
     "scrolls": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scrolls",
       "pos": "n · B2",
       "pron": "/skroʊlz/",
@@ -4644,7 +5409,7 @@
       "collocations": []
     },
     "seemingly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "seemingly",
       "pos": "adv · B2",
       "pron": "/ˈsiː.mɪŋ.li/",
@@ -4670,7 +5435,7 @@
       "collocations": []
     },
     "set": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "set",
       "pos": "v · A2",
       "pron": "/set/",
@@ -4683,7 +5448,7 @@
       "collocations": []
     },
     "showcases": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "showcases",
       "pos": "v · B2",
       "pron": "/ˈʃoʊ.keɪs.ɪz/",
@@ -4696,7 +5461,7 @@
       "collocations": []
     },
     "simultaneously": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "simultaneously",
       "pos": "adv · B2",
       "pron": "/ˌsɪm.lˈteɪ.ni.əs.li/",
@@ -4709,7 +5474,7 @@
       "collocations": []
     },
     "steppes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "steppes",
       "pos": "n · C1",
       "pron": "/steps/",
@@ -4722,7 +5487,7 @@
       "collocations": []
     },
     "story": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "story",
       "pos": "n · A1",
       "pron": "/ˈstɔː.ri/",
@@ -4735,7 +5500,7 @@
       "collocations": []
     },
     "superhuman": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "superhuman",
       "pos": "adj · B2",
       "pron": "/ˌsuː.pəˈhjuː.mən/",
@@ -4748,7 +5513,7 @@
       "collocations": []
     },
     "sweeping": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sweeping",
       "pos": "adj · B2",
       "pron": "/ˈswiː.pɪŋ/",
@@ -4761,7 +5526,7 @@
       "collocations": []
     },
     "tale": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tale",
       "pos": "n · B1",
       "pron": "/teɪl/",
@@ -4774,7 +5539,7 @@
       "collocations": []
     },
     "techniques": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "techniques",
       "pos": "n · A2",
       "pron": "/tekˈniːks/",
@@ -4787,7 +5552,7 @@
       "collocations": []
     },
     "timely": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "timely",
       "pos": "adj · B2",
       "pron": "/ˈtaɪm.li/",
@@ -4826,7 +5591,7 @@
       "collocations": []
     },
     "torments": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "torments",
       "pos": "v · B2",
       "pron": "/ˈtɔː.ments/",
@@ -4839,7 +5604,7 @@
       "collocations": []
     },
     "tragic": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tragic",
       "pos": "adj · B2",
       "pron": "/ˈtrædʒ.ɪk/",
@@ -4852,7 +5617,7 @@
       "collocations": []
     },
     "translated": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "translated",
       "pos": "v · A2",
       "pron": "/trænzˈleɪ.tɪd/",
@@ -4865,7 +5630,7 @@
       "collocations": []
     },
     "translation": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "translation",
       "pos": "n · A2",
       "pron": "/trænzˈleɪ.ʃən/",
@@ -4891,7 +5656,7 @@
       "collocations": []
     },
     "treasure": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "treasure",
       "pos": "n · B1",
       "pron": "/ˈtreʒ.ər/",
@@ -4917,7 +5682,7 @@
       "collocations": []
     },
     "unborn": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "unborn",
       "pos": "adj · B2",
       "pron": "/ˌʌnˈbɔːn/",
@@ -4930,7 +5695,7 @@
       "collocations": []
     },
     "village": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "village",
       "pos": "n · A2",
       "pron": "/ˈvɪl.ɪdʒ/",
@@ -4943,7 +5708,7 @@
       "collocations": []
     },
     "war": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "war",
       "pos": "n · A1",
       "pron": "/wɔːr/",
@@ -4956,7 +5721,7 @@
       "collocations": []
     },
     "witnessing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "witnessing",
       "pos": "v · B2",
       "pron": "/ˈwɪt.nəs.ɪŋ/",
@@ -4979,6 +5744,565 @@
         "ja": "武侠小説。"
       },
       "context": "「武の英雄」を意味する中国小説ジャンル。",
+      "collocations": []
+    },
+    "jin": {
+      "tier": "basic",
+      "surface": "jin",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "金(金庸)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "yong": {
+      "tier": "basic",
+      "surface": "yong",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "庸(金庸)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "stories": {
+      "tier": "basic",
+      "surface": "stories",
+      "pos": "n · A1",
+      "pron": "/ˈstɔː.riz/",
+      "meaning": "物語",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "popular": {
+      "tier": "normal",
+      "surface": "popular",
+      "pos": "adj · A2",
+      "pron": "/ˈpɒp.jə.lər/",
+      "meaning": "人気の、広く親しまれた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "version": {
+      "tier": "normal",
+      "surface": "version",
+      "pos": "n · B1",
+      "pron": "/ˈvɜː.ʃən/",
+      "meaning": "版、形態",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "ancient": {
+      "tier": "normal",
+      "surface": "ancient",
+      "pos": "adj · B1",
+      "pron": "/ˈeɪn.ʃənt/",
+      "meaning": "古代の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "powerful": {
+      "tier": "normal",
+      "surface": "powerful",
+      "pos": "adj · B1",
+      "pron": "/ˈpaʊ.ə.fəl/",
+      "meaning": "強大な、強力な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "challenges": {
+      "tier": "normal",
+      "surface": "challenges",
+      "pos": "n · B1",
+      "pron": "/ˈtʃæl.ɪn.dʒɪz/",
+      "meaning": "試練、難題",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "threaten": {
+      "tier": "normal",
+      "surface": "threaten",
+      "pos": "v · B1",
+      "pron": "/ˈθret.ən/",
+      "meaning": "脅かす、〜しかねない",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "empires": {
+      "tier": "normal",
+      "surface": "empires",
+      "pos": "n · B2",
+      "pron": "/ˈem.paɪəz/",
+      "meaning": "帝国",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "guo": {
+      "tier": "basic",
+      "surface": "guo",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "郭(郭靖)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "jing": {
+      "tier": "basic",
+      "surface": "jing",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "靖(郭靖)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "yang": {
+      "tier": "basic",
+      "surface": "yang",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "楊(楊康)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "kang": {
+      "tier": "basic",
+      "surface": "kang",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "康(楊康)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sudden": {
+      "tier": "normal",
+      "surface": "sudden",
+      "pos": "adj · B1",
+      "pron": "/ˈsʌd.ən/",
+      "meaning": "突然の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "families": {
+      "tier": "basic",
+      "surface": "families",
+      "pos": "n · A1",
+      "pron": "/ˈfæm.ɪ.liz/",
+      "meaning": "家族",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "huang": {
+      "tier": "basic",
+      "surface": "huang",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "黄(黄蓉)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rong": {
+      "tier": "basic",
+      "surface": "rong",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "蓉(黄蓉)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "song": {
+      "tier": "basic",
+      "surface": "song",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "宋(宋朝)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "capital": {
+      "tier": "normal",
+      "surface": "capital",
+      "pos": "n · B1",
+      "pron": "/ˈkæp.ɪ.təl/",
+      "meaning": "首都",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "historical": {
+      "tier": "normal",
+      "surface": "historical",
+      "pos": "adj · B1",
+      "pron": "/hɪˈstɒr.ɪ.kəl/",
+      "meaning": "歴史上の、史実の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "events": {
+      "tier": "basic",
+      "surface": "events",
+      "pos": "n · A2",
+      "pron": "/ɪˈvents/",
+      "meaning": "出来事、事件",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "solve": {
+      "tier": "normal",
+      "surface": "solve",
+      "pos": "v · B1",
+      "pron": "/sɒlv/",
+      "meaning": "解決する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "crimes": {
+      "tier": "normal",
+      "surface": "crimes",
+      "pos": "n · B1",
+      "pron": "/kraɪmz/",
+      "meaning": "犯罪",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "skills": {
+      "tier": "basic",
+      "surface": "skills",
+      "pos": "n · A2",
+      "pron": "/skɪlz/",
+      "meaning": "技能、腕前",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unique": {
+      "tier": "normal",
+      "surface": "unique",
+      "pos": "adj · B1",
+      "pron": "/juːˈniːk/",
+      "meaning": "独自の、唯一の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "styles": {
+      "tier": "basic",
+      "surface": "styles",
+      "pos": "n · A2",
+      "pron": "/staɪlz/",
+      "meaning": "流派、様式",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surprising": {
+      "tier": "normal",
+      "surface": "surprising",
+      "pos": "adj · B1",
+      "pron": "/səˈpraɪ.zɪŋ/",
+      "meaning": "驚くべき",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "technique": {
+      "tier": "normal",
+      "surface": "technique",
+      "pos": "n · B1",
+      "pron": "/tekˈniːk/",
+      "meaning": "技術、技法",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "perform": {
+      "tier": "normal",
+      "surface": "perform",
+      "pos": "v · B1",
+      "pron": "/pəˈfɔːm/",
+      "meaning": "行う、遂行する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "students": {
+      "tier": "basic",
+      "surface": "students",
+      "pos": "n · A1",
+      "pron": "/ˈstjuː.dənts/",
+      "meaning": "生徒、門弟",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cha": {
+      "tier": "basic",
+      "surface": "cha",
+      "pos": "n · proper",
+      "pron": "",
+      "meaning": "チャ(ルイ・チャ=金庸)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "culture": {
+      "tier": "normal",
+      "surface": "culture",
+      "pos": "n · A2",
+      "pron": "/ˈkʌl.tʃər/",
+      "meaning": "文化",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "versions": {
+      "tier": "normal",
+      "surface": "versions",
+      "pos": "n · B1",
+      "pron": "/ˈvɜː.ʃənz/",
+      "meaning": "版、形態",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "government": {
+      "tier": "normal",
+      "surface": "government",
+      "pos": "n · A2",
+      "pron": "/ˈɡʌv.ən.mənt/",
+      "meaning": "政府",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "relatively": {
+      "tier": "normal",
+      "surface": "relatively",
+      "pos": "adv · B2",
+      "pron": "/ˈrel.ə.tɪv.li/",
+      "meaning": "比較的",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "unknown": {
+      "tier": "normal",
+      "surface": "unknown",
+      "pos": "adj · B1",
+      "pron": "/ʌnˈnoʊn/",
+      "meaning": "知られていない、無名の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "difficulties": {
+      "tier": "normal",
+      "surface": "difficulties",
+      "pos": "n · B1",
+      "pron": "/ˈdɪf.ɪ.kəl.tiz/",
+      "meaning": "困難、難しさ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cultural": {
+      "tier": "normal",
+      "surface": "cultural",
+      "pos": "adj · B1",
+      "pron": "/ˈkʌl.tʃər.əl/",
+      "meaning": "文化的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "knowledge": {
+      "tier": "normal",
+      "surface": "knowledge",
+      "pos": "n · B1",
+      "pron": "/ˈnɒl.ɪdʒ/",
+      "meaning": "知識",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "recent": {
+      "tier": "normal",
+      "surface": "recent",
+      "pos": "adj · B1",
+      "pron": "/ˈriː.sənt/",
+      "meaning": "最近の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "translations": {
+      "tier": "normal",
+      "surface": "translations",
+      "pos": "n · B1",
+      "pron": "/trænzˈleɪ.ʃənz/",
+      "meaning": "翻訳",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "experience": {
+      "tier": "basic",
+      "surface": "experience",
+      "pos": "v · A2",
+      "pron": "/ɪkˈspɪə.ri.əns/",
+      "meaning": "体験する、経験する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
       "collocations": []
     }
   },

@@ -107,43 +107,55 @@
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " Josephine Cochrane was suddenly "
+              "surface": " Josephine Cochrane was ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "widowed",
-              "ref": "widowed",
-              "tier": "known"
+              "surface": "suddenly",
+              "ref": "suddenly",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " and left with "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "mounting",
-              "ref": "mounting",
-              "tier": "known"
+              "surface": "widowed",
+              "ref": "widowed",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " "
+              "surface": " and left with "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "debts",
-              "ref": "debts",
-              "tier": "known"
+              "surface": "mounting",
+              "ref": "mounting",
+              "tier": "normal"
             },
             {
               "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "debts",
+              "ref": "debts",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -190,7 +202,7 @@
               "type": "word",
               "surface": "fortunes",
               "ref": "fortunes",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -233,7 +245,7 @@
               "type": "word",
               "surface": "hosting",
               "ref": "hosting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -245,58 +257,70 @@
               "type": "word",
               "surface": "lavish",
               "ref": "lavish",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " dinner parties and watching her "
+              "surface": " dinner parties and ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "watching",
+              "ref": "watching",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " her ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "dishware",
               "ref": "dishware",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " get "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "chipped",
               "ref": "chipped",
-              "tier": "known"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": " during "
-            },
-            {
-              "id": "t10",
-              "type": "word",
-              "surface": "handwashing",
-              "ref": "handwashing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " "
+              "surface": " during "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "convinced",
-              "ref": "convinced",
-              "tier": "known"
+              "surface": "handwashing",
+              "ref": "handwashing",
+              "tier": "normal"
             },
             {
               "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "convinced",
+              "ref": "convinced",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
               "type": "skip",
               "surface": " her the world needed a better way to clean dishes."
             }
@@ -346,45 +370,57 @@
               "type": "word",
               "surface": "prototype",
               "ref": "prototype",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", eventually "
+              "surface": ", ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "eventually",
+              "ref": "eventually",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "showcasing",
               "ref": "showcasing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " her dishwashing "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "contraption",
               "ref": "contraption",
               "tier": "key"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " at the "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "expression",
               "surface": "Chicago World's Fair",
               "ref": "chicago_worlds_fair"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -430,7 +466,7 @@
               "type": "word",
               "surface": "dishwasher",
               "ref": "dishwasher",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -442,12 +478,24 @@
               "type": "word",
               "surface": "remarkably",
               "ref": "remarkably",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " similar to Cochrane's."
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "similar",
+              "ref": "similar",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " to Cochrane's.",
+              "id": "t7"
             }
           ]
         }
@@ -491,7 +539,7 @@
               "type": "word",
               "surface": "basin",
               "ref": "basin",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -503,7 +551,7 @@
               "type": "word",
               "surface": "heated",
               "ref": "heated",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -579,69 +627,81 @@
               "type": "word",
               "surface": "circulation",
               "ref": "circulation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " pump sends high-pressure water up into "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "pump",
+              "ref": "pump",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " sends high-pressure water up into ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "spray arms",
               "ref": "spray_arms"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", where it "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "shoots",
               "ref": "shoots",
-              "tier": "skip"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " out of "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "angled",
-              "ref": "angled",
-              "tier": "known"
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " out of "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "nozzles",
-              "ref": "nozzles",
-              "tier": "known"
+              "surface": "angled",
+              "ref": "angled",
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": ", "
+              "surface": " "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "propelling",
-              "ref": "propelling",
-              "tier": "known"
+              "surface": "nozzles",
+              "ref": "nozzles",
+              "tier": "normal"
             },
             {
               "id": "t13",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "propelling",
+              "ref": "propelling",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
               "type": "skip",
               "surface": " the arms to spin."
             }
@@ -681,7 +741,7 @@
               "type": "word",
               "surface": "recollects",
               "ref": "recollects",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -695,21 +755,45 @@
               "ref": "turbidity_sensor"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " measures the water's "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "measures",
+              "ref": "measures",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " the water's ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "dirtiness",
               "ref": "dirtiness",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " by seeing how much light passes through it."
+              "surface": " by seeing how much light ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "passes",
+              "ref": "passes",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " through it.",
+              "id": "t11"
             }
           ]
         },
@@ -743,34 +827,46 @@
               "type": "word",
               "surface": "adjusts",
               "ref": "adjusts",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " the wash time and water temperature "
+              "surface": " the wash time and water ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "accordingly",
-              "ref": "accordingly",
-              "tier": "known"
+              "surface": "temperature",
+              "ref": "temperature",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " and "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "transitions",
-              "ref": "transitions",
-              "tier": "known"
+              "surface": "accordingly",
+              "ref": "accordingly",
+              "tier": "normal"
             },
             {
               "id": "t7",
+              "type": "skip",
+              "surface": " and "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "transitions",
+              "ref": "transitions",
+              "tier": "normal"
+            },
+            {
+              "id": "t9",
               "type": "skip",
               "surface": " to the wash cycle."
             }
@@ -802,7 +898,7 @@
               "type": "word",
               "surface": "Detergent",
               "ref": "detergent",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -814,7 +910,7 @@
               "type": "word",
               "surface": "released",
               "ref": "released",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t4",
@@ -853,7 +949,7 @@
               "type": "word",
               "surface": "drains",
               "ref": "drains",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -865,7 +961,7 @@
               "type": "word",
               "surface": "circulated",
               "ref": "circulated",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -877,7 +973,7 @@
               "type": "word",
               "surface": "sanitizing",
               "ref": "sanitizing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -889,7 +985,7 @@
               "type": "word",
               "surface": "rinse",
               "ref": "rinse",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -918,55 +1014,103 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "This is at least 10 degrees warmer than a typical "
+              "surface": "This is at least 10 ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "sink",
-              "ref": "sink",
-              "tier": "skip"
+              "surface": "degrees",
+              "ref": "degrees",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": "'s hottest water, and hot enough to "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "eliminate",
-              "ref": "eliminate",
-              "tier": "known"
+              "surface": "warmer",
+              "ref": "warmer",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " most "
+              "surface": " than a ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "foodborne",
-              "ref": "foodborne",
-              "tier": "known"
+              "surface": "typical",
+              "ref": "typical",
+              "tier": "normal",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "bacteria",
-              "ref": "bacteria",
-              "tier": "known"
+              "surface": "sink",
+              "ref": "sink",
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "hottest",
+              "ref": "hottest",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " water, and hot enough to ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "eliminate",
+              "ref": "eliminate",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " most "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "foodborne",
+              "ref": "foodborne",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "bacteria",
+              "ref": "bacteria",
+              "tier": "normal"
+            },
+            {
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1005,7 +1149,7 @@
               "type": "word",
               "surface": "optional",
               "ref": "optional",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1045,19 +1189,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "While that's how most dishwashers work, how well they actually clean depends on several "
+              "surface": "While that's how most dishwashers work, how well they ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "actually",
+              "ref": "actually",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " clean ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "depends",
+              "ref": "depends",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " on ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "several",
+              "ref": "several",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "factors",
               "ref": "factors",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t9",
               "type": "skip",
               "surface": "— the first being the type of detergent you use."
             }
@@ -1092,7 +1272,7 @@
               "type": "word",
               "surface": "liquid",
               "ref": "liquid",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1104,7 +1284,7 @@
               "type": "word",
               "surface": "powder",
               "ref": "powder",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1116,7 +1296,7 @@
               "type": "word",
               "surface": "pods",
               "ref": "pods",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1154,7 +1334,7 @@
               "type": "word",
               "surface": "ingredient",
               "ref": "ingredient",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1199,54 +1379,90 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "These special "
+              "surface": "These ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "special",
+              "ref": "special",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "dual-ended",
               "ref": "dual_ended"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "molecules",
               "ref": "molecules",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " remove "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "remove",
+              "ref": "remove",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "food residues",
               "ref": "food_residues"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " by "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "expression",
               "surface": "latching onto",
               "ref": "latch_onto"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " them with one end and pulling towards the water with the other."
+              "surface": " them with one end and ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "pulling",
+              "ref": "pulling",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " towards the water with the other.",
+              "id": "t15"
             }
           ]
         },
@@ -1275,33 +1491,69 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "You'll also find surfactants in regular "
+              "surface": "You'll also find ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "surfactants",
+              "ref": "surfactants",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " in ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "regular",
+              "ref": "regular",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "dish",
               "ref": "dish",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "soap",
               "ref": "soap",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", but detergents go further."
+              "surface": ", but ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "detergents",
+              "ref": "detergents",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " go further.",
+              "id": "t11"
             }
           ]
         },
@@ -1325,78 +1577,138 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "They often contain "
+              "surface": "They often ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "contain",
+              "ref": "contain",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "enzymes",
               "ref": "enzymes",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " that "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "break down",
               "ref": "break_down"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " food into smaller pieces that surfactants can easily "
+              "surface": " food into ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "smaller",
+              "ref": "smaller",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "pieces",
+              "ref": "pieces",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " that ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "surfactants",
+              "ref": "surfactants",
+              "tier": "key",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " can easily ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "tug",
               "ref": "tug",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t15",
               "type": "skip",
               "surface": " away, and "
             },
             {
-              "id": "t8",
+              "id": "t16",
               "type": "word",
               "surface": "bleach",
               "ref": "bleach",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t17",
               "type": "skip",
               "surface": ", which "
             },
             {
-              "id": "t10",
+              "id": "t18",
               "type": "word",
               "surface": "disinfects",
               "ref": "disinfects",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " and removes "
+              "surface": " and ",
+              "id": "t19"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "removes",
+              "ref": "removes",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "stains",
               "ref": "stains",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -1459,18 +1771,30 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Liquid detergent can only contain bleach or enzymes, since bleach "
+              "surface": "Liquid detergent can only ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "contain",
+              "ref": "contain",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " bleach or enzymes, since bleach ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "breaks down",
               "ref": "break_down"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " enzymes in liquid form."
             }
@@ -1500,33 +1824,117 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Powder detergents solve this problem by "
+              "surface": "Powder ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "detergents",
+              "ref": "detergents",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "solve",
+              "ref": "solve",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " this problem by ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "coating",
               "ref": "coating",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " powdered enzymes with a protective "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "powdered",
+              "ref": "powdered",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " enzymes with a ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "protective",
+              "ref": "protective",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "wax",
               "ref": "wax",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", allowing them to work alongside powdered bleach."
+              "surface": ", ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "allowing",
+              "ref": "allowing",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " them to work ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "alongside",
+              "ref": "alongside",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "powdered",
+              "ref": "powdered",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " bleach.",
+              "id": "t19"
             }
           ]
         },
@@ -1551,55 +1959,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But even more effective are dishwasher pods that "
+              "surface": "But even more ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "separate",
-              "ref": "separate",
-              "tier": "skip"
+              "surface": "effective",
+              "ref": "effective",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " "
+              "surface": " are dishwasher pods that ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "components",
-              "ref": "components",
-              "tier": "known"
+              "surface": "separate",
+              "ref": "separate",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " using a "
+              "surface": " "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "plastic",
-              "ref": "plastic",
-              "tier": "skip"
+              "surface": "components",
+              "ref": "components",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " "
+              "surface": " using a "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "film",
-              "ref": "film",
-              "tier": "skip"
+              "surface": "plastic",
+              "ref": "plastic",
+              "tier": "basic"
             },
             {
               "id": "t9",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "film",
+              "ref": "film",
+              "tier": "basic"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1643,7 +2063,7 @@
               "type": "word",
               "surface": "environmental",
               "ref": "environmental",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1655,36 +2075,84 @@
               "type": "word",
               "surface": "impacts",
               "ref": "impacts",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": "— some studies claim the plastic "
+              "surface": "— some ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "studies",
+              "ref": "studies",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "claim",
+              "ref": "claim",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " the plastic ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "biodegrades",
               "ref": "biodegrades",
               "tier": "key"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " in a couple of months, while others find it "
+              "surface": " in a ",
+              "id": "t11"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "couple",
+              "ref": "couple",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " of months, while others find it ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "persists",
               "ref": "persists",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " for much longer."
+              "surface": " for much ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "longer",
+              "ref": "longer",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         }
@@ -1714,19 +2182,43 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "How you treat your dishwasher, and the dishes you put in, can also affect "
+              "surface": "How you ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "treat",
+              "ref": "treat",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " your dishwasher, and the dishes you put in, can also ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "affect",
+              "ref": "affect",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "performance",
               "ref": "performance",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -1766,34 +2258,70 @@
               "type": "word",
               "surface": "filter",
               "ref": "filter",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " can trick the turbidity sensor into thinking dishes are dirtier than they are, "
+              "surface": " can ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "trick",
+              "ref": "trick",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " the turbidity sensor into ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "thinking",
+              "ref": "thinking",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " dishes are ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "dirtier",
+              "ref": "dirtier",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " than they are, ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "prompting",
               "ref": "prompting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": " an "
             },
             {
-              "id": "t6",
+              "id": "t12",
               "type": "word",
               "surface": "unnecessarily",
               "ref": "unnecessarily",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " long wash cycle."
             }
@@ -1845,7 +2373,7 @@
               "type": "word",
               "surface": "beforehand",
               "ref": "beforehand",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1894,69 +2422,93 @@
               "type": "word",
               "surface": "rinsed",
               "ref": "rinsed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", the turbidity sensor will detect "
+              "surface": ", the turbidity sensor will ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "minimal",
-              "ref": "minimal",
-              "tier": "known"
+              "surface": "detect",
+              "ref": "detect",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "grime",
-              "ref": "grime",
-              "tier": "known"
+              "surface": "minimal",
+              "ref": "minimal",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " and trigger a short wash cycle, which may not be enough to break down any "
+              "surface": " "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "stubborn",
-              "ref": "stubborn",
-              "tier": "known"
+              "surface": "grime",
+              "ref": "grime",
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "type": "skip",
+              "surface": " and ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "trigger",
+              "ref": "trigger",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " a short wash cycle, which may not be enough to break down any ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "stubborn",
+              "ref": "stubborn",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "expression",
               "surface": "stuck-on",
               "ref": "stuck_on"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "crust",
               "ref": "crust",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1982,54 +2534,90 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Further, the enzymes in detergent are designed to "
+              "surface": "Further, the enzymes in detergent are ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "designed",
+              "ref": "designed",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "latch onto",
               "ref": "latch_onto"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " food "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "residue",
               "ref": "residue",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", so the best practice is to simply "
+              "surface": ", so the best ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "practice",
+              "ref": "practice",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " is to ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "simply",
+              "ref": "simply",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "scrape",
               "ref": "scrape",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " your dishes before "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "word",
               "surface": "loading",
               "ref": "loading",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2105,7 +2693,7 @@
               "type": "word",
               "surface": "recycle",
               "ref": "recycle",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2117,7 +2705,7 @@
               "type": "word",
               "surface": "gallons",
               "ref": "gallons",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2188,18 +2776,30 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "So if you think handwashing your dishes might take longer than that, it might be "
+              "surface": "So if you think handwashing your dishes might take ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "longer",
+              "ref": "longer",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " than that, it might be ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "worth doing",
               "ref": "worth_doing"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " just running a load."
             }
@@ -2251,7 +2851,7 @@
               "type": "word",
               "surface": "altogether",
               "ref": "altogether",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2295,36 +2895,96 @@
               "type": "word",
               "surface": "warp",
               "ref": "warp",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " wooden items and certain plastics, "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "wooden",
+              "ref": "wooden",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " items and ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "certain",
+              "ref": "certain",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "plastics",
+              "ref": "plastics",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "damaging",
               "ref": "damaging",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t12",
               "type": "word",
               "surface": "seals",
               "ref": "seals",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " in travel mugs or storage containers."
+              "surface": " in travel mugs or ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "storage",
+              "ref": "storage",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "containers",
+              "ref": "containers",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         },
@@ -2354,33 +3014,64 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Sharp "
+              "type": "word",
+              "surface": "Sharp",
+              "ref": "sharp",
+              "tier": "normal",
+              "id": "t1"
             },
             {
-              "id": "t2",
-              "type": "word",
-              "surface": "knives",
-              "ref": "knives",
-              "tier": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
             },
             {
               "id": "t3",
+              "type": "word",
+              "surface": "knives",
+              "ref": "knives",
+              "tier": "basic"
+            },
+            {
+              "id": "t4",
               "type": "skip",
               "surface": " can also be "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "dulled",
               "ref": "dulled",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " by detergents, or they can even damage the dishwasher itself."
+              "surface": " by ",
+              "id": "t6"
+            },
+            {
+              "type": "word",
+              "surface": "detergents",
+              "ref": "detergents",
+              "tier": "normal",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": ", or they can even ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "damage",
+              "ref": "damage",
+              "tier": "normal",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " the dishwasher itself.",
+              "id": "t10"
             }
           ]
         },
@@ -2404,19 +3095,31 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And there's also an energy "
+              "surface": "And there's also an ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "energy",
+              "ref": "energy",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "consideration",
               "ref": "consideration",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": "."
             }
@@ -2452,9 +3155,57 @@
               "ref": "on_average"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": ", a standard dishwasher cycle uses about the same amount of energy as leaving your TV on for 12 hours."
+              "surface": ", a ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "standard",
+              "ref": "standard",
+              "tier": "normal",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " dishwasher cycle uses about the same ",
+              "id": "t4"
+            },
+            {
+              "type": "word",
+              "surface": "amount",
+              "ref": "amount",
+              "tier": "normal",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t6"
+            },
+            {
+              "type": "word",
+              "surface": "energy",
+              "ref": "energy",
+              "tier": "normal",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " as ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "leaving",
+              "ref": "leaving",
+              "tier": "normal",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " your TV on for 12 hours.",
+              "id": "t10"
             }
           ]
         }
@@ -2484,18 +3235,30 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Clearly, there are situations when handwashing "
+              "surface": "Clearly, there are ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "situations",
+              "ref": "situations",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " when handwashing ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "makes more sense",
               "ref": "makes_sense"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": "."
             }
@@ -2537,19 +3300,31 @@
               "ref": "faced_with"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " a dinner party's worth of dishes, a dishwasher can be a welcome "
+              "surface": " a dinner party's worth of dishes, a dishwasher can be a ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "welcome",
+              "ref": "welcome",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "reprieve",
               "ref": "reprieve",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "."
             }
@@ -2560,7 +3335,7 @@
   ],
   "words": {
     "accordingly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "accordingly",
       "pos": "adv · B2",
       "pron": "/əˈkɔː.dɪŋ.li/",
@@ -2573,7 +3348,7 @@
       "collocations": []
     },
     "adjusts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "adjusts",
       "pos": "v · B1",
       "pron": "/əˈdʒʌsts/",
@@ -2586,7 +3361,7 @@
       "collocations": []
     },
     "altogether": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "altogether",
       "pos": "adv · B2",
       "pron": "/ˌɔːl.təˈɡeð.ər/",
@@ -2599,7 +3374,7 @@
       "collocations": []
     },
     "angled": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "angled",
       "pos": "adj · B2",
       "pron": "/ˈæŋ.ɡəld/",
@@ -2612,7 +3387,7 @@
       "collocations": []
     },
     "bacteria": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bacteria",
       "pos": "n · B1",
       "pron": "/bækˈtɪə.ri.ə/",
@@ -2625,7 +3400,7 @@
       "collocations": []
     },
     "basin": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "basin",
       "pos": "n · B2",
       "pron": "/ˈbeɪ.sən/",
@@ -2638,7 +3413,7 @@
       "collocations": []
     },
     "beforehand": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "beforehand",
       "pos": "adv · B2",
       "pron": "/bɪˈfɔː.hænd/",
@@ -2664,7 +3439,7 @@
       "collocations": []
     },
     "bleach": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bleach",
       "pos": "n · B2",
       "pron": "/bliːtʃ/",
@@ -2677,7 +3452,7 @@
       "collocations": []
     },
     "chipped": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "chipped",
       "pos": "v · B2",
       "pron": "/tʃɪpt/",
@@ -2690,7 +3465,7 @@
       "collocations": []
     },
     "circulated": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "circulated",
       "pos": "v · B2",
       "pron": "/ˈsɜː.kjə.leɪ.tɪd/",
@@ -2703,7 +3478,7 @@
       "collocations": []
     },
     "circulation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "circulation",
       "pos": "n · B2",
       "pron": "/ˌsɜː.kjəˈleɪ.ʃən/",
@@ -2716,7 +3491,7 @@
       "collocations": []
     },
     "coating": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "coating",
       "pos": "v · B2",
       "pron": "/ˈkoʊ.tɪŋ/",
@@ -2729,7 +3504,7 @@
       "collocations": []
     },
     "components": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "components",
       "pos": "n · B2",
       "pron": "/kəmˈpoʊ.nənts/",
@@ -2742,7 +3517,7 @@
       "collocations": []
     },
     "consideration": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "consideration",
       "pos": "n · B1",
       "pron": "/kənˌsɪd.əˈreɪ.ʃən/",
@@ -2768,7 +3543,7 @@
       "collocations": []
     },
     "convinced": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "convinced",
       "pos": "v · B1",
       "pron": "/kənˈvɪnst/",
@@ -2794,7 +3569,7 @@
       "collocations": []
     },
     "crust": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "crust",
       "pos": "n · B2",
       "pron": "/krʌst/",
@@ -2807,7 +3582,7 @@
       "collocations": []
     },
     "damaging": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "damaging",
       "pos": "v · A2",
       "pron": "/ˈdæm.ɪ.dʒɪŋ/",
@@ -2820,7 +3595,7 @@
       "collocations": []
     },
     "debts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "debts",
       "pos": "n · B1",
       "pron": "/dets/",
@@ -2833,7 +3608,7 @@
       "collocations": []
     },
     "detergent": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "Detergent",
       "pos": "n · B1",
       "pron": "/dɪˈtɜː.dʒənt/",
@@ -2846,7 +3621,7 @@
       "collocations": []
     },
     "dirtiness": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "dirtiness",
       "pos": "n · B2",
       "pron": "/ˈdɜː.ti.nəs/",
@@ -2859,7 +3634,7 @@
       "collocations": []
     },
     "dish": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "dish",
       "pos": "n · A1",
       "pron": "/dɪʃ/",
@@ -2885,7 +3660,7 @@
       "collocations": []
     },
     "dishwasher": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "dishwasher",
       "pos": "n · B1",
       "pron": "/ˈdɪʃ.wɒʃ.ər/",
@@ -2898,7 +3673,7 @@
       "collocations": []
     },
     "disinfects": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "disinfects",
       "pos": "v · B2",
       "pron": "/ˌdɪs.ɪnˈfekts/",
@@ -2911,7 +3686,7 @@
       "collocations": []
     },
     "drains": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "drains",
       "pos": "v · B2",
       "pron": "/dreɪnz/",
@@ -2924,7 +3699,7 @@
       "collocations": []
     },
     "dulled": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "dulled",
       "pos": "v · B2",
       "pron": "/dʌld/",
@@ -2937,7 +3712,7 @@
       "collocations": []
     },
     "eliminate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "eliminate",
       "pos": "v · B2",
       "pron": "/ɪˈlɪm.ɪ.neɪt/",
@@ -2950,7 +3725,7 @@
       "collocations": []
     },
     "environmental": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "environmental",
       "pos": "adj · B1",
       "pron": "/ɪnˌvaɪə.rənˈmen.təl/",
@@ -2963,7 +3738,7 @@
       "collocations": []
     },
     "enzymes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "enzymes",
       "pos": "n · B2",
       "pron": "/ˈen.zaɪmz/",
@@ -2976,7 +3751,7 @@
       "collocations": []
     },
     "factors": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "factors",
       "pos": "n · B1",
       "pron": "/ˈfæk.təz/",
@@ -2989,7 +3764,7 @@
       "collocations": []
     },
     "film": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "film",
       "pos": "n · A2",
       "pron": "/fɪlm/",
@@ -3002,7 +3777,7 @@
       "collocations": []
     },
     "filter": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "filter",
       "pos": "n · B1",
       "pron": "/ˈfɪl.tər/",
@@ -3015,7 +3790,7 @@
       "collocations": []
     },
     "foodborne": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "foodborne",
       "pos": "adj · B2",
       "pron": "/ˈfuːd.bɔːn/",
@@ -3028,7 +3803,7 @@
       "collocations": []
     },
     "fortunes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "fortunes",
       "pos": "n · B2",
       "pron": "/ˈfɔː.tʃənz/",
@@ -3041,7 +3816,7 @@
       "collocations": []
     },
     "gallons": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "gallons",
       "pos": "n · B2",
       "pron": "/ˈɡæl.ənz/",
@@ -3054,7 +3829,7 @@
       "collocations": []
     },
     "grime": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "grime",
       "pos": "n · B2",
       "pron": "/ɡraɪm/",
@@ -3067,7 +3842,7 @@
       "collocations": []
     },
     "handwashing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "handwashing",
       "pos": "n · B1",
       "pron": "/ˈhænd.wɒʃ.ɪŋ/",
@@ -3080,7 +3855,7 @@
       "collocations": []
     },
     "heated": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "heated",
       "pos": "v · A2",
       "pron": "/ˈhiː.tɪd/",
@@ -3093,7 +3868,7 @@
       "collocations": []
     },
     "hosting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "hosting",
       "pos": "v · B1",
       "pron": "/ˈhoʊs.tɪŋ/",
@@ -3106,7 +3881,7 @@
       "collocations": []
     },
     "impacts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "impacts",
       "pos": "n · B1",
       "pron": "/ˈɪm.pækts/",
@@ -3119,7 +3894,7 @@
       "collocations": []
     },
     "ingredient": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "ingredient",
       "pos": "n · B1",
       "pron": "/ɪnˈɡriː.di.ənt/",
@@ -3132,7 +3907,7 @@
       "collocations": []
     },
     "knives": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "knives",
       "pos": "n · A2",
       "pron": "/naɪvz/",
@@ -3145,7 +3920,7 @@
       "collocations": []
     },
     "lavish": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "lavish",
       "pos": "adj · B2",
       "pron": "/ˈlæv.ɪʃ/",
@@ -3158,7 +3933,7 @@
       "collocations": []
     },
     "liquid": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "liquid",
       "pos": "n · B1",
       "pron": "/ˈlɪk.wɪd/",
@@ -3171,7 +3946,7 @@
       "collocations": []
     },
     "loading": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "loading",
       "pos": "v · A2",
       "pron": "/ˈloʊ.dɪŋ/",
@@ -3184,7 +3959,7 @@
       "collocations": []
     },
     "minimal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "minimal",
       "pos": "adj · B2",
       "pron": "/ˈmɪn.ɪ.məl/",
@@ -3197,7 +3972,7 @@
       "collocations": []
     },
     "molecules": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "molecules",
       "pos": "n · B2",
       "pron": "/ˈmɒl.ɪ.kjuːlz/",
@@ -3210,7 +3985,7 @@
       "collocations": []
     },
     "mounting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mounting",
       "pos": "adj · B2",
       "pron": "/ˈmaʊn.tɪŋ/",
@@ -3223,7 +3998,7 @@
       "collocations": []
     },
     "nozzles": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "nozzles",
       "pos": "n · B2",
       "pron": "/ˈnɒz.əlz/",
@@ -3236,7 +4011,7 @@
       "collocations": []
     },
     "optional": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "optional",
       "pos": "adj · B1",
       "pron": "/ˈɒp.ʃən.əl/",
@@ -3249,7 +4024,7 @@
       "collocations": []
     },
     "performance": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "performance",
       "pos": "n · A2",
       "pron": "/pəˈfɔː.məns/",
@@ -3262,7 +4037,7 @@
       "collocations": []
     },
     "persists": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "persists",
       "pos": "v · B2",
       "pron": "/pəˈsɪsts/",
@@ -3275,7 +4050,7 @@
       "collocations": []
     },
     "plastic": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "plastic",
       "pos": "n · A2",
       "pron": "/ˈplæs.tɪk/",
@@ -3288,7 +4063,7 @@
       "collocations": []
     },
     "pods": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "pods",
       "pos": "n · B2",
       "pron": "/pɒdz/",
@@ -3301,7 +4076,7 @@
       "collocations": []
     },
     "powder": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "powder",
       "pos": "n · B1",
       "pron": "/ˈpaʊ.dər/",
@@ -3314,7 +4089,7 @@
       "collocations": []
     },
     "prompting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "prompting",
       "pos": "v · B2",
       "pron": "/ˈprɒmp.tɪŋ/",
@@ -3327,7 +4102,7 @@
       "collocations": []
     },
     "propelling": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "propelling",
       "pos": "v · B2",
       "pron": "/prəˈpel.ɪŋ/",
@@ -3340,7 +4115,7 @@
       "collocations": []
     },
     "prototype": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "prototype",
       "pos": "n · B2",
       "pron": "/ˈproʊ.tə.taɪp/",
@@ -3353,7 +4128,7 @@
       "collocations": []
     },
     "recollects": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "recollects",
       "pos": "v · C1",
       "pron": "/ˌriː.kəˈlekts/",
@@ -3366,7 +4141,7 @@
       "collocations": []
     },
     "recycle": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "recycle",
       "pos": "v · B1",
       "pron": "/ˌriːˈsaɪ.kl/",
@@ -3379,7 +4154,7 @@
       "collocations": []
     },
     "released": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "released",
       "pos": "v · A2",
       "pron": "/rɪˈliːst/",
@@ -3392,7 +4167,7 @@
       "collocations": []
     },
     "remarkably": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "remarkably",
       "pos": "adv · B2",
       "pron": "/rɪˈmɑːk.ə.bli/",
@@ -3418,7 +4193,7 @@
       "collocations": []
     },
     "residue": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "residue",
       "pos": "n · B2",
       "pron": "/ˈrez.ɪ.djuː/",
@@ -3431,7 +4206,7 @@
       "collocations": []
     },
     "rinse": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rinse",
       "pos": "n · B1",
       "pron": "/rɪns/",
@@ -3444,7 +4219,7 @@
       "collocations": []
     },
     "rinsed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rinsed",
       "pos": "v · B1",
       "pron": "/rɪnst/",
@@ -3457,7 +4232,7 @@
       "collocations": []
     },
     "sanitizing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sanitizing",
       "pos": "adj · B2",
       "pron": "/ˈsæn.ɪ.taɪ.zɪŋ/",
@@ -3470,7 +4245,7 @@
       "collocations": []
     },
     "scrape": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scrape",
       "pos": "v · B1",
       "pron": "/skreɪp/",
@@ -3483,7 +4258,7 @@
       "collocations": []
     },
     "seals": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "seals",
       "pos": "n · B2",
       "pron": "/siːlz/",
@@ -3496,7 +4271,7 @@
       "collocations": []
     },
     "separate": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "separate",
       "pos": "v · A2",
       "pron": "/ˈsep.ə.reɪt/",
@@ -3509,7 +4284,7 @@
       "collocations": []
     },
     "shoots": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "shoots",
       "pos": "v · A2",
       "pron": "/ʃuːts/",
@@ -3522,7 +4297,7 @@
       "collocations": []
     },
     "showcasing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "showcasing",
       "pos": "v · B2",
       "pron": "/ˈʃoʊ.keɪ.sɪŋ/",
@@ -3535,7 +4310,7 @@
       "collocations": []
     },
     "sink": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "sink",
       "pos": "n · A2",
       "pron": "/sɪŋk/",
@@ -3548,7 +4323,7 @@
       "collocations": []
     },
     "soap": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "soap",
       "pos": "n · A2",
       "pron": "/soʊp/",
@@ -3574,7 +4349,7 @@
       "collocations": []
     },
     "stains": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "stains",
       "pos": "n · B1",
       "pron": "/steɪnz/",
@@ -3587,7 +4362,7 @@
       "collocations": []
     },
     "stubborn": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "stubborn",
       "pos": "adj · B2",
       "pron": "/ˈstʌb.ən/",
@@ -3613,7 +4388,7 @@
       "collocations": []
     },
     "transitions": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "transitions",
       "pos": "v · B2",
       "pron": "/trænˈzɪʃ.ənz/",
@@ -3626,7 +4401,7 @@
       "collocations": []
     },
     "tug": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tug",
       "pos": "v · B2",
       "pron": "/tʌɡ/",
@@ -3639,7 +4414,7 @@
       "collocations": []
     },
     "unnecessarily": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "unnecessarily",
       "pos": "adv · B2",
       "pron": "/ʌnˈnes.ə.ser.ə.li/",
@@ -3652,7 +4427,7 @@
       "collocations": []
     },
     "warp": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "warp",
       "pos": "v · B2",
       "pron": "/wɔːp/",
@@ -3665,7 +4440,7 @@
       "collocations": []
     },
     "wax": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "wax",
       "pos": "n · B1",
       "pron": "/wæks/",
@@ -3678,7 +4453,7 @@
       "collocations": []
     },
     "widowed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "widowed",
       "pos": "v · B2",
       "pron": "/ˈwɪd.oʊd/",
@@ -3686,6 +4461,760 @@
       "example": {
         "en": "Recently widowed.",
         "ja": "最近未亡人に。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pump": {
+      "tier": "normal",
+      "surface": "pump",
+      "pos": "n · B1",
+      "pron": "/pʌmp/",
+      "meaning": "ポンプ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "measures": {
+      "tier": "normal",
+      "surface": "measures",
+      "pos": "v · B1",
+      "pron": "/ˈmeʒ.əz/",
+      "meaning": "測定する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "passes": {
+      "tier": "normal",
+      "surface": "passes",
+      "pos": "v · B1",
+      "pron": "/ˈpɑː.sɪz/",
+      "meaning": "通過する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "degrees": {
+      "tier": "normal",
+      "surface": "degrees",
+      "pos": "n · B1",
+      "pron": "/dɪˈɡriːz/",
+      "meaning": "度(温度)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "warmer": {
+      "tier": "normal",
+      "surface": "warmer",
+      "pos": "adj · B1",
+      "pron": "/ˈwɔː.mər/",
+      "meaning": "より暖かい",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "typical": {
+      "tier": "normal",
+      "surface": "typical",
+      "pos": "adj · B1",
+      "pron": "/ˈtɪp.ɪ.kəl/",
+      "meaning": "典型的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hottest": {
+      "tier": "normal",
+      "surface": "hottest",
+      "pos": "adj · A2",
+      "pron": "/ˈhɒt.ɪst/",
+      "meaning": "最も熱い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "depends": {
+      "tier": "normal",
+      "surface": "depends",
+      "pos": "v · B1",
+      "pron": "/dɪˈpendz/",
+      "meaning": "依存する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "several": {
+      "tier": "normal",
+      "surface": "several",
+      "pos": "adj · B1",
+      "pron": "/ˈsev.rəl/",
+      "meaning": "いくつかの",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "remove": {
+      "tier": "normal",
+      "surface": "remove",
+      "pos": "v · B1",
+      "pron": "/rɪˈmuːv/",
+      "meaning": "除去する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pulling": {
+      "tier": "normal",
+      "surface": "pulling",
+      "pos": "v · A2",
+      "pron": "/ˈpʊl.ɪŋ/",
+      "meaning": "引っ張って",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "detergents": {
+      "tier": "normal",
+      "surface": "detergents",
+      "pos": "n · B1",
+      "pron": "/dɪˈtɜː.dʒənts/",
+      "meaning": "洗剤",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "contain": {
+      "tier": "normal",
+      "surface": "contain",
+      "pos": "v · B1",
+      "pron": "/kənˈteɪn/",
+      "meaning": "含む",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "pieces": {
+      "tier": "normal",
+      "surface": "pieces",
+      "pos": "n · A2",
+      "pron": "/ˈpiː.sɪz/",
+      "meaning": "断片、欠片",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "removes": {
+      "tier": "normal",
+      "surface": "removes",
+      "pos": "v · B1",
+      "pron": "/rɪˈmuːvz/",
+      "meaning": "除去する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "powdered": {
+      "tier": "normal",
+      "surface": "powdered",
+      "pos": "adj · B2",
+      "pron": "/ˈpaʊ.dəd/",
+      "meaning": "粉末状の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "protective": {
+      "tier": "normal",
+      "surface": "protective",
+      "pos": "adj · B2",
+      "pron": "/prəˈtek.tɪv/",
+      "meaning": "保護用の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "alongside": {
+      "tier": "normal",
+      "surface": "alongside",
+      "pos": "prep · B2",
+      "pron": "/əˌlɒŋˈsaɪd/",
+      "meaning": "〜と並んで",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "effective": {
+      "tier": "normal",
+      "surface": "effective",
+      "pos": "adj · B1",
+      "pron": "/ɪˈfek.tɪv/",
+      "meaning": "効果的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "studies": {
+      "tier": "normal",
+      "surface": "studies",
+      "pos": "n · B1",
+      "pron": "/ˈstʌd.iz/",
+      "meaning": "研究",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "claim": {
+      "tier": "normal",
+      "surface": "claim",
+      "pos": "v · B1",
+      "pron": "/kleɪm/",
+      "meaning": "主張する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "couple": {
+      "tier": "normal",
+      "surface": "couple",
+      "pos": "n · A2",
+      "pron": "/ˈkʌp.əl/",
+      "meaning": "2つ、数個",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "longer": {
+      "tier": "normal",
+      "surface": "longer",
+      "pos": "adv · A2",
+      "pron": "/ˈlɒŋ.ɡər/",
+      "meaning": "より長く",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "affect": {
+      "tier": "normal",
+      "surface": "affect",
+      "pos": "v · B1",
+      "pron": "/əˈfekt/",
+      "meaning": "影響する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trick": {
+      "tier": "normal",
+      "surface": "trick",
+      "pos": "v · B1",
+      "pron": "/trɪk/",
+      "meaning": "だます",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "thinking": {
+      "tier": "normal",
+      "surface": "thinking",
+      "pos": "v · A2",
+      "pron": "/ˈθɪŋ.kɪŋ/",
+      "meaning": "考えること",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dirtier": {
+      "tier": "normal",
+      "surface": "dirtier",
+      "pos": "adj · A2",
+      "pron": "/ˈdɜː.ti.ər/",
+      "meaning": "より汚い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "detect": {
+      "tier": "normal",
+      "surface": "detect",
+      "pos": "v · B1",
+      "pron": "/dɪˈtekt/",
+      "meaning": "検知する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "trigger": {
+      "tier": "normal",
+      "surface": "trigger",
+      "pos": "v · B2",
+      "pron": "/ˈtrɪɡ.ər/",
+      "meaning": "引き起こす",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "designed": {
+      "tier": "normal",
+      "surface": "designed",
+      "pos": "v · B1",
+      "pron": "/dɪˈzaɪnd/",
+      "meaning": "設計された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "practice": {
+      "tier": "normal",
+      "surface": "practice",
+      "pos": "n · B1",
+      "pron": "/ˈpræk.tɪs/",
+      "meaning": "実践、習慣",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "simply": {
+      "tier": "normal",
+      "surface": "simply",
+      "pos": "adv · B1",
+      "pron": "/ˈsɪm.pli/",
+      "meaning": "ただ単に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wooden": {
+      "tier": "normal",
+      "surface": "wooden",
+      "pos": "adj · A2",
+      "pron": "/ˈwʊd.ən/",
+      "meaning": "木製の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "certain": {
+      "tier": "normal",
+      "surface": "certain",
+      "pos": "adj · B1",
+      "pron": "/ˈsɜː.tən/",
+      "meaning": "特定の、ある種の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "plastics": {
+      "tier": "normal",
+      "surface": "plastics",
+      "pos": "n · B1",
+      "pron": "/ˈplæs.tɪks/",
+      "meaning": "プラスチック類",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "storage": {
+      "tier": "normal",
+      "surface": "storage",
+      "pos": "n · B1",
+      "pron": "/ˈstɔː.rɪdʒ/",
+      "meaning": "保存、収納",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "containers": {
+      "tier": "normal",
+      "surface": "containers",
+      "pos": "n · B1",
+      "pron": "/kənˈteɪ.nəz/",
+      "meaning": "容器",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "sharp": {
+      "tier": "normal",
+      "surface": "sharp",
+      "pos": "adj · A2",
+      "pron": "/ʃɑːp/",
+      "meaning": "鋭利な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "damage": {
+      "tier": "normal",
+      "surface": "damage",
+      "pos": "v · B1",
+      "pron": "/ˈdæm.ɪdʒ/",
+      "meaning": "傷つける",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "energy": {
+      "tier": "normal",
+      "surface": "energy",
+      "pos": "n · A2",
+      "pron": "/ˈen.ə.dʒi/",
+      "meaning": "エネルギー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "standard": {
+      "tier": "normal",
+      "surface": "standard",
+      "pos": "adj · B1",
+      "pron": "/ˈstæn.dəd/",
+      "meaning": "標準的な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "amount": {
+      "tier": "normal",
+      "surface": "amount",
+      "pos": "n · B1",
+      "pron": "/əˈmaʊnt/",
+      "meaning": "量",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "leaving": {
+      "tier": "normal",
+      "surface": "leaving",
+      "pos": "v · A2",
+      "pron": "/ˈliː.vɪŋ/",
+      "meaning": "〜のままにすること",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "welcome": {
+      "tier": "normal",
+      "surface": "welcome",
+      "pos": "adj · B1",
+      "pron": "/ˈwel.kəm/",
+      "meaning": "歓迎すべき",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "suddenly": {
+      "tier": "normal",
+      "surface": "suddenly",
+      "pos": "adv · B1",
+      "pron": "/ˈsʌd.ən.li/",
+      "meaning": "突然",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "watching": {
+      "tier": "normal",
+      "surface": "watching",
+      "pos": "v · A2",
+      "pron": "/ˈwɒtʃ.ɪŋ/",
+      "meaning": "見守ること",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eventually": {
+      "tier": "normal",
+      "surface": "eventually",
+      "pos": "adv · B1",
+      "pron": "/ɪˈven.tʃu.ə.li/",
+      "meaning": "ついには",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "similar": {
+      "tier": "normal",
+      "surface": "similar",
+      "pos": "adj · B1",
+      "pron": "/ˈsɪm.ɪ.lər/",
+      "meaning": "似ている",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "temperature": {
+      "tier": "normal",
+      "surface": "temperature",
+      "pos": "n · B1",
+      "pron": "/ˈtem.prə.tʃər/",
+      "meaning": "温度",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "actually": {
+      "tier": "normal",
+      "surface": "actually",
+      "pos": "adv · B1",
+      "pron": "/ˈæk.tʃu.ə.li/",
+      "meaning": "実際には",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "special": {
+      "tier": "normal",
+      "surface": "special",
+      "pos": "adj · A2",
+      "pron": "/ˈspeʃ.əl/",
+      "meaning": "特別な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surfactants": {
+      "tier": "key",
+      "surface": "surfactants",
+      "pos": "n · C2",
+      "pron": "/səˈfæk.tənts/",
+      "meaning": "界面活性剤",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "regular": {
+      "tier": "normal",
+      "surface": "regular",
+      "pos": "adj · B1",
+      "pron": "/ˈreɡ.jə.lər/",
+      "meaning": "通常の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "smaller": {
+      "tier": "normal",
+      "surface": "smaller",
+      "pos": "adj · A2",
+      "pron": "/ˈsmɔː.lər/",
+      "meaning": "より小さい",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "solve": {
+      "tier": "normal",
+      "surface": "solve",
+      "pos": "v · B1",
+      "pron": "/sɒlv/",
+      "meaning": "解決する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "allowing": {
+      "tier": "normal",
+      "surface": "allowing",
+      "pos": "v · B1",
+      "pron": "/əˈlaʊ.ɪŋ/",
+      "meaning": "可能にして",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "treat": {
+      "tier": "normal",
+      "surface": "treat",
+      "pos": "v · B1",
+      "pron": "/triːt/",
+      "meaning": "扱う、手入れする",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "situations": {
+      "tier": "normal",
+      "surface": "situations",
+      "pos": "n · B1",
+      "pron": "/ˌsɪtʃ.uˈeɪ.ʃənz/",
+      "meaning": "状況、場面",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []

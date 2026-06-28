@@ -90,67 +90,79 @@
               "ref": "late_at_night"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " on December 18th, 2023, the "
+              "surface": " on ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "December",
+              "ref": "december",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " 18th, 2023, the ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "Icelandic",
               "ref": "icelandic",
               "tier": "basic"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "citizens",
               "ref": "citizen",
               "tier": "frequent"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "skip",
               "surface": " of "
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "word",
               "surface": "Grindavik",
               "ref": "grindavik",
               "tier": "basic"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "word",
               "surface": "experienced",
               "ref": "experienced",
               "tier": "frequent"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": " their worst "
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "word",
               "surface": "nightmare",
               "ref": "nightmare",
               "tier": "frequent"
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -242,39 +254,39 @@
               "tier": "frequent"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " four kilometers "
+              "surface": " four ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "kilometers",
+              "ref": "kilometers",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "northeast",
               "ref": "northeast",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " of town and began "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "spewing",
               "ref": "spewing",
-              "tier": "key"
-            },
-            {
-              "id": "t15",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t16",
-              "type": "word",
-              "surface": "lava",
-              "ref": "lava",
               "tier": "key"
             },
             {
@@ -284,12 +296,24 @@
             },
             {
               "id": "t18",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t20",
               "type": "expression",
               "surface": "lava fountains",
               "ref": "lava_fountain"
             },
             {
-              "id": "t19",
+              "id": "t21",
               "type": "skip",
               "surface": " 100 meters tall."
             }
@@ -431,53 +455,65 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But Iceland "
+              "surface": "But ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "Iceland",
+              "ref": "iceland",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "wasn't willing to",
               "ref": "willing_to"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "leave",
               "ref": "leave",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " Grindavik's "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "fate",
               "ref": "fate",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "to chance",
               "ref": "to_chance"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " again."
             }
@@ -752,102 +788,138 @@
               "tier": "key"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " rock, which we call "
+              "surface": " ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "rock",
+              "ref": "rock",
+              "tier": "frequent",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": ", which we call ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "magma",
               "ref": "magma",
               "tier": "key"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " when it's "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "underground",
               "ref": "underground",
               "tier": "frequent"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": ", and lava when it "
+              "surface": ", and ",
+              "id": "t8"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " when it ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "expression",
               "surface": "breaks through",
               "ref": "break_through"
             },
             {
-              "id": "t8",
               "type": "skip",
-              "surface": " the Earth's "
+              "surface": " the ",
+              "id": "t12"
             },
             {
-              "id": "t9",
+              "type": "word",
+              "surface": "Earth",
+              "ref": "earth",
+              "tier": "frequent",
+              "id": "t13"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t14"
+            },
+            {
+              "id": "t15",
               "type": "word",
               "surface": "surface",
               "ref": "surface",
               "tier": "frequent"
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "skip",
               "surface": ", can "
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "word",
               "surface": "reach",
               "ref": "reach",
               "tier": "frequent"
             },
             {
-              "id": "t12",
+              "id": "t18",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "word",
               "surface": "temperatures",
               "ref": "temperature",
               "tier": "frequent"
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "skip",
               "surface": " of "
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "word",
               "surface": "roughly",
               "ref": "roughly",
               "tier": "frequent"
             },
             {
-              "id": "t16",
+              "id": "t22",
               "type": "skip",
               "surface": " 1,200° "
             },
             {
-              "id": "t17",
+              "id": "t23",
               "type": "word",
               "surface": "Celsius",
               "ref": "celsius",
               "tier": "normal"
             },
             {
-              "id": "t18",
+              "id": "t24",
               "type": "skip",
               "surface": "."
             }
@@ -894,87 +966,87 @@
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " temperature of a "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "temperature",
+              "ref": "temperature",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " of a ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "standard",
               "ref": "standard",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " kitchen "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "oven",
               "ref": "oven",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": "— now "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "imagine",
               "ref": "imagine",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " that "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "heat",
               "ref": "heat",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "radiating",
               "ref": "radiating",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " from "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "several",
               "ref": "several",
-              "tier": "frequent"
-            },
-            {
-              "id": "t17",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t18",
-              "type": "word",
-              "surface": "square",
-              "ref": "square",
               "tier": "frequent"
             },
             {
@@ -985,12 +1057,24 @@
             {
               "id": "t20",
               "type": "word",
+              "surface": "square",
+              "ref": "square",
+              "tier": "frequent"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t22",
+              "type": "word",
               "surface": "kilometers",
               "ref": "kilometer",
               "tier": "frequent"
             },
             {
-              "id": "t21",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -1025,43 +1109,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "At this temperature, lava "
+              "surface": "At this ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "temperature",
+              "ref": "temperature",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "ignites",
               "ref": "ignites",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " or "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "melts",
               "ref": "melts",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " most things in its "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "path",
               "ref": "path",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1108,30 +1216,54 @@
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " as the rocks it's "
+              "surface": " as the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "rocks",
+              "ref": "rocks",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " it's ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "composed of",
               "ref": "composed_of"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", its flow is almost "
+              "surface": ", its ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "flow",
+              "ref": "flow",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " is almost ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "unstoppable",
               "ref": "unstoppable",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1177,19 +1309,43 @@
               "tier": "frequent"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": " that make lava flows a little easier to "
+              "surface": " that make ",
+              "id": "t4"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t6"
+            },
+            {
+              "type": "word",
+              "surface": "flows",
+              "ref": "flows",
+              "tier": "key",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " a little easier to ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "handle",
               "ref": "handle",
               "tier": "frequent"
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "skip",
               "surface": "."
             }
@@ -1268,43 +1424,55 @@
               "tier": "frequent"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": ", lava becomes "
+              "surface": ", ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " becomes ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "solid",
               "ref": "solid",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "still",
               "ref": "still",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " after "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "cooling",
               "ref": "cooling",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " to roughly 600° Celsius."
             }
@@ -1394,21 +1562,45 @@
               "tier": "frequent"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " eruption is "
+              "surface": " ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "eruption",
+              "ref": "eruption",
+              "tier": "key",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " is ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "fueling",
               "ref": "fueling",
               "tier": "key"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " the flow."
+              "surface": " the ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "flow",
+              "ref": "flow",
+              "tier": "key",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         },
@@ -1437,41 +1629,77 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Second, lava "
+              "surface": "Second, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "generally",
               "ref": "generally",
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " flows "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "flows",
+              "ref": "flows",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "at a rate of",
               "ref": "at_a_rate_of"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " less than 1 kilometer "
+              "surface": " less than 1 ",
+              "id": "t9"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "kilometer",
+              "ref": "kilometer",
+              "tier": "frequent",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "per hour",
               "ref": "per_hour"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1635,55 +1863,103 @@
               "tier": "frequent"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " of the Hawaii "
+              "surface": " of the ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "Hawaii",
+              "ref": "hawaii",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "Volcano",
               "ref": "volcano",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "Observatory",
               "ref": "observatory",
               "tier": "key"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": ", Thomas Jaggar, was to "
+              "surface": ", ",
+              "id": "t15"
             },
             {
-              "id": "t14",
+              "type": "word",
+              "surface": "Thomas",
+              "ref": "thomas",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "Jaggar",
+              "ref": "jaggar",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": ", was to ",
+              "id": "t19"
+            },
+            {
+              "id": "t20",
               "type": "word",
               "surface": "fight",
               "ref": "fight",
               "tier": "frequent"
             },
             {
-              "id": "t15",
               "type": "skip",
-              "surface": " lava with "
+              "surface": " ",
+              "id": "t21"
             },
             {
-              "id": "t16",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": " with ",
+              "id": "t23"
+            },
+            {
+              "id": "t24",
               "type": "word",
               "surface": "bombs",
               "ref": "bomb",
               "tier": "frequent"
             },
             {
-              "id": "t17",
+              "id": "t25",
               "type": "skip",
               "surface": "."
             }
@@ -1714,127 +1990,175 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "When the 1935 eruption of "
+              "surface": "When the 1935 ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "eruption",
+              "ref": "eruption",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "Mauna Loa",
               "ref": "mauna_loa",
               "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "threatened",
               "ref": "threatened",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "Hawaiian",
               "ref": "hawaiian",
               "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " town of "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "Hilo",
               "ref": "hilo",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": ", he "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "convinced",
               "ref": "convinced",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " the US "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "Army",
               "ref": "army",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " Air "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "Corps",
               "ref": "corps",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "drop",
               "ref": "drop",
               "tier": "frequent"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": " 20 bombs on the flowing lava to "
+              "surface": " 20 ",
+              "id": "t19"
             },
             {
-              "id": "t18",
+              "type": "word",
+              "surface": "bombs",
+              "ref": "bombs",
+              "tier": "frequent",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " on the ",
+              "id": "t21"
+            },
+            {
+              "type": "word",
+              "surface": "flowing",
+              "ref": "flowing",
+              "tier": "key",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t23"
+            },
+            {
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t24"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t25"
+            },
+            {
+              "id": "t26",
               "type": "word",
               "surface": "disrupt",
               "ref": "disrupt",
               "tier": "frequent"
             },
             {
-              "id": "t19",
+              "id": "t27",
               "type": "skip",
               "surface": " its path and stop its "
             },
             {
-              "id": "t20",
+              "id": "t28",
               "type": "word",
               "surface": "advance",
               "ref": "advance",
               "tier": "frequent"
             },
             {
-              "id": "t21",
+              "id": "t29",
               "type": "skip",
               "surface": "."
             }
@@ -1874,66 +2198,102 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", the lava "
+              "surface": ", the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "did stop",
               "ref": "do_emphasis"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " flowing, "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "flowing",
+              "ref": "flowing",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "prompting",
               "ref": "prompting",
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " Jaggar and the US Air Force to "
+              "surface": " ",
+              "id": "t11"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "Jaggar",
+              "ref": "jaggar",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " and the US Air Force to ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "label",
               "ref": "label",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": " their "
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "word",
               "surface": "mission",
               "ref": "mission",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t12",
+              "id": "t18",
               "type": "word",
               "surface": "success",
               "ref": "success",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -2041,51 +2401,51 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Since lava flows like a "
+              "surface": "Since ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "flows",
+              "ref": "flows",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " like a ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "liquid",
               "ref": "liquid",
               "tier": "frequent"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "experts",
               "ref": "expert",
-              "tier": "frequent"
-            },
-            {
-              "id": "t5",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t6",
-              "type": "word",
-              "surface": "believe",
-              "ref": "believe",
-              "tier": "frequent"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " the bombs "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "merely",
-              "ref": "merely",
               "tier": "frequent"
             },
             {
@@ -2096,60 +2456,120 @@
             {
               "id": "t10",
               "type": "word",
+              "surface": "believe",
+              "ref": "believe",
+              "tier": "frequent"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "bombs",
+              "ref": "bombs",
+              "tier": "frequent",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "merely",
+              "ref": "merely",
+              "tier": "frequent"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
               "surface": "displaced",
               "ref": "displaced",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": " it "
             },
             {
-              "id": "t12",
+              "id": "t18",
               "type": "word",
               "surface": "temporarily",
               "ref": "temporarily",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t19",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "word",
               "surface": "forming",
               "ref": "forming",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t16",
+              "id": "t22",
               "type": "word",
               "surface": "crater",
               "ref": "crater",
               "tier": "key"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": " which flowing lava then "
+              "surface": " which ",
+              "id": "t23"
             },
             {
-              "id": "t18",
+              "type": "word",
+              "surface": "flowing",
+              "ref": "flowing",
+              "tier": "key",
+              "id": "t24"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t25"
+            },
+            {
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t26"
+            },
+            {
+              "type": "skip",
+              "surface": " then ",
+              "id": "t27"
+            },
+            {
+              "id": "t28",
               "type": "word",
               "surface": "refilled",
               "ref": "refilled",
               "tier": "normal"
             },
             {
-              "id": "t19",
+              "id": "t29",
               "type": "skip",
               "surface": "."
             }
@@ -2201,19 +2621,43 @@
               "tier": "frequent"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": " solution is to cool lava with "
+              "surface": " ",
+              "id": "t4"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "solution",
+              "ref": "solution",
+              "tier": "frequent",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " is to cool ",
+              "id": "t6"
+            },
+            {
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " with ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "water",
               "ref": "water",
               "tier": "frequent"
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "skip",
               "surface": "."
             }
@@ -2246,66 +2690,90 @@
               "ref": "due_to"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " lava's low heat "
+              "surface": " ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": "'s low ",
+              "id": "t4"
+            },
+            {
+              "type": "word",
+              "surface": "heat",
+              "ref": "heat",
+              "tier": "frequent",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t6"
+            },
+            {
+              "id": "t7",
               "type": "word",
               "surface": "conductivity",
               "ref": "conductivity",
               "tier": "key"
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "skip",
               "surface": " this "
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "word",
               "surface": "requires",
               "ref": "requires",
               "tier": "frequent"
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "skip",
               "surface": " an "
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "word",
               "surface": "enormous",
               "ref": "enormous",
               "tier": "frequent"
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "expression",
               "surface": "an amount of",
               "ref": "amount_of"
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "word",
               "surface": "H2O",
               "ref": "h2o",
               "tier": "key"
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "skip",
               "surface": ", but that didn't stop the Icelandic government in 1973."
             }
@@ -2345,52 +2813,52 @@
               "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " volcano "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "volcano",
+              "ref": "volcano",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "erupted",
               "ref": "erupted",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " and lava began "
+              "surface": " and ",
+              "id": "t7"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "streaming",
-              "ref": "streaming",
-              "tier": "frequent"
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t8"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "towards",
-              "ref": "towards",
-              "tier": "frequent"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": " the "
+              "surface": " began ",
+              "id": "t9"
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "Heimaey",
-              "ref": "heimaey",
-              "tier": "basic"
+              "surface": "streaming",
+              "ref": "streaming",
+              "tier": "frequent"
             },
             {
               "id": "t11",
@@ -2400,21 +2868,21 @@
             {
               "id": "t12",
               "type": "word",
-              "surface": "Harbor",
-              "ref": "harbor",
+              "surface": "towards",
+              "ref": "towards",
               "tier": "frequent"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": ", they began a "
+              "surface": " the "
             },
             {
               "id": "t14",
               "type": "word",
-              "surface": "highly",
-              "ref": "highly",
-              "tier": "frequent"
+              "surface": "Heimaey",
+              "ref": "heimaey",
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -2424,62 +2892,110 @@
             {
               "id": "t16",
               "type": "word",
-              "surface": "coordinated",
-              "ref": "coordinated",
+              "surface": "Harbor",
+              "ref": "harbor",
               "tier": "frequent"
             },
             {
               "id": "t17",
               "type": "skip",
-              "surface": " "
+              "surface": ", they began a "
             },
             {
               "id": "t18",
+              "type": "word",
+              "surface": "highly",
+              "ref": "highly",
+              "tier": "frequent"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "coordinated",
+              "ref": "coordinated",
+              "tier": "frequent"
+            },
+            {
+              "id": "t21",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "effort",
               "ref": "effort",
               "tier": "frequent"
             },
             {
-              "id": "t19",
+              "id": "t23",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t20",
+              "id": "t24",
               "type": "word",
               "surface": "pump",
               "ref": "pump",
               "tier": "frequent"
             },
             {
-              "id": "t21",
+              "id": "t25",
               "type": "skip",
               "surface": " 6 million "
             },
             {
-              "id": "t22",
+              "id": "t26",
               "type": "word",
               "surface": "cubic",
               "ref": "cubic",
               "tier": "key"
             },
             {
-              "id": "t23",
+              "id": "t27",
               "type": "skip",
               "surface": " meters of "
             },
             {
-              "id": "t24",
+              "id": "t28",
               "type": "word",
               "surface": "seawater",
               "ref": "seawater",
               "tier": "normal"
             },
             {
-              "id": "t25",
               "type": "skip",
-              "surface": " onto the lava flow."
+              "surface": " onto the ",
+              "id": "t29"
+            },
+            {
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t30"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t31"
+            },
+            {
+              "type": "word",
+              "surface": "flow",
+              "ref": "flow",
+              "tier": "key",
+              "id": "t32"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t33"
             }
           ]
         },
@@ -2587,91 +3103,127 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of their efforts to "
+              "surface": " of their ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "efforts",
+              "ref": "efforts",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "manage",
               "ref": "manage",
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " this 6-month long eruption, 75 people worked "
+              "surface": " this 6-month long ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "eruption",
+              "ref": "eruption",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", 75 people worked ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "in shifts",
               "ref": "in_shifts"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "expression",
               "surface": "around the clock",
               "ref": "around_the_clock"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "spraying",
               "ref": "spraying",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " down each "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "word",
               "surface": "actively",
               "ref": "actively",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "advancing",
               "ref": "advancing",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "word",
               "surface": "area",
               "ref": "area",
               "tier": "frequent"
             },
             {
-              "id": "t17",
               "type": "skip",
-              "surface": " for roughly a full day to stop its flow."
+              "surface": " for roughly a full day to stop its ",
+              "id": "t21"
+            },
+            {
+              "type": "word",
+              "surface": "flow",
+              "ref": "flow",
+              "tier": "key",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t23"
             }
           ]
         }
@@ -2721,19 +3273,31 @@
               "ref": "do_emphasis"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " the harbor, but it could only work in a place with "
+              "surface": " the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "harbor",
+              "ref": "harbor",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", but it could only work in a place with ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "access",
               "ref": "access",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " to this much water."
             }
@@ -2790,43 +3354,55 @@
               "tier": "frequent"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": " require different "
+              "surface": " ",
+              "id": "t6"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "require",
+              "ref": "require",
+              "tier": "frequent",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " different ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "defenses",
               "ref": "defense",
               "tier": "frequent"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": ", like large "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "word",
               "surface": "earthen",
               "ref": "earthen",
               "tier": "key"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "word",
               "surface": "barriers",
               "ref": "barrier",
               "tier": "frequent"
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -2907,55 +3483,103 @@
               "tier": "frequent"
             },
             {
-              "id": "t10",
               "type": "skip",
-              "surface": ", or volcanic "
+              "surface": ", or ",
+              "id": "t10"
             },
             {
-              "id": "t11",
+              "type": "word",
+              "surface": "volcanic",
+              "ref": "volcanic",
+              "tier": "key",
+              "id": "t11"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t12"
+            },
+            {
+              "id": "t13",
               "type": "word",
               "surface": "gravel",
               "ref": "gravel",
               "tier": "key"
             },
             {
-              "id": "t12",
               "type": "skip",
-              "surface": ", these barriers can "
+              "surface": ", these ",
+              "id": "t14"
             },
             {
-              "id": "t13",
+              "type": "word",
+              "surface": "barriers",
+              "ref": "barriers",
+              "tier": "frequent",
+              "id": "t15"
+            },
+            {
+              "type": "skip",
+              "surface": " can ",
+              "id": "t16"
+            },
+            {
+              "id": "t17",
               "type": "word",
               "surface": "divert",
               "ref": "divert",
               "tier": "key"
             },
             {
-              "id": "t14",
               "type": "skip",
-              "surface": " lava flows away from "
+              "surface": " ",
+              "id": "t18"
             },
             {
-              "id": "t15",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t19"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t20"
+            },
+            {
+              "type": "word",
+              "surface": "flows",
+              "ref": "flows",
+              "tier": "key",
+              "id": "t21"
+            },
+            {
+              "type": "skip",
+              "surface": " away from ",
+              "id": "t22"
+            },
+            {
+              "id": "t23",
               "type": "word",
               "surface": "populated",
               "ref": "populated",
               "tier": "frequent"
             },
             {
-              "id": "t16",
+              "id": "t24",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t17",
+              "id": "t25",
               "type": "word",
               "surface": "areas",
               "ref": "area",
               "tier": "frequent"
             },
             {
-              "id": "t18",
+              "id": "t26",
               "type": "skip",
               "surface": "."
             }
@@ -2996,69 +3620,117 @@
               "ref": "for_example"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": ", when Italy's "
+              "surface": ", when ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "Italy",
+              "ref": "italy",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "Mount Etna",
               "ref": "mount_etna",
               "tier": "basic"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": " erupted in 1983, "
+              "surface": " ",
+              "id": "t6"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "erupted",
+              "ref": "erupted",
+              "tier": "key",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " in 1983, ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "workers",
               "ref": "worker",
               "tier": "frequent"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": " used 750,000 cubic meters of material— the "
+              "surface": " used 750,000 cubic meters of ",
+              "id": "t10"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "material",
+              "ref": "material",
+              "tier": "frequent",
+              "id": "t11"
+            },
+            {
+              "type": "skip",
+              "surface": "— the ",
+              "id": "t12"
+            },
+            {
+              "id": "t13",
               "type": "word",
               "surface": "equivalent",
               "ref": "equivalent",
               "tier": "frequent"
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "skip",
               "surface": " of 25,000 "
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "word",
               "surface": "truckloads",
               "ref": "truckload",
               "tier": "key"
             },
             {
-              "id": "t10",
+              "id": "t16",
               "type": "skip",
               "surface": "— to "
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "word",
               "surface": "erect",
               "ref": "erect",
               "tier": "key"
             },
             {
-              "id": "t12",
               "type": "skip",
-              "surface": " four large barriers."
+              "surface": " four large ",
+              "id": "t18"
+            },
+            {
+              "type": "word",
+              "surface": "barriers",
+              "ref": "barriers",
+              "tier": "frequent",
+              "id": "t19"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t20"
             }
           ]
         },
@@ -3095,45 +3767,105 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " approach after the 2023 eruption, "
+              "surface": " approach after the 2023 ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "eruption",
+              "ref": "eruption",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "building",
               "ref": "building",
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " 25-meter-high barriers that "
+              "surface": " 25-meter-high ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "barriers",
+              "ref": "barriers",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " that ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "successfully",
               "ref": "successfully",
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " diverted lava from "
+              "surface": " ",
+              "id": "t11"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "diverted",
+              "ref": "diverted",
+              "tier": "key",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " from ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "multiple",
               "ref": "multiple",
               "tier": "frequent"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " eruptions."
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "eruptions",
+              "ref": "eruptions",
+              "tier": "key",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t19"
             }
           ]
         },
@@ -3171,67 +3903,103 @@
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " lava "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "raises",
               "ref": "raises",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "ground",
               "ref": "ground",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " level "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "as it flows",
               "ref": "as_clause"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": ", these barriers had to be "
+              "surface": ", these ",
+              "id": "t11"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "barriers",
+              "ref": "barriers",
+              "tier": "frequent",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " had to be ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "raised",
               "ref": "raised",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "expression",
               "surface": "between each",
               "ref": "between_each"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " eruption."
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "eruption",
+              "ref": "eruption",
+              "tier": "key",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t19"
             }
           ]
         },
@@ -3281,40 +4049,76 @@
               "tier": "frequent"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " regions to "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "regions",
+              "ref": "regions",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "build up",
               "ref": "build_up"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " defenses "
+              "surface": " ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "defenses",
+              "ref": "defenses",
+              "tier": "frequent",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "between A instead of B",
               "ref": "between_instead_of"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " flows "
+              "surface": " ",
+              "id": "t13"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "flows",
+              "ref": "flows",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "instead of",
               "ref": "instead_of"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": " during them."
             }
@@ -3378,55 +4182,103 @@
               "tier": "frequent"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": " where lava flows will "
+              "surface": " where ",
+              "id": "t6"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "flows",
+              "ref": "flows",
+              "tier": "key",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " will ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "emerge",
               "ref": "emerge",
               "tier": "frequent"
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "skip",
               "surface": ", what "
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "word",
               "surface": "direction",
               "ref": "direction",
               "tier": "frequent"
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "skip",
               "surface": " they'll "
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "word",
               "surface": "travel",
               "ref": "travel",
               "tier": "frequent"
             },
             {
-              "id": "t12",
               "type": "skip",
-              "surface": ", and just how much lava an eruption will "
+              "surface": ", and just how much ",
+              "id": "t16"
             },
             {
-              "id": "t13",
+              "type": "word",
+              "surface": "lava",
+              "ref": "lava",
+              "tier": "key",
+              "id": "t17"
+            },
+            {
+              "type": "skip",
+              "surface": " an ",
+              "id": "t18"
+            },
+            {
+              "type": "word",
+              "surface": "eruption",
+              "ref": "eruption",
+              "tier": "key",
+              "id": "t19"
+            },
+            {
+              "type": "skip",
+              "surface": " will ",
+              "id": "t20"
+            },
+            {
+              "id": "t21",
               "type": "word",
               "surface": "produce",
               "ref": "produce",
               "tier": "frequent"
             },
             {
-              "id": "t14",
+              "id": "t22",
               "type": "skip",
               "surface": "."
             }
@@ -3512,57 +4364,81 @@
               "tier": "frequent"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " strategies to "
+              "surface": " ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "strategies",
+              "ref": "strategies",
+              "tier": "frequent",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "protect",
               "ref": "protect",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "word",
               "surface": "communities",
               "ref": "community",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " from these "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "otherwise",
               "ref": "otherwise",
               "tier": "frequent"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t18",
+              "id": "t20",
               "type": "word",
               "surface": "awe-inspiring",
               "ref": "awe_inspiring",
               "tier": "key"
             },
             {
-              "id": "t19",
               "type": "skip",
-              "surface": " eruptions."
+              "surface": " ",
+              "id": "t21"
+            },
+            {
+              "type": "word",
+              "surface": "eruptions",
+              "ref": "eruptions",
+              "tier": "key",
+              "id": "t22"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t23"
             }
           ]
         }
@@ -6633,6 +7509,279 @@
         "skilled workers",
         "factory workers"
       ]
+    },
+    "december": {
+      "tier": "basic",
+      "surface": "december",
+      "pos": "n",
+      "pron": "/dɪˈsem.bər/",
+      "meaning": "12月",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "kilometers": {
+      "tier": "normal",
+      "surface": "kilometers",
+      "pos": "n · A2",
+      "pron": "/kɪˈlɒm.ɪ.tərz/",
+      "meaning": "キロメートル",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "iceland": {
+      "tier": "basic",
+      "surface": "iceland",
+      "pos": "n",
+      "pron": "/ˈaɪs.lənd/",
+      "meaning": "アイスランド",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rock": {
+      "tier": "frequent",
+      "surface": "rock",
+      "pos": "n · A2",
+      "pron": "/rɒk/",
+      "meaning": "岩、岩石",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "earth": {
+      "tier": "frequent",
+      "surface": "earth",
+      "pos": "n · A2",
+      "pron": "/ɜːrθ/",
+      "meaning": "地球、大地",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rocks": {
+      "tier": "frequent",
+      "surface": "rocks",
+      "pos": "n · A2",
+      "pron": "/rɒks/",
+      "meaning": "岩、岩石",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "flow": {
+      "tier": "key",
+      "surface": "flow",
+      "pos": "n · B1",
+      "pron": "/floʊ/",
+      "meaning": "流れ、溶岩流",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "flows": {
+      "tier": "key",
+      "surface": "flows",
+      "pos": "n/v · B1",
+      "pron": "/floʊz/",
+      "meaning": "流れ、流れる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "hawaii": {
+      "tier": "basic",
+      "surface": "hawaii",
+      "pos": "n",
+      "pron": "/həˈwaɪ.i/",
+      "meaning": "ハワイ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "thomas": {
+      "tier": "basic",
+      "surface": "thomas",
+      "pos": "n",
+      "pron": "",
+      "meaning": "トーマス(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "jaggar": {
+      "tier": "basic",
+      "surface": "jaggar",
+      "pos": "n",
+      "pron": "",
+      "meaning": "ジャガー(人名)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "bombs": {
+      "tier": "frequent",
+      "surface": "bombs",
+      "pos": "n · A2",
+      "pron": "/bɒmz/",
+      "meaning": "爆弾",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "flowing": {
+      "tier": "key",
+      "surface": "flowing",
+      "pos": "v(-ing) · B1",
+      "pron": "/ˈfloʊ.ɪŋ/",
+      "meaning": "流れる、流動する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "efforts": {
+      "tier": "frequent",
+      "surface": "efforts",
+      "pos": "n · B1",
+      "pron": "/ˈef.ərts/",
+      "meaning": "努力、取り組み",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "require": {
+      "tier": "frequent",
+      "surface": "require",
+      "pos": "v · B1",
+      "pron": "/rɪˈkwaɪər/",
+      "meaning": "必要とする、要する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "barriers": {
+      "tier": "frequent",
+      "surface": "barriers",
+      "pos": "n · B1",
+      "pron": "/ˈbær.i.ərz/",
+      "meaning": "障壁、防護壁",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "italy": {
+      "tier": "basic",
+      "surface": "italy",
+      "pos": "n",
+      "pron": "/ˈɪt.əl.i/",
+      "meaning": "イタリア",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eruptions": {
+      "tier": "key",
+      "surface": "eruptions",
+      "pos": "n · B2",
+      "pron": "/ɪˈrʌp.ʃənz/",
+      "meaning": "噴火",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "regions": {
+      "tier": "frequent",
+      "surface": "regions",
+      "pos": "n · B1",
+      "pron": "/ˈriː.dʒənz/",
+      "meaning": "地域、地方",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "defenses": {
+      "tier": "frequent",
+      "surface": "defenses",
+      "pos": "n · B2",
+      "pron": "/dɪˈfen.sɪz/",
+      "meaning": "防御、防衛策",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strategies": {
+      "tier": "frequent",
+      "surface": "strategies",
+      "pos": "n · B2",
+      "pron": "/ˈstræt.ə.dʒiz/",
+      "meaning": "戦略、方策",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
     }
   },
   "expressions": {

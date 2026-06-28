@@ -178,43 +178,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But instead of feeling proud, you're "
+              "surface": "But ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "instead",
+              "ref": "instead",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " of feeling ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "proud",
+              "ref": "proud",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", you're ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "overwhelmed",
               "tier": "frequent",
               "ref": "overwhelmed"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " by a "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "creeping",
               "tier": "key",
               "ref": "creeping"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " sense that you don't "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "deserve",
               "tier": "frequent",
               "ref": "deserve"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " any of it."
             }
@@ -241,43 +265,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "You're certain that the people who "
+              "surface": "You're ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "certain",
+              "ref": "certain",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " that the people who ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "selected",
               "tier": "normal",
               "ref": "selected"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " you will "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "eventually",
               "tier": "frequent",
               "ref": "eventually"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "discover",
               "tier": "normal",
               "ref": "discover"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " their mistake."
             }
@@ -310,42 +346,54 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "This experience is called "
+              "surface": "This ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "experience",
+              "ref": "experience",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " is called ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "imposter syndrome",
               "ref": "imposter_syndrome"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": ", or the "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "imposter",
               "tier": "key",
               "ref": "imposter"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "phenomenon",
               "tier": "frequent",
               "ref": "phenomenon"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -427,30 +475,42 @@
               "ref": "high_achieving"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " women who believed their success was "
+              "surface": " women who believed their ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "success",
+              "ref": "success",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " was ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "due to",
               "ref": "due_to"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " luck rather than "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "ability",
               "tier": "frequent",
               "ref": "ability"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -480,33 +540,57 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Since then, research has shown that people of all genders, ages, and "
+              "surface": "Since then, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "research",
+              "ref": "research",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " has shown that people of all genders, ages, and ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "occupations",
               "tier": "normal",
               "ref": "occupations"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "report",
               "tier": "frequent",
               "ref": "report"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " experiencing it."
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "experiencing",
+              "ref": "experiencing",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " it.",
+              "id": "t9"
             }
           ]
         }
@@ -714,43 +798,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "If they succeed, they "
+              "surface": "If they ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "succeed",
+              "ref": "succeed",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", they ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "discount",
               "tier": "key",
               "ref": "discount"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "achievement",
               "tier": "frequent",
               "ref": "achievement"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " by saying it was luck, or they worked so hard that success was "
+              "surface": " by saying it was luck, or they worked so hard that ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "success",
+              "ref": "success",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " was ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "inevitable",
               "tier": "key",
               "ref": "inevitable"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -794,21 +902,57 @@
               "ref": "the_heart_of"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " imposter syndrome is a particular way of "
+              "surface": " imposter syndrome is a ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "particular",
+              "ref": "particular",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " way of ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "attributing",
               "tier": "frequent",
               "ref": "attributing"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " success and failure."
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "success",
+              "ref": "success",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "failure",
+              "ref": "failure",
+              "tier": "frequent",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t11"
             }
           ]
         },
@@ -853,55 +997,79 @@
               "ref": "attribute"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " their successes to "
+              "surface": " their ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "successes",
+              "ref": "successes",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "external",
               "tier": "frequent",
               "ref": "external"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "factors",
               "tier": "frequent",
               "ref": "factors"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " — luck, timing, or other people's help — while attributing their failures to "
+              "surface": " — luck, timing, or other people's help — while attributing their ",
+              "id": "t9"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "failures",
+              "ref": "failures",
+              "tier": "frequent",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "internal",
               "tier": "frequent",
               "ref": "internal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "flaws",
               "tier": "key",
               "ref": "flaws"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -966,31 +1134,43 @@
               "ref": "cycle_of_self_doubt"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", no matter how much evidence of "
+              "surface": ", no matter how much ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "evidence",
+              "ref": "evidence",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "competence",
               "tier": "key",
               "ref": "competence"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " they "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "accumulate",
               "tier": "frequent",
               "ref": "accumulate"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1038,42 +1218,54 @@
               "ref": "affect"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " anyone, it's especially common among "
+              "surface": " anyone, it's ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "especially",
+              "ref": "especially",
+              "tier": "frequent",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " common among ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "expression",
               "surface": "first-generation students",
               "ref": "first_generation_students"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", people from "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "underrepresented",
               "tier": "key",
               "ref": "underrepresented"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " groups, and those entering highly "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "competitive",
               "tier": "frequent",
               "ref": "competitive"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " fields."
             }
@@ -1103,69 +1295,112 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Ironically, the "
+              "type": "word",
+              "surface": "Ironically",
+              "ref": "ironically",
+              "tier": "key",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": ", the ",
+              "id": "t2"
+            },
+            {
+              "id": "t3",
               "type": "word",
               "surface": "traits",
               "tier": "key",
               "ref": "traits"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " associated with imposter syndrome — "
+              "surface": " ",
+              "id": "t4"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "associated",
+              "ref": "associated",
+              "tier": "frequent",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " with imposter syndrome — ",
+              "id": "t6"
+            },
+            {
+              "id": "t7",
               "type": "word",
               "surface": "thoroughness",
               "tier": "key",
               "ref": "thoroughness"
             },
             {
-              "id": "t5",
+              "id": "t8",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t6",
+              "id": "t9",
               "type": "word",
               "surface": "humility",
               "tier": "key",
               "ref": "humility"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", and a desire for "
+              "surface": ", and a ",
+              "id": "t10"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "desire",
+              "ref": "desire",
+              "tier": "frequent",
+              "id": "t11"
+            },
+            {
+              "type": "skip",
+              "surface": " for ",
+              "id": "t12"
+            },
+            {
+              "id": "t13",
               "type": "word",
               "surface": "feedback",
               "tier": "frequent",
               "ref": "feedback"
             },
             {
-              "id": "t9",
+              "id": "t14",
               "type": "skip",
               "surface": " — can actually be "
             },
             {
-              "id": "t10",
+              "id": "t15",
               "type": "word",
               "surface": "assets",
               "tier": "key",
               "ref": "assets"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " in professional settings."
+              "surface": " in ",
+              "id": "t16"
+            },
+            {
+              "type": "word",
+              "surface": "professional",
+              "ref": "professional",
+              "tier": "frequent",
+              "id": "t17"
+            },
+            {
+              "type": "skip",
+              "surface": " settings.",
+              "id": "t18"
             }
           ]
         },
@@ -1298,67 +1533,74 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Researchers "
+              "type": "word",
+              "surface": "Researchers",
+              "ref": "researchers",
+              "tier": "normal",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "id": "t3",
               "type": "word",
               "surface": "suggest",
               "tier": "frequent",
               "ref": "suggest"
             },
             {
-              "id": "t3",
+              "id": "t4",
               "type": "skip",
               "surface": " that the most "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "effective",
               "tier": "frequent",
               "ref": "effective"
             },
             {
-              "id": "t5",
+              "id": "t6",
               "type": "skip",
               "surface": " way to "
             },
             {
-              "id": "t6",
+              "id": "t7",
               "type": "word",
               "surface": "reduce",
               "tier": "frequent",
               "ref": "reduce"
             },
             {
-              "id": "t7",
+              "id": "t8",
               "type": "skip",
               "surface": " imposter syndrome is to talk about it openly with "
             },
             {
-              "id": "t8",
+              "id": "t9",
               "type": "word",
               "surface": "mentors",
               "tier": "key",
               "ref": "mentors"
             },
             {
-              "id": "t9",
+              "id": "t10",
               "type": "skip",
               "surface": " or "
             },
             {
-              "id": "t10",
+              "id": "t11",
               "type": "word",
               "surface": "peers",
               "tier": "frequent",
               "ref": "peers"
             },
             {
-              "id": "t11",
+              "id": "t12",
               "type": "skip",
               "surface": "."
             }
@@ -1447,54 +1689,102 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Other strategies include keeping a record of positive "
+              "surface": "Other ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "strategies",
+              "ref": "strategies",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " include keeping a record of positive ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "feedback",
               "tier": "frequent",
               "ref": "feedback"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "reframing",
               "tier": "key",
               "ref": "reframing"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " failure as a learning opportunity rather than evidence of "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "failure",
+              "ref": "failure",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " as a learning ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "opportunity",
+              "ref": "opportunity",
+              "tier": "frequent",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " rather than ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "evidence",
+              "ref": "evidence",
+              "tier": "frequent",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "inadequacy",
               "tier": "key",
               "ref": "inadequacy"
             },
             {
-              "id": "t7",
+              "id": "t15",
               "type": "skip",
               "surface": ", and practicing "
             },
             {
-              "id": "t8",
+              "id": "t16",
               "type": "expression",
               "surface": "self-compassion",
               "ref": "self_compassion"
             },
             {
-              "id": "t9",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1564,33 +1854,57 @@
               "ref": "genuine"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " evidence of their "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "evidence",
+              "ref": "evidence",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " of their ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "capabilities",
               "tier": "frequent",
               "ref": "capabilities"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " and learn to "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "internalize",
               "tier": "key",
               "ref": "internalize"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " their own success."
+              "surface": " their own ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "success",
+              "ref": "success",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         }
@@ -1601,7 +1915,7 @@
     "received": {
       "tier": "normal",
       "surface": "received",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/rɪˈsiːvd/",
       "meaning": "受け取った、受領した",
       "example": {
@@ -1618,7 +1932,7 @@
     "notice": {
       "tier": "normal",
       "surface": "notice",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈnoʊ.tɪs/",
       "meaning": "通知、知らせ",
       "example": {
@@ -1636,7 +1950,7 @@
     "earned": {
       "tier": "normal",
       "surface": "earned",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ɜːrnd/",
       "meaning": "勝ち取った、獲得した",
       "example": {
@@ -1653,7 +1967,7 @@
     "scholarship": {
       "tier": "key",
       "surface": "scholarship",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈskɒl.ər.ʃɪp/",
       "meaning": "奨学金",
       "example": {
@@ -1671,7 +1985,7 @@
     "accepted": {
       "tier": "normal",
       "surface": "accepted",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/əkˈsep.tɪd/",
       "meaning": "合格した、受け入れられた",
       "example": {
@@ -1688,7 +2002,7 @@
     "overwhelmed": {
       "tier": "frequent",
       "surface": "overwhelmed",
-      "pos": "adj/verb · B2",
+      "pos": "adj/v · B2",
       "pron": "/ˌoʊ.vərˈwelmd/",
       "meaning": "圧倒された、手に負えなくなった",
       "example": {
@@ -1706,7 +2020,7 @@
     "creeping": {
       "tier": "key",
       "surface": "creeping",
-      "pos": "adj/verb · C1",
+      "pos": "adj/v · C1",
       "pron": "/ˈkriː.pɪŋ/",
       "meaning": "忍び寄る、じわじわと広がる",
       "example": {
@@ -1724,7 +2038,7 @@
     "deserve": {
       "tier": "frequent",
       "surface": "deserve",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/dɪˈzɜːrv/",
       "meaning": "〜に値する、〜を受けるにふさわしい",
       "example": {
@@ -1742,7 +2056,7 @@
     "selected": {
       "tier": "normal",
       "surface": "selected",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/sɪˈlek.tɪd/",
       "meaning": "選んだ、選ばれた",
       "example": {
@@ -1776,7 +2090,7 @@
     "discover": {
       "tier": "normal",
       "surface": "discover",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/dɪˈskʌv.ər/",
       "meaning": "発見する、気づく",
       "example": {
@@ -1793,7 +2107,7 @@
     "imposter": {
       "tier": "key",
       "surface": "imposter",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ɪmˈpɒs.tər/",
       "meaning": "詐欺師、なりすまし者",
       "example": {
@@ -1810,7 +2124,7 @@
     "phenomenon": {
       "tier": "frequent",
       "surface": "phenomenon",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/fɪˈnɒm.ɪ.nən/",
       "meaning": "現象",
       "example": {
@@ -1828,7 +2142,7 @@
     "coined": {
       "tier": "key",
       "surface": "coined",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/kɔɪnd/",
       "meaning": "(新語・表現を)作った、生み出した",
       "example": {
@@ -1845,7 +2159,7 @@
     "psychologists": {
       "tier": "key",
       "surface": "psychologists",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/saɪˈkɒl.ə.dʒɪsts/",
       "meaning": "心理学者たち",
       "example": {
@@ -1862,7 +2176,7 @@
     "describe": {
       "tier": "frequent",
       "surface": "describe",
-      "pos": "verb · A2",
+      "pos": "v · A2",
       "pron": "/dɪˈskraɪb/",
       "meaning": "説明する、記述する、表現する",
       "example": {
@@ -1880,7 +2194,7 @@
     "ability": {
       "tier": "frequent",
       "surface": "ability",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/əˈbɪl.ɪ.ti/",
       "meaning": "能力、才能",
       "example": {
@@ -1898,7 +2212,7 @@
     "occupations": {
       "tier": "normal",
       "surface": "occupations",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˌɒk.jʊˈpeɪ.ʃənz/",
       "meaning": "職業、仕事",
       "example": {
@@ -1915,7 +2229,7 @@
     "report": {
       "tier": "frequent",
       "surface": "report",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/rɪˈpɔːrt/",
       "meaning": "報告する、申告する；（研究で）示す",
       "example": {
@@ -1951,7 +2265,7 @@
     "perceive": {
       "tier": "frequent",
       "surface": "perceive",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/pəˈsiːv/",
       "meaning": "知覚する、認識する、〜と見なす",
       "example": {
@@ -1969,7 +2283,7 @@
     "assignment": {
       "tier": "normal",
       "surface": "assignment",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/əˈsaɪn.mənt/",
       "meaning": "課題、宿題；割り当て",
       "example": {
@@ -1987,7 +2301,7 @@
     "anxiety": {
       "tier": "frequent",
       "surface": "anxiety",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/æŋˈzaɪ.ɪ.ti/",
       "meaning": "不安、心配",
       "example": {
@@ -2005,7 +2319,7 @@
     "procrastinate": {
       "tier": "key",
       "surface": "procrastinate",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/prəˈkræs.tɪ.neɪt/",
       "meaning": "先延ばしにする、ぐずぐずする",
       "example": {
@@ -2022,7 +2336,7 @@
     "rely": {
       "tier": "frequent",
       "surface": "rely",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/rɪˈlaɪ/",
       "meaning": "頼る、依存する",
       "example": {
@@ -2040,7 +2354,7 @@
     "inspiration": {
       "tier": "normal",
       "surface": "inspiration",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˌɪn.spɪˈreɪ.ʃən/",
       "meaning": "ひらめき、インスピレーション",
       "example": {
@@ -2057,7 +2371,7 @@
     "discount": {
       "tier": "key",
       "surface": "discount",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/dɪˈskaʊnt/",
       "meaning": "軽視する、割り引いて考える；否定する",
       "example": {
@@ -2074,7 +2388,7 @@
     "achievement": {
       "tier": "frequent",
       "surface": "achievement",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/əˈtʃiːv.mənt/",
       "meaning": "達成、成果、業績",
       "example": {
@@ -2110,7 +2424,7 @@
     "attributing": {
       "tier": "frequent",
       "surface": "attributing",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/əˈtrɪb.juː.tɪŋ/",
       "meaning": "〜に帰する、〜のせいにする",
       "example": {
@@ -2127,7 +2441,7 @@
     "attribute": {
       "tier": "frequent",
       "surface": "attribute",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/əˈtrɪb.juːt/",
       "meaning": "〜の原因を〜に帰する；〜に起因するとみなす",
       "example": {
@@ -2163,7 +2477,7 @@
     "factors": {
       "tier": "frequent",
       "surface": "factors",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈfæk.tərz/",
       "meaning": "要因、要素",
       "example": {
@@ -2199,7 +2513,7 @@
     "flaws": {
       "tier": "key",
       "surface": "flaws",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/flɔːz/",
       "meaning": "欠点、弱点、瑕疵",
       "example": {
@@ -2234,7 +2548,7 @@
     "competence": {
       "tier": "key",
       "surface": "competence",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈkɒm.pɪ.təns/",
       "meaning": "能力、有能さ；適性",
       "example": {
@@ -2252,7 +2566,7 @@
     "accumulate": {
       "tier": "frequent",
       "surface": "accumulate",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/əˈkjuː.mjʊ.leɪt/",
       "meaning": "蓄積する、積み上げる",
       "example": {
@@ -2270,7 +2584,7 @@
     "affect": {
       "tier": "frequent",
       "surface": "affect",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/əˈfekt/",
       "meaning": "影響を与える",
       "example": {
@@ -2323,7 +2637,7 @@
     "traits": {
       "tier": "key",
       "surface": "traits",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/treɪts/",
       "meaning": "特性、特質",
       "example": {
@@ -2341,7 +2655,7 @@
     "thoroughness": {
       "tier": "key",
       "surface": "thoroughness",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈθʌr.ə.nəs/",
       "meaning": "徹底性、念入りさ",
       "example": {
@@ -2358,7 +2672,7 @@
     "humility": {
       "tier": "key",
       "surface": "humility",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/hjuːˈmɪl.ɪ.ti/",
       "meaning": "謙虚さ、謙遜",
       "example": {
@@ -2376,7 +2690,7 @@
     "feedback": {
       "tier": "frequent",
       "surface": "feedback",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈfiːd.bæk/",
       "meaning": "フィードバック、反応、意見",
       "example": {
@@ -2394,7 +2708,7 @@
     "assets": {
       "tier": "key",
       "surface": "assets",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈæs.ɪts/",
       "meaning": "強み、資産、長所",
       "example": {
@@ -2430,7 +2744,7 @@
     "burnout": {
       "tier": "key",
       "surface": "burnout",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈbɜːrn.aʊt/",
       "meaning": "燃え尽き症候群、バーンアウト",
       "example": {
@@ -2448,7 +2762,7 @@
     "reluctance": {
       "tier": "key",
       "surface": "reluctance",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/rɪˈlʌk.təns/",
       "meaning": "気乗りのしなさ、抵抗感",
       "example": {
@@ -2466,7 +2780,7 @@
     "advocate": {
       "tier": "frequent",
       "surface": "advocate",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ˈæd.və.keɪt/",
       "meaning": "主張する、擁護する；支持を表明する",
       "example": {
@@ -2484,7 +2798,7 @@
     "depression": {
       "tier": "key",
       "surface": "depression",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/dɪˈpreʃ.ən/",
       "meaning": "うつ病；意気消沈",
       "example": {
@@ -2502,7 +2816,7 @@
     "suggest": {
       "tier": "frequent",
       "surface": "suggest",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/səˈdʒest/",
       "meaning": "示唆する、提案する、示す",
       "example": {
@@ -2538,7 +2852,7 @@
     "reduce": {
       "tier": "frequent",
       "surface": "reduce",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/rɪˈduːs/",
       "meaning": "減らす、低下させる",
       "example": {
@@ -2556,7 +2870,7 @@
     "mentors": {
       "tier": "key",
       "surface": "mentors",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈmen.tɔːrz/",
       "meaning": "メンター、指導者",
       "example": {
@@ -2574,7 +2888,7 @@
     "peers": {
       "tier": "frequent",
       "surface": "peers",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/pɪərz/",
       "meaning": "仲間、同僚、同輩",
       "example": {
@@ -2592,7 +2906,7 @@
     "dismantle": {
       "tier": "key",
       "surface": "dismantle",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/dɪsˈmæn.tl/",
       "meaning": "解体する、壊す；(信念・構造を)崩す",
       "example": {
@@ -2610,7 +2924,7 @@
     "belief": {
       "tier": "normal",
       "surface": "belief",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/bɪˈliːf/",
       "meaning": "信念、信じること",
       "example": {
@@ -2628,7 +2942,7 @@
     "reframing": {
       "tier": "key",
       "surface": "reframing",
-      "pos": "verb/noun · C1",
+      "pos": "v/n · C1",
       "pron": "/riːˈfreɪ.mɪŋ/",
       "meaning": "再解釈する、捉え直す",
       "example": {
@@ -2646,7 +2960,7 @@
     "inadequacy": {
       "tier": "key",
       "surface": "inadequacy",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ɪnˈæd.ɪ.kwə.si/",
       "meaning": "不十分さ、不適格感",
       "example": {
@@ -2663,7 +2977,7 @@
     "fades": {
       "tier": "normal",
       "surface": "fades",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/feɪdz/",
       "meaning": "薄れる、消えていく",
       "example": {
@@ -2699,7 +3013,7 @@
     "capabilities": {
       "tier": "frequent",
       "surface": "capabilities",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌkeɪ.pəˈbɪl.ɪ.tiz/",
       "meaning": "能力、能力範囲",
       "example": {
@@ -2717,7 +3031,7 @@
     "internalize": {
       "tier": "key",
       "surface": "internalize",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ɪnˈtɜːr.nə.laɪz/",
       "meaning": "内面化する、自分のものにする",
       "example": {
@@ -2731,6 +3045,279 @@
         "internalize the message",
         "fail to internalize"
       ]
+    },
+    "instead": {
+      "tier": "normal",
+      "surface": "instead",
+      "pos": "adv · B1",
+      "pron": "/ɪnˈsted/",
+      "meaning": "その代わりに、〜ではなく",
+      "example": {
+        "en": "Instead of giving up, she tried again.",
+        "ja": "あきらめる代わりに、彼女は再挑戦した。"
+      },
+      "context": "instead of の形で「〜の代わりに・〜ではなく」。文頭・文中どちらでも使える対比表現。",
+      "collocations": []
+    },
+    "proud": {
+      "tier": "normal",
+      "surface": "proud",
+      "pos": "adj · A2",
+      "pron": "/praʊd/",
+      "meaning": "誇りに思う、得意な",
+      "example": {
+        "en": "She was <b>proud</b> of her achievement.",
+        "ja": "彼女は自分の成果を誇りに思った。"
+      },
+      "context": "be proud of で「〜を誇りに思う」。pride(名詞)の形容詞形。",
+      "collocations": []
+    },
+    "certain": {
+      "tier": "normal",
+      "surface": "certain",
+      "pos": "adj · B1",
+      "pron": "/ˈsɜːr.tən/",
+      "meaning": "確信している、確かな",
+      "example": {
+        "en": "I'm <b>certain</b> that he will come.",
+        "ja": "彼が来ることを確信している。"
+      },
+      "context": "be certain that で「〜を確信している」。sure よりやや改まった語。certainty(名詞)も重要。",
+      "collocations": []
+    },
+    "experience": {
+      "tier": "normal",
+      "surface": "experience",
+      "pos": "n · B1",
+      "pron": "/ɪkˈspɪə.ri.əns/",
+      "meaning": "経験、体験",
+      "example": {
+        "en": "This was a valuable <b>experience</b>.",
+        "ja": "これは貴重な経験だった。"
+      },
+      "context": "可算・不可算両方。動詞でも「経験する」。experienced(経験豊富な)も頻出。",
+      "collocations": []
+    },
+    "success": {
+      "tier": "normal",
+      "surface": "success",
+      "pos": "n · B1",
+      "pron": "/səkˈses/",
+      "meaning": "成功",
+      "example": {
+        "en": "Her hard work led to <b>success</b>.",
+        "ja": "彼女の努力が成功につながった。"
+      },
+      "context": "succeed(動詞), successful(形容詞)とセットで必修。基本は不可算だが「成功例」では可算。",
+      "collocations": []
+    },
+    "research": {
+      "tier": "normal",
+      "surface": "research",
+      "pos": "n · B1",
+      "pron": "/rɪˈsɜːrtʃ/",
+      "meaning": "研究、調査",
+      "example": {
+        "en": "Recent <b>research</b> supports this idea.",
+        "ja": "最近の研究はこの考えを裏付けている。"
+      },
+      "context": "不可算名詞。a research は誤りで a piece of research が正しい。動詞でも使う。researcher(研究者)も必修。",
+      "collocations": []
+    },
+    "experiencing": {
+      "tier": "normal",
+      "surface": "experiencing",
+      "pos": "v · B1",
+      "pron": "/ɪkˈspɪə.ri.ən.sɪŋ/",
+      "meaning": "経験している",
+      "example": {
+        "en": "Many people are <b>experiencing</b> stress.",
+        "ja": "多くの人がストレスを経験している。"
+      },
+      "context": "experience の現在分詞。「(感情・状態を)味わう・体感する」の意味で使う。",
+      "collocations": []
+    },
+    "succeed": {
+      "tier": "normal",
+      "surface": "succeed",
+      "pos": "v · B1",
+      "pron": "/səkˈsiːd/",
+      "meaning": "成功する",
+      "example": {
+        "en": "He worked hard to <b>succeed</b>.",
+        "ja": "彼は成功するために懸命に働いた。"
+      },
+      "context": "succeed in -ing で「〜に成功する」。succeed には「後を継ぐ」の意味もある。",
+      "collocations": []
+    },
+    "particular": {
+      "tier": "frequent",
+      "surface": "particular",
+      "pos": "adj · B1",
+      "pron": "/pərˈtɪk.jə.lər/",
+      "meaning": "特定の、特有の",
+      "example": {
+        "en": "He has a <b>particular</b> way of working.",
+        "ja": "彼には特有の働き方がある。"
+      },
+      "context": "specific と類義。in particular(とりわけ)というイディオムも頻出。particularly(副詞)も重要。",
+      "collocations": []
+    },
+    "failure": {
+      "tier": "frequent",
+      "surface": "failure",
+      "pos": "n · B2",
+      "pron": "/ˈfeɪl.jər/",
+      "meaning": "失敗、不成功",
+      "example": {
+        "en": "<b>Failure</b> is part of learning.",
+        "ja": "失敗は学びの一部だ。"
+      },
+      "context": "fail(動詞)の名詞形。success の対義語。可算・不可算両方。fear of failure(失敗への恐れ)が頻出。",
+      "collocations": []
+    },
+    "successes": {
+      "tier": "normal",
+      "surface": "successes",
+      "pos": "n · B1",
+      "pron": "/səkˈses.ɪz/",
+      "meaning": "成功(複数の)",
+      "example": {
+        "en": "She celebrated her small <b>successes</b>.",
+        "ja": "彼女は小さな成功の数々を祝った。"
+      },
+      "context": "success の複数形。「個々の成功事例・成果」を指すときに使う。",
+      "collocations": []
+    },
+    "failures": {
+      "tier": "frequent",
+      "surface": "failures",
+      "pos": "n · B2",
+      "pron": "/ˈfeɪl.jərz/",
+      "meaning": "失敗(複数の)",
+      "example": {
+        "en": "We learn from our <b>failures</b>.",
+        "ja": "私たちは失敗から学ぶ。"
+      },
+      "context": "failure の複数形。「個々の失敗・しくじり」を指す。",
+      "collocations": []
+    },
+    "evidence": {
+      "tier": "frequent",
+      "surface": "evidence",
+      "pos": "n · B2",
+      "pron": "/ˈev.ɪ.dəns/",
+      "meaning": "証拠、根拠",
+      "example": {
+        "en": "There is strong <b>evidence</b> for this theory.",
+        "ja": "この理論には強力な証拠がある。"
+      },
+      "context": "不可算名詞(a evidence は誤り)。学術・法律で必須。evident(明白な), evidently(明らかに)も重要。AWL収録。",
+      "collocations": []
+    },
+    "especially": {
+      "tier": "frequent",
+      "surface": "especially",
+      "pos": "adv · B1",
+      "pron": "/ɪˈspeʃ.əl.i/",
+      "meaning": "特に、とりわけ",
+      "example": {
+        "en": "This is <b>especially</b> true for beginners.",
+        "ja": "これは特に初心者に当てはまる。"
+      },
+      "context": "particularly と類義。文中で「とりわけ・なかでも」を強調する副詞。",
+      "collocations": []
+    },
+    "ironically": {
+      "tier": "key",
+      "surface": "ironically",
+      "pos": "adv · C1",
+      "pron": "/aɪˈrɒn.ɪk.li/",
+      "meaning": "皮肉なことに、逆説的に",
+      "example": {
+        "en": "<b>Ironically</b>, the cure caused new problems.",
+        "ja": "皮肉にも、その治療法が新たな問題を生んだ。"
+      },
+      "context": "irony(皮肉)の副詞形。「期待と反対の結果になる」状況を導く文修飾副詞。エッセイ・論説で頻用。",
+      "collocations": []
+    },
+    "associated": {
+      "tier": "frequent",
+      "surface": "associated",
+      "pos": "v · B2",
+      "pron": "/əˈsoʊ.si.eɪ.tɪd/",
+      "meaning": "関連した、結びついた",
+      "example": {
+        "en": "Stress is often <b>associated</b> with poor sleep.",
+        "ja": "ストレスはしばしば睡眠不足と関連している。"
+      },
+      "context": "associate A with B = AをBと結びつける。be associated with(〜と関連がある)が頻出。AWL収録。association(名詞)も重要。",
+      "collocations": []
+    },
+    "desire": {
+      "tier": "frequent",
+      "surface": "desire",
+      "pos": "n · B2",
+      "pron": "/dɪˈzaɪər/",
+      "meaning": "欲求、願望",
+      "example": {
+        "en": "She has a strong <b>desire</b> to succeed.",
+        "ja": "彼女には成功したいという強い願望がある。"
+      },
+      "context": "want より強く・改まった「強い望み」。動詞でも使う。a desire for / to do の形が頻出。AWL収録。",
+      "collocations": []
+    },
+    "professional": {
+      "tier": "frequent",
+      "surface": "professional",
+      "pos": "adj · B1",
+      "pron": "/prəˈfeʃ.ən.əl/",
+      "meaning": "専門的な、プロの",
+      "example": {
+        "en": "She gave a <b>professional</b> presentation.",
+        "ja": "彼女はプロらしいプレゼンをした。"
+      },
+      "context": "profession(専門職)の形容詞形。名詞でも「専門家・プロ」。professional settings(職業上の場面)が本文の用法。",
+      "collocations": []
+    },
+    "researchers": {
+      "tier": "normal",
+      "surface": "researchers",
+      "pos": "n · B1",
+      "pron": "/rɪˈsɜːr.tʃərz/",
+      "meaning": "研究者たち",
+      "example": {
+        "en": "<b>Researchers</b> studied the effect of sleep.",
+        "ja": "研究者たちは睡眠の効果を研究した。"
+      },
+      "context": "research + -er。学術論文で「〜らは…と述べている」の主語として頻出。",
+      "collocations": []
+    },
+    "strategies": {
+      "tier": "frequent",
+      "surface": "strategies",
+      "pos": "n · B2",
+      "pron": "/ˈstræt.ə.dʒiz/",
+      "meaning": "戦略、方略、手段",
+      "example": {
+        "en": "We discussed several learning <b>strategies</b>.",
+        "ja": "私たちはいくつかの学習方略を議論した。"
+      },
+      "context": "strategy の複数形。coping strategies(対処法)など心理学・ビジネスで頻用。strategic(形容詞)も重要。AWL収録。",
+      "collocations": []
+    },
+    "opportunity": {
+      "tier": "frequent",
+      "surface": "opportunity",
+      "pos": "n · B1",
+      "pron": "/ˌɒp.ərˈtjuː.nɪ.ti/",
+      "meaning": "機会、好機",
+      "example": {
+        "en": "This is a great <b>opportunity</b> to learn.",
+        "ja": "これは学ぶ絶好の機会だ。"
+      },
+      "context": "chance より改まった語。take/seize an opportunity(機会をつかむ)が頻出。",
+      "collocations": []
     }
   },
   "expressions": {

@@ -113,7 +113,7 @@
               "type": "word",
               "surface": "dog",
               "ref": "dog",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -125,7 +125,7 @@
               "type": "word",
               "surface": "attacked",
               "ref": "attacked",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -137,7 +137,7 @@
               "type": "word",
               "surface": "biting",
               "ref": "biting",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -149,7 +149,7 @@
               "type": "word",
               "surface": "places",
               "ref": "places",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -193,7 +193,7 @@
               "type": "word",
               "surface": "survived",
               "ref": "survived",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -205,7 +205,7 @@
               "type": "word",
               "surface": "mother",
               "ref": "mother",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -217,7 +217,7 @@
               "type": "word",
               "surface": "realized",
               "ref": "realized",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -229,7 +229,7 @@
               "type": "word",
               "surface": "infected",
               "ref": "infected",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -299,7 +299,7 @@
               "type": "word",
               "surface": "rushed",
               "ref": "rushed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -311,7 +311,7 @@
               "type": "word",
               "surface": "knowing",
               "ref": "knowing",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -323,7 +323,7 @@
               "type": "word",
               "surface": "life",
               "ref": "life",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -346,7 +346,7 @@
               "type": "word",
               "surface": "rumored",
               "ref": "rumored",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -358,7 +358,7 @@
               "type": "word",
               "surface": "experimental",
               "ref": "experimental",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -370,7 +370,7 @@
               "type": "word",
               "surface": "medicine",
               "ref": "medicine",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -429,7 +429,7 @@
               "type": "word",
               "surface": "proper",
               "ref": "proper",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -441,81 +441,93 @@
               "type": "word",
               "surface": "intervention",
               "ref": "intervention",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", rabies "
+              "surface": ", ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "remains",
-              "ref": "remains",
-              "tier": "skip"
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "deadly",
-              "ref": "deadly",
-              "tier": "known"
+              "surface": "remains",
+              "ref": "remains",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " in almost all "
+              "surface": " "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "cases",
-              "ref": "cases",
-              "tier": "skip"
+              "surface": "deadly",
+              "ref": "deadly",
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": ", "
+              "surface": " in almost all "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "making",
-              "ref": "making",
-              "tier": "skip"
+              "surface": "cases",
+              "ref": "cases",
+              "tier": "basic"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": " it the most "
+              "surface": ", "
             },
             {
               "id": "t14",
+              "type": "word",
+              "surface": "making",
+              "ref": "making",
+              "tier": "basic"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " it the most "
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "lethal",
               "ref": "lethal",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "expression",
               "surface": "infectious disease",
               "ref": "infectious_disease"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -555,138 +567,162 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "However, modern "
+              "surface": "However, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "modern",
+              "ref": "modern",
+              "tier": "basic",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "advances",
               "ref": "advances",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " have "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "afforded",
               "ref": "afforded",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " us a much deeper "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "understanding",
               "ref": "understanding",
-              "tier": "skip"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " of the "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "mechanisms",
-              "ref": "mechanisms",
-              "tier": "known"
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " that "
+              "surface": " of the "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "make",
-              "ref": "make",
-              "tier": "skip"
+              "surface": "mechanisms",
+              "ref": "mechanisms",
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " rabies so "
+              "surface": " that "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "dangerous",
-              "ref": "dangerous",
-              "tier": "skip"
+              "surface": "make",
+              "ref": "make",
+              "tier": "basic"
             },
             {
-              "id": "t13",
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " so ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "dangerous",
+              "ref": "dangerous",
+              "tier": "basic"
+            },
+            {
+              "id": "t17",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "expression",
               "surface": "treatment-resistant",
               "ref": "treatment_resistant"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": ", and have "
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "word",
               "surface": "revealed",
               "ref": "revealed",
-              "tier": "skip"
-            },
-            {
-              "id": "t17",
-              "type": "skip",
-              "surface": " the best "
-            },
-            {
-              "id": "t18",
-              "type": "word",
-              "surface": "methods",
-              "ref": "methods",
-              "tier": "skip"
-            },
-            {
-              "id": "t19",
-              "type": "skip",
-              "surface": " to "
-            },
-            {
-              "id": "t20",
-              "type": "word",
-              "surface": "save",
-              "ref": "save",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t21",
               "type": "skip",
-              "surface": " "
+              "surface": " the best "
             },
             {
               "id": "t22",
               "type": "word",
-              "surface": "lives",
-              "ref": "lives",
-              "tier": "skip"
+              "surface": "methods",
+              "ref": "methods",
+              "tier": "basic"
             },
             {
               "id": "t23",
+              "type": "skip",
+              "surface": " to "
+            },
+            {
+              "id": "t24",
+              "type": "word",
+              "surface": "save",
+              "ref": "save",
+              "tier": "basic"
+            },
+            {
+              "id": "t25",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t26",
+              "type": "word",
+              "surface": "lives",
+              "ref": "lives",
+              "tier": "basic"
+            },
+            {
+              "id": "t27",
               "type": "skip",
               "surface": "."
             }
@@ -724,114 +760,121 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Rabies is "
+              "type": "word",
+              "surface": "Rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t1"
             },
             {
-              "id": "t2",
-              "type": "word",
-              "surface": "caused",
-              "ref": "caused",
-              "tier": "skip"
+              "type": "skip",
+              "surface": " is ",
+              "id": "t2"
             },
             {
               "id": "t3",
+              "type": "word",
+              "surface": "caused",
+              "ref": "caused",
+              "tier": "basic"
+            },
+            {
+              "id": "t4",
               "type": "skip",
               "surface": " by the "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "roughly",
               "ref": "roughly",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t6",
               "type": "skip",
               "surface": " 20 "
             },
             {
-              "id": "t6",
+              "id": "t7",
               "type": "word",
               "surface": "virus",
               "ref": "virus",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t8",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t9",
               "type": "word",
               "surface": "species",
               "ref": "species",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t10",
               "type": "skip",
               "surface": " in the "
             },
             {
-              "id": "t10",
+              "id": "t11",
               "type": "word",
               "surface": "Lyssavirus",
               "ref": "lyssavirus",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t13",
               "type": "word",
               "surface": "genus",
               "ref": "genus",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t14",
               "type": "skip",
               "surface": ", all of which "
             },
             {
-              "id": "t14",
+              "id": "t15",
               "type": "word",
               "surface": "attack",
               "ref": "attack",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t16",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t16",
+              "id": "t17",
               "type": "word",
               "surface": "mammalian",
               "ref": "mammalian",
               "tier": "key"
             },
             {
-              "id": "t17",
+              "id": "t18",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t18",
+              "id": "t19",
               "type": "expression",
               "surface": "nervous system",
               "ref": "nervous_system"
             },
             {
-              "id": "t19",
+              "id": "t20",
               "type": "skip",
               "surface": "."
             }
@@ -865,43 +908,55 @@
               "tier": "key"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " rabies, the most "
+              "surface": " ",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "word",
-              "surface": "abundant",
-              "ref": "abundant",
-              "tier": "known"
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": ", can "
+              "surface": ", the most ",
+              "id": "t4"
             },
             {
               "id": "t5",
               "type": "word",
-              "surface": "infect",
-              "ref": "infect",
-              "tier": "known"
+              "surface": "abundant",
+              "ref": "abundant",
+              "tier": "normal"
             },
             {
               "id": "t6",
               "type": "skip",
-              "surface": " any "
+              "surface": ", can "
             },
             {
               "id": "t7",
               "type": "word",
-              "surface": "mammal",
-              "ref": "mammal",
-              "tier": "known"
+              "surface": "infect",
+              "ref": "infect",
+              "tier": "normal"
             },
             {
               "id": "t8",
+              "type": "skip",
+              "surface": " any "
+            },
+            {
+              "id": "t9",
+              "type": "word",
+              "surface": "mammal",
+              "ref": "mammal",
+              "tier": "normal"
+            },
+            {
+              "id": "t10",
               "type": "skip",
               "surface": "."
             }
@@ -944,7 +999,7 @@
               "type": "word",
               "surface": "mainly",
               "ref": "mainly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t4",
@@ -956,7 +1011,7 @@
               "type": "word",
               "surface": "persist",
               "ref": "persist",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t6",
@@ -979,7 +1034,7 @@
               "type": "word",
               "surface": "bat",
               "ref": "bat",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t10",
@@ -991,7 +1046,7 @@
               "type": "word",
               "surface": "populations",
               "ref": "populations",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t12",
@@ -1034,7 +1089,7 @@
               "type": "word",
               "surface": "Besides",
               "ref": "besides",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -1046,117 +1101,153 @@
               "type": "word",
               "surface": "bats",
               "ref": "bats",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": ", rabies virus has also "
+              "surface": ", ",
+              "id": "t4"
             },
             {
-              "id": "t5",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t6"
+            },
+            {
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " has also ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "adapted",
               "ref": "adapted",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "word",
               "surface": "carnivores",
               "ref": "carnivores",
               "tier": "key"
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "skip",
               "surface": " like "
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "word",
               "surface": "foxes",
               "ref": "foxes",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "word",
               "surface": "raccoons",
               "ref": "raccoons",
               "tier": "key"
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "word",
               "surface": "skunks",
               "ref": "skunks",
               "tier": "key"
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "skip",
               "surface": ", and most "
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "word",
               "surface": "human",
               "ref": "human",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t16",
               "type": "skip",
-              "surface": " rabies "
+              "surface": " ",
+              "id": "t20"
             },
             {
-              "id": "t17",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t21"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t22"
+            },
+            {
+              "id": "t23",
               "type": "word",
               "surface": "infections",
               "ref": "infections",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t18",
+              "id": "t24",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t19",
+              "id": "t25",
               "type": "expression",
               "surface": "come from",
               "ref": "come_from"
             },
             {
-              "id": "t20",
+              "id": "t26",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t21",
+              "id": "t27",
               "type": "word",
               "surface": "dogs",
               "ref": "dogs",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t22",
+              "id": "t28",
               "type": "skip",
               "surface": "."
             }
@@ -1192,7 +1283,7 @@
               "type": "word",
               "surface": "Infection",
               "ref": "infection",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -1204,7 +1295,7 @@
               "type": "word",
               "surface": "begins",
               "ref": "begins",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t4",
@@ -1216,7 +1307,7 @@
               "type": "word",
               "surface": "transfer",
               "ref": "transfer",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t6",
@@ -1251,7 +1342,7 @@
               "type": "word",
               "surface": "host",
               "ref": "host",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t12",
@@ -1263,7 +1354,7 @@
               "type": "word",
               "surface": "tissue",
               "ref": "tissue",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t14",
@@ -1302,7 +1393,7 @@
               "type": "word",
               "surface": "happen",
               "ref": "happen",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1314,7 +1405,7 @@
               "type": "word",
               "surface": "deep",
               "ref": "deep",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -1326,7 +1417,7 @@
               "type": "word",
               "surface": "bite",
               "ref": "bite",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1338,7 +1429,7 @@
               "type": "word",
               "surface": "wound",
               "ref": "wound",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1350,7 +1441,7 @@
               "type": "word",
               "surface": "lick",
               "ref": "lick",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -1362,7 +1453,7 @@
               "type": "word",
               "surface": "certain",
               "ref": "certain",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -1374,7 +1465,7 @@
               "type": "word",
               "surface": "spots",
               "ref": "spots",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t15",
@@ -1409,54 +1500,66 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Once inside its new host, the virus "
+              "surface": "Once inside its new host, the ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "particles",
               "ref": "particles",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": ", called "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "virions",
               "ref": "virions",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "expression",
               "surface": "set out",
               "ref": "set_out"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " for the "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "brain",
               "ref": "brain",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1487,67 +1590,79 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "If the infection "
+              "surface": "If the ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "site",
-              "ref": "site",
-              "tier": "skip"
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " is "
+              "surface": " ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "closer",
-              "ref": "closer",
-              "tier": "skip"
+              "surface": "site",
+              "ref": "site",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " to the "
+              "surface": " is "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "head",
-              "ref": "head",
-              "tier": "skip"
+              "surface": "closer",
+              "ref": "closer",
+              "tier": "basic"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": ", things may "
+              "surface": " to the "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "escalate",
-              "ref": "escalate",
-              "tier": "known"
+              "surface": "head",
+              "ref": "head",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": ", things may "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "faster",
-              "ref": "faster",
-              "tier": "skip"
+              "surface": "escalate",
+              "ref": "escalate",
+              "tier": "normal"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "faster",
+              "ref": "faster",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1579,78 +1694,97 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Rabies virions may "
+              "type": "word",
+              "surface": "Rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " may ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "expression",
               "surface": "lay low",
               "ref": "lay_low"
             },
             {
-              "id": "t3",
+              "id": "t6",
               "type": "skip",
               "surface": " for days, weeks, months, or in rare "
             },
             {
-              "id": "t4",
+              "id": "t7",
               "type": "word",
               "surface": "cases",
               "ref": "cases",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t8",
               "type": "skip",
               "surface": ", years, "
             },
             {
-              "id": "t6",
+              "id": "t9",
               "type": "word",
               "surface": "replicating",
               "ref": "replicating",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t10",
               "type": "skip",
               "surface": " without "
             },
             {
-              "id": "t8",
+              "id": "t11",
               "type": "word",
               "surface": "causing",
               "ref": "causing",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t12",
               "type": "skip",
               "surface": " any "
             },
             {
-              "id": "t10",
+              "id": "t13",
               "type": "word",
               "surface": "immediate",
               "ref": "immediate",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t14",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t12",
+              "id": "t15",
               "type": "word",
               "surface": "symptoms",
               "ref": "symptoms",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t16",
               "type": "skip",
               "surface": "."
             }
@@ -1681,66 +1815,73 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Virions also "
+              "type": "word",
+              "surface": "Virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t1"
             },
             {
-              "id": "t2",
-              "type": "word",
-              "surface": "suppress",
-              "ref": "suppress",
-              "tier": "known"
+              "type": "skip",
+              "surface": " also ",
+              "id": "t2"
             },
             {
               "id": "t3",
+              "type": "word",
+              "surface": "suppress",
+              "ref": "suppress",
+              "tier": "normal"
+            },
+            {
+              "id": "t4",
               "type": "skip",
               "surface": " certain "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "expression",
               "surface": "immune responses",
               "ref": "immune_responses"
             },
             {
-              "id": "t5",
+              "id": "t6",
               "type": "skip",
               "surface": " making it harder to "
             },
             {
-              "id": "t6",
+              "id": "t7",
               "type": "word",
               "surface": "clear",
               "ref": "clear",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t8",
               "type": "skip",
               "surface": " an "
             },
             {
-              "id": "t8",
+              "id": "t9",
               "type": "word",
               "surface": "infection",
               "ref": "infection",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t10",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t11",
               "type": "word",
               "surface": "locally",
               "ref": "locally",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t12",
               "type": "skip",
               "surface": "."
             }
@@ -1790,128 +1931,152 @@
               "type": "word",
               "surface": "Meanwhile",
               "ref": "meanwhile",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": ", the virions begin to "
+              "surface": ", the ",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "word",
-              "surface": "travel",
-              "ref": "travel",
-              "tier": "skip"
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": ", "
+              "surface": " begin to ",
+              "id": "t4"
             },
             {
               "id": "t5",
               "type": "word",
-              "surface": "entering",
-              "ref": "entering",
-              "tier": "skip"
+              "surface": "travel",
+              "ref": "travel",
+              "tier": "basic"
             },
             {
               "id": "t6",
               "type": "skip",
-              "surface": " local "
+              "surface": ", "
             },
             {
               "id": "t7",
+              "type": "word",
+              "surface": "entering",
+              "ref": "entering",
+              "tier": "basic"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " local "
+            },
+            {
+              "id": "t9",
               "type": "expression",
               "surface": "nerve cells",
               "ref": "nerve_cells"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "word",
               "surface": "exploiting",
               "ref": "exploiting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t10",
               "type": "skip",
-              "surface": " the existing "
+              "surface": " the ",
+              "id": "t12"
             },
             {
-              "id": "t11",
+              "type": "word",
+              "surface": "existing",
+              "ref": "existing",
+              "tier": "normal",
+              "id": "t13"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t14"
+            },
+            {
+              "id": "t15",
               "type": "word",
               "surface": "transport",
               "ref": "transport",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "word",
               "surface": "mechanisms",
               "ref": "mechanisms",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "skip",
               "surface": " along their "
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "word",
               "surface": "axons",
               "ref": "axons",
               "tier": "key"
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t17",
+              "id": "t21",
               "type": "word",
               "surface": "traveling",
               "ref": "traveling",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t18",
+              "id": "t22",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t19",
+              "id": "t23",
               "type": "expression",
               "surface": "up to",
               "ref": "up_to"
             },
             {
-              "id": "t20",
+              "id": "t24",
               "type": "skip",
               "surface": " 100 "
             },
             {
-              "id": "t21",
+              "id": "t25",
               "type": "word",
               "surface": "millimeters",
               "ref": "millimeters",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t22",
+              "id": "t26",
               "type": "skip",
               "surface": " a day."
             }
@@ -1950,7 +2115,7 @@
               "type": "word",
               "surface": "protected",
               "ref": "protected",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1962,33 +2127,69 @@
               "type": "word",
               "surface": "position",
               "ref": "position",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " here in the nerve cells helps "
+              "surface": " here in the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "nerve",
+              "ref": "nerve",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "cells",
+              "ref": "cells",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " helps ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "shield",
               "ref": "shield",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " the virions from the host's "
+              "surface": " the ",
+              "id": "t11"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " from the host's ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "expression",
               "surface": "immune system",
               "ref": "immune_system"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2047,43 +2248,55 @@
               "ref": "central_nervous_system"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", the infection "
+              "surface": ", the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "enters",
-              "ref": "enters",
-              "tier": "skip"
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "normal",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " a new, "
+              "surface": " ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "devastating",
-              "ref": "devastating",
-              "tier": "known"
+              "surface": "enters",
+              "ref": "enters",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " a new, "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "stage",
-              "ref": "stage",
-              "tier": "skip"
+              "surface": "devastating",
+              "ref": "devastating",
+              "tier": "normal"
             },
             {
               "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "stage",
+              "ref": "stage",
+              "tier": "basic"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2119,7 +2332,7 @@
               "type": "word",
               "surface": "Clinical",
               "ref": "clinical",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t2",
@@ -2131,7 +2344,7 @@
               "type": "word",
               "surface": "symptoms",
               "ref": "symptoms",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t4",
@@ -2143,82 +2356,130 @@
               "type": "word",
               "surface": "develop",
               "ref": "develop",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t6",
               "type": "skip",
-              "surface": " as rabies virions "
+              "surface": " as ",
+              "id": "t6"
             },
             {
-              "id": "t7",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t8"
+            },
+            {
+              "type": "word",
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t9"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t10"
+            },
+            {
+              "id": "t11",
               "type": "word",
               "surface": "rapidly",
               "ref": "rapidly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "word",
               "surface": "proliferate",
               "ref": "proliferate",
               "tier": "key"
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "word",
               "surface": "spreading",
               "ref": "spreading",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t12",
+              "id": "t16",
               "type": "skip",
               "surface": " into the "
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "word",
               "surface": "peripheral",
               "ref": "peripheral",
               "tier": "key"
             },
             {
-              "id": "t14",
               "type": "skip",
-              "surface": " nervous system and its "
+              "surface": " ",
+              "id": "t18"
             },
             {
-              "id": "t15",
+              "type": "word",
+              "surface": "nervous",
+              "ref": "nervous",
+              "tier": "normal",
+              "id": "t19"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t20"
+            },
+            {
+              "type": "word",
+              "surface": "system",
+              "ref": "system",
+              "tier": "basic",
+              "id": "t21"
+            },
+            {
+              "type": "skip",
+              "surface": " and its ",
+              "id": "t22"
+            },
+            {
+              "id": "t23",
               "type": "word",
               "surface": "connective",
               "ref": "connective",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t16",
+              "id": "t24",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t17",
+              "id": "t25",
               "type": "word",
               "surface": "tissues",
               "ref": "tissues",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t18",
+              "id": "t26",
               "type": "skip",
               "surface": "."
             }
@@ -2258,35 +2519,59 @@
               "type": "word",
               "surface": "escalating",
               "ref": "escalating",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " infection "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "registers",
               "ref": "registers",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " with "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "expression",
               "surface": "flu-like",
               "ref": "flu_like"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " symptoms."
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t11"
             }
           ]
         },
@@ -2325,81 +2610,141 @@
               "type": "word",
               "surface": "neurological",
               "ref": "neurological",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " infection might cause "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " might cause ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "inflammation",
               "ref": "inflammation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " that opens the "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "expression",
               "surface": "blood-brain barrier",
               "ref": "blood_brain_barrier"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "incites",
               "ref": "incites",
               "tier": "key"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " an immune response, rabies viruses do not, so "
+              "surface": " an immune ",
+              "id": "t11"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "response",
+              "ref": "response",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "viruses",
+              "ref": "viruses",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " do not, so ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
               "type": "word",
               "surface": "immune",
               "ref": "immune",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " cells and "
+              "surface": " ",
+              "id": "t19"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "cells",
+              "ref": "cells",
+              "tier": "basic",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " and ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "therapies",
               "ref": "therapies",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t23",
               "type": "skip",
               "surface": " cannot easily or quickly "
             },
             {
-              "id": "t14",
+              "id": "t24",
               "type": "word",
               "surface": "reach",
               "ref": "reach",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t15",
+              "id": "t25",
               "type": "skip",
               "surface": " them there."
             }
@@ -2444,7 +2789,7 @@
               "type": "word",
               "surface": "disease",
               "ref": "disease",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2456,21 +2801,45 @@
               "type": "word",
               "surface": "damages",
               "ref": "damages",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " the nervous system, things "
+              "surface": " the ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "nervous",
+              "ref": "nervous",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "system",
+              "ref": "system",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", things ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "take one of two turns",
               "ref": "take_a_turn"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -2509,66 +2878,90 @@
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " rabies, symptoms like a "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "vacant",
-              "ref": "vacant",
-              "tier": "known"
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": ", ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "expression",
-              "ref": "expression",
-              "tier": "known"
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "normal",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", "
+              "surface": " like a ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "weakness",
-              "ref": "weakness",
-              "tier": "known"
+              "surface": "vacant",
+              "ref": "vacant",
+              "tier": "normal"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": ", and "
+              "surface": " "
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "paralysis",
-              "ref": "paralysis",
-              "tier": "known"
+              "surface": "expression",
+              "ref": "expression",
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " "
+              "surface": ", "
             },
             {
               "id": "t12",
+              "type": "word",
+              "surface": "weakness",
+              "ref": "weakness",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", and "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "paralysis",
+              "ref": "paralysis",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "set in",
               "ref": "set_in"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -2598,66 +2991,66 @@
               "type": "word",
               "surface": "Furious",
               "ref": "furious",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " rabies, meanwhile, is "
+              "surface": " ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": ", meanwhile, is ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "expression",
               "surface": "associated with",
               "ref": "associated_with"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "hyperactivity",
               "ref": "hyperactivity",
               "tier": "key"
             },
             {
-              "id": "t6",
-              "type": "skip",
-              "surface": ", "
-            },
-            {
-              "id": "t7",
-              "type": "word",
-              "surface": "uncontrolled",
-              "ref": "uncontrolled",
-              "tier": "known"
-            },
-            {
               "id": "t8",
               "type": "skip",
-              "surface": " "
+              "surface": ", "
             },
             {
               "id": "t9",
               "type": "word",
-              "surface": "movements",
-              "ref": "movements",
-              "tier": "skip"
+              "surface": "uncontrolled",
+              "ref": "uncontrolled",
+              "tier": "normal"
             },
             {
               "id": "t10",
               "type": "skip",
-              "surface": ", "
+              "surface": " "
             },
             {
               "id": "t11",
               "type": "word",
-              "surface": "hallucinations",
-              "ref": "hallucinations",
-              "tier": "key"
+              "surface": "movements",
+              "ref": "movements",
+              "tier": "basic"
             },
             {
               "id": "t12",
@@ -2667,12 +3060,24 @@
             {
               "id": "t13",
               "type": "word",
-              "surface": "aggression",
-              "ref": "aggression",
-              "tier": "known"
+              "surface": "hallucinations",
+              "ref": "hallucinations",
+              "tier": "key"
             },
             {
               "id": "t14",
+              "type": "skip",
+              "surface": ", "
+            },
+            {
+              "id": "t15",
+              "type": "word",
+              "surface": "aggression",
+              "ref": "aggression",
+              "tier": "normal"
+            },
+            {
+              "id": "t16",
               "type": "skip",
               "surface": ", and paralysis."
             }
@@ -2703,54 +3108,66 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "As virions "
+              "surface": "As ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "accumulate",
               "ref": "accumulate",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " in the "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "salivary glands",
               "ref": "salivary_glands"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": ", the host "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "secretes",
               "ref": "secretes",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "excess",
               "ref": "excess",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " saliva."
             }
@@ -2786,114 +3203,138 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The infection also often causes "
+              "surface": "The ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " also often causes ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "hydrophobia",
               "ref": "hydrophobia",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " in people, where "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "throat",
               "ref": "throat",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "spasms",
               "ref": "spasms",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " make "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "swallowing",
               "ref": "swallowing",
-              "tier": "known"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": " water "
-            },
-            {
-              "id": "t10",
-              "type": "word",
-              "surface": "painful",
-              "ref": "painful",
-              "tier": "skip"
+              "tier": "normal"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " and "
+              "surface": " water "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "difficult",
-              "ref": "difficult",
-              "tier": "skip"
+              "surface": "painful",
+              "ref": "painful",
+              "tier": "basic"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": ", further "
+              "surface": " and "
             },
             {
               "id": "t14",
               "type": "word",
-              "surface": "concentrating",
-              "ref": "concentrating",
-              "tier": "known"
+              "surface": "difficult",
+              "ref": "difficult",
+              "tier": "basic"
             },
             {
               "id": "t15",
               "type": "skip",
-              "surface": " the virus in the saliva and increasing the "
+              "surface": ", further "
             },
             {
               "id": "t16",
+              "type": "word",
+              "surface": "concentrating",
+              "ref": "concentrating",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " in the saliva and increasing the ",
+              "id": "t19"
+            },
+            {
+              "id": "t20",
               "type": "expression",
               "surface": "odds of",
               "ref": "odds_of"
             },
             {
-              "id": "t17",
+              "id": "t21",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t18",
+              "id": "t22",
               "type": "word",
               "surface": "transmission",
               "ref": "transmission",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t19",
+              "id": "t23",
               "type": "skip",
               "surface": "."
             }
@@ -2937,7 +3378,7 @@
               "type": "word",
               "surface": "hosts",
               "ref": "hosts",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2949,7 +3390,7 @@
               "type": "word",
               "surface": "effective",
               "ref": "effective",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2961,58 +3402,94 @@
               "type": "word",
               "surface": "transmitting",
               "ref": "transmitting",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " the virus; humans, however, aren't, and rarely "
+              "surface": " the ",
+              "id": "t7"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "transmit",
-              "ref": "transmit",
-              "tier": "known"
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t8"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " rabies themselves, for example, in cases of "
+              "surface": "; ",
+              "id": "t9"
             },
             {
-              "id": "t10",
               "type": "word",
-              "surface": "tissue",
-              "ref": "tissue",
-              "tier": "known"
+              "surface": "humans",
+              "ref": "humans",
+              "tier": "basic",
+              "id": "t10"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " or "
+              "surface": ", however, aren't, and rarely ",
+              "id": "t11"
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "organ",
-              "ref": "organ",
-              "tier": "skip"
+              "surface": "transmit",
+              "ref": "transmit",
+              "tier": "normal"
             },
             {
-              "id": "t13",
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " themselves, for example, in cases of ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "tissue",
+              "ref": "tissue",
+              "tier": "normal"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " or "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "organ",
+              "ref": "organ",
+              "tier": "basic"
+            },
+            {
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t20",
               "type": "word",
               "surface": "transplantation",
               "ref": "transplantation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "skip",
               "surface": "."
             }
@@ -3055,66 +3532,78 @@
               "ref": "regardless_of"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " whether transmission occurs, this period of "
+              "surface": " whether transmission ",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "word",
-              "surface": "acute",
-              "ref": "acute",
-              "tier": "known"
+              "surface": "occurs",
+              "ref": "occurs",
+              "tier": "normal",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "skip",
-              "surface": " "
+              "surface": ", this period of ",
+              "id": "t4"
             },
             {
               "id": "t5",
               "type": "word",
-              "surface": "illness",
-              "ref": "illness",
-              "tier": "known"
+              "surface": "acute",
+              "ref": "acute",
+              "tier": "normal"
             },
             {
               "id": "t6",
               "type": "skip",
-              "surface": " is almost always "
+              "surface": " "
             },
             {
               "id": "t7",
+              "type": "word",
+              "surface": "illness",
+              "ref": "illness",
+              "tier": "normal"
+            },
+            {
+              "id": "t8",
+              "type": "skip",
+              "surface": " is almost always "
+            },
+            {
+              "id": "t9",
               "type": "expression",
               "surface": "followed by",
               "ref": "followed_by"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "word",
               "surface": "coma",
               "ref": "coma",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "word",
               "surface": "death",
               "ref": "death",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "skip",
               "surface": "."
             }
@@ -3145,33 +3634,57 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Once symptoms have begun, there is "
+              "surface": "Once ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "currently",
-              "ref": "currently",
-              "tier": "skip"
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " no "
+              "surface": " have begun, there is ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "cure",
-              "ref": "cure",
-              "tier": "known"
+              "surface": "currently",
+              "ref": "currently",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " for rabies."
+              "surface": " no "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "cure",
+              "ref": "cure",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " for ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         },
@@ -3219,7 +3732,7 @@
               "type": "word",
               "surface": "highly",
               "ref": "highly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3231,7 +3744,7 @@
               "type": "word",
               "surface": "effective",
               "ref": "effective",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -3243,7 +3756,7 @@
               "type": "word",
               "surface": "preventative",
               "ref": "preventative",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -3255,7 +3768,7 @@
               "type": "word",
               "surface": "delivered",
               "ref": "delivered",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -3267,7 +3780,7 @@
               "type": "word",
               "surface": "early",
               "ref": "early",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -3279,7 +3792,7 @@
               "type": "word",
               "surface": "enough",
               "ref": "enough",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t13",
@@ -3291,7 +3804,7 @@
               "type": "word",
               "surface": "benefit",
               "ref": "benefit",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t15",
@@ -3334,7 +3847,7 @@
               "type": "word",
               "surface": "scientist",
               "ref": "scientist",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3346,7 +3859,7 @@
               "type": "word",
               "surface": "colleagues",
               "ref": "colleagues",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3358,7 +3871,7 @@
               "type": "word",
               "surface": "trying",
               "ref": "trying",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -3370,22 +3883,34 @@
               "type": "word",
               "surface": "develop",
               "ref": "develop",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " a rabies "
+              "surface": " a ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "vaccine",
               "ref": "vaccine",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -3440,7 +3965,7 @@
               "type": "word",
               "surface": "collected",
               "ref": "collected",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3454,79 +3979,115 @@
               "ref": "spinal_cords"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " of rabies-virus-infected "
+              "surface": " of ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "rabbits",
-              "ref": "rabbits",
-              "tier": "skip"
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", "
+              "surface": "-",
+              "id": "t7"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "dried",
-              "ref": "dried",
-              "tier": "skip"
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t8"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " them to "
+              "surface": "-infected ",
+              "id": "t9"
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "weaken",
-              "ref": "weaken",
-              "tier": "known"
+              "surface": "rabbits",
+              "ref": "rabbits",
+              "tier": "basic"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " the virus, and "
+              "surface": ", "
             },
             {
               "id": "t12",
               "type": "word",
-              "surface": "injected",
-              "ref": "injected",
-              "tier": "known"
+              "surface": "dried",
+              "ref": "dried",
+              "tier": "basic"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": " the "
+              "surface": " them to "
             },
             {
               "id": "t14",
               "type": "word",
-              "surface": "resulting",
-              "ref": "resulting",
-              "tier": "known"
+              "surface": "weaken",
+              "ref": "weaken",
+              "tier": "normal"
             },
             {
-              "id": "t15",
+              "type": "skip",
+              "surface": " the ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ", and ",
+              "id": "t17"
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "injected",
+              "ref": "injected",
+              "tier": "normal"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " the "
+            },
+            {
+              "id": "t20",
+              "type": "word",
+              "surface": "resulting",
+              "ref": "resulting",
+              "tier": "normal"
+            },
+            {
+              "id": "t21",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t22",
               "type": "word",
               "surface": "mixtures",
               "ref": "mixtures",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t17",
+              "id": "t23",
               "type": "skip",
               "surface": " into dogs and other animals."
             }
@@ -3565,7 +4126,7 @@
               "type": "word",
               "surface": "attack",
               "ref": "attack",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3613,7 +4174,7 @@
               "type": "word",
               "surface": "received",
               "ref": "received",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3648,7 +4209,7 @@
               "type": "word",
               "surface": "procedure",
               "ref": "procedure",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -3660,7 +4221,7 @@
               "type": "word",
               "surface": "risky",
               "ref": "risky",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -3694,7 +4255,7 @@
               "type": "word",
               "surface": "survive",
               "ref": "survive",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t17",
@@ -3747,7 +4308,7 @@
               "type": "word",
               "surface": "series",
               "ref": "series",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -3759,7 +4320,7 @@
               "type": "word",
               "surface": "vaccinations",
               "ref": "vaccinations",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -3815,43 +4376,139 @@
               "ref": "prevent_from"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " rabies virus infections "
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "infections",
+              "ref": "infections",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "reaching",
               "ref": "reaching",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " the central nervous system, before symptoms develop and the virus has done "
+              "surface": " the ",
+              "id": "t11"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "central",
+              "ref": "central",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "nervous",
+              "ref": "nervous",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "system",
+              "ref": "system",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ", before ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "normal",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": " develop and the ",
+              "id": "t19"
+            },
+            {
+              "type": "word",
+              "surface": "virus",
+              "ref": "virus",
+              "tier": "normal",
+              "id": "t20"
+            },
+            {
+              "type": "skip",
+              "surface": " has done ",
+              "id": "t21"
+            },
+            {
+              "id": "t22",
               "type": "word",
               "surface": "irreparable",
               "ref": "irreparable",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t23",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t24",
               "type": "word",
               "surface": "harm",
               "ref": "harm",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t25",
               "type": "skip",
               "surface": "."
             }
@@ -3883,67 +4540,103 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The very few people known to have survived rabies after the "
+              "surface": "The very few people known to have survived ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "onset",
-              "ref": "onset",
-              "tier": "known"
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of symptoms have done so "
+              "surface": " after the ",
+              "id": "t3"
             },
             {
               "id": "t4",
+              "type": "word",
+              "surface": "onset",
+              "ref": "onset",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "symptoms",
+              "ref": "symptoms",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " have done so ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "due to",
               "ref": "due_to"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "expression",
               "surface": "intensive care",
               "ref": "intensive_care"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": ", usually "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "sustaining",
               "ref": "sustaining",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " neurological "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "damage",
               "ref": "damage",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " in the process."
+              "surface": " in the ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "process",
+              "ref": "process",
+              "tier": "basic",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         },
@@ -3982,55 +4675,55 @@
               "type": "word",
               "surface": "estimated",
               "ref": "estimated",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " to die of rabies annually, though the number is "
+              "surface": " to die of ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "sadly",
-              "ref": "sadly",
-              "tier": "skip"
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": " ",
+              "id": "t5"
             },
             {
-              "id": "t6",
               "type": "word",
-              "surface": "suspected",
-              "ref": "suspected",
-              "tier": "known"
+              "surface": "annually",
+              "ref": "annually",
+              "tier": "normal",
+              "id": "t6"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " to be higher due to "
+              "surface": ", though the ",
+              "id": "t7"
             },
             {
-              "id": "t8",
               "type": "word",
-              "surface": "insufficient",
-              "ref": "insufficient",
-              "tier": "known"
+              "surface": "number",
+              "ref": "number",
+              "tier": "basic",
+              "id": "t8"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " is ",
+              "id": "t9"
             },
             {
               "id": "t10",
               "type": "word",
-              "surface": "medical",
-              "ref": "medical",
-              "tier": "skip"
+              "surface": "sadly",
+              "ref": "sadly",
+              "tier": "basic"
             },
             {
               "id": "t11",
@@ -4040,23 +4733,59 @@
             {
               "id": "t12",
               "type": "word",
-              "surface": "access",
-              "ref": "access",
-              "tier": "skip"
+              "surface": "suspected",
+              "ref": "suspected",
+              "tier": "normal"
             },
             {
               "id": "t13",
               "type": "skip",
-              "surface": " in "
+              "surface": " to be higher due to "
             },
             {
               "id": "t14",
+              "type": "word",
+              "surface": "insufficient",
+              "ref": "insufficient",
+              "tier": "normal"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
+              "surface": "medical",
+              "ref": "medical",
+              "tier": "basic"
+            },
+            {
+              "id": "t17",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t18",
+              "type": "word",
+              "surface": "access",
+              "ref": "access",
+              "tier": "basic"
+            },
+            {
+              "id": "t19",
+              "type": "skip",
+              "surface": " in "
+            },
+            {
+              "id": "t20",
               "type": "expression",
               "surface": "rabies-burdened",
               "ref": "rabies_burdened"
             },
             {
-              "id": "t15",
+              "id": "t21",
               "type": "skip",
               "surface": " areas."
             }
@@ -4130,31 +4859,103 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "But the way rabies virions "
+              "surface": "But the way ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "rabies",
+              "ref": "rabies",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "virions",
+              "ref": "virions",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "elude",
               "ref": "elude",
               "tier": "key"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " the immune system and damage cells makes the infection extremely difficult to "
+              "surface": " the immune ",
+              "id": "t7"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "system",
+              "ref": "system",
+              "tier": "basic",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " and damage ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "cells",
+              "ref": "cells",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " makes the ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "infection",
+              "ref": "infection",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "extremely",
+              "ref": "extremely",
+              "tier": "basic",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " difficult to ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "treat",
               "ref": "treat",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t5",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -4197,21 +4998,45 @@
               "ref": "natural_hosts"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " it's impossible to "
+              "surface": " it's ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "impossible",
+              "ref": "impossible",
+              "tier": "basic",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "eradicate",
               "ref": "eradicate",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " the disease."
+              "surface": " the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "disease",
+              "ref": "disease",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         },
@@ -4259,7 +5084,7 @@
               "type": "word",
               "surface": "essential",
               "ref": "essential",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -4303,58 +5128,82 @@
               "type": "word",
               "surface": "unconfirmed",
               "ref": "unconfirmed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", potential "
+              "surface": ", ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "exposures",
-              "ref": "exposures",
-              "tier": "known"
+              "surface": "potential",
+              "ref": "potential",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": "— like the mere "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "presence",
-              "ref": "presence",
-              "tier": "known"
+              "surface": "exposures",
+              "ref": "exposures",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " of a bat in one's house while they've been sleeping— "
+              "surface": "— like the mere "
             },
             {
               "id": "t8",
+              "type": "word",
+              "surface": "presence",
+              "ref": "presence",
+              "tier": "normal"
+            },
+            {
+              "id": "t9",
+              "type": "skip",
+              "surface": " of a bat in one's house while they've been sleeping— "
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "warrant",
               "ref": "warrant",
               "tier": "key"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " serious medical "
+              "surface": " serious ",
+              "id": "t11"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "medical",
+              "ref": "medical",
+              "tier": "basic",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "investigation",
               "ref": "investigation",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -4365,7 +5214,7 @@
   ],
   "words": {
     "abundant": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "abundant",
       "pos": "adj · B2",
       "pron": "/əˈbʌn.dənt/",
@@ -4378,7 +5227,7 @@
       "collocations": []
     },
     "access": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "access",
       "pos": "n · A2",
       "pron": "/ˈæk.ses/",
@@ -4391,7 +5240,7 @@
       "collocations": []
     },
     "accumulate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "accumulate",
       "pos": "v · B2",
       "pron": "/əˈkjuː.mjə.leɪt/",
@@ -4404,7 +5253,7 @@
       "collocations": []
     },
     "acute": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "acute",
       "pos": "adj · B2",
       "pron": "/əˈkjuːt/",
@@ -4417,7 +5266,7 @@
       "collocations": []
     },
     "adapted": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "adapted",
       "pos": "v · B2",
       "pron": "/əˈdæp.tɪd/",
@@ -4430,7 +5279,7 @@
       "collocations": []
     },
     "advances": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "advances",
       "pos": "n · B2",
       "pron": "/ədˈvɑːn.sɪz/",
@@ -4459,7 +5308,7 @@
       ]
     },
     "aggression": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "aggression",
       "pos": "n · B2",
       "pron": "/əˈɡreʃ.ən/",
@@ -4472,7 +5321,7 @@
       "collocations": []
     },
     "attack": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "attack",
       "pos": "v · A2",
       "pron": "/əˈtæk/",
@@ -4485,7 +5334,7 @@
       "collocations": []
     },
     "attacked": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "attacked",
       "pos": "v · A2",
       "pron": "/əˈtækt/",
@@ -4511,7 +5360,7 @@
       "collocations": []
     },
     "bat": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "bat",
       "pos": "n · A2",
       "pron": "/bæt/",
@@ -4524,7 +5373,7 @@
       "collocations": []
     },
     "bats": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "bats",
       "pos": "n · A2",
       "pron": "/bæts/",
@@ -4537,7 +5386,7 @@
       "collocations": []
     },
     "begins": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "begins",
       "pos": "v · A1",
       "pron": "/bɪˈɡɪnz/",
@@ -4550,7 +5399,7 @@
       "collocations": []
     },
     "benefit": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "benefit",
       "pos": "v · B1",
       "pron": "/ˈben.ɪ.fɪt/",
@@ -4563,7 +5412,7 @@
       "collocations": []
     },
     "besides": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "besides",
       "pos": "prep · A2",
       "pron": "/bɪˈsaɪdz/",
@@ -4576,7 +5425,7 @@
       "collocations": []
     },
     "bite": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bite",
       "pos": "n · B1",
       "pron": "/baɪt/",
@@ -4589,7 +5438,7 @@
       "collocations": []
     },
     "biting": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "biting",
       "pos": "v · A2",
       "pron": "/ˈbaɪ.tɪŋ/",
@@ -4602,7 +5451,7 @@
       "collocations": []
     },
     "brain": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "brain",
       "pos": "n · A2",
       "pron": "/breɪn/",
@@ -4630,7 +5479,7 @@
       ]
     },
     "cases": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "cases",
       "pos": "n · A2",
       "pron": "/ˈkeɪ.sɪz/",
@@ -4643,7 +5492,7 @@
       "collocations": []
     },
     "caused": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "caused",
       "pos": "v · A2",
       "pron": "/kɔːzd/",
@@ -4656,7 +5505,7 @@
       "collocations": []
     },
     "causing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "causing",
       "pos": "v · A2",
       "pron": "/ˈkɔː.zɪŋ/",
@@ -4669,7 +5518,7 @@
       "collocations": []
     },
     "certain": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "certain",
       "pos": "adj · A2",
       "pron": "/ˈsɜː.tən/",
@@ -4682,7 +5531,7 @@
       "collocations": []
     },
     "clear": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "clear",
       "pos": "v · A2",
       "pron": "/klɪər/",
@@ -4695,7 +5544,7 @@
       "collocations": []
     },
     "clinical": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "clinical",
       "pos": "adj · B2",
       "pron": "/ˈklɪn.ɪ.kəl/",
@@ -4708,7 +5557,7 @@
       "collocations": []
     },
     "closer": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "closer",
       "pos": "adj · A2",
       "pron": "/ˈkloʊ.sər/",
@@ -4721,7 +5570,7 @@
       "collocations": []
     },
     "colleagues": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "colleagues",
       "pos": "n · B1",
       "pron": "/ˈkɒl.iːɡz/",
@@ -4734,7 +5583,7 @@
       "collocations": []
     },
     "collected": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "collected",
       "pos": "v · A2",
       "pron": "/kəˈlek.tɪd/",
@@ -4747,7 +5596,7 @@
       "collocations": []
     },
     "coma": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "coma",
       "pos": "n · B2",
       "pron": "/ˈkoʊ.mə/",
@@ -4760,7 +5609,7 @@
       "collocations": []
     },
     "concentrating": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "concentrating",
       "pos": "v · B2",
       "pron": "/ˈkɒn.sən.treɪ.tɪŋ/",
@@ -4773,7 +5622,7 @@
       "collocations": []
     },
     "connective": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "connective",
       "pos": "adj · C1",
       "pron": "/kəˈnek.tɪv/",
@@ -4788,7 +5637,7 @@
       ]
     },
     "cure": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "cure",
       "pos": "n · B1",
       "pron": "/kjʊər/",
@@ -4801,7 +5650,7 @@
       "collocations": []
     },
     "currently": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "currently",
       "pos": "adv · A2",
       "pron": "/ˈkʌr.ənt.li/",
@@ -4814,7 +5663,7 @@
       "collocations": []
     },
     "damage": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "damage",
       "pos": "n · A2",
       "pron": "/ˈdæm.ɪdʒ/",
@@ -4827,7 +5676,7 @@
       "collocations": []
     },
     "damages": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "damages",
       "pos": "v · A2",
       "pron": "/ˈdæm.ɪ.dʒɪz/",
@@ -4840,7 +5689,7 @@
       "collocations": []
     },
     "dangerous": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "dangerous",
       "pos": "adj · A2",
       "pron": "/ˈdeɪn.dʒə.rəs/",
@@ -4853,7 +5702,7 @@
       "collocations": []
     },
     "deadly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "deadly",
       "pos": "adj · B2",
       "pron": "/ˈded.li/",
@@ -4866,7 +5715,7 @@
       "collocations": []
     },
     "death": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "death",
       "pos": "n · A2",
       "pron": "/deθ/",
@@ -4879,7 +5728,7 @@
       "collocations": []
     },
     "deep": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "deep",
       "pos": "adj · A1",
       "pron": "/diːp/",
@@ -4892,7 +5741,7 @@
       "collocations": []
     },
     "delivered": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "delivered",
       "pos": "v · A2",
       "pron": "/dɪˈlɪv.əd/",
@@ -4905,7 +5754,7 @@
       "collocations": []
     },
     "devastating": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "devastating",
       "pos": "adj · B2",
       "pron": "/ˈdev.ə.steɪ.tɪŋ/",
@@ -4918,7 +5767,7 @@
       "collocations": []
     },
     "develop": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "develop",
       "pos": "v · A2",
       "pron": "/dɪˈvel.əp/",
@@ -4931,7 +5780,7 @@
       "collocations": []
     },
     "difficult": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "difficult",
       "pos": "adj · A1",
       "pron": "/ˈdɪf.ɪ.kəlt/",
@@ -4944,7 +5793,7 @@
       "collocations": []
     },
     "disease": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "disease",
       "pos": "n · B1",
       "pron": "/dɪˈziːz/",
@@ -4957,7 +5806,7 @@
       "collocations": []
     },
     "dog": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "dog",
       "pos": "n · A1",
       "pron": "/dɒɡ/",
@@ -4970,7 +5819,7 @@
       "collocations": []
     },
     "dogs": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "dogs",
       "pos": "n · A1",
       "pron": "/dɒɡz/",
@@ -4983,7 +5832,7 @@
       "collocations": []
     },
     "dried": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "dried",
       "pos": "v · A2",
       "pron": "/draɪd/",
@@ -4996,7 +5845,7 @@
       "collocations": []
     },
     "early": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "early",
       "pos": "adv · A1",
       "pron": "/ˈɜː.li/",
@@ -5009,7 +5858,7 @@
       "collocations": []
     },
     "effective": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "effective",
       "pos": "adj · A2",
       "pron": "/ɪˈfek.tɪv/",
@@ -5037,7 +5886,7 @@
       ]
     },
     "enough": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "enough",
       "pos": "adv · A1",
       "pron": "/ɪˈnʌf/",
@@ -5050,7 +5899,7 @@
       "collocations": []
     },
     "entering": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "entering",
       "pos": "v · A2",
       "pron": "/ˈen.tər.ɪŋ/",
@@ -5063,7 +5912,7 @@
       "collocations": []
     },
     "enters": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "enters",
       "pos": "v · A2",
       "pron": "/ˈen.təz/",
@@ -5091,7 +5940,7 @@
       ]
     },
     "escalate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "escalate",
       "pos": "v · B2",
       "pron": "/ˈes.kə.leɪt/",
@@ -5104,7 +5953,7 @@
       "collocations": []
     },
     "escalating": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "escalating",
       "pos": "v · B2",
       "pron": "/ˈes.kə.leɪ.tɪŋ/",
@@ -5117,7 +5966,7 @@
       "collocations": []
     },
     "essential": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "essential",
       "pos": "adj · B1",
       "pron": "/ɪˈsen.ʃəl/",
@@ -5130,7 +5979,7 @@
       "collocations": []
     },
     "estimated": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "estimated",
       "pos": "v · B1",
       "pron": "/ˈes.tɪ.meɪ.tɪd/",
@@ -5143,7 +5992,7 @@
       "collocations": []
     },
     "excess": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "excess",
       "pos": "adj · B2",
       "pron": "/ɪkˈses/",
@@ -5156,7 +6005,7 @@
       "collocations": []
     },
     "experimental": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "experimental",
       "pos": "adj · B2",
       "pron": "/ɪkˌsper.ɪˈmen.təl/",
@@ -5169,7 +6018,7 @@
       "collocations": []
     },
     "exploiting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "exploiting",
       "pos": "v · B2",
       "pron": "/ɪkˈsplɔɪ.tɪŋ/",
@@ -5182,7 +6031,7 @@
       "collocations": []
     },
     "exposures": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "exposures",
       "pos": "n · B2",
       "pron": "/ɪkˈspoʊ.ʒəz/",
@@ -5195,7 +6044,7 @@
       "collocations": []
     },
     "expression": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "expression",
       "pos": "n · B1",
       "pron": "/ɪkˈspreʃ.ən/",
@@ -5208,7 +6057,7 @@
       "collocations": []
     },
     "faster": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "faster",
       "pos": "adv · A2",
       "pron": "/ˈfɑː.stər/",
@@ -5221,7 +6070,7 @@
       "collocations": []
     },
     "foxes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "foxes",
       "pos": "n · A2",
       "pron": "/ˈfɒk.sɪz/",
@@ -5234,7 +6083,7 @@
       "collocations": []
     },
     "furious": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "furious",
       "pos": "adj · B2",
       "pron": "/ˈfjʊə.ri.əs/",
@@ -5275,7 +6124,7 @@
       "collocations": []
     },
     "happen": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "happen",
       "pos": "v · A1",
       "pron": "/ˈhæp.ən/",
@@ -5288,7 +6137,7 @@
       "collocations": []
     },
     "harm": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "harm",
       "pos": "n · A2",
       "pron": "/hɑːm/",
@@ -5301,7 +6150,7 @@
       "collocations": []
     },
     "head": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "head",
       "pos": "n · A1",
       "pron": "/hed/",
@@ -5314,7 +6163,7 @@
       "collocations": []
     },
     "highly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "highly",
       "pos": "adv · A2",
       "pron": "/ˈhaɪ.li/",
@@ -5327,7 +6176,7 @@
       "collocations": []
     },
     "host": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "host",
       "pos": "n · B2",
       "pron": "/hoʊst/",
@@ -5340,7 +6189,7 @@
       "collocations": []
     },
     "hosts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "hosts",
       "pos": "n · B2",
       "pron": "/hoʊsts/",
@@ -5353,7 +6202,7 @@
       "collocations": []
     },
     "human": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "human",
       "pos": "adj · A1",
       "pron": "/ˈhjuː.mən/",
@@ -5392,7 +6241,7 @@
       "collocations": []
     },
     "illness": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "illness",
       "pos": "n · B1",
       "pron": "/ˈɪl.nəs/",
@@ -5405,7 +6254,7 @@
       "collocations": []
     },
     "immediate": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "immediate",
       "pos": "adj · A2",
       "pron": "/ɪˈmiː.di.ət/",
@@ -5418,7 +6267,7 @@
       "collocations": []
     },
     "immune": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "immune",
       "pos": "adj · B2",
       "pron": "/ɪˈmjuːn/",
@@ -5449,7 +6298,7 @@
       ]
     },
     "infect": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "infect",
       "pos": "v · B1",
       "pron": "/ɪnˈfekt/",
@@ -5462,7 +6311,7 @@
       "collocations": []
     },
     "infected": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "infected",
       "pos": "adj · B1",
       "pron": "/ɪnˈfek.tɪd/",
@@ -5475,7 +6324,7 @@
       "collocations": []
     },
     "infection": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "infection",
       "pos": "n · B1",
       "pron": "/ɪnˈfek.ʃən/",
@@ -5488,7 +6337,7 @@
       "collocations": []
     },
     "infections": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "infections",
       "pos": "n · B1",
       "pron": "/ɪnˈfek.ʃənz/",
@@ -5501,7 +6350,7 @@
       "collocations": []
     },
     "inflammation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "inflammation",
       "pos": "n · B2",
       "pron": "/ˌɪn.fləˈmeɪ.ʃən/",
@@ -5514,7 +6363,7 @@
       "collocations": []
     },
     "injected": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "injected",
       "pos": "v · B2",
       "pron": "/ɪnˈdʒek.tɪd/",
@@ -5540,7 +6389,7 @@
       "collocations": []
     },
     "insufficient": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "insufficient",
       "pos": "adj · B2",
       "pron": "/ˌɪn.səˈfɪʃ.ənt/",
@@ -5553,7 +6402,7 @@
       "collocations": []
     },
     "intervention": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "intervention",
       "pos": "n · B2",
       "pron": "/ˌɪn.təˈven.ʃən/",
@@ -5566,7 +6415,7 @@
       "collocations": []
     },
     "investigation": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "investigation",
       "pos": "n · A2",
       "pron": "/ɪnˌves.tɪˈɡeɪ.ʃən/",
@@ -5594,7 +6443,7 @@
       ]
     },
     "knowing": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "knowing",
       "pos": "v · A2",
       "pron": "/ˈnoʊ.ɪŋ/",
@@ -5623,7 +6472,7 @@
       ]
     },
     "lick": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "lick",
       "pos": "n · B2",
       "pron": "/lɪk/",
@@ -5636,7 +6485,7 @@
       "collocations": []
     },
     "life": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "life",
       "pos": "n · A1",
       "pron": "/laɪf/",
@@ -5649,7 +6498,7 @@
       "collocations": []
     },
     "lives": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "lives",
       "pos": "n · A2",
       "pron": "/laɪvz/",
@@ -5662,7 +6511,7 @@
       "collocations": []
     },
     "locally": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "locally",
       "pos": "adv · A2",
       "pron": "/ˈloʊ.kə.li/",
@@ -5703,7 +6552,7 @@
       "collocations": []
     },
     "mainly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "mainly",
       "pos": "adv · A2",
       "pron": "/ˈmeɪn.li/",
@@ -5716,7 +6565,7 @@
       "collocations": []
     },
     "make": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "make",
       "pos": "v · A1",
       "pron": "/meɪk/",
@@ -5729,7 +6578,7 @@
       "collocations": []
     },
     "making": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "making",
       "pos": "v · A2",
       "pron": "/ˈmeɪ.kɪŋ/",
@@ -5742,7 +6591,7 @@
       "collocations": []
     },
     "mammal": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mammal",
       "pos": "n · A2",
       "pron": "/ˈmæm.əl/",
@@ -5770,7 +6619,7 @@
       ]
     },
     "meanwhile": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "meanwhile",
       "pos": "adv · B1",
       "pron": "/ˈmiːn.waɪl/",
@@ -5783,7 +6632,7 @@
       "collocations": []
     },
     "mechanisms": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mechanisms",
       "pos": "n · B2",
       "pron": "/ˈmek.ə.nɪz.əmz/",
@@ -5796,7 +6645,7 @@
       "collocations": []
     },
     "medical": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "medical",
       "pos": "adj · A2",
       "pron": "/ˈmed.ɪ.kəl/",
@@ -5809,7 +6658,7 @@
       "collocations": []
     },
     "medicine": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "medicine",
       "pos": "n · A2",
       "pron": "/ˈmed.ɪ.sɪn/",
@@ -5822,7 +6671,7 @@
       "collocations": []
     },
     "methods": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "methods",
       "pos": "n · A2",
       "pron": "/ˈmeθ.ədz/",
@@ -5835,7 +6684,7 @@
       "collocations": []
     },
     "millimeters": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "millimeters",
       "pos": "n · A2",
       "pron": "/ˈmɪl.ɪˌmiː.təz/",
@@ -5848,7 +6697,7 @@
       "collocations": []
     },
     "mixtures": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mixtures",
       "pos": "n · B2",
       "pron": "/ˈmɪks.tʃəz/",
@@ -5861,7 +6710,7 @@
       "collocations": []
     },
     "mother": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "mother",
       "pos": "n · A1",
       "pron": "/ˈmʌð.ər/",
@@ -5874,7 +6723,7 @@
       "collocations": []
     },
     "movements": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "movements",
       "pos": "n · A2",
       "pron": "/ˈmuːv.mənts/",
@@ -5887,7 +6736,7 @@
       "collocations": []
     },
     "neurological": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "neurological",
       "pos": "adj · C1",
       "pron": "/ˌnjʊə.rəˈlɒdʒ.ɪ.kl/",
@@ -5900,7 +6749,7 @@
       "collocations": []
     },
     "onset": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "onset",
       "pos": "n · B2",
       "pron": "/ˈɒn.set/",
@@ -5913,7 +6762,7 @@
       "collocations": []
     },
     "organ": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "organ",
       "pos": "n · A2",
       "pron": "/ˈɔː.ɡən/",
@@ -5926,7 +6775,7 @@
       "collocations": []
     },
     "painful": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "painful",
       "pos": "adj · A2",
       "pron": "/ˈpeɪn.fəl/",
@@ -5939,7 +6788,7 @@
       "collocations": []
     },
     "paralysis": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "paralysis",
       "pos": "n · B2",
       "pron": "/pəˈræl.ə.sɪs/",
@@ -5965,7 +6814,7 @@
       "collocations": []
     },
     "particles": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "particles",
       "pos": "n · B2",
       "pron": "/ˈpɑː.tɪ.kəlz/",
@@ -5993,7 +6842,7 @@
       ]
     },
     "persist": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "persist",
       "pos": "v · B2",
       "pron": "/pəˈsɪst/",
@@ -6006,7 +6855,7 @@
       "collocations": []
     },
     "places": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "places",
       "pos": "n · A1",
       "pron": "/ˈpleɪ.sɪz/",
@@ -6019,7 +6868,7 @@
       "collocations": []
     },
     "populations": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "populations",
       "pos": "n · B1",
       "pron": "/ˌpɒp.jəˈleɪ.ʃənz/",
@@ -6032,7 +6881,7 @@
       "collocations": []
     },
     "position": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "position",
       "pos": "n · A2",
       "pron": "/pəˈzɪʃ.ən/",
@@ -6045,7 +6894,7 @@
       "collocations": []
     },
     "presence": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "presence",
       "pos": "n · B2",
       "pron": "/ˈprez.əns/",
@@ -6058,7 +6907,7 @@
       "collocations": []
     },
     "preventative": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "preventative",
       "pos": "adj · B2",
       "pron": "/prɪˈven.tə.tɪv/",
@@ -6071,7 +6920,7 @@
       "collocations": []
     },
     "procedure": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "procedure",
       "pos": "n · B1",
       "pron": "/prəˈsiː.dʒər/",
@@ -6097,7 +6946,7 @@
       "collocations": []
     },
     "proper": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "proper",
       "pos": "adj · A2",
       "pron": "/ˈprɒp.ər/",
@@ -6110,7 +6959,7 @@
       "collocations": []
     },
     "protected": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "protected",
       "pos": "adj · A2",
       "pron": "/prəˈtek.tɪd/",
@@ -6123,7 +6972,7 @@
       "collocations": []
     },
     "rabbits": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "rabbits",
       "pos": "n · A1",
       "pron": "/ˈræb.ɪts/",
@@ -6165,7 +7014,7 @@
       "collocations": []
     },
     "rapidly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "rapidly",
       "pos": "adv · A2",
       "pron": "/ˈræp.ɪd.li/",
@@ -6178,7 +7027,7 @@
       "collocations": []
     },
     "reach": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "reach",
       "pos": "v · A2",
       "pron": "/riːtʃ/",
@@ -6191,7 +7040,7 @@
       "collocations": []
     },
     "reaching": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "reaching",
       "pos": "v · A2",
       "pron": "/ˈriː.tʃɪŋ/",
@@ -6204,7 +7053,7 @@
       "collocations": []
     },
     "realized": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "realized",
       "pos": "v · A2",
       "pron": "/ˈrɪə.laɪzd/",
@@ -6217,7 +7066,7 @@
       "collocations": []
     },
     "received": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "received",
       "pos": "v · A2",
       "pron": "/rɪˈsiːvd/",
@@ -6230,7 +7079,7 @@
       "collocations": []
     },
     "registers": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "registers",
       "pos": "v · B2",
       "pron": "/ˈredʒ.ɪ.stəz/",
@@ -6243,7 +7092,7 @@
       "collocations": []
     },
     "remains": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "remains",
       "pos": "v · A2",
       "pron": "/rɪˈmeɪnz/",
@@ -6269,7 +7118,7 @@
       "collocations": []
     },
     "resulting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "resulting",
       "pos": "adj · B2",
       "pron": "/rɪˈzʌl.tɪŋ/",
@@ -6282,7 +7131,7 @@
       "collocations": []
     },
     "revealed": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "revealed",
       "pos": "v · A2",
       "pron": "/rɪˈviːld/",
@@ -6295,7 +7144,7 @@
       "collocations": []
     },
     "risky": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "risky",
       "pos": "adj · B1",
       "pron": "/ˈrɪs.ki/",
@@ -6308,7 +7157,7 @@
       "collocations": []
     },
     "roughly": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "roughly",
       "pos": "adv · B1",
       "pron": "/ˈrʌf.li/",
@@ -6321,7 +7170,7 @@
       "collocations": []
     },
     "rumored": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rumored",
       "pos": "adj · B2",
       "pron": "/ˈruː.məd/",
@@ -6334,7 +7183,7 @@
       "collocations": []
     },
     "rushed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rushed",
       "pos": "v · B1",
       "pron": "/rʌʃt/",
@@ -6347,7 +7196,7 @@
       "collocations": []
     },
     "sadly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "sadly",
       "pos": "adv · A2",
       "pron": "/ˈsæd.li/",
@@ -6376,7 +7225,7 @@
       ]
     },
     "save": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "save",
       "pos": "v · A1",
       "pron": "/seɪv/",
@@ -6389,7 +7238,7 @@
       "collocations": []
     },
     "scientist": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "scientist",
       "pos": "n · A2",
       "pron": "/ˈsaɪ.ən.tɪst/",
@@ -6415,7 +7264,7 @@
       "collocations": []
     },
     "series": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "series",
       "pos": "n · A2",
       "pron": "/ˈsɪə.riːz/",
@@ -6428,7 +7277,7 @@
       "collocations": []
     },
     "shield": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "shield",
       "pos": "v · B2",
       "pron": "/ʃiːld/",
@@ -6441,7 +7290,7 @@
       "collocations": []
     },
     "site": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "site",
       "pos": "n · A2",
       "pron": "/saɪt/",
@@ -6482,7 +7331,7 @@
       ]
     },
     "species": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "species",
       "pos": "n · B1",
       "pron": "/ˈspiː.ʃiːz/",
@@ -6495,7 +7344,7 @@
       "collocations": []
     },
     "spots": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "spots",
       "pos": "n · A2",
       "pron": "/spɒts/",
@@ -6508,7 +7357,7 @@
       "collocations": []
     },
     "spreading": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "spreading",
       "pos": "v · A2",
       "pron": "/ˈspred.ɪŋ/",
@@ -6521,7 +7370,7 @@
       "collocations": []
     },
     "stage": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "stage",
       "pos": "n · A2",
       "pron": "/steɪdʒ/",
@@ -6534,7 +7383,7 @@
       "collocations": []
     },
     "suppress": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "suppress",
       "pos": "v · B2",
       "pron": "/səˈpres/",
@@ -6547,7 +7396,7 @@
       "collocations": []
     },
     "survive": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "survive",
       "pos": "v · A2",
       "pron": "/səˈvaɪv/",
@@ -6560,7 +7409,7 @@
       "collocations": []
     },
     "survived": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "survived",
       "pos": "v · A2",
       "pron": "/səˈvaɪvd/",
@@ -6573,7 +7422,7 @@
       "collocations": []
     },
     "suspected": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "suspected",
       "pos": "v · B2",
       "pron": "/səˈspek.tɪd/",
@@ -6586,7 +7435,7 @@
       "collocations": []
     },
     "sustaining": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sustaining",
       "pos": "v · B2",
       "pron": "/səˈsteɪn.ɪŋ/",
@@ -6599,7 +7448,7 @@
       "collocations": []
     },
     "swallowing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "swallowing",
       "pos": "v · B1",
       "pron": "/ˈswɒl.oʊ.ɪŋ/",
@@ -6612,7 +7461,7 @@
       "collocations": []
     },
     "symptoms": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "symptoms",
       "pos": "n · B1",
       "pron": "/ˈsɪmp.təmz/",
@@ -6625,7 +7474,7 @@
       "collocations": []
     },
     "therapies": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "therapies",
       "pos": "n · B2",
       "pron": "/ˈθer.ə.piz/",
@@ -6638,7 +7487,7 @@
       "collocations": []
     },
     "throat": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "throat",
       "pos": "n · A2",
       "pron": "/θroʊt/",
@@ -6651,7 +7500,7 @@
       "collocations": []
     },
     "tissue": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tissue",
       "pos": "n · B2",
       "pron": "/ˈtɪʃ.uː/",
@@ -6664,7 +7513,7 @@
       "collocations": []
     },
     "tissues": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tissues",
       "pos": "n · B2",
       "pron": "/ˈtɪʃ.uːz/",
@@ -6677,7 +7526,7 @@
       "collocations": []
     },
     "transfer": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "transfer",
       "pos": "n · A2",
       "pron": "/ˈtræns.fɜː/",
@@ -6690,7 +7539,7 @@
       "collocations": []
     },
     "transmission": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "transmission",
       "pos": "n · B2",
       "pron": "/trænzˈmɪʃ.ən/",
@@ -6703,7 +7552,7 @@
       "collocations": []
     },
     "transmit": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "transmit",
       "pos": "v · B2",
       "pron": "/trænzˈmɪt/",
@@ -6716,7 +7565,7 @@
       "collocations": []
     },
     "transmitting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "transmitting",
       "pos": "v · B2",
       "pron": "/trænzˈmɪt.ɪŋ/",
@@ -6729,7 +7578,7 @@
       "collocations": []
     },
     "transplantation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "transplantation",
       "pos": "n · C1",
       "pron": "/ˌtrænz.plɑːnˈteɪ.ʃən/",
@@ -6742,7 +7591,7 @@
       "collocations": []
     },
     "transport": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "transport",
       "pos": "n · A2",
       "pron": "/ˈtræns.pɔːt/",
@@ -6755,7 +7604,7 @@
       "collocations": []
     },
     "travel": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "travel",
       "pos": "v · A1",
       "pron": "/ˈtræv.əl/",
@@ -6768,7 +7617,7 @@
       "collocations": []
     },
     "traveling": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "traveling",
       "pos": "v · A2",
       "pron": "/ˈtræv.əl.ɪŋ/",
@@ -6781,7 +7630,7 @@
       "collocations": []
     },
     "treat": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "treat",
       "pos": "v · A2",
       "pron": "/triːt/",
@@ -6794,7 +7643,7 @@
       "collocations": []
     },
     "trying": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "trying",
       "pos": "v · A1",
       "pron": "/ˈtraɪ.ɪŋ/",
@@ -6807,7 +7656,7 @@
       "collocations": []
     },
     "unconfirmed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "unconfirmed",
       "pos": "adj · B2",
       "pron": "/ˌʌn.kənˈfɜːmd/",
@@ -6820,7 +7669,7 @@
       "collocations": []
     },
     "uncontrolled": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "uncontrolled",
       "pos": "adj · B2",
       "pron": "/ˌʌn.kənˈtroʊld/",
@@ -6833,7 +7682,7 @@
       "collocations": []
     },
     "understanding": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "understanding",
       "pos": "n · A2",
       "pron": "/ˌʌn.dəˈstæn.dɪŋ/",
@@ -6846,7 +7695,7 @@
       "collocations": []
     },
     "vacant": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "vacant",
       "pos": "adj · B2",
       "pron": "/ˈveɪ.kənt/",
@@ -6861,7 +7710,7 @@
       ]
     },
     "vaccinations": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "vaccinations",
       "pos": "n · B2",
       "pron": "/ˌvæk.sɪˈneɪ.ʃənz/",
@@ -6874,7 +7723,7 @@
       "collocations": []
     },
     "vaccine": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "vaccine",
       "pos": "n · B1",
       "pron": "/ˈvæk.siːn/",
@@ -6903,7 +7752,7 @@
       ]
     },
     "virus": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "virus",
       "pos": "n · B1",
       "pron": "/ˈvaɪ.rəs/",
@@ -6931,7 +7780,7 @@
       ]
     },
     "weaken": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "weaken",
       "pos": "v · B2",
       "pron": "/ˈwiː.kən/",
@@ -6944,7 +7793,7 @@
       "collocations": []
     },
     "weakness": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "weakness",
       "pos": "n · B1",
       "pron": "/ˈwiːk.nəs/",
@@ -6957,7 +7806,7 @@
       "collocations": []
     },
     "wound": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "wound",
       "pos": "n · B1",
       "pron": "/wuːnd/",
@@ -6965,6 +7814,227 @@
       "example": {
         "en": "A deep wound.",
         "ja": "深い傷。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "modern": {
+      "tier": "basic",
+      "surface": "modern",
+      "pos": "adj · A2",
+      "pron": "/ˈmɒd.ən/",
+      "meaning": "現代の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "existing": {
+      "tier": "normal",
+      "surface": "existing",
+      "pos": "adj · B2",
+      "pron": "/ɪɡˈzɪs.tɪŋ/",
+      "meaning": "既存の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nerve": {
+      "tier": "normal",
+      "surface": "nerve",
+      "pos": "n · B2",
+      "pron": "/nɜːv/",
+      "meaning": "神経",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cells": {
+      "tier": "basic",
+      "surface": "cells",
+      "pos": "n · B1",
+      "pron": "/selz/",
+      "meaning": "細胞",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "nervous": {
+      "tier": "normal",
+      "surface": "nervous",
+      "pos": "adj · B2",
+      "pron": "/ˈnɜː.vəs/",
+      "meaning": "神経の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "system": {
+      "tier": "basic",
+      "surface": "system",
+      "pos": "n · A2",
+      "pron": "/ˈsɪs.təm/",
+      "meaning": "系、システム",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "response": {
+      "tier": "basic",
+      "surface": "response",
+      "pos": "n · B1",
+      "pron": "/rɪˈspɒns/",
+      "meaning": "応答、反応",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "viruses": {
+      "tier": "normal",
+      "surface": "viruses",
+      "pos": "n · B1",
+      "pron": "/ˈvaɪə.rə.sɪz/",
+      "meaning": "ウイルス(複数)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "humans": {
+      "tier": "basic",
+      "surface": "humans",
+      "pos": "n · A2",
+      "pron": "/ˈhjuː.mənz/",
+      "meaning": "人間(複数)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "occurs": {
+      "tier": "normal",
+      "surface": "occurs",
+      "pos": "v · B2",
+      "pron": "/əˈkɜːz/",
+      "meaning": "起こる、生じる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "central": {
+      "tier": "basic",
+      "surface": "central",
+      "pos": "adj · B1",
+      "pron": "/ˈsen.trəl/",
+      "meaning": "中枢の、中心の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "process": {
+      "tier": "basic",
+      "surface": "process",
+      "pos": "n · B1",
+      "pron": "/ˈprəʊ.ses/",
+      "meaning": "過程、プロセス",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "annually": {
+      "tier": "normal",
+      "surface": "annually",
+      "pos": "adv · B2",
+      "pron": "/ˈæn.ju.ə.li/",
+      "meaning": "毎年、年に一度",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "number": {
+      "tier": "basic",
+      "surface": "number",
+      "pos": "n · A1",
+      "pron": "/ˈnʌm.bər/",
+      "meaning": "数、数字",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "extremely": {
+      "tier": "basic",
+      "surface": "extremely",
+      "pos": "adv · B1",
+      "pron": "/ɪkˈstriːm.li/",
+      "meaning": "極めて、非常に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "impossible": {
+      "tier": "basic",
+      "surface": "impossible",
+      "pos": "adj · A2",
+      "pron": "/ɪmˈpɒs.ə.bəl/",
+      "meaning": "不可能な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "potential": {
+      "tier": "normal",
+      "surface": "potential",
+      "pos": "adj · B2",
+      "pron": "/pəˈten.ʃəl/",
+      "meaning": "潜在的な、可能性のある",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []

@@ -117,7 +117,7 @@
               "type": "word",
               "surface": "skier",
               "ref": "skier",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -129,7 +129,7 @@
               "type": "word",
               "surface": "carving",
               "ref": "carving",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -141,7 +141,7 @@
               "type": "word",
               "surface": "slopes",
               "ref": "slopes",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -164,7 +164,7 @@
               "type": "word",
               "surface": "crack",
               "ref": "crack",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -223,7 +223,7 @@
               "type": "word",
               "surface": "engulfed",
               "ref": "engulfed",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -258,7 +258,7 @@
               "type": "word",
               "surface": "lifesaving",
               "ref": "lifesaving",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -270,7 +270,7 @@
               "type": "word",
               "surface": "maneuver",
               "ref": "maneuver",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -308,7 +308,7 @@
               "type": "word",
               "surface": "survive",
               "ref": "survive",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -320,7 +320,7 @@
               "type": "word",
               "surface": "crushing",
               "ref": "crushing",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -332,7 +332,7 @@
               "type": "word",
               "surface": "surge",
               "ref": "surge",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -367,43 +367,62 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Avalanches are the "
+              "type": "word",
+              "surface": "Avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t1"
             },
             {
-              "id": "t2",
-              "type": "word",
-              "surface": "rapid",
-              "ref": "rapid",
-              "tier": "known"
+              "type": "skip",
+              "surface": " are the ",
+              "id": "t2"
             },
             {
               "id": "t3",
+              "type": "word",
+              "surface": "rapid",
+              "ref": "rapid",
+              "tier": "normal"
+            },
+            {
+              "id": "t4",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t5",
               "type": "word",
               "surface": "descension",
               "ref": "descension",
               "tier": "key"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " of snow, ice, rock, or a combination of these down a "
+              "surface": " of snow, ice, rock, or a ",
+              "id": "t6"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "combination",
+              "ref": "combination",
+              "tier": "normal",
+              "id": "t7"
+            },
+            {
+              "type": "skip",
+              "surface": " of these down a ",
+              "id": "t8"
+            },
+            {
+              "id": "t9",
               "type": "word",
               "surface": "slope",
               "ref": "slope",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t10",
               "type": "skip",
               "surface": "."
             }
@@ -442,7 +461,7 @@
               "type": "word",
               "surface": "destructive",
               "ref": "destructive",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -454,7 +473,7 @@
               "type": "word",
               "surface": "disasters",
               "ref": "disasters",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -466,7 +485,7 @@
               "type": "word",
               "surface": "tragedies",
               "ref": "tragedies",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -478,22 +497,46 @@
               "type": "word",
               "surface": "alone",
               "ref": "alone",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": ", avalanches kill an average of 27 people "
+              "surface": ", ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " kill an ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "average",
+              "ref": "average",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " of 27 people ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "annually",
               "ref": "annually",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -539,7 +582,7 @@
               "type": "word",
               "surface": "alpine",
               "ref": "alpine",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -551,7 +594,7 @@
               "type": "word",
               "surface": "nightmares",
               "ref": "nightmares",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -563,7 +606,7 @@
               "type": "word",
               "surface": "awaken",
               "ref": "awaken",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -577,9 +620,33 @@
               "ref": "out_of_nowhere"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": "; they need three specific conditions."
+              "surface": "; they need three ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "specific",
+              "ref": "specific",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "conditions",
+              "ref": "conditions",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t13"
             }
           ]
         },
@@ -616,12 +683,24 @@
               "type": "word",
               "surface": "typically",
               "ref": "typically",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " between 30 and 45 degrees."
+              "surface": " between 30 and 45 ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "degrees",
+              "ref": "degrees",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t5"
             }
           ]
         },
@@ -654,7 +733,7 @@
               "type": "word",
               "surface": "shallow",
               "ref": "shallow",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -677,7 +756,7 @@
               "type": "word",
               "surface": "steep",
               "ref": "steep",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -700,7 +779,7 @@
               "type": "word",
               "surface": "movement",
               "ref": "movement",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -748,7 +827,7 @@
               "type": "word",
               "surface": "sturdy",
               "ref": "sturdy",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -760,33 +839,45 @@
               "type": "word",
               "surface": "deposited",
               "ref": "deposited",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " over a weak or "
+              "surface": " over a ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "weak",
+              "ref": "weak",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " or ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "unstable",
               "ref": "unstable",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " layer, or what's sometimes called \""
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "expression",
               "surface": "something over nothing",
               "ref": "something_over_nothing"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": ".\""
             }
@@ -813,31 +904,43 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Take the Cascade Mountain avalanche, where recent heavy storms deposited a nearly 1-meter-deep "
+              "surface": "Take the Cascade Mountain avalanche, where recent heavy ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "slab",
-              "ref": "slab",
-              "tier": "known"
+              "surface": "storms",
+              "ref": "storms",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of "
+              "surface": " deposited a nearly 1-meter-deep ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "fresh",
-              "ref": "fresh",
-              "tier": "skip"
+              "surface": "slab",
+              "ref": "slab",
+              "tier": "normal"
             },
             {
               "id": "t5",
+              "type": "skip",
+              "surface": " of "
+            },
+            {
+              "id": "t6",
+              "type": "word",
+              "surface": "fresh",
+              "ref": "fresh",
+              "tier": "basic"
+            },
+            {
+              "id": "t7",
               "type": "skip",
               "surface": " snow."
             }
@@ -910,7 +1013,7 @@
               "type": "word",
               "surface": "delicate",
               "ref": "delicate",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -922,7 +1025,7 @@
               "type": "word",
               "surface": "feathery",
               "ref": "feathery",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -934,7 +1037,7 @@
               "type": "word",
               "surface": "crystals",
               "ref": "crystals",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -957,24 +1060,48 @@
               "type": "word",
               "surface": "freezes",
               "ref": "freezes",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " on the surface of snow, almost like "
+              "surface": " on the ",
+              "id": "t11"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "surface",
+              "ref": "surface",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " of snow, almost like ",
+              "id": "t13"
+            },
+            {
+              "id": "t14",
               "type": "word",
               "surface": "dew",
               "ref": "dew",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": " in the wintertime."
+              "surface": " in the ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "wintertime",
+              "ref": "wintertime",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         }
@@ -1008,42 +1135,66 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Finally, avalanches need a "
+              "surface": "Finally, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "trigger",
-              "ref": "trigger",
-              "tier": "known"
+              "surface": "avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", something to "
+              "surface": " need a ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "collapse",
-              "ref": "collapse",
-              "tier": "known"
+              "surface": "trigger",
+              "ref": "trigger",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " the weak layer and put the snow "
+              "surface": ", something to "
             },
             {
               "id": "t6",
+              "type": "word",
+              "surface": "collapse",
+              "ref": "collapse",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "weak",
+              "ref": "weak",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " layer and put the snow ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "expression",
               "surface": "in motion",
               "ref": "in_motion"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1078,7 +1229,7 @@
               "type": "word",
               "surface": "natural",
               "ref": "natural",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t3",
@@ -1090,7 +1241,7 @@
               "type": "word",
               "surface": "snowfall",
               "ref": "snowfall",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1102,12 +1253,24 @@
               "type": "word",
               "surface": "rainfall",
               "ref": "rainfall",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": ", or even other avalanches."
+              "surface": ", or even other ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         },
@@ -1142,31 +1305,43 @@
               "ref": "human_caused"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", like the surface "
+              "surface": ", like the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "impact",
-              "ref": "impact",
-              "tier": "known"
+              "surface": "surface",
+              "ref": "surface",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " of skiers or "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "snowmobilers",
-              "ref": "snowmobilers",
-              "tier": "known"
+              "surface": "impact",
+              "ref": "impact",
+              "tier": "normal"
             },
             {
               "id": "t7",
+              "type": "skip",
+              "surface": " of skiers or "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "snowmobilers",
+              "ref": "snowmobilers",
+              "tier": "normal"
+            },
+            {
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -1206,7 +1381,7 @@
               "type": "word",
               "surface": "fractures",
               "ref": "fractures",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1218,7 +1393,7 @@
               "type": "word",
               "surface": "propagate",
               "ref": "propagate",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1230,7 +1405,7 @@
               "type": "word",
               "surface": "originate",
               "ref": "originate",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1242,7 +1417,7 @@
               "type": "word",
               "surface": "upstream",
               "ref": "upstream",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1254,7 +1429,7 @@
               "type": "word",
               "surface": "downstream",
               "ref": "downstream",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -1266,7 +1441,7 @@
               "type": "word",
               "surface": "adjacent",
               "ref": "adjacent",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t13",
@@ -1326,7 +1501,7 @@
               "type": "word",
               "surface": "steepness",
               "ref": "steepness",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1338,7 +1513,7 @@
               "type": "word",
               "surface": "exposure",
               "ref": "exposure",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1350,7 +1525,7 @@
               "type": "word",
               "surface": "vegetation",
               "ref": "vegetation",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t9",
@@ -1362,7 +1537,7 @@
               "type": "word",
               "surface": "terrain",
               "ref": "terrain",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t11",
@@ -1374,12 +1549,36 @@
               "type": "word",
               "surface": "roughness",
               "ref": "roughness",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t13",
               "type": "skip",
-              "surface": ", and the type and amount of snow involved."
+              "surface": ", and the type and ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "amount",
+              "ref": "amount",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " of snow ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "involved",
+              "ref": "involved",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t17"
             }
           ]
         },
@@ -1413,7 +1612,7 @@
               "type": "word",
               "surface": "loosely",
               "ref": "loosely",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -1425,7 +1624,7 @@
               "type": "word",
               "surface": "bonded",
               "ref": "bonded",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1481,21 +1680,45 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "In contrast, wet snow avalanches, caused by water moving through the snowpack, travel more slowly but are much "
+              "surface": "In contrast, wet snow ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", caused by water moving through the snowpack, travel more slowly but are much ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "denser",
               "ref": "denser",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " and can be particularly destructive."
+              "surface": " and can be ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "particularly",
+              "ref": "particularly",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " destructive.",
+              "id": "t7"
             }
           ]
         },
@@ -1519,31 +1742,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Larger avalanches can travel more than 160 kilometers per hour, breaking trees, destroying buildings, and "
+              "surface": "Larger ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " can travel more than 160 kilometers per hour, breaking trees, ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "destroying",
+              "ref": "destroying",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "buildings",
+              "ref": "buildings",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", and ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "burying",
               "ref": "burying",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t9",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t10",
               "type": "word",
               "surface": "roadways",
               "ref": "roadways",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -1573,45 +1832,81 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "In 1970, one particularly "
+              "surface": "In 1970, one ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "massive",
-              "ref": "massive",
-              "tier": "skip"
+              "surface": "particularly",
+              "ref": "particularly",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " avalanche "
+              "surface": " ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "consisting",
-              "ref": "consisting",
-              "tier": "known"
+              "surface": "massive",
+              "ref": "massive",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " of 50 to 100 million cubic meters of "
+              "surface": " avalanche "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "glacial",
-              "ref": "glacial",
-              "tier": "known"
+              "surface": "consisting",
+              "ref": "consisting",
+              "tier": "normal"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " ice, snow, mud, and rock reached speeds of over 300 kilometers per hour."
+              "surface": " of 50 to 100 million ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "cubic",
+              "ref": "cubic",
+              "tier": "key",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " meters of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "glacial",
+              "ref": "glacial",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " ice, snow, mud, and rock reached ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "speeds",
+              "ref": "speeds",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " of over 300 kilometers per hour.",
+              "id": "t13"
             }
           ]
         },
@@ -1640,43 +1935,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "This avalanche proved to be the "
+              "surface": "This avalanche ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "deadliest",
-              "ref": "deadliest",
-              "tier": "known"
+              "surface": "proved",
+              "ref": "proved",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " in history, "
+              "surface": " to be the ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "engulfing",
-              "ref": "engulfing",
-              "tier": "known"
+              "surface": "deadliest",
+              "ref": "deadliest",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " an entire "
+              "surface": " in history, "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "Peruvian",
-              "ref": "peruvian",
-              "tier": "known"
+              "surface": "engulfing",
+              "ref": "engulfing",
+              "tier": "normal"
             },
             {
               "id": "t7",
+              "type": "skip",
+              "surface": " an entire "
+            },
+            {
+              "id": "t8",
+              "type": "word",
+              "surface": "Peruvian",
+              "ref": "peruvian",
+              "tier": "normal"
+            },
+            {
+              "id": "t9",
               "type": "skip",
               "surface": " town and killing 18,000 people."
             }
@@ -1713,19 +2020,50 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Avalanches aren't always this large, but even smaller ones can be dangerous for anyone caught in their "
+              "type": "word",
+              "surface": "Avalanches",
+              "ref": "avalanches",
+              "tier": "key",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " aren't always this large, but even smaller ones can be ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "dangerous",
+              "ref": "dangerous",
+              "tier": "normal",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " for anyone ",
+              "id": "t4"
+            },
+            {
+              "type": "word",
+              "surface": "caught",
+              "ref": "caught",
+              "tier": "normal",
+              "id": "t5"
+            },
+            {
+              "type": "skip",
+              "surface": " in their ",
+              "id": "t6"
+            },
+            {
+              "id": "t7",
               "type": "word",
               "surface": "path",
               "ref": "path",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
+              "id": "t8",
               "type": "skip",
               "surface": "."
             }
@@ -1761,55 +2099,79 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "As snow rushes "
+              "surface": "As snow ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "downhill",
-              "ref": "downhill",
-              "tier": "known"
+              "surface": "rushes",
+              "ref": "rushes",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", it can "
+              "surface": " ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "behave",
-              "ref": "behave",
-              "tier": "skip"
+              "surface": "downhill",
+              "ref": "downhill",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " like both a "
+              "surface": ", it can "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "solid",
-              "ref": "solid",
-              "tier": "known"
+              "surface": "behave",
+              "ref": "behave",
+              "tier": "basic"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " and a liquid, making its movement difficult to "
+              "surface": " like both a "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "predict",
-              "ref": "predict",
-              "tier": "known"
+              "surface": "solid",
+              "ref": "solid",
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "type": "skip",
+              "surface": " and a ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "liquid",
+              "ref": "liquid",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ", making its movement difficult to ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "predict",
+              "ref": "predict",
+              "tier": "normal"
+            },
+            {
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -1839,55 +2201,67 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "At the fastest-moving front, surface snow moves faster than the snow "
+              "surface": "At the fastest-moving front, ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "beneath",
-              "ref": "beneath",
-              "tier": "known"
+              "surface": "surface",
+              "ref": "surface",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", pulling "
+              "surface": " snow moves faster than the snow ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "victims",
-              "ref": "victims",
-              "tier": "known"
+              "surface": "beneath",
+              "ref": "beneath",
+              "tier": "normal"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " deep into the snowpack and "
+              "surface": ", pulling "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "scattering",
-              "ref": "scattering",
-              "tier": "known"
+              "surface": "victims",
+              "ref": "victims",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " them across wide areas, making "
+              "surface": " deep into the snowpack and "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "rescue",
-              "ref": "rescue",
-              "tier": "known"
+              "surface": "scattering",
+              "ref": "scattering",
+              "tier": "normal"
             },
             {
               "id": "t9",
+              "type": "skip",
+              "surface": " them across wide areas, making "
+            },
+            {
+              "id": "t10",
+              "type": "word",
+              "surface": "rescue",
+              "ref": "rescue",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
               "type": "skip",
               "surface": " difficult."
             }
@@ -1944,7 +2318,7 @@
               "type": "word",
               "surface": "properties",
               "ref": "properties",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -1956,7 +2330,7 @@
               "type": "word",
               "surface": "compacts",
               "ref": "compacts",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t7",
@@ -1968,21 +2342,33 @@
               "type": "word",
               "surface": "immobilized",
               "ref": "immobilized",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " and unable to escape "
+              "surface": " and unable to ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "escape",
+              "ref": "escape",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "on their own",
               "ref": "on_their_own"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2018,19 +2404,31 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "For these reasons, the best way to survive an avalanche is to avoid one "
+              "surface": "For these ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "reasons",
+              "ref": "reasons",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": ", the best way to survive an avalanche is to avoid one ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "altogether",
               "ref": "altogether",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": "."
             }
@@ -2073,48 +2471,84 @@
               "type": "word",
               "surface": "resorts",
               "ref": "resorts",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", parks, and even highways, avalanche workers "
+              "surface": ", parks, and even highways, avalanche ",
+              "id": "t3"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "mitigate",
-              "ref": "mitigate",
-              "tier": "known"
+              "surface": "workers",
+              "ref": "workers",
+              "tier": "normal",
+              "id": "t4"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " risk by "
+              "surface": " ",
+              "id": "t5"
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "continuously",
-              "ref": "continuously",
-              "tier": "known"
+              "surface": "mitigate",
+              "ref": "mitigate",
+              "tier": "normal"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": " monitoring the weather, "
+              "surface": " risk by "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "stability",
-              "ref": "stability",
-              "tier": "known"
+              "surface": "continuously",
+              "ref": "continuously",
+              "tier": "normal"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " of the snowpack, and human activity."
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "monitoring",
+              "ref": "monitoring",
+              "tier": "key",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " the weather, ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
+              "type": "word",
+              "surface": "stability",
+              "ref": "stability",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " of the snowpack, and human ",
+              "id": "t13"
+            },
+            {
+              "type": "word",
+              "surface": "activity",
+              "ref": "activity",
+              "tier": "normal",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t15"
             }
           ]
         },
@@ -2148,66 +2582,90 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "If a threat is detected, they'll close "
+              "surface": "If a ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "threat",
+              "ref": "threat",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " is ",
+              "id": "t3"
+            },
+            {
+              "type": "word",
+              "surface": "detected",
+              "ref": "detected",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", they'll close ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "type": "word",
               "surface": "terrain",
               "ref": "terrain",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t7",
               "type": "skip",
               "surface": " and may even "
             },
             {
-              "id": "t4",
+              "id": "t8",
               "type": "word",
               "surface": "intentionally",
               "ref": "intentionally",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " trigger a "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "expression",
               "surface": "controlled avalanche",
               "ref": "controlled_avalanche"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " with "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "explosives",
               "ref": "explosives",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " or "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "artillery",
               "ref": "artillery",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2243,31 +2701,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "However, there are regions where avalanche risk is not "
+              "surface": "However, there are ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "actively",
-              "ref": "actively",
-              "tier": "known"
+              "surface": "regions",
+              "ref": "regions",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " mitigated, known as the "
+              "surface": " where avalanche risk is not ",
+              "id": "t3"
             },
             {
               "id": "t4",
+              "type": "word",
+              "surface": "actively",
+              "ref": "actively",
+              "tier": "normal"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "mitigated",
+              "ref": "mitigated",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": ", known as the ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "backcountry",
               "ref": "backcountry",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -2336,66 +2818,78 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "Local avalanche centers provide avalanche "
+              "surface": "Local avalanche ",
+              "id": "t1"
             },
             {
-              "id": "t2",
               "type": "word",
-              "surface": "forecasts",
-              "ref": "forecasts",
-              "tier": "skip"
+              "surface": "centers",
+              "ref": "centers",
+              "tier": "normal",
+              "id": "t2"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", and anyone entering the backcountry should understand them, be "
+              "surface": " provide avalanche ",
+              "id": "t3"
             },
             {
               "id": "t4",
               "type": "word",
-              "surface": "properly",
-              "ref": "properly",
-              "tier": "skip"
+              "surface": "forecasts",
+              "ref": "forecasts",
+              "tier": "basic"
             },
             {
               "id": "t5",
               "type": "skip",
-              "surface": " "
+              "surface": ", and anyone entering the backcountry should understand them, be "
             },
             {
               "id": "t6",
               "type": "word",
-              "surface": "trained",
-              "ref": "trained",
-              "tier": "skip"
+              "surface": "properly",
+              "ref": "properly",
+              "tier": "basic"
             },
             {
               "id": "t7",
               "type": "skip",
-              "surface": ", and carry "
+              "surface": " "
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "essential",
-              "ref": "essential",
-              "tier": "known"
+              "surface": "trained",
+              "ref": "trained",
+              "tier": "basic"
             },
             {
               "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": ", and carry "
             },
             {
               "id": "t10",
+              "type": "word",
+              "surface": "essential",
+              "ref": "essential",
+              "tier": "normal"
+            },
+            {
+              "id": "t11",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t12",
               "type": "expression",
               "surface": "rescue gear",
               "ref": "rescue_gear"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2440,7 +2934,7 @@
               "type": "word",
               "surface": "ultimately",
               "ref": "ultimately",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2454,9 +2948,21 @@
               "ref": "high_hazard"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " terrain, there's no way to completely eliminate risk."
+              "surface": " terrain, there's no way to completely ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "eliminate",
+              "ref": "eliminate",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " risk.",
+              "id": "t7"
             }
           ]
         },
@@ -2489,7 +2995,7 @@
               "type": "word",
               "surface": "consisted",
               "ref": "consisted",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2501,7 +3007,7 @@
               "type": "word",
               "surface": "highly",
               "ref": "highly",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t5",
@@ -2513,7 +3019,7 @@
               "type": "word",
               "surface": "experienced",
               "ref": "experienced",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
               "id": "t7",
@@ -2556,22 +3062,46 @@
               "type": "word",
               "surface": "exposed",
               "ref": "exposed",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", and following a large storm, the avalanche danger forecast was "
+              "surface": ", and following a large ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "storm",
+              "ref": "storm",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": ", the avalanche ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "danger",
+              "ref": "danger",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " forecast was ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "elevated",
               "ref": "elevated",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }
@@ -2650,7 +3180,7 @@
               "type": "word",
               "surface": "deploy",
               "ref": "deploy",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t3",
@@ -2662,7 +3192,7 @@
               "type": "word",
               "surface": "inflatable",
               "ref": "inflatable",
-              "tier": "known"
+              "tier": "normal"
             },
             {
               "id": "t5",
@@ -2707,53 +3237,89 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "These devices are "
+              "surface": "These ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "devices",
+              "ref": "devices",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " are ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "imperfect",
               "ref": "imperfect",
-              "tier": "known"
+              "tier": "normal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " and a "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "last line of defense",
               "ref": "last_line_of_defense"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": ", yet can keep a victim closer to the surface, "
+              "surface": ", yet can keep a ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "victim",
+              "ref": "victim",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " closer to the ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "surface",
+              "ref": "surface",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "improving",
               "ref": "improving",
-              "tier": "skip"
+              "tier": "basic"
             },
             {
-              "id": "t7",
+              "id": "t13",
               "type": "skip",
               "surface": " their chance of rescue "
             },
             {
-              "id": "t8",
+              "id": "t14",
               "type": "expression",
               "surface": "should disaster strike",
               "ref": "should_disaster_strike"
             },
             {
-              "id": "t9",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }
@@ -2764,7 +3330,7 @@
   ],
   "words": {
     "actively": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "actively",
       "pos": "adv · B1",
       "pron": "/ˈæk.tɪv.li/",
@@ -2777,7 +3343,7 @@
       "collocations": []
     },
     "adjacent": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "adjacent",
       "pos": "adj · B2",
       "pron": "/əˈdʒeɪ.sənt/",
@@ -2790,7 +3356,7 @@
       "collocations": []
     },
     "alone": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "alone",
       "pos": "adv · A2",
       "pron": "/əˈloʊn/",
@@ -2803,7 +3369,7 @@
       "collocations": []
     },
     "alpine": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "alpine",
       "pos": "adj · B2",
       "pron": "/ˈæl.paɪn/",
@@ -2816,7 +3382,7 @@
       "collocations": []
     },
     "altogether": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "altogether",
       "pos": "adv · B2",
       "pron": "/ˌɔːl.təˈɡeð.ər/",
@@ -2829,7 +3395,7 @@
       "collocations": []
     },
     "annually": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "annually",
       "pos": "adv · B2",
       "pron": "/ˈæn.ju.ə.li/",
@@ -2842,7 +3408,7 @@
       "collocations": []
     },
     "artillery": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "artillery",
       "pos": "n · B2",
       "pron": "/ɑːˈtɪl.ər.i/",
@@ -2868,7 +3434,7 @@
       "collocations": []
     },
     "awaken": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "awaken",
       "pos": "v · B2",
       "pron": "/əˈweɪ.kən/",
@@ -2894,7 +3460,7 @@
       "collocations": []
     },
     "behave": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "behave",
       "pos": "v · A2",
       "pron": "/bɪˈheɪv/",
@@ -2907,7 +3473,7 @@
       "collocations": []
     },
     "beneath": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "beneath",
       "pos": "prep · B1",
       "pron": "/bɪˈniːθ/",
@@ -2920,7 +3486,7 @@
       "collocations": []
     },
     "bonded": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "bonded",
       "pos": "adj · B2",
       "pron": "/ˈbɒn.dɪd/",
@@ -2933,7 +3499,7 @@
       "collocations": []
     },
     "burying": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "burying",
       "pos": "v · B2",
       "pron": "/ˈber.i.ɪŋ/",
@@ -2946,7 +3512,7 @@
       "collocations": []
     },
     "carving": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "carving",
       "pos": "v · B2",
       "pron": "/ˈkɑː.vɪŋ/",
@@ -2959,7 +3525,7 @@
       "collocations": []
     },
     "collapse": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "collapse",
       "pos": "v · B1",
       "pron": "/kəˈlæps/",
@@ -2972,7 +3538,7 @@
       "collocations": []
     },
     "compacts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "compacts",
       "pos": "v · B2",
       "pron": "/kəmˈpækts/",
@@ -2985,7 +3551,7 @@
       "collocations": []
     },
     "consisted": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "consisted",
       "pos": "v · B2",
       "pron": "/kənˈsɪs.tɪd/",
@@ -2998,7 +3564,7 @@
       "collocations": []
     },
     "consisting": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "consisting",
       "pos": "v · B2",
       "pron": "/kənˈsɪs.tɪŋ/",
@@ -3011,7 +3577,7 @@
       "collocations": []
     },
     "continuously": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "continuously",
       "pos": "adv · B2",
       "pron": "/kənˈtɪn.ju.əs.li/",
@@ -3024,7 +3590,7 @@
       "collocations": []
     },
     "crack": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "crack",
       "pos": "n · B1",
       "pron": "/kræk/",
@@ -3037,7 +3603,7 @@
       "collocations": []
     },
     "crushing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "crushing",
       "pos": "adj · B2",
       "pron": "/ˈkrʌʃ.ɪŋ/",
@@ -3050,7 +3616,7 @@
       "collocations": []
     },
     "crystals": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "crystals",
       "pos": "n · B2",
       "pron": "/ˈkrɪs.təlz/",
@@ -3063,7 +3629,7 @@
       "collocations": []
     },
     "deadliest": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "deadliest",
       "pos": "adj · B2",
       "pron": "/ˈded.li.əst/",
@@ -3076,7 +3642,7 @@
       "collocations": []
     },
     "delicate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "delicate",
       "pos": "adj · B2",
       "pron": "/ˈdel.ɪ.kət/",
@@ -3089,7 +3655,7 @@
       "collocations": []
     },
     "denser": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "denser",
       "pos": "adj · B2",
       "pron": "/ˈden.sər/",
@@ -3102,7 +3668,7 @@
       "collocations": []
     },
     "deploy": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "deploy",
       "pos": "v · B2",
       "pron": "/dɪˈplɔɪ/",
@@ -3115,7 +3681,7 @@
       "collocations": []
     },
     "deposited": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "deposited",
       "pos": "v · B2",
       "pron": "/dɪˈpɒz.ɪ.tɪd/",
@@ -3141,7 +3707,7 @@
       "collocations": []
     },
     "destructive": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "destructive",
       "pos": "adj · B2",
       "pron": "/dɪˈstrʌk.tɪv/",
@@ -3154,7 +3720,7 @@
       "collocations": []
     },
     "dew": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "dew",
       "pos": "n · B2",
       "pron": "/djuː/",
@@ -3167,7 +3733,7 @@
       "collocations": []
     },
     "disasters": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "disasters",
       "pos": "n · B1",
       "pron": "/dɪˈzɑːs.təz/",
@@ -3180,7 +3746,7 @@
       "collocations": []
     },
     "downhill": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "downhill",
       "pos": "adv · B1",
       "pron": "/ˌdaʊnˈhɪl/",
@@ -3193,7 +3759,7 @@
       "collocations": []
     },
     "downstream": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "downstream",
       "pos": "adv · B2",
       "pron": "/ˌdaʊnˈstriːm/",
@@ -3206,7 +3772,7 @@
       "collocations": []
     },
     "elevated": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "elevated",
       "pos": "adj · B2",
       "pron": "/ˈel.ə.veɪ.tɪd/",
@@ -3219,7 +3785,7 @@
       "collocations": []
     },
     "engulfed": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "engulfed",
       "pos": "v · B2",
       "pron": "/ɪnˈɡʌlft/",
@@ -3232,7 +3798,7 @@
       "collocations": []
     },
     "engulfing": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "engulfing",
       "pos": "v · B2",
       "pron": "/ɪnˈɡʌl.fɪŋ/",
@@ -3245,7 +3811,7 @@
       "collocations": []
     },
     "essential": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "essential",
       "pos": "adj · B1",
       "pron": "/ɪˈsen.ʃəl/",
@@ -3258,7 +3824,7 @@
       "collocations": []
     },
     "experienced": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "experienced",
       "pos": "adj · A2",
       "pron": "/ɪkˈspɪə.ri.ənst/",
@@ -3271,7 +3837,7 @@
       "collocations": []
     },
     "explosives": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "explosives",
       "pos": "n · B2",
       "pron": "/ɪkˈsploʊ.sɪvz/",
@@ -3284,7 +3850,7 @@
       "collocations": []
     },
     "exposed": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "exposed",
       "pos": "adj · A2",
       "pron": "/ɪkˈspoʊzd/",
@@ -3297,7 +3863,7 @@
       "collocations": []
     },
     "exposure": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "exposure",
       "pos": "n · B2",
       "pron": "/ɪkˈspoʊ.ʒər/",
@@ -3310,7 +3876,7 @@
       "collocations": []
     },
     "feathery": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "feathery",
       "pos": "adj · B2",
       "pron": "/ˈfeð.ər.i/",
@@ -3323,7 +3889,7 @@
       "collocations": []
     },
     "forecasts": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "forecasts",
       "pos": "n · A2",
       "pron": "/ˈfɔː.kɑːsts/",
@@ -3336,7 +3902,7 @@
       "collocations": []
     },
     "fractures": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "fractures",
       "pos": "n · B2",
       "pron": "/ˈfræk.tʃəz/",
@@ -3349,7 +3915,7 @@
       "collocations": []
     },
     "freezes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "freezes",
       "pos": "v · B1",
       "pron": "/ˈfriː.zɪz/",
@@ -3362,7 +3928,7 @@
       "collocations": []
     },
     "fresh": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "fresh",
       "pos": "adj · A2",
       "pron": "/freʃ/",
@@ -3375,7 +3941,7 @@
       "collocations": []
     },
     "glacial": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "glacial",
       "pos": "adj · B2",
       "pron": "/ˈɡleɪ.ʃəl/",
@@ -3388,7 +3954,7 @@
       "collocations": []
     },
     "highly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "highly",
       "pos": "adv · A2",
       "pron": "/ˈhaɪ.li/",
@@ -3401,7 +3967,7 @@
       "collocations": []
     },
     "immobilized": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "immobilized",
       "pos": "adj · C1",
       "pron": "/ɪˈmoʊ.bɪ.laɪzd/",
@@ -3414,7 +3980,7 @@
       "collocations": []
     },
     "impact": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "impact",
       "pos": "n · B1",
       "pron": "/ˈɪm.pækt/",
@@ -3427,7 +3993,7 @@
       "collocations": []
     },
     "imperfect": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "imperfect",
       "pos": "adj · B2",
       "pron": "/ɪmˈpɜː.fekt/",
@@ -3440,7 +4006,7 @@
       "collocations": []
     },
     "improving": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "improving",
       "pos": "v · A2",
       "pron": "/ɪmˈpruː.vɪŋ/",
@@ -3453,7 +4019,7 @@
       "collocations": []
     },
     "inflatable": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "inflatable",
       "pos": "adj · B2",
       "pron": "/ɪnˈfleɪ.tə.bl/",
@@ -3466,7 +4032,7 @@
       "collocations": []
     },
     "intentionally": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "intentionally",
       "pos": "adv · B2",
       "pron": "/ɪnˈten.ʃən.əl.i/",
@@ -3479,7 +4045,7 @@
       "collocations": []
     },
     "lifesaving": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "lifesaving",
       "pos": "adj · B2",
       "pron": "/ˈlaɪfˌseɪ.vɪŋ/",
@@ -3492,7 +4058,7 @@
       "collocations": []
     },
     "loosely": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "loosely",
       "pos": "adv · B2",
       "pron": "/ˈluːs.li/",
@@ -3505,7 +4071,7 @@
       "collocations": []
     },
     "maneuver": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "maneuver",
       "pos": "n · B2",
       "pron": "/məˈnuː.vər/",
@@ -3518,7 +4084,7 @@
       "collocations": []
     },
     "massive": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "massive",
       "pos": "adj · A2",
       "pron": "/ˈmæs.ɪv/",
@@ -3531,7 +4097,7 @@
       "collocations": []
     },
     "mitigate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "mitigate",
       "pos": "v · C1",
       "pron": "/ˈmɪt.ɪ.ɡeɪt/",
@@ -3544,7 +4110,7 @@
       "collocations": []
     },
     "movement": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "movement",
       "pos": "n · B1",
       "pron": "/ˈmuːv.mənt/",
@@ -3557,7 +4123,7 @@
       "collocations": []
     },
     "natural": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "natural",
       "pos": "adj · A2",
       "pron": "/ˈnætʃ.ər.əl/",
@@ -3570,7 +4136,7 @@
       "collocations": []
     },
     "nightmares": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "nightmares",
       "pos": "n · B1",
       "pron": "/ˈnaɪt.meəz/",
@@ -3583,7 +4149,7 @@
       "collocations": []
     },
     "originate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "originate",
       "pos": "v · B2",
       "pron": "/əˈrɪdʒ.ɪ.neɪt/",
@@ -3596,7 +4162,7 @@
       "collocations": []
     },
     "path": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "path",
       "pos": "n · A2",
       "pron": "/pɑːθ/",
@@ -3609,7 +4175,7 @@
       "collocations": []
     },
     "peruvian": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "Peruvian",
       "pos": "adj · B2",
       "pron": "/pəˈruː.vi.ən/",
@@ -3622,7 +4188,7 @@
       "collocations": []
     },
     "predict": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "predict",
       "pos": "v · B1",
       "pron": "/prɪˈdɪkt/",
@@ -3635,7 +4201,7 @@
       "collocations": []
     },
     "propagate": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "propagate",
       "pos": "v · B2",
       "pron": "/ˈprɒp.ə.ɡeɪt/",
@@ -3648,7 +4214,7 @@
       "collocations": []
     },
     "properly": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "properly",
       "pos": "adv · A2",
       "pron": "/ˈprɒp.ə.li/",
@@ -3661,7 +4227,7 @@
       "collocations": []
     },
     "properties": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "properties",
       "pos": "n · B2",
       "pron": "/ˈprɒp.ə.tiz/",
@@ -3674,7 +4240,7 @@
       "collocations": []
     },
     "rainfall": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rainfall",
       "pos": "n · B2",
       "pron": "/ˈreɪn.fɔːl/",
@@ -3687,7 +4253,7 @@
       "collocations": []
     },
     "rapid": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rapid",
       "pos": "adj · B1",
       "pron": "/ˈræp.ɪd/",
@@ -3700,7 +4266,7 @@
       "collocations": []
     },
     "rescue": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "rescue",
       "pos": "n · B1",
       "pron": "/ˈres.kjuː/",
@@ -3713,7 +4279,7 @@
       "collocations": []
     },
     "resorts": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "resorts",
       "pos": "n · B1",
       "pron": "/rɪˈzɔːts/",
@@ -3726,7 +4292,7 @@
       "collocations": []
     },
     "roadways": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "roadways",
       "pos": "n · B2",
       "pron": "/ˈroʊd.weɪz/",
@@ -3739,7 +4305,7 @@
       "collocations": []
     },
     "roughness": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "roughness",
       "pos": "n · B2",
       "pron": "/ˈrʌf.nəs/",
@@ -3752,7 +4318,7 @@
       "collocations": []
     },
     "scattering": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "scattering",
       "pos": "v · B2",
       "pron": "/ˈskæt.ər.ɪŋ/",
@@ -3765,7 +4331,7 @@
       "collocations": []
     },
     "shallow": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "shallow",
       "pos": "adj · B1",
       "pron": "/ˈʃæl.oʊ/",
@@ -3778,7 +4344,7 @@
       "collocations": []
     },
     "skier": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "skier",
       "pos": "n · B1",
       "pron": "/ˈskiː.ər/",
@@ -3791,7 +4357,7 @@
       "collocations": []
     },
     "slab": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "slab",
       "pos": "n · B2",
       "pron": "/slæb/",
@@ -3804,7 +4370,7 @@
       "collocations": []
     },
     "slope": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "slope",
       "pos": "n · B1",
       "pron": "/sloʊp/",
@@ -3817,7 +4383,7 @@
       "collocations": []
     },
     "slopes": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "slopes",
       "pos": "n · B1",
       "pron": "/sloʊps/",
@@ -3830,7 +4396,7 @@
       "collocations": []
     },
     "snowfall": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "snowfall",
       "pos": "n · B2",
       "pron": "/ˈsnoʊ.fɔːl/",
@@ -3843,7 +4409,7 @@
       "collocations": []
     },
     "snowmobilers": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "snowmobilers",
       "pos": "n · C1",
       "pron": "/ˈsnoʊ.məˌboʊ.ləz/",
@@ -3869,7 +4435,7 @@
       "collocations": []
     },
     "solid": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "solid",
       "pos": "n · B1",
       "pron": "/ˈsɒl.ɪd/",
@@ -3882,7 +4448,7 @@
       "collocations": []
     },
     "stability": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "stability",
       "pos": "n · B2",
       "pron": "/stəˈbɪl.ə.ti/",
@@ -3895,7 +4461,7 @@
       "collocations": []
     },
     "steep": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "steep",
       "pos": "adj · B1",
       "pron": "/stiːp/",
@@ -3908,7 +4474,7 @@
       "collocations": []
     },
     "steepness": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "steepness",
       "pos": "n · B2",
       "pron": "/ˈstiːp.nəs/",
@@ -3921,7 +4487,7 @@
       "collocations": []
     },
     "sturdy": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "sturdy",
       "pos": "adj · B2",
       "pron": "/ˈstɜː.di/",
@@ -3934,7 +4500,7 @@
       "collocations": []
     },
     "surge": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "surge",
       "pos": "n · B2",
       "pron": "/sɜːdʒ/",
@@ -3947,7 +4513,7 @@
       "collocations": []
     },
     "survive": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "survive",
       "pos": "v · A2",
       "pron": "/səˈvaɪv/",
@@ -3960,7 +4526,7 @@
       "collocations": []
     },
     "terrain": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "terrain",
       "pos": "n · B2",
       "pron": "/təˈreɪn/",
@@ -3973,7 +4539,7 @@
       "collocations": []
     },
     "tragedies": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "tragedies",
       "pos": "n · B2",
       "pron": "/ˈtrædʒ.ə.diz/",
@@ -3986,7 +4552,7 @@
       "collocations": []
     },
     "trained": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "trained",
       "pos": "adj · A2",
       "pron": "/treɪnd/",
@@ -3999,7 +4565,7 @@
       "collocations": []
     },
     "trigger": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "trigger",
       "pos": "n · B1",
       "pron": "/ˈtrɪɡ.ər/",
@@ -4012,7 +4578,7 @@
       "collocations": []
     },
     "typically": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "typically",
       "pos": "adv · A2",
       "pron": "/ˈtɪp.ɪk.li/",
@@ -4025,7 +4591,7 @@
       "collocations": []
     },
     "ultimately": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "ultimately",
       "pos": "adv · B2",
       "pron": "/ˈʌl.tɪ.mət.li/",
@@ -4038,7 +4604,7 @@
       "collocations": []
     },
     "unstable": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "unstable",
       "pos": "adj · B2",
       "pron": "/ʌnˈsteɪ.bl/",
@@ -4051,7 +4617,7 @@
       "collocations": []
     },
     "upstream": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "upstream",
       "pos": "adv · B2",
       "pron": "/ˌʌpˈstriːm/",
@@ -4064,7 +4630,7 @@
       "collocations": []
     },
     "vegetation": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "vegetation",
       "pos": "n · B2",
       "pron": "/ˌvedʒ.əˈteɪ.ʃən/",
@@ -4077,7 +4643,7 @@
       "collocations": []
     },
     "victims": {
-      "tier": "known",
+      "tier": "normal",
       "surface": "victims",
       "pos": "n · B1",
       "pron": "/ˈvɪk.tɪmz/",
@@ -4085,6 +4651,487 @@
       "example": {
         "en": "Avalanche victims.",
         "ja": "雪崩犠牲者。"
+      },
+      "context": "",
+      "collocations": []
+    },
+    "avalanches": {
+      "tier": "key",
+      "surface": "avalanches",
+      "pos": "n · B2",
+      "pron": "/ˈæv.ə.lɑːn.tʃɪz/",
+      "meaning": "雪崩(複数)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "combination": {
+      "tier": "normal",
+      "surface": "combination",
+      "pos": "n · B1",
+      "pron": "/ˌkɒm.bɪˈneɪ.ʃən/",
+      "meaning": "組み合わせ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "average": {
+      "tier": "normal",
+      "surface": "average",
+      "pos": "n · B1",
+      "pron": "/ˈæv.ər.ɪdʒ/",
+      "meaning": "平均",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "specific": {
+      "tier": "normal",
+      "surface": "specific",
+      "pos": "adj · B1",
+      "pron": "/spəˈsɪf.ɪk/",
+      "meaning": "特定の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conditions": {
+      "tier": "normal",
+      "surface": "conditions",
+      "pos": "n · B1",
+      "pron": "/kənˈdɪʃ.ənz/",
+      "meaning": "条件",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "degrees": {
+      "tier": "normal",
+      "surface": "degrees",
+      "pos": "n · A2",
+      "pron": "/dɪˈɡriːz/",
+      "meaning": "度",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "weak": {
+      "tier": "normal",
+      "surface": "weak",
+      "pos": "adj · A2",
+      "pron": "/wiːk/",
+      "meaning": "弱い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "storms": {
+      "tier": "normal",
+      "surface": "storms",
+      "pos": "n · A2",
+      "pron": "/stɔːmz/",
+      "meaning": "嵐(複数)",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "surface": {
+      "tier": "normal",
+      "surface": "surface",
+      "pos": "n · B1",
+      "pron": "/ˈsɜː.fɪs/",
+      "meaning": "表面",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "wintertime": {
+      "tier": "normal",
+      "surface": "wintertime",
+      "pos": "n · B1",
+      "pron": "/ˈwɪn.tə.taɪm/",
+      "meaning": "冬期",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "amount": {
+      "tier": "normal",
+      "surface": "amount",
+      "pos": "n · A2",
+      "pron": "/əˈmaʊnt/",
+      "meaning": "量",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "involved": {
+      "tier": "normal",
+      "surface": "involved",
+      "pos": "adj · B1",
+      "pron": "/ɪnˈvɒlvd/",
+      "meaning": "関与する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "particularly": {
+      "tier": "normal",
+      "surface": "particularly",
+      "pos": "adv · B2",
+      "pron": "/pəˈtɪk.jə.lə.li/",
+      "meaning": "特に",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "destroying": {
+      "tier": "normal",
+      "surface": "destroying",
+      "pos": "v · B1",
+      "pron": "/dɪˈstrɔɪ.ɪŋ/",
+      "meaning": "破壊して",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "buildings": {
+      "tier": "normal",
+      "surface": "buildings",
+      "pos": "n · A2",
+      "pron": "/ˈbɪl.dɪŋz/",
+      "meaning": "建物",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "cubic": {
+      "tier": "key",
+      "surface": "cubic",
+      "pos": "adj · B2",
+      "pron": "/ˈkjuː.bɪk/",
+      "meaning": "立方の",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "speeds": {
+      "tier": "normal",
+      "surface": "speeds",
+      "pos": "n · B1",
+      "pron": "/spiːdz/",
+      "meaning": "速度",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "proved": {
+      "tier": "normal",
+      "surface": "proved",
+      "pos": "v · B1",
+      "pron": "/pruːvd/",
+      "meaning": "判明した",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "dangerous": {
+      "tier": "normal",
+      "surface": "dangerous",
+      "pos": "adj · B1",
+      "pron": "/ˈdeɪn.dʒər.əs/",
+      "meaning": "危険な",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "caught": {
+      "tier": "normal",
+      "surface": "caught",
+      "pos": "v · B1",
+      "pron": "/kɔːt/",
+      "meaning": "巻き込まれた",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "rushes": {
+      "tier": "normal",
+      "surface": "rushes",
+      "pos": "v · B2",
+      "pron": "/ˈrʌʃ.ɪz/",
+      "meaning": "勢いよく流れる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "liquid": {
+      "tier": "normal",
+      "surface": "liquid",
+      "pos": "n · B1",
+      "pron": "/ˈlɪk.wɪd/",
+      "meaning": "液体",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "escape": {
+      "tier": "normal",
+      "surface": "escape",
+      "pos": "v · B1",
+      "pron": "/ɪˈskeɪp/",
+      "meaning": "逃れる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "reasons": {
+      "tier": "normal",
+      "surface": "reasons",
+      "pos": "n · A2",
+      "pron": "/ˈriː.zənz/",
+      "meaning": "理由",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "workers": {
+      "tier": "normal",
+      "surface": "workers",
+      "pos": "n · A2",
+      "pron": "/ˈwɜː.kəz/",
+      "meaning": "作業員、担当者",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "monitoring": {
+      "tier": "key",
+      "surface": "monitoring",
+      "pos": "v · B2",
+      "pron": "/ˈmɒn.ɪ.tər.ɪŋ/",
+      "meaning": "監視する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "activity": {
+      "tier": "normal",
+      "surface": "activity",
+      "pos": "n · B1",
+      "pron": "/ækˈtɪv.ə.ti/",
+      "meaning": "活動",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "threat": {
+      "tier": "normal",
+      "surface": "threat",
+      "pos": "n · B1",
+      "pron": "/θret/",
+      "meaning": "脅威",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "detected": {
+      "tier": "normal",
+      "surface": "detected",
+      "pos": "v · B1",
+      "pron": "/dɪˈtek.tɪd/",
+      "meaning": "検知された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "regions": {
+      "tier": "normal",
+      "surface": "regions",
+      "pos": "n · B1",
+      "pron": "/ˈriː.dʒənz/",
+      "meaning": "地域",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "mitigated": {
+      "tier": "key",
+      "surface": "mitigated",
+      "pos": "v · C1",
+      "pron": "/ˈmɪt.ɪ.ɡeɪ.tɪd/",
+      "meaning": "軽減された",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "centers": {
+      "tier": "normal",
+      "surface": "centers",
+      "pos": "n · A2",
+      "pron": "/ˈsen.təz/",
+      "meaning": "センター",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "eliminate": {
+      "tier": "key",
+      "surface": "eliminate",
+      "pos": "v · B2",
+      "pron": "/ɪˈlɪm.ɪ.neɪt/",
+      "meaning": "排除する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "storm": {
+      "tier": "normal",
+      "surface": "storm",
+      "pos": "n · A2",
+      "pron": "/stɔːm/",
+      "meaning": "嵐",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "danger": {
+      "tier": "normal",
+      "surface": "danger",
+      "pos": "n · A2",
+      "pron": "/ˈdeɪn.dʒər/",
+      "meaning": "危険",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "devices": {
+      "tier": "normal",
+      "surface": "devices",
+      "pos": "n · B1",
+      "pron": "/dɪˈvaɪ.sɪz/",
+      "meaning": "装置",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "victim": {
+      "tier": "normal",
+      "surface": "victim",
+      "pos": "n · B1",
+      "pron": "/ˈvɪk.tɪm/",
+      "meaning": "犠牲者",
+      "example": {
+        "en": "",
+        "ja": ""
       },
       "context": "",
       "collocations": []

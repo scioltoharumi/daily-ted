@@ -1103,30 +1103,66 @@
               "tier": "key"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " that Prince Prospero "
+              "surface": " that ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "Prince",
+              "ref": "prince",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "Prospero",
+              "ref": "prospero",
+              "tier": "basic",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "entertained",
               "ref": "entertained",
               "tier": "frequent"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " his thousand friends at a "
+              "surface": " his ",
+              "id": "t13"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "thousand",
+              "ref": "thousand",
+              "tier": "frequent",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " friends at a ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "masked ball",
               "ref": "masked_ball"
             },
             {
-              "id": "t11",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }
@@ -1481,54 +1517,66 @@
               "ref": "so_adj_a_n"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " upon those who "
+              "surface": " ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "upon",
+              "ref": "upon",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " those who ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "entered",
               "ref": "entered",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " that there were few "
             },
             {
-              "id": "t12",
+              "id": "t14",
               "type": "word",
               "surface": "bold",
               "ref": "bold",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t15",
               "type": "skip",
               "surface": " enough to "
             },
             {
-              "id": "t14",
+              "id": "t16",
               "type": "expression",
               "surface": "set foot",
               "ref": "set_foot"
             },
             {
-              "id": "t15",
+              "id": "t17",
               "type": "skip",
               "surface": " within its "
             },
             {
-              "id": "t16",
+              "id": "t18",
               "type": "word",
               "surface": "precincts",
               "ref": "precincts",
               "tier": "key"
             },
             {
-              "id": "t17",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -2270,54 +2318,66 @@
               "ref": "to_and_fro"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " in the seven "
+              "surface": " in the ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "seven",
+              "ref": "seven",
+              "tier": "frequent",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "chambers",
               "ref": "chamber",
               "tier": "key"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " there "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "stalked",
               "ref": "stalked",
               "tier": "key"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "expression",
               "surface": "a multitude of",
               "ref": "a_multitude_of"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "word",
               "surface": "dreams",
               "ref": "dream",
               "tier": "frequent"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "skip",
               "surface": "."
             }
@@ -2458,31 +2518,43 @@
               "tier": "key"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " clock, and "
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "clock",
+              "ref": "clock",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", and ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "momently",
               "ref": "momently",
               "tier": "key"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": ", all is "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "still",
               "ref": "still",
               "tier": "frequent"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2665,19 +2737,31 @@
               "tier": "key"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " light through the "
+              "surface": " ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "light",
+              "ref": "light",
+              "tier": "frequent",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": " through the ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "type": "word",
               "surface": "blood-colored",
               "ref": "blood_colored",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "type": "skip",
               "surface": " panes."
             }
@@ -2711,51 +2795,51 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "And to him whose foot falls upon the "
+              "surface": "And to him whose foot falls ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "upon",
+              "ref": "upon",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "carpet",
               "ref": "carpet",
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": ", there comes from the clock a "
+              "surface": ", there comes from the ",
+              "id": "t5"
             },
             {
-              "id": "t4",
               "type": "word",
-              "surface": "muffled",
-              "ref": "muffled",
-              "tier": "key"
+              "surface": "clock",
+              "ref": "clock",
+              "tier": "frequent",
+              "id": "t6"
             },
             {
-              "id": "t5",
               "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t6",
-              "type": "word",
-              "surface": "peal",
-              "ref": "peal",
-              "tier": "key"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " more "
+              "surface": " a ",
+              "id": "t7"
             },
             {
               "id": "t8",
               "type": "word",
-              "surface": "solemnly",
-              "ref": "solemnly",
+              "surface": "muffled",
+              "ref": "muffled",
               "tier": "key"
             },
             {
@@ -2766,47 +2850,71 @@
             {
               "id": "t10",
               "type": "word",
-              "surface": "emphatic",
-              "ref": "emphatic",
+              "surface": "peal",
+              "ref": "peal",
               "tier": "key"
             },
             {
               "id": "t11",
               "type": "skip",
-              "surface": " than any which reaches their ears who "
+              "surface": " more "
             },
             {
               "id": "t12",
+              "type": "word",
+              "surface": "solemnly",
+              "ref": "solemnly",
+              "tier": "key"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "emphatic",
+              "ref": "emphatic",
+              "tier": "key"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " than any which reaches their ears who "
+            },
+            {
+              "id": "t16",
               "type": "expression",
               "surface": "indulge in",
               "ref": "indulge_in"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " the more "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "remote",
               "ref": "remote",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "word",
               "surface": "gaieties",
               "ref": "gaiety",
               "tier": "key"
             },
             {
-              "id": "t17",
+              "id": "t21",
               "type": "skip",
               "surface": " of the other apartments."
             }
@@ -2840,42 +2948,54 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The revel "
+              "surface": "The ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "revel",
+              "ref": "revel",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "expression",
               "surface": "went on",
               "ref": "go_on"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "word",
               "surface": "whirlingly",
               "ref": "whirlingly",
               "tier": "key"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": "— until the "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "twelfth",
               "ref": "twelfth",
               "tier": "normal"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " hour."
             }
@@ -3186,54 +3306,66 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "The figure was "
+              "surface": "The ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "figure",
+              "ref": "figure",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " was ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "shrouded",
               "ref": "shrouded",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "expression",
               "surface": "from head to foot",
               "ref": "from_head_to_foot"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "skip",
               "surface": " in the "
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "word",
               "surface": "habiliments",
               "ref": "habiliments",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "type": "skip",
               "surface": " of the "
             },
             {
-              "id": "t8",
+              "id": "t10",
               "type": "word",
               "surface": "grave",
               "ref": "grave",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -3401,9 +3533,21 @@
               "tier": "key"
             },
             {
-              "id": "t9",
               "type": "skip",
-              "surface": " in blood."
+              "surface": " in ",
+              "id": "t9"
+            },
+            {
+              "type": "word",
+              "surface": "blood",
+              "ref": "blood",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t11"
             }
           ]
         },
@@ -3437,50 +3581,50 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of the Prince Prospero "
+              "surface": " of the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "Prince",
+              "ref": "prince",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "Prospero",
+              "ref": "prospero",
+              "tier": "basic",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "fell upon",
               "ref": "fell_upon"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": " this "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "word",
               "surface": "spectral",
               "ref": "spectral",
-              "tier": "key"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t8",
-              "type": "word",
-              "surface": "image",
-              "ref": "image",
-              "tier": "frequent"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": ", his "
-            },
-            {
-              "id": "t10",
-              "type": "word",
-              "surface": "brow",
-              "ref": "brow",
               "tier": "key"
             },
             {
@@ -3491,23 +3635,47 @@
             {
               "id": "t12",
               "type": "word",
+              "surface": "image",
+              "ref": "image",
+              "tier": "frequent"
+            },
+            {
+              "id": "t13",
+              "type": "skip",
+              "surface": ", his "
+            },
+            {
+              "id": "t14",
+              "type": "word",
+              "surface": "brow",
+              "ref": "brow",
+              "tier": "key"
+            },
+            {
+              "id": "t15",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t16",
+              "type": "word",
               "surface": "reddened",
               "ref": "reddened",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "expression",
               "surface": "with rage",
               "ref": "with_rage"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -3812,174 +3980,229 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "type": "skip",
-              "surface": "Prince Prospero, "
+              "type": "word",
+              "surface": "Prince",
+              "ref": "prince",
+              "tier": "normal",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "skip",
+              "surface": " ",
+              "id": "t2"
+            },
+            {
+              "type": "word",
+              "surface": "Prospero",
+              "ref": "prospero",
+              "tier": "basic",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "maddening",
               "ref": "maddening",
               "tier": "key"
             },
             {
-              "id": "t3",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t4",
+              "id": "t7",
               "type": "expression",
               "surface": "with the shame of",
               "ref": "with_shame_of"
             },
             {
-              "id": "t5",
+              "id": "t8",
               "type": "skip",
               "surface": " his own "
             },
             {
-              "id": "t6",
+              "id": "t9",
               "type": "word",
               "surface": "cowardice",
               "ref": "cowardice",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t10",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t8",
+              "id": "t11",
               "type": "word",
               "surface": "bore",
               "ref": "bore",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t12",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t13",
               "type": "word",
               "surface": "aloft",
               "ref": "aloft",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t14",
               "type": "skip",
               "surface": " a "
             },
             {
-              "id": "t12",
+              "id": "t15",
               "type": "word",
               "surface": "drawn",
               "ref": "drawn",
               "tier": "frequent"
             },
             {
-              "id": "t13",
+              "id": "t16",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t14",
+              "id": "t17",
               "type": "word",
               "surface": "dagger",
               "ref": "dagger",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t18",
               "type": "skip",
               "surface": ", and "
             },
             {
-              "id": "t16",
+              "id": "t19",
               "type": "word",
               "surface": "approached",
               "ref": "approached",
               "tier": "frequent"
             },
             {
-              "id": "t17",
+              "id": "t20",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t18",
+              "id": "t21",
               "type": "word",
               "surface": "retreating",
               "ref": "retreating",
               "tier": "frequent"
             },
             {
-              "id": "t19",
               "type": "skip",
-              "surface": " figure, when the "
+              "surface": " ",
+              "id": "t22"
             },
             {
-              "id": "t20",
+              "type": "word",
+              "surface": "figure",
+              "ref": "figure",
+              "tier": "frequent",
+              "id": "t23"
+            },
+            {
+              "type": "skip",
+              "surface": ", when the ",
+              "id": "t24"
+            },
+            {
+              "id": "t25",
               "type": "word",
               "surface": "latter",
               "ref": "latter",
               "tier": "frequent"
             },
             {
-              "id": "t21",
+              "id": "t26",
               "type": "skip",
               "surface": ", having "
             },
             {
-              "id": "t22",
+              "id": "t27",
               "type": "word",
               "surface": "attained",
               "ref": "attained",
               "tier": "key"
             },
             {
-              "id": "t23",
+              "id": "t28",
               "type": "skip",
               "surface": " the "
             },
             {
-              "id": "t24",
+              "id": "t29",
               "type": "word",
               "surface": "extremity",
               "ref": "extremity",
               "tier": "key"
             },
             {
-              "id": "t25",
               "type": "skip",
-              "surface": " of the velvet apartment, "
+              "surface": " of the ",
+              "id": "t30"
             },
             {
-              "id": "t26",
+              "type": "word",
+              "surface": "velvet",
+              "ref": "velvet",
+              "tier": "key",
+              "id": "t31"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t32"
+            },
+            {
+              "type": "word",
+              "surface": "apartment",
+              "ref": "apartment",
+              "tier": "frequent",
+              "id": "t33"
+            },
+            {
+              "type": "skip",
+              "surface": ", ",
+              "id": "t34"
+            },
+            {
+              "id": "t35",
               "type": "word",
               "surface": "turned",
               "ref": "turned",
               "tier": "frequent"
             },
             {
-              "id": "t27",
+              "id": "t36",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t28",
+              "id": "t37",
               "type": "word",
               "surface": "suddenly",
               "ref": "suddenly",
               "tier": "frequent"
             },
             {
-              "id": "t29",
+              "id": "t38",
               "type": "skip",
               "surface": "."
             }
@@ -4007,68 +4230,116 @@
           ],
           "tokens": [
             {
-              "id": "t1",
               "type": "skip",
-              "surface": "There was a sharp "
+              "surface": "There was a ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "sharp",
+              "ref": "sharp",
+              "tier": "frequent",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "type": "word",
               "surface": "cry",
               "ref": "cry",
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": "— and the dagger "
+              "surface": "— and the ",
+              "id": "t5"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "dagger",
+              "ref": "dagger",
+              "tier": "key",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "word",
               "surface": "dropped",
               "ref": "dropped",
               "tier": "frequent"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": ", "
             },
             {
-              "id": "t6",
+              "id": "t10",
               "type": "expression",
               "surface": "upon which",
               "ref": "upon_which"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t12",
               "type": "word",
               "surface": "instantly",
               "ref": "instantly",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t14",
               "type": "word",
               "surface": "fell",
               "ref": "fell",
               "tier": "frequent"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " Prince Prospero."
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "type": "word",
+              "surface": "Prince",
+              "ref": "prince",
+              "tier": "normal",
+              "id": "t16"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t17"
+            },
+            {
+              "type": "word",
+              "surface": "Prospero",
+              "ref": "prospero",
+              "tier": "basic",
+              "id": "t18"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t19"
             }
           ]
         },
@@ -4134,67 +4405,91 @@
               "tier": "frequent"
             },
             {
-              "id": "t7",
               "type": "skip",
-              "surface": " the grave "
+              "surface": " the ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "grave",
+              "ref": "grave",
+              "tier": "frequent",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "type": "word",
               "surface": "cerements",
               "ref": "cerements",
               "tier": "key"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "type": "skip",
               "surface": " and "
             },
             {
-              "id": "t10",
+              "id": "t12",
               "type": "word",
               "surface": "corpse-like",
               "ref": "corpse_like",
               "tier": "normal"
             },
             {
-              "id": "t11",
               "type": "skip",
-              "surface": " mask "
+              "surface": " ",
+              "id": "t13"
             },
             {
-              "id": "t12",
+              "type": "word",
+              "surface": "mask",
+              "ref": "mask",
+              "tier": "frequent",
+              "id": "t14"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t15"
+            },
+            {
+              "id": "t16",
               "type": "word",
               "surface": "untenanted",
               "ref": "untenanted",
               "tier": "key"
             },
             {
-              "id": "t13",
+              "id": "t17",
               "type": "skip",
               "surface": " by any "
             },
             {
-              "id": "t14",
+              "id": "t18",
               "type": "word",
               "surface": "tangible",
               "ref": "tangible",
               "tier": "frequent"
             },
             {
-              "id": "t15",
+              "id": "t19",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t20",
               "type": "word",
               "surface": "form",
               "ref": "form",
               "tier": "frequent"
             },
             {
-              "id": "t17",
+              "id": "t21",
               "type": "skip",
               "surface": "."
             }
@@ -4279,31 +4574,43 @@
               "ref": "one_by_one"
             },
             {
-              "id": "t2",
               "type": "skip",
-              "surface": " dropped the revellers in the "
+              "surface": " ",
+              "id": "t2"
             },
             {
-              "id": "t3",
+              "type": "word",
+              "surface": "dropped",
+              "ref": "dropped",
+              "tier": "frequent",
+              "id": "t3"
+            },
+            {
+              "type": "skip",
+              "surface": " the revellers in the ",
+              "id": "t4"
+            },
+            {
+              "id": "t5",
               "type": "word",
               "surface": "blood-bedewed",
               "ref": "blood_bedewed",
               "tier": "key"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t5",
+              "id": "t7",
               "type": "word",
               "surface": "halls",
               "ref": "hall",
               "tier": "frequent"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "type": "skip",
               "surface": "."
             }
@@ -4338,18 +4645,42 @@
               "tier": "frequent"
             },
             {
-              "id": "t3",
               "type": "skip",
-              "surface": " of the ebony clock "
+              "surface": " of the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "ebony",
+              "ref": "ebony",
+              "tier": "key",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "clock",
+              "ref": "clock",
+              "tier": "frequent",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "type": "expression",
               "surface": "went out",
               "ref": "go_out"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "type": "skip",
               "surface": "."
             }

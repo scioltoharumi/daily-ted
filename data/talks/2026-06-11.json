@@ -843,19 +843,31 @@
               "ref": "demonstration"
             },
             {
-              "id": "t7",
-              "surface": " of the emperor's ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " of the ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "emperor",
+              "ref": "emperor",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": "'s ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "influence",
               "type": "word",
               "tier": "frequent",
               "ref": "influence"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "surface": ".",
               "type": "skip"
             }
@@ -1012,9 +1024,21 @@
               "ref": "tripping"
             },
             {
-              "id": "t7",
-              "surface": " techniques.",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "techniques",
+              "ref": "techniques",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         },
@@ -1050,31 +1074,55 @@
               "ref": "shift"
             },
             {
-              "id": "t3",
-              "surface": " from the emperor and his court to their ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " from the ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "emperor",
+              "ref": "emperor",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " and his court to their ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "surface": "hired",
               "type": "word",
               "tier": "normal",
               "ref": "hired"
             },
             {
-              "id": "t5",
-              "surface": " soldiers, the ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "soldiers",
+              "ref": "soldiers",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ", the ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "samurai",
               "type": "word",
               "tier": "basic",
               "ref": "samurai"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "surface": ", and official court sumo ended in 1174.",
               "type": "skip"
             }
@@ -1113,33 +1161,69 @@
               "ref": "samurai"
             },
             {
-              "id": "t3",
-              "surface": " leaders still had soldiers perform less ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "leaders",
+              "ref": "leaders",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " still had ",
+              "id": "t5"
+            },
+            {
+              "type": "word",
+              "surface": "soldiers",
+              "ref": "soldiers",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " perform less ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "surface": "formal",
               "type": "word",
               "tier": "frequent",
               "ref": "formal"
             },
             {
-              "id": "t5",
+              "id": "t9",
               "surface": " sumo ",
               "type": "skip"
             },
             {
-              "id": "t6",
+              "id": "t10",
               "surface": "bouts",
               "type": "word",
               "tier": "key",
               "ref": "bout"
             },
             {
-              "id": "t7",
-              "surface": " for exercise and entertainment.",
-              "type": "skip"
+              "type": "skip",
+              "surface": " for ",
+              "id": "t11"
+            },
+            {
+              "type": "word",
+              "surface": "exercise",
+              "ref": "exercise",
+              "tier": "normal",
+              "id": "t12"
+            },
+            {
+              "type": "skip",
+              "surface": " and entertainment.",
+              "id": "t13"
             }
           ]
         }
@@ -1491,9 +1575,21 @@
               "ref": "employment"
             },
             {
-              "id": "t7",
-              "surface": " and improving their working conditions.",
-              "type": "skip"
+              "type": "skip",
+              "surface": " and improving their working ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "conditions",
+              "ref": "conditions",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": ".",
+              "id": "t9"
             }
           ]
         }
@@ -1581,19 +1677,43 @@
               "ref": "rowdy"
             },
             {
-              "id": "t5",
-              "surface": " street corner sumo performances, hoping to attract the donations of ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " street corner sumo performances, hoping to ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "attract",
+              "ref": "attract",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " the ",
+              "id": "t7"
+            },
+            {
+              "type": "word",
+              "surface": "donations",
+              "ref": "donations",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " of ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "passersby",
               "type": "word",
               "tier": "key",
               "ref": "passersby"
             },
             {
-              "id": "t7",
+              "id": "t11",
               "surface": ".",
               "type": "skip"
             }
@@ -1651,31 +1771,43 @@
               "ref": "bout"
             },
             {
-              "id": "t7",
-              "surface": " often resulted in fights and injuries among both ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " often resulted in fights and ",
+              "id": "t7"
             },
             {
-              "id": "t8",
+              "type": "word",
+              "surface": "injuries",
+              "ref": "injuries",
+              "tier": "normal",
+              "id": "t8"
+            },
+            {
+              "type": "skip",
+              "surface": " among both ",
+              "id": "t9"
+            },
+            {
+              "id": "t10",
               "surface": "participants",
               "type": "word",
               "tier": "frequent",
               "ref": "participant"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "surface": " and ",
               "type": "skip"
             },
             {
-              "id": "t10",
+              "id": "t12",
               "surface": "spectators",
               "type": "word",
               "tier": "normal",
               "ref": "spectator"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "surface": ".",
               "type": "skip"
             }
@@ -1835,31 +1967,43 @@
               "ref": "boundary"
             },
             {
-              "id": "t5",
-              "surface": " to separate ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " to ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "separate",
+              "ref": "separate",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "surface": "spectators",
               "type": "word",
               "tier": "normal",
               "ref": "spectator"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": " from ",
               "type": "skip"
             },
             {
-              "id": "t8",
+              "id": "t10",
               "surface": "participants",
               "type": "word",
               "tier": "frequent",
               "ref": "participant"
             },
             {
-              "id": "t9",
+              "id": "t11",
               "surface": ".",
               "type": "skip"
             }
@@ -1893,12 +2037,24 @@
               "ref": "morph"
             },
             {
-              "id": "t3",
-              "surface": " into a standard ring called the ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " into a ",
+              "id": "t3"
             },
             {
-              "id": "t4",
+              "type": "word",
+              "surface": "standard",
+              "ref": "standard",
+              "tier": "normal",
+              "id": "t4"
+            },
+            {
+              "type": "skip",
+              "surface": " ring called the ",
+              "id": "t5"
+            },
+            {
+              "id": "t6",
               "surface": "dohyō",
               "type": "foreign",
               "ref": "dohyo"
@@ -1925,42 +2081,54 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "surface": "This ring outlined the field of play, introducing a ",
-              "type": "skip"
+              "type": "skip",
+              "surface": "This ring ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "outlined",
+              "ref": "outlined",
+              "tier": "key",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " the field of play, introducing a ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "surface": "pivotal",
               "type": "word",
               "tier": "key",
               "ref": "pivotal"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "surface": " new rule: now matches could also be won by pushing one’s ",
               "type": "skip"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "surface": "opponent",
               "type": "word",
               "tier": "normal",
               "ref": "opponent"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "surface": " out of the ",
               "type": "skip"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "surface": "dohyō",
               "type": "foreign",
               "ref": "dohyo"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": ".",
               "type": "skip"
             }
@@ -2157,19 +2325,31 @@
               "ref": "evoke"
             },
             {
-              "id": "t5",
-              "surface": " ancient religious ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " ancient ",
+              "id": "t5"
             },
             {
-              "id": "t6",
+              "type": "word",
+              "surface": "religious",
+              "ref": "religious",
+              "tier": "normal",
+              "id": "t6"
+            },
+            {
+              "type": "skip",
+              "surface": " ",
+              "id": "t7"
+            },
+            {
+              "id": "t8",
               "surface": "ceremonies",
               "type": "word",
               "tier": "normal",
               "ref": "ceremony"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": ".",
               "type": "skip"
             }
@@ -2670,43 +2850,55 @@
           ],
           "tokens": [
             {
-              "id": "t1",
-              "surface": "New technology has brought ",
-              "type": "skip"
+              "type": "skip",
+              "surface": "New ",
+              "id": "t1"
             },
             {
-              "id": "t2",
+              "type": "word",
+              "surface": "technology",
+              "ref": "technology",
+              "tier": "normal",
+              "id": "t2"
+            },
+            {
+              "type": "skip",
+              "surface": " has brought ",
+              "id": "t3"
+            },
+            {
+              "id": "t4",
               "surface": "advantages",
               "type": "word",
               "tier": "frequent",
               "ref": "advantage"
             },
             {
-              "id": "t3",
+              "id": "t5",
               "surface": " like instant replays, while other ",
               "type": "skip"
             },
             {
-              "id": "t4",
+              "id": "t6",
               "surface": "innovations",
               "type": "word",
               "tier": "frequent",
               "ref": "innovation"
             },
             {
-              "id": "t5",
+              "id": "t7",
               "surface": " were introduced to ",
               "type": "skip"
             },
             {
-              "id": "t6",
+              "id": "t8",
               "surface": "evoke",
               "type": "word",
               "tier": "key",
               "ref": "evoke"
             },
             {
-              "id": "t7",
+              "id": "t9",
               "surface": " the ancient past.",
               "type": "skip"
             }
@@ -2815,19 +3007,31 @@
               "ref": "display"
             },
             {
-              "id": "t9",
-              "surface": " of strength, and an ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " of ",
+              "id": "t9"
             },
             {
-              "id": "t10",
+              "type": "word",
+              "surface": "strength",
+              "ref": "strength",
+              "tier": "normal",
+              "id": "t10"
+            },
+            {
+              "type": "skip",
+              "surface": ", and an ",
+              "id": "t11"
+            },
+            {
+              "id": "t12",
               "surface": "ode",
               "type": "word",
               "tier": "key",
               "ref": "ode"
             },
             {
-              "id": "t11",
+              "id": "t13",
               "surface": " to national traditions— both real and invented.",
               "type": "skip"
             }
@@ -2840,7 +3044,7 @@
     "niigata": {
       "tier": "basic",
       "surface": "Niigata",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/niːˈɡɑːtə/",
       "meaning": "新潟(日本海側に位置する日本の都市・県)",
       "example": {
@@ -2856,7 +3060,7 @@
     "tokyo": {
       "tier": "basic",
       "surface": "Tokyo",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/ˈtoʊ.ki.oʊ/",
       "meaning": "東京(日本の首都)",
       "example": {
@@ -2873,7 +3077,7 @@
     "japan": {
       "tier": "basic",
       "surface": "Japan",
-      "pos": "proper noun",
+      "pos": "proper n",
       "pron": "/dʒəˈpæn/",
       "meaning": "日本",
       "example": {
@@ -2890,7 +3094,7 @@
     "samurai": {
       "tier": "basic",
       "surface": "samurai",
-      "pos": "noun (Japanese loanword)",
+      "pos": "n (Japanese loanword)",
       "pron": "/ˈsæm.ʊ.raɪ/",
       "meaning": "武士、侍",
       "example": {
@@ -2907,7 +3111,7 @@
     "shogun": {
       "tier": "basic",
       "surface": "shōgun",
-      "pos": "noun (Japanese loanword)",
+      "pos": "n (Japanese loanword)",
       "pron": "/ˈʃoʊ.ɡʌn/",
       "meaning": "将軍(江戸時代の日本の実質的最高権力者)",
       "example": {
@@ -2923,7 +3127,7 @@
     "sumo": {
       "tier": "normal",
       "surface": "sumo",
-      "pos": "noun (Japanese loanword) · A2",
+      "pos": "n (Japanese loanword) · A2",
       "pron": "/ˈsuː.moʊ/",
       "meaning": "相撲",
       "example": {
@@ -2941,7 +3145,7 @@
     "amateur": {
       "tier": "normal",
       "surface": "amateur",
-      "pos": "adj/noun · B1",
+      "pos": "adj/n · B1",
       "pron": "/ˈæm.ə.tər/",
       "meaning": "素人の、アマチュアの",
       "example": {
@@ -2958,7 +3162,7 @@
     "wrestler": {
       "tier": "normal",
       "surface": "wrestlers",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈres.lər/",
       "meaning": "レスラー、格闘家、力士",
       "example": {
@@ -2992,7 +3196,7 @@
     "perform": {
       "tier": "normal",
       "surface": "performing",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/pərˈfɔːrm/",
       "meaning": "公演する、演じる、実行する",
       "example": {
@@ -3009,7 +3213,7 @@
     "money": {
       "tier": "normal",
       "surface": "money",
-      "pos": "noun · A1",
+      "pos": "n · A1",
       "pron": "/ˈmʌn.i/",
       "meaning": "お金",
       "example": {
@@ -3027,7 +3231,7 @@
     "temple": {
       "tier": "normal",
       "surface": "temple",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈtem.pəl/",
       "meaning": "寺院、神殿",
       "example": {
@@ -3044,7 +3248,7 @@
     "pro": {
       "tier": "normal",
       "surface": "pros",
-      "pos": "noun (informal) · B1",
+      "pos": "n (informal) · B1",
       "pron": "/proʊ/",
       "meaning": "プロ、専門家",
       "example": {
@@ -3061,7 +3265,7 @@
     "crash_event": {
       "tier": "key",
       "surface": "crashed",
-      "pos": "verb (slang) · B2",
+      "pos": "v (slang) · B2",
       "pron": "/kræʃt/",
       "meaning": "（招かれざる客として）乗り込む、押しかける",
       "example": {
@@ -3078,7 +3282,7 @@
     "guild": {
       "tier": "key",
       "surface": "guild",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ɡɪld/",
       "meaning": "ギルド、同業組合、部屋",
       "example": {
@@ -3096,7 +3300,7 @@
     "charge": {
       "tier": "normal",
       "surface": "charge",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/tʃɑːrdʒ/",
       "meaning": "料金を請求する、課金する",
       "example": {
@@ -3113,7 +3317,7 @@
     "audience": {
       "tier": "normal",
       "surface": "audiences",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈɔː.di.əns/",
       "meaning": "観客、聴衆",
       "example": {
@@ -3130,7 +3334,7 @@
     "admission": {
       "tier": "normal",
       "surface": "admission",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ədˈmɪʃ.ən/",
       "meaning": "入場料、入学許可",
       "example": {
@@ -3148,7 +3352,7 @@
     "magistrate": {
       "tier": "key",
       "surface": "magistrate",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈmæd͡ʒ.ɪ.streɪt/",
       "meaning": "治安判事、裁判官",
       "example": {
@@ -3165,7 +3369,7 @@
     "claim": {
       "tier": "normal",
       "surface": "claim",
-      "pos": "noun/verb · B1",
+      "pos": "n/v · B1",
       "pron": "/kleɪm/",
       "meaning": "主張、申し立て / 主張する",
       "example": {
@@ -3183,7 +3387,7 @@
     "adhere": {
       "tier": "key",
       "surface": "adhered",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ədˈhɪər/",
       "meaning": "固守する、従う、くっつく",
       "example": {
@@ -3200,7 +3404,7 @@
     "performer": {
       "tier": "normal",
       "surface": "performers",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/pərˈfɔːr.mər/",
       "meaning": "演者、出演者、パフォーマー",
       "example": {
@@ -3252,7 +3456,7 @@
     "invention": {
       "tier": "normal",
       "surface": "inventions",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ɪnˈven.ʃən/",
       "meaning": "発明、作り話",
       "example": {
@@ -3270,7 +3474,7 @@
     "fabricated": {
       "tier": "key",
       "surface": "fabricated",
-      "pos": "adj/verb · C1",
+      "pos": "adj/v · C1",
       "pron": "/ˈfæb.rɪ.keɪ.tɪd/",
       "meaning": "でっち上げられた、捏造された",
       "example": {
@@ -3287,7 +3491,7 @@
     "tradition": {
       "tier": "normal",
       "surface": "traditions",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/trəˈdɪʃ.ən/",
       "meaning": "伝統、慣習",
       "example": {
@@ -3305,7 +3509,7 @@
     "history": {
       "tier": "normal",
       "surface": "history",
-      "pos": "noun · A2",
+      "pos": "n · A2",
       "pron": "/ˈhɪs.tər.i/",
       "meaning": "歴史、経緯",
       "example": {
@@ -3341,7 +3545,7 @@
     "performance": {
       "tier": "normal",
       "surface": "performances",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/pərˈfɔːr.məns/",
       "meaning": "公演、パフォーマンス、成績",
       "example": {
@@ -3359,7 +3563,7 @@
     "entertainment": {
       "tier": "frequent",
       "surface": "entertainment",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˌen.tərˈteɪn.mənt/",
       "meaning": "娯楽、エンターテインメント",
       "example": {
@@ -3395,7 +3599,7 @@
     "banquet": {
       "tier": "key",
       "surface": "banquets",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈbæŋ.kwɪt/",
       "meaning": "宴会、饗宴",
       "example": {
@@ -3413,7 +3617,7 @@
     "summon": {
       "tier": "key",
       "surface": "summoned",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ˈsʌm.ən/",
       "meaning": "召喚する、呼び出す",
       "example": {
@@ -3431,7 +3635,7 @@
     "demonstration": {
       "tier": "frequent",
       "surface": "demonstration",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌdem.ənˈstreɪ.ʃən/",
       "meaning": "実演、示威、証明",
       "example": {
@@ -3449,7 +3653,7 @@
     "influence": {
       "tier": "frequent",
       "surface": "influence",
-      "pos": "noun/verb · B1",
+      "pos": "n/v · B1",
       "pron": "/ˈɪn.flu.əns/",
       "meaning": "影響力、影響を与える",
       "example": {
@@ -3484,7 +3688,7 @@
     "punch": {
       "tier": "normal",
       "surface": "punch",
-      "pos": "verb/noun · B1",
+      "pos": "v/n · B1",
       "pron": "/pʌntʃ/",
       "meaning": "殴る、パンチ",
       "example": {
@@ -3502,7 +3706,7 @@
     "scratch": {
       "tier": "normal",
       "surface": "scratch",
-      "pos": "verb/noun · B1",
+      "pos": "v/n · B1",
       "pron": "/skrætʃ/",
       "meaning": "引っ掻く、こする",
       "example": {
@@ -3519,7 +3723,7 @@
     "grab": {
       "tier": "normal",
       "surface": "grab",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/ɡræb/",
       "meaning": "掴む、奪い取る",
       "example": {
@@ -3537,7 +3741,7 @@
     "opponent": {
       "tier": "normal",
       "surface": "opponents",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/əˈpoʊ.nənt/",
       "meaning": "対戦相手、反対者",
       "example": {
@@ -3554,7 +3758,7 @@
     "victory": {
       "tier": "normal",
       "surface": "victory",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈvɪk.tər.i/",
       "meaning": "勝利",
       "example": {
@@ -3589,7 +3793,7 @@
     "grappling": {
       "tier": "key",
       "surface": "grappling",
-      "pos": "noun/verb · C1",
+      "pos": "n/v · C1",
       "pron": "/ˈɡræp.lɪŋ/",
       "meaning": "組み技、組み付き / 取り組む",
       "example": {
@@ -3607,7 +3811,7 @@
     "tripping": {
       "tier": "normal",
       "surface": "tripping",
-      "pos": "noun/verb · B1",
+      "pos": "n/v · B1",
       "pron": "/ˈtrɪp.ɪŋ/",
       "meaning": "足払い、躓き",
       "example": {
@@ -3624,7 +3828,7 @@
     "shift": {
       "tier": "frequent",
       "surface": "shifted",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ʃɪft/",
       "meaning": "移行する、シフトする",
       "example": {
@@ -3642,7 +3846,7 @@
     "hired": {
       "tier": "normal",
       "surface": "hired",
-      "pos": "adj/verb · B1",
+      "pos": "adj/v · B1",
       "pron": "/haɪrd/",
       "meaning": "雇われた、傭兵の",
       "example": {
@@ -3677,7 +3881,7 @@
     "bout": {
       "tier": "key",
       "surface": "bouts",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/baʊt/",
       "meaning": "取り組み、一戦、発作",
       "example": {
@@ -3713,7 +3917,7 @@
     "spectacle": {
       "tier": "key",
       "surface": "spectacle",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈspek.tə.kəl/",
       "meaning": "見世物、壮観、派手なイベント",
       "example": {
@@ -3749,7 +3953,7 @@
     "shrine": {
       "tier": "normal",
       "surface": "Shrines",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ʃraɪn/",
       "meaning": "神社、聖地",
       "example": {
@@ -3767,7 +3971,7 @@
     "fundraising": {
       "tier": "normal",
       "surface": "fundraising",
-      "pos": "noun/adj · B1",
+      "pos": "n/adj · B1",
       "pron": "/ˈfʌnd.reɪ.zɪŋ/",
       "meaning": "資金調達",
       "example": {
@@ -3785,7 +3989,7 @@
     "construction": {
       "tier": "normal",
       "surface": "construction",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/kənˈstrʌk.ʃən/",
       "meaning": "建設、工事",
       "example": {
@@ -3821,7 +4025,7 @@
     "promoter": {
       "tier": "normal",
       "surface": "promoters",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/prəˈmoʊ.tər/",
       "meaning": "プロモーター、主催者、推進者",
       "example": {
@@ -3839,7 +4043,7 @@
     "enlist": {
       "tier": "key",
       "surface": "enlist",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ɪnˈlɪst/",
       "meaning": "勧誘する、入隊させる、(支援を)取り付ける",
       "example": {
@@ -3857,7 +4061,7 @@
     "steady": {
       "tier": "normal",
       "surface": "steady",
-      "pos": "adj/verb · B1",
+      "pos": "adj/v · B1",
       "pron": "/ˈsted.i/",
       "meaning": "安定した、着実な",
       "example": {
@@ -3875,7 +4079,7 @@
     "employment": {
       "tier": "frequent",
       "surface": "employment",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ɪmˈplɔɪ.mənt/",
       "meaning": "雇用、就業",
       "example": {
@@ -3946,7 +4150,7 @@
     "passersby": {
       "tier": "key",
       "surface": "passersby",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌpæs.ərzˈbaɪ/",
       "meaning": "通りすがりの人々",
       "example": {
@@ -3963,7 +4167,7 @@
     "organization": {
       "tier": "frequent",
       "surface": "organization",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˌɔːr.ɡən.ɪˈzeɪ.ʃən/",
       "meaning": "組織、組織化、秩序",
       "example": {
@@ -3980,7 +4184,7 @@
     "participant": {
       "tier": "frequent",
       "surface": "participants",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/pɑːrˈtɪs.ɪ.pənt/",
       "meaning": "参加者",
       "example": {
@@ -3998,7 +4202,7 @@
     "spectator": {
       "tier": "normal",
       "surface": "spectators",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/spekˈteɪ.tər/",
       "meaning": "観客、見物人",
       "example": {
@@ -4015,7 +4219,7 @@
     "authority": {
       "tier": "frequent",
       "surface": "authorities",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/əˈθɔːr.ɪ.ti/",
       "meaning": "権力、当局、権威",
       "example": {
@@ -4050,7 +4254,7 @@
     "organizer": {
       "tier": "normal",
       "surface": "organizers",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈɔːr.ɡə.naɪ.zər/",
       "meaning": "主催者、まとめ役",
       "example": {
@@ -4067,7 +4271,7 @@
     "overcome": {
       "tier": "frequent",
       "surface": "overcome",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ˌoʊ.vərˈkʌm/",
       "meaning": "克服する、打ち勝つ",
       "example": {
@@ -4085,7 +4289,7 @@
     "establish": {
       "tier": "frequent",
       "surface": "established",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ɪˈstæb.lɪʃ/",
       "meaning": "確立する、設立する、設ける",
       "example": {
@@ -4103,7 +4307,7 @@
     "boundary": {
       "tier": "key",
       "surface": "boundary",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈbaʊn.dri/",
       "meaning": "境界線、限界",
       "example": {
@@ -4121,7 +4325,7 @@
     "morph": {
       "tier": "key",
       "surface": "morphed",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/mɔːrft/",
       "meaning": "変容する、変化する",
       "example": {
@@ -4157,7 +4361,7 @@
     "innovation": {
       "tier": "frequent",
       "surface": "innovation",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˌɪn.əˈveɪ.ʃən/",
       "meaning": "革新、イノベーション",
       "example": {
@@ -4175,7 +4379,7 @@
     "advantage": {
       "tier": "frequent",
       "surface": "advantage",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ədˈvæn.tɪdʒ/",
       "meaning": "優位性、利点",
       "example": {
@@ -4193,7 +4397,7 @@
     "topple": {
       "tier": "key",
       "surface": "topple",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ˈtɒp.əl/",
       "meaning": "倒す、転倒させる",
       "example": {
@@ -4229,7 +4433,7 @@
     "ritual": {
       "tier": "key",
       "surface": "rituals",
-      "pos": "noun/adj · B2",
+      "pos": "n/adj · B2",
       "pron": "/ˈrɪtʃ.u.əl/",
       "meaning": "儀式、慣例行事",
       "example": {
@@ -4247,7 +4451,7 @@
     "rinse": {
       "tier": "normal",
       "surface": "rinsed",
-      "pos": "verb · B1",
+      "pos": "v · B1",
       "pron": "/rɪnst/",
       "meaning": "すすぐ、洗い流す",
       "example": {
@@ -4265,7 +4469,7 @@
     "evoke": {
       "tier": "key",
       "surface": "evoked",
-      "pos": "verb · C1",
+      "pos": "v · C1",
       "pron": "/ɪˈvoʊkt/",
       "meaning": "呼び起こす、想起させる",
       "example": {
@@ -4283,7 +4487,7 @@
     "ceremony": {
       "tier": "normal",
       "surface": "ceremonies",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈser.ɪ.moʊ.ni/",
       "meaning": "式典、儀式",
       "example": {
@@ -4301,7 +4505,7 @@
     "imbue": {
       "tier": "key",
       "surface": "imbued",
-      "pos": "verb · C2",
+      "pos": "v · C2",
       "pron": "/ɪmˈbjuːd/",
       "meaning": "吹き込む、染み込ませる",
       "example": {
@@ -4337,7 +4541,7 @@
     "legitimacy": {
       "tier": "key",
       "surface": "legitimacy",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/lɪˈdʒɪt.ɪ.mə.si/",
       "meaning": "正当性、合法性",
       "example": {
@@ -4373,7 +4577,7 @@
     "emerge": {
       "tier": "key",
       "surface": "emerged",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ɪˈmɜːrdʒd/",
       "meaning": "現れる、出現する、浮かび上がる",
       "example": {
@@ -4409,7 +4613,7 @@
     "troupe": {
       "tier": "key",
       "surface": "troupe",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/truːp/",
       "meaning": "一座、劇団、(演者の)グループ",
       "example": {
@@ -4445,7 +4649,7 @@
     "shogunate": {
       "tier": "key",
       "surface": "shogunate",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/ˈʃoʊ.ɡʌ.nɪt/",
       "meaning": "幕府",
       "example": {
@@ -4463,7 +4667,7 @@
     "overthrow": {
       "tier": "key",
       "surface": "overthrown",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ˌoʊ.vərˈθroʊn/",
       "meaning": "打倒する、覆す",
       "example": {
@@ -4480,7 +4684,7 @@
     "relic": {
       "tier": "key",
       "surface": "relic",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈrel.ɪk/",
       "meaning": "遺物、時代遅れのもの",
       "example": {
@@ -4516,7 +4720,7 @@
     "remake": {
       "tier": "key",
       "surface": "remade",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/ˌriːˈmeɪd/",
       "meaning": "作り直す、再生する",
       "example": {
@@ -4534,7 +4738,7 @@
     "era": {
       "tier": "key",
       "surface": "era",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈɪr.ə/",
       "meaning": "時代、年代",
       "example": {
@@ -4552,7 +4756,7 @@
     "tournament": {
       "tier": "normal",
       "surface": "tournaments",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/ˈtʊər.nə.mənt/",
       "meaning": "トーナメント、大会",
       "example": {
@@ -4570,7 +4774,7 @@
     "broadcast": {
       "tier": "key",
       "surface": "broadcast",
-      "pos": "verb/noun · B1",
+      "pos": "v/n · B1",
       "pron": "/ˈbrɔːd.kæst/",
       "meaning": "放送する、中継する",
       "example": {
@@ -4588,7 +4792,7 @@
     "sustain": {
       "tier": "key",
       "surface": "sustained",
-      "pos": "verb · B2",
+      "pos": "v · B2",
       "pron": "/səˈsteɪnd/",
       "meaning": "維持する、持続させる",
       "example": {
@@ -4606,7 +4810,7 @@
     "status": {
       "tier": "frequent",
       "surface": "status",
-      "pos": "noun · B2",
+      "pos": "n · B2",
       "pron": "/ˈsteɪ.təs/",
       "meaning": "地位、状態、ステータス",
       "example": {
@@ -4643,7 +4847,7 @@
     "display": {
       "tier": "normal",
       "surface": "display",
-      "pos": "noun/verb · B1",
+      "pos": "n/v · B1",
       "pron": "/dɪˈspleɪ/",
       "meaning": "展示、示威 / 見せる",
       "example": {
@@ -4661,7 +4865,7 @@
     "ode": {
       "tier": "key",
       "surface": "ode",
-      "pos": "noun · C1",
+      "pos": "n · C1",
       "pron": "/oʊd/",
       "meaning": "頌歌(しょうか)、賛歌",
       "example": {
@@ -4679,7 +4883,7 @@
     "function": {
       "tier": "frequent",
       "surface": "function",
-      "pos": "noun/verb · B1",
+      "pos": "n/v · B1",
       "pron": "/ˈfʌŋk.ʃən/",
       "meaning": "機能、役割 / 機能する",
       "example": {
@@ -4697,7 +4901,7 @@
     "division": {
       "tier": "normal",
       "surface": "division",
-      "pos": "noun · B1",
+      "pos": "n · B1",
       "pron": "/dɪˈvɪʒ.ən/",
       "meaning": "部門、部類、区分",
       "example": {
@@ -4729,6 +4933,201 @@
         "barely enough",
         "barely noticeable"
       ]
+    },
+    "emperor": {
+      "tier": "normal",
+      "surface": "emperor",
+      "pos": "n · B1",
+      "pron": "/ˈem.pər.ər/",
+      "meaning": "皇帝、天皇",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "techniques": {
+      "tier": "normal",
+      "surface": "techniques",
+      "pos": "n · B1",
+      "pron": "/tekˈniːks/",
+      "meaning": "技術、技法、技",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "soldiers": {
+      "tier": "normal",
+      "surface": "soldiers",
+      "pos": "n · A2",
+      "pron": "/ˈsoʊl.dʒərz/",
+      "meaning": "兵士、軍人",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "leaders": {
+      "tier": "normal",
+      "surface": "leaders",
+      "pos": "n · A2",
+      "pron": "/ˈliː.dərz/",
+      "meaning": "指導者、リーダー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "exercise": {
+      "tier": "normal",
+      "surface": "exercise",
+      "pos": "n · A2",
+      "pron": "/ˈek.sər.saɪz/",
+      "meaning": "運動、訓練、練習",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "conditions": {
+      "tier": "normal",
+      "surface": "conditions",
+      "pos": "n · B1",
+      "pron": "/kənˈdɪʃ.ənz/",
+      "meaning": "条件、状況、環境",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "attract": {
+      "tier": "normal",
+      "surface": "attract",
+      "pos": "v · B1",
+      "pron": "/əˈtrækt/",
+      "meaning": "引き寄せる、魅了する",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "donations": {
+      "tier": "normal",
+      "surface": "donations",
+      "pos": "n · B1",
+      "pron": "/doʊˈneɪ.ʃənz/",
+      "meaning": "寄付、寄付金",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "injuries": {
+      "tier": "normal",
+      "surface": "injuries",
+      "pos": "n · B1",
+      "pron": "/ˈɪn.dʒər.iz/",
+      "meaning": "負傷、けが",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "separate": {
+      "tier": "normal",
+      "surface": "separate",
+      "pos": "v · B1",
+      "pron": "/ˈsep.ə.reɪt/",
+      "meaning": "分ける、隔てる",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "standard": {
+      "tier": "normal",
+      "surface": "standard",
+      "pos": "adj/n · B1",
+      "pron": "/ˈstæn.dərd/",
+      "meaning": "標準的な、基準",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "outlined": {
+      "tier": "key",
+      "surface": "outlined",
+      "pos": "v · B2",
+      "pron": "/ˈaʊt.laɪnd/",
+      "meaning": "輪郭を示す、概略を定める",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "religious": {
+      "tier": "normal",
+      "surface": "religious",
+      "pos": "adj · B1",
+      "pron": "/rɪˈlɪdʒ.əs/",
+      "meaning": "宗教の、信心深い",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "technology": {
+      "tier": "normal",
+      "surface": "technology",
+      "pos": "n · A2",
+      "pron": "/tekˈnɒl.ə.dʒi/",
+      "meaning": "科学技術、テクノロジー",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
+    },
+    "strength": {
+      "tier": "normal",
+      "surface": "strength",
+      "pos": "n · B1",
+      "pron": "/streŋθ/",
+      "meaning": "力、強さ",
+      "example": {
+        "en": "",
+        "ja": ""
+      },
+      "context": "",
+      "collocations": []
     }
   },
   "expressions": {
