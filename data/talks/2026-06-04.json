@@ -1156,12 +1156,17 @@
             },
             {
               "id": "t13",
+              "type": "skip",
+              "surface": " "
+            },
+            {
+              "id": "t14",
               "type": "expression",
               "surface": "drug-like",
               "ref": "drug_like"
             },
             {
-              "id": "t14",
+              "id": "t15",
               "type": "skip",
               "surface": " response."
             }
@@ -1763,21 +1768,21 @@
           ],
           "tokens": [
             {
+              "id": "t1",
               "type": "skip",
-              "surface": "To test this, ",
-              "id": "t1"
+              "surface": "To test this, "
             },
             {
+              "id": "t2",
               "type": "word",
               "surface": "researchers",
               "ref": "researchers",
-              "tier": "normal",
-              "id": "t2"
+              "tier": "normal"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " ",
-              "id": "t3"
+              "surface": " "
             },
             {
               "id": "t4",
@@ -1800,18 +1805,7 @@
             {
               "id": "t7",
               "type": "skip",
-              "surface": " that cats could "
-            },
-            {
-              "id": "t8",
-              "type": "expression",
-              "surface": "stick … into",
-              "ref": "stick_into"
-            },
-            {
-              "id": "t9",
-              "type": "skip",
-              "surface": " their heads into."
+              "surface": " that cats could stick their heads into."
             }
           ]
         },

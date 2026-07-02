@@ -1356,21 +1356,21 @@
               "ref": "all_manner_of"
             },
             {
+              "id": "t13",
               "type": "skip",
-              "surface": " ",
-              "id": "t13"
+              "surface": " "
             },
             {
+              "id": "t14",
               "type": "word",
               "surface": "German",
               "ref": "german",
-              "tier": "basic",
-              "id": "t14"
+              "tier": "basic"
             },
             {
+              "id": "t15",
               "type": "skip",
-              "surface": " ",
-              "id": "t15"
+              "surface": " "
             },
             {
               "id": "t16",
@@ -1442,7 +1442,7 @@
             {
               "id": "t27",
               "type": "skip",
-              "surface": "\"."
+              "surface": ".\""
             }
           ]
         },
@@ -1921,7 +1921,7 @@
             {
               "id": "t15",
               "type": "skip",
-              "surface": ", and "
+              "surface": ", and magic "
             },
             {
               "id": "t16",
@@ -1930,21 +1930,21 @@
               "ref": "fairy_tales"
             },
             {
+              "id": "t17",
               "type": "skip",
-              "surface": ", from ",
-              "id": "t17"
+              "surface": ", from "
             },
             {
+              "id": "t18",
               "type": "word",
               "surface": "books",
               "ref": "books",
-              "tier": "basic",
-              "id": "t18"
+              "tier": "basic"
             },
             {
+              "id": "t19",
               "type": "skip",
-              "surface": " and ",
-              "id": "t19"
+              "surface": " and "
             },
             {
               "id": "t20",
@@ -1954,21 +1954,21 @@
               "tier": "normal"
             },
             {
+              "id": "t21",
               "type": "skip",
-              "surface": " young ",
-              "id": "t21"
+              "surface": " young "
             },
             {
+              "id": "t22",
               "type": "word",
               "surface": "women",
               "ref": "women",
-              "tier": "basic",
-              "id": "t22"
+              "tier": "basic"
             },
             {
+              "id": "t23",
               "type": "skip",
-              "surface": ", ",
-              "id": "t23"
+              "surface": ", "
             },
             {
               "id": "t24",
@@ -2001,21 +2001,21 @@
               "tier": "basic"
             },
             {
+              "id": "t29",
               "type": "skip",
-              "surface": ", though they probably ",
-              "id": "t29"
+              "surface": ", though they probably "
             },
             {
+              "id": "t30",
               "type": "word",
               "surface": "collected",
               "ref": "collected",
-              "tier": "normal",
-              "id": "t30"
+              "tier": "normal"
             },
             {
+              "id": "t31",
               "type": "skip",
-              "surface": " the most from the wife of a ",
-              "id": "t31"
+              "surface": " the most from the wife of a "
             },
             {
               "id": "t32",

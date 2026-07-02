@@ -334,27 +334,16 @@
             {
               "id": "t14",
               "type": "skip",
-              "surface": " "
+              "surface": " only for the husks to "
             },
             {
               "id": "t15",
-              "type": "expression",
-              "surface": "only for … to",
-              "ref": "only_for_to"
-            },
-            {
-              "id": "t16",
-              "type": "skip",
-              "surface": " the husks to "
-            },
-            {
-              "id": "t17",
               "type": "expression",
               "surface": "float away",
               "ref": "float_away"
             },
             {
-              "id": "t18",
+              "id": "t16",
               "type": "skip",
               "surface": "."
             }

@@ -184,30 +184,19 @@
             {
               "id": "t1",
               "type": "skip",
-              "surface": "But she had an idea she hoped would "
+              "surface": "But she had an idea she hoped would turn her "
             },
             {
               "id": "t2",
-              "type": "expression",
-              "surface": "turn … around",
-              "ref": "turn_around"
-            },
-            {
-              "id": "t3",
-              "type": "skip",
-              "surface": " her "
-            },
-            {
-              "id": "t4",
               "type": "word",
               "surface": "fortunes",
               "ref": "fortunes",
               "tier": "normal"
             },
             {
-              "id": "t5",
+              "id": "t3",
               "type": "skip",
-              "surface": "."
+              "surface": " around."
             }
           ]
         },
@@ -352,75 +341,64 @@
             {
               "id": "t1",
               "type": "skip",
-              "surface": "So, she "
+              "surface": "So, she poured the little money she had left into building a "
             },
             {
               "id": "t2",
-              "type": "expression",
-              "surface": "poured … into",
-              "ref": "pour_into"
-            },
-            {
-              "id": "t3",
-              "type": "skip",
-              "surface": " the little money she had left into building a "
-            },
-            {
-              "id": "t4",
               "type": "word",
               "surface": "prototype",
               "ref": "prototype",
               "tier": "normal"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": ", ",
-              "id": "t5"
+              "surface": ", "
             },
             {
+              "id": "t4",
               "type": "word",
               "surface": "eventually",
               "ref": "eventually",
-              "tier": "normal",
-              "id": "t6"
+              "tier": "normal"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " ",
-              "id": "t7"
+              "surface": " "
             },
             {
-              "id": "t8",
+              "id": "t6",
               "type": "word",
               "surface": "showcasing",
               "ref": "showcasing",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t7",
               "type": "skip",
               "surface": " her dishwashing "
             },
             {
-              "id": "t10",
+              "id": "t8",
               "type": "word",
               "surface": "contraption",
               "ref": "contraption",
               "tier": "key"
             },
             {
-              "id": "t11",
+              "id": "t9",
               "type": "skip",
               "surface": " at the "
             },
             {
-              "id": "t12",
+              "id": "t10",
               "type": "expression",
               "surface": "Chicago World's Fair",
               "ref": "chicago_worlds_fair"
             },
             {
-              "id": "t13",
+              "id": "t11",
               "type": "skip",
               "surface": "."
             }
@@ -2776,32 +2754,21 @@
           ],
           "tokens": [
             {
+              "id": "t1",
               "type": "skip",
-              "surface": "So if you think handwashing your dishes might take ",
-              "id": "t1"
+              "surface": "So if you think handwashing your dishes might take "
             },
             {
+              "id": "t2",
               "type": "word",
               "surface": "longer",
               "ref": "longer",
-              "tier": "normal",
-              "id": "t2"
+              "tier": "normal"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " than that, it might be ",
-              "id": "t3"
-            },
-            {
-              "id": "t4",
-              "type": "expression",
-              "surface": "worth doing",
-              "ref": "worth_doing"
-            },
-            {
-              "id": "t5",
-              "type": "skip",
-              "surface": " just running a load."
+              "surface": " than that, it might be worth just running a load."
             }
           ]
         }

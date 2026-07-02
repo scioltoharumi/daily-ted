@@ -2026,38 +2026,32 @@
           "tokens": [
             {
               "id": "t1",
-              "surface": "This boundary took many forms, but over the 17th century it ",
-              "type": "skip"
+              "type": "skip",
+              "surface": "This boundary took many forms, but over the 17th century it "
             },
             {
               "id": "t2",
-              "surface": "morphed",
               "type": "word",
-              "tier": "key",
-              "ref": "morph"
+              "surface": "morphed",
+              "ref": "morph",
+              "tier": "key"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " into a ",
-              "id": "t3"
+              "surface": " into a "
             },
             {
+              "id": "t4",
               "type": "word",
               "surface": "standard",
               "ref": "standard",
-              "tier": "normal",
-              "id": "t4"
+              "tier": "normal"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " ring called the ",
-              "id": "t5"
-            },
-            {
-              "id": "t6",
-              "surface": "dohyō",
-              "type": "foreign",
-              "ref": "dohyo"
+              "surface": " ring called the dohȳō."
             }
           ]
         },
@@ -2081,56 +2075,45 @@
           ],
           "tokens": [
             {
+              "id": "t1",
               "type": "skip",
-              "surface": "This ring ",
-              "id": "t1"
+              "surface": "This ring "
             },
             {
+              "id": "t2",
               "type": "word",
               "surface": "outlined",
               "ref": "outlined",
-              "tier": "key",
-              "id": "t2"
+              "tier": "key"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " the field of play, introducing a ",
-              "id": "t3"
+              "surface": " the field of play, introducing a "
             },
             {
               "id": "t4",
-              "surface": "pivotal",
               "type": "word",
-              "tier": "key",
-              "ref": "pivotal"
+              "surface": "pivotal",
+              "ref": "pivotal",
+              "tier": "key"
             },
             {
               "id": "t5",
-              "surface": " new rule: now matches could also be won by pushing one’s ",
-              "type": "skip"
+              "type": "skip",
+              "surface": " new rule: now matches could also be won by pushing one’s "
             },
             {
               "id": "t6",
-              "surface": "opponent",
               "type": "word",
-              "tier": "normal",
-              "ref": "opponent"
+              "surface": "opponent",
+              "ref": "opponent",
+              "tier": "normal"
             },
             {
               "id": "t7",
-              "surface": " out of the ",
-              "type": "skip"
-            },
-            {
-              "id": "t8",
-              "surface": "dohyō",
-              "type": "foreign",
-              "ref": "dohyo"
-            },
-            {
-              "id": "t9",
-              "surface": ".",
-              "type": "skip"
+              "type": "skip",
+              "surface": " out of the dohȳō."
             }
           ]
         },

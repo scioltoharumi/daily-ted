@@ -1275,21 +1275,21 @@
               "tier": "normal"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " it ",
-              "id": "t5"
+              "surface": " it "
             },
             {
+              "id": "t6",
               "type": "word",
               "surface": "presented",
               "ref": "presented",
-              "tier": "normal",
-              "id": "t6"
+              "tier": "normal"
             },
             {
+              "id": "t7",
               "type": "skip",
-              "surface": " the idea as a ",
-              "id": "t7"
+              "surface": " the idea as a "
             },
             {
               "id": "t8",
@@ -1325,52 +1325,41 @@
             {
               "id": "t13",
               "type": "skip",
-              "surface": " writers "
+              "surface": " writers turned their "
             },
             {
               "id": "t14",
-              "type": "expression",
-              "surface": "turned … into",
-              "ref": "turn_into"
-            },
-            {
-              "type": "skip",
-              "surface": " their ",
-              "id": "t15"
-            },
-            {
               "type": "word",
               "surface": "suggestion",
               "ref": "suggestion",
-              "tier": "normal",
-              "id": "t16"
+              "tier": "normal"
             },
             {
+              "id": "t15",
               "type": "skip",
-              "surface": " into a ",
-              "id": "t17"
+              "surface": " into a "
             },
             {
-              "id": "t18",
+              "id": "t16",
               "type": "word",
               "surface": "hard",
               "ref": "hard",
               "tier": "basic"
             },
             {
-              "id": "t19",
+              "id": "t17",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t20",
+              "id": "t18",
               "type": "word",
               "surface": "rule",
               "ref": "rule",
               "tier": "basic"
             },
             {
-              "id": "t21",
+              "id": "t19",
               "type": "skip",
               "surface": "."
             }
@@ -1633,13 +1622,13 @@
             {
               "id": "t3",
               "type": "skip",
-              "surface": ", but people today "
+              "surface": ", but people today wage similar wars on "
             },
             {
               "id": "t4",
               "type": "expression",
-              "surface": "wage wars on",
-              "ref": "wage_war_on"
+              "surface": "so-called",
+              "ref": "so_called"
             },
             {
               "id": "t5",
@@ -1648,38 +1637,27 @@
             },
             {
               "id": "t6",
-              "type": "expression",
-              "surface": "so-called",
-              "ref": "so_called"
-            },
-            {
-              "type": "skip",
-              "surface": " ",
-              "id": "t7"
-            },
-            {
               "type": "word",
               "surface": "lesser",
               "ref": "lesser",
-              "tier": "normal",
-              "id": "t8"
+              "tier": "normal"
             },
             {
+              "id": "t7",
               "type": "skip",
-              "surface": " language, such as \"like\" or \"",
-              "id": "t9"
+              "surface": " language, such as \"like\" or \""
             },
             {
+              "id": "t8",
               "type": "word",
               "surface": "literally",
               "ref": "literally",
-              "tier": "normal",
-              "id": "t10"
+              "tier": "normal"
             },
             {
+              "id": "t9",
               "type": "skip",
-              "surface": ".\"",
-              "id": "t11"
+              "surface": ".\""
             }
           ]
         },

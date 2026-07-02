@@ -651,88 +651,77 @@
             {
               "id": "t5",
               "type": "skip",
-              "surface": " it "
+              "surface": " it both the "
             },
             {
               "id": "t6",
-              "type": "expression",
-              "surface": "both … and",
-              "ref": "both_and"
-            },
-            {
-              "id": "t7",
-              "type": "skip",
-              "surface": " the "
-            },
-            {
-              "id": "t8",
               "type": "word",
               "surface": "perfect",
               "ref": "perfect",
               "tier": "basic"
             },
             {
-              "id": "t9",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t8",
               "type": "word",
               "surface": "spot",
               "ref": "spot",
               "tier": "normal"
             },
             {
-              "id": "t11",
+              "id": "t9",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t12",
+              "id": "t10",
               "type": "word",
               "surface": "hide",
               "ref": "hide",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t11",
               "type": "skip",
               "surface": " and a very "
             },
             {
-              "id": "t14",
+              "id": "t12",
               "type": "word",
               "surface": "unstable",
               "ref": "unstable",
               "tier": "key"
             },
             {
-              "id": "t15",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t14",
               "type": "word",
               "surface": "place",
               "ref": "place",
               "tier": "basic"
             },
             {
-              "id": "t17",
+              "id": "t15",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t18",
+              "id": "t16",
               "type": "word",
               "surface": "live",
               "ref": "live",
               "tier": "basic"
             },
             {
-              "id": "t19",
+              "id": "t17",
               "type": "skip",
               "surface": "."
             }

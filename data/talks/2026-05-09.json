@@ -254,21 +254,21 @@
               "tier": "frequent"
             },
             {
+              "id": "t11",
               "type": "skip",
-              "surface": " four ",
-              "id": "t11"
+              "surface": " four "
             },
             {
+              "id": "t12",
               "type": "word",
               "surface": "kilometers",
               "ref": "kilometers",
-              "tier": "normal",
-              "id": "t12"
+              "tier": "normal"
             },
             {
+              "id": "t13",
               "type": "skip",
-              "surface": " ",
-              "id": "t13"
+              "surface": " "
             },
             {
               "id": "t14",
@@ -304,18 +304,7 @@
             {
               "id": "t19",
               "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t20",
-              "type": "expression",
-              "surface": "lava fountains",
-              "ref": "lava_fountain"
-            },
-            {
-              "id": "t21",
-              "type": "skip",
-              "surface": " 100 meters tall."
+              "surface": " fountains 100 meters tall."
             }
           ]
         },
@@ -455,65 +444,54 @@
           ],
           "tokens": [
             {
+              "id": "t1",
               "type": "skip",
-              "surface": "But ",
-              "id": "t1"
+              "surface": "But "
             },
             {
+              "id": "t2",
               "type": "word",
               "surface": "Iceland",
               "ref": "iceland",
-              "tier": "basic",
-              "id": "t2"
+              "tier": "basic"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " ",
-              "id": "t3"
+              "surface": " wasn’t willing to "
             },
             {
               "id": "t4",
-              "type": "expression",
-              "surface": "wasn't willing to",
-              "ref": "willing_to"
-            },
-            {
-              "id": "t5",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t6",
               "type": "word",
               "surface": "leave",
               "ref": "leave",
               "tier": "frequent"
             },
             {
-              "id": "t7",
+              "id": "t5",
               "type": "skip",
-              "surface": " Grindavik's "
+              "surface": " Grindavik’s "
             },
             {
-              "id": "t8",
+              "id": "t6",
               "type": "word",
               "surface": "fate",
               "ref": "fate",
               "tier": "frequent"
             },
             {
-              "id": "t9",
+              "id": "t7",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t10",
+              "id": "t8",
               "type": "expression",
               "surface": "to chance",
               "ref": "to_chance"
             },
             {
-              "id": "t11",
+              "id": "t9",
               "type": "skip",
               "surface": " again."
             }
@@ -705,51 +683,29 @@
             {
               "id": "t4",
               "type": "skip",
-              "surface": " "
+              "surface": " flow is about as "
             },
             {
               "id": "t5",
-              "type": "expression",
-              "surface": "lava flow",
-              "ref": "lava_flow"
-            },
-            {
-              "id": "t6",
-              "type": "skip",
-              "surface": " is "
-            },
-            {
-              "id": "t7",
-              "type": "expression",
-              "surface": "about as ... as",
-              "ref": "about_as_as"
-            },
-            {
-              "id": "t8",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t9",
               "type": "word",
               "surface": "difficult",
               "ref": "difficult",
               "tier": "frequent"
             },
             {
-              "id": "t10",
+              "id": "t6",
               "type": "skip",
               "surface": " as it "
             },
             {
-              "id": "t11",
+              "id": "t7",
               "type": "word",
               "surface": "sounds",
               "ref": "sounds",
               "tier": "frequent"
             },
             {
-              "id": "t12",
+              "id": "t8",
               "type": "skip",
               "surface": "."
             }
@@ -2690,33 +2646,33 @@
               "ref": "due_to"
             },
             {
+              "id": "t2",
               "type": "skip",
-              "surface": " ",
-              "id": "t2"
+              "surface": " "
             },
             {
+              "id": "t3",
               "type": "word",
               "surface": "lava",
               "ref": "lava",
-              "tier": "key",
-              "id": "t3"
+              "tier": "key"
             },
             {
+              "id": "t4",
               "type": "skip",
-              "surface": "'s low ",
-              "id": "t4"
+              "surface": "’s low "
             },
             {
+              "id": "t5",
               "type": "word",
               "surface": "heat",
               "ref": "heat",
-              "tier": "frequent",
-              "id": "t5"
+              "tier": "frequent"
             },
             {
+              "id": "t6",
               "type": "skip",
-              "surface": " ",
-              "id": "t6"
+              "surface": " "
             },
             {
               "id": "t7",
@@ -2752,30 +2708,19 @@
             {
               "id": "t12",
               "type": "skip",
-              "surface": " "
+              "surface": " amount of "
             },
             {
               "id": "t13",
-              "type": "expression",
-              "surface": "an amount of",
-              "ref": "amount_of"
-            },
-            {
-              "id": "t14",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t15",
               "type": "word",
               "surface": "H2O",
               "ref": "h2o",
               "tier": "key"
             },
             {
-              "id": "t16",
+              "id": "t14",
               "type": "skip",
-              "surface": ", but that didn't stop the Icelandic government in 1973."
+              "surface": ", but that didn’t stop the Icelandic government in 1973."
             }
           ]
         },
@@ -3017,7 +2962,7 @@
             {
               "id": "t1",
               "type": "skip",
-              "surface": "That's "
+              "surface": "That’s "
             },
             {
               "id": "t2",
@@ -3620,21 +3565,21 @@
               "ref": "for_example"
             },
             {
+              "id": "t2",
               "type": "skip",
-              "surface": ", when ",
-              "id": "t2"
+              "surface": ", when "
             },
             {
+              "id": "t3",
               "type": "word",
               "surface": "Italy",
               "ref": "italy",
-              "tier": "basic",
-              "id": "t3"
+              "tier": "basic"
             },
             {
+              "id": "t4",
               "type": "skip",
-              "surface": "'s ",
-              "id": "t4"
+              "surface": "’s "
             },
             {
               "id": "t5",
@@ -3644,21 +3589,21 @@
               "tier": "basic"
             },
             {
+              "id": "t6",
               "type": "skip",
-              "surface": " ",
-              "id": "t6"
+              "surface": " "
             },
             {
+              "id": "t7",
               "type": "word",
               "surface": "erupted",
               "ref": "erupted",
-              "tier": "key",
-              "id": "t7"
+              "tier": "key"
             },
             {
+              "id": "t8",
               "type": "skip",
-              "surface": " in 1983, ",
-              "id": "t8"
+              "surface": " in 1983, "
             },
             {
               "id": "t9",
@@ -3668,21 +3613,21 @@
               "tier": "frequent"
             },
             {
+              "id": "t10",
               "type": "skip",
-              "surface": " used 750,000 cubic meters of ",
-              "id": "t10"
+              "surface": " used 750,000 cubic meters of "
             },
             {
+              "id": "t11",
               "type": "word",
               "surface": "material",
               "ref": "material",
-              "tier": "frequent",
-              "id": "t11"
+              "tier": "frequent"
             },
             {
+              "id": "t12",
               "type": "skip",
-              "surface": "— the ",
-              "id": "t12"
+              "surface": "— the "
             },
             {
               "id": "t13",
@@ -3716,21 +3661,21 @@
               "tier": "key"
             },
             {
+              "id": "t18",
               "type": "skip",
-              "surface": " four large ",
-              "id": "t18"
+              "surface": " four large "
             },
             {
+              "id": "t19",
               "type": "word",
               "surface": "barriers",
               "ref": "barriers",
-              "tier": "frequent",
-              "id": "t19"
+              "tier": "frequent"
             },
             {
+              "id": "t20",
               "type": "skip",
-              "surface": ".",
-              "id": "t20"
+              "surface": "."
             }
           ]
         },
@@ -4049,21 +3994,21 @@
               "tier": "frequent"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " ",
-              "id": "t5"
+              "surface": " "
             },
             {
+              "id": "t6",
               "type": "word",
               "surface": "regions",
               "ref": "regions",
-              "tier": "frequent",
-              "id": "t6"
+              "tier": "frequent"
             },
             {
+              "id": "t7",
               "type": "skip",
-              "surface": " to ",
-              "id": "t7"
+              "surface": " to "
             },
             {
               "id": "t8",
@@ -4072,53 +4017,42 @@
               "ref": "build_up"
             },
             {
+              "id": "t9",
               "type": "skip",
-              "surface": " ",
-              "id": "t9"
+              "surface": " "
             },
             {
+              "id": "t10",
               "type": "word",
               "surface": "defenses",
               "ref": "defenses",
-              "tier": "frequent",
-              "id": "t10"
+              "tier": "frequent"
             },
             {
+              "id": "t11",
               "type": "skip",
-              "surface": " ",
-              "id": "t11"
+              "surface": " between "
             },
             {
               "id": "t12",
-              "type": "expression",
-              "surface": "between A instead of B",
-              "ref": "between_instead_of"
-            },
-            {
-              "type": "skip",
-              "surface": " ",
-              "id": "t13"
-            },
-            {
               "type": "word",
               "surface": "flows",
               "ref": "flows",
-              "tier": "key",
-              "id": "t14"
+              "tier": "key"
             },
             {
+              "id": "t13",
               "type": "skip",
-              "surface": " ",
-              "id": "t15"
+              "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t14",
               "type": "expression",
               "surface": "instead of",
               "ref": "instead_of"
             },
             {
-              "id": "t17",
+              "id": "t15",
               "type": "skip",
               "surface": " during them."
             }
@@ -4182,33 +4116,33 @@
               "tier": "frequent"
             },
             {
+              "id": "t6",
               "type": "skip",
-              "surface": " where ",
-              "id": "t6"
+              "surface": " where "
             },
             {
+              "id": "t7",
               "type": "word",
               "surface": "lava",
               "ref": "lava",
-              "tier": "key",
-              "id": "t7"
+              "tier": "key"
             },
             {
+              "id": "t8",
               "type": "skip",
-              "surface": " ",
-              "id": "t8"
+              "surface": " "
             },
             {
+              "id": "t9",
               "type": "word",
               "surface": "flows",
               "ref": "flows",
-              "tier": "key",
-              "id": "t9"
+              "tier": "key"
             },
             {
+              "id": "t10",
               "type": "skip",
-              "surface": " will ",
-              "id": "t10"
+              "surface": " will "
             },
             {
               "id": "t11",
@@ -4232,7 +4166,7 @@
             {
               "id": "t14",
               "type": "skip",
-              "surface": " they'll "
+              "surface": " they’ll "
             },
             {
               "id": "t15",
@@ -4242,33 +4176,33 @@
               "tier": "frequent"
             },
             {
+              "id": "t16",
               "type": "skip",
-              "surface": ", and just how much ",
-              "id": "t16"
+              "surface": ", and just how much "
             },
             {
+              "id": "t17",
               "type": "word",
               "surface": "lava",
               "ref": "lava",
-              "tier": "key",
-              "id": "t17"
+              "tier": "key"
             },
             {
+              "id": "t18",
               "type": "skip",
-              "surface": " an ",
-              "id": "t18"
+              "surface": " an "
             },
             {
+              "id": "t19",
               "type": "word",
               "surface": "eruption",
               "ref": "eruption",
-              "tier": "key",
-              "id": "t19"
+              "tier": "key"
             },
             {
+              "id": "t20",
               "type": "skip",
-              "surface": " will ",
-              "id": "t20"
+              "surface": " will "
             },
             {
               "id": "t21",

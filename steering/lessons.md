@@ -287,3 +287,54 @@ skip 記録のみだったため、内容の再生成は不要だった。その
   は「36時間 commit なし」を見るだけで「main に反映されているか」は見ていないため、
   今回のような main 未到達は watchdog では検知できない。将来的には watchdog を
   `origin/main` の最終コミット日時ベースに変更することを検討する価値がある。
+
+---
+
+## 2026-07-02 全 talk データにコードレビュー — VERBATIM 破損33文とフロント不具合を修正
+
+**問題**: 全コードのレビュー依頼。データ整合性チェッカを書いて全 19 talk を検査した
+ところ、13 ファイル 33 文で **token.surface の連結が sentence.text を復元できない**
+状態が見つかった。フロントは transcript を token から描画するため、利用者は原文と
+異なる本文を読んでいた(プロジェクト最重要制約 VERBATIM 厳守の違反)。
+
+**原因(再発パターン)**:
+1. **不連続 expression のプレースホルダ混入**: `range from … to` / `turn … into` /
+   `about as ... as` / `both … and` のような相関構文を1つの expression トークンに
+   しようとし、間に挟まる語を `…` や `A/B` で代用 → その `…` がそのまま画面に出た。
+   token モデルは連続した surface しか表現できないため相関構文は1トークンにできない。
+2. **隣接語との surface 重複**: word `lava` の直後に expression `lava fountains` →
+   「lava lava fountains」と二重表示。
+3. **句読点(コンマ)の欠落**: skip トークンがコンマを落とし「Hangzhou, the」→
+   「Hangzhou the」。
+4. **語の脱落/語順入れ替え**: idiom の canonical 形をそのまま surface にして本文中の
+   修飾語を飲み込む(`wage similar wars` → `wage wars`)など。
+
+いずれも生成時の authoring ミスだが、**パイプラインに検証が無かったため沈黙で出荷**
+されていた(D-206 の「skip に内容語を埋めた」問題と同根の authoring 起因)。
+
+**対応**:
+- **データ修復**: 各破損文を `text` を正として再トークン化。連続して一致する
+  word/expression/foreign アノテーションは ref/tier ごと保持し、間隙は skip に復元。
+  表現不能なアノテーション20個(不連続 expression 等)は破棄。復元後 `recon == text`
+  を全件アサートで保証。
+- **再発防止(コード)**: `scripts/talk_builder.py::generate_talk` に **VERBATIM ガード**
+  を追加。token 連結が text を復元できない文があれば書き出し前に `ValueError` を送出。
+  expression の tier が仕様外(normal/frequent 以外)なら WARN。
+- **フロント堅牢化(index.html)**:
+  - expression の辞書 tier が `known`/`key` 等の仕様外値でも frequent 以外は normal
+    スタイルで必ず可視化(従来は `expr-known` 等の未定義クラスで下線が消え、
+    「下線あり=タップ可能」保証が崩れていた。該当 356 箇所)。
+  - word tier も仕様外値は basic にフォールバック。
+  - モーダルの ★(お気に入り)ボタンを inline `onclick` 属性から `addEventListener`
+    バインドに変更。従来は `sent.text` を onclick 属性へ直接埋め込んでおり、本文に
+    `"` を含む文(約30文)でボタンが壊れていた。
+
+**教訓**:
+- **token.surface の連結 == sentence.text は不可侵**。生成物は必ずこの等式で検算する
+  (talk_builder のガードが今後は自動で担保)。相関構文(from…to 等)は expression
+  トークンにせず、各構成語を個別 word/skip として置くこと。
+- スキーマ(`docs/data_schema.md`)が定める tier 値以外を生成しない。expression は
+  `normal` / `frequent` の2階層のみ。フロントは仕様外値でも壊れないようフォールバック
+  するが、データ側でも仕様を守る。
+- 動的に文字列を HTML 属性へ埋め込む箇所は `"` / `'` で壊れる。ユーザ由来でなくとも
+  本文データに引用符は普通に出るため、`addEventListener` バインドを既定にする。

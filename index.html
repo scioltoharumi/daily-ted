@@ -1381,11 +1381,15 @@ function sentenceHTML(s, talk, paraId) {
       html += tok.surface;
     } else if (tok.type === 'word') {
       // tier は token 直書き > words 辞書 > 'basic' の順でフォールバック
-      const tier = tok.tier || (talk.words && talk.words[tok.ref] || {}).tier || 'basic';
+      let tier = tok.tier || (talk.words && talk.words[tok.ref] || {}).tier || 'basic';
+      // スキーマ外 tier(想定外の値)は基礎語扱いにフォールバックし、下線を必ず出す
+      if (!['basic', 'normal', 'key', 'frequent'].includes(tier)) tier = 'basic';
       const sf = tok.surface.replace(/"/g, '&quot;');
       html += `<span class="tk tk-${tier}" data-tok data-tok-type="word" data-tok-ref="${tok.ref}" data-tok-surface="${sf}">${tok.surface}</span>`;
     } else if (tok.type === 'expression') {
-      const tier = (talk.expressions && talk.expressions[tok.ref] || {}).tier || 'normal';
+      // expression は仕様上 normal / frequent の2階層のみ。辞書側が 'known'/'key' 等の
+      // スキーマ外 tier を持つケースでも frequent 以外はすべて normal スタイルで可視化する。
+      const tier = (talk.expressions && talk.expressions[tok.ref] || {}).tier === 'frequent' ? 'frequent' : 'normal';
       const sf = tok.surface.replace(/"/g, '&quot;');
       html += `<span class="expr expr-${tier}" data-tok data-tok-type="expression" data-tok-ref="${tok.ref}" data-tok-surface="${sf}">${tok.surface}</span>`;
     } else if (tok.type === 'foreign') {
@@ -1457,7 +1461,7 @@ function openTokenModal(talkId, ref, type, surface) {
     <div class="modal-tier">${e.tier === 'frequent' ? '★ ' : ''}${type} · ${e.tier}</div>
     <div class="modal-surface-row">
       <div class="modal-surface">${e.surface}</div>
-      <button class="modal-fav-btn ${fav ? 'active' : ''}" onclick="modalToggleFav('${type}','${ref}','${(e.surface||'').replace(/'/g,"\\'")}','${(e.meaning||e.literal||'').replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</button>
+      <button class="modal-fav-btn ${fav ? 'active' : ''}">${fav ? '★' : '☆'}</button>
     </div>
     <div class="modal-pos-pron">${e.pos} · ${e.pron}</div>
     ${sectionsHTML}
@@ -1469,6 +1473,9 @@ function openTokenModal(talkId, ref, type, surface) {
       <div class="modal-talk-link-arrow">→</div>
     </div>
   `;
+  // fav ボタンはリスナーでバインド(surface/meaning に " や ' が含まれても壊れない)
+  const favBtn = document.querySelector('#modalContent .modal-fav-btn');
+  if (favBtn) favBtn.addEventListener('click', () => modalToggleFav(type, ref, e.surface, e.meaning || e.literal || ''));
   document.getElementById('modal').classList.add('open');
   document.getElementById('modalBackdrop').classList.add('open');
 }
@@ -1496,7 +1503,7 @@ function openSentenceModal(talkId, sentRef) {
     <div class="modal-tier">⌘ sentence · 構文解析</div>
     <div class="modal-surface-row">
       <div class="modal-surface" style="font-size:22px;line-height:1.4;">${sent.text}</div>
-      <button class="modal-fav-btn ${fav ? 'active' : ''}" onclick="modalToggleFav('sentence','${canonicalRef}','${sent.text.replace(/'/g,"\\'")}','${sent.translation_ja.replace(/'/g,"\\'")}')">${fav ? '★' : '☆'}</button>
+      <button class="modal-fav-btn ${fav ? 'active' : ''}">${fav ? '★' : '☆'}</button>
     </div>
     <div class="modal-pos-pron">sentence id: ${canonicalRef}</div>
     <div class="modal-section">
@@ -1520,6 +1527,9 @@ function openSentenceModal(talkId, sentRef) {
       <div class="modal-talk-link-arrow">→</div>
     </div>
   `;
+  // fav ボタンはリスナーでバインド(sent.text に " が含まれても onclick 属性が壊れない)
+  const favBtn = document.querySelector('#modalContent .modal-fav-btn');
+  if (favBtn) favBtn.addEventListener('click', () => modalToggleFav('sentence', canonicalRef, sent.text, sent.translation_ja));
   document.getElementById('modal').classList.add('open');
   document.getElementById('modalBackdrop').classList.add('open');
 }

@@ -2318,21 +2318,21 @@
               "ref": "to_and_fro"
             },
             {
+              "id": "t2",
               "type": "skip",
-              "surface": " in the ",
-              "id": "t2"
+              "surface": " in the "
             },
             {
+              "id": "t3",
               "type": "word",
               "surface": "seven",
               "ref": "seven",
-              "tier": "frequent",
-              "id": "t3"
+              "tier": "frequent"
             },
             {
+              "id": "t4",
               "type": "skip",
-              "surface": " ",
-              "id": "t4"
+              "surface": " "
             },
             {
               "id": "t5",
@@ -2356,7 +2356,7 @@
             {
               "id": "t8",
               "type": "skip",
-              "surface": " a "
+              "surface": " "
             },
             {
               "id": "t9",
@@ -2948,54 +2948,43 @@
           ],
           "tokens": [
             {
+              "id": "t1",
               "type": "skip",
-              "surface": "The ",
-              "id": "t1"
+              "surface": "The "
             },
             {
+              "id": "t2",
               "type": "word",
               "surface": "revel",
               "ref": "revel",
-              "tier": "key",
-              "id": "t2"
+              "tier": "key"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " ",
-              "id": "t3"
+              "surface": " went "
             },
             {
               "id": "t4",
-              "type": "expression",
-              "surface": "went on",
-              "ref": "go_on"
-            },
-            {
-              "id": "t5",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t6",
               "type": "word",
               "surface": "whirlingly",
               "ref": "whirlingly",
               "tier": "key"
             },
             {
-              "id": "t7",
+              "id": "t5",
               "type": "skip",
-              "surface": "— until the "
+              "surface": " on— until the "
             },
             {
-              "id": "t8",
+              "id": "t6",
               "type": "word",
               "surface": "twelfth",
               "ref": "twelfth",
               "tier": "normal"
             },
             {
-              "id": "t9",
+              "id": "t7",
               "type": "skip",
               "surface": " hour."
             }

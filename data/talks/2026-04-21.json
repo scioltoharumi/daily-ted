@@ -2167,33 +2167,33 @@
               "tier": "normal"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " ",
-              "id": "t5"
+              "surface": " "
             },
             {
+              "id": "t6",
               "type": "word",
               "surface": "Song",
               "ref": "song",
-              "tier": "basic",
-              "id": "t6"
+              "tier": "basic"
             },
             {
+              "id": "t7",
               "type": "skip",
-              "surface": " ",
-              "id": "t7"
+              "surface": " "
             },
             {
+              "id": "t8",
               "type": "word",
               "surface": "capital",
               "ref": "capital",
-              "tier": "normal",
-              "id": "t8"
+              "tier": "normal"
             },
             {
+              "id": "t9",
               "type": "skip",
-              "surface": " of ",
-              "id": "t9"
+              "surface": " of "
             },
             {
               "id": "t10",
@@ -2205,7 +2205,7 @@
             {
               "id": "t11",
               "type": "skip",
-              "surface": " the "
+              "surface": ", the "
             },
             {
               "id": "t12",
@@ -2595,39 +2595,40 @@
               "tier": "normal"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " over 80 ",
-              "id": "t3"
+              "surface": " over 80 "
             },
             {
+              "id": "t4",
               "type": "word",
               "surface": "unique",
               "ref": "unique",
-              "tier": "normal",
-              "id": "t4"
+              "tier": "normal"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " ",
-              "id": "t5"
+              "surface": " "
             },
             {
+              "id": "t6",
               "type": "word",
               "surface": "styles",
               "ref": "styles",
-              "tier": "basic",
-              "id": "t6"
+              "tier": "basic"
             },
             {
+              "id": "t7",
               "type": "skip",
-              "surface": " of martial arts, ",
-              "id": "t7"
+              "surface": " of martial arts, ranging from "
             },
             {
               "id": "t8",
-              "type": "expression",
-              "surface": "ranging from … to",
-              "ref": "range_from_to"
+              "type": "word",
+              "surface": "realistic",
+              "ref": "realistic",
+              "tier": "basic"
             },
             {
               "id": "t9",
@@ -2637,36 +2638,24 @@
             {
               "id": "t10",
               "type": "word",
-              "surface": "realistic",
-              "ref": "realistic",
-              "tier": "basic"
-            },
-            {
-              "id": "t11",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t12",
-              "type": "word",
               "surface": "techniques",
               "ref": "techniques",
               "tier": "basic"
             },
             {
-              "id": "t13",
+              "id": "t11",
               "type": "skip",
               "surface": " to almost mystical "
             },
             {
-              "id": "t14",
+              "id": "t12",
               "type": "word",
               "surface": "maneuvers",
               "ref": "maneuvers",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t13",
               "type": "skip",
               "surface": "."
             }
@@ -2783,33 +2772,33 @@
               "tier": "normal"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " a ",
-              "id": "t3"
+              "surface": " a "
             },
             {
+              "id": "t4",
               "type": "word",
               "surface": "technique",
               "ref": "technique",
-              "tier": "normal",
-              "id": "t4"
+              "tier": "normal"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": " that will allow him to ",
-              "id": "t5"
+              "surface": " that will allow him to "
             },
             {
+              "id": "t6",
               "type": "word",
               "surface": "perform",
               "ref": "perform",
-              "tier": "normal",
-              "id": "t6"
+              "tier": "normal"
             },
             {
+              "id": "t7",
               "type": "skip",
-              "surface": " two attacks ",
-              "id": "t7"
+              "surface": " two attacks "
             },
             {
               "id": "t8",
@@ -2818,33 +2807,33 @@
               "ref": "at_once"
             },
             {
+              "id": "t9",
               "type": "skip",
-              "surface": " ",
-              "id": "t9"
+              "surface": ", "
             },
             {
+              "id": "t10",
               "type": "word",
               "surface": "Guo",
               "ref": "guo",
-              "tier": "basic",
-              "id": "t10"
+              "tier": "basic"
             },
             {
+              "id": "t11",
               "type": "skip",
-              "surface": " ",
-              "id": "t11"
+              "surface": " "
             },
             {
+              "id": "t12",
               "type": "word",
               "surface": "Jing",
               "ref": "jing",
-              "tier": "basic",
-              "id": "t12"
+              "tier": "basic"
             },
             {
+              "id": "t13",
               "type": "skip",
-              "surface": " must first learn to ",
-              "id": "t13"
+              "surface": " must first learn to "
             },
             {
               "id": "t14",

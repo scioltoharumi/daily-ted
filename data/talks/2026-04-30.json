@@ -187,11 +187,6 @@
               "type": "foreign",
               "surface": "inai-inai...ba!",
               "ref": "inainaibaa"
-            },
-            {
-              "id": "t3",
-              "type": "skip",
-              "surface": "."
             }
           ]
         },
@@ -1474,33 +1469,33 @@
           ],
           "tokens": [
             {
+              "id": "t1",
               "type": "skip",
-              "surface": "Before ",
-              "id": "t1"
+              "surface": "Before "
             },
             {
+              "id": "t2",
               "type": "word",
               "surface": "object",
               "ref": "object",
-              "tier": "basic",
-              "id": "t2"
+              "tier": "basic"
             },
             {
+              "id": "t3",
               "type": "skip",
-              "surface": " ",
-              "id": "t3"
+              "surface": " "
             },
             {
+              "id": "t4",
               "type": "word",
               "surface": "permanence",
               "ref": "permanence",
-              "tier": "key",
-              "id": "t4"
+              "tier": "key"
             },
             {
+              "id": "t5",
               "type": "skip",
-              "surface": ", this ",
-              "id": "t5"
+              "surface": ", this "
             },
             {
               "id": "t6",
@@ -1524,52 +1519,41 @@
             {
               "id": "t9",
               "type": "skip",
-              "surface": " "
+              "surface": " can range from "
             },
             {
               "id": "t10",
-              "type": "expression",
-              "surface": "can range from … to",
-              "ref": "range_from_to"
-            },
-            {
-              "id": "t11",
-              "type": "skip",
-              "surface": " "
-            },
-            {
-              "id": "t12",
               "type": "word",
               "surface": "confusing",
               "ref": "confusing",
               "tier": "normal"
             },
             {
-              "id": "t13",
+              "id": "t11",
               "type": "skip",
               "surface": " to "
             },
             {
-              "id": "t14",
+              "id": "t12",
               "type": "word",
               "surface": "pleasantly",
               "ref": "pleasantly",
               "tier": "normal"
             },
             {
-              "id": "t15",
+              "id": "t13",
               "type": "skip",
               "surface": " "
             },
             {
-              "id": "t16",
+              "id": "t14",
               "type": "word",
               "surface": "surprising",
               "ref": "surprising",
               "tier": "basic"
             },
             {
-              "id": "t17",
+              "id": "t15",
               "type": "skip",
               "surface": "."
             }

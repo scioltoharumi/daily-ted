@@ -207,6 +207,30 @@ def generate_talk(META, BACKGROUND, P, W, E, PSUM, out_path):
 
     talk["transcript"] = paragraphs
 
+    # VERBATIM ガード(D-206 再発防止): token.surface を連結して sentence.text を
+    # 一字一句復元できることを検証する。復元できない = フロントの表示本文が原文と
+    # 乖離する(単語欠落・重複・"… to" 等のプレースホルダ混入)ため、必ず検出する。
+    verbatim_violations = 0
+    for p in paragraphs:
+        for s in p["sentences"]:
+            joined = "".join(tok.get("surface", "") for tok in s["tokens"])
+            if joined != s["text"]:
+                verbatim_violations += 1
+                print(f"WARN VERBATIM 不一致 {p['id']}.{s['id']}: token 連結が text と異なる")
+                print(f"     text  : {s['text']!r}")
+                print(f"     tokens: {joined!r}")
+    if verbatim_violations:
+        raise ValueError(
+            f"VERBATIM 違反 {verbatim_violations} 件: token.surface の連結が text を復元できない。"
+            " skip の句読点欠落や不連続 expression(from … to 等)を修正すること。"
+        )
+
+    # expression tier は仕様上 normal / frequent の2階層のみ(word_classification.md)。
+    for k, v in E.items():
+        tier = v[0] if v else ""
+        if tier not in ("normal", "frequent"):
+            print(f"WARN expression '{k}' の tier={tier!r} は仕様外(normal/frequent のみ)")
+
     used_w, used_e = set(), set()
     for p in P:
         for sd in p["sentences"]:
