@@ -325,15 +325,15 @@
     <div class="stat-cards">
       <div class="stat-card">
         <div class="stat-label">Current streak</div>
-        <div class="stat-value">8<span class="stat-suffix">日連続</span></div>
+        <div class="stat-value" id="statStreak">0<span class="stat-suffix">日連続</span></div>
       </div>
       <div class="stat-card">
         <div class="stat-label">This month</div>
-        <div class="stat-value">8<span class="stat-suffix">/14日</span></div>
+        <div class="stat-value" id="statMonth">0<span class="stat-suffix">本</span></div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Total talks</div>
-        <div class="stat-value">8<span class="stat-suffix">本</span></div>
+        <div class="stat-value" id="statTotal">0<span class="stat-suffix">本</span></div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Total words saved</div>
@@ -1051,6 +1051,17 @@ const STATE = {
 function persistFavorites() { localStorage.setItem('ted_favorites', JSON.stringify(STATE.favorites)); }
 function persistRead() { localStorage.setItem('ted_read', JSON.stringify(STATE.readDates)); }
 
+// AI 生成の自由記述フィールド(意味・背景・例文訳・要約等)には比較記号 `<` や `&`
+// が入りうる。innerHTML へ生挿入すると `<` 以降が未閉じタグ扱いで消えるため必ずエスケープ。
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+// 例文(example.en)だけは仕様上 <b>...</b> で対象語を強調する。<b> のみ許可して復元。
+function escB(s) {
+  return esc(s).replace(/&lt;b&gt;/g, '<b>').replace(/&lt;\/b&gt;/g, '</b>');
+}
+
 function isFavorite(type, ref, talkId) {
   return STATE.favorites.some(f => f.type === type && f.ref === ref && f.talk_id === talkId);
 }
@@ -1114,15 +1125,15 @@ function talkCardHTML(t, isToday) {
     <div class="talk-card ${isToday ? 'today' : ''}" data-talk="${t.date}">
       <div class="talk-meta-row">
         <span class="source-badge">🎓 TED-Ed</span>
-        <span class="topic-pill">${TOPIC_EMOJI[t.primary_topic] || ''} ${t.primary_topic}</span>
-        <span class="difficulty ${t.difficulty}">${t.difficulty}</span>
+        <span class="topic-pill">${TOPIC_EMOJI[t.primary_topic] || ''} ${esc(t.primary_topic)}</span>
+        <span class="difficulty ${t.difficulty}">${esc(t.difficulty)}</span>
         <span style="opacity:0.7">${formatDate(t.date)} · ${formatDuration(t.duration_sec)}</span>
         ${read ? '<span class="read-dot" title="既読">●</span>' : ''}
       </div>
-      <div class="talk-title">${t.title}</div>
-      <div class="talk-speaker">— ${t.speaker}</div>
+      <div class="talk-title">${esc(t.title)}</div>
+      <div class="talk-speaker">— ${esc(t.speaker)}</div>
       <div class="talk-tags">
-        ${t.tags.slice(0, 5).map(tag => `<span class="talk-tag">${tag}</span>`).join('')}
+        ${t.tags.slice(0, 5).map(tag => `<span class="talk-tag">${esc(tag)}</span>`).join('')}
       </div>
     </div>
   `;
@@ -1156,6 +1167,13 @@ function renderCalendar() {
   }
   grid.innerHTML = html;
   document.getElementById('favCount').firstChild.textContent = STATE.favorites.length;
+  // 統計カードを実データで更新(旧: ハードコードの "8")
+  const thisMonth = TODAY.slice(0, 7);
+  const monthCount = Object.keys(TALKS).filter(d => d.slice(0, 7) === thisMonth).length;
+  const setStat = (id, v) => { const el = document.getElementById(id); if (el && el.firstChild) el.firstChild.textContent = v; };
+  setStat('statStreak', calcStreak());
+  setStat('statMonth', monthCount);
+  setStat('statTotal', Object.keys(TALKS).length);
 }
 
 // ============ RENDER: ARCHIVE (View B) ============
@@ -1193,7 +1211,7 @@ function renderTopics() {
   grid.innerHTML = Object.entries(counts).map(([topic, count]) => `
     <div class="topic-card" onclick="openTopic('${topic}')">
       <div class="topic-emoji">${TOPIC_EMOJI[topic] || '📚'}</div>
-      <div class="topic-name">${topic}</div>
+      <div class="topic-name">${esc(topic)}</div>
       <div class="topic-count">${count} talk${count > 1 ? 's' : ''}</div>
     </div>
   `).join('');
@@ -1202,7 +1220,7 @@ function renderTopics() {
 function openTopic(topic) {
   const filtered = Object.values(TALKS).filter(t => t.primary_topic === topic);
   document.getElementById('topicDetail').innerHTML = `
-    <h2 style="font-family:'Fraunces',serif;font-size:24px;margin-bottom:16px;">${TOPIC_EMOJI[topic] || ''} ${topic}</h2>
+    <h2 style="font-family:'Fraunces',serif;font-size:24px;margin-bottom:16px;">${TOPIC_EMOJI[topic] || ''} ${esc(topic)}</h2>
     <div class="talks-stream">
       ${filtered.map(t => talkCardHTML(t, false)).join('')}
     </div>
@@ -1222,8 +1240,8 @@ function renderWords() {
   }
   document.getElementById('wordsList').innerHTML = wordItems.map(f => `
     <div class="word-list-item" onclick="openWord('${f.ref}')">
-      <div class="word-list-surface">${f.surface}</div>
-      <div class="word-list-meaning">${f.meaning}</div>
+      <div class="word-list-surface">${esc(f.surface)}</div>
+      <div class="word-list-meaning">${esc(f.meaning)}</div>
       <div class="word-list-talks-count">${countTalksForWord(f.ref)} talks</div>
     </div>
   `).join('');
@@ -1237,9 +1255,9 @@ function openWord(ref) {
   if (matchingTalks.length === 0) return;
   const w = matchingTalks[0].words[ref];
   document.getElementById('wordDetail').innerHTML = `
-    <h2 style="font-family:'Fraunces',serif;font-size:28px;">${w.surface}</h2>
-    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-faded);margin:4px 0 16px;">${w.pos} · ${w.pron}</div>
-    <div style="font-size:16px;line-height:1.7;color:var(--ink);margin-bottom:18px;">${w.meaning}</div>
+    <h2 style="font-family:'Fraunces',serif;font-size:28px;">${esc(w.surface)}</h2>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ink-faded);margin:4px 0 16px;">${esc(w.pos)} · ${esc(w.pron)}</div>
+    <div style="font-size:16px;line-height:1.7;color:var(--ink);margin-bottom:18px;">${esc(w.meaning)}</div>
     <h3 style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-faded);margin-bottom:8px;">この単語が出てきた Talk</h3>
     <div class="talks-stream">
       ${matchingTalks.map(t => talkCardHTML(t, false)).join('')}
@@ -1267,11 +1285,11 @@ function renderFavorites() {
     const t = Object.values(TALKS).find(x => x.id === talkId);
     return `
       <div class="fav-talk-group">
-        <div class="fav-talk-title">${t ? t.title : talkId}</div>
+        <div class="fav-talk-title">${esc(t ? t.title : talkId)}</div>
         ${items.map(item => `
           <div class="fav-item" onclick="openFavItem('${item.type}','${item.ref}','${item.talk_id}')" style="cursor: pointer;">
-            <div class="fav-item-surface">${item.surface}</div>
-            <div class="fav-item-meaning">${item.meaning || ''}</div>
+            <div class="fav-item-surface">${esc(item.surface)}</div>
+            <div class="fav-item-meaning">${esc(item.meaning || '')}</div>
             <span class="fav-item-remove" onclick="event.stopPropagation();removeFav('${item.type}','${item.ref}','${item.talk_id}')">✕</span>
           </div>
         `).join('')}
@@ -1309,27 +1327,27 @@ function openTalkDetail(date) {
   let html = `
     <div class="detail-meta">
       <span class="source-badge">🎓 TED-Ed</span>
-      <span class="topic-pill">${TOPIC_EMOJI[t.primary_topic] || ''} ${t.primary_topic}</span>
-      <span class="difficulty ${t.difficulty}">${t.difficulty}</span>
+      <span class="topic-pill">${TOPIC_EMOJI[t.primary_topic] || ''} ${esc(t.primary_topic)}</span>
+      <span class="difficulty ${t.difficulty}">${esc(t.difficulty)}</span>
       <span>${formatDate(t.date)} · ${formatDuration(t.duration_sec)}</span>
     </div>
-    <h1 class="detail-title">${t.title}</h1>
-    <div class="detail-speaker">— ${t.speaker}</div>
+    <h1 class="detail-title">${esc(t.title)}</h1>
+    <div class="detail-speaker">— ${esc(t.speaker)}</div>
     <div class="video-embed">
       <iframe src="${t.embed_url}" allowfullscreen></iframe>
     </div>
     <details class="background-card">
       <summary>📖 背景情報</summary>
-      <div class="background-summary">${t.background.summary}</div>
+      <div class="background-summary">${esc((t.background || {}).summary)}</div>
       <ul class="background-list">
-        ${t.background.details.map(d => `<li>${d}</li>`).join('')}
+        ${((t.background || {}).details || []).map(d => `<li>${esc(d)}</li>`).join('')}
       </ul>
     </details>
     ${Array.isArray(t.paragraph_summaries_ja) && t.paragraph_summaries_ja.length ? `
     <details class="summaries-card" open>
       <summary>📋 セクション要約(日本語)</summary>
       <ol class="summaries-list">
-        ${t.paragraph_summaries_ja.map(ps => `<li><a data-jump-pid="${ps.paragraph_id}">${ps.summary || ''}</a></li>`).join('')}
+        ${t.paragraph_summaries_ja.map(ps => `<li><a data-jump-pid="${ps.paragraph_id}">${esc(ps.summary || '')}</a></li>`).join('')}
       </ol>
     </details>` : ''}
     <div class="transcript">
@@ -1416,21 +1434,21 @@ function openTokenModal(talkId, ref, type, surface) {
     sectionsHTML = `
       <div class="modal-section">
         <div class="modal-section-label">意味</div>
-        <div class="modal-meaning">${e.meaning}</div>
+        <div class="modal-meaning">${esc(e.meaning)}</div>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">例文</div>
-        <div class="modal-example">${e.example.en}</div>
-        <div class="modal-example-ja">${e.example.ja}</div>
+        <div class="modal-example">${escB((e.example || {}).en)}</div>
+        <div class="modal-example-ja">${esc((e.example || {}).ja)}</div>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">背景・ニュアンス</div>
-        <div class="modal-context">${e.context}</div>
+        <div class="modal-context">${esc(e.context)}</div>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">コロケーション</div>
         <div class="modal-collocations">
-          ${e.collocations.map(c => `<span class="modal-collocation">${c}</span>`).join('')}
+          ${(e.collocations || []).map(c => `<span class="modal-collocation">${esc(c)}</span>`).join('')}
         </div>
       </div>
     `;
@@ -1438,32 +1456,37 @@ function openTokenModal(talkId, ref, type, surface) {
     sectionsHTML = `
       <div class="modal-section">
         <div class="modal-section-label">直訳</div>
-        <div class="modal-meaning">${e.literal}</div>
+        <div class="modal-meaning">${esc(e.literal)}</div>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">意味</div>
-        <div class="modal-meaning">${e.meaning}</div>
+        <div class="modal-meaning">${esc(e.meaning)}</div>
       </div>
       <div class="modal-section">
         <div class="modal-section-label">背景</div>
-        <div class="modal-context">${e.context}</div>
+        <div class="modal-context">${esc(e.context)}</div>
       </div>
       ${e.collocations && e.collocations.length ? `<div class="modal-section">
         <div class="modal-section-label">関連表現</div>
         <div class="modal-collocations">
-          ${e.collocations.map(c => `<span class="modal-collocation">${c}</span>`).join('')}
+          ${e.collocations.map(c => `<span class="modal-collocation">${esc(c)}</span>`).join('')}
         </div>
       </div>` : ''}
     `;
   }
-  const talkTitleEsc = (t.title || '').replace(/"/g, '&quot;');
+  const talkTitleEsc = esc(t.title);
+  // tier は仕様上 word=basic/normal/key/frequent, expression=normal/frequent。仕様外値はラベル表示しない。
+  const tierValid = type === 'word'
+    ? ['basic', 'normal', 'key', 'frequent'].includes(e.tier)
+    : e.tier === 'frequent' || e.tier === 'normal';
+  const tierLabel = tierValid ? e.tier : (type === 'word' ? 'basic' : 'normal');
   document.getElementById('modalContent').innerHTML = `
-    <div class="modal-tier">${e.tier === 'frequent' ? '★ ' : ''}${type} · ${e.tier}</div>
+    <div class="modal-tier">${e.tier === 'frequent' ? '★ ' : ''}${type} · ${esc(tierLabel)}</div>
     <div class="modal-surface-row">
-      <div class="modal-surface">${e.surface}</div>
+      <div class="modal-surface">${esc(e.surface)}</div>
       <button class="modal-fav-btn ${fav ? 'active' : ''}">${fav ? '★' : '☆'}</button>
     </div>
-    <div class="modal-pos-pron">${e.pos} · ${e.pron}</div>
+    <div class="modal-pos-pron">${esc(e.pos)} · ${esc(e.pron)}</div>
     ${sectionsHTML}
     <div class="modal-talk-link" onclick="event.stopPropagation();gotoTalk('${t.date}')">
       <div>
@@ -1502,27 +1525,27 @@ function openSentenceModal(talkId, sentRef) {
   document.getElementById('modalContent').innerHTML = `
     <div class="modal-tier">⌘ sentence · 構文解析</div>
     <div class="modal-surface-row">
-      <div class="modal-surface" style="font-size:22px;line-height:1.4;">${sent.text}</div>
+      <div class="modal-surface" style="font-size:22px;line-height:1.4;">${esc(sent.text)}</div>
       <button class="modal-fav-btn ${fav ? 'active' : ''}">${fav ? '★' : '☆'}</button>
     </div>
     <div class="modal-pos-pron">sentence id: ${canonicalRef}</div>
     <div class="modal-section">
       <div class="modal-section-label">日本語訳</div>
-      <div class="modal-meaning">${sent.translation_ja}</div>
+      <div class="modal-meaning">${esc(sent.translation_ja)}</div>
     </div>
     <div class="modal-section">
       <div class="modal-section-label">構文解析</div>
-      ${sent.structure.map(st => `
+      ${(sent.structure || []).map(st => `
         <div style="display:flex;gap:10px;padding:6px 0;border-bottom:1px dotted var(--line);">
-          <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ed-amber);min-width:80px;">${st.label}</span>
-          <span style="font-family:'Fraunces',serif;font-size:14px;color:var(--ink-soft);flex:1;">${st.content}${st.note ? `<br><span style="font-size:12px;color:var(--ink-faded);">${st.note}</span>` : ''}</span>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--ed-amber);min-width:80px;">${esc(st.label)}</span>
+          <span style="font-family:'Fraunces',serif;font-size:14px;color:var(--ink-soft);flex:1;">${esc(st.content)}${st.note ? `<br><span style="font-size:12px;color:var(--ink-faded);">${esc(st.note)}</span>` : ''}</span>
         </div>
       `).join('')}
     </div>
     <div class="modal-talk-link" onclick="event.stopPropagation();gotoTalk('${t.date}')">
       <div>
         <div class="modal-talk-link-label">📖 元の Talk</div>
-        <div class="modal-talk-link-title">${(t.title || '').replace(/"/g, '&quot;')}</div>
+        <div class="modal-talk-link-title">${esc(t.title)}</div>
       </div>
       <div class="modal-talk-link-arrow">→</div>
     </div>
@@ -1585,14 +1608,14 @@ document.getElementById('searchInput').addEventListener('input', e => {
     if (item.kind === 'talk') {
       return `<div class="search-result" onclick="openTalkDetail('${item.date}')">
         <div style="font-size:11px;color:var(--ed-amber);font-family:'JetBrains Mono',monospace;letter-spacing:0.1em;">TALK · ${formatDate(item.date)}</div>
-        <div style="font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin:4px 0;">${item.title}</div>
-        <div class="search-snippet">${item.content.slice(0, 120)}…</div>
+        <div style="font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin:4px 0;">${esc(item.title)}</div>
+        <div class="search-snippet">${esc(item.content.slice(0, 120))}…</div>
       </div>`;
     } else {
       return `<div class="search-result" onclick="openTalkDetail('${item.date}')">
         <div style="font-size:11px;color:var(--ed-amber);font-family:'JetBrains Mono',monospace;letter-spacing:0.1em;">${item.kind.toUpperCase()} · ${formatDate(item.date)}</div>
-        <div style="font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin:4px 0;">${item.surface}</div>
-        <div class="search-snippet">${item.meaning}</div>
+        <div style="font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin:4px 0;">${esc(item.surface)}</div>
+        <div class="search-snippet">${esc(item.meaning)}</div>
       </div>`;
     }
   }).join('');
