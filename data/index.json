@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-07-07T06:02:12+09:00",
+  "updated_at": "2026-07-08T06:15:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-07-08",
+      "date": "2026-07-08",
+      "source": "ted-ed",
+      "primary_topic": "Technology",
+      "tags": [
+        "space-station",
+        "life-support",
+        "electrolysis",
+        "engineering",
+        "oxygen-generation"
+      ],
+      "difficulty": "hard",
+      "title": "How does the space station never run out of oxygen?",
+      "speaker": "Alvaro Romero-Calvo and Theo St Francis",
+      "duration_sec": 351,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_181946/a865eba9-b03b-4170-b811-2e585af335b4/BreathingBeyondEarth_textless.jpg",
+      "published_at": "2026-07-07T15:02:47Z"
+    },
     {
       "id": "talk_2026-06-25",
       "date": "2026-06-25",
