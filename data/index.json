@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-07-08T06:15:00+09:00",
+  "updated_at": "2026-07-10T06:30:50+09:00",
   "talks": [
+    {
+      "id": "talk_2026-07-10",
+      "date": "2026-07-10",
+      "source": "ted-ed",
+      "primary_topic": "Biology",
+      "tags": [
+        "fungi",
+        "mycology",
+        "extremophile",
+        "symbiosis",
+        "psychedelics"
+      ],
+      "difficulty": "hard",
+      "title": "Psychedelics, mind control, radiation-eating: The secret superpowers of fungi",
+      "speaker": "Max G. Levy",
+      "duration_sec": 352,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_183376/ee98170a-1591-4b59-b088-ab55de453183/ExtremeFungi_textless.jpg",
+      "published_at": "2026-07-07T15:04:10Z"
+    },
     {
       "id": "talk_2026-07-08",
       "date": "2026-07-08",
@@ -441,6 +460,7 @@
     "2026-07-04",
     "2026-07-05",
     "2026-07-06",
-    "2026-07-07"
+    "2026-07-07",
+    "2026-07-09"
   ]
 }
