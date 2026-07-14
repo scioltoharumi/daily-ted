@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-07-14T06:02:00+09:00",
+  "updated_at": "2026-07-15T06:02:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-07-15",
+      "date": "2026-07-15",
+      "source": "ted-ed",
+      "primary_topic": "History",
+      "tags": [
+        "passport",
+        "immigration",
+        "border-control",
+        "geopolitics",
+        "world-history"
+      ],
+      "difficulty": "medium",
+      "title": "When did we start using passports?",
+      "speaker": "Kristin Surak",
+      "duration_sec": 351,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_184644/1160e5b9-63de-41b1-8e84-f492a2a0bec4/passports_textless.jpg",
+      "published_at": "2026-07-14T15:03:51Z"
+    },
     {
       "id": "talk_2026-07-10",
       "date": "2026-07-10",
