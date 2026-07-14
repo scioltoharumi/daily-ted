@@ -8285,7 +8285,7 @@
   ],
   "words": {
     "a": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "a",
       "pos": "",
       "pron": "",
@@ -8298,7 +8298,7 @@
       "collocations": []
     },
     "about": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "about",
       "pos": "",
       "pron": "",
@@ -8359,7 +8359,7 @@
       ]
     },
     "against": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "against",
       "pos": "",
       "pron": "",
@@ -8372,7 +8372,7 @@
       "collocations": []
     },
     "ago": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "ago",
       "pos": "",
       "pron": "",
@@ -8401,7 +8401,7 @@
       ]
     },
     "all": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "all",
       "pos": "",
       "pron": "",
@@ -8430,7 +8430,7 @@
       ]
     },
     "amazon": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Amazon",
       "pos": "",
       "pron": "",
@@ -8459,7 +8459,7 @@
       ]
     },
     "an": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "an",
       "pos": "",
       "pron": "",
@@ -8488,7 +8488,7 @@
       ]
     },
     "and": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "and",
       "pos": "",
       "pron": "",
@@ -8516,7 +8516,7 @@
       ]
     },
     "another": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "another",
       "pos": "",
       "pron": "",
@@ -8559,7 +8559,7 @@
       ]
     },
     "any": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "any",
       "pos": "",
       "pron": "",
@@ -8619,7 +8619,7 @@
       ]
     },
     "arctic": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Arctic",
       "pos": "",
       "pron": "",
@@ -8632,7 +8632,7 @@
       "collocations": []
     },
     "are": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "are",
       "pos": "",
       "pron": "",
@@ -8661,7 +8661,7 @@
       ]
     },
     "around": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "around",
       "pos": "",
       "pron": "",
@@ -8674,7 +8674,7 @@
       "collocations": []
     },
     "as": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "as",
       "pos": "",
       "pron": "",
@@ -8703,7 +8703,7 @@
       ]
     },
     "at": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "at",
       "pos": "",
       "pron": "",
@@ -8764,7 +8764,7 @@
       ]
     },
     "away": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "away",
       "pos": "",
       "pron": "",
@@ -8793,7 +8793,7 @@
       ]
     },
     "be": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "be",
       "pos": "",
       "pron": "",
@@ -8806,7 +8806,7 @@
       "collocations": []
     },
     "because": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "because",
       "pos": "",
       "pron": "",
@@ -8850,7 +8850,7 @@
       ]
     },
     "between": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "between",
       "pos": "",
       "pron": "",
@@ -8988,7 +8988,7 @@
       ]
     },
     "but": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "but",
       "pos": "",
       "pron": "",
@@ -9001,7 +9001,7 @@
       "collocations": []
     },
     "by": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "by",
       "pos": "",
       "pron": "",
@@ -9030,7 +9030,7 @@
       ]
     },
     "can": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "can",
       "pos": "",
       "pron": "",
@@ -9043,7 +9043,7 @@
       "collocations": []
     },
     "cant": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "can't",
       "pos": "",
       "pron": "",
@@ -9167,7 +9167,7 @@
       ]
     },
     "chernobyl": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Chernobyl",
       "pos": "",
       "pron": "",
@@ -9211,7 +9211,7 @@
       ]
     },
     "clathrus_archeri": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Clathrus archeri",
       "pos": "",
       "pron": "",
@@ -9399,7 +9399,7 @@
       ]
     },
     "cordyceps": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Cordyceps",
       "pos": "",
       "pron": "",
@@ -9443,7 +9443,7 @@
       ]
     },
     "cryptococcus_neoformans": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Cryptococcus neoformans",
       "pos": "",
       "pron": "",
@@ -9632,7 +9632,7 @@
       ]
     },
     "dont": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "don't",
       "pos": "",
       "pron": "",
@@ -9645,7 +9645,7 @@
       "collocations": []
     },
     "dont2": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "don’t",
       "pos": "",
       "pron": "",
@@ -9658,7 +9658,7 @@
       "collocations": []
     },
     "earth": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Earth",
       "pos": "",
       "pron": "",
@@ -9750,7 +9750,7 @@
       ]
     },
     "either": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "either",
       "pos": "",
       "pron": "",
@@ -9939,7 +9939,7 @@
       ]
     },
     "even": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "even",
       "pos": "",
       "pron": "",
@@ -10063,7 +10063,7 @@
       ]
     },
     "first": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "first",
       "pos": "",
       "pron": "",
@@ -10122,7 +10122,7 @@
       ]
     },
     "for": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "for",
       "pos": "",
       "pron": "",
@@ -10183,7 +10183,7 @@
       ]
     },
     "from": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "from",
       "pos": "",
       "pron": "",
@@ -10461,7 +10461,7 @@
       ]
     },
     "has": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "has",
       "pos": "",
       "pron": "",
@@ -10474,7 +10474,7 @@
       "collocations": []
     },
     "have": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "have",
       "pos": "",
       "pron": "",
@@ -10580,7 +10580,7 @@
       ]
     },
     "in": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "in",
       "pos": "",
       "pron": "",
@@ -10671,7 +10671,7 @@
       ]
     },
     "international_space_station": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "International Space Station",
       "pos": "",
       "pron": "",
@@ -10700,7 +10700,7 @@
       ]
     },
     "into": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "into",
       "pos": "",
       "pron": "",
@@ -10713,7 +10713,7 @@
       "collocations": []
     },
     "is": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "is",
       "pos": "",
       "pron": "",
@@ -10726,7 +10726,7 @@
       "collocations": []
     },
     "it": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "it",
       "pos": "",
       "pron": "",
@@ -10739,7 +10739,7 @@
       "collocations": []
     },
     "just": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "just",
       "pos": "",
       "pron": "",
@@ -10864,7 +10864,7 @@
       ]
     },
     "like": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "like",
       "pos": "",
       "pron": "",
@@ -10989,7 +10989,7 @@
       ]
     },
     "many": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "many",
       "pos": "",
       "pron": "",
@@ -11050,7 +11050,7 @@
       ]
     },
     "may": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "may",
       "pos": "",
       "pron": "",
@@ -11110,7 +11110,7 @@
       ]
     },
     "might": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "might",
       "pos": "",
       "pron": "",
@@ -11186,7 +11186,7 @@
       ]
     },
     "more": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "more",
       "pos": "",
       "pron": "",
@@ -11355,7 +11355,7 @@
       ]
     },
     "num10": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "10",
       "pos": "",
       "pron": "",
@@ -11368,7 +11368,7 @@
       "collocations": []
     },
     "num12": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "12",
       "pos": "",
       "pron": "",
@@ -11381,7 +11381,7 @@
       "collocations": []
     },
     "num1billion": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "1",
       "pos": "",
       "pron": "",
@@ -11394,7 +11394,7 @@
       "collocations": []
     },
     "num1trillion": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "1",
       "pos": "",
       "pron": "",
@@ -11407,7 +11407,7 @@
       "collocations": []
     },
     "num2": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "2",
       "pos": "",
       "pron": "",
@@ -11420,7 +11420,7 @@
       "collocations": []
     },
     "num37": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "37",
       "pos": "",
       "pron": "",
@@ -11433,7 +11433,7 @@
       "collocations": []
     },
     "num470": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "470",
       "pos": "",
       "pron": "",
@@ -11510,7 +11510,7 @@
       ]
     },
     "of": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "of",
       "pos": "",
       "pron": "",
@@ -11523,7 +11523,7 @@
       "collocations": []
     },
     "often": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "often",
       "pos": "",
       "pron": "",
@@ -11536,7 +11536,7 @@
       "collocations": []
     },
     "on": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "on",
       "pos": "",
       "pron": "",
@@ -11549,7 +11549,7 @@
       "collocations": []
     },
     "one": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "one",
       "pos": "",
       "pron": "",
@@ -11562,7 +11562,7 @@
       "collocations": []
     },
     "or": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "or",
       "pos": "",
       "pron": "",
@@ -11591,7 +11591,7 @@
       ]
     },
     "other": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "other",
       "pos": "",
       "pron": "",
@@ -11604,7 +11604,7 @@
       "collocations": []
     },
     "our": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "our",
       "pos": "",
       "pron": "",
@@ -11617,7 +11617,7 @@
       "collocations": []
     },
     "over": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "over",
       "pos": "",
       "pron": "",
@@ -11866,7 +11866,7 @@
       ]
     },
     "psilocybe": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Psilocybe",
       "pos": "",
       "pron": "",
@@ -12286,7 +12286,7 @@
       ]
     },
     "same": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "same",
       "pos": "",
       "pron": "",
@@ -12548,7 +12548,7 @@
       ]
     },
     "some": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "some",
       "pos": "",
       "pron": "",
@@ -12561,7 +12561,7 @@
       "collocations": []
     },
     "sometimes": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "sometimes",
       "pos": "",
       "pron": "",
@@ -12763,7 +12763,7 @@
       ]
     },
     "sun": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Sun",
       "pos": "",
       "pron": "",
@@ -12855,7 +12855,7 @@
       ]
     },
     "than": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "than",
       "pos": "",
       "pron": "",
@@ -12868,7 +12868,7 @@
       "collocations": []
     },
     "that": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "that",
       "pos": "",
       "pron": "",
@@ -12881,7 +12881,7 @@
       "collocations": []
     },
     "the": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "the",
       "pos": "",
       "pron": "",
@@ -12894,7 +12894,7 @@
       "collocations": []
     },
     "their": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "their",
       "pos": "",
       "pron": "",
@@ -12907,7 +12907,7 @@
       "collocations": []
     },
     "them": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "them",
       "pos": "",
       "pron": "",
@@ -12920,7 +12920,7 @@
       "collocations": []
     },
     "these": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "these",
       "pos": "",
       "pron": "",
@@ -12933,7 +12933,7 @@
       "collocations": []
     },
     "they": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "they",
       "pos": "",
       "pron": "",
@@ -12946,7 +12946,7 @@
       "collocations": []
     },
     "they_re": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "they’re",
       "pos": "",
       "pron": "",
@@ -12959,7 +12959,7 @@
       "collocations": []
     },
     "theyd": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "they’d",
       "pos": "",
       "pron": "",
@@ -12972,7 +12972,7 @@
       "collocations": []
     },
     "theyre": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "they're",
       "pos": "",
       "pron": "",
@@ -12985,7 +12985,7 @@
       "collocations": []
     },
     "this": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "this",
       "pos": "",
       "pron": "",
@@ -12998,7 +12998,7 @@
       "collocations": []
     },
     "though": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "though",
       "pos": "",
       "pron": "",
@@ -13075,7 +13075,7 @@
       ]
     },
     "to": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "to",
       "pos": "",
       "pron": "",
@@ -13246,7 +13246,7 @@
       ]
     },
     "us": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "us",
       "pos": "",
       "pron": "",
@@ -13291,7 +13291,7 @@
       ]
     },
     "very": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "very",
       "pos": "",
       "pron": "",
@@ -13350,7 +13350,7 @@
       ]
     },
     "we": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "we",
       "pos": "",
       "pron": "",
@@ -13363,7 +13363,7 @@
       "collocations": []
     },
     "were": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "were",
       "pos": "",
       "pron": "",
@@ -13376,7 +13376,7 @@
       "collocations": []
     },
     "what": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "what",
       "pos": "",
       "pron": "",
@@ -13389,7 +13389,7 @@
       "collocations": []
     },
     "when": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "when",
       "pos": "",
       "pron": "",
@@ -13402,7 +13402,7 @@
       "collocations": []
     },
     "which": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "which",
       "pos": "",
       "pron": "",
@@ -13415,7 +13415,7 @@
       "collocations": []
     },
     "while": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "while",
       "pos": "",
       "pron": "",
@@ -13428,7 +13428,7 @@
       "collocations": []
     },
     "who": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "Who",
       "pos": "",
       "pron": "",
@@ -13473,7 +13473,7 @@
       ]
     },
     "with": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "with",
       "pos": "",
       "pron": "",
@@ -13486,7 +13486,7 @@
       "collocations": []
     },
     "within": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "within",
       "pos": "",
       "pron": "",
@@ -13499,7 +13499,7 @@
       "collocations": []
     },
     "without": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "without",
       "pos": "",
       "pron": "",
@@ -13544,7 +13544,7 @@
       ]
     },
     "worlds": {
-      "tier": "skip",
+      "tier": "basic",
       "surface": "world's",
       "pos": "",
       "pron": "",

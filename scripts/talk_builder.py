@@ -37,7 +37,7 @@ P = [
             "tokens": [
                 ("w","English","english","key"),
                 ("s"," "),
-                ("w","sentence","sentence","skip"),
+                ("w","sentence","sentence","basic"),
                 ("s","."),
             ],
         },
@@ -48,7 +48,7 @@ P = [
 W = {
     # 完全形: Wk(tier, surface, pos, pron, meaning, ex_en, ex_ja, ctx="", coll=[])
     "english": Wk("key","English","adj · A1","/ˈɪŋ.ɡlɪʃ/","英語の","English class.","英語の授業。"),
-    # skip / basic は短縮形 Sk(surface, meaning) で OK
+    # basic tier は短縮形 Sk(surface, meaning) で OK
     "sentence": Sk("sentence", "文"),
 }
 
@@ -70,13 +70,13 @@ generate_talk(META, BACKGROUND, P, W, E, PSUM, "data/talks/2026-MM-DD.json")
 
 ```python
 # 旧:基本語にも full フィールド(~90 chars/entry)
-"the": Wk("skip","the","article · A1","/ðə/","その","The book.","その本。","",[]),
+"the": Wk("basic","the","article · A1","/ðə/","その","The book.","その本。","",[]),
 
 # 新:短縮形(~22 chars/entry、約 75% 減)
 "the": Sk("the","その"),
 ```
 
-talk 1 本あたり 30-50 個ある basic/skip 語をすべて短縮形にすると 5-8KB の出力削減が見込める。
+talk 1 本あたり 30-50 個ある basic 語をすべて短縮形にすると 5-8KB の出力削減が見込める。
 """
 import json, os
 
@@ -91,12 +91,12 @@ def Wk(tier, surface, pos="", pron="", meaning="", ex_en="", ex_ja="", ctx="", c
 
 
 def Sk(surface, meaning=None):
-    """Skip-tier 単語の短縮形。meaning 省略時は surface 自身を意味とする。
+    """Basic-tier 単語の短縮形。meaning 省略時は surface 自身を意味とする。
 
-    `Sk("the", "その")` → ("skip", "the", "", "", "その", "", "", "", [])
-    `Sk("water")`       → ("skip", "water", "", "", "water", "", "", "", [])
+    `Sk("the", "その")` → ("basic", "the", "", "", "その", "", "", "", [])
+    `Sk("water")`       → ("basic", "water", "", "", "water", "", "", "", [])
     """
-    return ("skip", surface, "", "", meaning if meaning is not None else surface, "", "", "", [])
+    return ("basic", surface, "", "", meaning if meaning is not None else surface, "", "", "", [])
 
 
 def Ek(tier, surface, pos="", pron="", literal="", meaning="", ctx="", coll=()):

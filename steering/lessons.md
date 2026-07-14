@@ -287,3 +287,38 @@ skip 記録のみだったため、内容の再生成は不要だった。その
   は「36時間 commit なし」を見るだけで「main に反映されているか」は見ていないため、
   今回のような main 未到達は watchdog では検知できない。将来的には watchdog を
   `origin/main` の最終コミット日時ベースに変更することを検討する価値がある。
+
+---
+
+## 2026-07-15 talk_builder.py の `Sk()` が basic tier 語を tier="skip" で出力するバグ
+
+**問題**: `data/talks/2026-07-15.json` 生成中の検証で、`words` 辞書内の basic tier 語
+(冠詞・前置詞・代名詞・固有名詞など)が `tier: "basic"` ではなく `tier: "skip"` で
+出力されていることを発見。`docs/data_schema.md` の `WordEntry.tier` は
+`"basic" | "normal" | "key" | "frequent"` の4値のみが正当で、`"skip"` は
+`Token.type`(トークン種別:空白・句読点)にのみ使う値であり、word entry の tier に
+混入してはならない。
+
+**原因**: D-205(2026-06-28)で導入された `scripts/talk_builder.py` の `Sk(surface, meaning)`
+ヘルパーが `("skip", surface, ...)` を返すよう実装されていた。関数名・コメント
+(「skip/basic は短縮形」)・モジュール docstring の例まで一貫して "skip" と "basic" を
+混同していたため、レビューでも気付かれなかった。影響範囲を調査したところ、この
+ヘルパー導入後に生成された talk は `2026-07-08.json`(99語)・`2026-07-10.json`(94語)・
+`2026-07-15.json`(115語)の3件のみで、いずれも basic tier 語が `tier: "skip"` で
+汚染されていた(token 側の `tier` フィールドは生成スクリプトが直接 "basic" を渡していた
+ため無事だった。壊れていたのは `words` 辞書エントリのみ)。
+
+**対応**:
+1. `scripts/talk_builder.py` の `Sk()` 本体と docstring 例(3箇所)を `"skip"` → `"basic"` に修正。
+2. 影響 3 ファイルの `words[*].tier == "skip"` を全て `"basic"` に one-off パッチ(token 側は無変更、0件該当)。
+3. 本コミットで修正版と共に 2026-07-15 分をコミット。
+
+**教訓**:
+- **`type`(トークン種別: word/expression/foreign/skip)と `tier`(word の階層:
+  basic/normal/key/frequent)は別軸の値であり、名前が紛らわしい("skip" tier は
+  存在しない)**。ヘルパー関数を書くときはスキーマの enum 値をそのまま定数化するなど、
+  タイポや概念混同を防ぐ設計にすべきだった。
+- **チャンク分割生成(D-205)の検証ステップでは `words` 辞書の `tier` 分布
+  (`Counter(v["tier"] for v in words.values())`)を毎回 `{"basic","normal","key","frequent"}`
+  の集合に収まっているか確認するとよい**。件数が少ない(3ファイル)うちに発見できたのは
+  幸運で、日次バッチのたびにこの検査を Step 6 の検証項目に加える価値がある。
