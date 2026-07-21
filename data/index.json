@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-07-21T06:03:00+09:00",
+  "updated_at": "2026-07-22T06:22:03+09:00",
   "talks": [
+    {
+      "id": "talk_2026-07-22",
+      "date": "2026-07-22",
+      "source": "ted-ed",
+      "primary_topic": "Biology",
+      "tags": [
+        "kelp-forest",
+        "marine-biology",
+        "photosynthesis",
+        "ocean",
+        "climate-refuge"
+      ],
+      "difficulty": "medium",
+      "title": "The gigantic forests you won’t find on land",
+      "speaker": "Luka Seamus Wright and Salomé Buglass",
+      "duration_sec": 331,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_185335/72d43a86-1b69-466f-aa27-2d2e00f01cf6/kelpforests_textless.jpg",
+      "published_at": "2026-07-21T15:01:56Z"
+    },
     {
       "id": "talk_2026-07-15",
       "date": "2026-07-15",
