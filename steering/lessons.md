@@ -348,3 +348,38 @@ commit で行い実害なく収束(過去の 2026-06-30 backfill と同パター
   今回のように空き日付を `skipped_dates` へ backfill する運用を継続する。
   新着動画があった可能性がある欠落日は、当日バッチの `--since` 窓を広げて
   再確認してから backfill すること(今回は幸い新着無しの期間内で実害なし)。
+
+---
+
+## 2026-08-03 同日中に「skip 済み」から「配信あり」へ訂正した事例
+
+**問題**: 当日 JST 06:00 の定例バッチ実行時点では TED-Ed 新着が無く、
+`skipped_dates` に `2026-08-03` を追加して skip commit 済みだった
+(`8a55c53` → `0dda967`)。しかしその後 UTC 14:45(JST 23:45)に
+新着動画(`video_id 185377`, "Red gold: The world's most expensive
+spice", Carolyn Beans)が ted.com に公開され、同日中に追加実行された
+本バッチがこれを検出した。
+
+**対応**: `--since <前回配信の published_at>` で再チェックし新着1本を確認、
+通常の Step 3〜9 で `data/talks/2026-08-03.json` を生成。`data/index.json`
+の `skipped_dates` から `2026-08-03` を削除し、`talks[]` の先頭に
+`talk_2026-08-03` を追加(date 降順を維持)。skip commit を打ち消す
+revert ではなく、後続の通常 commit で訂正する形をとった
+(NEVER FABRICATE 原則とは無関係:今回はトランスクリプトの再構成では
+なく、単に「その日の後半に本物の新着が出た」だけの事実訂正)。
+
+**教訓**:
+- `skipped_dates` への追加は「その時点で新着が無かった」という一時点の
+  観測結果であり、暦日全体の確定的な結論ではない。TED-Ed の投稿時刻は
+  日によって大きく異なる(今回は JST 23:45 相当)ため、同日内に複数回
+  バッチが起動された場合は、既に skip 済みの当日日付であっても
+  再度 `fetch_ted_ed_talks.py --since <last_processed_iso>` で新着確認
+  する価値がある。
+- 「配信日(delivery date)」は `id: talk_YYYY-MM-DD` の基準であり、
+  ted.com の `published_at`(取得日時)とは独立した概念。同じ暦日に
+  複数回チェックが走る運用である以上、「先に skip コミットが存在する」
+  ことは「その日は配信できない」ことを意味しない。
+- 今後同種の状況(1日に複数回バッチが起動しうる環境)では、Step 2 の
+  冪等性チェックを「`/data/talks/YYYY-MM-DD.json` の存在」のみで判定する
+  現行仕様のままで問題なく対応できる(skip 済みでも talk ファイル自体は
+  存在しないため、通常の生成フローがそのまま機能した)。
