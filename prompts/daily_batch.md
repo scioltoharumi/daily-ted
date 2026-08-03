@@ -58,29 +58,45 @@ JST(Asia/Tokyo)で当日日付 YYYY-MM-DD を決定。
 
 `/data/talks/YYYY-MM-DD.json` が既に存在する場合は何もせず正常終了。
 
-## Step 3: TED-Ed 新着動画の取得(ted.com)
+## Step 3: 未配信の TED-Ed 動画を取得(ted.com)
 
 ```
-python scripts/fetch_ted_ed_talks.py --since <last_processed_iso> --json
+python scripts/fetch_ted_ed_talks.py --pending --json
 ```
 
-`<last_processed_iso>` は `/data/index.json` の `talks[0].published_at`(無ければ
-24時間前のISO)を使う。引数なしで実行すると直近24h を返す。
+**必ず `--pending` を使う**(D-020 / 2026-08-03)。`--since <last_processed_iso>`
+方式は使わないこと。
 
-このスクリプトは ted.com GraphQL を1回叩き、`topic(slug:"ted+ed").videos` の
-ノードから:
-- ted_video_id(数値)、slug(`canonicalUrl` の最後の path セグメント)、title、
-  speaker(presenterDisplayName)、duration_sec、publishedAt、canonical_url、
-  description、thumbnail_url(`primaryImageSet` の 16x9)
+`--pending` は時間窓ではなく **`data/talks/*.json` の配信済み集合との差分**で
+在庫を判定し、`publishedAt` 昇順(古い順)で返す。ted.com GraphQL を `after`
+カーソルでページングするため、1ページ 20 件の上限にも引っかからない。
+返却要素は ted_video_id / slug / title / speaker / duration_sec / published_at /
+canonical_url / description / thumbnail_url。
 
-を取得して JSON 配列で返す。`publishedAt` は ISO 8601 で正確なため、相対時刻
-推定や 24h 窓の脆弱性はない。
+### なぜ `--since` を廃止したか
+
+`--since talks[0].published_at` は「前回配信した talk の公開時刻より新しいもの」
+しか見ないため、**バッチが1日でも起動しなかった日の在庫を取りこぼす**。
+実測(2026-08-03 監査)では:
+
+- 2026-04-21〜2026-08-03 の 105 日中、`daily:` commit があるのは 36 日のみ
+- `skipped_dates` 66 日のうち 38 日は commit が無い(後日 backfill された日)
+- うち **7 日は未配信の在庫があるのに "no new upload" と記録**していた
+  (2026-05-27/28/29, 06-10, 06-12/13, 07-09。恒久欠落は 0 件だったが 1〜4 日遅延)
+
+`--pending` なら何日停止しても次回起動時に自動で追いつく(self-healing)。
+
+### 選択ルール
 
 返却が0件なら新作なしとして即時終了(冪等)。`/data/index.json` の
 `skipped_dates` に当日日付を追加してコミット&プッシュは行うこと。
 
-複数の新着が返った場合は、当日バッチでは **最も古い未処理1本のみ** を扱う
-(残りは翌日以降のバッチで順次拾う)。これにより 1日 1本の配信リズムを保つ。
+複数返った場合は、当日バッチでは **配列の先頭(= 最も古い未配信1本)のみ** を
+扱う(残りは翌日以降のバッチで順次拾う)。これにより 1日 1本の配信リズムを保つ。
+
+> **重要**: 在庫が1本でもある日は、絶対に skip 記録してはならない。
+> 「新作が無い日」と「バッチが遅れて在庫が溜まっている日」は別物であり、
+> 後者を skip として記録するとサイト上で虚偽の "no new release" が残る。
 
 ## Step 4: (削除)
 
@@ -294,6 +310,22 @@ PWA のビュー D(トピック別)/ビュー E(単語駆動)/検索のために
 - `/data/index.json` の `talks` 配列の先頭に新規エントリを追加(date 降順)
 - `/data/index.json` の `updated_at` を更新(JST ISO 8601)
 
+## Step 8.5: 配信記録の監査(D-020)
+
+commit 前に必ず監査を通し、在庫漏れ・誤 skip・記録の穴が無いことを確認する:
+
+```bash
+python scripts/audit_delivery.py --since 2026-08-04
+```
+
+- 終了コード 0 = 問題なし。そのまま Step 9 へ。
+- 非ゼロ = `pending`(未配信在庫)/ `false-skip`(在庫があるのに skip 記録)/
+  `inconsistent`(index.json と talk の不一致)のいずれかがある。
+  **skip コミットで逃げず、報告された在庫を処理してから commit すること。**
+
+`--since 2026-08-04` は D-020 以前の既知の歪み(false-skip 7件 / uncovered 15件、
+いずれも配信自体は完了済み)を除外して、再発だけを見るための下限。
+
 ## Step 9: commit & push
 
 ```bash
@@ -337,6 +369,26 @@ git push origin HEAD:main
 **重要**: 「NEVER FABRICATE」原則(D-019)はここでも適用される。skip コミットの
 理由として「生成省略」を記録するのは OK だが、トランスクリプトを再構成して
 誤魔化す skip 偽装は禁止。
+
+## Step 9.6: 欠落日の backfill(D-020 改訂)
+
+Step 0 で `origin/main` の最終 daily commit と当日の間に 1 日以上のギャップが
+あった場合(= バッチが起動しなかった日がある場合)、その空き日付を
+`skipped_dates` に埋める運用を続ける。**ただし埋める前に必ず在庫を確認する**:
+
+```bash
+python scripts/fetch_ted_ed_talks.py --pending --json
+```
+
+- 在庫が **0 件** の欠落日 → `skipped_dates` に追加してよい(本当に新作が無い日)
+- 在庫が **1 件以上** ある → その欠落日は skip ではなく **配信すべきだった日**。
+  `skipped_dates` に入れず、在庫の古い順から通常の Step 5〜9 で消化する。
+  1 回のバッチで 1 本ずつ処理し、翌日以降のバッチで残りを拾う。
+
+> **2026-08-03 監査の教訓**: 従来は在庫を確認せず欠落日を一律 `skipped_dates` に
+> 埋めていたため、実際には未配信在庫があった 7 日が "no new upload" として
+> 記録された(2026-05-27/28/29, 06-10, 06-12/13, 07-09)。配信自体は後日行われ
+> 恒久欠落は 0 件だったが、サイト上には虚偽の "no new release" が残った。
 
 # エラーハンドリング
 

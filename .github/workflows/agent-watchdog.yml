@@ -22,7 +22,30 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # D-020: 「36h 完全沈黙」判定だけでは 1 日単位の発火漏れを取りこぼす。
+      # 実測で 105 日中 69 日は daily commit が無く、うち 7 日は未配信在庫が
+      # あるのに skip 扱いになっていた。在庫と記録の整合性を直接検査する。
+      - name: Audit delivery records
+        id: audit
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          out=$(python scripts/audit_delivery.py --since 2026-08-04 2>&1)
+          code=$?
+          echo "$out"
+          {
+            echo "audit_exit=$code"
+            echo "audit_out<<AUDIT_EOF"
+            echo "$out"
+            echo "AUDIT_EOF"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Diagnose agent health
         id: diag
         env:
@@ -47,7 +70,8 @@ jobs:
           echo "age_h=$age_h" >> "$GITHUB_OUTPUT"
           echo "last_msg=$last_msg" >> "$GITHUB_OUTPUT"
           echo "daily_72h=$daily_72h" >> "$GITHUB_OUTPUT"
-          if [ "$age_h" -gt 36 ]; then
+          # 監査が問題を報告した場合も stale 扱いにする(在庫漏れ・誤 skip の即時検知)
+          if [ "$age_h" -gt 36 ] || [ "${{ steps.audit.outputs.audit_exit }}" != "0" ]; then
             echo "stale=true" >> "$GITHUB_OUTPUT"
           else
             echo "stale=false" >> "$GITHUB_OUTPUT"
@@ -66,27 +90,42 @@ jobs:
           LAST_ISO: ${{ steps.diag.outputs.last_iso }}
           LAST_MSG: ${{ steps.diag.outputs.last_msg }}
           DAILY_72H: ${{ steps.diag.outputs.daily_72h }}
+          AUDIT_EXIT: ${{ steps.audit.outputs.audit_exit }}
+          AUDIT_OUT: ${{ steps.audit.outputs.audit_out }}
         shell: bash
         run: |
           set -euo pipefail
           NOW=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
-          TITLE="[watchdog] Daily Agent silent for ${AGE_H}h (no main commit since ${LAST_ISO})"
+          TITLE="[watchdog] Daily Agent issue (silent ${AGE_H}h / audit exit ${AUDIT_EXIT})"
           BODY=$(cat <<EOF
-          Scheduled Agent からの \`main\` への daily commit が **${AGE_H} 時間** 来ていません。
+          Scheduled Agent の健全性チェックで問題を検出しました。
 
           | 項目 | 値 |
           |---|---|
           | 最終 commit (UTC) | ${LAST_ISO} |
           | 最終 commit subject | \`${LAST_MSG}\` |
+          | 沈黙時間 | ${AGE_H} h |
           | 過去 72h の daily commit 数 | ${DAILY_72H} |
+          | 配信記録 監査 (exit) | ${AUDIT_EXIT} |
           | watchdog 起動 | ${NOW} |
+
+          ## 配信記録の監査結果
+
+          \`\`\`
+          ${AUDIT_OUT}
+          \`\`\`
+
+          \`pending\`(未配信在庫)や \`false-skip\`(在庫があるのに skip 記録)が
+          出ている場合、**新作が無いのではなくバッチが在庫を消化できていない**状態です。
+          次回バッチは \`scripts/fetch_ted_ed_talks.py --pending\` の先頭から処理してください。
 
           ## 推奨アクション
 
           1. **Agent UI を確認**: claude.ai/agents で該当 Scheduled Agent が削除/停止/失敗していないか
           2. **Anthropic クォータ確認**: 課金状況・API 残量
           3. **prompts/daily_batch.md の Step 0** が main に取り込まれているか確認
-          4. 必要なら手動 backfill — \`scripts/fetch_ted_ed_talks.py\` で新着確認
+          4. 在庫確認 — \`python scripts/fetch_ted_ed_talks.py --pending --json\`
+          5. 記録監査 — \`python scripts/audit_delivery.py --since 2026-08-04\`
 
           ## 過去の停止事例(参考)
 
