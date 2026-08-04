@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-03T21:30:00+09:00",
+  "updated_at": "2026-08-05T06:20:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-04",
+      "date": "2026-08-04",
+      "source": "ted-ed",
+      "primary_topic": "Mathematics",
+      "tags": [
+        "airplane-boarding",
+        "mathematics",
+        "optimization",
+        "air-travel",
+        "simulation"
+      ],
+      "difficulty": "medium",
+      "title": "The fastest way to board a plane, according to mathematics",
+      "speaker": "Rachel Yang",
+      "duration_sec": 338,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_186506/6cf1bba4-c106-4eca-9c63-efbc43ca6de8/planeboarding_Textless.jpg",
+      "published_at": "2026-08-04T15:00:56Z"
+    },
     {
       "id": "talk_2026-08-03",
       "date": "2026-08-03",
@@ -538,6 +557,7 @@
     "2026-07-30",
     "2026-07-31",
     "2026-08-01",
-    "2026-08-02"
+    "2026-08-02",
+    "2026-08-05"
   ]
 }
