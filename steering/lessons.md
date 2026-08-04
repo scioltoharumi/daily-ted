@@ -383,3 +383,38 @@ revert ではなく、後続の通常 commit で訂正する形をとった
   冪等性チェックを「`/data/talks/YYYY-MM-DD.json` の存在」のみで判定する
   現行仕様のままで問題なく対応できる(skip 済みでも talk ファイル自体は
   存在しないため、通常の生成フローがそのまま機能した)。
+
+---
+
+## 2026-08-05 2026-08-04 分のバッチが未実行(commit 欠落、2026-08-01 と同パターン)
+
+**問題**: 本タスク開始時点(実時刻 JST 2026-08-05T06:03)で `origin/main` の直近
+commit は `daily: 2026-08-03 ted-ed Red gold...`(921f709)で、`2026-08-04` の
+skip / delivery いずれの commit も存在しなかった。2026-07-31 と同種の
+発火漏れが再発したとみられる。
+
+**対応**: `fetch_ted_ed_talks.py --since 2026-08-03T14:45:13Z` で確認したところ
+`video_id 186506`("The fastest way to board a plane, according to mathematics",
+Rachel Yang, published_at 2026-08-04T15:00:56Z)が新着として存在した。
+これを `talk_2026-08-04` として通常の Step 3〜9 で生成・配信し、欠落を
+実害なく解消した(単純な skip 追加ではなく、実際に配信対象の新着があった
+点が 2026-08-01 の事例と異なる)。2026-08-05 分は本タスク実行時点で新着
+無しのため `skipped_dates` に追加。
+
+**教訓**:
+- Scheduled Agent の発火漏れは依然として散発的に起きている(2026-07-31,
+  2026-08-04 で計2回)。`.github/workflows/agent-watchdog.yml` の
+  「36時間 commit なし」判定では1日程度の欠落は検知しづらいことが
+  改めて確認された。
+- 欠落日の backfill は必ず「その日以降の新着有無」を実際に確認してから
+  行うこと。今回のように欠落日当日に新着が出ていた場合は skip ではなく
+  通常配信として処理する必要がある。
+- 本タスクでは harness 側の一般的な「develop on branch `claude/...`,
+  push to that branch only」という指示と、本リポジトリの
+  `daily_batch.md` / `CLAUDE.md`(override 指定あり)の「main に直接
+  push する」指示が衝突した。過去に session ブランチへの push だけで
+  終わり `main` に反映されない事故が複数回(2026-05-15, 2026-07-03)
+  起きている実績を踏まえ、リポジトリ側の明文化された規約を優先し
+  `main` で直接作業・push した。同様の衝突が今後も起きうるため、
+  harness 側のブランチ指示とリポジトリの `CLAUDE.md` が矛盾する場合は
+  この判断を踏襲してよい。
