@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-11T06:02:17+09:00",
+  "updated_at": "2026-08-12T06:15:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-12",
+      "date": "2026-08-12",
+      "source": "ted-ed",
+      "primary_topic": "Technology",
+      "tags": [
+        "maglev-train",
+        "high-speed-rail",
+        "shinkansen",
+        "electromagnetism",
+        "transportation-engineering"
+      ],
+      "difficulty": "medium",
+      "title": "How do Maglev trains work?",
+      "speaker": "Ning Zhao",
+      "duration_sec": 361,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_183633/0f642e0c-2e40-4cac-8ecd-83b970374c56/fasttrains_textless.jpg",
+      "published_at": "2026-08-11T15:04:35Z"
+    },
     {
       "id": "talk_2026-08-04",
       "date": "2026-08-04",
