@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-18T06:01:54+09:00",
+  "updated_at": "2026-08-19T06:03:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-19",
+      "date": "2026-08-19",
+      "source": "ted-ed",
+      "primary_topic": "Mythology",
+      "tags": [
+        "greek-mythology",
+        "trojan-war",
+        "cassandra",
+        "prophecy",
+        "tragedy"
+      ],
+      "difficulty": "hard",
+      "title": "The princess who predicted the fall of Troy",
+      "speaker": "Iseult Gillespie",
+      "duration_sec": 262,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_186545/5d1a138a-0dde-4eb8-89fe-ba41a8167134/Cassandra_textless.jpg",
+      "published_at": "2026-08-18T15:01:28Z"
+    },
     {
       "id": "talk_2026-08-12",
       "date": "2026-08-12",
