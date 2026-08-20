@@ -468,3 +468,26 @@ talks[0].published_at 基準)で確認したところ新着 TED-Ed 動画は無�
 - 欠落日の backfill 手順(最新配信の `published_at` から `--since` で
   再チェック→新着有無を確認→`skipped_dates` へ追加 or 通常配信)は
   4回とも同一で安定して機能している。今後も同パターンで対応してよい。
+
+---
+
+## 2026-08-21 2026-08-20 分のバッチが未実行(5件目の発火漏れ)
+
+**問題**: 本タスク開始時点(実時刻 JST 2026-08-21T06:02)で `origin/main` の直近
+commit は `daily: 2026-08-19 ted-ed The princess who predicted the fall of
+Troy`(5c624f9)で、`2026-08-20` の skip / delivery いずれの commit も
+存在しなかった。07-31, 08-04, 08-13, 08-15 に続き5件目の発火漏れ。
+
+**対応**: `fetch_ted_ed_talks.py --since 2026-08-18T15:01:28Z`(index.json
+talks[0].published_at 基準)で確認したところ新着 TED-Ed 動画は無し
+(既配信済みの video 186545 のみ返却)。2026-08-20・2026-08-21 とも
+新着無しと判断し、`skipped_dates` に両日を追加して commit。
+
+**教訓**:
+- Scheduled Agent の発火漏れは 07-31 以降ほぼ月2回ペースで継続発生して
+  いる(07-31, 08-04, 08-13, 08-15, 08-20 で計5回)。4回連続で「watchdog
+  閾値短縮や cron 発火監視方式への切替を検討する価値がある」と記録する
+  だけで実施に至っていない。次回この記録を見るセッションは、記録するだけ
+  でなく `.github/workflows/agent-watchdog.yml` の閾値短縮(例: 30時間)を
+  実際に着手することを検討すべき。
+- 欠落日の backfill 手順は今回も同一パターンで安定して機能した。
