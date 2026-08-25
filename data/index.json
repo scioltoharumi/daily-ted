@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-24T06:02:00+09:00",
+  "updated_at": "2026-08-26T06:05:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-26",
+      "date": "2026-08-26",
+      "source": "ted-ed",
+      "primary_topic": "Philosophy",
+      "tags": [
+        "plato",
+        "democracy",
+        "political-philosophy",
+        "ancient-greece",
+        "ship-of-state"
+      ],
+      "difficulty": "hard",
+      "title": "Plato’s infamous Ship of State thought experiment",
+      "speaker": "Michael Vazquez",
+      "duration_sec": 324,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_187100/86442356-1564-4e75-b0f6-2184e227f85c/shipofstate_textless.jpg",
+      "published_at": "2026-08-25T15:03:10Z"
+    },
     {
       "id": "talk_2026-08-19",
       "date": "2026-08-19",
@@ -613,6 +632,7 @@
     "2026-08-21",
     "2026-08-22",
     "2026-08-23",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-25"
   ]
 }
