@@ -118,3 +118,33 @@ jobs:
         if: steps.diag.outputs.stale != 'true'
         run: |
           echo "OK: last commit was within 36h (${{ steps.diag.outputs.age_h }} h ago)"
+
+      - name: Close resolved watchdog issue
+        if: steps.diag.outputs.stale != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          AGE_H: ${{ steps.diag.outputs.age_h }}
+          LAST_ISO: ${{ steps.diag.outputs.last_iso }}
+          LAST_MSG: ${{ steps.diag.outputs.last_msg }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # 直近の停止が自己回復している場合、開いたままの watchdog Issue が
+          # 単なる「毎回コメントが積み上がるだけの放置 Issue」になりがちだったため
+          # (2026-07-09〜2026-08-28 の間、同一 Issue に9回分の停止コメントが蓄積し、
+          # 一度もCloseされないまま残っていた事例あり)、健全化を検知したら自動でClose する。
+          existing=$(gh issue list --repo "$REPO" --state open --label watchdog --json number --jq '.[0].number // empty' || true)
+          if [ -z "$existing" ]; then
+            existing=$(gh issue list --repo "$REPO" --state open --search '[watchdog] in:title' --json number --jq '.[0].number // empty' || true)
+          fi
+          if [ -n "$existing" ]; then
+            echo "健全化を検知、Issue #$existing をCloseします"
+            gh issue comment "$existing" --repo "$REPO" --body "$(cat <<EOF
+          最新 commit が **${AGE_H} 時間前**(${LAST_ISO} / \`${LAST_MSG}\`)に更新されており、健全な状態に復帰しています。自動でCloseします。次回の停止で新規 Issue が立ちます。
+          EOF
+          )"
+            gh issue close "$existing" --repo "$REPO" --reason completed
+          else
+            echo "Open な watchdog Issue はありません"
+          fi
