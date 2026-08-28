@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-27T06:02:37+09:00",
+  "updated_at": "2026-08-29T06:03:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-29",
+      "date": "2026-08-29",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "communication",
+        "idea-sharing",
+        "storytelling",
+        "language"
+      ],
+      "difficulty": "medium",
+      "title": "What happens when you share an idea?",
+      "speaker": "TED-Ed",
+      "duration_sec": 310,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_155833/37997cbb-a54a-4d91-b6f5-865cc648a9a4/masterclass1_textless.jpg",
+      "published_at": "2026-08-28T14:45:08Z"
+    },
     {
       "id": "talk_2026-08-26",
       "date": "2026-08-26",
@@ -634,6 +653,7 @@
     "2026-08-23",
     "2026-08-24",
     "2026-08-25",
-    "2026-08-27"
+    "2026-08-27",
+    "2026-08-28"
   ]
 }
