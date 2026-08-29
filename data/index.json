@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-29T06:03:00+09:00",
+  "updated_at": "2026-08-30T06:02:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-30",
+      "date": "2026-08-30",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "storytelling",
+        "idea-generation",
+        "self-reflection",
+        "communication-skills"
+      ],
+      "difficulty": "easy",
+      "title": "How to uncover your best ideas",
+      "speaker": "TED-Ed",
+      "duration_sec": 218,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_155834/298a6d78-9de2-4afd-87d8-bf3c7ebfa9f4/masterclass2textless.jpg",
+      "published_at": "2026-08-28T14:51:09Z"
+    },
     {
       "id": "talk_2026-08-29",
       "date": "2026-08-29",
