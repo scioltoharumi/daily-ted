@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-30T06:02:00+09:00",
+  "updated_at": "2026-08-31T06:27:40+09:00",
   "talks": [
+    {
+      "id": "talk_2026-08-31",
+      "date": "2026-08-31",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "storytelling",
+        "throughline",
+        "presentation-skills",
+        "ted-talk-craft"
+      ],
+      "difficulty": "medium",
+      "title": "How to communicate clearly",
+      "speaker": "TED-Ed",
+      "duration_sec": 412,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_156464/adc23cd6-dc0a-4a8d-9988-c1790638b700/masterclass2.3_textless.jpg",
+      "published_at": "2026-08-28T14:52:30Z"
+    },
     {
       "id": "talk_2026-08-30",
       "date": "2026-08-30",
