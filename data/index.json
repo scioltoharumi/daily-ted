@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-02T06:10:00+09:00",
+  "updated_at": "2026-09-02T06:15:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-02",
+      "date": "2026-09-02",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "vocal-delivery",
+        "body-language",
+        "presentation-skills",
+        "ted-talk-craft"
+      ],
+      "difficulty": "medium",
+      "title": "How to speak with meaning",
+      "speaker": "TED-Ed",
+      "duration_sec": 606,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_157977/1c661f91-2cd9-4db9-aef5-ae746ba8ce8c/masterclass5_textless.jpg",
+      "published_at": "2026-08-28T15:01:20Z"
+    },
     {
       "id": "talk_2026-09-01",
       "date": "2026-09-01",
