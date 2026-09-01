@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-08-31T06:27:40+09:00",
+  "updated_at": "2026-09-02T06:10:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-01",
+      "date": "2026-09-01",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "presentation-plan",
+        "memorization",
+        "scripted-vs-unscripted",
+        "ted-talk-craft"
+      ],
+      "difficulty": "medium",
+      "title": "What's the best way to give a presentation?",
+      "speaker": "TED-Ed",
+      "duration_sec": 468,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_157080/7e933eea-0101-4ddd-ab11-7706296174a3/masterclass4_textless.jpg",
+      "published_at": "2026-08-28T15:00:32Z"
+    },
     {
       "id": "talk_2026-08-31",
       "date": "2026-08-31",
