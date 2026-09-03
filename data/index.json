@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-03T06:15:00+09:00",
+  "updated_at": "2026-09-04T06:25:36+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-04",
+      "date": "2026-09-04",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "storytelling",
+        "public-speaking",
+        "narrative-structure",
+        "persuasion",
+        "rhetoric"
+      ],
+      "difficulty": "medium",
+      "title": "4 ways to tell a great story",
+      "speaker": "TED-Ed",
+      "duration_sec": 285,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_164485/24dede39-bc4a-4473-9f78-6ba1d353f5aa/masterclass7_textless.jpg",
+      "published_at": "2026-09-01T15:05:18Z"
+    },
     {
       "id": "talk_2026-09-03",
       "date": "2026-09-03",
