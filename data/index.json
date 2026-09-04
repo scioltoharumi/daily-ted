@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-04T06:25:36+09:00",
+  "updated_at": "2026-09-05T06:19:10+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-05",
+      "date": "2026-09-05",
+      "source": "ted-ed",
+      "primary_topic": "Economics",
+      "tags": [
+        "tariff",
+        "trade-policy",
+        "international-trade",
+        "protectionism",
+        "economic-history"
+      ],
+      "difficulty": "medium",
+      "title": "What are tariffs, and how do they work?",
+      "speaker": "TED-Ed",
+      "duration_sec": 319,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_187848/46c2df5a-a0d4-444c-8ede-82f667848463/tariff_textless.jpg",
+      "published_at": "2026-09-03T15:01:40Z"
+    },
     {
       "id": "talk_2026-09-04",
       "date": "2026-09-04",
