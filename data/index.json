@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-09T06:10:00+09:00",
+  "updated_at": "2026-09-09T06:20:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-09",
+      "date": "2026-09-09",
+      "source": "ted-ed",
+      "primary_topic": "Psychology",
+      "tags": [
+        "memory",
+        "cognitive-psychology",
+        "doorway-effect",
+        "event-segmentation",
+        "hippocampus"
+      ],
+      "difficulty": "medium",
+      "title": "Ever walk into a room and forget what you were doing?",
+      "speaker": "Gabriel Radvansky",
+      "duration_sec": 329,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_187179/f5c38e11-2f4f-4fe9-aed2-4a284f3202bc/doorwayeffect_textless.jpg",
+      "published_at": "2026-09-08T15:03:03Z"
+    },
     {
       "id": "talk_2026-09-05",
       "date": "2026-09-05",
