@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-14T06:02:00+09:00",
+  "updated_at": "2026-09-15T03:14:40+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-15",
+      "date": "2026-09-15",
+      "source": "ted-ed",
+      "primary_topic": "Neuroscience",
+      "tags": [
+        "spatial-navigation",
+        "hippocampus",
+        "brain",
+        "cognitive-science",
+        "wayfinding"
+      ],
+      "difficulty": "medium",
+      "title": "Why do some people have a better sense of direction than others?",
+      "speaker": "Oliver Baumann",
+      "duration_sec": 334,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_187544/096ee7c5-5251-4daf-b3f4-d1337b885f25/senseofdirection_textless.jpg",
+      "published_at": "2026-09-14T17:26:00Z"
+    },
     {
       "id": "talk_2026-09-09",
       "date": "2026-09-09",
