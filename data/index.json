@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-15T03:14:40+09:00",
+  "updated_at": "2026-09-20T09:30:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-16",
+      "date": "2026-09-16",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "explanation",
+        "storytelling",
+        "psychology",
+        "cognitive-bias"
+      ],
+      "difficulty": "medium",
+      "title": "How to explain something complicated",
+      "speaker": "TED-Ed",
+      "duration_sec": 548,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_166969/02f27d06-60bc-4b13-ab48-45857e93d193/MC8_explainingideas_textless.jpg",
+      "published_at": "2026-09-15T15:01:36Z"
+    },
     {
       "id": "talk_2026-09-15",
       "date": "2026-09-15",
