@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-22T03:05:00+09:00",
+  "updated_at": "2026-09-23T03:42:14+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-23",
+      "date": "2026-09-23",
+      "source": "ted-ed",
+      "primary_topic": "Psychology",
+      "tags": [
+        "attention-span",
+        "focus",
+        "distraction",
+        "cognitive-psychology",
+        "productivity"
+      ],
+      "difficulty": "medium",
+      "title": "4 ways to fix your attention span",
+      "speaker": "Shannon Odell",
+      "duration_sec": 305,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_188265/258df2cd-fc40-486b-970f-c9e50d2c595d/concentration_Textless.jpg",
+      "published_at": "2026-09-22T15:03:34Z"
+    },
     {
       "id": "talk_2026-09-21",
       "date": "2026-09-21",
