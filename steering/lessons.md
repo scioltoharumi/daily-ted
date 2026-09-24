@@ -809,3 +809,46 @@ TED-Ed 動画が2本(video 166969 "How to explain something complicated" publish
 - 4日分という比較的大きなバックログでも「1 talk のみ処理し残りは明示的に
   持ち越す」方針(2026-09-14 教訓)は問題なく機能した。この方針を安全網
   として維持する。
+
+---
+
+## 2026-09-25 `auto_tokens` の expression 検出が単語境界を無視して誤爆(語中一致バグ)
+
+**問題**: `talk_2026-09-25`(video 189568, "The physics of magnets", Rachel Yang)生成中、
+2026-09-03 の教訓で導入された `auto_tokens` パターン(expr_map の文字列をテキストへ
+単純サブストリング検索して expression を切り出すヘルパー)を今回のバッチ用に再実装
+したところ、`"prefer to leave"` という本文中に `expr_map` に登録していた `"refer to"`
+が単語境界を無視して部分一致してしまい(`p` + `[refer to]` + `leave` に誤分割)、
+`words` 辞書に `tier: "basic", meaning: "p"` という無意味な1文字エントリが混入した。
+検証スクリプトで `ref` が英字1文字などの異常値になっていないかチェックして発見。
+
+**原因**: `auto_tokens` の expression 検索が `lower_text.find(phrase, start)` による
+純粋な部分文字列一致のみで、一致箇所の前後が英数字でないか(単語境界)を確認して
+いなかった。“prefer” のような一般語が偶然 expression 文字列を内包するケースは
+稀ではない(他にも "composed"⊃"posed" のような潜在ケースがあり得る)。
+
+**対応**: `auto_tokens` の一致判定に単語境界チェックを追加した
+(`idx==0 or not text[idx-1].isalnum()` かつ `end==len or not text[end].isalnum()`)。
+再生成して `words` 辞書に1〜2文字の異常 ref が無いこと、token 再結合が cue 原文と
+完全一致すること(VERBATIM)を確認してから配信した。
+
+**教訓**:
+- **`auto_tokens`(2026-09-03 由来)を今後のバッチ・backfill で再利用する際は、
+  expression マッチングに単語境界チェックを必ず含めること**。このバグは今回たまたま
+  1トークンのみの被害だったが、より長い expr_map(慣用句を多く登録する回)ほど
+  誤爆リスクが上がる。
+- **生成後の検証に「`words` の `ref` が短すぎる/不自然な値になっていないか」の
+  チェックを追加する価値がある**(例: `len(ref) <= 2 and ref not in {既知の短縮語}`)。
+  今回は目視で `MISSING MEANING for ref='p'` という診断出力から発覚したが、これは
+  たまたま該当語が W 辞書に未定義だったから顕在化しただけで、もし偶然 W 辞書に
+  `"p"` のような ref が定義されていたら気づかずに配信していた可能性がある。
+- **D-205 のチャンク分割手順で `Edit` の `old_string` に「マーカーの直後に続く
+  コード」を含めて置換すると、置換後にそのマーカー/後続コードを `new_string` へ
+  re-append し忘れやすい**。今回、生成スクリプトの骨格(`P = []` ループや
+  `generate_talk()` 呼び出し行)を誤って消してしまい、気づかず数回チャンクを
+  重ねた結果ファイル構造が一時的に破綻した(実害はなかったが手戻りが発生)。
+  対策: チャンク追記の anchor には「二度と現れない一意なマーカー文字列」
+  (例: `# SOME_UNIQUE_MARKER`)だけを使い、コード本体を anchor に含めない。
+  やむを得ずコード行を anchor にする場合は、置換後も必ずその行を `new_string`
+  の末尾に再度含める。各 Edit の直後に `python3 -c "import ast; ast.parse(...)"`
+  で構文チェックし、必要なら実行してみるとスクリプト破損を早期発見できる。
