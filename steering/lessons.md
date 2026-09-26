@@ -852,3 +852,40 @@ TED-Ed 動画が2本(video 166969 "How to explain something complicated" publish
   やむを得ずコード行を anchor にする場合は、置換後も必ずその行を `new_string`
   の末尾に再度含める。各 Edit の直後に `python3 -c "import ast; ast.parse(...)"`
   で構文チェックし、必要なら実行してみるとスクリプト破損を早期発見できる。
+
+---
+
+## 2026-09-27 2026-09-26 分のバッチが未実行(11件目の発火漏れ)
+
+**問題**: 本タスク開始時点(実時刻 JST 2026-09-27T03:12、通常の cron 発火時刻
+JST 06:00 より前)で `origin/main` の直近 commit は `docs: record 2026-09-25
+auto_tokens word-boundary bug in lessons.md`(09b9b2d、データ実体は
+`daily: 2026-09-25 ted-ed The physics of magnets`)で、`2026-09-26` の
+skip / delivery いずれの commit も存在しなかった。07-31, 08-04, 08-13, 08-15,
+08-20, 08-28, 09-01, 09-11, 09-13, 09-16〜19(4日分)に続き11件目の発火漏れ。
+
+**対応**: `fetch_ted_ed_talks.py --since 2026-09-24T15:03:01Z`(index.json
+talks[0].published_at 基準)で確認したところ、返却されたのは既配信済みの
+video_id 189568(`talk_2026-09-25` として既に配信済み)のみで、境界時刻を
+1秒進めた `--since 2026-09-24T15:03:02Z` では空配列が返った。つまり
+2026-09-26・2026-09-27 とも新着 TED-Ed 動画は無く、backfill 対象日に
+実配信すべき talk は存在しなかった(2026-08-29 のような「本物の未配信」
+ケースではない)。`skipped_dates` に両日を追加してコミット・main へ push
+(`68f79c5`)。
+
+**副次的な発見**: video_id 189568 は GraphQL 上で `slug` と `title` が
+変化していた(配信時 `rachel_yang_the_physics_of_magnets` / "The physics of
+magnets" → 今回 `rachel_yang_why_magnets_stumped_scientists_for_so_long` /
+"Why magnets stumped scientists for so long")。ted.com が公開後に slug・
+title を改訂する場合があるとみられる。今回は `video_id` で既配信済みと
+判定できたため実害なし。**新着検出のマッチングは slug や title ではなく
+`video_id` を主キーにすること**(既存実装は元々 video_id ベースだったため
+問題化しなかったが、今後 slug ベースの照合を追加する場合は要注意)。
+
+**教訓**:
+- 発火漏れは 07-31 以降ほぼ月2〜3回ペースで継続発生しており(計11回)、
+  2026-09-20 に watchdog 閾値短縮(36h→26h)を実施済みだが、依然として
+  1日単位の欠落そのものは防げていない(閾値短縮は検知速度の改善に過ぎない
+  という 09-20 時点の教訓が今回も再確認された)。
+- ted.com 側のメタデータ(slug/title)は公開後に改訂され得るため、既配信
+  talk の重複検出は今後も `video_id` を唯一の主キーとして扱うこと。
