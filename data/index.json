@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-09-29T03:13:00+09:00",
+  "updated_at": "2026-09-30T03:20:00+09:00",
   "talks": [
+    {
+      "id": "talk_2026-09-30",
+      "date": "2026-09-30",
+      "source": "ted-ed",
+      "primary_topic": "Technology",
+      "tags": [
+        "artificial-intelligence",
+        "data-center",
+        "energy",
+        "photonics",
+        "sustainability"
+      ],
+      "difficulty": "hard",
+      "title": "Why are AI data centers using so much electricity?",
+      "speaker": "Sajan Saini",
+      "duration_sec": 376,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_189778/40a0eab9-efda-4b13-ab7a-353d78d58d1b/aidatacenters_textless.jpg",
+      "published_at": "2026-09-29T15:03:03Z"
+    },
     {
       "id": "talk_2026-09-25",
       "date": "2026-09-25",
