@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-10-06T03:12:30+09:00",
+  "updated_at": "2026-10-07T03:19:53+09:00",
   "talks": [
+    {
+      "id": "talk_2026-10-07",
+      "date": "2026-10-07",
+      "source": "ted-ed",
+      "primary_topic": "History",
+      "tags": [
+        "queen-victoria",
+        "british-empire",
+        "monarchy",
+        "colonialism",
+        "victorian-era",
+        "history-on-trial"
+      ],
+      "difficulty": "hard",
+      "title": "Why is Queen Victoria so controversial?",
+      "speaker": "Carolyn Harris",
+      "duration_sec": 361,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_190119/1c02bb52-238f-4e14-89eb-6fb0ac856bb1/QueenVictoria_textless.jpg",
+      "published_at": "2026-10-06T15:19:47Z"
+    },
     {
       "id": "talk_2026-10-02",
       "date": "2026-10-02",
