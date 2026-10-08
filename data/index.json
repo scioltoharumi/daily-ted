@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-10-08T03:12:53+09:00",
+  "updated_at": "2026-10-09T03:18:03+09:00",
   "talks": [
+    {
+      "id": "talk_2026-10-09",
+      "date": "2026-10-09",
+      "source": "ted-ed",
+      "primary_topic": "Economics",
+      "tags": [
+        "personal-finance",
+        "housing",
+        "mortgage",
+        "renting",
+        "opportunity-cost",
+        "investment"
+      ],
+      "difficulty": "medium",
+      "title": "Which is better: Buying or renting a home?",
+      "speaker": "Ella Feldman",
+      "duration_sec": 344,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_189853/34dc4d9e-c260-4ecb-a9e8-373b5d409315/buyingvsrenting_textless.jpg",
+      "published_at": "2026-10-08T15:02:24Z"
+    },
     {
       "id": "talk_2026-10-07",
       "date": "2026-10-07",
