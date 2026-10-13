@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-10-13T03:13:00+09:00",
+  "updated_at": "2026-10-14T03:20:04+09:00",
   "talks": [
+    {
+      "id": "talk_2026-10-14",
+      "date": "2026-10-14",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "presentation",
+        "demonstration",
+        "storytelling",
+        "vision"
+      ],
+      "difficulty": "medium",
+      "title": "How to present your ideas effectively",
+      "speaker": "TED-Ed",
+      "duration_sec": 370,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_185177/f2728ebf-f5b8-4e5d-a2c4-c89514892137/masterclass10_textless.jpg",
+      "published_at": "2026-10-13T15:05:33Z"
+    },
     {
       "id": "talk_2026-10-09",
       "date": "2026-10-09",
