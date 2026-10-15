@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-10-15T03:12:42+09:00",
+  "updated_at": "2026-10-16T03:17:49+09:00",
   "talks": [
+    {
+      "id": "talk_2026-10-16",
+      "date": "2026-10-16",
+      "source": "ted-ed",
+      "primary_topic": "Economics",
+      "tags": [
+        "personal-finance",
+        "credit-card",
+        "debt",
+        "interest-rate",
+        "consumer-protection"
+      ],
+      "difficulty": "medium",
+      "title": "3 things to never do with a credit card",
+      "speaker": "TED-Ed",
+      "duration_sec": 338,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_187583/48ee58e5-fec9-48e4-aab3-af32d4de0457/creditcard_textless.jpg",
+      "published_at": "2026-10-15T15:03:13Z"
+    },
     {
       "id": "talk_2026-10-14",
       "date": "2026-10-14",
