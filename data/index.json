@@ -1,6 +1,26 @@
 {
-  "updated_at": "2026-10-22T03:02:30+09:00",
+  "updated_at": "2026-10-23T03:08:17+09:00",
   "talks": [
+    {
+      "id": "talk_2026-10-23",
+      "date": "2026-10-23",
+      "source": "ted-ed",
+      "primary_topic": "Economics",
+      "tags": [
+        "behavioral-economics",
+        "consumer-psychology",
+        "heuristic",
+        "retail",
+        "pricing",
+        "nudge"
+      ],
+      "difficulty": "medium",
+      "title": "5 sneaky ways stores get you to spend more",
+      "speaker": "TED-Ed",
+      "duration_sec": 363,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_191271/615d5276-41d9-43f4-ac10-b3ca45ac506c/retailertricks_textless.jpg",
+      "published_at": "2026-10-22T15:02:37Z"
+    },
     {
       "id": "talk_2026-10-21",
       "date": "2026-10-21",
