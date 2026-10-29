@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-10-29T03:01:53+09:00",
+  "updated_at": "2026-10-30T03:08:39+09:00",
   "talks": [
+    {
+      "id": "talk_2026-10-30",
+      "date": "2026-10-30",
+      "source": "ted-ed",
+      "primary_topic": "Health",
+      "tags": [
+        "oral-health",
+        "microbiome",
+        "dental-hygiene",
+        "gum-disease",
+        "bacteria"
+      ],
+      "difficulty": "hard",
+      "title": "What if you didn’t brush your teeth for a year?",
+      "speaker": "Justin Merritt",
+      "duration_sec": 309,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_190219/ece9cf2f-6050-4a76-898c-abeb5e9f274e/BrushingDaily_Textless.jpg",
+      "published_at": "2026-10-29T15:01:29Z"
+    },
     {
       "id": "talk_2026-10-23",
       "date": "2026-10-23",
