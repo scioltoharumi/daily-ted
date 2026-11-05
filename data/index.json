@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-11-05T03:02:25+09:00",
+  "updated_at": "2026-11-06T03:08:37+09:00",
   "talks": [
+    {
+      "id": "talk_2026-11-06",
+      "date": "2026-11-06",
+      "source": "ted-ed",
+      "primary_topic": "Communication",
+      "tags": [
+        "public-speaking",
+        "presentation-skill",
+        "slide-design",
+        "data-visualization",
+        "communication"
+      ],
+      "difficulty": "medium",
+      "title": "How to effectively use visuals in your presentation",
+      "speaker": "TED-Ed",
+      "duration_sec": 278,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_186872/705befb0-eb08-47fe-a494-1b63f65bb682/masterclass11_textless.jpg",
+      "published_at": "2026-11-05T16:01:35Z"
+    },
     {
       "id": "talk_2026-11-04",
       "date": "2026-11-04",
