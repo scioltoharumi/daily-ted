@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-11-12T03:01:15+09:00",
+  "updated_at": "2026-11-13T03:06:29+09:00",
   "talks": [
+    {
+      "id": "talk_2026-11-13",
+      "date": "2026-11-13",
+      "source": "ted-ed",
+      "primary_topic": "History",
+      "tags": [
+        "spice-trade",
+        "black-pepper",
+        "chili",
+        "food-history",
+        "colonialism"
+      ],
+      "difficulty": "medium",
+      "title": "How did pepper end up on every dinner table?",
+      "speaker": "Carolyn Beans",
+      "duration_sec": 282,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_190217/f0ba4688-019c-4e03-a26a-38e5405d92b2/pepper_textless.jpg",
+      "published_at": "2026-11-12T16:03:26Z"
+    },
     {
       "id": "talk_2026-11-11",
       "date": "2026-11-11",
