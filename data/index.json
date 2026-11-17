@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-11-17T03:01:46+09:00",
+  "updated_at": "2026-11-18T03:07:23+09:00",
   "talks": [
+    {
+      "id": "talk_2026-11-18",
+      "date": "2026-11-18",
+      "source": "ted-ed",
+      "primary_topic": "Mathematics",
+      "tags": [
+        "boolean-algebra",
+        "logic-gate",
+        "george-boole",
+        "computer-science",
+        "pinball"
+      ],
+      "difficulty": "medium",
+      "title": "Can you calculate truth?",
+      "speaker": "Lane Gunderman",
+      "duration_sec": 331,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_188024/e5b58f94-6982-4323-9c3b-cdc227d52c93/booleangates_textless.jpg",
+      "published_at": "2026-11-17T16:02:45Z"
+    },
     {
       "id": "talk_2026-11-13",
       "date": "2026-11-13",
