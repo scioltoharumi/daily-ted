@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-11-19T03:01:40+09:00",
+  "updated_at": "2026-11-20T03:07:37+09:00",
   "talks": [
+    {
+      "id": "talk_2026-11-20",
+      "date": "2026-11-20",
+      "source": "ted-ed",
+      "primary_topic": "Science",
+      "tags": [
+        "self-experimentation",
+        "nobel-prize",
+        "medicine",
+        "history-of-science",
+        "vaccine"
+      ],
+      "difficulty": "hard",
+      "title": "5 times scientists experimented on themselves",
+      "speaker": "Shannon Odell",
+      "duration_sec": 357,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_193171/5c03b61a-318b-4488-bff7-3d1799ffdf5a/selfexperimentation_textless.jpg",
+      "published_at": "2026-11-19T16:00:57Z"
+    },
     {
       "id": "talk_2026-11-18",
       "date": "2026-11-18",
