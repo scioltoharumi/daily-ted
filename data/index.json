@@ -1,6 +1,25 @@
 {
-  "updated_at": "2026-11-24T03:01:35+09:00",
+  "updated_at": "2026-11-25T03:06:52+09:00",
   "talks": [
+    {
+      "id": "talk_2026-11-25",
+      "date": "2026-11-25",
+      "source": "ted-ed",
+      "primary_topic": "Biology",
+      "tags": [
+        "mold",
+        "fungi",
+        "food-safety",
+        "mycotoxin",
+        "microbiology"
+      ],
+      "difficulty": "medium",
+      "title": "What happens if you accidentally eat moldy food?",
+      "speaker": "Josephine Wee",
+      "duration_sec": 316,
+      "thumbnail_url": "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_193329/8ee7da8b-1335-459d-8691-1c0ecf8ae79d/mold_textless.jpg",
+      "published_at": "2026-11-24T16:03:59Z"
+    },
     {
       "id": "talk_2026-11-20",
       "date": "2026-11-20",
